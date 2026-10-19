@@ -51,6 +51,7 @@ Not committed (see `.gitignore`): `output/` (xlsx, covers, zips), `cache/`, vide
    * `covers` downloads the full-res cover art to `output\covers_full` (about 1.6 GB).
    * `build` makes the spreadsheet `output\highlights.xlsx`.
    * `view` makes the offline viewer `viewer\index.html` (double-click it to open).
+   * `python breakaway.py album` makes a printable flip-book PDF, `output\album.pdf` (see "Make the flip-book").
    * Videos are optional: `python breakaway.py videos --limit 5` saves the first 5 to `output\videos`;
      `python breakaway.py videos` gets all of them (about 220 GB). It shows the size and asks y/n first.
    Re-running any command only downloads what's missing. Run `python breakaway.py view` again after
@@ -68,6 +69,8 @@ python breakaway.py videos  [--out-dir DIR] [--limit N] [--series "Series 3"] [-
 python breakaway.py verify  [--out-dir DIR]          # re-hash data/meta, covers and videos vs stored sha256
 python breakaway.py add     <url | seriesId/tokenId> ...   # also reads data/extra_moments.txt
 python breakaway.py view    [--out-dir DIR]          # offline viewer/index.html
+python breakaway.py album   [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..] [--series ..] [--player ..]
+                            [--team ..] [--bleed] [--out FILE] [--max-px N] [--jpeg Q]   # printable PDF
 ```
 
 * `--gateway https://my-gateway/ipfs/` (repeatable) adds IPFS gateways to try first; built-in fallbacks are
@@ -86,6 +89,28 @@ python breakaway.py view    [--out-dir DIR]          # offline viewer/index.html
 Videos are **off by default** and never downloaded by `all`. `python breakaway.py videos --out-dir videos`
 estimates the total size with a few HEAD requests, then asks `y/n` (skip the question with `--yes`).
 Downloads resume (`.part` files) and skip files that already exist. Try `--limit 5` first.
+
+## Make the flip-book
+
+`python breakaway.py album` builds a print-ready PDF (needs `reportlab`, included in requirements.txt): a cover
+page, a table of contents by series and set, then one section per set in release order (title page with
+series, rarity mix and card count, then the cards). Each card shows the cover art, player, team, date, play,
+rarity, edition size and its `#` row number (same as the spreadsheet and cover file names). Missing covers are
+downloaded first. Output: `output/album.pdf` unless you pass `--out`.
+
+```
+python breakaway.py album                                   # everything, 2 cards per row/column (2x2), Letter
+python breakaway.py album --layout 3x3 --page a4            # 9 per page on A4
+python breakaway.py album --layout 1up --player "Connor McDavid"
+python breakaway.py album --team "Toronto Maple Leafs" --out leafs.pdf
+python breakaway.py album --set "Ice Nation" --series "Series 1"
+python breakaway.py album --series "Series 2" --bleed       # 3 mm bleed + crop marks for a print shop
+python breakaway.py album --max-px 600 --jpeg 80            # much smaller file for screens
+```
+
+Full album (1,811 cards, 82 set sections): about 1,896 pages (1up), 570 pages (2x2) or 321 pages (3x3).
+At full resolution it's roughly 2.3 GB, so making one PDF per series (`--series "Series 1"` etc.) is easier
+on your computer and the print shop. Filters match part of a name and aren't case sensitive.
 
 ## Offline viewer
 

@@ -12,6 +12,8 @@ USAGE
                                           # OPT-IN video download (asks y/n after a size estimate)
   python breakaway.py verify              # re-hash data/meta, covers and any videos against stored sha256
   python breakaway.py add <url|seriesId/tokenId> ...   # add moments (also reads data/extra_moments.txt)
+  python breakaway.py album [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..] [--series ..] [--player ..]
+                            [--team ..] [--bleed] [--out file.pdf] [--max-px N --jpeg Q]   # printable PDF album
   python breakaway.py view                # offline viewer/index.html (search, filters, details, video)
   IPFS: --gateway URL (repeatable) adds gateways tried first; --ipfs-only skips the Breakaway CDN.
   Common flags: --concurrency N (default 6, max 8) for nft.nhlbreakaway.com / CDN requests.
@@ -498,6 +500,8 @@ RE-RUNNING OR DOWNLOADING VIDEOS (optional)
   4. Videos are OFF by default. To save them:  python breakaway.py videos --out-dir videos
      It shows the estimated total size and asks y/n first. Try --limit 5 for a small test,
      --series "Series 3" or --ids 12,40 to pick some. Re-running resumes and skips finished files.
+  5. Printable flip-book PDF:                  python breakaway.py album   (saved as output/album.pdf)
+     Options: --layout 1up|2x2|3x3, --page letter|a4, --set/--series/--player/--team "name", --bleed
 """
 
 
@@ -813,10 +817,190 @@ def cmd_view(a):
 
 
 
+# ------------------------------------------------------------------ printable album (PDF)
+DISCLAIMER = ("Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, "
+              "Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to "
+              "their respective owners. For personal archival use only.")
+
+
+def pdf_text(s):
+    """Keep characters the built-in PDF fonts can draw (cp1252); transliterate the rest (e.g. c-caron -> c)."""
+    out = []
+    for ch in str(s if s is not None else ""):
+        try: ch.encode("cp1252"); out.append(ch)
+        except UnicodeEncodeError:
+            out.append(unicodedata.normalize("NFKD", ch).encode("ascii", "ignore").decode() or "?")
+    return "".join(out)
+
+
+def album_sections(rows):
+    """[(series, set, [rows])]: every card of a set together, sets ordered by their first release date."""
+    groups = {}
+    for r in rows: groups.setdefault((r["_s"]["series"] or "", r["_s"]["set"]), []).append(r)
+    secs = []
+    for (series, name), rs in groups.items():
+        rs.sort(key=lambda r: (r["_s"]["date"] or "", r["_s"]["row"]))
+        secs.append([series, name, rs])
+    secs.sort(key=lambda s: (min((r["_s"]["issued"] or "9999") for r in s[2]), s[0], s[1].lower()))
+    return secs
+
+
+def cmd_album(a):
+    try:
+        from reportlab.pdfgen import canvas
+        from reportlab.lib.pagesizes import letter, A4
+        from reportlab.lib.units import mm, inch
+        from reportlab.lib.utils import ImageReader
+    except ImportError:
+        sys.exit("The album needs reportlab: python -m pip install -r requirements.txt")
+    from PIL import Image
+    rows = sort_rows(load_model())
+    def has(val, *fields):
+        return not val or any(val.lower() in str(f or "").lower() for f in fields)
+    rows = [r for r in rows if has(a.set, r["_s"]["set"], r["_s"]["list_set"]) and has(a.series, r["_s"]["series"])
+            and has(a.player, r["_s"]["player"]) and has(a.team, r["_s"]["team"], r["team"])]
+    if not rows: sys.exit("No highlights match those filters.")
+    if any(not cover_path(r) for r in rows):
+        p("Some covers aren't downloaded yet; running `covers` first."); cmd_covers(a)
+    secs = album_sections(rows)
+    cols, rws = {"1up": (1, 1), "2x2": (2, 2), "3x3": (3, 3)}[a.layout]; per = cols * rws
+    TW, TH = A4 if a.page == "a4" else letter            # trim size
+    BL = 3 * mm if a.bleed else 0                         # bleed on each side
+    M = 0.5 * inch                                        # safe margin inside trim
+    # --- page plan: cover, TOC, then per section a title page + card pages
+    toc_lines = []
+    for s in secs: toc_lines += ([("series", s[0])] if not toc_lines or s[0] != prev_series else []) + [("set", s)]; prev_series = s[0]
+    toc_per_page = int((TH - 2 * M - 70) // 15)
+    toc_pages = max(1, -(-len(toc_lines) // toc_per_page))
+    page = 1 + toc_pages + 1; start = {}
+    for s in secs:
+        start[id(s)] = page; page += 1 + -(-len(s[2]) // per)
+    total_pages = page - 1
+    out = os.path.abspath(a.out or os.path.join(OUT, "album.pdf")); os.makedirs(os.path.dirname(out), exist_ok=True)
+    c = canvas.Canvas(out, pagesize=(TW + 2 * BL, TH + 2 * BL), pageCompression=1)
+    c.setTitle("Breakaway Highlights Album"); c.setAuthor("breakaway-data (unofficial fan archive)")
+    state = {"n": 0}
+
+    def crop_marks():
+        if not BL: return
+        c.setLineWidth(0.25); c.setStrokeColorRGB(0, 0, 0); L = 6 * mm
+        for x in (BL, BL + TW):
+            for y in (BL, BL + TH):
+                dx = -1 if x == BL else 1; dy = -1 if y == BL else 1
+                c.line(x + dx * 1 * mm, y, x + dx * (1 * mm + L), y)   # horizontal mark outside trim
+                c.line(x, y + dy * 1 * mm, x, y + dy * (1 * mm + L))   # vertical mark outside trim
+
+    def begin():
+        state["n"] += 1; c.translate(BL, BL)   # draw in trim coordinates
+
+    def end(number=True):
+        if number:
+            c.setFont("Helvetica", 8); c.setFillGray(0.4)
+            c.drawCentredString(TW / 2, M / 2, f"{state['n']}")
+        c.translate(-BL, -BL); crop_marks(); c.showPage()
+
+    def wrap(text, font, size, width):
+        words, lines, cur = pdf_text(text).split(), [], ""
+        for w in words:
+            t = (cur + " " + w).strip()
+            if c.stringWidth(t, font, size) <= width: cur = t
+            else: lines.append(cur); cur = w
+        if cur: lines.append(cur)
+        return lines
+
+    def fit(text, font, size, width):
+        t = pdf_text(text)
+        while t and c.stringWidth(t, font, size) > width: t = t[:-2] + "…" if len(t) > 2 else ""
+        return t
+
+    # cover
+    begin(); c.setFillGray(0.08); c.rect(-BL, -BL, TW + 2 * BL, TH + 2 * BL, stroke=0, fill=1)
+    c.setFillGray(1); c.setFont("Helvetica-Bold", 34); c.drawCentredString(TW / 2, TH * 0.62, "Breakaway Highlights Album")
+    c.setFont("Helvetica", 16)
+    c.drawCentredString(TW / 2, TH * 0.62 - 40, f"{len(rows):,} highlights · {len(secs)} sets")
+    first = min((r["_s"]["issued"] for r in rows if r["_s"]["issued"]), default=""); last = max((r["_s"]["issued"] for r in rows if r["_s"]["issued"]), default="")
+    if first: c.drawCentredString(TW / 2, TH * 0.62 - 62, f"Released {first[:7]} to {last[:7]}")
+    c.setFont("Helvetica", 7); c.setFillGray(0.75); y = M + 30
+    for ln in reversed(wrap(DISCLAIMER, "Helvetica", 7, TW - 2 * M)): c.drawCentredString(TW / 2, y, ln); y += 9
+    end(number=False)
+    # table of contents
+    for tp in range(toc_pages):
+        begin(); c.setFillGray(0); c.setFont("Helvetica-Bold", 20)
+        c.drawString(M, TH - M - 10, "Contents" + (" (continued)" if tp else ""))
+        y = TH - M - 50
+        for kind, v in toc_lines[tp * toc_per_page:(tp + 1) * toc_per_page]:
+            if kind == "series":
+                c.setFont("Helvetica-Bold", 11); c.setFillGray(0.2); c.drawString(M, y, pdf_text(v or "Other"))
+            else:
+                c.setFont("Helvetica", 10); c.setFillGray(0)
+                label = fit(f"{v[1]}  ({len(v[2])})", "Helvetica", 10, TW - 2 * M - 60)
+                c.drawString(M + 14, y, label); c.drawRightString(TW - M, y, str(start[id(v)]))
+                lw = c.stringWidth(label, "Helvetica", 10); c.setDash(1, 2); c.setStrokeGray(0.7)
+                c.line(M + 18 + lw, y + 2, TW - M - 24, y + 2); c.setDash()
+            y -= 15
+        end()
+    # sections
+    max_px = a.max_px
+    def image_for(path):
+        if not max_px and not a.jpeg: return ImageReader(path)
+        im = Image.open(path).convert("RGB")
+        if max_px: im.thumbnail((max_px, max_px))
+        b = io.BytesIO(); im.save(b, "JPEG", quality=a.jpeg or 88, optimize=True); b.seek(0)
+        return ImageReader(b)
+    done = 0
+    for s in secs:
+        series, setname, rs = s
+        # set title page
+        begin(); c.setFillGray(0)
+        c.setFont("Helvetica", 12); c.setFillGray(0.35); c.drawCentredString(TW / 2, TH * 0.66, pdf_text(series))
+        c.setFillGray(0); c.setFont("Helvetica-Bold", 28)
+        for i, ln in enumerate(wrap(setname, "Helvetica-Bold", 28, TW - 2 * M)): c.drawCentredString(TW / 2, TH * 0.6 - i * 34, ln)
+        mix = {}
+        for r in rs: mix[r["_s"]["rarity"] or "?"] = mix.get(r["_s"]["rarity"] or "?", 0) + 1
+        c.setFont("Helvetica", 13)
+        c.drawCentredString(TW / 2, TH * 0.47, f"{len(rs)} highlight{'s' if len(rs) != 1 else ''}")
+        c.drawCentredString(TW / 2, TH * 0.47 - 20, pdf_text(" · ".join(f"{k} {v}" for k, v in sorted(mix.items(), key=lambda x: -x[1]))))
+        rel = rs[0]["_s"]["issued"]
+        if rel: c.setFillGray(0.35); c.drawCentredString(TW / 2, TH * 0.47 - 40, f"Released {rel}")
+        desc = re.sub(r"<[^>]+>", " ", html.unescape(((rs[0]["_off"] or {}).get("token_set") or {}).get("description") or ""))
+        if desc.strip():
+            c.setFont("Helvetica-Oblique", 9); c.setFillGray(0.3); y = TH * 0.47 - 75
+            for ln in wrap(desc, "Helvetica-Oblique", 9, TW - 3 * M)[:12]: c.drawCentredString(TW / 2, y, ln); y -= 12
+        end()
+        # card pages
+        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = 5 * lh + 6
+        gw, gh = TW - 2 * M, TH - 2 * M - 22; cw, ch = gw / cols, gh / rws; pad = 8
+        for i0 in range(0, len(rs), per):
+            begin(); c.setFillGray(0.4); c.setFont("Helvetica", 8)
+            c.drawString(M, TH - M - 8, fit(f"{series} · {setname}", "Helvetica", 8, TW - 2 * M))
+            for j, r in enumerate(rs[i0:i0 + per]):
+                s_ = r["_s"]; col, row = j % cols, j // cols
+                x0 = M + col * cw + pad; y_top = TH - M - 22 - row * ch - pad; w = cw - 2 * pad; h = ch - 2 * pad
+                ih = h - textblock; cp = cover_path(r)
+                if cp:
+                    iw0, ih0 = Image.open(cp).size; sc = min(w / iw0, ih / ih0); dw, dh = iw0 * sc, ih0 * sc
+                    c.drawImage(image_for(cp), x0 + (w - dw) / 2, y_top - dh, dw, dh)
+                    yt = y_top - dh - lh
+                else:
+                    c.setStrokeGray(0.7); c.rect(x0, y_top - ih, w, ih); yt = y_top - ih - lh
+                c.setFillGray(0); c.setFont("Helvetica-Bold", fs + 1)
+                c.drawString(x0, yt, fit(s_["player"], "Helvetica-Bold", fs + 1, w - 40))
+                c.setFont("Helvetica-Bold", fs); c.setFillGray(0.45); c.drawRightString(x0 + w, yt, f"#{s_['row']}")
+                c.setFillGray(0.15); c.setFont("Helvetica", fs)
+                for k, ln in enumerate((s_["team"], " · ".join(x for x in (s_["date"], s_["play"]) if x),
+                                        (f"{s_['rarity']} · edition size {s_['editions']:,}" if isinstance(s_["editions"], int) else f"{s_['rarity']} · edition size {s_['editions']}") if s_["editions"] else s_["rarity"])):
+                    c.drawString(x0, yt - (k + 1) * lh, fit(ln, "Helvetica", fs, w))
+            done += len(rs[i0:i0 + per]); end()
+        p(f"  {setname}: {len(rs)} cards ({done}/{len(rows)})")
+    c.save()
+    p(f"Album: {out}  ({total_pages} pages, {os.path.getsize(out)/1e6:.1f} MB, layout {a.layout}, {a.page}{', bleed+crop marks' if BL else ''})")
+
+
+
 def main():
     global THR
     ap = argparse.ArgumentParser(description="breakaway-data: NHL Breakaway highlight archive")
-    ap.add_argument("command", choices=["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view"])
+    ap.add_argument("command", choices=["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album"])
     ap.add_argument("refs", nargs="*", help="add: NHL Breakaway URLs or seriesId/tokenId")
     ap.add_argument("--gateway", action="append", default=[], help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
     ap.add_argument("--ipfs-only", action="store_true", help="covers/videos: skip NHL Breakaway CDN, use IPFS gateways only")
@@ -825,9 +1009,18 @@ def main():
     ap.add_argument("--no-crawl", action="store_true", help="never fetch card pages")
     ap.add_argument("--out-dir", default=os.path.join(OUT, "videos"), help="videos: where to save")
     ap.add_argument("--limit", type=int, help="videos: at most N")
-    ap.add_argument("--series", help='videos: only this series, e.g. "Series 3"')
+    ap.add_argument("--series", help='videos/album: only this series, e.g. "Series 3"')
     ap.add_argument("--ids", help="videos: comma-separated Card IDs")
     ap.add_argument("--yes", action="store_true", help="videos: don't ask before downloading")
+    ap.add_argument("--layout", choices=["1up", "2x2", "3x3"], default="2x2", help="album: cards per page")
+    ap.add_argument("--page", choices=["letter", "a4"], default="letter", help="album: paper size")
+    ap.add_argument("--set", help="album: only sets whose name contains this")
+    ap.add_argument("--player", help="album: only this player (name contains)")
+    ap.add_argument("--team", help="album: only this team (name contains)")
+    ap.add_argument("--bleed", action="store_true", help="album: add 3 mm bleed and crop marks for print shops")
+    ap.add_argument("--out", help="album: output PDF path (default output/album.pdf)")
+    ap.add_argument("--max-px", type=int, default=0, help="album: downscale covers to this many pixels (smaller PDF)")
+    ap.add_argument("--jpeg", type=int, default=0, help="album: re-encode covers as JPEG at this quality (e.g. 80)")
     a = ap.parse_args(); THR = Throttle(max(1, min(a.concurrency, 8)))
     global GATEWAYS, IPFS_ONLY
     GATEWAYS = [g if g.rstrip("/").endswith("/ipfs") else g.rstrip("/") + "/ipfs/" for g in a.gateway] + DEFAULT_GATEWAYS
@@ -840,6 +1033,7 @@ def main():
     if a.command == "verify": cmd_verify(a)
     if a.command == "add": cmd_add(a)
     if a.command == "view": cmd_view(a)
+    if a.command == "album": cmd_album(a)
 
 
 if __name__ == "__main__":

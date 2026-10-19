@@ -13,3 +13,5 @@ __pycache__/
 .env
 .env.*
 viewer/
+drive/
+preview/
