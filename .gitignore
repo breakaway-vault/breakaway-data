@@ -1,0 +1,14 @@
+# generated / downloaded locally - never committed
+output/
+cache/
+videos/
+covers/
+*.zip
+*.xlsx
+*.part
+*.tmp
+*.log
+__pycache__/
+# secrets
+.env
+.env.*
