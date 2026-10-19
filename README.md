@@ -44,12 +44,15 @@ Not committed (see `.gitignore`): `output/` (xlsx, covers, zips), `cache/`, vide
 4. In that window run these (if `python` isn't found, type `py` instead):
    ```
    python -m pip install -r requirements.txt
-   python breakaway.py covers          :: full-res cover art -> output\covers_full  (about 1.6 GB)
-   python breakaway.py build           :: spreadsheet -> output\highlights.xlsx
-   python breakaway.py view            :: offline viewer -> viewer\index.html (double-click to open)
-   python breakaway.py videos --limit 5    :: optional test: first 5 videos -> output\videos
-   python breakaway.py videos          :: optional: all videos (about 220 GB; shows size and asks y/n)
+   python breakaway.py covers
+   python breakaway.py build
+   python breakaway.py view
    ```
+   * `covers` downloads the full-res cover art to `output\covers_full` (about 1.6 GB).
+   * `build` makes the spreadsheet `output\highlights.xlsx`.
+   * `view` makes the offline viewer `viewer\index.html` (double-click it to open).
+   * Videos are optional: `python breakaway.py videos --limit 5` saves the first 5 to `output\videos`;
+     `python breakaway.py videos` gets all of them (about 220 GB). It shows the size and asks y/n first.
    Re-running any command only downloads what's missing. Run `python breakaway.py view` again after
    downloading videos so the viewer plays them from your disk.
 
