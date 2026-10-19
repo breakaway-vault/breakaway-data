@@ -467,6 +467,7 @@ def cmd_covers(a):
 
 # ------------------------------------------------------------------ package for sharing
 FRIEND_README = """NHL BREAKAWAY HIGHLIGHTS
+Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
 Generated {when}. {n} highlights; {m} with full NHL Breakaway details, {c} with cover art.
 
 FILES
@@ -747,6 +748,7 @@ td:first-child{color:#8b9aa8;white-space:nowrap;word-break:normal}a{color:#60a5f
 <select id="f_team"></select><select id="f_set"></select><select id="f_rarity"></select><select id="f_series"></select>
 <span id="count"></span></header>
 <div id="grid"></div><button id="more">Show more</button>
+<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at https://github.com/breakaway-vault/breakaway-data/issues.</footer>
 <div id="dlg"><div id="box"></div></div>
 <script>
 const DATA = __DATA__;

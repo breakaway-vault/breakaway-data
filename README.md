@@ -1,5 +1,7 @@
 # breakaway-data
 
+> **Disclaimer:** Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
+
 A preservation archive of NHL Breakaway digital highlight metadata, built from the 1,811 highlights
 listed in the community card list (data/highlights.json).
 
@@ -88,6 +90,10 @@ and falls back to the NHL Breakaway CDN and then to IPFS gateways when you're on
 Add its NHL Breakaway link to `data/extra_moments.txt` (one per line) and open a pull request, or run
 `python breakaway.py add <link>` yourself and commit the changed `data/` files. Duplicates are skipped.
 See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions via PR are welcome; the maintainer merges.
+
+## Disclaimer
+
+Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
 
 ## License
 
