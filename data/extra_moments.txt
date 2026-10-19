@@ -1,0 +1,2 @@
+# Missing a moment? Add one NHL Breakaway link per line, then run: python breakaway.py add
+# e.g. https://nhlbreakaway.com/series/j1ZJjx1K/13725845764318429187
