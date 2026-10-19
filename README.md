@@ -35,6 +35,24 @@ Not committed (see `.gitignore`): `output/` (xlsx, covers, zips), `cache/`, vide
 5. Optional, needs internet: `python breakaway.py all` to fetch anything new, download full-res covers
    and make `Breakaway-Highlights.zip`.
 
+## No git? Download and unzip
+
+1. Get the zip (`Breakaway Tool (same as GitHub).zip`, or **Code > Download ZIP** on GitHub) and unzip it.
+   Right-click > **Extract All** on Windows. You'll get a `breakaway-data` folder.
+2. Install Python 3 from https://www.python.org/downloads/ and tick **"Add Python to PATH"** during setup.
+3. Open the `breakaway-data` folder in File Explorer, click the address bar, type `cmd` and press Enter.
+4. In that window run these (if `python` isn't found, type `py` instead):
+   ```
+   python -m pip install -r requirements.txt
+   python breakaway.py covers          :: full-res cover art -> output\covers_full  (about 1.6 GB)
+   python breakaway.py build           :: spreadsheet -> output\highlights.xlsx
+   python breakaway.py view            :: offline viewer -> viewer\index.html (double-click to open)
+   python breakaway.py videos --limit 5    :: optional test: first 5 videos -> output\videos
+   python breakaway.py videos          :: optional: all videos (about 220 GB; shows size and asks y/n)
+   ```
+   Re-running any command only downloads what's missing. Run `python breakaway.py view` again after
+   downloading videos so the viewer plays them from your disk.
+
 ## Commands
 
 ```
