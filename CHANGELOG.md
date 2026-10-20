@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.1.3 (2026-10-20)
+
+* Viewer: the detail card now checks whether you already have the cover and video (in the folder you picked, or next to the viewer) and shows "Already saved ✓" instead of downloading again, with a small "Download again" link. A saved copy with the wrong size or fingerprint is flagged as incomplete and can be replaced. After a download the button switches to "Already saved" straight away.
+* Viewer: removed the long IPFS CID line under every card in the grid. The CIDs are still in "Technical details" on each card.
+* Album: removed the IPFS CID line from each card (it stays in the spreadsheet and the metadata).
+* The viewer is made by the app, not shipped in the zip, so after an upgrade an old `viewer/index.html` could stay behind. The app now rebuilds it when it starts if it was made by another version (keeping "My cards" if you used it).
+* Fixed: a crash when a name with characters outside the Windows console's code page (e.g. "Dvořák") was printed to a redirected or older console.
+* Copies in Downloads that are already in the archive are no longer re-hashed or reported on every start.
+
 ## v1.1.2 (2026-10-20)
 
 * Fixed: the viewer's "Download video" and "Download cover" buttons always opened a new tab instead of saving. The page looked for its status text in the wrong place, which stopped every download attempt before it started. They now really download, check the sha256 and save.

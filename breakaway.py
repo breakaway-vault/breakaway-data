@@ -66,7 +66,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
-VERSION = "1.1.2"       # the one place the version lives: menu header, --version, viewer footer
+VERSION = "1.1.3"       # the one place the version lives: menu header, --version, viewer footer
 TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
@@ -1625,6 +1625,7 @@ def add_refs(refs, via):
 # ------------------------------------------------------------------ offline viewer
 VIEWER = r"""<!doctype html><html><head><meta charset="utf-8"><title>breakaway-data viewer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="generator" content="Breakaway Archive v__VERSION__">
 <style>
 body{margin:0;font:14px system-ui,sans-serif;background:#0f141a;color:#e6edf3}
 header{position:sticky;top:0;background:#16202b;padding:10px;display:flex;flex-wrap:wrap;gap:8px;z-index:2}
@@ -1643,7 +1644,7 @@ input,select{background:#0f141a;color:#e6edf3;border:1px solid #33414f;border-ra
 #box .lead{font-size:15px;line-height:1.5;margin:6px 0 12px}
 .btns{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
 .btns button{background:#2563eb;color:#fff;border:0;border-radius:6px;padding:8px 14px;font-size:14px;cursor:pointer}
-.btns button:disabled{background:#33414f;cursor:wait}
+.btns button:disabled{background:#33414f;cursor:wait}.btns button.saved{background:#166534}.again{font-size:12px}.dlw{display:inline-flex;gap:8px;align-items:center}
 .st{color:#a7f3d0;font-size:12px;min-height:1em}.note{color:#8b9aa8;font-size:12px;margin:2px 0 12px}
 .yours{color:#facc15}
 details{margin-top:14px;border-top:1px solid #26323e;padding-top:8px}summary{cursor:pointer;color:#8b9aa8}
@@ -1701,7 +1702,7 @@ function apply(){const q=$('#q').value.toLowerCase();
 function tile(r){const n=(r.eds||[]).length;
   const badge=r.mine?(n>1?`<span class="badge" title="you own ${n} editions">\u00d7${n}</span>`:`<span class="badge one">owned</span>`):'';
   const own=r.mine?`<small class="own" title="${esc((r.eds||[]).map(x=>'#'+x).join(', ')||'yours')}">${esc(ownedLine(r,3))}</small>`:'';
-  return `<div class="card" data-i="${r.i}">${imgTag(r)}${badge}<div><b>${esc(r.s.player)}</b>${own}<small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`}
+  return `<div class="card" data-i="${r.i}">${imgTag(r)}${badge}<div><b>${esc(r.s.player)}</b>${own}<small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small></div></div>`}
 function more(){const part=list.slice(shown,shown+120);shown+=part.length;
   $('#grid').insertAdjacentHTML('beforeend',part.map(tile).join(''));watch($('#grid'));
   const onlyMine=HAS_MINE&&$('#f_mine').checked;
@@ -1765,39 +1766,83 @@ async function archiveDir(say){   // call first thing in a click: the folder pic
   catch(e){console.info('[download] no archive folder picked, saving to Downloads instead:',e&&e.message||e);FS_DECLINED=true;return null}}
 async function writeInto(dir,sub,name,buf){const d=await dir.getDirectoryHandle(sub,{create:true});const fh=await d.getFileHandle(name,{create:true});
   const w=await fh.createWritable();await w.write(buf);await w.close()}   // written to a temp file, renamed on close
+// ---- "already saved?" check for the detail card: the picked archive folder first, then the viewer's own relative paths
+const SUBDIR={video:'videos',cover:'covers_full'};
+const mbs=n=>(n/1e6).toFixed(1)+' MB';
+async function dirIfGranted(){   // never prompts: only uses a remembered folder that still has permission
+  if(!FS_OK)return null;
+  try{const h=OUT_DIR||await kv('outdir');if(!h)return null;const p=await h.queryPermission({mode:'readwrite'});
+    if(p==='granted'){OUT_DIR=h;return h}return 'ask'}catch(e){return null}}
+async function fileIn(dir,kind,name){try{const d=await dir.getDirectoryHandle(SUBDIR[kind]);return await (await d.getFileHandle(name)).getFile()}catch(e){return null}}
+function probeLocal(url,kind){return new Promise(res=>{if(!url)return res(false);let done=false,el;
+  const fin=v=>{if(done)return;done=true;res(v);if(kind==='video'){el.removeAttribute('src');el.load()}};
+  if(kind==='video'){el=document.createElement('video');el.preload='metadata';el.muted=true;el.onloadedmetadata=()=>fin(true)}
+  else{el=new Image();el.onload=()=>fin(el.naturalWidth>0)}
+  el.onerror=()=>fin(false);setTimeout(()=>fin(false),5000);el.src=url})}
+function shaOf(r,kind){return String((kind==='video'?r.s.video_sha256:r.s.cover_sha256)||'').replace(/=+$/,'')}
+// deep=true also hashes (on click). Covers are small, so they are always hashed; videos only get a size check on open.
+async function checkSaved(i,kind,deep){const r=DATA[i],name=kind==='video'?r.video_name:r.cover_name,sha=shaOf(r,kind),want=(r.dlb||{})[kind]||0;
+  const dir=await dirIfGranted();
+  if(dir&&dir!=='ask'){const f=await fileIn(dir,kind,name),where=`${dir.name}/${SUBDIR[kind]}/${name}`;
+    if(f){if(!f.size)return {state:'bad',where,why:'it is empty'};
+      if(want&&f.size!==want)return {state:'bad',where,why:`its size (${mbs(f.size)}) doesn't match the original (${mbs(want)})`};
+      if(sha&&(deep||kind==='cover')){const h=await b64sha(await f.arrayBuffer());
+        if(h&&h!==sha)return {state:'bad',where,why:"its fingerprint (sha256) doesn't match the original"};
+        if(h)return {state:'ok',how:'verified',where}}
+      return {state:'ok',how:want?'size':'unchecked',where}}}
+  const url=kind==='video'?r.video_rel:r.cover_rel;
+  if(await probeLocal(url,kind))return {state:'ok',how:'local',where:url};
+  return {state:dir==='ask'?'ask':'none'}}
+const LABEL={video:'Download video',cover:'Download cover'},CHECKS={};
+function render(i,kind,res){const w=document.querySelector(`#box .dlw_${kind}`);if(!w||+w.dataset.i!==i)return;
+  const b=w.querySelector('.main'),again=w.querySelector('.again'),say=t=>{const s=document.querySelector('#box .st_'+kind);if(s)s.textContent=t};
+  w.dataset.state=res.state;w.dataset.how=res.how||'';b.disabled=false;b.classList.toggle('saved',res.state==='ok');again.style.display=res.state==='ok'?'':'none';
+  if(res.state==='ok'){b.textContent='Already saved \u2713';
+    say({verified:`Already saved and verified (sha256 matches the original): ${res.where}`,size:`Already saved (size matches the original): ${res.where}. Click to check its fingerprint.`,
+         unchecked:`Already saved: ${res.where}. Click to check it.`,local:`Already saved in your archive folder (${res.where}).`,
+         downloads:`Saved to your Downloads as ${res.where}. The app will move it into the archive next time you run it.`}[res.how]||'Already saved.')}
+  else if(res.state==='bad'){b.textContent='Download again';say(`The saved copy (${res.where}) looks incomplete: ${res.why}. Click "Download again" to replace it.`)}
+  else{b.textContent=LABEL[kind];say(res.state==='ask'?'':'')}}
+async function onMain(i,kind,btn){const w=btn.closest('.dlw'),st=w.dataset.state,how=w.dataset.how;
+  if(st==='ok'){if(how==='verified'){render(i,kind,{state:'ok',how:'verified',where:(await CHECKS[kind]||{}).where||''});return}
+    if(how==='local'||how==='downloads'){const s=document.querySelector('#box .st_'+kind);if(s&&how==='local')s.textContent='Already saved in your archive folder. To check it, use 7) Check my downloaded files in the app, or "Download again" to replace it.';return}
+    btn.disabled=true;btn.textContent='Checking...';const res=await checkSaved(i,kind,true);CHECKS[kind]=Promise.resolve(res);render(i,kind,res);return}
+  if(st==='ask'){btn.disabled=true;   // a remembered folder that needs permission again: ask now (this is a click)
+    try{const h=await kv('outdir');if(h&&await h.requestPermission({mode:'readwrite'})==='granted'){OUT_DIR=h;const res=await checkSaved(i,kind,true);
+      if(res.state==='ok'||res.state==='bad'){CHECKS[kind]=Promise.resolve(res);render(i,kind,res);if(res.state==='ok')return}}}catch(e){console.info('[download] permission not granted:',e&&e.message||e)}
+    btn.disabled=false}
+  return dl(i,kind,btn)}
 async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video';
   const stEl=document.querySelector('#box .st_'+kind),say=t=>{if(stEl)stEl.textContent=t};
-  const cid=isV?s.video_ipfs:s.cover_ipfs,sha=String((isV?s.video_sha256:s.cover_sha256)||'').replace(/=+$/,''),cdn=isV?s.video_url:s.cover_url,local=isV?r.local_video:r.local_cover;
+  const cid=isV?s.video_ipfs:s.cover_ipfs,sha=shaOf(r,kind),cdn=isV?s.video_url:s.cover_url;
   const name=(isV?r.video_name:r.cover_name)||fname(s,kind,isV?'mp4':'png'),ext=(name.split('.').pop()||'').toLowerCase();
   const type=isV?'video/mp4':(ext==='png'?'image/png':ext==='webp'?'image/webp':ext==='gif'?'image/gif':'image/jpeg');
-  const sub=isV?'videos':'covers_full',label=btn.textContent;btn.disabled=true;
-  const fin=t=>{btn.disabled=false;btn.textContent=label;say(t)};
-  if(local){const a=document.createElement('a');a.href=local;a.download=name;a.target='_blank';document.body.appendChild(a);a.click();a.remove();
-    return fin(`Already in your archive folder (${local}).`)}
+  const sub=SUBDIR[kind];btn.disabled=true;
+  const done=res=>{CHECKS[kind]=Promise.resolve(res);render(i,kind,res)};
+  const fail=t=>{btn.disabled=false;btn.textContent=LABEL[kind];say(t)};
   const dir=await archiveDir(say);
   // sources: the first IPFS gateways, then NHL Breakaway's copy, then the other gateways; every one is checked by sha256
   const ip=ipfsAll(cid),srcs=[...ip.slice(0,2).map(u=>['ipfs',u]),...(cdn?[['cdn',cdn]]:[]),...ip.slice(2,4).map(u=>['ipfs',u])];
-  let got=null,verified=false,from='';
+  let got=null,verified=false;
   try{
     for(const [k,u] of srcs){const host=u.split('/')[2];
       try{say('Trying '+(k==='cdn'?'the NHL Breakaway CDN':host)+'...');btn.textContent='Downloading...';
         const b=await fetchBuf(u,btn);btn.textContent='Checking...';const h=sha?await b64sha(b):null;
-        if(h&&h===sha){got=b;verified=true;from=k;break}
-        if(k==='cdn'&&!got){got=b;from=k;console.warn('[download] the CDN copy is not the original (sha256 differs); keeping it as a fallback')}
+        if(h&&h===sha){got=b;verified=true;break}
+        if(k==='cdn'&&!got){got=b;console.warn('[download] the CDN copy is not the original (sha256 differs); keeping it as a fallback')}
         else console.warn(`[download] ${host}: sha256 differs from the metadata, trying the next source`)}
       catch(e){console.warn(`[download] ${host} failed:`,e&&e.message||e)}}
   }catch(e){console.error('[download] unexpected error:',e)}
-  const mb=got?` (${(got.byteLength/1e6).toFixed(1)} MB)`:'';
-  if(got&&verified&&dir){
-    try{await writeInto(dir,sub,name,got);return fin(`Saved into your archive: ${dir.name}/${sub}/${name}${mb}. Verified original.`)}
+  if(got&&verified&&dir){   // createWritable writes to a temporary file and swaps it in on close, so a broken write never replaces a good file
+    try{await writeInto(dir,sub,name,got);return done({state:'ok',how:'verified',where:`${dir.name}/${sub}/${name}`})}
     catch(e){console.warn('[download] could not write into the archive folder, saving to Downloads instead:',e&&e.message||e)}}
   if(got){saveBuf(got,name,type);
-    return fin(verified?`Saved to your Downloads as ${name}${mb}. Verified original. The app will move it into the archive next time you run it.`
-                       :`Saved to your Downloads as ${name}${mb}. This copy is from the NHL Breakaway CDN and may be re-encoded, so the app will leave it there.`)}
+    if(verified)return done({state:'ok',how:'downloads',where:name});
+    return fail(`Saved to your Downloads as ${name} (${mbs(got.byteLength)}). This copy is from the NHL Breakaway CDN and may be re-encoded, so the app will leave it there.`)}
   const u=cidOf(cid)?ipfsDlUrl(cid,name,0):cdn;
   if(u){console.warn('[download] every source failed; opening a download link in a new tab instead:',u);window.open(u,'_blank');
-    return fin(`Couldn't download it here, so a download link opened in a new tab. If it shows the file instead, right-click > Save as and name it ${name}.`)}
-  fin('No source answered. Please try again later.')}
+    return fail(`Couldn't download it here, so a download link opened in a new tab. If it shows the file instead, right-click > Save as and name it ${name}.`)}
+  fail('No source answered. Please try again later.')}
 function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
   const cov=coverSources(r);const poster=r.local_cover||s.cover_url||cov[0]||'';
   // playback: your local file, then the CDN (fast; may be a re-encoded copy), then IPFS. Downloads prefer the IPFS original.
@@ -1805,9 +1850,10 @@ function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
   const video=vsrc.length?`<video controls preload="none" poster="${esc(poster)}">${vsrc.map(v=>`<source src="${esc(v)}" type="video/mp4">`).join('')}</video>`:imgTag(r);
   const eds=r.eds||[];
   const mine=r.mine?`<p class="yours"><b>Yours${eds.length?` (${eds.length} edition${eds.length>1?'s':''})`:''}:</b> ${esc(eds.map(x=>'#'+x).join(', ')||'on your list')}</p>`:'';
-  const btns=`<div class="btns">${vsrc.length?`<button onclick="dl(${i},'video',this)">Download video</button>`:''}${cov.length?`<button onclick="dl(${i},'cover',this)">Download cover</button>`:''}</div>
+  const one=k=>`<span class="dlw dlw_${k}" data-i="${i}" data-state="none"><button class="main" onclick="onMain(${i},'${k}',this)">${LABEL[k]}</button> <a href="#" class="again" style="display:none" onclick="event.preventDefault();dl(${i},'${k}',this.parentNode.querySelector('.main'))">Download again</a></span>`;
+  const btns=`<div class="btns">${vsrc.length?one('video'):''}${cov.length?one('cover'):''}</div>
    <div class="st st_video"></div><div class="st st_cover"></div>
-   <p class="note">Files saved with these buttons go to your browser's Downloads folder. To save videos into the archive folder (so this viewer plays them offline), use menu option 2 (Get videos).</p>`;
+   <p class="note">In Chrome or Edge you can pick your Breakaway-Archive/output folder once and files are saved straight into the archive. Otherwise they go to your Downloads folder and the app moves them into the archive the next time you run it.</p>`;
   const L=(u,t)=>u?`<a href="${esc(u)}" target="_blank">${esc(t)}</a>`:'';
   const links=`<p><b>Links:</b> ${[L(s.breakaway_url,'NHL Breakaway page'),L(s.site_url,'The Fifth Line'),L(s.meta_url,'Metadata (JSON)'),L(s.cover_url,'Cover on the CDN'),L(s.video_url,'Video on the CDN (may be re-encoded)')].filter(Boolean).join(' · ')}<br>
    Original video via IPFS: ${ipfsAll(s.video_ipfs).map(v=>L(v,gwName(v))).join(' · ')||'none'}</p>`;
@@ -1826,7 +1872,8 @@ function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
   $('#box').innerHTML=`<button onclick="$('#dlg').style.display='none'" style="float:right">Close</button>
   <h2>${esc(s.player)} — ${esc(s.set)}</h2>${video}<p class="lead">${esc(s.description)}</p>${mine}${btns}${links}
   <details><summary>Technical details (IPFS CIDs, sha256, all metadata)</summary>${ident}${files}${tbl('Summary',s)}${tbl('Source',r.src)}${tbl('All metadata (nft.nhlbreakaway.com)',r.meta||{})}${tbl('Off-chain (NHL Breakaway set listing)',r.off||{})}</details>`;
-  watch($('#box'));$('#dlg').style.display='block';$('#dlg').scrollTop=0;}
+  watch($('#box'));$('#dlg').style.display='block';$('#dlg').scrollTop=0;
+  for(const k of ['video','cover']){if(!document.querySelector('#box .dlw_'+k))continue;const p=checkSaved(i,k,false).catch(e=>({state:'none'}));CHECKS[k]=p;p.then(res=>render(i,k,res))}}
 $('#grid').onclick=e=>{const c=e.target.closest('.card');if(c)open_(+c.dataset.i)};
 $('#dlg').onclick=e=>{if(e.target.id==='dlg'){$('#dlg').style.display='none';const v=$('#box video');if(v)v.pause()}};
 document.onkeydown=e=>{if(e.key==='Escape'){$('#dlg').style.display='none';const v=$('#box video');if(v)v.pause()}};
@@ -1896,6 +1943,12 @@ def import_downloads(video_dir=None, rows=None):
             if sha: index[(kind, sha.rstrip("="))] = r
     log = DownloadLog(); moved, have, left = 0, 0, []
     for kind, src in found:
+        # cheap check first, so big videos already in the archive aren't re-hashed on every start
+        base = re.sub(r" \(\d+\)(?=\.[^.]+$)", "", os.path.basename(src))
+        twin = os.path.join(vdir if kind == "video" else os.path.join(OUT, "covers_full"), base)
+        try:
+            if os.path.isfile(twin) and os.path.getsize(twin) == os.path.getsize(src): have += 1; continue
+        except OSError: pass
         try: r = index.get((kind, file_sha_b64(src).rstrip("=")))
         except OSError: continue
         if not r: left.append(os.path.basename(src)); continue
@@ -1915,7 +1968,7 @@ def import_downloads(video_dir=None, rows=None):
                                 "host": "", "sha256": file_sha_b64(dest), "expected_sha256": sha, "bytes": os.path.getsize(dest),
                                 "cid": "", "at": now()})
     log.save()
-    if moved or have or left:
+    if moved or left:   # copies that are already in the archive alone are not worth a line on every start
         msg = f"Imported {moved} file(s) from Downloads" if moved else "Nothing new to import from Downloads"
         if have: msg += f"; {have} already in the archive (left in Downloads)"
         if left: msg += f"; {len(left)} named like archive files but not matching an original (left in Downloads, e.g. {left[0]})"
@@ -1936,6 +1989,8 @@ def cmd_view(a):
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
                      "local_cover": rel(cp) if cp else "", "local_video": rel(vp) if os.path.exists(vp) else "",
                      "cover_name": cover_name(r), "video_name": video_name(r),
+                     "cover_rel": rel(os.path.join(OUT, "covers_full", cover_name(r))), "video_rel": rel(os.path.join(vdir, video_name(r))),
+                     "dlb": {k: (log.get(k, r["id"]) or {}).get("bytes") for k in ("cover", "video")},
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
                      "mine": MINE is not None and str(r["id"]) in MINE, "eds": (MINE or {}).get(str(r["id"])) or [],
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
@@ -2099,7 +2154,7 @@ def cmd_album(a):
             for ln in wrap(desc, "Helvetica-Oblique", 9, TW - 3 * M)[:12]: c.drawCentredString(TW / 2, y, ln); y -= 12
         end()
         # card pages
-        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = (6 if MINE is not None else 5) * lh + 8
+        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = (5 if MINE is not None else 4) * lh + 8
         gw, gh = TW - 2 * M, TH - 2 * M - 22; cw, ch = gw / cols, gh / rws; pad = 8
         for i0 in range(0, len(rs), per):
             begin(); c.setFillGray(0.4); c.setFont("Helvetica", 8)
@@ -2122,15 +2177,11 @@ def cmd_album(a):
                 for k, ln in enumerate((s_["team"], " · ".join(x for x in (s_["date"], s_["play"]) if x),
                                         (f"{s_['rarity']} · edition size {s_['editions']:,}" if isinstance(s_["editions"], int) else f"{s_['rarity']} · edition size {s_['editions']}") if s_["editions"] else s_["rarity"])):
                     c.drawString(x0, yt - (k + 1) * lh, fit(ln, "Helvetica", fs, w))
-                k_ipfs = 4
                 if MINE is not None:   # one short line; the full list is in the "My serials" pages at the end
                     eds = MINE.get(str(r["id"])) or []
                     c.setFont("Helvetica-Bold", fs); c.setFillColorRGB(0.55, 0.38, 0)
-                    c.drawString(x0, yt - 4 * lh, fit(owned_short(eds), "Helvetica-Bold", fs, w)); k_ipfs = 5
-                cid = (s_["cover_ipfs"] or "").replace("ipfs://", "")
-                if cid:   # the permanent IPFS address of this cover: the card's identity if the site goes away
-                    c.setFont("Courier", max(4.5, fs - 3)); c.setFillGray(0.45)
-                    c.drawString(x0, yt - k_ipfs * lh - 1, fit(f"ipfs {cid}", "Courier", max(4.5, fs - 3), w))
+                    c.drawString(x0, yt - 4 * lh, fit(owned_short(eds), "Helvetica-Bold", fs, w))
+
             done += len(rs[i0:i0 + per]); end()
         p(f"  {setname}: {len(rs)} cards ({done}/{len(rows)})")
     if MINE is not None and any(MINE.get(str(r["id"])) for r in rows):
@@ -2293,6 +2344,23 @@ MENU = """
   0) Quit"""
 
 
+def refresh_viewer():
+    """viewer/index.html is made by the app, not shipped in the zip, so an upgrade would leave an old copy behind
+    (people often open it directly). Rebuild it quietly when it was made by another version."""
+    vp = os.path.join(ROOT, "viewer", "index.html")
+    if not os.path.exists(vp): return
+    try:
+        with open(vp, encoding="utf-8", errors="replace") as f: page = f.read()
+    except OSError: return
+    if f'content="Breakaway Archive v{VERSION}"' in page[:2000]: return
+    argv = ["view", "--offline"]
+    if '"mine": true' in page:   # it was made with "Show only my cards": keep that if the list is still here
+        mine = next((os.path.join(ROOT, f) for f in ("my_cards.txt", "my_cards.csv") if os.path.exists(os.path.join(ROOT, f))), None)
+        if mine: argv += ["--mine", mine]
+    p(f"Updating your viewer (viewer/index.html) to v{VERSION}...")
+    run(argv)
+
+
 def ask(q, default=""):
     try: v = input(f"{q}{f' [{default}]' if default else ''}: ").strip()
     except EOFError: v = ""
@@ -2331,6 +2399,7 @@ def menu():
     p("Covers and videos you saved with the viewer's Download buttons are picked up from your Downloads folder automatically.")
     try: import_downloads()
     except Exception as e: p(f"(Couldn't check Downloads: {e})")
+    refresh_viewer()
     while True:
         p(MENU); c = ask("Type a number and press Enter")
         if c in ("0", "q", "quit", "exit", ""):
@@ -2402,6 +2471,9 @@ def menu():
 
 
 if __name__ == "__main__":
+    for _s in (sys.stdout, sys.stderr):   # a Windows console or pipe in cp1252 must never crash on a name like "Dvořák"
+        try: _s.reconfigure(errors="replace")
+        except Exception: pass
     if len(sys.argv) == 1:      # double-clicked or run with no arguments: friendly menu
         try: menu()
         except KeyboardInterrupt: pass

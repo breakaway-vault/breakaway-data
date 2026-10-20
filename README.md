@@ -130,7 +130,7 @@ On Mac/Linux, type `python3` where it says `python`. On Windows, if `python` isn
 Things to know:
 * **Covers and videos come from IPFS first**, which serves the original files. Every file is checked against the sha256 fingerprint in its metadata. NHL Breakaway's own CDN is only a fallback, and it now serves *re-encoded* videos. Those are kept but marked `reencoded` in `output/download_log.json`. `verify` shows original vs. re-encoded, and `--repair` swaps re-encoded files for originals.
 * **Videos are big**: all of them come to roughly 220 GB. `videos` shows an estimate and asks before downloading. Re-running resumes and skips finished files.
-* **Album options**: `--layout 1up|2x2|3x3`, `--page letter|a4`, `--bleed` (3 mm bleed + crop marks for a print shop), `--max-px 600 --jpeg 80` for a small screen-only file. The full album is about 2,061 / 615 / 343 pages (1up / 2x2 / 3x3) and ~2.3 GB, so one PDF per series is easier. Each card shows its cover's IPFS CID.
+* **Album options**: `--layout 1up|2x2|3x3`, `--page letter|a4`, `--bleed` (3 mm bleed + crop marks for a print shop), `--max-px 600 --jpeg 80` for a small screen-only file. The full album is about 2,061 / 615 / 343 pages (1up / 2x2 / 3x3) and ~2.3 GB, so one PDF per series is easier.
 * **Works offline**: once covers (and any videos) are downloaded, `build`, `view` and `album` need no internet. Add `--offline` to be sure.
 
 ## If NHL Breakaway shuts down
