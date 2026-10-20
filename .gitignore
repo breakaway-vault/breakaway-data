@@ -22,3 +22,6 @@ dist/
 # your own settings (copy breakaway.config.example.json)
 breakaway.config.json
 *.new
+# your own card list (private)
+my_cards.txt
+my_cards.csv

@@ -1,8 +1,12 @@
 # breakaway-data
 
+*Made for the community, by the community. Fork it, build on it, do whatever you like with it.*
+
 An unofficial fan archive of NHL Breakaway digital highlights: the details of all 1,973 known moments, saved here so they survive if the site goes away.
 A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the original cover art and videos from IPFS.
 Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warranty-use-at-your-own-risk)).
+
+**Jump to:** [Download the app](#no-python-download-the-app) · [**Show only my cards**](#show-only-my-cards-optional) · [With Python](#with-python-windows-mac-or-linux) · [Common tasks](#common-tasks) · [If NHL Breakaway shuts down](#if-nhl-breakaway-shuts-down) · [Help keep it alive](#help-keep-it-alive) · [No warranty](#no-warranty-use-at-your-own-risk)
 
 ## What this project is (and isn't)
 
@@ -27,6 +31,43 @@ The apps aren't code-signed, so your computer warns you the first time:
 * **macOS** says it "cannot be opened because the developer cannot be verified": **right-click** (or Control-click) the app, choose **Open**, then **Open** again. If there's no Open button, go to System Settings > Privacy & Security and click **Open Anyway**. The menu opens in Terminal.
 * **Linux**: if double-clicking does nothing, open a terminal in the folder and run `chmod +x breakaway` and then `./breakaway`.
 
+### Show only my cards (optional)
+
+Want the album, viewer and downloads for **just your own cards**? It takes two steps.
+
+The Fifth Line already lists most moments (about 1,800 of the archive's ~1,970), so its export is a quick head start, not a requirement. If a few of your cards aren't on the site, add them to the same file by hand: one new line each with the card's NHL Breakaway link or `seriesId/tokenId`. If a moment is missing from the archive itself, add it with the `add` command or a pull request (see [Contributing](CONTRIBUTING.md)).
+
+**Step 1: get your export from The Fifth Line**
+1. Open https://thefifthlinecode.onrender.com and search your wallet address. That opens your portfolio.
+2. Optional: filter by player.
+3. Click **Export my cards** (next to **Compress**). It downloads `my_cards.csv`.
+
+**Step 2: use it in the tool**
+1. Put `my_cards.csv` in the same folder as the app (the `Breakaway-Archive` folder), or in the repo folder next to `breakaway.py`.
+2. Open the app and pick **10) Show only my cards** from the menu. With Python, add `--mine` to a command (`python breakaway.py album --mine`), or `--mine path/to/file.csv` for a file somewhere else.
+3. The viewer, album, spreadsheet and downloads then show only your cards. Your edition numbers show up too ("yours: #12").
+
+**Doesn't work?**
+* **The file is in the wrong folder.** It must sit right next to the app (or `breakaway.py`), not in Downloads or a subfolder.
+* **The file was renamed** (e.g. `my_cards (1).csv`). Rename it back to `my_cards.csv`, or point to it: `--mine "path/to/your file.csv"` (any .csv works), or type its path when the menu asks.
+* **The CSV is empty** because the player filter matched nothing. Export again without the filter.
+* Lines that don't match a card are listed and skipped; nothing breaks.
+
+**No export? Do it by hand.** Make a plain text file called `my_cards.txt` in the same folder (Notepad on Windows; TextEdit on Mac, Format > Make Plain Text). Put one card per line: a card number from this archive (like `22`) or the card's NHL Breakaway link copied from your browser. `seriesId/tokenId`, `nft.nhlbreakaway.com` links and The Fifth Line card links (`.../player/22`) work too. Lines starting with `#` are ignored. If both files exist, `my_cards.txt` is used.
+
+**Your list stays on your computer.** The tool only reads it. It is never uploaded or sent anywhere. `my_cards.csv` and `my_cards.txt` are in `.gitignore`, so they won't land on GitHub even if you fork, and so are the files made from them (`output/my_album.pdf`, `output/my_cards.xlsx`, `viewer/`). Your list doesn't need your wallet address, and no collector's wallet is stored anywhere in this repo.
+
+<details><summary>Details for CSV files and commands</summary>
+
+```
+python breakaway.py album --mine      # output/my_album.pdf, "yours: #12" on each card
+python breakaway.py view --mine       # viewer with a "My cards" on/off switch
+python breakaway.py build --mine      # output/my_cards.xlsx with a "My Editions" column
+python breakaway.py covers --mine     # also: videos --mine, pin --mine
+```
+The Fifth Line export has the columns `card_id,url,series_id,token_id,edition,player,set`. A card is matched on `card_id` first, then `url`, then `series_id` + `token_id`, and `edition` is shown when given. Other CSVs work too if a column holds card ids or links.
+</details>
+
 ### With Python (Windows, Mac or Linux)
 
 1. Get the files, either way:
@@ -44,10 +85,12 @@ On Mac/Linux, type `python3` where it says `python`. On Windows, if `python` isn
 | I want to... | Menu | Command |
 |---|---|---|
 | Get the cover art (about 1.7 GB for all) | 1 | `python breakaway.py covers` |
+| Save the at-risk files first | | `python breakaway.py videos --at-risk` and `covers --at-risk` (list: [`data/at_risk.md`](data/at_risk.md)) |
 | Get videos for my players | 2 | `python breakaway.py videos --player "McDavid"` (also `--team`, `--set`, `--series`, `--ids 12,40`, `--limit 5`) |
 | Make the spreadsheet | 3 | `python breakaway.py build` -> `output/highlights.xlsx` |
 | Browse everything | 4 | `python breakaway.py view`, then double-click `viewer/index.html` |
 | Make a printable album | 5 | `python breakaway.py album --team "Maple Leafs" --layout 3x3` -> `output/album.pdf` |
+| Only my cards | 10 | `python breakaway.py album --mine` (see [Show only my cards](#show-only-my-cards-optional)) |
 | Add a missing moment | 6 | `python breakaway.py add https://nhlbreakaway.com/series/<id>/<token>` |
 | Check my downloads | 7 | `python breakaway.py verify` |
 | Help keep the files online | 8 | `python breakaway.py pin` (see [Help keep it alive](#help-keep-it-alive)) |
@@ -115,15 +158,30 @@ Card list originally compiled from The Fifth Line (https://thefifthlinecode.onre
 | `data/offchain/` | Raw NHL Breakaway set listings, set-completion and quest data. |
 | `data/links.json` | Card id -> series id + token id (+ moment UUID). |
 | `data/cids.txt` | Every IPFS CID (14,739), deduplicated. |
-| `data/ipfs_status.json` | Last `check-ipfs` result (reachable / not, by file type). |
+| `data/ipfs_status.json` | Last `check-ipfs` result per CID (reachable / uncached / gone, by file type). |
+| `data/live_status.json` | Last `check-live` result per moment (still listed? CDN cover/video status). |
+| `data/at_risk.md` | Moments whose original files are missing on IPFS. |
 | `data/extra_moments.txt` | Links to add (anyone can edit; see CONTRIBUTING). |
 | `breakaway.py` | The whole tool (one file). |
 | `scripts/validate.py`, `scripts/build_app.py` | CI checks; standalone-app build (PyInstaller). |
 
-### `status`
+### `status`, `listed_now`, `ipfs_health`
 
+`status`:
 * `released`: there's evidence the moment was actually sold or held, either a live marketplace listing seen in October 2026 (32 of the later additions) or a price in the original card list (1,663).
-* `unverified`: no such evidence was found (278). It may still be real; it just hasn't been confirmed. It doesn't mean fake. No owner names are recorded.
+* `unverified`: no such evidence was found. It may still be real; it just hasn't been confirmed. It doesn't mean fake. No owner names are recorded.
+* `delisted`: the moment no longer appears in NHL Breakaway's current public set listings. All of its data is kept, and the earlier value is kept in `status_before_delisting`.
+
+`listed_now` (true/false): whether the moment's UUID is in the current `apigw.sweet.io` set listing at the last `python breakaway.py check-live`. That command also does a 1-byte request for each cover and video on the CDN and records the HTTP status in `data/live_status.json` (`cdn_cover`, `cdn_video`; 200/206 = still served). The raw `data/offchain/` files are never overwritten, so the data as first archived stays.
+
+`ipfs_health`, from the last `check-ipfs` (the full scan plus `--recheck`):
+* `all_ok`: every checked original file of the moment answered on IPFS (small thumbnails are ignored while they are unchecked).
+* `some_missing`: at least one file (not the video) didn't answer; `ipfs_missing` lists which.
+* `video_missing`: the original video didn't answer.
+* `all_missing`: none of its files answered.
+* `unchecked`: not checked yet.
+
+"Missing" means no gateway we asked could serve it, on two passes and at least two gateways. It may be unpinned or just very cold: it's at risk, not proven lost. `data/ipfs_status.json` has the per-file `verdict`: `reachable`, `uncached` (failed once, answered on retry) or `gone` (failed both passes). **`data/at_risk.md`** lists every moment with missing files and whether the CDN still has them. Save those first with `covers --at-risk` and `videos --at-risk`.
 
 ### All commands
 
@@ -136,9 +194,12 @@ python breakaway.py build | package | all | view [--viewer-dir DIR]
 python breakaway.py verify  [--video-dir DIR]
 python breakaway.py add     <url | seriesId/tokenId> ...      # also reads data/extra_moments.txt
 python breakaway.py album   [filters] [--layout 1up|2x2|3x3] [--page letter|a4] [--bleed] [--out FILE] [--max-px N] [--jpeg Q]
-python breakaway.py check-ipfs [--sample 200 | --full] [--refresh] [--max-age DAYS] [--seed N]
+python breakaway.py check-ipfs [--sample 200 | --full | --recheck] [--refresh] [--max-age DAYS] [--seed N]
+python breakaway.py check-live  [--no-cdn]                   # still in the current set listings? CDN still serving?
+python breakaway.py health                                   # recompute ipfs_health / at_risk.md from the saved results
 python breakaway.py pin     [filters] [--types video,cover] [--kubo | --service pinata|filebase|URL] [--limit N] [--yes]
-filters: --player, --team, --set, --series, --ids (names match partially, not case sensitive)
+filters: --player, --team, --set, --series, --ids (names match partially, not case sensitive),
+         --at-risk (only moments whose originals are missing on IPFS; for videos/covers: that file is missing)
 general: --output-dir DIR, --offline, --config FILE, --gateway URL, --concurrency N (metadata, 1-8),
          --media-concurrency N (downloads, 1-4), --ipfs-concurrency N (check-ipfs, 1-4)
 ```

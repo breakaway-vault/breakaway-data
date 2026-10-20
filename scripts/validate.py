@@ -13,7 +13,10 @@ for r in rows:
         if k not in r: err(f"highlights.json row missing '{k}': {r}")
     if not isinstance(r.get("id"), int): err(f"highlights.json id is not an integer card id: {r.get('id')}")
     if r.get("site_url") and not r.get("on_site", True): err(f"id {r.get('id')}: has site_url but on_site is false")
-    if r.get("status", "unverified") not in ("released", "unverified"): err(f"id {r.get('id')}: status must be released or unverified, not {r.get('status')!r}")
+    if r.get("status", "unverified") not in ("released", "unverified", "delisted"): err(f"id {r.get('id')}: status must be released, unverified or delisted, not {r.get('status')!r}")
+    if r.get("ipfs_health", "unchecked") not in ("all_ok", "some_missing", "video_missing", "all_missing", "unchecked"): err(f"id {r.get('id')}: bad ipfs_health {r.get('ipfs_health')!r}")
+    if "listed_now" in r and not isinstance(r["listed_now"], bool): err(f"id {r.get('id')}: listed_now must be true or false")
+    if r.get("status") == "delisted" and r.get("listed_now") is not False: err(f"id {r.get('id')}: delisted but listed_now isn't false")
 try: man = json.load(open(os.path.join(D, "manifest.json"), encoding="utf-8"))
 except Exception as e: man = {}; err(f"manifest.json is not valid JSON: {e}")
 uu = {}

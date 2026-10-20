@@ -15,6 +15,7 @@ OSNAME = {"win32": "windows", "darwin": "macos"}.get(sys.platform, "linux")
 EXE = "breakaway.exe" if OSNAME == "windows" else "breakaway"
 
 README_FIRST = """NHL BREAKAWAY HIGHLIGHT ARCHIVE - standalone app ({os})
+Made for the community, by the community. Fork it, build on it, do whatever you like with it.
 Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE.txt.
 No Python needed.
 
@@ -24,6 +25,21 @@ START
   open the viewer, make a printable album, add a missing moment, verify, help pin.
   Everything it makes goes into the "output" folder next to the app.
   The first run unpacks the archive data into a "data" folder next to the app (about 50 MB).
+
+SHOW ONLY MY CARDS (optional)
+  Step 1: open https://thefifthlinecode.onrender.com, search your wallet address to open your
+    portfolio, optionally filter by player, then click "Export my cards" (next to Compress) to
+    download my_cards.csv.
+  Step 2: put my_cards.csv in this folder (next to the app), open the app and pick
+    "10) Show only my cards". The viewer, album and downloads then show only your cards.
+  The Fifth Line lists most moments (~1,800 of ~1,970), so its export is a head start, not a must.
+    Add any missing cards to the same file, one line each with the card's NHL Breakaway link or
+    seriesId/tokenId. A moment missing from the archive itself: menu option 6 (add).
+  Doesn't work? The file must be in this folder, named my_cards.csv (or type its path when the
+    menu asks), and not empty (export again without a player filter).
+  No export? Make a plain text file my_cards.txt here, one card per line: a card number from
+    the archive (like 22) or the card's NHL Breakaway link.
+  Your list stays on your computer. It is never uploaded or sent anywhere.
 
 SECURITY WARNINGS (the app is not code-signed, so your computer will warn you once)
   Windows: "Windows protected your PC" -> click "More info" -> "Run anyway".

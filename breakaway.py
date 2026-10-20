@@ -66,6 +66,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
+TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
 OFFLINE = False          # --offline: never touch the network (build/view/album from local files only)
@@ -373,6 +374,9 @@ def summary(r):
         "video_url": vid, "breakaway_url": ln.get("source_url", "").replace("nft.nhlbreakaway.com/series", "nhlbreakaway.com/series"),
         "meta_url": ln.get("source_url", ""), "id": r["id"], "on_site": "yes" if r.get("on_site", True) else "no",
         "site_url": r.get("site_url", ""), "status": r.get("status", "unverified"), "status_basis": r.get("status_basis", ""),
+        "ipfs_health": r.get("ipfs_health", ""), "ipfs_missing": ", ".join(r.get("ipfs_missing") or []),
+        "listed_now": "" if "listed_now" not in r else ("yes" if r["listed_now"] else "no"),
+        "my_editions": my_editions(r),
         "video_ipfs": asset_ipfs(d, "primary-asset")[0] or "", "video_sha256": asset_ipfs(d, "primary-asset")[1] or "",
         "card_image_ipfs": asset_ipfs(d, "card-image")[0] or "",
         "moment_uuid": ln.get("moment_uuid", ""), "raw_meta_path": ln.get("meta_path", ""),
@@ -396,10 +400,11 @@ def cover_path(r):
         if os.path.exists(fp): return fp
 
 
-COLS = [("row", "#"), ("cover", "Cover"), ("player", "Player"), ("team", "Team"), ("position", "Pos"), ("jersey", "Jersey"),
+COLS = [("row", "#"), ("cover", "Cover"), ("my_editions", "My Editions"), ("player", "Player"), ("team", "Team"), ("position", "Pos"), ("jersey", "Jersey"),
         ("date", "Highlight Date"), ("play", "Play"), ("tagline", "Highlight"), ("period", "Period"), ("clock", "Clock"),
         ("final_score", "Final Score"), ("venue", "Venue"), ("flags", "Flags"), ("set", "Set"), ("list_set", "Set (list label)"),
-        ("series", "Series"), ("rarity", "Rarity"), ("editions", "Edition Size"), ("status", "Status"), ("status_basis", "Status Basis"), ("description", "Description"),
+        ("series", "Series"), ("rarity", "Rarity"), ("editions", "Edition Size"), ("status", "Status"), ("status_basis", "Status Basis"), ("ipfs_health", "IPFS Health"),
+        ("ipfs_missing", "Missing on IPFS"), ("listed_now", "Listed Now"), ("description", "Description"),
         ("issued", "Released"), ("audio", "Audio"), ("lowest_ask", "Lowest Ask"), ("fmv", "FMV"),
         ("cover_url", "Cover Art (full res)"), ("cover_ipfs", "Cover IPFS CID"), ("cover_sha256", "Cover sha256"),
         ("video_url", "Video"), ("video_ipfs", "Video IPFS CID"), ("video_sha256", "Video sha256"),
@@ -416,7 +421,9 @@ def cmd_build(a):
     from openpyxl.styles import Font, Alignment, PatternFill
     from openpyxl.utils import get_column_letter
     from openpyxl.drawing.image import Image as XImg
-    rows = sort_rows(load_model())
+    rows = mine_only(sort_rows(load_model()))
+    xlsx = "my_cards.xlsx" if MINE is not None else "highlights.xlsx"
+    COLS = [c for c in globals()["COLS"] if c[0] != "my_editions" or MINE is not None]
     try: from PIL import Image
     except ImportError: Image = None
     os.makedirs(OUT, exist_ok=True)
@@ -470,10 +477,10 @@ def cmd_build(a):
     for r in rows: x = agg.setdefault(r["set"], [0, 0]); x[0] += 1; x[1] += 1 if r["_meta"] else 0
     for k in sorted(agg): bs.append([k, *agg[k]])
     bs.column_dimensions["A"].width = 48; bs.column_dimensions["C"].width = 24
-    wb.save(os.path.join(OUT, "highlights.xlsx"))
-    jdump([{k: v for k, v in r["_s"].items()} for r in rows], os.path.join(OUT, "highlights_summary.json"))
+    wb.save(os.path.join(OUT, xlsx))
+    if MINE is None: jdump([{k: v for k, v in r["_s"].items()} for r in rows], os.path.join(OUT, "highlights_summary.json"))
     n = sum(1 for r in rows if r["_meta"]); o = sum(1 for r in rows if r["_off"])
-    p(f"Built {os.path.relpath(os.path.join(OUT, 'highlights.xlsx'), ROOT)}: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
+    p(f"Built {os.path.relpath(os.path.join(OUT, xlsx), ROOT)}: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
       f"{sum(1 for r in rows if cover_path(r))} with cover thumbnails, {len(cols)} flattened fields")
     return rows
 
@@ -642,6 +649,13 @@ def pick(rows, a):
     if getattr(a, "team", None): rows = [r for r in rows if a.team.lower() in (r["_s"]["team"] or "").lower()]
     if getattr(a, "ids", None):
         want = {x.strip() for x in a.ids.split(",") if x.strip()}; rows = [r for r in rows if str(r["id"]) in want]
+    rows = mine_only(rows)
+    if getattr(a, "at_risk", False):   # moments whose originals couldn't be reached on IPFS (see data/at_risk.md)
+        kind = {"videos": "video", "covers": "cover"}.get(getattr(a, "command", ""))
+        rows = [r for r in rows if r.get("ipfs_missing") and (not kind or kind in r["ipfs_missing"])]
+        global CDN_FIRST
+        if kind and not IPFS_ONLY: CDN_FIRST = True   # IPFS couldn't serve these: ask the CDN first, IPFS after
+        p(f"--at-risk: {len(rows)} moment(s) with {kind or 'any file'} missing on IPFS")
     return rows
 
 
@@ -840,21 +854,22 @@ def cid_index(man=None, rows=None):
     return idx
 
 
-CHECK_GATEWAYS, CHECK_TIMEOUT = 2, 20
+CHECK_GATEWAYS, CHECK_TIMEOUT, CHECK_PER_HOST = 2, 20, 3
 
 
-def check_one(cid):
-    """Range 0-0 GET on up to CHECK_GATEWAYS gateways. Reachable = any of them returns the first byte."""
-    tried = []
-    gws = list(GATEWAYS)
-    if len(gws) > 1 and int(hashlib.md5(cid.encode()).hexdigest(), 16) % 2: gws[0], gws[1] = gws[1], gws[0]   # share the load
-    for g in gws:
+def check_one(cid, n_gateways=None, timeout=None):
+    """Range 0-0 GET on up to n_gateways gateways, in order (first gateway = the fast one).
+    Reachable = any of them returns the first byte."""
+    tried = []; n_gateways = n_gateways or CHECK_GATEWAYS
+    for g in GATEWAYS:
         u = ipfs_url(g, cid)
         if cooled(u): continue
-        if len(tried) >= CHECK_GATEWAYS: break
-        thr = host_thr(u, n=2, base=0.5)
-        st, _, h = http(u, tries=1, timeout=CHECK_TIMEOUT, thr=thr, headers={"Range": "bytes=0-0"})
+        if len(tried) >= n_gateways: break
+        thr = host_thr(u, n=CHECK_PER_HOST, base=0.25)
+        st, _, h = http(u, tries=1, timeout=timeout or CHECK_TIMEOUT, thr=thr, headers={"Range": "bytes=0-0"})
         tried.append(f"{host_of(u)}:{st}")
+        if st is None:   # a timeout on cold (uncached) content isn't the gateway telling us to slow down
+            with thr.lock: thr.delay = thr.base
         if st in (200, 206):
             return {"ok": True, "gateway": host_of(u), "http": st, "tried": tried}
         if st == 429: cool(u, (h or {}).get("Retry-After"))
@@ -877,7 +892,7 @@ def cmd_check_ipfs(a):
     st = jload(path, {}) or {}; cids = st.get("cids") or {}
     import random
     rnd = random.Random(a.seed)
-    if a.full: pool = list(idx)
+    if a.full: pool = sorted(idx, key=lambda c: TYPE_ORDER.index(idx[c]["type"]))   # videos and covers first
     else:
         by = {}
         for cid, e in idx.items(): by.setdefault(e["type"], []).append(cid)
@@ -891,27 +906,228 @@ def cmd_check_ipfs(a):
         try: return time.mktime(time.strptime(t[:19], "%Y-%m-%dT%H:%M:%S")) > fresh and not a.refresh
         except Exception: return False
     todo = [c for c in pool if not is_fresh(c)]
-    p(f"check-ipfs: {len(idx)} CIDs in the archive; checking {len(todo)} "
+    if a.recheck:   # second pass: only what failed, on more gateways with a longer timeout
+        want = {t.strip() for t in (a.types or "").split(",") if t.strip()}
+        todo = sorted((c for c, e in cids.items() if not e.get("ok") and c in idx and e.get("verdict") != "gone"
+                       and (not want or idx[c]["type"] in want)), key=lambda c: TYPE_ORDER.index(idx[c]["type"]))
+        p(f"check-ipfs --recheck: {len(todo)} unreachable CID(s), trying up to 4 gateways, 30 s each...")
+    else: p(f"check-ipfs: {len(idx)} CIDs in the archive; checking {len(todo)} "
       f"({'full scan' if a.full else f'stratified sample of {len(pool)}'}; {len(pool) - len(todo)} checked recently) "
       f"via {', '.join(host_of(g) for g in GATEWAYS[:3])}...")
     lock = threading.Lock(); n = [0]
     def one(c):
-        r = check_one(c); r.update({"type": idx[c]["type"], "checked_at": now(), "example_id": idx[c]["ids"][0]})
+        if a.recheck:
+            r = check_one(c, n_gateways=4, timeout=30); old = cids.get(c) or {}
+            r.update({"type": idx[c]["type"], "checked_at": now(), "example_id": idx[c]["ids"][0],
+                      "first_pass": {"ok": old.get("ok"), "tried": old.get("tried"), "checked_at": old.get("checked_at")},
+                      "verdict": "uncached" if r["ok"] else "gone"})
+        else:
+            r = check_one(c); r.update({"type": idx[c]["type"], "checked_at": now(), "example_id": idx[c]["ids"][0],
+                                        "verdict": "reachable" if r["ok"] else "unreachable"})
         with lock:
             cids[c] = r; n[0] += 1
             if n[0] % 20 == 0:
                 p(f"  {n[0]}/{len(todo)}"); st.update({"cids": dict(sorted(cids.items()))}); jdump(st, path)
-    with cf.ThreadPoolExecutor(max(1, min(a.ipfs_concurrency, 4))) as ex: list(ex.map(one, todo))
-    st.update({"updated_at": now(), "mode": "full" if a.full else "sample",
-               "note": ("Every CID checked." if a.full else
+    global CHECK_PER_HOST
+    CHECK_PER_HOST = max(1, min(a.ipfs_concurrency, 6))
+    with cf.ThreadPoolExecutor(CHECK_PER_HOST) as ex: list(ex.map(one, todo))
+    by_t = {}
+    for c, e in idx.items():
+        b_ = by_t.setdefault(e["type"], [0, 0]); b_[0] += 1; b_[1] += 1 if c in cids else 0
+    complete = all(c in cids for c in idx)
+    st.update({"updated_at": now(), "mode": "full" if complete else ("partial full scan" if (a.full or a.recheck or st.get("mode") != "sample") else "sample"),
+               "complete": complete, "coverage": {t: f"{v[1]}/{v[0]}" for t, v in sorted(by_t.items(), key=lambda x: TYPE_ORDER.index(x[0]))},
+               "note": ("Every CID checked." if complete else
+                        "PARTIAL: the full scan was stopped before every CID was checked (see coverage); run "
+                        "`python breakaway.py check-ipfs --full` to resume, then `--recheck`." if (a.full or a.recheck) else
                         f"Stratified random sample (seed {a.seed}); run `python breakaway.py check-ipfs --full` for every CID."),
                "method": f"1-byte ranged GET, {CHECK_TIMEOUT}s timeout; reachable if any of the first {CHECK_GATEWAYS} "
-                         "gateways returns it. 'Not reachable' can also mean nobody has it cached right now (cold), not only lost.",
+                         "gateways returns it. `--recheck` retries failures on up to 4 gateways with a 30s timeout. "
+                         "verdict: reachable | unreachable (first pass only) | uncached (failed, then answered on retry) | "
+                         "gone (failed on both passes; nobody seems to serve it, but that isn't proof it's deleted).",
                "gateways": [host_of(g) for g in GATEWAYS], "summary": ipfs_summary(cids, idx), "cids": dict(sorted(cids.items()))})
     jdump(st, path)
     s = st["summary"]
     p(f"IPFS: {s['reachable']}/{s['checked']} reachable, {s['unreachable']} not (of {s['total_cids']} CIDs) -> data/ipfs_status.json")
     for t, b in s["by_type"].items(): p(f"  {t:12s} {b['reachable']:>5}/{b['checked']:<5} reachable")
+    if a.full or a.recheck: apply_health()
+
+
+# ------------------------------------------------------------------ moment health: IPFS + current listings + CDN
+HEALTH = ["all_ok", "some_missing", "video_missing", "all_missing", "unchecked"]
+KEY_TYPES = ("video", "cover", "card-image")
+
+
+def moment_files(man_entry):
+    """{cid: type} for one moment's manifest entry."""
+    out = {}
+    for x in man_entry.get("ipfs") or []:
+        cid = x["ipfs"].replace("ipfs://", "").strip("/")
+        t = asset_type(f"{x.get('path', '')} {(x.get('url') or '').rsplit('/', 1)[-1]}")
+        if cid not in out or TYPE_ORDER.index(t) < TYPE_ORDER.index(out[cid]): out[cid] = t
+    return out
+
+
+def health_of(files, cids):
+    """all_ok / some_missing / video_missing / all_missing / unchecked, plus the missing file types.
+    Missing = not reachable on IPFS in the last check-ipfs run (after --recheck if it was run)."""
+    missing, unchecked = set(), 0
+    for cid, t in files.items():
+        e = cids.get(cid)
+        if not e: unchecked += 0 if t == "thumbnail" else 1   # small derived thumbnails don't decide the health
+        elif not e.get("ok"): missing.add(t)
+    if not files: return "unchecked", []
+    nmiss = sum(1 for cid in files if cids.get(cid) and not cids[cid].get("ok"))
+    if nmiss and nmiss == len(files): h = "all_missing"
+    elif "video" in missing: h = "video_missing"
+    elif missing: h = "some_missing"
+    elif unchecked: h = "unchecked"
+    else: h = "all_ok"
+    return h, sorted(missing, key=TYPE_ORDER.index)
+
+
+def cmd_check_live(a):
+    """Is each moment still in NHL Breakaway's current public set listings, and does the CDN still serve
+    its cover and video? Range-0 GETs only. Raw data/offchain/ files are NOT overwritten (they keep the
+    data as first archived); the current listings go to cache/live_sets/."""
+    rows = load_model(); man = jload(os.path.join(DATA, "manifest.json"), {})
+    path = os.path.join(DATA, "live_status.json"); st = jload(path, {}) or {}; per = st.get("moments") or {}
+    ld = os.path.join(CACHE, "live_sets"); os.makedirs(ld, exist_ok=True)
+    sets = sorted(f[:-5] for f in os.listdir(os.path.join(DATA, "offchain", "sets")) if f.endswith(".json"))
+    thr = Throttle(2, 0.5); failed_sets = []
+    def grab(u):
+        s_, b, _ = http(f"{APIGW}/catalog/search/moment/set/{u}?campaign_id=826", thr=thr, tries=4)
+        if b and s_ == 200: wbytes(os.path.join(ld, f"{u}.json"), b); return True
+        failed_sets.append(u); return False
+    with cf.ThreadPoolExecutor(2) as ex: list(ex.map(grab, sets))
+    if failed_sets: p(f"  {len(failed_sets)} set listing(s) couldn't be fetched; their moments are left as they were")
+    live = set()
+    for u in sets:
+        if u in failed_sets: continue
+        for m in jload(os.path.join(ld, f"{u}.json"), []) or []: live.add(m["uuid"])
+    p(f"Current listings: {len(sets) - len(failed_sets)} sets, {len(live)} moments")
+    lock = threading.Lock(); n = [0]; blocked = set()
+    def probe(u):
+        """HTTP status, or None if unknown. A 403/429 from a host that served fine before means it is
+        throttling us: stop asking that host for the rest of the run (never worked around)."""
+        if not u or host_of(u) in blocked: return None
+        s_, _, _ = http(u, tries=2, timeout=30, thr=host_thr(u, n=1, base=1.0), headers={"Range": "bytes=0-0"})
+        if s_ in (403, 429):
+            with lock:
+                if host_of(u) not in blocked:
+                    blocked.add(host_of(u)); p(f"  {host_of(u)} answered {s_}: stopping CDN checks there for this run (results left unknown)")
+            return None
+        return s_
+    def one(r):
+        k = str(r["id"]); e = man.get(k, {}); u = e.get("moment_uuid"); s = summary(r)
+        set_uuid = ((r["_off"] or {}).get("token_set") or {}).get("uuid") or ""
+        rec = dict(per.get(k) or {})
+        if any(u and u.startswith(x[:12]) for x in failed_sets) and "listed_now" in rec: pass
+        else: rec["listed_now"] = bool(u and u in live)
+        if not a.no_cdn:
+            for key, url in (("cdn_cover", s["cover_url"]), ("cdn_video", s["video_url"])):
+                if rec.get(key) in (200, 206) and not a.refresh: continue   # resumable: already known to be served
+                code = probe(url)
+                if code is not None or key not in rec: rec[key] = code
+        rec["checked_at"] = now()
+        with lock:
+            per[k] = rec; n[0] += 1
+            if n[0] % 200 == 0: p(f"  {n[0]}/{len(rows)}"); st["moments"] = per; jdump(st, path)
+    with cf.ThreadPoolExecutor(2 if not a.no_cdn else 1) as ex: list(ex.map(one, rows))
+    if blocked: p(f"  Some CDN checks were skipped because {', '.join(sorted(blocked))} started refusing; re-run later to fill them in.")
+    st.update({"updated_at": now(), "method": "listed_now: moment UUID present in the current apigw.sweet.io set listing. "
+               "cdn_cover / cdn_video: HTTP status of a 1-byte ranged GET (206/200 = still served; null = not checked, "
+               "e.g. the host was throttling us). Hosts that answer 403/429 are not asked again in the same run.",
+               "moments": dict(sorted(per.items(), key=idkey))})
+    jdump(st, path)
+    gone = [k for k, v in per.items() if v.get("listed_now") is False]
+    p(f"Live check: {len(per) - len(gone)} still listed, {len(gone)} not in the current listings; -> data/live_status.json")
+    apply_health()
+
+
+def cdn_ok(code): return code in (200, 206)
+
+
+def apply_health(quiet=False):
+    """Write ipfs_health / ipfs_missing / listed_now / status into data/highlights.json and data/at_risk.md."""
+    hp = os.path.join(DATA, "highlights.json"); hl = jload(hp)
+    man = jload(os.path.join(DATA, "manifest.json"), {}) or {}
+    cids = (jload(os.path.join(DATA, "ipfs_status.json"), {}) or {}).get("cids") or {}
+    live = (jload(os.path.join(DATA, "live_status.json"), {}) or {}).get("moments") or {}
+    counts, risk = {}, []
+    for r in hl:
+        k = str(r["id"]); h, miss = health_of(moment_files(man.get(k, {})), cids)
+        r["ipfs_health"] = h
+        if miss: r["ipfs_missing"] = miss
+        else: r.pop("ipfs_missing", None)
+        lv = live.get(k) or {}
+        if "listed_now" in lv:
+            r["listed_now"] = lv["listed_now"]
+            if lv["listed_now"] is False:
+                if r.get("status") != "delisted": r["status_before_delisting"] = r.get("status", "unverified")
+                r["status"] = "delisted"
+            elif r.get("status") == "delisted":
+                r["status"] = r.pop("status_before_delisting", "unverified")
+        counts[h] = counts.get(h, 0) + 1
+        if miss: risk.append((r, miss, lv))
+    jdump(hl, hp)
+    write_at_risk(risk, len(hl), counts, cids)
+    if not quiet:
+        p("IPFS health: " + ", ".join(f"{counts.get(h, 0)} {h}" for h in HEALTH)
+          + f"; {sum(1 for r in hl if r.get('status') == 'delisted')} delisted -> data/highlights.json, data/at_risk.md")
+    return counts
+
+
+AT_RISK_HEAD = """# Moments at risk
+
+These NHL Breakaway moments have **original files that could not be reached on IPFS** in the last check
+(`python breakaway.py check-ipfs`, then `--recheck` on at least two gateways). "Missing" means no gateway we
+asked could serve it. That can mean nobody pins it anymore, or just that it's very cold, so treat it as at risk,
+not proven lost.
+
+> **Did you download any of these?** Please check your copies with `python breakaway.py verify`:
+> a file marked **original** matches the official sha256 and is the real thing. If you have one, help
+> re-pin it (`ipfs add` the file on your own node: it gets the same CID back) or open an issue so
+> others know a copy exists. To grab them while the CDN still has them:
+> `python breakaway.py covers --at-risk` and `python breakaway.py videos --at-risk`. Note that the CDN serves
+> re-encoded videos, so a CDN copy is better than nothing but isn't the original.
+
+"""
+
+
+def write_at_risk(risk, total, counts, cids):
+    checked = len(cids)
+    idx = cid_index(); by_t = {}
+    for c, e in idx.items():
+        b_ = by_t.setdefault(e["type"], [0, 0]); b_[0] += 1; b_[1] += 1 if c in cids else 0
+    cov = ", ".join(f"{t} {v[1]:,}/{v[0]:,}" for t, v in sorted(by_t.items(), key=lambda x: TYPE_ORDER.index(x[0])))
+    gone = sum(1 for e in cids.values() if e.get("verdict") == "gone")
+    first_only = sum(1 for e in cids.values() if not e.get("ok") and e.get("verdict") != "gone")
+    partial = ""
+    if not all(c in cids for c in idx):
+        partial = ("\n> **PARTIAL SCAN.** Not every file has been checked yet (checked/total: " + cov + "). "
+                   "Thumbnails are mostly unchecked, so they don't count toward `unchecked` health. "
+                   f"{gone} file(s) failed twice on up to 4 gateways (`gone`); {first_only} failed the first pass only and "
+                   "weren't re-checked yet. Anyone can finish the scan: `python breakaway.py check-ipfs --full` (it resumes, "
+                   "skipping files checked in the last 30 days), then `check-ipfs --recheck`, then `health`.\n")
+    lines = [AT_RISK_HEAD + partial, f"Generated {now()[:16].replace('T', ' ')} UTC from `data/ipfs_status.json` ({checked:,} CIDs checked) "
+             f"and `data/live_status.json`. {len(risk)} of {total:,} moments have at least one missing file.\n",
+             "| IPFS health | moments |", "|---|---|"] + [f"| {h} | {counts.get(h, 0)} |" for h in HEALTH] + [""]
+    def cdn(lv, key):
+        c = lv.get(key)
+        return "-" if c is None and key not in lv else ("yes" if cdn_ok(c) else f"no ({c})")
+    order = {"all_missing": 0, "video_missing": 1, "some_missing": 2}
+    risk.sort(key=lambda x: (order.get(x[0]["ipfs_health"], 3), idkey(str(x[0]["id"]))))
+    lines += ["| Card | Player | Set | Rarity | Health | Missing on IPFS | CDN cover | CDN video | Listed now |",
+              "|---|---|---|---|---|---|---|---|---|"]
+    for r, miss, lv in risk:
+        lines.append(f"| {r['id']} | {r['player']} | {r['set']} | {r.get('rarity', '')} | {r['ipfs_health']} | {', '.join(miss)} "
+                     f"| {cdn(lv, 'cdn_cover')} | {cdn(lv, 'cdn_video')} | {'-' if 'listed_now' not in lv else ('yes' if lv['listed_now'] else 'no')} |")
+    if not risk: lines.append("| - | none | | | | | | | |")
+    open(os.path.join(DATA, "at_risk.md"), "w", encoding="utf-8").write("\n".join(lines) + "\n")
+
+
+def cmd_health(a): apply_health()
 
 
 # ------------------------------------------------------------------ pin (help keep the files alive)
@@ -1037,6 +1253,90 @@ def parse_moment_refs(items):
     return out
 
 
+# ------------------------------------------------------------------ "my collection" (local and private)
+# my_cards.txt / my_cards.csv is YOUR file: it is read locally, never uploaded or sent anywhere, and is in .gitignore.
+MINE = None          # {card id: [edition numbers you listed]} when --mine is used
+SITE_PLAYER_RE = re.compile(r"/player/(\d+)\b")
+MINE_DEFAULT = "my_cards.txt"
+
+
+def mine_lines(path):
+    """[(raw line, values to try in order, edition or None)]: plain lines, or CSV rows (any column names).
+    The Fifth Line export header is card_id,url,series_id,token_id,edition,player,set: matched on card_id,
+    then url, then series_id+token_id."""
+    txt = open(path, encoding="utf-8-sig", errors="replace").read()
+    lines = [ln for ln in txt.splitlines() if ln.strip() and not ln.lstrip().startswith("#")]
+    if not lines: return []
+    is_csv = path.lower().endswith(".csv") or ("," in lines[0] and not URL_RE.search(lines[0].split(",")[0] or "x"))
+    if not is_csv: return [(ln.strip(), [ln.strip()], None) for ln in lines]
+    rows = list(csv.reader(lines))
+    head = [re.sub(r"[^a-z0-9]+", "_", h.strip().lower()).strip("_") for h in rows[0]]
+    looks_header = not any(URL_RE.search(c) or SITE_PLAYER_RE.search(c) or c.strip().isdigit() for c in rows[0])
+    body = rows[1:] if looks_header else rows
+    col = lambda *names: next((i for i, h in enumerate(head) if looks_header and h in names), None)
+    c_id = col("card_id", "cardid", "id", "card", "card_number")
+    c_url = col("url", "link", "card_url", "breakaway_url", "nft_url", "site_url")
+    c_ser, c_tok, c_ed = col("series_id", "series"), col("token_id", "token"), col("edition", "edition_number", "serial")
+    pref = [i for i, h in enumerate(head) if looks_header and re.search(r"url|link|card.?id|^id$|token|moment", h)]
+    out = []
+    for r in body:
+        g = lambda i: r[i].strip() if i is not None and i < len(r) else ""
+        cells = [g(c_id), g(c_url)]
+        if g(c_ser) and g(c_tok): cells.append(f"{g(c_ser)}/{g(c_tok)}")
+        # other id-like columns, then any other column holding a link (a bare number there may be a quantity)
+        cells += [r[i] for i in pref if i < len(r)] + [c for i, c in enumerate(r) if i not in pref and (not pref or not c.strip().isdigit())]
+        ed = g(c_ed).lstrip("#")
+        out.append((",".join(r), [c.strip() for c in cells if c and c.strip()], int(ed) if ed.isdigit() else None))
+    return out
+
+
+def load_mine(path, quiet=False):
+    """-> ({card id: [editions]}, [unmatched lines]). Accepts NHL Breakaway URLs (any edition), series/token,
+    archive card ids, and https://thefifthlinecode.onrender.com/player/<id> links, as text lines or a CSV."""
+    if not os.path.exists(path):
+        sys.exit(f"Can't find your card list: {path}\nMake a text file with one card per line (see README: Show only my cards).")
+    links = jload(os.path.join(DATA, "links.json"), {}) or {}
+    by_moment = {}
+    for k, v in links.items():
+        try: by_moment[(v["series_id"], int(v["token_id"]) >> 48)] = k
+        except (KeyError, ValueError, TypeError): pass
+    ids = {str(r["id"]) for r in jload(os.path.join(DATA, "highlights.json"), [])}
+    def card_of(c):
+        """(card id, edition from a URL or None) for one value, or None."""
+        m = URL_RE.search(c)
+        if m:
+            sid, tok = m.group(1) or m.group(3), int(m.group(2) or m.group(4))
+            k = by_moment.get((sid, tok >> 48))
+            return (k, (tok & 0xFFFFFFFFFFFF) + 1) if k else None   # edition number = low 48 bits + 1
+        m = SITE_PLAYER_RE.search(c)
+        if m and m.group(1) in ids: return (m.group(1), None)
+        if c.isdigit() and c in ids and len(c) <= 6: return (c, None)
+        return None
+    mine, unmatched = {}, []
+    for raw, cells, ed in mine_lines(path):
+        hit = next((h for h in map(card_of, cells) if h), None)
+        if not hit: unmatched.append(raw); continue
+        edition = ed or hit[1] or next((h[1] for h in map(card_of, cells) if h and h[0] == hit[0] and h[1]), None)
+        eds = mine.setdefault(hit[0], [])
+        if edition and edition not in eds: eds.append(edition)
+    for v in mine.values(): v.sort()
+    if not quiet:
+        p(f"My cards ({os.path.basename(path)}, read on this computer only, nothing is sent anywhere): "
+          f"{len(mine)} moment(s), {sum(len(v) for v in mine.values())} edition number(s); {len(unmatched)} line(s) not matched")
+        for u in unmatched[:20]: p(f"  not matched: {u[:120]}")
+        if len(unmatched) > 20: p(f"  ... and {len(unmatched) - 20} more")
+    return mine, unmatched
+
+
+def mine_only(rows):
+    return rows if MINE is None else [r for r in rows if str(r["id"]) in MINE]
+
+
+def my_editions(r):
+    eds = (MINE or {}).get(str(r["id"])) or []
+    return ", ".join(f"#{e}" for e in eds)
+
+
 def cmd_add(a):
     items = list(a.refs or [])
     extra = os.path.join(DATA, "extra_moments.txt")
@@ -1105,12 +1405,14 @@ td:first-child{color:#8b9aa8;white-space:nowrap;word-break:normal}a{color:#60a5f
 </style></head><body>
 <header><input id="q" placeholder="Search player, set, description…" size="30">
 <select id="f_team"></select><select id="f_set"></select><select id="f_rarity"></select><select id="f_series"></select>
+<label id="minebox" style="display:none;align-self:center"><input type="checkbox" id="f_mine" checked> My cards</label>
 <span id="count"></span></header>
 <div id="grid"></div><button id="more">Show more</button>
-<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at <a href="__ISSUES__">__ISSUES__</a>.<br>__WARRANTY__</footer>
+<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at <a href="__ISSUES__">__ISSUES__</a>.<br>__TAGLINE__ __WARRANTY__</footer>
 <div id="dlg"><div id="box"></div></div>
 <script>
 const DATA = __DATA__;
+const HAS_MINE = DATA.some(r=>r.mine);if(HAS_MINE)document.getElementById('minebox').style.display='';
 const GW = __GATEWAYS__;
 const $ = s => document.querySelector(s);
 const F = {team:'team', set:'set', rarity:'rarity', series:'series'};
@@ -1129,10 +1431,11 @@ function nextSrc(img){const a=(img.dataset.alts||'').split('|').filter(Boolean);
 let list=[],shown=0;
 function apply(){const q=$('#q').value.toLowerCase();
   const fv={team:$('#f_team').value,set:$('#f_set').value,rarity:$('#f_rarity').value,series:$('#f_series').value};
-  list=DATA.filter(r=>(!q||r.text.includes(q))&&Object.entries(fv).every(([k,v])=>!v||r.s[k]===v));
+  const onlyMine=HAS_MINE&&$('#f_mine').checked;
+  list=DATA.filter(r=>(!onlyMine||r.mine)&&(!q||r.text.includes(q))&&Object.entries(fv).every(([k,v])=>!v||r.s[k]===v));
   shown=0;$('#grid').innerHTML='';more();}
 function more(){const part=list.slice(shown,shown+120);shown+=part.length;
-  $('#grid').insertAdjacentHTML('beforeend',part.map(r=>`<div class="card" data-i="${r.i}">${imgTag(r)}<div><b>${esc(r.s.player)}</b><small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`).join(''));
+  $('#grid').insertAdjacentHTML('beforeend',part.map(r=>`<div class="card" data-i="${r.i}">${imgTag(r)}<div><b>${esc(r.s.player)}</b>${r.mine?`<small style="color:#facc15">yours ${esc(r.s.my_editions||'')}</small>`:''}<small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`).join(''));
   $('#count').textContent=`${list.length} of ${DATA.length} highlights`;$('#more').style.display=shown<list.length?'':'none';}
 function rowsOf(o,pre=''){let out=[];if(o&&typeof o==='object'){for(const[k,v]of Object.entries(o)){out=out.concat(rowsOf(v,pre?pre+'.'+k:k))}}else out.push([pre,o]);return out}
 function link(v){v=String(v??'');if(/^https?:\/\//.test(v))return `<a href="${esc(v)}" target="_blank">${esc(v)}</a>`;
@@ -1159,7 +1462,7 @@ function open_(i){const r=DATA[i],s=r.s;
 $('#grid').onclick=e=>{const c=e.target.closest('.card');if(c)open_(+c.dataset.i)};
 $('#dlg').onclick=e=>{if(e.target.id==='dlg')$('#dlg').style.display='none'};
 document.onkeydown=e=>{if(e.key==='Escape')$('#dlg').style.display='none'};
-['#q','#f_team','#f_set','#f_rarity','#f_series'].forEach(s=>$(s).oninput=apply);$('#more').onclick=more;apply();
+['#q','#f_team','#f_set','#f_rarity','#f_series','#f_mine'].forEach(s=>{const e=$(s);if(e){e.oninput=apply;e.onchange=apply}});$('#more').onclick=more;apply();
 </script></body></html>"""
 
 
@@ -1178,8 +1481,9 @@ def cmd_view(a):
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
                      "local_cover": rel(cp) if cp else "", "local_video": rel(vp) if os.path.exists(vp) else "",
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
+                     "mine": MINE is not None and str(r["id"]) in MINE,
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
-    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY))
+    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE))
     open(os.path.join(vd, "index.html"), "w", encoding="utf-8").write(out)
     p(f"Wrote {os.path.relpath(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
       f"{sum(1 for d in data if d['local_cover'])} local covers, {sum(1 for d in data if d['local_video'])} local videos). Open it in a browser.")
@@ -1228,6 +1532,8 @@ def cmd_album(a):
         return not val or any(val.lower() in str(f or "").lower() for f in fields)
     rows = [r for r in rows if has(a.set, r["_s"]["set"], r["_s"]["list_set"]) and has(a.series, r["_s"]["series"])
             and has(a.player, r["_s"]["player"]) and has(a.team, r["_s"]["team"], r["team"])]
+    if a.at_risk: rows = [r for r in rows if r.get("ipfs_missing")]
+    rows = mine_only(rows)
     if not rows: sys.exit("No highlights match those filters.")
     if any(not cover_path(r) for r in rows) and not OFFLINE:
         p("Some covers aren't downloaded yet; fetching them first (IPFS first). Use --offline to skip."); cmd_covers(a, rows)
@@ -1245,7 +1551,7 @@ def cmd_album(a):
     for s in secs:
         start[id(s)] = page; page += 1 + -(-len(s[2]) // per)
     total_pages = page - 1
-    out = os.path.abspath(a.out or os.path.join(OUT, "album.pdf")); os.makedirs(os.path.dirname(out), exist_ok=True)
+    out = os.path.abspath(a.out or os.path.join(OUT, "my_album.pdf" if MINE is not None else "album.pdf")); os.makedirs(os.path.dirname(out), exist_ok=True)
     c = canvas.Canvas(out, pagesize=(TW + 2 * BL, TH + 2 * BL), pageCompression=1)
     c.setTitle("Breakaway Highlights Album"); c.setAuthor("breakaway-data (unofficial fan archive)")
     state = {"n": 0}
@@ -1354,7 +1660,8 @@ def cmd_album(a):
                     c.setStrokeGray(0.7); c.rect(x0, y_top - ih, w, ih); yt = y_top - ih - lh
                 c.setFillGray(0); c.setFont("Helvetica-Bold", fs + 1)
                 c.drawString(x0, yt, fit(s_["player"], "Helvetica-Bold", fs + 1, w - 40))
-                c.setFont("Helvetica-Bold", fs); c.setFillGray(0.45); c.drawRightString(x0 + w, yt, f"#{s_['row']}")
+                c.setFont("Helvetica-Bold", fs); c.setFillGray(0.45)
+                c.drawRightString(x0 + w, yt, f"yours: {s_['my_editions']}" if s_.get("my_editions") else f"#{s_['row']}")
                 c.setFillGray(0.15); c.setFont("Helvetica", fs)
                 for k, ln in enumerate((s_["team"], " · ".join(x for x in (s_["date"], s_["play"]) if x),
                                         (f"{s_['rarity']} · edition size {s_['editions']:,}" if isinstance(s_["editions"], int) else f"{s_['rarity']} · edition size {s_['editions']}") if s_["editions"] else s_["rarity"])):
@@ -1379,7 +1686,8 @@ CONFIG_KEYS = {   # breakaway.config.json key -> argparse dest (a flag on the co
 DEFAULTS = {"gateway": [], "concurrency": 6, "media_concurrency": 2, "ipfs_concurrency": 2, "output_dir": "output",
             "video_dir": None, "viewer_dir": "viewer", "ipfs_only": False, "cdn_first": False, "offline": False,
             "issues_url": None}
-COMMANDS = ["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album", "check-ipfs", "pin"]
+COMMANDS = ["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album", "check-ipfs", "pin",
+            "check-live", "health"]
 
 
 def main(argv=None):
@@ -1394,7 +1702,7 @@ def main(argv=None):
     g.add_argument("--offline", action="store_true", default=None, help="never use the network; work from local files only")
     g.add_argument("--concurrency", type=int, default=None, help="parallel metadata requests to NHL Breakaway (1-8, default 6)")
     g.add_argument("--media-concurrency", type=int, default=None, help="parallel cover/video downloads (1-4, default 2)")
-    g.add_argument("--ipfs-concurrency", type=int, default=None, help="check-ipfs: parallel checks (1-4, default 2)")
+    g.add_argument("--ipfs-concurrency", type=int, default=None, help="check-ipfs: parallel checks (1-6, default 2)")
     g.add_argument("--gateway", action="append", default=None, help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
     g.add_argument("--ipfs-only", action="store_true", default=None, help="covers/videos: IPFS gateways only, never the NHL Breakaway CDN")
     g.add_argument("--cdn-first", action="store_true", default=None, help="covers/videos: try the CDN before IPFS (faster, but videos come re-encoded)")
@@ -1414,10 +1722,15 @@ def main(argv=None):
     m.add_argument("--viewer-dir", default=None, help="view: where index.html goes (default viewer/)")
     c = ap.add_argument_group("check-ipfs / pin")
     c.add_argument("--sample", type=int, default=200, help="check-ipfs: how many CIDs to sample (default 200)")
+    c.add_argument("--recheck", action="store_true", help="check-ipfs: retry only the unreachable ones on up to 4 gateways (uncached vs gone)")
+    c.add_argument("--no-cdn", action="store_true", help="check-live: only check the set listings, not the CDN")
+    g.add_argument("--mine", nargs="?", const=MINE_DEFAULT, default=None, metavar="PATH",
+                   help="covers/videos/build/view/album/pin: only the cards in your own list (default my_cards.txt; read locally, never sent anywhere)")
+    g.add_argument("--at-risk", action="store_true", help="covers/videos/pin/album: only moments whose originals are missing on IPFS (data/at_risk.md)")
     c.add_argument("--full", action="store_true", help="check-ipfs: check every CID (13k+, takes hours)")
     c.add_argument("--seed", type=int, default=1, help="check-ipfs: sample seed (same seed = same sample)")
     c.add_argument("--max-age", type=float, default=30, help="check-ipfs: skip CIDs checked within this many days")
-    c.add_argument("--types", help="pin: only these file types, e.g. video,cover (types: " + ", ".join(TYPE_ORDER) + ")")
+    c.add_argument("--types", help="pin / check-ipfs --recheck: only these file types, e.g. video,cover (types: " + ", ".join(TYPE_ORDER) + ")")
     c.add_argument("--kubo", action="store_true", help="pin: pin on your own IPFS (Kubo) node with `ipfs pin add`")
     c.add_argument("--service", help="pin: pinata | filebase | <Pinning Service API URL>; token in PIN_SERVICE_TOKEN")
     al = ap.add_argument_group("album")
@@ -1448,11 +1761,18 @@ def main(argv=None):
     OUT = a.output_dir
     if not a.video_dir: a.video_dir = os.path.join(OUT, "videos")
     THR = Throttle(max(1, min(int(a.concurrency), 8))); MEDIA_CONC = max(1, min(int(a.media_concurrency), 4))
-    a.ipfs_concurrency = max(1, min(int(a.ipfs_concurrency), 4))
+    a.ipfs_concurrency = max(1, min(int(a.ipfs_concurrency), 6))
     user_gw = [x if x.rstrip("/").endswith("/ipfs") or x.endswith("/ipfs/") else x.rstrip("/") + "/ipfs/" for x in a.gateway]
     GATEWAYS = list(dict.fromkeys([x.rstrip("/") + "/" for x in user_gw] + DEFAULT_GATEWAYS))
     IPFS_ONLY, CDN_FIRST, OFFLINE = bool(a.ipfs_only), bool(a.cdn_first), bool(a.offline)
     if a.issues_url: ISSUES_URL = a.issues_url
+    global MINE
+    MINE = None
+    if a.mine is not None and a.command in ("covers", "videos", "build", "view", "album", "pin"):
+        path = a.mine if os.path.isabs(a.mine) or os.path.exists(a.mine) else os.path.join(ROOT, a.mine)
+        if a.mine == MINE_DEFAULT and not os.path.exists(path) and os.path.exists(os.path.join(ROOT, "my_cards.csv")):
+            path = os.path.join(ROOT, "my_cards.csv")   # The Fifth Line export
+        MINE, _ = load_mine(path)
     if OFFLINE and (a.command in ("fetch", "add", "videos", "check-ipfs", "all", "covers") or (a.command == "pin" and (a.kubo or a.service))):
         sys.exit(f"`{a.command}` needs the network; drop --offline.")
     if a.command in ("fetch", "all"): cmd_fetch(a)
@@ -1460,7 +1780,7 @@ def main(argv=None):
     if a.command in ("build", "all"): cmd_build(a)
     if a.command in ("package", "all"): cmd_package(a)
     {"videos": cmd_videos, "verify": cmd_verify, "add": cmd_add, "view": cmd_view, "album": cmd_album,
-     "check-ipfs": cmd_check_ipfs, "pin": cmd_pin}.get(a.command, lambda a: None)(a)
+     "check-ipfs": cmd_check_ipfs, "pin": cmd_pin, "check-live": cmd_check_live, "health": cmd_health}.get(a.command, lambda a: None)(a)
 
 
 # ------------------------------------------------------------------ interactive menu (no arguments)
@@ -1474,6 +1794,7 @@ MENU = """
   7) Check my downloaded files (verify)
   8) Help keep the files alive (IPFS pinning)
   9) Check which IPFS files are still online (quick sample)
+ 10) Show only my cards (uses your my_cards.csv or my_cards.txt)
   0) Quit"""
 
 
@@ -1509,6 +1830,7 @@ def run(argv):
 
 def menu():
     p("NHL Breakaway highlight archive (unofficial fan preservation tool)")
+    p(TAGLINE)
     p(WARRANTY + " Personal archival use only.")
     p(f"Files are saved in: {OUT}")
     while True:
@@ -1551,6 +1873,29 @@ def menu():
             if m == "2": argv.append("--kubo")
             elif m == "3": argv += ["--service", ask("Service: pinata or filebase", "pinata")]
             run(argv)
+        elif c == "10":
+            dflt = os.path.join(ROOT, MINE_DEFAULT)
+            p(f"""SHOW ONLY MY CARDS (optional). Your list stays on this computer; it is never uploaded or sent anywhere.
+  Step 1 - get your export: open https://thefifthlinecode.onrender.com, search your wallet address to open
+    your portfolio, optionally filter by player, then click "Export my cards" (next to Compress) to download
+    my_cards.csv.
+  Step 2 - put my_cards.csv in this folder: {ROOT}
+  The Fifth Line lists most moments (~1,800 of ~1,970), so the export is a head start, not a must:
+    add any missing cards to the same file, one line each with the card's NHL Breakaway link or
+    seriesId/tokenId. A moment missing from the archive itself can be added with option 6.
+  No export? Make a plain text file my_cards.txt here instead, one card per line: a card number
+    from this archive (like 22) or the card's NHL Breakaway link.
+  Doesn't work? Check the file is in the folder above, not renamed (or type its path below),
+    and not empty (export again without a player filter).
+""")
+            csvp = os.path.join(ROOT, "my_cards.csv")
+            path = ask("Your list (press Enter for this one)", dflt if os.path.exists(dflt) else (csvp if os.path.exists(csvp) else dflt))
+            if not os.path.exists(path): p("Couldn't find that file yet. Make it, then choose 10 again."); ask("\nPress Enter to go back to the menu"); continue
+            what = ask("Now make: 1) album  2) viewer  3) spreadsheet  4) get covers  5) get videos", "1")
+            cmd = {"1": "album", "2": "view", "3": "build", "4": "covers", "5": "videos"}.get(what, "album")
+            if run([cmd, "--mine", path]) and cmd == "view":
+                import webbrowser
+                webbrowser.open("file://" + os.path.abspath(os.path.join(ROOT, "viewer", "index.html")).replace(os.sep, "/"))
         elif c == "9":
             run(["check-ipfs", "--sample", ask("How many to check", "100")])
         else:
