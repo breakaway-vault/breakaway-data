@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v1.1.0 (2026-10-20)
 
 * Full IPFS availability scan of all 14,739 CIDs, plus `check-ipfs --recheck` (retry failures on up to 4 gateways; verdict `uncached` vs `gone`).
 * New `check-live`: is each moment still in NHL Breakaway's current set listings, and does the CDN still serve its cover and video (`data/live_status.json`).
