@@ -15,3 +15,10 @@ __pycache__/
 viewer/
 drive/
 preview/
+# standalone app builds
+build/
+dist/
+*.spec
+# your own settings (copy breakaway.config.example.json)
+breakaway.config.json
+*.new

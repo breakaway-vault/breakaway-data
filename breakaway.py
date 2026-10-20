@@ -3,21 +3,24 @@
 breakaway-data: a preservation archive of NHL Breakaway highlight metadata.
 
 USAGE
+  python breakaway.py                     # no arguments: simple numbered menu (also what the standalone app shows)
   python breakaway.py all                 # fetch (only new/missing) -> covers -> build -> package
   python breakaway.py fetch [--refresh] [--ids 12,40] [--discover]
                                           # highlight->token links + raw nft. metadata for the card list
-  python breakaway.py covers              # full-res cover art into output/covers_full/ (sha256-checked)
+  python breakaway.py covers [--repair]   # full-res cover art into output/covers_full/ (IPFS first, sha256-checked)
   python breakaway.py build               # OFFLINE: rebuild output/highlights.xlsx from data/ only
   python breakaway.py package             # output/covers/, covers.zip, Breakaway-Highlights.zip
-  python breakaway.py videos [--out-dir DIR] [--limit N] [--series "Series 3"] [--ids 12,40] [--yes]
-                                          # OPT-IN video download (asks y/n after a size estimate)
-  python breakaway.py verify              # re-hash data/meta, covers and any videos against stored sha256
+  python breakaway.py videos [--video-dir DIR] [--limit N] [--player/--team/--set/--series ..] [--ids ..] [--yes] [--repair]
+                                          # OPT-IN video download, IPFS originals first (asks y/n after a size estimate)
+  python breakaway.py verify              # re-hash data/meta, covers and videos: original / reencoded / unverified
   python breakaway.py add <url|seriesId/tokenId> ...   # add moments (also reads data/extra_moments.txt)
   python breakaway.py album [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..] [--series ..] [--player ..]
                             [--team ..] [--bleed] [--out file.pdf] [--max-px N --jpeg Q]   # printable PDF album
   python breakaway.py view                # offline viewer/index.html (search, filters, details, video)
-  IPFS: --gateway URL (repeatable) adds gateways tried first; --ipfs-only skips the Breakaway CDN.
-  Common flags: --concurrency N (default 6, max 8) for nft.nhlbreakaway.com / CDN requests.
+  python breakaway.py check-ipfs [--sample N | --full]   # which IPFS CIDs still answer -> data/ipfs_status.json
+  python breakaway.py pin [--kubo | --service pinata|filebase|URL] [--types video,cover]   # help keep files alive
+  IPFS: --gateway URL (repeatable) adds gateways tried first; --ipfs-only never uses the Breakaway CDN;
+        --offline never touches the network. Settings: breakaway.config.json (see breakaway.config.example.json).
 
 SOURCES (all public, no login)
   card list     data/highlights.json (committed), plus moments added with `add` / data/extra_moments.txt,
@@ -26,21 +29,47 @@ SOURCES (all public, no login)
                 set + player + series; existing links in data/links.json are kept as they are
   on-chain-ish  https://nft.nhlbreakaway.com/series/<series>/<token>  saved byte-for-byte to data/meta/<id>.json
   off-chain     raw set listings + set completion + quest data in data/offchain/
-  covers/video  nft.nhlbreakaway.com image CDN and mediagateway.sweet.io (output/, gitignored)
+  covers/video  IPFS gateways first (the originals), then the nft.nhlbreakaway.com / mediagateway.sweet.io CDN,
+                which now serves re-encoded videos (output/, gitignored; output/download_log.json says which)
 
 IDS
   "id" in data/highlights.json is the card id from the original card list (1..1818, not contiguous). Moments
   added later (`add`, `fetch --discover`) get the next free numbers and "on_site": false.
 """
 import argparse, base64, concurrent.futures as cf, csv, datetime as dt, hashlib, html, io, json, os, re
-import sys, threading, time, unicodedata, urllib.error, urllib.request, zipfile
+import sys, threading, time, unicodedata, urllib.error, urllib.parse, urllib.request, zipfile
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+FROZEN = getattr(sys, "frozen", False)          # running as the standalone app (PyInstaller)
+ROOT = os.path.dirname(os.path.abspath(sys.executable if FROZEN else __file__))
+
+
+def _app_root():
+    """Standalone app: use the data/ folder next to the app if there is one (so it can be updated);
+    otherwise unpack the copy bundled inside the app next to it (or into ~/Breakaway-Archive if that folder is read-only)."""
+    if not FROZEN or os.path.isdir(os.path.join(ROOT, "data")): return ROOT
+    home = os.path.join(os.path.expanduser("~"), "Breakaway-Archive")
+    if os.path.isdir(os.path.join(home, "data")) and not os.access(ROOT, os.W_OK): return home
+    bundled = os.path.join(getattr(sys, "_MEIPASS", ""), "data.zip")
+    if not os.path.exists(bundled): return ROOT
+    for base in (ROOT, os.path.join(os.path.expanduser("~"), "Breakaway-Archive")):
+        try:
+            os.makedirs(base, exist_ok=True); print(f"First run: unpacking the archive data into {base}/data ...", flush=True)
+            with zipfile.ZipFile(bundled) as z: z.extractall(base)
+            return base
+        except OSError: continue
+    return ROOT
+
+
+ROOT = _app_root()
 DATA, OUT, CACHE = (os.path.join(ROOT, d) for d in ("data", "output", "cache"))
 NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
-HDR = {"User-Agent": UA, "Referer": "https://nhlbreakaway.com/", "Origin": "https://nhlbreakaway.com"}
+HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
+WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
+ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
+OFFLINE = False          # --offline: never touch the network (build/view/album from local files only)
+MEDIA_CONC = 2           # parallel media downloads per run (each host is also throttled separately)
 
 
 def p(*a): print(*a, flush=True)
@@ -52,7 +81,9 @@ def jload(path, default=None):
     return json.load(open(path, encoding="utf-8")) if os.path.exists(path) else default
 def jdump(obj, path):
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    tmp = path + ".tmp"; json.dump(obj, open(tmp, "w", encoding="utf-8"), indent=1, ensure_ascii=False); os.replace(tmp, path)
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f: json.dump(obj, f, indent=1, ensure_ascii=False)
+    os.replace(tmp, path)
 def wbytes(path, b):
     os.makedirs(os.path.dirname(path), exist_ok=True); tmp = path + ".part"
     open(tmp, "wb").write(b); os.replace(tmp, path)
@@ -72,6 +103,7 @@ THR = Throttle(6)
 
 def http(url, method="GET", tries=6, timeout=60, thr=None, headers=None):
     """Returns (status, bytes, headers). 401/403/404 are final (never worked around)."""
+    if OFFLINE: return None, None, None
     thr = thr or THR
     for i in range(tries):
         thr.sem.acquire(); time.sleep(thr.delay)
@@ -84,7 +116,7 @@ def http(url, method="GET", tries=6, timeout=60, thr=None, headers=None):
             if e.code in (400, 401, 403, 404, 410):
                 return e.code, None, e.headers
             thr.bad(); ra = e.headers.get("Retry-After") if e.headers else None
-            time.sleep(float(ra) if ra and ra.isdigit() else min(60, 2 ** (i + 1)))
+            time.sleep(min(300, float(ra)) if ra and ra.isdigit() else min(60, 2 ** (i + 1)))
         except Exception:
             thr.bad(); time.sleep(min(60, 2 ** (i + 1)))
         finally:
@@ -340,7 +372,9 @@ def summary(r):
         "cover_url": front.get("url", ""), "cover_ipfs": (front.get("altloc") or {}).get("ipfs", ""), "cover_sha256": front.get("sha256", ""),
         "video_url": vid, "breakaway_url": ln.get("source_url", "").replace("nft.nhlbreakaway.com/series", "nhlbreakaway.com/series"),
         "meta_url": ln.get("source_url", ""), "id": r["id"], "on_site": "yes" if r.get("on_site", True) else "no",
-        "site_url": r.get("site_url", ""),
+        "site_url": r.get("site_url", ""), "status": r.get("status", "unverified"), "status_basis": r.get("status_basis", ""),
+        "video_ipfs": asset_ipfs(d, "primary-asset")[0] or "", "video_sha256": asset_ipfs(d, "primary-asset")[1] or "",
+        "card_image_ipfs": asset_ipfs(d, "card-image")[0] or "",
         "moment_uuid": ln.get("moment_uuid", ""), "raw_meta_path": ln.get("meta_path", ""),
         "offchain_path": ln.get("offchain_path", ""), "link_via": ln.get("link_via", ""),
         "source": " + ".join(x for x, ok in (("card list", True), ("nft. metadata", bool(r["_meta"])), ("Breakaway off-chain", bool(r["_off"]))) if ok),
@@ -365,10 +399,11 @@ def cover_path(r):
 COLS = [("row", "#"), ("cover", "Cover"), ("player", "Player"), ("team", "Team"), ("position", "Pos"), ("jersey", "Jersey"),
         ("date", "Highlight Date"), ("play", "Play"), ("tagline", "Highlight"), ("period", "Period"), ("clock", "Clock"),
         ("final_score", "Final Score"), ("venue", "Venue"), ("flags", "Flags"), ("set", "Set"), ("list_set", "Set (list label)"),
-        ("series", "Series"), ("rarity", "Rarity"), ("editions", "Edition Size"), ("description", "Description"),
+        ("series", "Series"), ("rarity", "Rarity"), ("editions", "Edition Size"), ("status", "Status"), ("status_basis", "Status Basis"), ("description", "Description"),
         ("issued", "Released"), ("audio", "Audio"), ("lowest_ask", "Lowest Ask"), ("fmv", "FMV"),
         ("cover_url", "Cover Art (full res)"), ("cover_ipfs", "Cover IPFS CID"), ("cover_sha256", "Cover sha256"),
-        ("video_url", "Video"), ("breakaway_url", "NHL Breakaway Page"), ("meta_url", "Metadata URL"),
+        ("video_url", "Video"), ("video_ipfs", "Video IPFS CID"), ("video_sha256", "Video sha256"),
+        ("card_image_ipfs", "Card Image IPFS CID"), ("breakaway_url", "NHL Breakaway Page"), ("meta_url", "Metadata URL"),
         ("cover_file", "Cover File"), ("id", "Card ID"), ("on_site", "In Original List"), ("site_url", "Card List Page"),
         ("moment_uuid", "Moment UUID"), ("raw_meta_path", "raw_meta_path"), ("offchain_path", "offchain_path"),
         ("link_via", "How Linked"), ("source", "Data Source"), ("missing", "Missing / Notes")]
@@ -438,33 +473,208 @@ def cmd_build(a):
     wb.save(os.path.join(OUT, "highlights.xlsx"))
     jdump([{k: v for k, v in r["_s"].items()} for r in rows], os.path.join(OUT, "highlights_summary.json"))
     n = sum(1 for r in rows if r["_meta"]); o = sum(1 for r in rows if r["_off"])
-    p(f"Built output/highlights.xlsx: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
+    p(f"Built {os.path.relpath(os.path.join(OUT, 'highlights.xlsx'), ROOT)}: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
       f"{sum(1 for r in rows if cover_path(r))} with cover thumbnails, {len(cols)} flattened fields")
     return rows
 
 
+# ------------------------------------------------------------------ media: IPFS-first, sha256-verified
+# Sweet's mediagateway now serves RE-ENCODED videos whose bytes no longer match the sha256 in the metadata.
+# The IPFS CIDs in the metadata point at the ORIGINAL files, so media is fetched from IPFS gateways first
+# and every file is checked against the metadata sha256. The NHL Breakaway CDN is only a last resort, and
+# anything taken from it that doesn't match is kept but logged as "reencoded".
+DEFAULT_GATEWAYS = ["https://ipfs.filebase.io/ipfs/", "https://gateway.pinata.cloud/ipfs/", "https://ipfs.io/ipfs/",
+                    "https://dweb.link/ipfs/", "https://w3s.link/ipfs/", "https://4everland.io/ipfs/"]
+GATEWAYS = list(DEFAULT_GATEWAYS)
+IPFS_ONLY = False
+CDN_FIRST = False
+COOLDOWN = {}            # host -> unix time before which we don't ask it again (after a 429)
+HOST_THR = {}
+_HLOCK = threading.Lock()
+
+
+def host_of(u): return urllib.parse.urlsplit(u).netloc
+
+
+def host_thr(u, n=2, base=0.4):
+    """One polite throttle per host, shared by every thread."""
+    with _HLOCK:
+        return HOST_THR.setdefault(host_of(u), Throttle(n, base))
+
+
+def cool(u, retry_after=None):
+    try: s = float(retry_after)
+    except (TypeError, ValueError): s = 60.0
+    with _HLOCK: COOLDOWN[host_of(u)] = time.time() + min(max(s, 30.0), 900.0)
+
+
+def cooled(u):
+    return COOLDOWN.get(host_of(u), 0) > time.time()
+
+
+def ipfs_url(gw, cid): return gw.rstrip("/") + "/" + cid.replace("ipfs://", "").strip("/")
+
+
+def sources(primary, cid, ipfs_only=None):
+    """[(kind, url)]: IPFS gateways first (originals), the NHL Breakaway CDN last (may be re-encoded)."""
+    ipfs_only = IPFS_ONLY if ipfs_only is None else ipfs_only
+    out = [("ipfs", ipfs_url(g, cid)) for g in GATEWAYS] if cid else []
+    if primary and not ipfs_only:
+        out = [("cdn", primary)] + out if CDN_FIRST else out + [("cdn", primary)]
+    return out
+
+
+def candidate_urls(primary, cid): return [u for _, u in sources(primary, cid)]
+
+
+def sha_ok(b, expected):
+    return (not expected) or b64sha(b).rstrip("=") == expected.rstrip("=")
+
+
+def file_sha_b64(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for ch in iter(lambda: f.read(1 << 20), b""): h.update(ch)
+    return base64.urlsafe_b64encode(h.digest()).decode()
+
+
+def file_matches(path, expected):
+    return bool(expected) and file_sha_b64(path).rstrip("=") == expected.rstrip("=")
+
+
+def stream_to(url, part, kind, timeout=120):
+    """Stream url into part (resuming a partial file). Returns 'ok', 429, an HTTP code, or 'err'."""
+    if OFFLINE: return "offline"
+    thr = host_thr(url); have = os.path.getsize(part) if os.path.exists(part) else 0
+    hdr = dict(HDR) if kind == "cdn" else {"User-Agent": UA}
+    if have: hdr["Range"] = f"bytes={have}-"
+    thr.sem.acquire(); time.sleep(thr.delay)
+    try:
+        with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=timeout) as r:
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            if "text/html" in ctype: thr.bad(); return "err"          # gateway error page, not the file
+            with open(part, "ab" if have and r.status == 206 else "wb") as f:
+                for ch in iter(lambda: r.read(1 << 20), b""): f.write(ch)
+        thr.ok(); return "ok"
+    except urllib.error.HTTPError as e:
+        if e.code in (429, 503):
+            thr.bad(); cool(url, e.headers.get("Retry-After") if e.headers else None); return 429
+        if e.code == 416 and have: return "ok"                        # already complete
+        if e.code in (400, 401, 403, 404, 410, 451): return e.code
+        thr.bad(); return "err"
+    except Exception:
+        thr.bad(); return "err"
+    finally:
+        thr.sem.release()
+
+
+class DownloadLog:
+    """output/download_log.json: where every downloaded file came from and whether it is the original."""
+    def __init__(self):
+        self.path = os.path.join(OUT, "download_log.json"); self.lock = threading.Lock()
+        self.d = jload(self.path, {}) or {}; self.n = 0
+    def get(self, kind, key): return (self.d.get(kind) or {}).get(str(key))
+    def set(self, kind, key, rec):
+        with self.lock:
+            self.d.setdefault(kind, {})[str(key)] = rec; self.n += 1
+            if self.n % 25 == 0: jdump(self.d, self.path)
+    def save(self):
+        with self.lock: jdump(self.d, self.path)
+
+
+def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
+    """Download one file, IPFS first. Returns 'original', 'reencoded', 'unverified' or None (failed).
+    'original' = bytes match the metadata sha256. 'reencoded' = only the CDN had it and its bytes differ."""
+    part = dest + ".part"; os.makedirs(os.path.dirname(dest), exist_ok=True)
+    for src_kind, url in sources(primary, cid, ipfs_only):
+        if cooled(url): continue
+        if os.path.exists(part): os.remove(part)                      # never mix bytes from two sources
+        res = None
+        for attempt in range(3):
+            res = stream_to(url, part, src_kind, timeout=25 if src_kind == "ipfs" else 60)   # per-read timeout, not total
+            if res != "err": break
+            if not (os.path.exists(part) and os.path.getsize(part)): break   # never started: next source
+            time.sleep(min(60, 3 * 2 ** attempt))                     # broke mid-file: back off, resume
+        if res != "ok": continue
+        b64 = file_sha_b64(part)
+        if sha and b64.rstrip("=") == sha.rstrip("="): status = "original"
+        elif not sha: status = "unverified"
+        elif src_kind == "cdn": status = "reencoded"
+        else: os.remove(part); continue                               # a gateway served other bytes: try the next
+        os.replace(part, dest)
+        log.set(kind, key, {"file": os.path.relpath(dest, ROOT), "status": status, "source": src_kind,
+                            "host": host_of(url), "sha256": b64, "expected_sha256": sha, "bytes": os.path.getsize(dest),
+                            "cid": (cid or "").replace("ipfs://", ""), "at": now()})
+        return status
+    if os.path.exists(part): os.remove(part)
+    return None
+
+
+def asset_ipfs(meta, purpose_or_path):
+    """(IPFS CID, sha256) for a media purpose ('primary-asset', 'card-image', ...) or image key ('front')."""
+    d = meta or {}
+    if purpose_or_path in (d.get("images") or {}):
+        x = d["images"][purpose_or_path]; return (x.get("altloc") or {}).get("ipfs"), x.get("sha256")
+    for m in (d.get("assets") or {}).get("media") or []:
+        if m.get("purpose") == purpose_or_path: return (m.get("altloc") or {}).get("ipfs"), m.get("sha256")
+    return None, None
+
+
+def get_with_fallback(primary, cid, timeout=120):
+    for _, u in sources(primary, cid):
+        if cooled(u): continue
+        st, b, _ = http(u, timeout=timeout, tries=2, thr=host_thr(u))
+        if b: return b, u
+        if st == 429: cool(u)
+    return None, None
+
+
 # ------------------------------------------------------------------ covers
-def cmd_covers(a):
-    rows = load_model(); cd = os.path.join(OUT, "covers_full"); os.makedirs(cd, exist_ok=True)
-    stats = {"ok": 0, "cached": 0, "fail": 0, "sha_mismatch": 0}; lock = threading.Lock()
+def cover_dest(r, url):
+    ext = os.path.splitext((url or "").split("?")[0])[1] or ".png"
+    return os.path.join(OUT, "covers_full", f"{r['id']}{ext}")
+
+
+def pick(rows, a):
+    if getattr(a, "series", None): rows = [r for r in rows if r["_s"]["series"].lower() == a.series.lower()]
+    if getattr(a, "set", None): rows = [r for r in rows if a.set.lower() in (r["_s"]["set"] or "").lower()]
+    if getattr(a, "player", None): rows = [r for r in rows if a.player.lower() in (r["_s"]["player"] or "").lower()]
+    if getattr(a, "team", None): rows = [r for r in rows if a.team.lower() in (r["_s"]["team"] or "").lower()]
+    if getattr(a, "ids", None):
+        want = {x.strip() for x in a.ids.split(",") if x.strip()}; rows = [r for r in rows if str(r["id"]) in want]
+    return rows
+
+
+def cmd_covers(a, rows=None):
+    rows = rows if rows is not None else pick(sort_rows(load_model()), a)[: getattr(a, "limit", None) or None]
+    if getattr(a, "ask", False):
+        missing = [r for r in rows if not cover_path(r)]
+        p(f"{len(rows)} covers selected, {len(rows) - len(missing)} already saved, {len(missing)} to download "
+          f"(about {len(missing) * 0.87:,.0f} MB).")
+        if missing and len(missing) > 20 and not yes("Download them now?", True): p("Cancelled."); return
+    log = DownloadLog(); stats = {"original": 0, "reencoded": 0, "unverified": 0, "cached": 0, "failed": 0, "repaired": 0}
+    lock = threading.Lock()
     def one(r):
         d = r["_meta"] or {}; front = (d.get("images") or {}).get("front") or {}; url = front.get("url")
-        if not url: return
-        ext = os.path.splitext(url.split("?")[0])[1] or ".png"; fp = os.path.join(cd, f"{r['id']}{ext}")
-        if os.path.exists(fp): 
-            with lock: stats["cached"] += 1
+        cid, sha = asset_ipfs(d, "front")
+        if not url and not cid: return
+        fp = cover_path(r) or cover_dest(r, url)
+        if os.path.exists(fp):
+            if not (a.repair and sha and not file_matches(fp, sha)):
+                with lock: stats["cached"] += 1
+                return
+            st = fetch_asset(None, cid, sha, fp, log, "cover", r["id"], ipfs_only=True)   # replace with the original
+            with lock: stats["repaired" if st == "original" else "failed"] += 1
             return
-        cid, _ = asset_ipfs(d, "front")
-        b, used = get_with_fallback(url, cid)
-        with lock:
-            if not b: stats["fail"] += 1; return
-            if front.get("sha256") and b64sha(b).rstrip("=") != front["sha256"].rstrip("="): stats["sha_mismatch"] += 1
-            wbytes(fp, b); stats["ok"] += 1
-    with cf.ThreadPoolExecutor(THR.sem._value) as ex:
+        st = fetch_asset(url, cid, sha, fp, log, "cover", r["id"])
+        with lock: stats[st or "failed"] += 1
+    with cf.ThreadPoolExecutor(max(1, min(MEDIA_CONC, 4))) as ex:
         for n, _ in enumerate(ex.map(one, rows), 1):
             if n % 250 == 0: p(f"  covers {n}/{len(rows)}")
+    log.save()
+    cd = os.path.join(OUT, "covers_full"); os.makedirs(cd, exist_ok=True)
     size = sum(os.path.getsize(os.path.join(cd, f)) for f in os.listdir(cd))
-    p(f"Covers: {stats}; output/covers_full = {size/1e6:.0f} MB")
+    p(f"Covers: {stats}; {os.path.relpath(cd, ROOT)} = {size/1e6:.0f} MB")
 
 
 # ------------------------------------------------------------------ package for sharing
@@ -524,79 +734,67 @@ def cmd_package(a):
         D = zipfile.ZIP_DEFLATED
         z.write(os.path.join(OUT, "highlights.xlsx"), "Breakaway-Highlights/highlights.xlsx", D)
         z.writestr("Breakaway-Highlights/README.txt", readme, D)
-        z.write(os.path.abspath(__file__), "Breakaway-Highlights/breakaway.py", D)
-        z.write(os.path.join(ROOT, "requirements.txt"), "Breakaway-Highlights/requirements.txt", D)
+        for src, name in ((os.path.abspath(__file__), "breakaway.py"), (os.path.join(ROOT, "requirements.txt"), "requirements.txt")):
+            if not FROZEN and os.path.exists(src): z.write(src, f"Breakaway-Highlights/{name}", D)
         for fn in names: z.write(os.path.join(cov, fn), f"Breakaway-Highlights/covers/{fn}", zipfile.ZIP_STORED)
     p(f"Packaged {zp} ({os.path.getsize(zp)/1e6:.0f} MB, {len(names)} covers)")
 
 
 # ------------------------------------------------------------------ videos (opt-in)
-def video_size(url):
-    """Size from a 1-byte ranged GET (Content-Range total); falls back to HEAD."""
-    st, _, h = http(url, timeout=30, headers={"Range": "bytes=0-0"})
-    m = re.search(r"/(\d+)$", (h or {}).get("Content-Range", "") or "")
-    if m: return int(m.group(1))
-    st, _, h = http(url, method="HEAD", timeout=30)
-    return int(h["Content-Length"]) if h and h.get("Content-Length") else None
+def video_size(r):
+    """Size from a 1-byte ranged GET (Content-Range total) on the first source that answers."""
+    cid, _ = asset_ipfs(r["_meta"], "primary-asset")
+    for kind, u in sources(r["_s"]["video_url"], cid)[:3]:
+        if cooled(u): continue
+        st, _, h = http(u, timeout=20, tries=1, thr=host_thr(u), headers={"Range": "bytes=0-0"})
+        if st == 429: cool(u); continue
+        m = re.search(r"/(\d+)$", (h or {}).get("Content-Range", "") or "")
+        if m: return int(m.group(1))
+    return None
 
 
 def cmd_videos(a):
-    rows = sort_rows(load_model())
-    if a.series: rows = [r for r in rows if r["_s"]["series"].lower() == a.series.lower()]
-    if a.ids: want = {x.strip() for x in a.ids.split(",") if x.strip()}; rows = [r for r in rows if str(r["id"]) in want]
-    rows = [r for r in rows if r["_s"]["video_url"]]
+    rows = [r for r in pick(sort_rows(load_model()), a) if r["_s"]["video_url"] or asset_ipfs(r["_meta"], "primary-asset")[0]]
     if a.limit: rows = rows[: a.limit]
-    out = os.path.abspath(a.out_dir); os.makedirs(out, exist_ok=True)
+    out = os.path.abspath(a.video_dir); os.makedirs(out, exist_ok=True)
     def fname(r): return os.path.join(out, video_name(r))
+    log = DownloadLog()
+    repair = []
+    if a.repair:   # files that exist but aren't the original (e.g. re-encoded CDN copies): replace from IPFS
+        for r in rows:
+            fp = fname(r); _, sh = asset_ipfs(r["_meta"], "primary-asset")
+            if os.path.exists(fp) and sh and not file_matches(fp, sh): repair.append(r)
     todo = [r for r in rows if not os.path.exists(fname(r))]
-    p(f"{len(rows)} videos selected, {len(rows) - len(todo)} already saved, {len(todo)} to download into {out}")
-    if not todo: return
-    sample = todo if len(todo) <= 30 else todo[:: max(1, len(todo) // 30)][:30]
-    sizes = []
-    for r in sample:
-        cid, _ = asset_ipfs(r["_meta"], "primary-asset")
-        n = next((x for x in (video_size(u) for u in candidate_urls(r["_s"]["video_url"], cid)[:2]) if x), None)
-        if n: sizes.append(n)
-    est = (sum(sizes) / len(sizes) * len(todo)) if sizes else None
+    p(f"{len(rows)} videos selected, {len(rows) - len(todo)} already saved, {len(todo)} to download into {out}"
+      + (f", {len(repair)} to repair from IPFS" if a.repair else ""))
+    if not todo and not repair: return
+    sample = todo if len(todo) <= 20 else todo[:: max(1, len(todo) // 20)][:20]
+    sizes = [n for n in (video_size(r) for r in sample) if n]
+    est = (sum(sizes) / len(sizes) * (len(todo) + len(repair))) if sizes else None
     p(f"Estimated total: {est/1e9:.2f} GB (avg {sum(sizes)/len(sizes)/1e6:.1f} MB from {len(sizes)} size checks)" if est else "Could not estimate size.")
     if not a.yes and input("Download now? [y/N] ").strip().lower() not in ("y", "yes"): p("Cancelled."); return
-    def one(r):
-        dst = fname(r); part = dst + ".part"; have = os.path.getsize(part) if os.path.exists(part) else 0
-        cid, _ = asset_ipfs(r["_meta"], "primary-asset")
-        urls = candidate_urls(r["_s"]["video_url"], cid)
-        for i in range(6):
-            src = urls[min(i // 2, len(urls) - 1)]  # 2 tries per source, then the next gateway
-            THR.sem.acquire(); time.sleep(THR.delay)
-            try:
-                hdr = {**HDR, **({"Range": f"bytes={have}-"} if have else {})}
-                with urllib.request.urlopen(urllib.request.Request(src, headers=hdr), timeout=120) as resp:
-                    mode = "ab" if have and resp.status == 206 else "wb"
-                    with open(part, mode) as f:
-                        while True:
-                            ch = resp.read(1 << 20)
-                            if not ch: break
-                            f.write(ch)
-                os.replace(part, dst); THR.ok(); return True
-            except urllib.error.HTTPError as e:
-                if e.code in (401, 403, 404) and i // 2 >= len(urls) - 1: p(f"  skip {r['id']}: HTTP {e.code}"); return False
-                THR.bad(); time.sleep(min(60, 2 ** (i + 1)))
-            except Exception:
-                THR.bad(); time.sleep(min(60, 2 ** (i + 1)))
-                have = os.path.getsize(part) if os.path.exists(part) else 0
-            finally: THR.sem.release()
-        return False
-    with cf.ThreadPoolExecutor(THR.sem._value) as ex:
-        ok = sum(1 for x in ex.map(one, todo) if x)
-    p(f"Videos: {ok}/{len(todo)} downloaded to {out}")
+    stats = {"original": 0, "reencoded": 0, "unverified": 0, "failed": 0}; lock = threading.Lock()
+    def one(r, ipfs_only=None):
+        cid, sh = asset_ipfs(r["_meta"], "primary-asset"); dst = fname(r)
+        if ipfs_only:   # repair: download next to the old file, swap only if we got the original
+            tmp = dst + ".new"
+            st = fetch_asset(None, cid, sh, tmp, log, "video", r["id"], ipfs_only=True)
+            if st == "original": os.replace(tmp, dst); log.d["video"][str(r["id"])]["file"] = os.path.relpath(dst, ROOT)
+            elif os.path.exists(tmp): os.remove(tmp)
+        else:
+            st = fetch_asset(r["_s"]["video_url"], cid, sh, dst, log, "video", r["id"])
+        with lock: stats[st or "failed"] += 1
+        if not st: p(f"  failed {r['id']} ({r['player']}): no source answered")
+        elif st == "reencoded": p(f"  {r['id']}: only the CDN had it; saved, but it is a re-encoded copy (not the original)")
+        return st
+    with cf.ThreadPoolExecutor(max(1, min(MEDIA_CONC, 4))) as ex:
+        list(ex.map(one, todo))
+        list(ex.map(lambda r: one(r, True), repair))
+    log.save()
+    p(f"Videos: {stats} -> {out}  (log: {os.path.relpath(log.path, ROOT)})")
 
 
-# ------------------------------------------------------------------ IPFS / gateways / preservation
-DEFAULT_GATEWAYS = ["https://ipfs.io/ipfs/", "https://dweb.link/ipfs/", "https://w3s.link/ipfs/",
-                    "https://gateway.pinata.cloud/ipfs/", "https://4everland.io/ipfs/"]
-GATEWAYS = list(DEFAULT_GATEWAYS)
-IPFS_ONLY = False
-
-
+# ------------------------------------------------------------------ IPFS / preservation
 def write_cids(man):
     """data/cids.txt: one CID per line (deduplicated) so anyone can `ipfs pin add` them."""
     seen = {}
@@ -606,70 +804,222 @@ def write_cids(man):
             seen.setdefault(cid, f"{k} {x['path']}")
     with open(os.path.join(DATA, "cids.txt"), "w") as f:
         f.write("# IPFS CIDs referenced by the NHL Breakaway metadata in data/meta/ (deduplicated)\n")
-        f.write("# pin all:  grep -v '^#' data/cids.txt | cut -d' ' -f1 | xargs -n 50 ipfs pin add\n")
+        f.write("# pin them:  python breakaway.py pin --kubo   (or see README: Help keep it alive)\n")
         for cid, where in seen.items(): f.write(f"{cid}  # {where}\n")
     return len(seen)
 
 
-def asset_ipfs(meta, purpose_or_path):
-    """IPFS CID for a media purpose ('primary-asset', 'card-image', ...) or image key ('front')."""
-    d = meta or {}
-    if purpose_or_path in (d.get("images") or {}):
-        x = d["images"][purpose_or_path]; return (x.get("altloc") or {}).get("ipfs"), x.get("sha256")
-    for m in (d.get("assets") or {}).get("media") or []:
-        if m.get("purpose") == purpose_or_path: return (m.get("altloc") or {}).get("ipfs"), m.get("sha256")
-    return None, None
+TYPE_ORDER = ["video", "cover", "card-image", "cover-16x9", "poster", "thumbnail", "other"]
 
 
-def candidate_urls(primary, cid):
-    urls = [] if IPFS_ONLY or not primary else [primary]
-    if cid:
-        c = cid.replace("ipfs://", "").strip("/")
-        urls += [g.rstrip("/") + "/" + c for g in GATEWAYS]
-    return urls
+def asset_type(path):
+    """Classify a manifest ipfs entry ('images.front', 'assets.media[3]' + url) into a simple file type."""
+    s = path.lower()
+    if "video" in s or "primary-asset" in s: return "video"
+    if "card-image" in s: return "card-image"
+    if "poster" in s: return "poster"
+    if re.search(r"(350|500)x", s): return "thumbnail"
+    if "16x9" in s: return "cover-16x9"
+    if "front" in s: return "cover"
+    return "other"
 
 
-def get_with_fallback(primary, cid, timeout=120):
-    for u in candidate_urls(primary, cid):
-        st, b, _ = http(u, timeout=timeout, tries=3)
-        if b: return b, u
-    return None, None
+def cid_index(man=None, rows=None):
+    """{cid: {"type", "ids": [card ids], "sha256"}} for every CID in the manifest (optionally only some cards)."""
+    man = man if man is not None else (jload(os.path.join(DATA, "manifest.json"), {}) or {})
+    keep = None if rows is None else {str(r["id"]) for r in rows}
+    idx = {}
+    for k, e in sorted(man.items(), key=idkey):
+        if keep is not None and str(k) not in keep: continue
+        for x in e.get("ipfs") or []:
+            cid = x["ipfs"].replace("ipfs://", "").strip("/")
+            t = asset_type(f"{x.get('path', '')} {(x.get('url') or '').rsplit('/', 1)[-1]}")
+            d = idx.setdefault(cid, {"type": t, "ids": [], "sha256": x.get("sha256")})
+            if TYPE_ORDER.index(t) < TYPE_ORDER.index(d["type"]): d["type"] = t
+            if k not in d["ids"]: d["ids"].append(k)
+    return idx
 
 
-def sha_ok(b, expected):
-    return (not expected) or b64sha(b).rstrip("=") == expected.rstrip("=")
+CHECK_GATEWAYS, CHECK_TIMEOUT = 2, 20
+
+
+def check_one(cid):
+    """Range 0-0 GET on up to CHECK_GATEWAYS gateways. Reachable = any of them returns the first byte."""
+    tried = []
+    gws = list(GATEWAYS)
+    if len(gws) > 1 and int(hashlib.md5(cid.encode()).hexdigest(), 16) % 2: gws[0], gws[1] = gws[1], gws[0]   # share the load
+    for g in gws:
+        u = ipfs_url(g, cid)
+        if cooled(u): continue
+        if len(tried) >= CHECK_GATEWAYS: break
+        thr = host_thr(u, n=2, base=0.5)
+        st, _, h = http(u, tries=1, timeout=CHECK_TIMEOUT, thr=thr, headers={"Range": "bytes=0-0"})
+        tried.append(f"{host_of(u)}:{st}")
+        if st in (200, 206):
+            return {"ok": True, "gateway": host_of(u), "http": st, "tried": tried}
+        if st == 429: cool(u, (h or {}).get("Retry-After"))
+    return {"ok": False, "gateway": None, "http": None, "tried": tried}
+
+
+def ipfs_summary(cids, idx):
+    by = {}
+    for cid, e in cids.items():
+        t = (idx.get(cid) or {}).get("type") or e.get("type") or "other"
+        b = by.setdefault(t, {"checked": 0, "reachable": 0, "unreachable": 0})
+        b["checked"] += 1; b["reachable" if e.get("ok") else "unreachable"] += 1
+    tot = {k: sum(b[k] for b in by.values()) for k in ("checked", "reachable", "unreachable")}
+    return {"total_cids": len(idx), **tot, "by_type": dict(sorted(by.items(), key=lambda x: TYPE_ORDER.index(x[0])))}
+
+
+def cmd_check_ipfs(a):
+    """Lightweight reachability check of IPFS CIDs. Default: a stratified sample; --full: every CID (slow)."""
+    idx = cid_index(); path = os.path.join(DATA, "ipfs_status.json")
+    st = jload(path, {}) or {}; cids = st.get("cids") or {}
+    import random
+    rnd = random.Random(a.seed)
+    if a.full: pool = list(idx)
+    else:
+        by = {}
+        for cid, e in idx.items(): by.setdefault(e["type"], []).append(cid)
+        pool = []
+        for t, lst in sorted(by.items()):
+            k = min(len(lst), max(15, round(a.sample * len(lst) / len(idx))))
+            pool += rnd.sample(sorted(lst), k)
+    fresh = time.time() - a.max_age * 86400
+    def is_fresh(c):
+        t = (cids.get(c) or {}).get("checked_at")
+        try: return time.mktime(time.strptime(t[:19], "%Y-%m-%dT%H:%M:%S")) > fresh and not a.refresh
+        except Exception: return False
+    todo = [c for c in pool if not is_fresh(c)]
+    p(f"check-ipfs: {len(idx)} CIDs in the archive; checking {len(todo)} "
+      f"({'full scan' if a.full else f'stratified sample of {len(pool)}'}; {len(pool) - len(todo)} checked recently) "
+      f"via {', '.join(host_of(g) for g in GATEWAYS[:3])}...")
+    lock = threading.Lock(); n = [0]
+    def one(c):
+        r = check_one(c); r.update({"type": idx[c]["type"], "checked_at": now(), "example_id": idx[c]["ids"][0]})
+        with lock:
+            cids[c] = r; n[0] += 1
+            if n[0] % 20 == 0:
+                p(f"  {n[0]}/{len(todo)}"); st.update({"cids": dict(sorted(cids.items()))}); jdump(st, path)
+    with cf.ThreadPoolExecutor(max(1, min(a.ipfs_concurrency, 4))) as ex: list(ex.map(one, todo))
+    st.update({"updated_at": now(), "mode": "full" if a.full else "sample",
+               "note": ("Every CID checked." if a.full else
+                        f"Stratified random sample (seed {a.seed}); run `python breakaway.py check-ipfs --full` for every CID."),
+               "method": f"1-byte ranged GET, {CHECK_TIMEOUT}s timeout; reachable if any of the first {CHECK_GATEWAYS} "
+                         "gateways returns it. 'Not reachable' can also mean nobody has it cached right now (cold), not only lost.",
+               "gateways": [host_of(g) for g in GATEWAYS], "summary": ipfs_summary(cids, idx), "cids": dict(sorted(cids.items()))})
+    jdump(st, path)
+    s = st["summary"]
+    p(f"IPFS: {s['reachable']}/{s['checked']} reachable, {s['unreachable']} not (of {s['total_cids']} CIDs) -> data/ipfs_status.json")
+    for t, b in s["by_type"].items(): p(f"  {t:12s} {b['reachable']:>5}/{b['checked']:<5} reachable")
+
+
+# ------------------------------------------------------------------ pin (help keep the files alive)
+PIN_SERVICES = {   # IPFS Pinning Service API (https://ipfs.github.io/pinning-services-api-spec/)
+    "pinata": "https://api.pinata.cloud/psa",
+    "filebase": "https://api.filebase.io/v1/ipfs",
+}
+
+
+def cmd_pin(a):
+    rows = pick(sort_rows(load_model()), a); idx = cid_index(rows=rows)
+    types = {t.strip() for t in (a.types or "").split(",") if t.strip()}
+    if types: idx = {c: e for c, e in idx.items() if e["type"] in types}
+    pd = os.path.join(OUT, "pin"); os.makedirs(pd, exist_ok=True)
+    by = {}
+    for c, e in idx.items(): by.setdefault(e["type"], []).append(c)
+    for t, lst in by.items(): open(os.path.join(pd, f"{t}.txt"), "w").write("\n".join(lst) + "\n")
+    open(os.path.join(pd, "all.txt"), "w").write("\n".join(idx) + "\n")
+    p(f"Pin lists ({len(idx)} CIDs) in {os.path.relpath(pd, ROOT)}/: all.txt, " + ", ".join(f"{t}.txt ({len(v)})" for t, v in by.items()))
+    if not a.kubo and not a.service:
+        p("Nothing pinned. To pin: --kubo (your own IPFS node) or --service pinata|filebase|<API URL> "
+          "with your key in PIN_SERVICE_TOKEN. Start small, e.g. --types video,cover --series \"Series 1\".")
+        return
+    done_path = os.path.join(pd, f"pinned_{'kubo' if a.kubo else re.sub(r'[^a-z0-9]+', '_', a.service.lower())}.txt")
+    done = set(open(done_path).read().split()) if os.path.exists(done_path) else set()
+    todo = [c for c in idx if c not in done]
+    if a.limit: todo = todo[: a.limit]
+    p(f"{len(todo)} to pin ({len(done)} already done according to {os.path.relpath(done_path, ROOT)})")
+    if not todo: return
+    if not a.yes and input("Pin now? [y/N] ").strip().lower() not in ("y", "yes"): p("Cancelled."); return
+    ok = fail = 0
+    with open(done_path, "a") as log:
+        if a.kubo:
+            import shutil, subprocess
+            exe = shutil.which("ipfs")
+            if not exe: sys.exit("`ipfs` (Kubo) isn't on your PATH: https://docs.ipfs.tech/install/command-line/")
+            for i in range(0, len(todo), 20):
+                batch = todo[i:i + 20]
+                r = subprocess.run([exe, "pin", "add", "--progress=false", *batch], capture_output=True, text=True)
+                if r.returncode == 0: ok += len(batch); log.write("\n".join(batch) + "\n"); log.flush()
+                else:
+                    for c in batch:   # retry one by one so one bad CID doesn't block the rest
+                        if subprocess.run([exe, "pin", "add", "--progress=false", c], capture_output=True).returncode == 0:
+                            ok += 1; log.write(c + "\n"); log.flush()
+                        else: fail += 1
+                p(f"  {min(i + 20, len(todo))}/{len(todo)} (ok {ok}, failed {fail})")
+        else:
+            base = PIN_SERVICES.get(a.service.lower(), a.service).rstrip("/")
+            tok = os.environ.get("PIN_SERVICE_TOKEN")
+            if not tok: sys.exit("Set PIN_SERVICE_TOKEN to your pinning service API token (it is never saved).")
+            thr = Throttle(1, 0.5)
+            for i, c in enumerate(todo, 1):
+                body = json.dumps({"cid": c, "name": f"breakaway-{idx[c]['type']}-{idx[c]['ids'][0]}"}).encode()
+                for attempt in range(5):
+                    try:
+                        thr.sem.acquire(); time.sleep(thr.delay)
+                        req = urllib.request.Request(base + "/pins", data=body, method="POST", headers={
+                            "Authorization": f"Bearer {tok}", "Content-Type": "application/json", "User-Agent": UA})
+                        with urllib.request.urlopen(req, timeout=60): pass
+                        ok += 1; log.write(c + "\n"); log.flush(); thr.ok(); break
+                    except urllib.error.HTTPError as e:
+                        if e.code == 429 or e.code >= 500:
+                            thr.bad(); ra = e.headers.get("Retry-After") if e.headers else None
+                            time.sleep(float(ra) if ra and ra.isdigit() else min(120, 5 * 2 ** attempt)); continue
+                        if e.code in (401, 403): sys.exit(f"The pinning service refused the token (HTTP {e.code}).")
+                        fail += 1; p(f"  {c}: HTTP {e.code}"); break
+                    except Exception:
+                        thr.bad(); time.sleep(min(120, 5 * 2 ** attempt))
+                    finally: thr.sem.release()
+                else: fail += 1
+                if i % 25 == 0: p(f"  {i}/{len(todo)} (ok {ok}, failed {fail})")
+    p(f"Pinned {ok}, failed {fail}. Services pin asynchronously: check their dashboard for 'pinned' status.")
+
+
+# ------------------------------------------------------------------ verify
+def classify(path, expected, logrec):
+    if not expected: return "unverified"
+    if file_matches(path, expected): return "original"
+    if logrec and logrec.get("source") == "ipfs": return "corrupt"
+    return "reencoded"
 
 
 def cmd_verify(a):
     rows = load_model(); man = jload(os.path.join(DATA, "manifest.json"), {})
-    res = {"meta_ok": 0, "meta_bad": 0, "meta_missing": 0, "cover_ok": 0, "cover_bad": 0, "video_ok": 0, "video_bad": 0}
-    bad = []
+    res = {"meta_ok": 0, "meta_bad": 0, "meta_missing": 0}
+    files = {"cover": {}, "video": {}}; notes = []
     for k, e in sorted(man.items(), key=idkey):
         fp = os.path.join(DATA, "meta", f"{k}.json")
         if not os.path.exists(fp): res["meta_missing"] += 1; continue
         if hashlib.sha256(open(fp, "rb").read()).hexdigest() == e.get("sha256"): res["meta_ok"] += 1
-        else: res["meta_bad"] += 1; bad.append(f"meta {k}")
-    vdir = os.path.abspath(a.out_dir)
+        else: res["meta_bad"] += 1; notes.append(f"meta {k}: sha256 differs from manifest")
+    log = DownloadLog(); vdir = os.path.abspath(a.video_dir); per = {}
     for r in sort_rows(rows):
-        cp = cover_path(r)
-        if cp:
-            _, sh = asset_ipfs(r["_meta"], "front")
-            if sha_ok(open(cp, "rb").read(), sh): res["cover_ok"] += 1
-            else: res["cover_bad"] += 1; bad.append(f"cover {r['id']}")
-        vp = os.path.join(vdir, video_name(r))
-        if os.path.exists(vp):
-            _, sh = asset_ipfs(r["_meta"], "primary-asset")
-            h = hashlib.sha256()
-            with open(vp, "rb") as f:
-                for ch in iter(lambda: f.read(1 << 20), b""): h.update(ch)
-            ok = (not sh) or base64.urlsafe_b64encode(h.digest()).decode().rstrip("=") == sh.rstrip("=")
-            res["video_ok" if ok else "video_bad"] += 1
-            if not ok: bad.append(f"video {r['id']}")
-    jdump({"checked_at": now(), "results": res, "mismatches": bad}, os.path.join(OUT, "verify_report.json"))
-    p(f"Verify: {res}")
-    for b in bad[:50]: p("  mismatch:", b)
-    p("Note: a cover/video mismatch means the CDN now serves different bytes than the sha256 recorded in the "
-      "metadata; the IPFS copy (same CID) is the original.")
+        for kind, path, purpose in (("cover", cover_path(r), "front"),
+                                    ("video", os.path.join(vdir, video_name(r)), "primary-asset")):
+            if not path or not os.path.exists(path): continue
+            _, sh = asset_ipfs(r["_meta"], purpose); st = classify(path, sh, log.get(kind, r["id"]))
+            files[kind][st] = files[kind].get(st, 0) + 1; per.setdefault(str(r["id"]), {})[kind] = st
+            if st in ("reencoded", "corrupt"): notes.append(f"{kind} {r['id']}: {st}")
+    jdump({"checked_at": now(), "results": res, "files": files, "per_card": per, "not_original": notes},
+          os.path.join(OUT, "verify_report.json"))
+    p(f"Metadata: {res}")
+    for kind, d in files.items(): p(f"{kind.capitalize()}s: " + (", ".join(f"{v} {k}" for k, v in sorted(d.items())) or "none downloaded"))
+    for b in notes[:40]: p("  ", b)
+    if any(d.get("reencoded") or d.get("corrupt") for d in files.values()):
+        p("original = matches the sha256 in the NHL Breakaway metadata. reencoded = a different copy (the CDN "
+          "now re-encodes). Run the same command with --repair to replace them with originals from IPFS.")
+    p(f"Report: {os.path.relpath(os.path.join(OUT, 'verify_report.json'), ROOT)}")
 
 
 # ------------------------------------------------------------------ add moments by URL
@@ -725,7 +1075,7 @@ def add_refs(refs, via):
                 man[k]["offchain_path"] = f"data/offchain/sets/{at['Set UUID']}.json"
         rows.append({"id": int(k), "player": at.get("Player", d.get("name", "")), "set": at.get("Set", ""),
                      "rarity": at.get("Rarity", ""), "editions": int(at["Total Editions"]) if str(at.get("Total Editions", "")).isdigit() else None,
-                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "on_site": False})
+                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "on_site": False, "status": "unverified"})
         known_uuid[u] = k; known_tok[(sid, str(int(tok) >> 48))] = k; added += 1; p(f"  added {k}: {at.get('Player')} / {at.get('Set')}")
     rows.sort(key=lambda r: idkey(r["id"]))
     jdump(rows, os.path.join(DATA, "highlights.json"))
@@ -757,7 +1107,7 @@ td:first-child{color:#8b9aa8;white-space:nowrap;word-break:normal}a{color:#60a5f
 <select id="f_team"></select><select id="f_set"></select><select id="f_rarity"></select><select id="f_series"></select>
 <span id="count"></span></header>
 <div id="grid"></div><button id="more">Show more</button>
-<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at https://github.com/breakaway-vault/breakaway-data/issues.</footer>
+<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at <a href="__ISSUES__">__ISSUES__</a>.<br>__WARRANTY__</footer>
 <div id="dlg"><div id="box"></div></div>
 <script>
 const DATA = __DATA__;
@@ -768,8 +1118,11 @@ function opts(sel, key, label){const v=[...new Set(DATA.map(r=>r.s[key]).filter(
   sel.innerHTML=`<option value="">All ${label}</option>`+v.map(x=>`<option>${esc(x)}</option>`).join('');}
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 opts($('#f_team'),'team','teams');opts($('#f_set'),'set','sets');opts($('#f_rarity'),'rarity','rarities');opts($('#f_series'),'series','series');
-function ipfsUrl(cid){return cid?GW[0]+cid.replace('ipfs://',''):''}
-function imgTag(r,cls){const s=r.s;const alts=[r.local_cover,s.cover_url,ipfsUrl(s.cover_ipfs)].filter(Boolean);
+const cidOf=c=>String(c||'').replace('ipfs://','');
+function ipfsUrl(cid,g){return cid?(GW[g||0]||GW[0])+cidOf(cid):''}
+function ipfsAll(cid){return cid?GW.map((g,i)=>ipfsUrl(cid,i)):[]}
+// local file first (works offline), then the original via IPFS gateways, then the NHL Breakaway CDN last
+function imgTag(r,cls){const s=r.s;const alts=[r.local_cover,...ipfsAll(s.cover_ipfs),s.cover_url].filter(Boolean);
   return `<img loading="lazy" src="${esc(alts[0])}" data-alts="${esc(alts.slice(1).join('|'))}" onerror="nextSrc(this)" alt="">`}
 function nextSrc(img){const a=(img.dataset.alts||'').split('|').filter(Boolean);if(!a.length){img.onerror=null;return}
   img.src=a.shift();img.dataset.alts=a.join('|')}
@@ -779,19 +1132,29 @@ function apply(){const q=$('#q').value.toLowerCase();
   list=DATA.filter(r=>(!q||r.text.includes(q))&&Object.entries(fv).every(([k,v])=>!v||r.s[k]===v));
   shown=0;$('#grid').innerHTML='';more();}
 function more(){const part=list.slice(shown,shown+120);shown+=part.length;
-  $('#grid').insertAdjacentHTML('beforeend',part.map(r=>`<div class="card" data-i="${r.i}">${imgTag(r)}<div><b>${esc(r.s.player)}</b><small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small></div></div>`).join(''));
+  $('#grid').insertAdjacentHTML('beforeend',part.map(r=>`<div class="card" data-i="${r.i}">${imgTag(r)}<div><b>${esc(r.s.player)}</b><small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`).join(''));
   $('#count').textContent=`${list.length} of ${DATA.length} highlights`;$('#more').style.display=shown<list.length?'':'none';}
 function rowsOf(o,pre=''){let out=[];if(o&&typeof o==='object'){for(const[k,v]of Object.entries(o)){out=out.concat(rowsOf(v,pre?pre+'.'+k:k))}}else out.push([pre,o]);return out}
 function link(v){v=String(v??'');if(/^https?:\/\//.test(v))return `<a href="${esc(v)}" target="_blank">${esc(v)}</a>`;
   if(/^ipfs:\/\//.test(v))return `<a href="${esc(ipfsUrl(v))}" target="_blank">${esc(v)}</a>`;return esc(v)}
 function open_(i){const r=DATA[i],s=r.s;
-  const vids=[r.local_video,s.video_url,ipfsUrl(s.video_ipfs)].filter(Boolean);
+  const gwName=u=>u.split('/')[2];
   const video=r.local_video?`<video controls preload="metadata" src="${esc(r.local_video)}"></video>`:
-    `<p>Video: ${vids.map(v=>`<a href="${esc(v)}" target="_blank">${v.startsWith('http')&&v.includes('/ipfs/')?'IPFS copy':'stream / download'}</a>`).join(' · ')||'none'}</p>`;
+    `<p>Video (original, via IPFS): ${ipfsAll(s.video_ipfs).map(v=>`<a href="${esc(v)}" target="_blank">${esc(gwName(v))}</a>`).join(' · ')||'none'}
+     ${s.video_url?` · <a href="${esc(s.video_url)}" target="_blank">NHL Breakaway CDN</a> <small>(may be a re-encoded copy)</small>`:''}</p>`;
+  const st=v=>v?` <small>(local file: ${esc(v)})</small>`:'';
+  const ident=`<h3>Permanent identity (IPFS)</h3><table>
+   <tr><td>Cover CID</td><td>${s.cover_ipfs?`<a href="${esc(ipfsUrl(s.cover_ipfs))}" target="_blank">${esc(cidOf(s.cover_ipfs))}</a>`:'—'}${st(r.dl&&r.dl.cover)}</td></tr>
+   <tr><td>Cover sha256</td><td>${esc(s.cover_sha256)}</td></tr>
+   <tr><td>Video CID</td><td>${s.video_ipfs?`<a href="${esc(ipfsUrl(s.video_ipfs))}" target="_blank">${esc(cidOf(s.video_ipfs))}</a>`:'—'}${st(r.dl&&r.dl.video)}</td></tr>
+   <tr><td>Video sha256</td><td>${esc(s.video_sha256)}</td></tr>
+   <tr><td>Card image CID</td><td>${s.card_image_ipfs?`<a href="${esc(ipfsUrl(s.card_image_ipfs))}" target="_blank">${esc(cidOf(s.card_image_ipfs))}</a>`:'—'}</td></tr>
+   <tr><td>Status</td><td>${esc(s.status)}</td></tr></table>
+   <p><small>A CID is the file's fingerprint: any IPFS gateway or node can serve the exact original with it, even if NHL Breakaway is gone.</small></p>`;
   const tbl=(title,o)=>`<h3>${title}</h3><table>${rowsOf(o).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${link(v)}</td></tr>`).join('')}</table>`;
   $('#box').innerHTML=`<button onclick="$('#dlg').style.display='none'" style="float:right">Close</button>
   <h2>${esc(s.player)} — ${esc(s.set)}</h2>${imgTag(r)}${video}<p>${esc(s.description)}</p>
-  ${tbl('Summary',s)}${tbl('IPFS copies (CID / sha256)',r.ipfs)}${tbl('Source',r.src)}${tbl('All metadata (nft.nhlbreakaway.com)',r.meta||{})}${tbl('Off-chain (NHL Breakaway set listing)',r.off||{})}`;
+  ${ident}${tbl('Every IPFS file for this moment (CID / sha256)',r.ipfs)}${tbl('Summary',s)}${tbl('Source',r.src)}${tbl('All metadata (nft.nhlbreakaway.com)',r.meta||{})}${tbl('Off-chain (NHL Breakaway set listing)',r.off||{})}`;
   $('#dlg').style.display='block';$('#dlg').scrollTop=0;}
 $('#grid').onclick=e=>{const c=e.target.closest('.card');if(c)open_(+c.dataset.i)};
 $('#dlg').onclick=e=>{if(e.target.id==='dlg')$('#dlg').style.display='none'};
@@ -804,8 +1167,8 @@ def video_name(r): return f"{r['_s']['row']:04d}_{safe(r['player'])}_{safe(r['_s
 
 
 def cmd_view(a):
-    rows = sort_rows(load_model()); vd = os.path.join(ROOT, "viewer"); os.makedirs(vd, exist_ok=True)
-    vdir = os.path.abspath(a.out_dir); data = []
+    rows = sort_rows(load_model()); vd = os.path.abspath(a.viewer_dir); os.makedirs(vd, exist_ok=True)
+    vdir = os.path.abspath(a.video_dir); data = []; log = DownloadLog()
     for i, r in enumerate(rows):
         s = dict(r["_s"]); s["video_ipfs"], _ = asset_ipfs(r["_meta"], "primary-asset")
         cp = cover_path(r); vp = os.path.join(vdir, video_name(r))
@@ -814,10 +1177,11 @@ def cmd_view(a):
                      "ipfs": {e["path"]: f"{e['ipfs']}  sha256={e['sha256']}" for e in (r["_man"].get("ipfs") or [])},
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
                      "local_cover": rel(cp) if cp else "", "local_video": rel(vp) if os.path.exists(vp) else "",
-                     "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date")).lower()})
-    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS))
+                     "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
+                     "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
+    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY))
     open(os.path.join(vd, "index.html"), "w", encoding="utf-8").write(out)
-    p(f"Wrote viewer/index.html ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
+    p(f"Wrote {os.path.relpath(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
       f"{sum(1 for d in data if d['local_cover'])} local covers, {sum(1 for d in data if d['local_video'])} local videos). Open it in a browser.")
 
 
@@ -865,8 +1229,8 @@ def cmd_album(a):
     rows = [r for r in rows if has(a.set, r["_s"]["set"], r["_s"]["list_set"]) and has(a.series, r["_s"]["series"])
             and has(a.player, r["_s"]["player"]) and has(a.team, r["_s"]["team"], r["team"])]
     if not rows: sys.exit("No highlights match those filters.")
-    if any(not cover_path(r) for r in rows):
-        p("Some covers aren't downloaded yet; running `covers` first."); cmd_covers(a)
+    if any(not cover_path(r) for r in rows) and not OFFLINE:
+        p("Some covers aren't downloaded yet; fetching them first (IPFS first). Use --offline to skip."); cmd_covers(a, rows)
     secs = album_sections(rows)
     cols, rws = {"1up": (1, 1), "2x2": (2, 2), "3x3": (3, 3)}[a.layout]; per = cols * rws
     TW, TH = A4 if a.page == "a4" else letter            # trim size
@@ -926,7 +1290,7 @@ def cmd_album(a):
     first = min((r["_s"]["issued"] for r in rows if r["_s"]["issued"]), default=""); last = max((r["_s"]["issued"] for r in rows if r["_s"]["issued"]), default="")
     if first: c.drawCentredString(TW / 2, TH * 0.62 - 62, f"Released {first[:7]} to {last[:7]}")
     c.setFont("Helvetica", 7); c.setFillGray(0.75); y = M + 30
-    for ln in reversed(wrap(DISCLAIMER, "Helvetica", 7, TW - 2 * M)): c.drawCentredString(TW / 2, y, ln); y += 9
+    for ln in reversed(wrap(DISCLAIMER + " " + WARRANTY, "Helvetica", 7, TW - 2 * M)): c.drawCentredString(TW / 2, y, ln); y += 9
     end(number=False)
     # table of contents
     for tp in range(toc_pages):
@@ -973,7 +1337,7 @@ def cmd_album(a):
             for ln in wrap(desc, "Helvetica-Oblique", 9, TW - 3 * M)[:12]: c.drawCentredString(TW / 2, y, ln); y -= 12
         end()
         # card pages
-        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = 5 * lh + 6
+        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = 5 * lh + 8
         gw, gh = TW - 2 * M, TH - 2 * M - 22; cw, ch = gw / cols, gh / rws; pad = 8
         for i0 in range(0, len(rs), per):
             begin(); c.setFillGray(0.4); c.setFont("Helvetica", 8)
@@ -995,6 +1359,10 @@ def cmd_album(a):
                 for k, ln in enumerate((s_["team"], " · ".join(x for x in (s_["date"], s_["play"]) if x),
                                         (f"{s_['rarity']} · edition size {s_['editions']:,}" if isinstance(s_["editions"], int) else f"{s_['rarity']} · edition size {s_['editions']}") if s_["editions"] else s_["rarity"])):
                     c.drawString(x0, yt - (k + 1) * lh, fit(ln, "Helvetica", fs, w))
+                cid = (s_["cover_ipfs"] or "").replace("ipfs://", "")
+                if cid:   # the permanent IPFS address of this cover: the card's identity if the site goes away
+                    c.setFont("Courier", max(4.5, fs - 3)); c.setFillGray(0.45)
+                    c.drawString(x0, yt - 4 * lh - 1, fit(f"ipfs {cid}", "Courier", max(4.5, fs - 3), w))
             done += len(rs[i0:i0 + per]); end()
         p(f"  {setname}: {len(rs)} cards ({done}/{len(rows)})")
     c.save()
@@ -1002,44 +1370,197 @@ def cmd_album(a):
 
 
 
-def main():
-    global THR
-    ap = argparse.ArgumentParser(description="breakaway-data: NHL Breakaway highlight archive")
-    ap.add_argument("command", choices=["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album"])
+CONFIG_KEYS = {   # breakaway.config.json key -> argparse dest (a flag on the command line always wins)
+    "gateways": "gateway", "concurrency": "concurrency", "media_concurrency": "media_concurrency",
+    "ipfs_concurrency": "ipfs_concurrency", "output_dir": "output_dir", "video_dir": "video_dir",
+    "viewer_dir": "viewer_dir", "ipfs_only": "ipfs_only", "cdn_first": "cdn_first", "offline": "offline",
+    "issues_url": "issues_url",
+}
+DEFAULTS = {"gateway": [], "concurrency": 6, "media_concurrency": 2, "ipfs_concurrency": 2, "output_dir": "output",
+            "video_dir": None, "viewer_dir": "viewer", "ipfs_only": False, "cdn_first": False, "offline": False,
+            "issues_url": None}
+COMMANDS = ["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album", "check-ipfs", "pin"]
+
+
+def main(argv=None):
+    global THR, GATEWAYS, IPFS_ONLY, CDN_FIRST, OFFLINE, OUT, MEDIA_CONC, ISSUES_URL
+    ap = argparse.ArgumentParser(description="breakaway-data: NHL Breakaway highlight archive",
+                                 epilog="Settings can also go in breakaway.config.json (see breakaway.config.example.json).")
+    ap.add_argument("command", choices=COMMANDS)
     ap.add_argument("refs", nargs="*", help="add: NHL Breakaway URLs or seriesId/tokenId")
-    ap.add_argument("--gateway", action="append", default=[], help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
-    ap.add_argument("--ipfs-only", action="store_true", help="covers/videos: skip NHL Breakaway CDN, use IPFS gateways only")
-    ap.add_argument("--concurrency", type=int, default=6, help="parallel requests to NHL Breakaway / CDN (1-8, default 6)")
-    ap.add_argument("--refresh", action="store_true", help="fetch: re-download metadata (all, or just --ids) and set listings")
-    ap.add_argument("--discover", action="store_true", help="fetch: also add moments from NHL Breakaway set listings that aren't in the card list")
-    ap.add_argument("--out-dir", default=os.path.join(OUT, "videos"), help="videos: where to save")
-    ap.add_argument("--limit", type=int, help="videos: at most N; fetch --discover: add at most N")
-    ap.add_argument("--series", help='videos/album: only this series, e.g. "Series 3"')
-    ap.add_argument("--ids", help="fetch/videos: comma-separated card IDs (the id in data/highlights.json)")
-    ap.add_argument("--yes", action="store_true", help="videos: don't ask before downloading")
-    ap.add_argument("--layout", choices=["1up", "2x2", "3x3"], default="2x2", help="album: cards per page")
-    ap.add_argument("--page", choices=["letter", "a4"], default="letter", help="album: paper size")
-    ap.add_argument("--set", help="album: only sets whose name contains this")
-    ap.add_argument("--player", help="album: only this player (name contains)")
-    ap.add_argument("--team", help="album: only this team (name contains)")
-    ap.add_argument("--bleed", action="store_true", help="album: add 3 mm bleed and crop marks for print shops")
-    ap.add_argument("--out", help="album: output PDF path (default output/album.pdf)")
-    ap.add_argument("--max-px", type=int, default=0, help="album: downscale covers to this many pixels (smaller PDF)")
-    ap.add_argument("--jpeg", type=int, default=0, help="album: re-encode covers as JPEG at this quality (e.g. 80)")
-    a = ap.parse_args(); THR = Throttle(max(1, min(a.concurrency, 8)))
-    global GATEWAYS, IPFS_ONLY
-    GATEWAYS = [g if g.rstrip("/").endswith("/ipfs") else g.rstrip("/") + "/ipfs/" for g in a.gateway] + DEFAULT_GATEWAYS
-    IPFS_ONLY = a.ipfs_only
+    g = ap.add_argument_group("general")
+    g.add_argument("--config", help="settings file (default: breakaway.config.json next to this script, if present)")
+    g.add_argument("--output-dir", default=None, help="where generated files go (default output/)")
+    g.add_argument("--offline", action="store_true", default=None, help="never use the network; work from local files only")
+    g.add_argument("--concurrency", type=int, default=None, help="parallel metadata requests to NHL Breakaway (1-8, default 6)")
+    g.add_argument("--media-concurrency", type=int, default=None, help="parallel cover/video downloads (1-4, default 2)")
+    g.add_argument("--ipfs-concurrency", type=int, default=None, help="check-ipfs: parallel checks (1-4, default 2)")
+    g.add_argument("--gateway", action="append", default=None, help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
+    g.add_argument("--ipfs-only", action="store_true", default=None, help="covers/videos: IPFS gateways only, never the NHL Breakaway CDN")
+    g.add_argument("--cdn-first", action="store_true", default=None, help="covers/videos: try the CDN before IPFS (faster, but videos come re-encoded)")
+    g.add_argument("--ids", help="comma-separated card IDs (the id in data/highlights.json)")
+    g.add_argument("--series", help='only this series, e.g. "Series 3"')
+    g.add_argument("--set", help="only sets whose name contains this")
+    g.add_argument("--player", help="only this player (name contains)")
+    g.add_argument("--team", help="only this team (name contains)")
+    g.add_argument("--limit", type=int, help="videos/pin: at most N; fetch --discover: add at most N")
+    g.add_argument("--yes", action="store_true", help="don't ask before downloading or pinning")
+    f = ap.add_argument_group("fetch")
+    f.add_argument("--refresh", action="store_true", help="fetch: re-download metadata (all, or just --ids); check-ipfs: re-check recent ones")
+    f.add_argument("--discover", action="store_true", help="fetch: also add moments from NHL Breakaway set listings that aren't in the card list")
+    m = ap.add_argument_group("covers / videos / verify / view")
+    m.add_argument("--video-dir", "--out-dir", dest="video_dir", default=None, help="where videos are saved (default <output>/videos)")
+    m.add_argument("--repair", action="store_true", help="covers/videos: replace files that don't match the original sha256 with the IPFS original")
+    m.add_argument("--viewer-dir", default=None, help="view: where index.html goes (default viewer/)")
+    c = ap.add_argument_group("check-ipfs / pin")
+    c.add_argument("--sample", type=int, default=200, help="check-ipfs: how many CIDs to sample (default 200)")
+    c.add_argument("--full", action="store_true", help="check-ipfs: check every CID (13k+, takes hours)")
+    c.add_argument("--seed", type=int, default=1, help="check-ipfs: sample seed (same seed = same sample)")
+    c.add_argument("--max-age", type=float, default=30, help="check-ipfs: skip CIDs checked within this many days")
+    c.add_argument("--types", help="pin: only these file types, e.g. video,cover (types: " + ", ".join(TYPE_ORDER) + ")")
+    c.add_argument("--kubo", action="store_true", help="pin: pin on your own IPFS (Kubo) node with `ipfs pin add`")
+    c.add_argument("--service", help="pin: pinata | filebase | <Pinning Service API URL>; token in PIN_SERVICE_TOKEN")
+    al = ap.add_argument_group("album")
+    al.add_argument("--layout", choices=["1up", "2x2", "3x3"], default="2x2", help="album: cards per page")
+    al.add_argument("--page", choices=["letter", "a4"], default="letter", help="album: paper size")
+    al.add_argument("--bleed", action="store_true", help="album: add 3 mm bleed and crop marks for print shops")
+    al.add_argument("--out", help="album: output PDF path (default <output>/album.pdf)")
+    al.add_argument("--max-px", type=int, default=0, help="album: downscale covers to this many pixels (smaller PDF)")
+    al.add_argument("--jpeg", type=int, default=0, help="album: re-encode covers as JPEG at this quality (e.g. 80)")
+    ap.add_argument("--ask", action="store_true", help=argparse.SUPPRESS)   # menu: confirm before big downloads
+    a = ap.parse_args(argv)
+    cfg_path = a.config or os.path.join(ROOT, "breakaway.config.json")
+    cfg = {}
+    if os.path.exists(cfg_path):
+        cfg = jload(cfg_path, {}) or {}
+        unknown = set(cfg) - set(CONFIG_KEYS) - {"_comment"}
+        if unknown: p(f"Note: {os.path.basename(cfg_path)} has unknown keys {sorted(unknown)} (ignored)")
+    elif a.config: sys.exit(f"Config file not found: {a.config}")
+    for dest in ("output_dir", "video_dir", "viewer_dir"):   # command-line paths are relative to where you run it
+        if getattr(a, dest): setattr(a, dest, os.path.abspath(getattr(a, dest)))
+    for key, dest in CONFIG_KEYS.items():
+        if getattr(a, dest, None) is None: setattr(a, dest, cfg.get(key, DEFAULTS[dest]))
+    for dest in ("output_dir", "video_dir", "viewer_dir"):   # config/default paths are relative to this folder
+        if getattr(a, dest) and not os.path.isabs(getattr(a, dest)): setattr(a, dest, os.path.join(ROOT, getattr(a, dest)))
+    for dest, v in DEFAULTS.items():
+        if getattr(a, dest, None) is None: setattr(a, dest, v)
+    if isinstance(a.gateway, str): a.gateway = [a.gateway]
+    OUT = a.output_dir
+    if not a.video_dir: a.video_dir = os.path.join(OUT, "videos")
+    THR = Throttle(max(1, min(int(a.concurrency), 8))); MEDIA_CONC = max(1, min(int(a.media_concurrency), 4))
+    a.ipfs_concurrency = max(1, min(int(a.ipfs_concurrency), 4))
+    user_gw = [x if x.rstrip("/").endswith("/ipfs") or x.endswith("/ipfs/") else x.rstrip("/") + "/ipfs/" for x in a.gateway]
+    GATEWAYS = list(dict.fromkeys([x.rstrip("/") + "/" for x in user_gw] + DEFAULT_GATEWAYS))
+    IPFS_ONLY, CDN_FIRST, OFFLINE = bool(a.ipfs_only), bool(a.cdn_first), bool(a.offline)
+    if a.issues_url: ISSUES_URL = a.issues_url
+    if OFFLINE and (a.command in ("fetch", "add", "videos", "check-ipfs", "all", "covers") or (a.command == "pin" and (a.kubo or a.service))):
+        sys.exit(f"`{a.command}` needs the network; drop --offline.")
     if a.command in ("fetch", "all"): cmd_fetch(a)
-    if a.command in ("covers", "all"): cmd_covers(a)
+    if a.command in ("covers", "all") and not OFFLINE: cmd_covers(a)
     if a.command in ("build", "all"): cmd_build(a)
     if a.command in ("package", "all"): cmd_package(a)
-    if a.command == "videos": cmd_videos(a)
-    if a.command == "verify": cmd_verify(a)
-    if a.command == "add": cmd_add(a)
-    if a.command == "view": cmd_view(a)
-    if a.command == "album": cmd_album(a)
+    {"videos": cmd_videos, "verify": cmd_verify, "add": cmd_add, "view": cmd_view, "album": cmd_album,
+     "check-ipfs": cmd_check_ipfs, "pin": cmd_pin}.get(a.command, lambda a: None)(a)
+
+
+# ------------------------------------------------------------------ interactive menu (no arguments)
+MENU = """
+  1) Get cover art
+  2) Get videos (for a player, team or set)
+  3) Build the spreadsheet (highlights.xlsx)
+  4) Open the viewer (browse everything in your web browser)
+  5) Make a printable album (PDF)
+  6) Add a missing moment (paste its NHL Breakaway link)
+  7) Check my downloaded files (verify)
+  8) Help keep the files alive (IPFS pinning)
+  9) Check which IPFS files are still online (quick sample)
+  0) Quit"""
+
+
+def ask(q, default=""):
+    try: v = input(f"{q}{f' [{default}]' if default else ''}: ").strip()
+    except EOFError: v = ""
+    return v or default
+
+
+def yes(q, default=False):
+    v = ask(q + (" (Y/n)" if default else " (y/N)")).lower()
+    return default if not v else v in ("y", "yes")
+
+
+def ask_filter(what="highlights"):
+    p(f"Which {what}?  1) everything  2) one player  3) one team  4) one set  5) one series")
+    c = ask("Choose", "1")
+    key = {"2": ("--player", "Player name (or part of it)"), "3": ("--team", "Team name (or part of it)"),
+           "4": ("--set", "Set name (or part of it)"), "5": ("--series", 'Series, e.g. "Series 1"')}.get(c)
+    if not key: return []
+    v = ask(key[1])
+    return [key[0], v] if v else []
+
+
+def run(argv):
+    try: main(argv); return True
+    except SystemExit as e:
+        if e.code not in (None, 0): p(f"Stopped: {e.code}")
+    except KeyboardInterrupt: p("\nCancelled.")
+    except Exception as e: p(f"Something went wrong: {type(e).__name__}: {e}")
+    return False
+
+
+def menu():
+    p("NHL Breakaway highlight archive (unofficial fan preservation tool)")
+    p(WARRANTY + " Personal archival use only.")
+    p(f"Files are saved in: {OUT}")
+    while True:
+        p(MENU); c = ask("Type a number and press Enter")
+        if c in ("0", "q", "quit", "exit", ""):
+            if c == "" and not yes("Quit?", True): continue
+            return
+        if c == "1":
+            run(["covers", "--ask", *ask_filter("covers")])
+        elif c == "2":
+            f = ask_filter("videos")
+            if not f: p("Tip: all videos are several hundred GB. Picking a player, team or set is much smaller.")
+            run(["videos", *f])   # shows the estimated size and asks before downloading
+        elif c == "3":
+            run(["build"])
+        elif c == "4":
+            if run(["view"]):
+                import webbrowser
+                path = os.path.join(ROOT, "viewer", "index.html"); p(f"Opening {path}")
+                webbrowser.open("file://" + os.path.abspath(path).replace(os.sep, "/"))
+        elif c == "5":
+            f = ask_filter("highlights for the album")
+            lay = {"1": "1up", "2": "2x2", "3": "3x3"}.get(ask("Cards per page: 1) one big  2) four (2x2)  3) nine (3x3)", "2"), "2x2")
+            page = "a4" if ask("Paper: 1) Letter  2) A4", "1") == "2" else "letter"
+            extra = ["--bleed"] if yes("Is this for a print shop (adds bleed and crop marks)?") else []
+            if run(["album", "--layout", lay, "--page", page, *extra, *f, "--ask"]):
+                p(f"Your album is in {os.path.join(OUT, 'album.pdf')}")
+        elif c == "6":
+            p("Paste one or more NHL Breakaway links (like https://nhlbreakaway.com/series/XXXX/1234...), separated by spaces.")
+            refs = ask("Links").split()
+            if refs: run(["add", *refs])
+        elif c == "7":
+            run(["verify"])
+        elif c == "8":
+            p("Pinning keeps a copy of the original files on IPFS so they stay online. Nothing is pinned unless you choose to.\n"
+              "  1) Just write the lists of CIDs (no upload)\n  2) Pin on my own IPFS node (Kubo installed)\n"
+              "  3) Pin with a pinning service (Pinata or Filebase; your token in PIN_SERVICE_TOKEN)")
+            m = ask("Choose", "1"); f = ask_filter("files"); t = ask("Only some file types? e.g. video,cover (Enter = all)")
+            argv = ["pin", *f, *(["--types", t] if t else [])]
+            if m == "2": argv.append("--kubo")
+            elif m == "3": argv += ["--service", ask("Service: pinata or filebase", "pinata")]
+            run(argv)
+        elif c == "9":
+            run(["check-ipfs", "--sample", ask("How many to check", "100")])
+        else:
+            p("Please type a number from the list."); continue
+        ask("\nPress Enter to go back to the menu")
 
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) == 1:      # double-clicked or run with no arguments: friendly menu
+        try: menu()
+        except KeyboardInterrupt: pass
+    else:
+        main()

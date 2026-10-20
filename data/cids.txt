@@ -1,5 +1,5 @@
 # IPFS CIDs referenced by the NHL Breakaway metadata in data/meta/ (deduplicated)
-# pin all:  grep -v '^#' data/cids.txt | cut -d' ' -f1 | xargs -n 50 ipfs pin add
+# pin them:  python breakaway.py pin --kubo   (or see README: Help keep it alive)
 QmetNUTZALWWuyuZv5kRjYzGPY8ASvvEpusNgU59RNeD5R  # 1 assets.front_image
 QmXHVc4YXtAKKNM3J1XhGp5P2HwGEhPJtpsvQCdTzgKtXY  # 1 assets.front_image_16x9
 QmTCcGJLGAtnzgXMWztyqhwjoegCbYjdonBVbhavBS1weX  # 1 assets.media[0]

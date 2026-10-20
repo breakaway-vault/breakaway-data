@@ -1,0 +1,35 @@
+name: Bug report
+description: Something in the tool or the data doesn't work
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what you got instead.
+    validations:
+      required: true
+  - type: input
+    id: command
+    attributes:
+      label: Command or menu option
+      placeholder: python breakaway.py album --player "McDavid"   (or: app menu option 5)
+  - type: dropdown
+    id: how
+    attributes:
+      label: How do you run it?
+      options: ["Standalone app (Windows)", "Standalone app (macOS)", "Standalone app (Linux)", "Python script"]
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The release you downloaded (e.g. v1.0.0) or the commit.
+  - type: textarea
+    id: output
+    attributes:
+      label: The message it printed
+      description: Copy the last lines from the window. Remove anything personal (tokens, paths with your name).
+      render: text

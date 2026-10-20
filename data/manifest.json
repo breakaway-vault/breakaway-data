@@ -2,7 +2,7 @@
  "1": {
   "id": 1,
   "source_url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681664",
-  "fetched_at": "2026-10-19T21:22:14+00:00",
+  "fetched_at": "2026-10-20T01:59:28+00:00",
   "status": 200,
   "link_via": "matched player+set+series against NHL Breakaway set listing (apigw.sweet.io catalog/search/moment/set)",
   "meta_path": "data/meta/1.json",
@@ -107,7 +107,7 @@
  "2": {
   "id": 2,
   "source_url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/9262497058617556992",
-  "fetched_at": "2026-10-19T21:22:15+00:00",
+  "fetched_at": "2026-10-20T01:59:29+00:00",
   "status": 200,
   "link_via": "matched player+set+series against NHL Breakaway set listing (apigw.sweet.io catalog/search/moment/set)",
   "meta_path": "data/meta/2.json",

@@ -1,167 +1,163 @@
 # breakaway-data
 
-> **Disclaimer:** Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
+An unofficial fan archive of NHL Breakaway digital highlights: the details of all 1,973 known moments, saved here so they survive if the site goes away.
+A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the original cover art and videos from IPFS.
+Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warranty-use-at-your-own-risk)).
 
-A preservation archive of NHL Breakaway digital highlight metadata for 1,973 highlights. The card list
-(`data/highlights.json`) ships with the repo and grows with `add` (see below): 1,811 moments from the
-original card list plus 162 found in NHL Breakaway's own set listings (`"on_site": false`).
+## What this project is (and isn't)
 
-Card list originally compiled from The Fifth Line (https://thefifthlinecode.onrender.com).
+It catalogs **public data**: the NFT metadata and public set and listing data that NHL Breakaway and Sweet already publish for anyone to see.
+* **Public, unauthenticated endpoints only:** `nft.nhlbreakaway.com`, `apigw.sweet.io` (set listings), NHL Breakaway's media CDN and public IPFS gateways. No logins, cookies, paywalls or private APIs, and nothing that gets around rate limits or access controls (it slows down on 429s and stops on 401/403). The only credential the tool ever touches is your *own* pinning-service token, and only if you choose to pin.
+* **No personal data:** no owner or collector names, usernames, wallets, emails or account data are stored. The one wallet address in the raw metadata is Sweet's own royalty-fee address (`fees.recipient_address`), which is part of every token's public metadata. `status` records only *that* a listing or price was seen, never who.
+* **No media in the repo:** no images or videos are hosted here. They stay the property of their rights holders. The tool only helps individuals fetch the public files for their own personal archival use.
 
-NHL Breakaway may shut down, so the raw metadata is stored **in this repo, byte-for-byte as served**.
-Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
+## Quick start
 
-## What's in the repo
+### No Python? Download the app
 
-| Path | What it is |
-|---|---|
-| `data/meta/<id>.json` | Raw response of `https://nft.nhlbreakaway.com/series/<series>/<token>` for each highlight (`<id>` = card id). It is JSON (`application/json`), not XML. |
-| `data/manifest.json` | Per highlight: source URL, fetch time (UTC), HTTP status, bytes, sha256 of the stored file, moment UUID, how it was linked, off-chain file, and **every IPFS CID + sha256** found in its metadata (images and video). |
-| `data/offchain/sets/<set_uuid>.json` | Raw NHL Breakaway set listings (`apigw.sweet.io/catalog/search/moment/set/...`): off-chain descriptions, game/play details, edition sizes, rarity, dates. |
-| `data/offchain/setcompletion_826.json`, `collection_challenge_826.json` | Raw set-completion and quest data (set rewards, quest highlight lists). |
-| `data/highlights.json` | The card list: card id, player, set, rarity, edition size, team, an October 2026 price snapshot (lowest ask / FMV; empty for moments added later) `on_site` (false for moments that weren't in the original list) and, for the original 1,811, `site_url` (that card's page on The Fifth Line). Card ids 1-1818 come from the original list; added moments get the next free numbers. Every command starts from this file. |
-| `data/links.json` | Card id -> NHL Breakaway series id + token id (+ moment UUID), and how each was found. |
-| `data/cids.txt` | Every IPFS CID (cover images, posters, videos) referenced by the metadata, deduplicated, ready to pin. |
-| `data/extra_moments.txt` | Anyone-editable list of extra NHL Breakaway links to add (see below). |
-| `breakaway.py` | The tool. `export_highlights.py` is a shortcut for `breakaway.py all`. |
-| `scripts/validate.py` | Format/integrity check run by CI on every pull request. |
+1. Go to the [**Releases**](https://github.com/breakaway-vault/breakaway-data/releases) page and open the newest version.
+2. Download the zip for your computer: `Breakaway-Archive-windows.zip`, `Breakaway-Archive-macos.zip` or `Breakaway-Archive-linux.zip`.
+3. Unzip it (Windows: right-click > **Extract All**). You get a `Breakaway-Archive` folder.
+4. Double-click `breakaway` (`breakaway.exe` on Windows). A window opens with a numbered menu. Type a number and press Enter.
 
-Not committed (see `.gitignore`): `output/` (xlsx, covers, zips), `cache/`, videos.
+Everything it makes goes into an `output` folder next to the app. The first run unpacks the archive data (about 50 MB) into a `data` folder next to the app.
 
-## Quick start (non-technical)
+The apps aren't code-signed, so your computer warns you the first time:
+* **Windows** shows "Windows protected your PC": click **More info**, then **Run anyway**.
+* **macOS** says it "cannot be opened because the developer cannot be verified": **right-click** (or Control-click) the app, choose **Open**, then **Open** again. If there's no Open button, go to System Settings > Privacy & Security and click **Open Anyway**. The menu opens in Terminal.
+* **Linux**: if double-clicking does nothing, open a terminal in the folder and run `chmod +x breakaway` and then `./breakaway`.
 
-1. Install Python 3 from https://www.python.org/downloads/ . On Windows tick **"Add Python to PATH"**.
-2. Open a terminal in this folder (Windows: in File Explorer type `cmd` in the address bar and press Enter).
-3. Run once: `pip install -r requirements.txt`
-4. Build the spreadsheet from the saved data (works with no internet): `python breakaway.py build`
-   -> `output/highlights.xlsx`
-5. Optional, needs internet: `python breakaway.py all` to fetch anything new, download full-res covers
-   and make `Breakaway-Highlights.zip`.
+### With Python (Windows, Mac or Linux)
 
-## No git? Download and unzip
+1. Get the files, either way:
+   * **git:** `git clone https://github.com/breakaway-vault/breakaway-data.git`
+   * **no git:** on the GitHub page click **Code > Download ZIP** (or pick a version under **Tags**/Releases) and unzip it.
+2. Install Python 3.10 or newer from https://www.python.org/downloads/ (Windows: tick **"Add Python to PATH"**). Mac and most Linux already have `python3`.
+3. Open a terminal in the folder. Windows: click the File Explorer address bar, type `cmd`, press Enter. Mac: right-click the folder > New Terminal at Folder.
+4. Install the three libraries once: `python -m pip install -r requirements.txt`
+5. Run `python breakaway.py` with no arguments for the same menu the app shows, or use the commands below.
 
-1. Get the zip (`Breakaway Tool (same as GitHub).zip`, or **Code > Download ZIP** on GitHub) and unzip it.
-   Right-click > **Extract All** on Windows. You'll get a `breakaway-data` folder.
-2. Install Python 3 from https://www.python.org/downloads/ and tick **"Add Python to PATH"** during setup.
-3. Open the `breakaway-data` folder in File Explorer, click the address bar, type `cmd` and press Enter.
-4. In that window run these (if `python` isn't found, type `py` instead):
-   ```
-   python -m pip install -r requirements.txt
-   python breakaway.py covers
-   python breakaway.py build
-   python breakaway.py view
-   ```
-   * `covers` downloads the full-res cover art to `output\covers_full` (about 1.6 GB).
-   * `build` makes the spreadsheet `output\highlights.xlsx`.
-   * `view` makes the offline viewer `viewer\index.html` (double-click it to open).
-   * `python breakaway.py album` makes a printable flip-book PDF, `output\album.pdf` (see "Make the flip-book").
-   * Videos are optional: `python breakaway.py videos --limit 5` saves the first 5 to `output\videos`;
-     `python breakaway.py videos` gets all of them (about 220 GB). It shows the size and asks y/n first.
-   Re-running any command only downloads what's missing. Run `python breakaway.py view` again after
-   downloading videos so the viewer plays them from your disk.
+On Mac/Linux, type `python3` where it says `python`. On Windows, if `python` isn't found, type `py`.
 
-## Commands
+## Common tasks
 
+| I want to... | Menu | Command |
+|---|---|---|
+| Get the cover art (about 1.7 GB for all) | 1 | `python breakaway.py covers` |
+| Get videos for my players | 2 | `python breakaway.py videos --player "McDavid"` (also `--team`, `--set`, `--series`, `--ids 12,40`, `--limit 5`) |
+| Make the spreadsheet | 3 | `python breakaway.py build` -> `output/highlights.xlsx` |
+| Browse everything | 4 | `python breakaway.py view`, then double-click `viewer/index.html` |
+| Make a printable album | 5 | `python breakaway.py album --team "Maple Leafs" --layout 3x3` -> `output/album.pdf` |
+| Add a missing moment | 6 | `python breakaway.py add https://nhlbreakaway.com/series/<id>/<token>` |
+| Check my downloads | 7 | `python breakaway.py verify` |
+| Help keep the files online | 8 | `python breakaway.py pin` (see [Help keep it alive](#help-keep-it-alive)) |
+
+Things to know:
+* **Covers and videos come from IPFS first**, which serves the original files. Every file is checked against the sha256 fingerprint in its metadata. NHL Breakaway's own CDN is only a fallback, and it now serves *re-encoded* videos. Those are kept but marked `reencoded` in `output/download_log.json`. `verify` shows original vs. re-encoded, and `--repair` swaps re-encoded files for originals.
+* **Videos are big**: all of them come to roughly 220 GB. `videos` shows an estimate and asks before downloading. Re-running resumes and skips finished files.
+* **Album options**: `--layout 1up|2x2|3x3`, `--page letter|a4`, `--bleed` (3 mm bleed + crop marks for a print shop), `--max-px 600 --jpeg 80` for a small screen-only file. The full album is about 2,061 / 615 / 343 pages (1up / 2x2 / 3x3) and ~2.3 GB, so one PDF per series is easier. Each card shows its cover's IPFS CID.
+* **Works offline**: once covers (and any videos) are downloaded, `build`, `view` and `album` need no internet. Add `--offline` to be sure.
+
+## If NHL Breakaway shuts down
+
+**Still works:** everything in this repo. `data/meta/` holds every highlight's metadata byte-for-byte as served, with every IPFS CID and sha256 for its images and video. `build`, `view` and `album` run from `data/` plus whatever you downloaded.
+
+**Stops working:** `fetch` and `add` (they read NHL Breakaway's servers) and the CDN links in the spreadsheet.
+
+**Rebuild from IPFS alone:**
 ```
-python breakaway.py fetch   [--refresh] [--ids 12,40] [--discover [--limit N]] [--concurrency 6]
-python breakaway.py covers  [--concurrency 6]        # full-res covers -> output/covers_full/, sha256-checked
-python breakaway.py build                            # OFFLINE: data/ -> output/highlights.xlsx
-python breakaway.py package                          # output/covers/, covers.zip, Breakaway-Highlights.zip
-python breakaway.py all                              # fetch + covers + build + package
-python breakaway.py videos  [--out-dir DIR] [--limit N] [--series "Series 3"] [--ids 12,40] [--yes]
-python breakaway.py verify  [--out-dir DIR]          # re-hash data/meta, covers and videos vs stored sha256
-python breakaway.py add     <url | seriesId/tokenId> ...   # also reads data/extra_moments.txt
-python breakaway.py view    [--out-dir DIR]          # offline viewer/index.html
-python breakaway.py album   [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..] [--series ..] [--player ..]
-                            [--team ..] [--bleed] [--out FILE] [--max-px N] [--jpeg Q]   # printable PDF
+python breakaway.py covers --ipfs-only
+python breakaway.py videos --ipfs-only --player "Ovechkin"
+python breakaway.py build && python breakaway.py view && python breakaway.py album --series "Series 1"
+python breakaway.py verify
 ```
+`--ipfs-only` never contacts NHL Breakaway. Add your own gateway first with `--gateway https://your-gateway/ipfs/` (repeatable), or set `"gateways"` in `breakaway.config.json`. Files only stay on IPFS while someone pins them, so pin what you care about now (next section). `data/ipfs_status.json` shows how many were still reachable at the last check.
 
-* `--gateway https://my-gateway/ipfs/` (repeatable) adds IPFS gateways to try first; built-in fallbacks are
-  ipfs.io, dweb.link, w3s.link, gateway.pinata.cloud and 4everland.io. `--ipfs-only` skips
-  mediagateway.sweet.io / nft.nhlbreakaway.com entirely (use this if NHL Breakaway goes offline).
+## Help keep it alive
 
-* Re-runs only fetch what's new or missing. `--refresh` re-pulls all metadata and set listings;
-  `fetch --refresh --ids 12,40` re-pulls just those highlights.
-* Where the card list comes from: `data/highlights.json` in this repo, plus anything added with `add` or
-  `data/extra_moments.txt`. `fetch --discover` also adds moments that NHL Breakaway's own public set
-  listings (`apigw.sweet.io`) show but the card list doesn't have yet (`--limit N` to add only a few).
-  No other site is contacted.
-* New card-list rows are linked to tokens by matching set + player + series against NHL Breakaway's set
-  listings. If edition #1 of a moment returns 404, the next few serials are tried and the one that answers
-  is kept. Anything still unmatched is printed so you can add it by URL.
-* `--concurrency` (1-8, default 6) caps parallel requests to NHL Breakaway / its CDN. Requests retry with
-  exponential backoff on 429/5xx/timeouts and slow down automatically when errors climb. 401/403/404 are
-  never worked around.
+Nothing is pinned by this project. The originals survive only if people keep copies:
+1. **Keep the folder.** Back up `data/` (the archive) and `output/` (your downloaded covers and videos).
+2. **Pin the CIDs.** `python breakaway.py pin` writes CID lists to `output/pin/` (`all.txt`, `video.txt`, `cover.txt`, ...). Then either:
+   * your own IPFS node ([Kubo](https://docs.ipfs.tech/install/command-line/)): `python breakaway.py pin --kubo --types video,cover --series "Series 1"`
+   * a pinning service with your own API token (it's read from the environment and never saved):
+     `PIN_SERVICE_TOKEN=... python breakaway.py pin --service pinata --types cover` (or `--service filebase`, or any [IPFS Pinning Service API](https://ipfs.github.io/pinning-services-api-spec/) URL). On Windows: `set PIN_SERVICE_TOKEN=...` first.
+   Pinning resumes where it stopped (`output/pin/pinned_*.txt`).
+3. **Verify** now and then: `python breakaway.py verify`.
+4. **Check availability**: `python breakaway.py check-ipfs` checks a sample (200 by default) and writes `data/ipfs_status.json`. `--full` checks all 14,739 CIDs, which takes hours. "Not reachable" can also mean no gateway had it cached at that moment, so treat those as at risk rather than lost.
 
-### Videos (opt-in)
+## No warranty, use at your own risk
 
-Videos are **off by default** and never downloaded by `all`. `python breakaway.py videos --out-dir videos`
-estimates the total size with a few HEAD requests, then asks `y/n` (skip the question with `--yes`).
-Downloads resume (`.part` files) and skip files that already exist. Try `--limit 5` first.
-
-## Make the flip-book
-
-`python breakaway.py album` builds a print-ready PDF (needs `reportlab`, included in requirements.txt): a cover
-page, a table of contents by series and set, then one section per set in release order (title page with
-series, rarity mix and card count, then the cards). Each card shows the cover art, player, team, date, play,
-rarity, edition size and its `#` row number (same as the spreadsheet and cover file names). Missing covers are
-downloaded first. Output: `output/album.pdf` unless you pass `--out`.
-
-```
-python breakaway.py album                                   # everything, 2 cards per row/column (2x2), Letter
-python breakaway.py album --layout 3x3 --page a4            # 9 per page on A4
-python breakaway.py album --layout 1up --player "Connor McDavid"
-python breakaway.py album --team "Toronto Maple Leafs" --out leafs.pdf
-python breakaway.py album --set "Ice Nation" --series "Series 1"
-python breakaway.py album --series "Series 2" --bleed       # 3 mm bleed + crop marks for a print shop
-python breakaway.py album --max-px 600 --jpeg 80            # much smaller file for screens
-```
-
-Full album (1,973 cards, 84 set sections): about 2,061 pages (1up), 615 pages (2x2) or 343 pages (3x3).
-At full resolution it's roughly 2.3 GB, so making one PDF per series (`--series "Series 1"` etc.) is easier
-on your computer and the print shop. Filters match part of a name and aren't case sensitive.
-
-## Offline viewer
-
-`python breakaway.py view` writes `viewer/index.html`, one self-contained file (no server, no CDN, opens from
-`file://`). Search plus filters for team, set, rarity and series. Clicking a card shows every metadata field,
-attributes, IPFS CIDs, sha256 and source URLs. It uses local covers and videos when you've downloaded them,
-and falls back to the NHL Breakaway CDN and then to IPFS gateways when you're online.
-
-## Keeping the archive alive
-
-* **Keep a copy of the folder.** `data/` is the archive (about 46 MB). Clone or download this repo; add
-  `output/` too if you downloaded covers/videos.
-* **Pin the media on IPFS.** With an IPFS node (https://docs.ipfs.tech/install/):
-  `grep -v '^#' data/cids.txt | cut -d' ' -f1 | xargs -n 50 ipfs pin add`
-  or upload the CID list to a pinning service (Pinata, Filebase, 4EVERLAND...). Pinned CIDs stay retrievable
-  even if NHL Breakaway's own servers disappear.
-* **Check integrity** any time with `python breakaway.py verify`. Every raw file's sha256 and fetch time
-  (UTC) are in `data/manifest.json`; covers/videos are checked against the sha256 in their metadata.
-* Raw responses are stored exactly as served and are never rewritten by the tool.
-
-## Missing a moment? Add it
-
-Add its NHL Breakaway link to `data/extra_moments.txt` (one per line) and open a pull request, or run
-`python breakaway.py add <link>` yourself and commit the changed `data/` files. Duplicates are skipped.
-See [CONTRIBUTING.md](CONTRIBUTING.md). Contributions via PR are welcome; the maintainer merges.
+This tool and data are provided **AS IS, with no warranty of any kind**, express or implied ([MIT License](LICENSE)).
+* The maintainers and contributors **aren't liable for anything that happens from using it**: data loss, corrupted or incomplete downloads, disk space, bandwidth or data-plan costs, account problems, or any consequences under the terms of service of NHL Breakaway, Sweet or any other site.
+* **You're responsible** for how you use it, and for following those sites' terms and your local laws.
+* There's **no guarantee** that the data is complete or accurate, or that any file stays available.
+* It's for **personal archival use**. Don't repost the images or videos.
+* **Please be gentle with other people's servers.** Keep the default throttling, download only what you need, and don't run many copies at once.
+* No affiliation or endorsement (see the disclaimer below).
 
 ## Disclaimer
 
-Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
+Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a [GitHub issue](https://github.com/breakaway-vault/breakaway-data/issues).
 
-## License
+Card list originally compiled from The Fifth Line (https://thefifthlinecode.onrender.com).
 
-Code: MIT (see [LICENSE](LICENSE)). Data: the metadata in `data/` is a preservation copy of public NHL
-Breakaway / Sweet metadata; it and all highlight media, names and marks remain the property of their
-rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No media is stored in this repo.
+---
 
-## The spreadsheet
+## Reference
 
-* **Highlights**: one row per highlight with an embedded cover thumbnail, player, team, date, play,
-  game details, set, series, rarity, edition size, description, price snapshot, links (cover, video, Breakaway,
-  metadata JSON), cover IPFS CID + sha256, `raw_meta_path`, `offchain_path`, and data source.
-* **All Metadata**: every field of every stored metadata file, flattened (`meta.*` = nft. metadata,
-  `offchain.*` = Breakaway set listing).
-* **IPFS**: every IPFS CID and sha256 per highlight (images and video).
+### What's in the repo
+
+| Path | What it is |
+|---|---|
+| `data/highlights.json` | The card list. Fields: card `id`, player, set, rarity, edition size, team, an October 2026 price snapshot (lowest ask / FMV, empty for later additions), `on_site` (false for the 162 moments found later in NHL Breakaway's set listings), `site_url` (original 1,811 only) and `status`. Ids 1-1818 come from the original list; added moments get the next free numbers. |
+| `data/meta/<id>.json` | Raw `https://nft.nhlbreakaway.com/series/<series>/<token>` response per highlight, byte-for-byte. |
+| `data/manifest.json` | Per highlight: source URL, fetch time (UTC), sha256 of the stored file, moment UUID, how it was linked, and every IPFS CID + sha256 in its metadata. |
+| `data/offchain/` | Raw NHL Breakaway set listings, set-completion and quest data. |
+| `data/links.json` | Card id -> series id + token id (+ moment UUID). |
+| `data/cids.txt` | Every IPFS CID (14,739), deduplicated. |
+| `data/ipfs_status.json` | Last `check-ipfs` result (reachable / not, by file type). |
+| `data/extra_moments.txt` | Links to add (anyone can edit; see CONTRIBUTING). |
+| `breakaway.py` | The whole tool (one file). |
+| `scripts/validate.py`, `scripts/build_app.py` | CI checks; standalone-app build (PyInstaller). |
+
+### `status`
+
+* `released`: there's evidence the moment was actually sold or held, either a live marketplace listing seen in October 2026 (32 of the later additions) or a price in the original card list (1,663).
+* `unverified`: no such evidence was found (278). It may still be real; it just hasn't been confirmed. It doesn't mean fake. No owner names are recorded.
+
+### All commands
+
+```
+python breakaway.py                         # menu
+python breakaway.py fetch   [--refresh] [--ids 12,40] [--discover [--limit N]]
+python breakaway.py covers  [filters] [--repair] [--ipfs-only | --cdn-first]
+python breakaway.py videos  [filters] [--video-dir DIR] [--limit N] [--yes] [--repair] [--ipfs-only]
+python breakaway.py build | package | all | view [--viewer-dir DIR]
+python breakaway.py verify  [--video-dir DIR]
+python breakaway.py add     <url | seriesId/tokenId> ...      # also reads data/extra_moments.txt
+python breakaway.py album   [filters] [--layout 1up|2x2|3x3] [--page letter|a4] [--bleed] [--out FILE] [--max-px N] [--jpeg Q]
+python breakaway.py check-ipfs [--sample 200 | --full] [--refresh] [--max-age DAYS] [--seed N]
+python breakaway.py pin     [filters] [--types video,cover] [--kubo | --service pinata|filebase|URL] [--limit N] [--yes]
+filters: --player, --team, --set, --series, --ids (names match partially, not case sensitive)
+general: --output-dir DIR, --offline, --config FILE, --gateway URL, --concurrency N (metadata, 1-8),
+         --media-concurrency N (downloads, 1-4), --ipfs-concurrency N (check-ipfs, 1-4)
+```
+
+**Settings file:** copy `breakaway.config.example.json` to `breakaway.config.json` (next to `breakaway.py` or the app) to set the gateways, concurrency, output/video/viewer folders, `ipfs_only`, `offline` or the issues link for your fork. Flags always win. Nothing in the code depends on this repo's location, so forks work as-is.
+
+**Politeness:** every host gets its own throttle, requests back off on errors, `Retry-After` on 429 is respected, and a gateway that answers 429 is rested for a while. 401/403/404 are never worked around.
+
+### The spreadsheet
+
+* **Highlights**: one row per highlight with a cover thumbnail, player, team, date, play, game details, set, series, rarity, edition size, status, description, price snapshot, links, and the cover / video / card-image IPFS CIDs + sha256.
+* **All Metadata**: every field of every stored metadata file, flattened.
+* **IPFS**: every CID and sha256 per highlight.
 * **By Set**: counts.
+
+### Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md): fork, add the link to `data/extra_moments.txt` (or run `add`), open a pull request. CI validates it. Or open a **Missing moment** issue. Changes are listed in [CHANGELOG.md](CHANGELOG.md).
+
+### License
+
+Code: MIT ([LICENSE](LICENSE)). The metadata in `data/` is a preservation copy of public NHL Breakaway / Sweet metadata. It and all highlight media, names and marks remain the property of their rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No media is stored in this repo.

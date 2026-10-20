@@ -1,0 +1,22 @@
+name: Missing moment
+description: A highlight that isn't in the archive yet
+title: "Missing moment: "
+labels: ["missing moment"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: NHL Breakaway link
+      description: Open the highlight on nhlbreakaway.com and copy the address. Any edition's link works.
+      placeholder: https://nhlbreakaway.com/series/XXXXXXXX/1234567890123456789
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Player and set (optional)
+      placeholder: Alex Ovechkin, Etched In Ice
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)

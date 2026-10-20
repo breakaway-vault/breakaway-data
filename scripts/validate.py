@@ -13,6 +13,7 @@ for r in rows:
         if k not in r: err(f"highlights.json row missing '{k}': {r}")
     if not isinstance(r.get("id"), int): err(f"highlights.json id is not an integer card id: {r.get('id')}")
     if r.get("site_url") and not r.get("on_site", True): err(f"id {r.get('id')}: has site_url but on_site is false")
+    if r.get("status", "unverified") not in ("released", "unverified"): err(f"id {r.get('id')}: status must be released or unverified, not {r.get('status')!r}")
 try: man = json.load(open(os.path.join(D, "manifest.json"), encoding="utf-8"))
 except Exception as e: man = {}; err(f"manifest.json is not valid JSON: {e}")
 uu = {}

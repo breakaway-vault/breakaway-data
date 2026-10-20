@@ -1,0 +1,14 @@
+{
+ "_comment": "Copy to breakaway.config.json (next to breakaway.py or the app) and edit. Command-line flags always win. Delete any line you don't need.",
+ "output_dir": "output",
+ "video_dir": "output/videos",
+ "viewer_dir": "viewer",
+ "gateways": ["https://ipfs.filebase.io/ipfs/", "https://gateway.pinata.cloud/ipfs/"],
+ "concurrency": 6,
+ "media_concurrency": 2,
+ "ipfs_concurrency": 2,
+ "ipfs_only": false,
+ "cdn_first": false,
+ "offline": false,
+ "issues_url": "https://github.com/breakaway-vault/breakaway-data/issues"
+}
