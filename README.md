@@ -2,8 +2,8 @@
 
 > **Disclaimer:** Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
 
-A preservation archive of NHL Breakaway digital highlight metadata, built from the 1,811 highlights
-listed in the community card list (data/highlights.json).
+A preservation archive of NHL Breakaway digital highlight metadata for 1,811 highlights. The card list
+(`data/highlights.json`) ships with the repo and grows with `add` (see below).
 
 NHL Breakaway may shut down, so the raw metadata is stored **in this repo, byte-for-byte as served**.
 Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
@@ -16,8 +16,8 @@ Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
 | `data/manifest.json` | Per highlight: source URL, fetch time (UTC), HTTP status, bytes, sha256 of the stored file, moment UUID, how it was linked, off-chain file, and **every IPFS CID + sha256** found in its metadata (images and video). |
 | `data/offchain/sets/<set_uuid>.json` | Raw NHL Breakaway set listings (`apigw.sweet.io/catalog/search/moment/set/...`): off-chain descriptions, game/play details, edition sizes, rarity, dates. |
 | `data/offchain/setcompletion_826.json`, `collection_challenge_826.json` | Raw set-completion and quest data (set rewards, quest highlight lists). |
-| `data/highlights.json` | The card list. |
-| `data/links.json` | card id -> Breakaway series id + token id, and how each was found. |
+| `data/highlights.json` | The card list: id, player, set, rarity, edition size, team, and an October 2026 price snapshot (lowest ask / FMV). Every command starts from this file. |
+| `data/links.json` | Card id -> NHL Breakaway series id + token id (+ moment UUID), and how each was found. |
 | `data/cids.txt` | Every IPFS CID (cover images, posters, videos) referenced by the metadata, deduplicated, ready to pin. |
 | `data/extra_moments.txt` | Anyone-editable list of extra NHL Breakaway links to add (see below). |
 | `breakaway.py` | The tool. `export_highlights.py` is a shortcut for `breakaway.py all`. |
@@ -60,7 +60,7 @@ Not committed (see `.gitignore`): `output/` (xlsx, covers, zips), `cache/`, vide
 ## Commands
 
 ```
-python breakaway.py fetch   [--refresh] [--concurrency 6] [--no-crawl]
+python breakaway.py fetch   [--refresh] [--ids 12,40] [--discover [--limit N]] [--concurrency 6]
 python breakaway.py covers  [--concurrency 6]        # full-res covers -> output/covers_full/, sha256-checked
 python breakaway.py build                            # OFFLINE: data/ -> output/highlights.xlsx
 python breakaway.py package                          # output/covers/, covers.zip, Breakaway-Highlights.zip
@@ -77,12 +77,18 @@ python breakaway.py album   [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..]
   ipfs.io, dweb.link, w3s.link, gateway.pinata.cloud and 4everland.io. `--ipfs-only` skips
   mediagateway.sweet.io / nft.nhlbreakaway.com entirely (use this if NHL Breakaway goes offline).
 
-* Re-runs only fetch what's new or missing. `--refresh` re-pulls everything.
+* Re-runs only fetch what's new or missing. `--refresh` re-pulls all metadata and set listings;
+  `fetch --refresh --ids 12,40` re-pulls just those highlights.
+* Where the card list comes from: `data/highlights.json` in this repo, plus anything added with `add` or
+  `data/extra_moments.txt`. `fetch --discover` also adds moments that NHL Breakaway's own public set
+  listings (`apigw.sweet.io`) show but the card list doesn't have yet (`--limit N` to add only a few).
+  No other site is contacted.
+* New card-list rows are linked to tokens by matching set + player + series against NHL Breakaway's set
+  listings. If edition #1 of a moment returns 404, the next few serials are tried and the one that answers
+  is kept. Anything still unmatched is printed so you can add it by URL.
 * `--concurrency` (1-8, default 6) caps parallel requests to NHL Breakaway / its CDN. Requests retry with
   exponential backoff on 429/5xx/timeouts and slow down automatically when errors climb. 401/403/404 are
   never worked around.
-* The card-list site was only hit once for the card list, plus (rarely) one card page at a time with a
-  1 s pause when a highlight can't be matched from NHL Breakaway's own set listings.
 
 ### Videos (opt-in)
 
@@ -150,8 +156,8 @@ rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No media is stored in this
 ## The spreadsheet
 
 * **Highlights**: one row per highlight with an embedded cover thumbnail, player, team, date, play,
-  game details, set, series, rarity, edition size, description, prices, links (cover, video, Breakaway,
-  metadata JSON, card page), cover IPFS CID + sha256, `raw_meta_path`, `offchain_path`, and data source.
+  game details, set, series, rarity, edition size, description, price snapshot, links (cover, video, Breakaway,
+  metadata JSON), cover IPFS CID + sha256, `raw_meta_path`, `offchain_path`, and data source.
 * **All Metadata**: every field of every stored metadata file, flattened (`meta.*` = nft. metadata,
   `offchain.*` = Breakaway set listing).
 * **IPFS**: every IPFS CID and sha256 per highlight (images and video).

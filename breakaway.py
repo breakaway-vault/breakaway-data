@@ -4,7 +4,8 @@ breakaway-data: a preservation archive of NHL Breakaway highlight metadata.
 
 USAGE
   python breakaway.py all                 # fetch (only new/missing) -> covers -> build -> package
-  python breakaway.py fetch [--refresh]   # master list, highlight->token links, raw nft. metadata
+  python breakaway.py fetch [--refresh] [--ids 12,40] [--discover]
+                                          # highlight->token links + raw nft. metadata for the card list
   python breakaway.py covers              # full-res cover art into output/covers_full/ (sha256-checked)
   python breakaway.py build               # OFFLINE: rebuild output/highlights.xlsx from data/ only
   python breakaway.py package             # output/covers/, covers.zip, Breakaway-Highlights.zip
@@ -19,10 +20,10 @@ USAGE
   Common flags: --concurrency N (default 6, max 8) for nft.nhlbreakaway.com / CDN requests.
 
 SOURCES (all public, no login)
-  card list     data/highlights.json
+  card list     data/highlights.json (committed), plus moments added with `add` / data/extra_moments.txt,
+                plus (with `fetch --discover`) moments NHL Breakaway's own set listings show that aren't in it yet
   links         NHL Breakaway set listings (apigw.sweet.io/catalog/search/moment/set/<set>), matched on
-                set + player + series; leftovers from the card page lookup, one request
-                at a time with a 1s pause (small community site).
+                set + player + series; existing links in data/links.json are kept as they are
   on-chain-ish  https://nft.nhlbreakaway.com/series/<series>/<token>  saved byte-for-byte to data/meta/<id>.json
   off-chain     raw set listings + set completion + quest data in data/offchain/
   covers/video  nft.nhlbreakaway.com image CDN and mediagateway.sweet.io (output/, gitignored)
@@ -32,7 +33,6 @@ import sys, threading, time, unicodedata, urllib.error, urllib.request, zipfile
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DATA, OUT, CACHE = (os.path.join(ROOT, d) for d in ("data", "output", "cache"))
-SITE = ""  # card-list site removed from this archive
 NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
@@ -94,30 +94,13 @@ def norm(s):
 def strip(s): return html.unescape(re.sub(r"<[^>]+>", "", s or "")).strip()
 
 
-# ------------------------------------------------------------------ master list
-def fetch_master(refresh):
-    raw = os.path.join(DATA, "master", "highlights.html")
-    if refresh or not os.path.exists(raw):
-        p("Fetching master list (one request) from", SITE + "/highlights")
-        st, b, _ = http(SITE + "/highlights", timeout=150, thr=Throttle(1, 1.0))
-        if not b: sys.exit("Could not load the card list page. Try again.")
-        wbytes(raw, b)
-    page = open(raw, encoding="utf-8", errors="replace").read()
-    rows = []
-    for tr in re.findall(r"<tr data-player=.*?</tr>", page, re.S):
-        tds = re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)
-        cid = int(re.search(r'href="/player/(\d+)', tr).group(1))
-        rar = re.search(r"alt=['\"]([^'\"]+)['\"]", tds[2]); ed = strip(tds[3])
-        rows.append({"id": cid, "player": strip(tds[0]), "set": strip(tds[1]),
-                     "rarity": rar.group(1) if rar else strip(tds[2]),
-                     "editions": None if ed == "--" else (int(ed) if ed.isdigit() else ed),
-                     "team": strip(tds[4]), "lowest_ask": strip(tds[5]),
-                     "fmv": strip(tds[7]) if len(tds) > 7 else "", "card_url": f"{SITE}/player/{cid}"})
-    seen = {r["id"] for r in rows}
-    for r in jload(os.path.join(DATA, "highlights.json"), []) or []:  # keep moments added with `add`
-        if r.get("added") and r["id"] not in seen: rows.append(r)
+# ------------------------------------------------------------------ card list
+def load_cards():
+    """The card list is data/highlights.json (it ships with the repo). New moments come from `add`,
+    data/extra_moments.txt or `fetch --discover`; nothing is scraped from any third-party site."""
+    rows = jload(os.path.join(DATA, "highlights.json"))
+    if not rows: sys.exit("data/highlights.json is missing or empty. Restore it from the repo, then re-run.")
     rows.sort(key=lambda r: idkey(r["id"]))
-    jdump(rows, os.path.join(DATA, "highlights.json"))
     return rows
 
 
@@ -162,7 +145,7 @@ SUF = re.compile(r"\s*\((S1|S2|S3|I|II|III)\)\s*$")
 SUF_SERIES = {"S1": "Series 1", "I": "Series 1", "S2": "Series 2", "II": "Series 2", "S3": "Series 3", "III": "Series 3"}
 
 
-def build_links(rows, moments, crawl=True):
+def build_links(rows, moments):
     path = os.path.join(DATA, "links.json"); links = jload(path, {})
     idx = {}
     for m in moments: idx.setdefault((norm(m["set"]), norm(m["player"])), {})[m["uuid"]] = m
@@ -180,19 +163,10 @@ def build_links(rows, moments, crawl=True):
             links[k] = {"series_id": m["series_id"], "token_id": str(int(m["uuid"][16:20], 16) << 48),
                         "moment_uuid": m["uuid"], "via": "NHL Breakaway set listing match (set+player+series)"}
         else: todo.append(r["id"])
-    if todo and crawl:
-        p(f"{len(todo)} highlights need the card page lookup; fetching one at a time (1s gap)")
-        pc = os.path.join(CACHE, "player"); thr = Throttle(1, 1.0)
-        for n, cid in enumerate(todo, 1):
-            fp = os.path.join(pc, f"{cid}.html")
-            if not os.path.exists(fp):
-                st, b, _ = http(f"{SITE}/player/{cid}", timeout=150, thr=thr)
-                if b: wbytes(fp, b)
-            if os.path.exists(fp):
-                m = re.search(r"https://nhlbreakaway\.com/series/([A-Za-z0-9]+)/(\d+)", open(fp, encoding="utf-8", errors="replace").read())
-                if m: links[str(cid)] = {"series_id": m.group(1), "token_id": str(int(m.group(2)) >> 48 << 48),
-                                         "via": "card page lookup"}
-            if n % 25 == 0: p(f"  player pages {n}/{len(todo)}")
+    if todo:
+        p(f"{len(todo)} highlight(s) could not be matched to an NHL Breakaway set listing: "
+          f"{', '.join(map(str, todo[:10]))}{' ...' if len(todo) > 10 else ''}. "
+          "Add them by URL with `python breakaway.py add <nhlbreakaway.com URL>`.")
     jdump(dict(sorted(links.items(), key=idkey)), path)
     return links
 
@@ -214,7 +188,18 @@ def ipfs_entries(d):
     walk(d, ""); return out
 
 
-def fetch_meta(links, refresh):
+def get_nft(sid, tok, exact=False):
+    """GET nft.nhlbreakaway.com metadata. Edition #1 of a moment can be missing (never minted / burned);
+    unless the token is exact, try the next few serials of the same moment (one request each)."""
+    tok = int(tok); tries = [tok] if exact or tok & 0xFFFFFFFFFFFF else [tok + n for n in range(4)]
+    st = b = h = None
+    for t in tries:
+        st, b, h = http(f"{NFT}/{sid}/{t}")
+        if b or st != 404: return st, b, h, str(t)
+    return st, b, h, str(tries[-1])
+
+
+def fetch_meta(links, refresh, only=None):
     mdir = os.path.join(DATA, "meta"); mpath = os.path.join(DATA, "manifest.json")
     man = jload(mpath, {}); lock = threading.Lock()
     def one(k):
@@ -222,7 +207,11 @@ def fetch_meta(links, refresh):
         e = man.get(k, {})
         if not refresh and os.path.exists(fp) and e.get("status") == 200 and e.get("source_url") == url:
             return
-        st, b, h = http(url)
+        st, b, h, tok = get_nft(ln["series_id"], ln["token_id"], ln.get("exact"))
+        if b and tok != str(ln["token_id"]):  # edition #1 missing: keep the exact token that answered
+            with lock: links[k] = ln = {**ln, "token_id": tok, "exact": True,
+                                        "via": f"{ln.get('via', '')} (edition #1 token missing; serial {int(tok) & 0xFFFF} used)".strip()}
+            url = f"{NFT}/{ln['series_id']}/{tok}"
         e = {"id": int(k) if k.isdigit() else k, "source_url": url, "fetched_at": now(), "status": st, "link_via": ln.get("via")}
         if b:
             wbytes(fp, b)
@@ -231,7 +220,7 @@ def fetch_meta(links, refresh):
             try: e["ipfs"] = ipfs_entries(json.loads(b))
             except Exception: e["parse_error"] = True
         with lock: man[k] = e
-    keys = sorted(links, key=idkey)
+    keys = sorted((k for k in links if only is None or k in only), key=idkey)
     with cf.ThreadPoolExecutor(THR.sem._value) as ex:
         for n, _ in enumerate(ex.map(one, keys), 1):
             if n % 250 == 0: p(f"  metadata {n}/{len(keys)}")
@@ -241,30 +230,35 @@ def fetch_meta(links, refresh):
         p(f"  retrying {len(bad)} failed metadata fetches"); time.sleep(10)
         for k in bad: one(k)
     jdump(dict(sorted(man.items(), key=idkey)), mpath)
+    jdump(dict(sorted(links.items(), key=idkey)), os.path.join(DATA, "links.json"))
     return man
 
 
+def discover_refs(rows, moments, man):
+    """Moments in NHL Breakaway's public set listings that aren't in the card list yet -> (series, token)."""
+    known = {e.get("moment_uuid") for e in man.values()} | {v.get("moment_uuid") for v in jload(os.path.join(DATA, "links.json"), {}).values()}
+    out = []
+    for m in moments:
+        if m["uuid"] in known or not m["series_id"]: continue
+        out.append((m["series_id"], str(int(m["uuid"][16:20], 16) << 48))); known.add(m["uuid"])
+    return out
+
+
 def cmd_fetch(a):
-    rows = fetch_master(a.refresh)
-    moments = fetch_offchain(a.refresh)
-    links = build_links(rows, moments, crawl=not a.no_crawl)
-    man = fetch_meta(links, a.refresh)
-    # edition #1 of a moment can be missing (never minted / burned): fall back to the real token on the
-    # card page lookup (one request each, 1s gap) and keep that exact token
-    miss = [k for k, e in man.items() if e.get("status") == 404 and not links[k].get("exact")]
-    if miss and not a.no_crawl:
-        thr = Throttle(1, 1.0)
-        for k in miss:
-            fp = os.path.join(CACHE, "player", f"{k}.html")
-            if not os.path.exists(fp):
-                st, b, _ = http(f"{SITE}/player/{k}", timeout=150, thr=thr)
-                if b: wbytes(fp, b)
-            if os.path.exists(fp):
-                m = re.search(r"https://nhlbreakaway\.com/series/([A-Za-z0-9]+)/(\d+)", open(fp, encoding="utf-8", errors="replace").read())
-                if m: links[k] = {"series_id": m.group(1), "token_id": m.group(2), "exact": True,
-                                  "via": "card page lookup (edition #1 token missing)"}
-        jdump(dict(sorted(links.items(), key=idkey)), os.path.join(DATA, "links.json"))
-        man = fetch_meta(links, False)
+    rows = load_cards()
+    only = {x.strip() for x in a.ids.split(",") if x.strip()} if a.ids else None
+    if only:
+        unknown = only - {str(r["id"]) for r in rows}
+        if unknown: sys.exit(f"Not in data/highlights.json: {', '.join(sorted(unknown))}")
+    moments = fetch_offchain(a.refresh and not only)
+    links = build_links(rows, moments)
+    man = fetch_meta(links, a.refresh, only)
+    if a.discover:
+        refs = discover_refs(rows, moments, man)
+        p(f"Discover: {len(refs)} moment(s) in NHL Breakaway set listings aren't in the card list yet")
+        if a.limit: refs = refs[:a.limit]
+        if refs: add_refs(refs, "found in NHL Breakaway set listing (fetch --discover)")
+        rows = load_cards(); man = jload(os.path.join(DATA, "manifest.json"), {}); links = jload(os.path.join(DATA, "links.json"), {})
     # attach off-chain moment pointer to manifest
     by_uuid = {m["uuid"]: m for m in moments}
     for k, e in man.items():
@@ -279,7 +273,8 @@ def cmd_fetch(a):
     size = sum(os.path.getsize(os.path.join(DATA, "meta", f)) for f in os.listdir(os.path.join(DATA, "meta")))
     off = sum(1 for e in man.values() if e.get("offchain_path"))
     p(f"Fetch done: {len(rows)} highlights, {len(links)} linked, {ok} metadata OK, "
-      f"{len(man) - ok} failed, {off} with off-chain data; data/meta = {size/1e6:.1f} MB")
+      f"{len(man) - ok} failed, {off} with off-chain data; data/meta = {size/1e6:.1f} MB"
+      + (f" (refreshed ids: {', '.join(sorted(only, key=idkey))})" if only else ""))
 
 
 # ------------------------------------------------------------------ offline model
@@ -337,10 +332,10 @@ def summary(r):
         "rarity": a.get("Rarity") or r["rarity"], "editions": int(a["Total Editions"]) if str(a.get("Total Editions", "")).isdigit() else (off.get("editions") or r["editions"] or ""),
         "description": re.sub(r"\n+Officially Licensed Product.*$", "", (d.get("description") or off.get("description") or "").strip(), flags=re.S).strip(),
         "issued": (d.get("issued") or off.get("issued") or "")[:10], "audio": a.get("Audio Type", ""),
-        "lowest_ask": r["lowest_ask"], "fmv": r["fmv"],
+        "lowest_ask": r.get("lowest_ask", ""), "fmv": r.get("fmv", ""),
         "cover_url": front.get("url", ""), "cover_ipfs": (front.get("altloc") or {}).get("ipfs", ""), "cover_sha256": front.get("sha256", ""),
         "video_url": vid, "breakaway_url": ln.get("source_url", "").replace("nft.nhlbreakaway.com/series", "nhlbreakaway.com/series"),
-        "meta_url": ln.get("source_url", ""), "card_url": r["card_url"], "id": r["id"],
+        "meta_url": ln.get("source_url", ""), "id": r["id"],
         "moment_uuid": ln.get("moment_uuid", ""), "raw_meta_path": ln.get("meta_path", ""),
         "offchain_path": ln.get("offchain_path", ""), "link_via": ln.get("link_via", ""),
         "source": " + ".join(x for x, ok in (("card list", True), ("nft. metadata", bool(r["_meta"])), ("Breakaway off-chain", bool(r["_off"]))) if ok),
@@ -369,10 +364,10 @@ COLS = [("row", "#"), ("cover", "Cover"), ("player", "Player"), ("team", "Team")
         ("issued", "Released"), ("audio", "Audio"), ("lowest_ask", "Lowest Ask"), ("fmv", "FMV"),
         ("cover_url", "Cover Art (full res)"), ("cover_ipfs", "Cover IPFS CID"), ("cover_sha256", "Cover sha256"),
         ("video_url", "Video"), ("breakaway_url", "NHL Breakaway Page"), ("meta_url", "Metadata URL"),
-        ("card_url", "Card Page"), ("cover_file", "Cover File"), ("id", "Card ID"),
+        ("cover_file", "Cover File"), ("id", "Card ID"),
         ("moment_uuid", "Moment UUID"), ("raw_meta_path", "raw_meta_path"), ("offchain_path", "offchain_path"),
         ("link_via", "How Linked"), ("source", "Data Source"), ("missing", "Missing / Notes")]
-LINKS = {"cover_url": "Cover art", "video_url": "Watch", "breakaway_url": "Breakaway", "meta_url": "JSON", "card_url": "Card page"}
+LINKS = {"cover_url": "Cover art", "video_url": "Watch", "breakaway_url": "Breakaway", "meta_url": "JSON"}
 
 
 def cmd_build(a):
@@ -484,10 +479,10 @@ KEY COLUMNS
   # / Cover / Player / Team / Pos / Jersey     who and the cover art
   Highlight Date / Play / Highlight / Period / Clock / Final Score / Venue / Flags   what happened
   Set / Series / Rarity / Edition Size / Released   collectible details (official NHL Breakaway values;
-                    "Set (list label)" is the set label used in the card list)
+                    "Set (list label)" is the set name as written in data/highlights.json)
   Description       The official write-up, good for album captions
-  Lowest Ask / FMV  Price snapshot from the card list (USD)
-  Cover Art, Video, NHL Breakaway Page, Metadata URL, Card Page   clickable links
+  Lowest Ask / FMV  Price snapshot (USD) saved with the card list in October 2026
+  Cover Art, Video, NHL Breakaway Page, Metadata URL   clickable links
   Cover IPFS CID / Cover sha256   permanent IPFS address and checksum of the cover image
   Cover File        matching image in covers/
   Data Source / Missing / Notes   where the row's data came from, or why something is missing
@@ -543,7 +538,7 @@ def video_size(url):
 def cmd_videos(a):
     rows = sort_rows(load_model())
     if a.series: rows = [r for r in rows if r["_s"]["series"].lower() == a.series.lower()]
-    if a.ids: want = {int(x) for x in a.ids.split(",") if x.strip()}; rows = [r for r in rows if r["id"] in want]
+    if a.ids: want = {x.strip() for x in a.ids.split(",") if x.strip()}; rows = [r for r in rows if str(r["id"]) in want]
     rows = [r for r in rows if r["_s"]["video_url"]]
     if a.limit: rows = rows[: a.limit]
     out = os.path.abspath(a.out_dir); os.makedirs(out, exist_ok=True)
@@ -693,6 +688,10 @@ def cmd_add(a):
     if os.path.exists(extra): items += open(extra, encoding="utf-8").read().splitlines()
     refs = parse_moment_refs(items)
     if not refs: p("Nothing to add. Pass URLs or put them in data/extra_moments.txt"); return
+    add_refs(refs, "added by URL")
+
+
+def add_refs(refs, via):
     rows = jload(os.path.join(DATA, "highlights.json"), []); links = jload(os.path.join(DATA, "links.json"), {})
     man = jload(os.path.join(DATA, "manifest.json"), {})
     known_uuid = {e.get("moment_uuid"): k for k, e in man.items() if e.get("moment_uuid")}
@@ -700,17 +699,17 @@ def cmd_add(a):
     added = 0
     for sid, tok in refs:
         if (sid, str(int(tok) >> 48)) in known_tok: p(f"  already have {sid}/{tok} (id {known_tok[(sid, str(int(tok) >> 48))]})"); continue
-        url = f"{NFT}/{sid}/{tok}"; st, b, h = http(url)
+        st, b, h, tok = get_nft(sid, tok); url = f"{NFT}/{sid}/{tok}"
         if not b: p(f"  {url}: HTTP {st}, skipped"); continue
         d = json.loads(b); at = {t["name"]: t["value"] for t in d.get("attributes", [])}
         u = at.get("Moment UUID")
         if u in known_uuid: p(f"  {sid}/{tok} is the same moment as id {known_uuid[u]}, skipped"); continue
         k = f"bk-{sid}-{u[16:20] if u else tok}"
         wbytes(os.path.join(DATA, "meta", f"{k}.json"), b)
-        man[k] = {"id": k, "source_url": url, "fetched_at": now(), "status": st, "link_via": "added by URL",
+        man[k] = {"id": k, "source_url": url, "fetched_at": now(), "status": st, "link_via": via,
                   "meta_path": f"data/meta/{k}.json", "bytes": len(b), "sha256": hashlib.sha256(b).hexdigest(),
                   "content_type": h.get("Content-Type") if h else None, "ipfs": ipfs_entries(d), "moment_uuid": u}
-        links[k] = {"series_id": sid, "token_id": tok, "exact": True, "via": "added by URL"}
+        links[k] = {"series_id": sid, "token_id": tok, "exact": True, "via": via}
         if at.get("Set UUID"):  # off-chain set listing for this moment
             sp = os.path.join(DATA, "offchain", "sets", f"{at['Set UUID']}.json")
             if not os.path.exists(sp):
@@ -720,7 +719,7 @@ def cmd_add(a):
                 man[k]["offchain_path"] = f"data/offchain/sets/{at['Set UUID']}.json"
         rows.append({"id": k, "player": at.get("Player", d.get("name", "")), "set": at.get("Set", ""),
                      "rarity": at.get("Rarity", ""), "editions": int(at["Total Editions"]) if str(at.get("Total Editions", "")).isdigit() else None,
-                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "card_url": "", "added": True})
+                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "added": True})
         known_uuid[u] = k; known_tok[(sid, str(int(tok) >> 48))] = k; added += 1; p(f"  added {k}: {at.get('Player')} / {at.get('Set')}")
     rows.sort(key=lambda r: idkey(r["id"]))
     jdump(rows, os.path.join(DATA, "highlights.json"))
@@ -1005,12 +1004,12 @@ def main():
     ap.add_argument("--gateway", action="append", default=[], help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
     ap.add_argument("--ipfs-only", action="store_true", help="covers/videos: skip NHL Breakaway CDN, use IPFS gateways only")
     ap.add_argument("--concurrency", type=int, default=6, help="parallel requests to NHL Breakaway / CDN (1-8, default 6)")
-    ap.add_argument("--refresh", action="store_true", help="re-fetch the master list and all metadata")
-    ap.add_argument("--no-crawl", action="store_true", help="never fetch card pages")
+    ap.add_argument("--refresh", action="store_true", help="fetch: re-download metadata (all, or just --ids) and set listings")
+    ap.add_argument("--discover", action="store_true", help="fetch: also add moments from NHL Breakaway set listings that aren't in the card list")
     ap.add_argument("--out-dir", default=os.path.join(OUT, "videos"), help="videos: where to save")
-    ap.add_argument("--limit", type=int, help="videos: at most N")
+    ap.add_argument("--limit", type=int, help="videos: at most N; fetch --discover: add at most N")
     ap.add_argument("--series", help='videos/album: only this series, e.g. "Series 3"')
-    ap.add_argument("--ids", help="videos: comma-separated Card IDs")
+    ap.add_argument("--ids", help="fetch/videos: comma-separated card IDs (the id in data/highlights.json)")
     ap.add_argument("--yes", action="store_true", help="videos: don't ask before downloading")
     ap.add_argument("--layout", choices=["1up", "2x2", "3x3"], default="2x2", help="album: cards per page")
     ap.add_argument("--page", choices=["letter", "a4"], default="letter", help="album: paper size")
