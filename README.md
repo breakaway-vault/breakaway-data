@@ -17,7 +17,7 @@ In the menu, most people want **4) Open the viewer** (browse every moment right 
 
 ![The numbered menu](docs/images/menu.png)
 
-![The offline viewer: search and filter all 1,973 moments (artwork replaced by placeholders in this picture)](docs/images/viewer.png)
+![The offline viewer: search and filter all 1,973 moments](docs/images/viewer.png)
 
 An unofficial fan archive of NHL Breakaway digital highlights: the details of all 1,973 known moments, saved here so they survive if the site goes away.
 A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the original cover art and videos from IPFS.
@@ -29,7 +29,7 @@ Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warr
 
 It only uses public pages and links: no logins, no wallets, no personal data.
 
-It saves a copy of what NHL Breakaway already shows to everyone, so the details survive. No images or videos are stored here; the tool fetches them for your own personal archive. The technical details are in [Data sources and privacy](#data-sources-and-privacy).
+It saves a copy of what NHL Breakaway already shows to everyone, so the details survive. No highlight images or videos are stored here (only a screenshot of the viewer); the tool fetches them for your own personal archive. The technical details are in [Data sources and privacy](#data-sources-and-privacy).
 
 ## FAQ
 
@@ -168,7 +168,7 @@ This tool and data are provided **AS IS, with no warranty of any kind**, express
 
 ## Disclaimer
 
-Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a [GitHub issue](https://github.com/breakaway-vault/breakaway-data/issues).
+Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no highlight media (apart from one screenshot of the viewer); anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a [GitHub issue](https://github.com/breakaway-vault/breakaway-data/issues).
 
 Card list originally compiled from The Fifth Line (https://thefifthlinecode.onrender.com).
 
@@ -181,7 +181,7 @@ Card list originally compiled from The Fifth Line (https://thefifthlinecode.onre
 It catalogs **public data**: the NFT metadata and public set and listing data that NHL Breakaway and Sweet already publish for anyone to see.
 * **Public, unauthenticated endpoints only:** `nft.nhlbreakaway.com`, `apigw.sweet.io` (set listings), NHL Breakaway's media CDN and public IPFS gateways. No logins, cookies, paywalls or private APIs, and nothing that gets around rate limits or access controls (it slows down on 429s and stops on 401/403). The only credential the tool ever touches is your *own* pinning-service token, and only if you choose to pin.
 * **No personal data:** no owner or collector names, usernames, wallets, emails or account data are stored. The one wallet address in the raw metadata is Sweet's own royalty-fee address (`fees.recipient_address`), which is part of every token's public metadata. `status` records only *that* a listing or price was seen, never who.
-* **No media in the repo:** no images or videos are hosted here. They stay the property of their rights holders. The tool only helps individuals fetch the public files for their own personal archival use.
+* **No media in the repo:** no highlight images or videos are hosted here, apart from one small screenshot of the viewer in `docs/images/`. They stay the property of their rights holders. The tool only helps individuals fetch the public files for their own personal archival use.
 
 ### What's in the repo
 
@@ -256,4 +256,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md): fork, add the link to `data/extra_moment
 
 ### License
 
-Code: MIT ([LICENSE](LICENSE)). The metadata in `data/` is a preservation copy of public NHL Breakaway / Sweet metadata. It and all highlight media, names and marks remain the property of their rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No media is stored in this repo.
+Code: MIT ([LICENSE](LICENSE)). The metadata in `data/` is a preservation copy of public NHL Breakaway / Sweet metadata. It and all highlight media, names and marks remain the property of their rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No highlight media is stored in this repo, apart from one screenshot of the viewer.
