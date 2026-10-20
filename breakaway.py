@@ -37,7 +37,7 @@ IDS
   added later (`add`, `fetch --discover`) get the next free numbers and "on_site": false.
 """
 import argparse, base64, concurrent.futures as cf, csv, datetime as dt, hashlib, html, io, json, os, re
-import sys, threading, time, unicodedata, urllib.error, urllib.parse, urllib.request, zipfile
+import shutil, sys, threading, time, unicodedata, urllib.error, urllib.parse, urllib.request, zipfile
 
 FROZEN = getattr(sys, "frozen", False)          # running as the standalone app (PyInstaller)
 ROOT = os.path.dirname(os.path.abspath(sys.executable if FROZEN else __file__))
@@ -66,6 +66,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
+VERSION = "1.1.1"       # the one place the version lives: menu header, --version, viewer footer
 TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
@@ -73,7 +74,166 @@ OFFLINE = False          # --offline: never touch the network (build/view/album 
 MEDIA_CONC = 2           # parallel media downloads per run (each host is also throttled separately)
 
 
-def p(*a): print(*a, flush=True)
+_PROG = None                  # the live progress line currently on screen, if any
+_PLOCK = threading.RLock()
+STOP = threading.Event()      # set by Ctrl+C: downloads stop at their next chunk and the run ends cleanly
+_TL = threading.local()       # worker threads keep their own run's stop flag here (see run_pool)
+
+
+def stopping():
+    """True once Ctrl+C was pressed for the run this thread belongs to."""
+    ev = getattr(_TL, "stop", None)
+    return (ev or STOP).is_set()
+
+
+def stop_wait(seconds):
+    """Sleep, but wake up at once (returning True) when Ctrl+C was pressed."""
+    ev = getattr(_TL, "stop", None)
+    return (ev or STOP).wait(max(0.0, seconds))
+
+
+def p(*a):
+    """print(), but first clear a live progress line and redraw it afterwards so messages never get mixed into it."""
+    with _PLOCK:
+        pr = _PROG
+        if pr: pr.clear()
+        print(*a, flush=True)
+        if pr: pr.draw(force=True)
+
+
+def _is_tty():
+    try: return bool(sys.stdout) and sys.stdout.isatty()
+    except Exception: return False
+
+
+def _mb(n): return f"{n / 1e6:.1f} MB" if n < 1e7 else (f"{n / 1e6:,.0f} MB" if n < 1e10 else f"{n / 1e9:,.1f} GB")
+
+
+def _dur(s):
+    s = int(max(0, s))
+    if s < 60: return f"{s} s"
+    if s < 3600: return f"{s // 60} min"
+    return f"{s // 3600} h {s % 3600 // 60:02d} min"
+
+
+class Progress:
+    """One status line for a long loop: done/total, percent, ok/skipped/failed, MB, rough time left.
+    On a terminal (Windows console, Mac Terminal, Linux) it is redrawn in place with \r, at most ~4 times a second.
+    Otherwise (a log file or pipe) a plain line is printed every `every` items or ~10 s. Ends with a summary."""
+    def __init__(self, label, total, folder=None, ok="ok", failed="failed", skipped="skipped",
+                 show_bytes=False, expect_bytes=None, resumable=True, every=None):
+        self.label, self.total, self.folder = label, total, folder
+        self.names = {"ok": ok, "failed": failed, "skipped": skipped}
+        self.n = {"ok": 0, "failed": 0, "skipped": 0}; self.bytes = 0
+        self.show_bytes, self.expect, self.resumable = show_bytes, expect_bytes, resumable
+        self.tty = _is_tty(); self.every = every or max(10, total // 20)
+        self.t0 = self.last = time.time(); self.last_n = 0; self.width = 0; self.lock = threading.Lock()
+
+    def __enter__(self):
+        global _PROG
+        STOP.clear()
+        with _PLOCK: _PROG = self
+        self.draw(force=True); return self
+
+    def __exit__(self, et, ev, tb):
+        global _PROG
+        with _PLOCK: self.clear(); self._shown = None; _PROG = None
+        if et is not None and issubclass(et, SystemExit): return False   # its own message explains what happened
+        self.summary(stopped=et is not None and issubclass(et, KeyboardInterrupt) or STOP.is_set())
+        return False
+
+    @property
+    def done(self): return sum(self.n.values())
+
+    def add(self, what="ok", nbytes=0):
+        with self.lock: self.n[what] += 1; self.bytes += nbytes
+        self.draw()
+
+    def add_bytes(self, nbytes):
+        with self.lock: self.bytes += nbytes
+        self.draw()
+
+    def text(self):
+        d, t = self.done, self.total; el = time.time() - self.t0; worked = self.n["ok"] + self.n["failed"]
+        s = f"{self.label}: {d:,} / {t:,}" + (f" ({d * 100 // t}%)" if t else "")
+        s += f"  {self.names['ok']} {self.n['ok']:,}"
+        if self.n["skipped"] or self.names["skipped"] == "skipped": s += f"  {self.names['skipped']} {self.n['skipped']:,}"
+        s += f"  {self.names['failed']} {self.n['failed']:,}"
+        if self.show_bytes: s += f"  {_mb(self.bytes)}"
+        left = None
+        if el > 3 and d < t:
+            if self.expect and self.bytes > 1e6: left = el / self.bytes * max(0, self.expect - self.bytes)
+            elif worked: left = el / worked * (t - d)
+        if left is not None: s += f"  ~{_dur(left)} left"
+        return s
+
+    def clear(self):
+        self._shown = None
+        if self.tty and self.width:
+            sys.stdout.write("\r" + " " * self.width + "\r"); sys.stdout.flush(); self.width = 0
+
+    def draw(self, force=False):
+        nowt = time.time()
+        with _PLOCK:
+            if _PROG is not self: return
+            if self.tty:
+                if not force and nowt - self.last < 0.25: return
+                self.last = nowt
+                cols = shutil.get_terminal_size((100, 24)).columns
+                s = self.text()[: max(20, cols - 1)]          # never wrap: a wrapped line can't be redrawn with \r
+                if s == getattr(self, "_shown", None) and self.width: return
+                self._shown = s
+                sys.stdout.write("\r" + s + " " * max(0, self.width - len(s))); sys.stdout.flush(); self.width = len(s)
+            elif not force and (self.done - self.last_n >= self.every or nowt - self.last >= 10):
+                self.last, self.last_n = nowt, self.done
+                print("  " + self.text(), flush=True)
+
+    def summary(self, stopped=False):
+        el = time.time() - self.t0
+        if stopped:
+            head = f"{self.label}: stopped at {self.done:,} / {self.total:,}." + (" Run the same command again to resume." if self.resumable else "")
+        else: head = f"{self.label}: finished {self.done:,} / {self.total:,}."
+        parts = [f"{self.names['ok']} {self.n['ok']:,}"]
+        if self.n["skipped"] or self.names["skipped"] == "skipped": parts.append(f"{self.names['skipped']} (already had) {self.n['skipped']:,}")
+        parts.append(f"{self.names['failed']} {self.n['failed']:,}")
+        if self.show_bytes: parts.append(f"{_mb(self.bytes)} downloaded")
+        parts.append(f"took {_dur(el)}")
+        p(head + " " + ", ".join(parts) + (f". Folder: {self.folder}" if self.folder else ""))
+
+
+def run_pool(fn, items, workers, prog=None):
+    """fn(item) on a few daemon worker threads while the main thread stays free to notice Ctrl+C (on Windows
+    a thread blocked in a plain join or result() can't be interrupted, which is why Ctrl+C used to be ignored).
+    Ctrl+C: this run's stop flag is set, queued items are dropped, files in flight stop at their next chunk
+    (their .part file is discarded; finished files are kept), we wait a few seconds at most, then
+    KeyboardInterrupt goes up to the caller (the menu catches it and shows the menu again)."""
+    import queue
+    items = list(items)
+    if not items: return
+    q = queue.Queue(); ev = threading.Event()
+    for x in items: q.put(x)
+    def worker():
+        _TL.stop = ev
+        while not ev.is_set():
+            try: x = q.get_nowait()
+            except queue.Empty: return
+            try: fn(x)
+            except Exception as e: p(f"  error: {type(e).__name__}: {e}")
+    ts = [threading.Thread(target=worker, daemon=True) for _ in range(max(1, min(workers, len(items))))]
+    for th in ts: th.start()
+    try:
+        while any(th.is_alive() for th in ts):
+            for th in ts: th.join(0.2)      # short timed joins: Ctrl+C is handled within a fraction of a second
+            if prog: prog.draw()
+    except KeyboardInterrupt:
+        ev.set(); STOP.set(); p("Stopping: dropping the rest and closing the files in progress...")
+        end = time.time() + 2
+        try:
+            for th in ts: th.join(max(0.0, end - time.time()))
+        except KeyboardInterrupt: pass      # a second Ctrl+C: don't wait at all
+        raise
+
+
 def idkey(x):
     x = str(x[0] if isinstance(x, tuple) else x)
     return (0, int(x), "") if x.isdigit() else (1, 0, x)
@@ -519,7 +679,16 @@ def cooled(u):
     return COOLDOWN.get(host_of(u), 0) > time.time()
 
 
-def ipfs_url(gw, cid): return gw.rstrip("/") + "/" + cid.replace("ipfs://", "").strip("/")
+CID_RE = re.compile(r"^[A-Za-z0-9]+(?:/\S*)?")
+
+
+def clean_cid(c):
+    """'ipfs://Qm.../a.png  sha256=...' -> 'Qm.../a.png': the CID plus any path, nothing after whitespace."""
+    s = re.sub(r"^(?:ipfs://|/?ipfs/)", "", str(c or "").strip(), flags=re.I)
+    m = CID_RE.match(s); return m.group(0) if m else ""
+
+
+def ipfs_url(gw, cid): return gw.rstrip("/") + "/" + clean_cid(cid)
 
 
 def sources(primary, cid, ipfs_only=None):
@@ -555,13 +724,17 @@ def stream_to(url, part, kind, timeout=120):
     thr = host_thr(url); have = os.path.getsize(part) if os.path.exists(part) else 0
     hdr = dict(HDR) if kind == "cdn" else {"User-Agent": UA}
     if have: hdr["Range"] = f"bytes={have}-"
-    thr.sem.acquire(); time.sleep(thr.delay)
+    thr.sem.acquire(); stop_wait(thr.delay)
     try:
+        if stopping(): return "stopped"
         with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=timeout) as r:
             ctype = (r.headers.get("Content-Type") or "").lower()
             if "text/html" in ctype: thr.bad(); return "err"          # gateway error page, not the file
             with open(part, "ab" if have and r.status == 206 else "wb") as f:
-                for ch in iter(lambda: r.read(1 << 20), b""): f.write(ch)
+                for ch in iter(lambda: r.read(1 << 18), b""):
+                    if stopping(): return "stopped"
+                    f.write(ch)
+                    if _PROG: _PROG.add_bytes(len(ch))
         thr.ok(); return "ok"
     except urllib.error.HTTPError as e:
         if e.code in (429, 503):
@@ -595,13 +768,15 @@ def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
     part = dest + ".part"; os.makedirs(os.path.dirname(dest), exist_ok=True)
     for src_kind, url in sources(primary, cid, ipfs_only):
         if cooled(url): continue
+        if stopping(): break
         if os.path.exists(part): os.remove(part)                      # never mix bytes from two sources
         res = None
         for attempt in range(3):
             res = stream_to(url, part, src_kind, timeout=25 if src_kind == "ipfs" else 60)   # per-read timeout, not total
             if res != "err": break
             if not (os.path.exists(part) and os.path.getsize(part)): break   # never started: next source
-            time.sleep(min(60, 3 * 2 ** attempt))                     # broke mid-file: back off, resume
+            if stop_wait(min(60, 3 * 2 ** attempt)): break           # broke mid-file: back off, resume
+        if res == "stopped" or stopping(): break
         if res != "ok": continue
         b64 = file_sha_b64(part)
         if sha and b64.rstrip("=") == sha.rstrip("="): status = "original"
@@ -613,8 +788,33 @@ def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
                             "host": host_of(url), "sha256": b64, "expected_sha256": sha, "bytes": os.path.getsize(dest),
                             "cid": (cid or "").replace("ipfs://", ""), "at": now()})
         return status
-    if os.path.exists(part): os.remove(part)
+    if os.path.exists(part): os.remove(part)   # never leave half a file behind (also when stopped)
     return None
+
+
+def clean_partials(folder):
+    """Remove leftovers of an interrupted run (e.g. the window was closed mid-file). Downloads are written to
+    <name>.part and only renamed to <name> once complete and checked, so these are never mistaken for files."""
+    n = 0
+    if os.path.isdir(folder):
+        for f in os.listdir(folder):
+            if f.endswith((".part", ".new", ".new.part")):
+                try: os.remove(os.path.join(folder, f)); n += 1
+                except OSError: pass
+    if n: p(f"Removed {n} unfinished file(s) left by an interrupted run; they will be downloaded again.")
+    return n
+
+
+def saved_ok(path, log, kind, key, sha):
+    """Is the file already saved *completely*? Not just 'it exists': its size must match what was recorded
+    when it was saved, or (no record, e.g. copied in by hand or from an old version) its sha256 must match."""
+    if not path or not os.path.exists(path): return False
+    size = os.path.getsize(path)
+    if size == 0: return False
+    rec = log.get(kind, key)
+    if rec and rec.get("bytes"): return rec["bytes"] == size and os.path.basename(rec.get("file", path)) == os.path.basename(path)
+    if sha: return file_matches(path, sha)
+    return True                                             # nothing to check it against
 
 
 def asset_ipfs(meta, purpose_or_path):
@@ -667,28 +867,36 @@ def cmd_covers(a, rows=None):
           f"(about {len(missing) * 0.87:,.0f} MB).")
         if missing and len(missing) > 20 and not yes("Download them now?", True): p("Cancelled."); return
     log = DownloadLog(); stats = {"original": 0, "reencoded": 0, "unverified": 0, "cached": 0, "failed": 0, "repaired": 0}
-    lock = threading.Lock()
+    lock = threading.Lock(); cd = os.path.join(OUT, "covers_full"); os.makedirs(cd, exist_ok=True); clean_partials(cd)
     def one(r):
+        if stopping(): return
         d = r["_meta"] or {}; front = (d.get("images") or {}).get("front") or {}; url = front.get("url")
         cid, sha = asset_ipfs(d, "front")
-        if not url and not cid: return
+        if not url and not cid: pr.add("failed"); return
         fp = cover_path(r) or cover_dest(r, url)
-        if os.path.exists(fp):
+        if os.path.exists(fp) and not saved_ok(fp, log, "cover", r["id"], sha):
+            p(f"  cover {r['id']} ({r['player']}): the saved file is incomplete or damaged; downloading it again")
+        elif os.path.exists(fp):
             if not (a.repair and sha and not file_matches(fp, sha)):
                 with lock: stats["cached"] += 1
-                return
+                pr.add("skipped"); return
             st = fetch_asset(None, cid, sha, fp, log, "cover", r["id"], ipfs_only=True)   # replace with the original
+            if stopping() and st is None: return
             with lock: stats["repaired" if st == "original" else "failed"] += 1
-            return
+            pr.add("ok" if st == "original" else "failed"); return
         st = fetch_asset(url, cid, sha, fp, log, "cover", r["id"])
+        if stopping() and st is None: return
         with lock: stats[st or "failed"] += 1
-    with cf.ThreadPoolExecutor(max(1, min(MEDIA_CONC, 4))) as ex:
-        for n, _ in enumerate(ex.map(one, rows), 1):
-            if n % 250 == 0: p(f"  covers {n}/{len(rows)}")
-    log.save()
-    cd = os.path.join(OUT, "covers_full"); os.makedirs(cd, exist_ok=True)
+        pr.add("ok" if st else "failed")
+        if not st: p(f"  cover {r['id']} ({r['player']}): no source answered")
+    with Progress("Covers", len(rows), folder=cd, show_bytes=True) as pr:
+        try: run_pool(one, rows, min(MEDIA_CONC, 4), pr)
+        finally: log.save()
+    if stats["reencoded"] or stats["unverified"] or stats["repaired"]:
+        p(f"  of the new covers: {stats['original']} original, {stats['reencoded']} re-encoded (CDN), "
+          f"{stats['unverified']} unverified, {stats['repaired']} repaired")
     size = sum(os.path.getsize(os.path.join(cd, f)) for f in os.listdir(cd))
-    p(f"Covers: {stats}; {os.path.relpath(cd, ROOT)} = {size/1e6:.0f} MB")
+    p(f"  The covers folder now holds {len(os.listdir(cd)):,} files ({_mb(size)}).")
 
 
 # ------------------------------------------------------------------ package for sharing
@@ -772,13 +980,20 @@ def cmd_videos(a):
     if a.limit: rows = rows[: a.limit]
     out = os.path.abspath(a.video_dir); os.makedirs(out, exist_ok=True)
     def fname(r): return os.path.join(out, video_name(r))
-    log = DownloadLog()
+    log = DownloadLog(); clean_partials(out)
     repair = []
     if a.repair:   # files that exist but aren't the original (e.g. re-encoded CDN copies): replace from IPFS
         for r in rows:
             fp = fname(r); _, sh = asset_ipfs(r["_meta"], "primary-asset")
             if os.path.exists(fp) and sh and not file_matches(fp, sh): repair.append(r)
-    todo = [r for r in rows if not os.path.exists(fname(r))]
+    def have(r):
+        fp = fname(r)
+        if not os.path.exists(fp): return False
+        if saved_ok(fp, log, "video", r["id"], asset_ipfs(r["_meta"], "primary-asset")[1]): return True
+        p(f"  video {r['id']} ({r['player']}): the saved file is incomplete or damaged; it will be downloaded again")
+        return False
+    todo = [r for r in rows if not have(r)]
+    repair = [r for r in repair if r not in todo]   # an incomplete file is simply downloaded again
     p(f"{len(rows)} videos selected, {len(rows) - len(todo)} already saved, {len(todo)} to download into {out}"
       + (f", {len(repair)} to repair from IPFS" if a.repair else ""))
     if not todo and not repair: return
@@ -789,6 +1004,7 @@ def cmd_videos(a):
     if not a.yes and input("Download now? [y/N] ").strip().lower() not in ("y", "yes"): p("Cancelled."); return
     stats = {"original": 0, "reencoded": 0, "unverified": 0, "failed": 0}; lock = threading.Lock()
     def one(r, ipfs_only=None):
+        if stopping(): return
         cid, sh = asset_ipfs(r["_meta"], "primary-asset"); dst = fname(r)
         if ipfs_only:   # repair: download next to the old file, swap only if we got the original
             tmp = dst + ".new"
@@ -797,15 +1013,21 @@ def cmd_videos(a):
             elif os.path.exists(tmp): os.remove(tmp)
         else:
             st = fetch_asset(r["_s"]["video_url"], cid, sh, dst, log, "video", r["id"])
+        if stopping() and st is None: return
         with lock: stats[st or "failed"] += 1
+        pr.add("ok" if st else "failed")
         if not st: p(f"  failed {r['id']} ({r['player']}): no source answered")
         elif st == "reencoded": p(f"  {r['id']}: only the CDN had it; saved, but it is a re-encoded copy (not the original)")
         return st
-    with cf.ThreadPoolExecutor(max(1, min(MEDIA_CONC, 4))) as ex:
-        list(ex.map(one, todo))
-        list(ex.map(lambda r: one(r, True), repair))
-    log.save()
-    p(f"Videos: {stats} -> {out}  (log: {os.path.relpath(log.path, ROOT)})")
+    skip_n = len(rows) - len(todo) - len(repair)
+    with Progress("Videos", len(rows), folder=out, show_bytes=True, expect_bytes=est) as pr:
+        pr.n["skipped"] = skip_n
+        try:
+            run_pool(one, todo, min(MEDIA_CONC, 4), pr)
+            run_pool(lambda r: one(r, True), repair, min(MEDIA_CONC, 4), pr)
+        finally: log.save()
+    p(f"  {stats['original']} original, {stats['reencoded']} re-encoded (CDN only), {stats['unverified']} unverified, "
+      f"{stats['failed']} failed  (log: {os.path.relpath(log.path, ROOT)})")
 
 
 # ------------------------------------------------------------------ IPFS / preservation
@@ -916,6 +1138,7 @@ def cmd_check_ipfs(a):
       f"via {', '.join(host_of(g) for g in GATEWAYS[:3])}...")
     lock = threading.Lock(); n = [0]
     def one(c):
+        if stopping(): return
         if a.recheck:
             r = check_one(c, n_gateways=4, timeout=30); old = cids.get(c) or {}
             r.update({"type": idx[c]["type"], "checked_at": now(), "example_id": idx[c]["ids"][0],
@@ -926,11 +1149,14 @@ def cmd_check_ipfs(a):
                                         "verdict": "reachable" if r["ok"] else "unreachable"})
         with lock:
             cids[c] = r; n[0] += 1
-            if n[0] % 20 == 0:
-                p(f"  {n[0]}/{len(todo)}"); st.update({"cids": dict(sorted(cids.items()))}); jdump(st, path)
+            if n[0] % 20 == 0: st.update({"cids": dict(sorted(cids.items()))}); jdump(st, path)
+        pr.add("ok" if r["ok"] else "failed")
     global CHECK_PER_HOST
     CHECK_PER_HOST = max(1, min(a.ipfs_concurrency, 6))
-    with cf.ThreadPoolExecutor(CHECK_PER_HOST) as ex: list(ex.map(one, todo))
+    with Progress("Checking IPFS", len(todo), ok="reachable", failed="not reachable", skipped="") as pr:
+        try: run_pool(one, todo, CHECK_PER_HOST, pr)
+        finally:
+            with lock: st.update({"cids": dict(sorted(cids.items()))}); jdump(st, path)   # keep what was checked
     by_t = {}
     for c, e in idx.items():
         b_ = by_t.setdefault(e["type"], [0, 0]); b_[0] += 1; b_[1] += 1 if c in cids else 0
@@ -1159,7 +1385,7 @@ def cmd_pin(a):
     if not todo: return
     if not a.yes and input("Pin now? [y/N] ").strip().lower() not in ("y", "yes"): p("Cancelled."); return
     ok = fail = 0
-    with open(done_path, "a") as log:
+    with Progress("Pinning", len(todo), ok="pinned", skipped="") as pr, open(done_path, "a") as log:
         if a.kubo:
             import shutil, subprocess
             exe = shutil.which("ipfs")
@@ -1173,7 +1399,7 @@ def cmd_pin(a):
                         if subprocess.run([exe, "pin", "add", "--progress=false", c], capture_output=True).returncode == 0:
                             ok += 1; log.write(c + "\n"); log.flush()
                         else: fail += 1
-                p(f"  {min(i + 20, len(todo))}/{len(todo)} (ok {ok}, failed {fail})")
+                pr.n["ok"], pr.n["failed"] = ok, fail; pr.draw()
         else:
             base = PIN_SERVICES.get(a.service.lower(), a.service).rstrip("/")
             tok = os.environ.get("PIN_SERVICE_TOKEN")
@@ -1198,7 +1424,7 @@ def cmd_pin(a):
                         thr.bad(); time.sleep(min(120, 5 * 2 ** attempt))
                     finally: thr.sem.release()
                 else: fail += 1
-                if i % 25 == 0: p(f"  {i}/{len(todo)} (ok {ok}, failed {fail})")
+                pr.n["ok"], pr.n["failed"] = ok, fail; pr.draw()
     p(f"Pinned {ok}, failed {fail}. Services pin asynchronously: check their dashboard for 'pinned' status.")
 
 
@@ -1220,13 +1446,16 @@ def cmd_verify(a):
         if hashlib.sha256(open(fp, "rb").read()).hexdigest() == e.get("sha256"): res["meta_ok"] += 1
         else: res["meta_bad"] += 1; notes.append(f"meta {k}: sha256 differs from manifest")
     log = DownloadLog(); vdir = os.path.abspath(a.video_dir); per = {}
-    for r in sort_rows(rows):
-        for kind, path, purpose in (("cover", cover_path(r), "front"),
-                                    ("video", os.path.join(vdir, video_name(r)), "primary-asset")):
-            if not path or not os.path.exists(path): continue
+    jobs = [(r, kind, path, purpose) for r in sort_rows(rows)
+            for kind, path, purpose in (("cover", cover_path(r), "front"), ("video", os.path.join(vdir, video_name(r)), "primary-asset"))
+            if path and os.path.exists(path)]
+    with Progress("Verifying files", len(jobs), ok="ok", failed="not original", skipped="", resumable=False) as pr:
+        for r, kind, path, purpose in jobs:
             _, sh = asset_ipfs(r["_meta"], purpose); st = classify(path, sh, log.get(kind, r["id"]))
             files[kind][st] = files[kind].get(st, 0) + 1; per.setdefault(str(r["id"]), {})[kind] = st
             if st in ("reencoded", "corrupt"): notes.append(f"{kind} {r['id']}: {st}")
+            with pr.lock: pr.n["ok" if st in ("original", "unverified") else "failed"] += 1; pr.bytes += os.path.getsize(path)
+            pr.draw()
     jdump({"checked_at": now(), "results": res, "files": files, "per_card": per, "not_original": notes},
           os.path.join(OUT, "verify_report.json"))
     p(f"Metadata: {res}")
@@ -1333,8 +1562,16 @@ def mine_only(rows):
 
 
 def my_editions(r):
+    """Full sorted list of your edition numbers ('#26, #94, ...'); the spreadsheet keeps all of them."""
     eds = (MINE or {}).get(str(r["id"])) or []
     return ", ".join(f"#{e}" for e in eds)
+
+
+def owned_short(eds, show=3):
+    """'Owned x12: #26, #94, #322 +9 more' (lowest first) for tight spaces like album cards."""
+    if not eds: return "Owned"
+    head = ", ".join(f"#{e}" for e in eds[:show])
+    return f"Owned \u00d7{len(eds)}: {head}" + (f" +{len(eds) - show} more" if len(eds) > show else "")
 
 
 def cmd_add(a):
@@ -1393,12 +1630,22 @@ header{position:sticky;top:0;background:#16202b;padding:10px;display:flex;flex-w
 input,select{background:#0f141a;color:#e6edf3;border:1px solid #33414f;border-radius:6px;padding:6px}
 #count{align-self:center;color:#8b9aa8}
 #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;padding:10px}
-.card{background:#16202b;border-radius:8px;overflow:hidden;cursor:pointer}.card:hover{outline:2px solid #3b82f6}
+.card{position:relative;background:#16202b;border-radius:8px;overflow:hidden;cursor:pointer}.card:hover{outline:2px solid #3b82f6}
 .card img{width:100%;aspect-ratio:1;object-fit:cover;background:#222;display:block}
 .card div{padding:6px 8px}.card b{display:block}.card small{color:#8b9aa8}
+.card .own{display:block;color:#facc15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.badge{position:absolute;top:6px;right:6px;background:#facc15;color:#111;font-weight:700;font-size:12px;border-radius:10px;padding:1px 7px}
+.badge.one{background:#0f141acc;color:#facc15;font-weight:600}
 #dlg{position:fixed;inset:0;background:#000c;display:none;overflow:auto;z-index:3}
 #box{max-width:1000px;margin:30px auto;background:#16202b;border-radius:10px;padding:16px}
 #box img,#box video{max-width:100%;max-height:60vh;display:block;margin:0 auto 10px}
+#box .lead{font-size:15px;line-height:1.5;margin:6px 0 12px}
+.btns{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:8px 0}
+.btns button{background:#2563eb;color:#fff;border:0;border-radius:6px;padding:8px 14px;font-size:14px;cursor:pointer}
+.btns button:disabled{background:#33414f;cursor:wait}
+.st{color:#a7f3d0;font-size:12px;min-height:1em}.note{color:#8b9aa8;font-size:12px;margin:2px 0 12px}
+.yours{color:#facc15}
+details{margin-top:14px;border-top:1px solid #26323e;padding-top:8px}summary{cursor:pointer;color:#8b9aa8}
 table{border-collapse:collapse;width:100%;font-size:12px}td{border-top:1px solid #26323e;padding:3px 6px;vertical-align:top;word-break:break-all}
 td:first-child{color:#8b9aa8;white-space:nowrap;word-break:normal}a{color:#60a5fa}
 #more{display:block;margin:10px auto;padding:8px 20px}
@@ -1406,63 +1653,124 @@ td:first-child{color:#8b9aa8;white-space:nowrap;word-break:normal}a{color:#60a5f
 <header><input id="q" placeholder="Search player, set, description…" size="30">
 <select id="f_team"></select><select id="f_set"></select><select id="f_rarity"></select><select id="f_series"></select>
 <label id="minebox" style="display:none;align-self:center"><input type="checkbox" id="f_mine" checked> My cards</label>
+<select id="f_sort" style="display:none"><option value="">Default order</option><option value="owned">Most owned</option></select>
 <span id="count"></span></header>
 <div id="grid"></div><button id="more">Show more</button>
-<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at <a href="__ISSUES__">__ISSUES__</a>.<br>__TAGLINE__ __WARRANTY__</footer>
+<footer style="padding:16px;color:#8b9aa8;font-size:12px;text-align:center">Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue at <a href="__ISSUES__">__ISSUES__</a>.<br>__TAGLINE__ __WARRANTY__<br>Breakaway Archive v__VERSION__</footer>
 <div id="dlg"><div id="box"></div></div>
 <script>
 const DATA = __DATA__;
-const HAS_MINE = DATA.some(r=>r.mine);if(HAS_MINE)document.getElementById('minebox').style.display='';
+const HAS_MINE = DATA.some(r=>r.mine);
+if(HAS_MINE){document.getElementById('minebox').style.display='';document.getElementById('f_sort').style.display=''}
+const MY_MOMENTS = DATA.filter(r=>r.mine).length, MY_EDS = DATA.reduce((n,r)=>n+(r.mine?(r.eds||[]).length:0),0);
 const GW = __GATEWAYS__;
 const $ = s => document.querySelector(s);
-const F = {team:'team', set:'set', rarity:'rarity', series:'series'};
+const fmt = n => Number(n).toLocaleString('en-US');
 function opts(sel, key, label){const v=[...new Set(DATA.map(r=>r.s[key]).filter(Boolean))].sort();
   sel.innerHTML=`<option value="">All ${label}</option>`+v.map(x=>`<option>${esc(x)}</option>`).join('');}
 function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 opts($('#f_team'),'team','teams');opts($('#f_set'),'set','sets');opts($('#f_rarity'),'rarity','rarities');opts($('#f_series'),'series','series');
-const cidOf=c=>String(c||'').replace('ipfs://','');
-function ipfsUrl(cid,g){return cid?(GW[g||0]||GW[0])+cidOf(cid):''}
-function ipfsAll(cid){return cid?GW.map((g,i)=>ipfsUrl(cid,i)):[]}
-// local file first (works offline), then the original via IPFS gateways, then the NHL Breakaway CDN last
-function imgTag(r,cls){const s=r.s;const alts=[r.local_cover,...ipfsAll(s.cover_ipfs),s.cover_url].filter(Boolean);
-  return `<img loading="lazy" src="${esc(alts[0])}" data-alts="${esc(alts.slice(1).join('|'))}" onerror="nextSrc(this)" alt="">`}
-function nextSrc(img){const a=(img.dataset.alts||'').split('|').filter(Boolean);if(!a.length){img.onerror=null;return}
-  img.src=a.shift();img.dataset.alts=a.join('|')}
+// a clean CID (with an optional /path), never anything after a space: "ipfs://Qm.../a.png  sha256=..." -> "Qm.../a.png"
+function cidOf(c){const m=String(c||'').trim().replace(/^ipfs:\/\//i,'').replace(/^\/?ipfs\//i,'').match(/^[A-Za-z0-9]+(\/[^\s]*)?/);return m?m[0]:''}
+function ipfsUrl(cid,g){const c=cidOf(cid);return c?(GW[g||0]||GW[0]).replace(/\/+$/,'')+'/'+c:''}
+function ipfsAll(cid){return cidOf(cid)?GW.map((g,i)=>ipfsUrl(cid,i)):[]}
+// covers: your local file first (works offline), then the first IPFS gateway, then the NHL Breakaway CDN,
+// then the other gateways. A source that errors or hasn't loaded after STALL_MS is skipped; at most MAX_SRC tries.
+const STALL_MS=6000, MAX_SRC=5;
+function coverSources(r){const s=r.s,ip=ipfsAll(s.cover_ipfs);
+  return [...new Set([r.local_cover,ip[0],s.cover_url,...ip.slice(1)].filter(Boolean))].slice(0,MAX_SRC)}
+function imgTag(r){const a=coverSources(r);if(!a.length)return '<img alt="">';
+  return `<img loading="lazy" decoding="async" src="${esc(a[0])}" data-alts="${esc(a.slice(1).join('|'))}" onerror="nextSrc(this)" alt="">`}
+function nextSrc(img){clearTimeout(img._t);const a=(img.dataset.alts||'').split('|').filter(Boolean);
+  if(!a.length){img.onerror=null;return}
+  img.src=a.shift();img.dataset.alts=a.join('|');arm(img)}
+function arm(img){clearTimeout(img._t);img._t=setTimeout(()=>{if(!(img.complete&&img.naturalWidth))nextSrc(img)},STALL_MS)}
+const io=('IntersectionObserver' in window)?new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){io.unobserve(e.target);arm(e.target)}}),{rootMargin:'200px'}):null;
+function watch(root){root.querySelectorAll('img[data-alts]').forEach(i=>{if(i._w)return;i._w=1;
+  i.addEventListener('load',()=>clearTimeout(i._t));if(i.complete&&i.naturalWidth)return;io?io.observe(i):arm(i)})}
+function ownedLine(r,show){const e=r.eds||[];if(!e.length)return 'yours';
+  return 'yours '+e.slice(0,show).map(x=>'#'+x).join(', ')+(e.length>show?` +${e.length-show} more`:'')}
 let list=[],shown=0;
 function apply(){const q=$('#q').value.toLowerCase();
   const fv={team:$('#f_team').value,set:$('#f_set').value,rarity:$('#f_rarity').value,series:$('#f_series').value};
   const onlyMine=HAS_MINE&&$('#f_mine').checked;
   list=DATA.filter(r=>(!onlyMine||r.mine)&&(!q||r.text.includes(q))&&Object.entries(fv).every(([k,v])=>!v||r.s[k]===v));
+  if(HAS_MINE&&$('#f_sort').value==='owned')list.sort((a,b)=>((b.eds||[]).length-(a.eds||[]).length)||(b.mine-a.mine)||(a.i-b.i));
   shown=0;$('#grid').innerHTML='';more();}
+function tile(r){const n=(r.eds||[]).length;
+  const badge=r.mine?(n>1?`<span class="badge" title="you own ${n} editions">\u00d7${n}</span>`:`<span class="badge one">owned</span>`):'';
+  const own=r.mine?`<small class="own" title="${esc((r.eds||[]).map(x=>'#'+x).join(', ')||'yours')}">${esc(ownedLine(r,3))}</small>`:'';
+  return `<div class="card" data-i="${r.i}">${imgTag(r)}${badge}<div><b>${esc(r.s.player)}</b>${own}<small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`}
 function more(){const part=list.slice(shown,shown+120);shown+=part.length;
-  $('#grid').insertAdjacentHTML('beforeend',part.map(r=>`<div class="card" data-i="${r.i}">${imgTag(r)}<div><b>${esc(r.s.player)}</b>${r.mine?`<small style="color:#facc15">yours ${esc(r.s.my_editions||'')}</small>`:''}<small>${esc(r.s.set)} · ${esc(r.s.rarity)} · ${esc(r.s.date)}</small><small title="cover IPFS CID" style="display:block;font-family:monospace;font-size:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${esc(cidOf(r.s.cover_ipfs))}</small></div></div>`).join(''));
-  $('#count').textContent=`${list.length} of ${DATA.length} highlights`;$('#more').style.display=shown<list.length?'':'none';}
+  $('#grid').insertAdjacentHTML('beforeend',part.map(tile).join(''));watch($('#grid'));
+  const onlyMine=HAS_MINE&&$('#f_mine').checked;
+  $('#count').textContent=onlyMine?`My cards: ${fmt(MY_MOMENTS)} moments, ${fmt(MY_EDS)} editions (showing ${fmt(list.length)})`:`${fmt(list.length)} of ${fmt(DATA.length)} highlights`;
+  $('#more').style.display=shown<list.length?'':'none';}
 function rowsOf(o,pre=''){let out=[];if(o&&typeof o==='object'){for(const[k,v]of Object.entries(o)){out=out.concat(rowsOf(v,pre?pre+'.'+k:k))}}else out.push([pre,o]);return out}
 function link(v){v=String(v??'');if(/^https?:\/\//.test(v))return `<a href="${esc(v)}" target="_blank">${esc(v)}</a>`;
-  if(/^ipfs:\/\//.test(v))return `<a href="${esc(ipfsUrl(v))}" target="_blank">${esc(v)}</a>`;return esc(v)}
-function open_(i){const r=DATA[i],s=r.s;
-  const gwName=u=>u.split('/')[2];
-  const video=r.local_video?`<video controls preload="metadata" src="${esc(r.local_video)}"></video>`:
-    `<p>Video (original, via IPFS): ${ipfsAll(s.video_ipfs).map(v=>`<a href="${esc(v)}" target="_blank">${esc(gwName(v))}</a>`).join(' · ')||'none'}
-     ${s.video_url?` · <a href="${esc(s.video_url)}" target="_blank">NHL Breakaway CDN</a> <small>(may be a re-encoded copy)</small>`:''}</p>`;
+  if(/^ipfs:\/\//i.test(v)&&cidOf(v))return `<a href="${esc(ipfsUrl(v))}" target="_blank">${esc(v)}</a>`;return esc(v)}
+// ---- downloads from the detail card: verified IPFS original first, the CDN copy after, a new tab as the last resort
+function fname(s,kind,ext){return `${s.player} - ${s.set} - ${kind}.${ext}`.replace(/[\\\/:*?"<>|]+/g,'-')}
+async function b64sha(buf){try{if(!(window.crypto&&crypto.subtle))return null;const h=new Uint8Array(await crypto.subtle.digest('SHA-256',buf));
+  let s='';h.forEach(b=>s+=String.fromCharCode(b));return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}catch(e){return null}}
+async function fetchBuf(url,btn){const r=await fetch(url);if(!r.ok)throw new Error('HTTP '+r.status);
+  if((r.headers.get('content-type')||'').includes('text/html'))throw new Error('html');
+  const total=+(r.headers.get('content-length')||0);if(!(r.body&&r.body.getReader))return await r.arrayBuffer();
+  const rd=r.body.getReader(),parts=[];let got=0;
+  for(;;){const {done,value}=await rd.read();if(done)break;parts.push(value);got+=value.length;
+    btn.textContent=total?`Downloading ${Math.floor(got*100/total)}%...`:`Downloading ${(got/1e6).toFixed(1)} MB...`}
+  const out=new Uint8Array(got);let o=0;for(const p of parts){out.set(p,o);o+=p.length}return out.buffer}
+function saveBuf(buf,name){const u=URL.createObjectURL(new Blob([buf]));const a=document.createElement('a');a.href=u;a.download=name;
+  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),60000)}
+async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video',st=btn.parentNode.querySelector('.st_'+kind);
+  const cid=isV?s.video_ipfs:s.cover_ipfs,sha=String((isV?s.video_sha256:s.cover_sha256)||'').replace(/=+$/,''),cdn=isV?s.video_url:s.cover_url,local=isV?r.local_video:r.local_cover;
+  const ext=isV?'mp4':(((local||cdn||'').split('?')[0].match(/\.(png|jpe?g|webp|gif)$/i)||[0,'png'])[1]);
+  const name=fname(s,kind,ext),label=btn.textContent;btn.disabled=true;
+  const fin=t=>{btn.disabled=false;btn.textContent=label;st.textContent=t};
+  if(local){const a=document.createElement('a');a.href=local;a.download=name;a.target='_blank';document.body.appendChild(a);a.click();a.remove();
+    return fin(`Already in your archive folder (${local}). If it opened instead of saving: right-click > Save as.`)}
+  for(const u of ipfsAll(cid).slice(0,4)){try{st.textContent='Trying '+u.split('/')[2]+'...';btn.textContent='Downloading...';
+      const b=await fetchBuf(u,btn);const h=sha?await b64sha(b):null;
+      if(h&&h!==sha){st.textContent='That gateway sent different bytes; trying the next one...';continue}
+      saveBuf(b,name);return fin(h?'Saved. Verified original (sha256 matches the metadata).':'Saved (original, from IPFS).')}catch(e){}}
+  if(cdn){try{st.textContent='Trying the NHL Breakaway CDN...';const b=await fetchBuf(cdn,btn);const h=sha?await b64sha(b):null;saveBuf(b,name);
+      return fin(h&&h===sha?'Saved from the NHL Breakaway CDN. Verified original (sha256 matches).':'Saved from the NHL Breakaway CDN (may be re-encoded).')}catch(e){}}
+  const u=cdn||ipfsAll(cid)[0];
+  if(u){window.open(u,'_blank');return fin(`Opened in a new tab: right-click > Save ${isV?'video':'image'} as...`)}
+  fin('No source answered. Please try again later.')}
+function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
+  const cov=coverSources(r);const poster=r.local_cover||s.cover_url||cov[0]||'';
+  // playback: your local file, then the CDN (fast; may be a re-encoded copy), then IPFS. Downloads prefer the IPFS original.
+  const vsrc=[r.local_video,s.video_url,...ipfsAll(s.video_ipfs).slice(0,2)].filter(Boolean);
+  const video=vsrc.length?`<video controls preload="none" poster="${esc(poster)}">${vsrc.map(v=>`<source src="${esc(v)}" type="video/mp4">`).join('')}</video>`:imgTag(r);
+  const eds=r.eds||[];
+  const mine=r.mine?`<p class="yours"><b>Yours${eds.length?` (${eds.length} edition${eds.length>1?'s':''})`:''}:</b> ${esc(eds.map(x=>'#'+x).join(', ')||'on your list')}</p>`:'';
+  const btns=`<div class="btns">${vsrc.length?`<button onclick="dl(${i},'video',this)">Download video</button>`:''}${cov.length?`<button onclick="dl(${i},'cover',this)">Download cover</button>`:''}</div>
+   <div class="st st_video"></div><div class="st st_cover"></div>
+   <p class="note">Files saved with these buttons go to your browser's Downloads folder. To save videos into the archive folder (so this viewer plays them offline), use menu option 2 (Get videos).</p>`;
+  const L=(u,t)=>u?`<a href="${esc(u)}" target="_blank">${esc(t)}</a>`:'';
+  const links=`<p><b>Links:</b> ${[L(s.breakaway_url,'NHL Breakaway page'),L(s.site_url,'The Fifth Line'),L(s.meta_url,'Metadata (JSON)'),L(s.cover_url,'Cover on the CDN'),L(s.video_url,'Video on the CDN (may be re-encoded)')].filter(Boolean).join(' · ')}<br>
+   Original video via IPFS: ${ipfsAll(s.video_ipfs).map(v=>L(v,gwName(v))).join(' · ')||'none'}</p>`;
   const st=v=>v?` <small>(local file: ${esc(v)})</small>`:'';
+  const cidLink=c=>cidOf(c)?`<a href="${esc(ipfsUrl(c))}" target="_blank">${esc(cidOf(c))}</a>`:'—';
   const ident=`<h3>Permanent identity (IPFS)</h3><table>
-   <tr><td>Cover CID</td><td>${s.cover_ipfs?`<a href="${esc(ipfsUrl(s.cover_ipfs))}" target="_blank">${esc(cidOf(s.cover_ipfs))}</a>`:'—'}${st(r.dl&&r.dl.cover)}</td></tr>
+   <tr><td>Cover CID</td><td>${cidLink(s.cover_ipfs)}${st(r.dl&&r.dl.cover)}</td></tr>
    <tr><td>Cover sha256</td><td>${esc(s.cover_sha256)}</td></tr>
-   <tr><td>Video CID</td><td>${s.video_ipfs?`<a href="${esc(ipfsUrl(s.video_ipfs))}" target="_blank">${esc(cidOf(s.video_ipfs))}</a>`:'—'}${st(r.dl&&r.dl.video)}</td></tr>
+   <tr><td>Video CID</td><td>${cidLink(s.video_ipfs)}${st(r.dl&&r.dl.video)}</td></tr>
    <tr><td>Video sha256</td><td>${esc(s.video_sha256)}</td></tr>
-   <tr><td>Card image CID</td><td>${s.card_image_ipfs?`<a href="${esc(ipfsUrl(s.card_image_ipfs))}" target="_blank">${esc(cidOf(s.card_image_ipfs))}</a>`:'—'}</td></tr>
+   <tr><td>Card image CID</td><td>${cidLink(s.card_image_ipfs)}</td></tr>
    <tr><td>Status</td><td>${esc(s.status)}</td></tr></table>
    <p><small>A CID is the file's fingerprint: any IPFS gateway or node can serve the exact original with it, even if NHL Breakaway is gone.</small></p>`;
+  const files=`<h3>Every IPFS file for this moment</h3><table><tr><td>file</td><td>CID (link)</td><td>sha256</td></tr>${Object.entries(r.ipfs||{}).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${cidLink(v.cid)}</td><td>${esc(v.sha256||'')}</td></tr>`).join('')}</table>`;
   const tbl=(title,o)=>`<h3>${title}</h3><table>${rowsOf(o).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${link(v)}</td></tr>`).join('')}</table>`;
   $('#box').innerHTML=`<button onclick="$('#dlg').style.display='none'" style="float:right">Close</button>
-  <h2>${esc(s.player)} — ${esc(s.set)}</h2>${imgTag(r)}${video}<p>${esc(s.description)}</p>
-  ${ident}${tbl('Every IPFS file for this moment (CID / sha256)',r.ipfs)}${tbl('Summary',s)}${tbl('Source',r.src)}${tbl('All metadata (nft.nhlbreakaway.com)',r.meta||{})}${tbl('Off-chain (NHL Breakaway set listing)',r.off||{})}`;
-  $('#dlg').style.display='block';$('#dlg').scrollTop=0;}
+  <h2>${esc(s.player)} — ${esc(s.set)}</h2>${video}<p class="lead">${esc(s.description)}</p>${mine}${btns}${links}
+  <details><summary>Technical details (IPFS CIDs, sha256, all metadata)</summary>${ident}${files}${tbl('Summary',s)}${tbl('Source',r.src)}${tbl('All metadata (nft.nhlbreakaway.com)',r.meta||{})}${tbl('Off-chain (NHL Breakaway set listing)',r.off||{})}</details>`;
+  watch($('#box'));$('#dlg').style.display='block';$('#dlg').scrollTop=0;}
 $('#grid').onclick=e=>{const c=e.target.closest('.card');if(c)open_(+c.dataset.i)};
-$('#dlg').onclick=e=>{if(e.target.id==='dlg')$('#dlg').style.display='none'};
-document.onkeydown=e=>{if(e.key==='Escape')$('#dlg').style.display='none'};
-['#q','#f_team','#f_set','#f_rarity','#f_series','#f_mine'].forEach(s=>{const e=$(s);if(e){e.oninput=apply;e.onchange=apply}});$('#more').onclick=more;apply();
+$('#dlg').onclick=e=>{if(e.target.id==='dlg'){$('#dlg').style.display='none';const v=$('#box video');if(v)v.pause()}};
+document.onkeydown=e=>{if(e.key==='Escape'){$('#dlg').style.display='none';const v=$('#box video');if(v)v.pause()}};
+['#q','#f_team','#f_set','#f_rarity','#f_series','#f_mine','#f_sort'].forEach(s=>{const e=$(s);if(e){e.oninput=apply;e.onchange=apply}});$('#more').onclick=more;apply();
 </script></body></html>"""
 
 
@@ -1474,16 +1782,17 @@ def cmd_view(a):
     vdir = os.path.abspath(a.video_dir); data = []; log = DownloadLog()
     for i, r in enumerate(rows):
         s = dict(r["_s"]); s["video_ipfs"], _ = asset_ipfs(r["_meta"], "primary-asset")
+        for k in ("cover_ipfs", "video_ipfs", "card_image_ipfs"): s[k] = clean_cid(s.get(k))
         cp = cover_path(r); vp = os.path.join(vdir, video_name(r))
         rel = lambda x: os.path.relpath(x, vd).replace(os.sep, "/")
         data.append({"i": i, "s": s, "meta": r["_meta"], "off": {k: v for k, v in (r["_off"] or {}).items() if k not in ("series", "token_set", "badges")},
-                     "ipfs": {e["path"]: f"{e['ipfs']}  sha256={e['sha256']}" for e in (r["_man"].get("ipfs") or [])},
+                     "ipfs": {e["path"]: {"cid": clean_cid(e["ipfs"]), "sha256": e.get("sha256") or ""} for e in (r["_man"].get("ipfs") or [])},
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
                      "local_cover": rel(cp) if cp else "", "local_video": rel(vp) if os.path.exists(vp) else "",
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
-                     "mine": MINE is not None and str(r["id"]) in MINE,
+                     "mine": MINE is not None and str(r["id"]) in MINE, "eds": (MINE or {}).get(str(r["id"])) or [],
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
-    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE))
+    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE)).replace("__VERSION__", VERSION)
     open(os.path.join(vd, "index.html"), "w", encoding="utf-8").write(out)
     p(f"Wrote {os.path.relpath(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
       f"{sum(1 for d in data if d['local_cover'])} local covers, {sum(1 for d in data if d['local_video'])} local videos). Open it in a browser.")
@@ -1643,7 +1952,7 @@ def cmd_album(a):
             for ln in wrap(desc, "Helvetica-Oblique", 9, TW - 3 * M)[:12]: c.drawCentredString(TW / 2, y, ln); y -= 12
         end()
         # card pages
-        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = 5 * lh + 8
+        fs = {1: 12, 2: 9, 3: 7}[cols]; lh = fs * 1.3; textblock = (6 if MINE is not None else 5) * lh + 8
         gw, gh = TW - 2 * M, TH - 2 * M - 22; cw, ch = gw / cols, gh / rws; pad = 8
         for i0 in range(0, len(rs), per):
             begin(); c.setFillGray(0.4); c.setFont("Helvetica", 8)
@@ -1661,17 +1970,55 @@ def cmd_album(a):
                 c.setFillGray(0); c.setFont("Helvetica-Bold", fs + 1)
                 c.drawString(x0, yt, fit(s_["player"], "Helvetica-Bold", fs + 1, w - 40))
                 c.setFont("Helvetica-Bold", fs); c.setFillGray(0.45)
-                c.drawRightString(x0 + w, yt, f"yours: {s_['my_editions']}" if s_.get("my_editions") else f"#{s_['row']}")
+                c.drawRightString(x0 + w, yt, f"#{s_['row']}")
                 c.setFillGray(0.15); c.setFont("Helvetica", fs)
                 for k, ln in enumerate((s_["team"], " · ".join(x for x in (s_["date"], s_["play"]) if x),
                                         (f"{s_['rarity']} · edition size {s_['editions']:,}" if isinstance(s_["editions"], int) else f"{s_['rarity']} · edition size {s_['editions']}") if s_["editions"] else s_["rarity"])):
                     c.drawString(x0, yt - (k + 1) * lh, fit(ln, "Helvetica", fs, w))
+                k_ipfs = 4
+                if MINE is not None:   # one short line; the full list is in the "My serials" pages at the end
+                    eds = MINE.get(str(r["id"])) or []
+                    c.setFont("Helvetica-Bold", fs); c.setFillColorRGB(0.55, 0.38, 0)
+                    c.drawString(x0, yt - 4 * lh, fit(owned_short(eds), "Helvetica-Bold", fs, w)); k_ipfs = 5
                 cid = (s_["cover_ipfs"] or "").replace("ipfs://", "")
                 if cid:   # the permanent IPFS address of this cover: the card's identity if the site goes away
                     c.setFont("Courier", max(4.5, fs - 3)); c.setFillGray(0.45)
-                    c.drawString(x0, yt - 4 * lh - 1, fit(f"ipfs {cid}", "Courier", max(4.5, fs - 3), w))
+                    c.drawString(x0, yt - k_ipfs * lh - 1, fit(f"ipfs {cid}", "Courier", max(4.5, fs - 3), w))
             done += len(rs[i0:i0 + per]); end()
         p(f"  {setname}: {len(rs)} cards ({done}/{len(rows)})")
+    if MINE is not None and any(MINE.get(str(r["id"])) for r in rows):
+        # "My serials": every edition number per moment, small and in columns, so nothing is lost on the cards
+        fsz, lhh, ncol, gap = 7, 8.6, 2, 14; colw = (TW - 2 * M - gap * (ncol - 1)) / ncol
+        blocks = []
+        for r in rows:
+            eds = MINE.get(str(r["id"])) or []
+            if not eds: continue
+            s_ = r["_s"]; head = fit(f"{s_['player']} - {s_['set']} ({len(eds)})", "Helvetica-Bold", fsz, colw)
+            blocks.append([("b", head)] + [("t", ln) for ln in wrap(", ".join(f"#{e}" for e in eds), "Helvetica", fsz, colw - 6)])
+        top, bottom = TH - M - 40, M + 14; col = 0; y = None; pages = 0
+        def new_page():
+            nonlocal y, col, pages
+            if pages: end()
+            begin(); pages += 1; col = 0; y = top; c.setFillGray(0); c.setFont("Helvetica-Bold", 16)
+            c.drawString(M, TH - M - 14, "My serials" + (" (continued)" if pages > 1 else ""))
+            c.setFont("Helvetica", 8); c.setFillGray(0.4)
+            c.drawString(M, TH - M - 28, f"Every edition number from your list, lowest first: {sum(len(v) for v in MINE.values()):,} editions across {sum(1 for r in rows if MINE.get(str(r["id"]))):,} moments.")
+        new_page()
+        for b in blocks:
+            need = len(b) * lhh + 3
+            if y - need < bottom and y != top:
+                col += 1; y = top
+                if col >= ncol: new_page()
+            x = M + col * (colw + gap)
+            for kind, ln in b:
+                if y < bottom:
+                    col += 1; y = top
+                    if col >= ncol: new_page()
+                    x = M + col * (colw + gap)
+                c.setFont("Helvetica-Bold" if kind == "b" else "Helvetica", fsz); c.setFillGray(0 if kind == "b" else 0.25)
+                c.drawString(x + (0 if kind == "b" else 6), y, ln); y -= lhh
+            y -= 3
+        end(); total_pages += pages
     c.save()
     p(f"Album: {out}  ({total_pages} pages, {os.path.getsize(out)/1e6:.1f} MB, layout {a.layout}, {a.page}{', bleed+crop marks' if BL else ''})")
 
@@ -1694,6 +2041,7 @@ def main(argv=None):
     global THR, GATEWAYS, IPFS_ONLY, CDN_FIRST, OFFLINE, OUT, MEDIA_CONC, ISSUES_URL
     ap = argparse.ArgumentParser(description="breakaway-data: NHL Breakaway highlight archive",
                                  epilog="Settings can also go in breakaway.config.json (see breakaway.config.example.json).")
+    ap.add_argument("--version", action="version", version=f"Breakaway Archive v{VERSION}")
     ap.add_argument("command", choices=COMMANDS)
     ap.add_argument("refs", nargs="*", help="add: NHL Breakaway URLs or seriesId/tokenId")
     g = ap.add_argument_group("general")
@@ -1823,13 +2171,13 @@ def run(argv):
     try: main(argv); return True
     except SystemExit as e:
         if e.code not in (None, 0): p(f"Stopped: {e.code}")
-    except KeyboardInterrupt: p("\nCancelled.")
+    except KeyboardInterrupt: p("" if STOP.is_set() else "\nCancelled.")
     except Exception as e: p(f"Something went wrong: {type(e).__name__}: {e}")
     return False
 
 
 def menu():
-    p("NHL Breakaway highlight archive (unofficial fan preservation tool)")
+    p(f"Breakaway Archive v{VERSION}: NHL Breakaway highlight archive (unofficial fan preservation tool)")
     p(TAGLINE)
     p(WARRANTY + " Personal archival use only.")
     p(f"Files are saved in: {OUT}")
@@ -1908,4 +2256,5 @@ if __name__ == "__main__":
         try: menu()
         except KeyboardInterrupt: pass
     else:
-        main()
+        try: main()
+        except KeyboardInterrupt: sys.exit(130)   # Ctrl+C: the progress summary already said where it stopped

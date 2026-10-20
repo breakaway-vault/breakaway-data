@@ -41,7 +41,7 @@ It saves a copy of what NHL Breakaway already shows to everyone, so the details 
 
 **Where do my files go?** Into an `output` folder next to the app: covers, videos (`output/videos`), the spreadsheet and the album. The viewer is saved in a `viewer` folder and the archive data in a `data` folder, both next to the app. If that folder can't be written to, the app uses a `Breakaway-Archive` folder in your home folder instead.
 
-**Some covers in the viewer are blank or slow to appear?** Until you download them, the viewer loads each cover live from the public IPFS links, which can be slow when hundreds load at once. They fill in after a bit. To make them instant (and work offline), run **1) Get cover art** first, or with **10) Show only my cards** to get just yours, then open the viewer again.
+**Some covers in the viewer are blank or slow to appear?** Until you download them, the viewer loads each cover live from the internet (a public IPFS link first, then NHL Breakaway's own image server if that is slow), so they can take a moment when many load at once. To make them instant (and work offline), run **1) Get cover art** first, or with **10) Show only my cards** to get just yours, then open the viewer again.
 
 **How much space does it need?** The archive data is about 50 MB. All 1,973 covers are about 1.7 GB. All the videos together are roughly 220 GB, so most people pick a player, team or set; the app shows the size and asks before downloading any videos. A full one-PDF album is about 2.3 GB.
 
@@ -75,7 +75,7 @@ The Fifth Line already lists most moments (about 1,800 of the archive's ~1,970),
 **Step 2: use it in the tool**
 1. Put `my_cards.csv` in the same folder as the app (the `Breakaway-Archive` folder), or in the repo folder next to `breakaway.py`.
 2. Open the app and pick **10) Show only my cards** from the menu. With Python, add `--mine` to a command (`python breakaway.py album --mine`), or `--mine path/to/file.csv` for a file somewhere else.
-3. The viewer, album, spreadsheet and downloads then show only your cards. Your edition numbers show up too ("yours: #12").
+3. The viewer, album, spreadsheet and downloads then show only your cards. Your edition numbers show up too: lowest first on each card ("yours #5, #17, #26 +19 more"), with the full list in the card's details, in the spreadsheet and on the album's "My serials" pages.
 
 **Doesn't work?**
 * **The file is in the wrong folder.** It must sit right next to the app (or `breakaway.py`), not in Downloads or a subfolder.
@@ -90,7 +90,7 @@ The Fifth Line already lists most moments (about 1,800 of the archive's ~1,970),
 <details><summary>Details for CSV files and commands</summary>
 
 ```
-python breakaway.py album --mine      # output/my_album.pdf, "yours: #12" on each card
+python breakaway.py album --mine      # output/my_album.pdf, "Owned ×22: #5, #17, #26 +19 more" on each card, full list at the end
 python breakaway.py view --mine       # viewer with a "My cards" on/off switch
 python breakaway.py build --mine      # output/my_cards.xlsx with a "My Editions" column
 python breakaway.py covers --mine     # also: videos --mine, pin --mine
