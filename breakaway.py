@@ -27,6 +27,10 @@ SOURCES (all public, no login)
   on-chain-ish  https://nft.nhlbreakaway.com/series/<series>/<token>  saved byte-for-byte to data/meta/<id>.json
   off-chain     raw set listings + set completion + quest data in data/offchain/
   covers/video  nft.nhlbreakaway.com image CDN and mediagateway.sweet.io (output/, gitignored)
+
+IDS
+  "id" in data/highlights.json is the card id from the original card list (1..1818, not contiguous). Moments
+  added later (`add`, `fetch --discover`) get the next free numbers and "on_site": false.
 """
 import argparse, base64, concurrent.futures as cf, csv, datetime as dt, hashlib, html, io, json, os, re
 import sys, threading, time, unicodedata, urllib.error, urllib.request, zipfile
@@ -335,7 +339,7 @@ def summary(r):
         "lowest_ask": r.get("lowest_ask", ""), "fmv": r.get("fmv", ""),
         "cover_url": front.get("url", ""), "cover_ipfs": (front.get("altloc") or {}).get("ipfs", ""), "cover_sha256": front.get("sha256", ""),
         "video_url": vid, "breakaway_url": ln.get("source_url", "").replace("nft.nhlbreakaway.com/series", "nhlbreakaway.com/series"),
-        "meta_url": ln.get("source_url", ""), "id": r["id"],
+        "meta_url": ln.get("source_url", ""), "id": r["id"], "on_site": "yes" if r.get("on_site", True) else "no",
         "moment_uuid": ln.get("moment_uuid", ""), "raw_meta_path": ln.get("meta_path", ""),
         "offchain_path": ln.get("offchain_path", ""), "link_via": ln.get("link_via", ""),
         "source": " + ".join(x for x, ok in (("card list", True), ("nft. metadata", bool(r["_meta"])), ("Breakaway off-chain", bool(r["_off"]))) if ok),
@@ -364,7 +368,7 @@ COLS = [("row", "#"), ("cover", "Cover"), ("player", "Player"), ("team", "Team")
         ("issued", "Released"), ("audio", "Audio"), ("lowest_ask", "Lowest Ask"), ("fmv", "FMV"),
         ("cover_url", "Cover Art (full res)"), ("cover_ipfs", "Cover IPFS CID"), ("cover_sha256", "Cover sha256"),
         ("video_url", "Video"), ("breakaway_url", "NHL Breakaway Page"), ("meta_url", "Metadata URL"),
-        ("cover_file", "Cover File"), ("id", "Card ID"),
+        ("cover_file", "Cover File"), ("id", "Card ID"), ("on_site", "In Original List"),
         ("moment_uuid", "Moment UUID"), ("raw_meta_path", "raw_meta_path"), ("offchain_path", "offchain_path"),
         ("link_via", "How Linked"), ("source", "Data Source"), ("missing", "Missing / Notes")]
 LINKS = {"cover_url": "Cover art", "video_url": "Watch", "breakaway_url": "Breakaway", "meta_url": "JSON"}
@@ -697,6 +701,7 @@ def add_refs(refs, via):
     known_uuid = {e.get("moment_uuid"): k for k, e in man.items() if e.get("moment_uuid")}
     known_tok = {(v["series_id"], str(int(v["token_id"]) >> 48)): k for k, v in links.items()}
     added = 0
+    nid = max([int(r["id"]) for r in rows if str(r["id"]).isdigit()] + [int(k) for k in man if k.isdigit()] + [0]) + 1
     for sid, tok in refs:
         if (sid, str(int(tok) >> 48)) in known_tok: p(f"  already have {sid}/{tok} (id {known_tok[(sid, str(int(tok) >> 48))]})"); continue
         st, b, h, tok = get_nft(sid, tok); url = f"{NFT}/{sid}/{tok}"
@@ -704,9 +709,9 @@ def add_refs(refs, via):
         d = json.loads(b); at = {t["name"]: t["value"] for t in d.get("attributes", [])}
         u = at.get("Moment UUID")
         if u in known_uuid: p(f"  {sid}/{tok} is the same moment as id {known_uuid[u]}, skipped"); continue
-        k = f"bk-{sid}-{u[16:20] if u else tok}"
+        k = str(nid); nid += 1  # new card ids go after the existing ones; nothing is renumbered
         wbytes(os.path.join(DATA, "meta", f"{k}.json"), b)
-        man[k] = {"id": k, "source_url": url, "fetched_at": now(), "status": st, "link_via": via,
+        man[k] = {"id": int(k), "source_url": url, "fetched_at": now(), "status": st, "link_via": via,
                   "meta_path": f"data/meta/{k}.json", "bytes": len(b), "sha256": hashlib.sha256(b).hexdigest(),
                   "content_type": h.get("Content-Type") if h else None, "ipfs": ipfs_entries(d), "moment_uuid": u}
         links[k] = {"series_id": sid, "token_id": tok, "exact": True, "via": via}
@@ -717,9 +722,9 @@ def add_refs(refs, via):
                 if b2: wbytes(sp, b2)
             if os.path.exists(sp) and any(m.get("uuid") == u for m in jload(sp, [])):
                 man[k]["offchain_path"] = f"data/offchain/sets/{at['Set UUID']}.json"
-        rows.append({"id": k, "player": at.get("Player", d.get("name", "")), "set": at.get("Set", ""),
+        rows.append({"id": int(k), "player": at.get("Player", d.get("name", "")), "set": at.get("Set", ""),
                      "rarity": at.get("Rarity", ""), "editions": int(at["Total Editions"]) if str(at.get("Total Editions", "")).isdigit() else None,
-                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "added": True})
+                     "team": at.get("Team", ""), "lowest_ask": "", "fmv": "", "on_site": False})
         known_uuid[u] = k; known_tok[(sid, str(int(tok) >> 48))] = k; added += 1; p(f"  added {k}: {at.get('Player')} / {at.get('Set')}")
     rows.sort(key=lambda r: idkey(r["id"]))
     jdump(rows, os.path.join(DATA, "highlights.json"))

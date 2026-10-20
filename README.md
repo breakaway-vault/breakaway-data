@@ -2,8 +2,9 @@
 
 > **Disclaimer:** Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a GitHub issue.
 
-A preservation archive of NHL Breakaway digital highlight metadata for 1,811 highlights. The card list
-(`data/highlights.json`) ships with the repo and grows with `add` (see below).
+A preservation archive of NHL Breakaway digital highlight metadata for 1,973 highlights. The card list
+(`data/highlights.json`) ships with the repo and grows with `add` (see below): 1,811 moments from the
+original card list plus 162 found in NHL Breakaway's own set listings (`"on_site": false`).
 
 NHL Breakaway may shut down, so the raw metadata is stored **in this repo, byte-for-byte as served**.
 Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
@@ -16,7 +17,7 @@ Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
 | `data/manifest.json` | Per highlight: source URL, fetch time (UTC), HTTP status, bytes, sha256 of the stored file, moment UUID, how it was linked, off-chain file, and **every IPFS CID + sha256** found in its metadata (images and video). |
 | `data/offchain/sets/<set_uuid>.json` | Raw NHL Breakaway set listings (`apigw.sweet.io/catalog/search/moment/set/...`): off-chain descriptions, game/play details, edition sizes, rarity, dates. |
 | `data/offchain/setcompletion_826.json`, `collection_challenge_826.json` | Raw set-completion and quest data (set rewards, quest highlight lists). |
-| `data/highlights.json` | The card list: id, player, set, rarity, edition size, team, and an October 2026 price snapshot (lowest ask / FMV). Every command starts from this file. |
+| `data/highlights.json` | The card list: card id, player, set, rarity, edition size, team, an October 2026 price snapshot (lowest ask / FMV; empty for moments added later) and `on_site` (false for moments that weren't in the original list). Card ids 1-1818 come from the original list; added moments get the next free numbers. Every command starts from this file. |
 | `data/links.json` | Card id -> NHL Breakaway series id + token id (+ moment UUID), and how each was found. |
 | `data/cids.txt` | Every IPFS CID (cover images, posters, videos) referenced by the metadata, deduplicated, ready to pin. |
 | `data/extra_moments.txt` | Anyone-editable list of extra NHL Breakaway links to add (see below). |
@@ -114,7 +115,7 @@ python breakaway.py album --series "Series 2" --bleed       # 3 mm bleed + crop 
 python breakaway.py album --max-px 600 --jpeg 80            # much smaller file for screens
 ```
 
-Full album (1,811 cards, 82 set sections): about 1,896 pages (1up), 570 pages (2x2) or 321 pages (3x3).
+Full album (1,973 cards, 84 set sections): about 2,061 pages (1up), 615 pages (2x2) or 343 pages (3x3).
 At full resolution it's roughly 2.3 GB, so making one PDF per series (`--series "Series 1"` etc.) is easier
 on your computer and the print shop. Filters match part of a name and aren't case sensitive.
 

@@ -10435,5 +10435,977 @@
   "series_id": "KbKmKgq5",
   "token_id": "10629902495477923840",
   "via": "card page lookup"
+ },
+ "1819": {
+  "series_id": "V1orAzqQ",
+  "token_id": "13162895810897117184",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1820": {
+  "series_id": "V1orAzqQ",
+  "token_id": "11521615221697282048",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1821": {
+  "series_id": "V1orAzqQ",
+  "token_id": "11082514258028658688",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1822": {
+  "series_id": "V1orAzqQ",
+  "token_id": "11940168512066027520",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1823": {
+  "series_id": "V1orAzqQ",
+  "token_id": "13193858058335289344",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1824": {
+  "series_id": "V1orAzqQ",
+  "token_id": "11080262458214973440",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1825": {
+  "series_id": "V1orAzqQ",
+  "token_id": "12327478080019890176",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1826": {
+  "series_id": "3qYVm01V",
+  "token_id": "12106238748325314560",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1827": {
+  "series_id": "3qYVm01V",
+  "token_id": "13691787292136439808",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1828": {
+  "series_id": "3qYVm01V",
+  "token_id": "13013714073240469504",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1829": {
+  "series_id": "3qYVm01V",
+  "token_id": "9444329893572640768",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1830": {
+  "series_id": "3qYVm01V",
+  "token_id": "12659337077561753600",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1831": {
+  "series_id": "3qYVm01V",
+  "token_id": "10247096527151431680",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1832": {
+  "series_id": "3qYVm01V",
+  "token_id": "10615547271665680384",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1833": {
+  "series_id": "3qYVm01V",
+  "token_id": "10166313208835473408",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1834": {
+  "series_id": "3qYVm01V",
+  "token_id": "10625961845803974656",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1835": {
+  "series_id": "3qYVm01V",
+  "token_id": "11992522857734209536",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1836": {
+  "series_id": "3qYVm01V",
+  "token_id": "12027425754846330880",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1837": {
+  "series_id": "3qYVm01V",
+  "token_id": "9242793810247811072",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1838": {
+  "series_id": "3qYVm01V",
+  "token_id": "11461661051657912320",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1839": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9792514439763722240",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1840": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11478831025237262336",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1841": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10923762371163848704",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1842": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11571999242528489472",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1843": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13024410122355474432",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1844": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10933051045395300352",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1845": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10605414172504096768",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1846": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12538584312552882176",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1847": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13609878073913638912",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1848": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12468778518328639488",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1849": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10041338319175942144",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1850": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11308820139304026112",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1851": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12343803628669108224",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1852": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11231977470662017024",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1853": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11651375185960894464",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1854": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9554668084443217920",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1855": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13175843659825807360",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1856": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10490290907029438464",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1857": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9681050348986302464",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1858": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10199245781110620160",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1859": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12567294760177369088",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1860": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11613939014058377216",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1861": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9418152720738549760",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1862": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13679120918184460288",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1863": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12969241026920185856",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1864": {
+  "series_id": "v1yjQGbP",
+  "token_id": "11309664564234158080",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1865": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12568702135060922368",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1866": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12681573600721895424",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1867": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13352328470223388672",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1868": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12515221889485897728",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1869": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12688610475139661824",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1870": {
+  "series_id": "v1yjQGbP",
+  "token_id": "13769192910731870208",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1871": {
+  "series_id": "v1yjQGbP",
+  "token_id": "10638346744779243520",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1872": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12417268597590589440",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1873": {
+  "series_id": "v1yjQGbP",
+  "token_id": "12312559906254225408",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1874": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9981102674159861760",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1875": {
+  "series_id": "v1yjQGbP",
+  "token_id": "9238853160573861888",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1876": {
+  "series_id": "8bMLm51d",
+  "token_id": "11082795733005369344",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1877": {
+  "series_id": "8bMLm51d",
+  "token_id": "10598940248039751680",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1878": {
+  "series_id": "8bMLm51d",
+  "token_id": "11502193448304246784",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1879": {
+  "series_id": "8bMLm51d",
+  "token_id": "9854720409616777216",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1880": {
+  "series_id": "8bMLm51d",
+  "token_id": "12253731636121698304",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1881": {
+  "series_id": "8bMLm51d",
+  "token_id": "10765291959275749376",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1882": {
+  "series_id": "8bMLm51d",
+  "token_id": "12244442961890246656",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1883": {
+  "series_id": "8bMLm51d",
+  "token_id": "10052597318244368384",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1884": {
+  "series_id": "8bMLm51d",
+  "token_id": "10895333398516072448",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1885": {
+  "series_id": "8bMLm51d",
+  "token_id": "11885843841560870912",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1886": {
+  "series_id": "8bMLm51d",
+  "token_id": "12459489844097187840",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1887": {
+  "series_id": "8bMLm51d",
+  "token_id": "12275123734351708160",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1888": {
+  "series_id": "8bMLm51d",
+  "token_id": "12426838746798751744",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1889": {
+  "series_id": "8bMLm51d",
+  "token_id": "12611486331520942080",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1890": {
+  "series_id": "8bMLm51d",
+  "token_id": "12813022414845771776",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1891": {
+  "series_id": "8bMLm51d",
+  "token_id": "11105313731142221824",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1892": {
+  "series_id": "8bMLm51d",
+  "token_id": "10517593979770372096",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1893": {
+  "series_id": "8bMLm51d",
+  "token_id": "13013714073240469504",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1894": {
+  "series_id": "8bMLm51d",
+  "token_id": "10724759562629414912",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1895": {
+  "series_id": "8bMLm51d",
+  "token_id": "11640116186892468224",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1896": {
+  "series_id": "8bMLm51d",
+  "token_id": "9980539724206440448",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1897": {
+  "series_id": "8bMLm51d",
+  "token_id": "10168846483625869312",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1898": {
+  "series_id": "8bMLm51d",
+  "token_id": "9685272473636962304",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1899": {
+  "series_id": "8bMLm51d",
+  "token_id": "11786483174782009344",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1900": {
+  "series_id": "8bMLm51d",
+  "token_id": "9565645608534933504",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1901": {
+  "series_id": "8bMLm51d",
+  "token_id": "9473040341197127680",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1902": {
+  "series_id": "8bMLm51d",
+  "token_id": "13561745852896116736",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1903": {
+  "series_id": "8bMLm51d",
+  "token_id": "11400018031758278656",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1904": {
+  "series_id": "r1Jo7kbv",
+  "token_id": "12707750773555986432",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1905": {
+  "series_id": "916gJ6b7",
+  "token_id": "13220035231169380352",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1906": {
+  "series_id": "916gJ6b7",
+  "token_id": "13751178512222388224",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1907": {
+  "series_id": "916gJ6b7",
+  "token_id": "10669590467194126336",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1908": {
+  "series_id": "916gJ6b7",
+  "token_id": "9375649999255240704",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1909": {
+  "series_id": "916gJ6b7",
+  "token_id": "11904702665000484864",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1910": {
+  "series_id": "916gJ6b7",
+  "token_id": "12016166755777904640",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1911": {
+  "series_id": "916gJ6b7",
+  "token_id": "11925813288253784064",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1912": {
+  "series_id": "916gJ6b7",
+  "token_id": "10675782916681760768",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1913": {
+  "series_id": "916gJ6b7",
+  "token_id": "13784111084497534976",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1914": {
+  "series_id": "916gJ6b7",
+  "token_id": "13659417669814714368",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1915": {
+  "series_id": "916gJ6b7",
+  "token_id": "12994292299847434240",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1916": {
+  "series_id": "916gJ6b7",
+  "token_id": "13469703535511732224",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1917": {
+  "series_id": "916gJ6b7",
+  "token_id": "12853554811492106240",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1918": {
+  "series_id": "916gJ6b7",
+  "token_id": "12627248930216738816",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1919": {
+  "series_id": "916gJ6b7",
+  "token_id": "12632034004820819968",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1920": {
+  "series_id": "916gJ6b7",
+  "token_id": "11410432605896572928",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1921": {
+  "series_id": "916gJ6b7",
+  "token_id": "10289880723611451392",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1922": {
+  "series_id": "916gJ6b7",
+  "token_id": "12385743400198995968",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1923": {
+  "series_id": "916gJ6b7",
+  "token_id": "13468859110581600256",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1924": {
+  "series_id": "916gJ6b7",
+  "token_id": "10707026639096643584",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1925": {
+  "series_id": "XRe2mzqk",
+  "token_id": "12686640150302687232",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1926": {
+  "series_id": "Pbd4YGbK",
+  "token_id": "9753389418000941056",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1927": {
+  "series_id": "Pbd4YGbK",
+  "token_id": "10801039281318002688",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1928": {
+  "series_id": "Pbd4YGbK",
+  "token_id": "9688931648334200832",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1929": {
+  "series_id": "Pbd4YGbK",
+  "token_id": "11044796611149430784",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1930": {
+  "series_id": "Pbd4YGbK",
+  "token_id": "13386105467428667392",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1931": {
+  "series_id": "kR7GKGRE",
+  "token_id": "9541157285561106432",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1932": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "11966627159876829184",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1933": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "10267362725474598912",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1934": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "12288634533233819648",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1935": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "11132053853929734144",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1936": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "12732239096529813504",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1937": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "12789941466755497984",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1938": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "12313685806161068033",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1939": {
+  "series_id": "zqlMMQ1N",
+  "token_id": "11486430849608450049",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1940": {
+  "series_id": "GqEKoQbD",
+  "token_id": "11266317417820717056",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1941": {
+  "series_id": "GqEKoQbD",
+  "token_id": "13729786413992378368",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1942": {
+  "series_id": "GqEKoQbD",
+  "token_id": "10474246833356931072",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1943": {
+  "series_id": "Pbd44mbK",
+  "token_id": "12259361135655911424",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1944": {
+  "series_id": "Pbd44mbK",
+  "token_id": "11116854205187358720",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1945": {
+  "series_id": "Nbnn4nbW",
+  "token_id": "12817807489449852928",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1946": {
+  "series_id": "61p66BRP",
+  "token_id": "11979012058852098048",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1947": {
+  "series_id": "61p66BRP",
+  "token_id": "9589289506578628608",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1948": {
+  "series_id": "61p66BRP",
+  "token_id": "9867105308592046080",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1949": {
+  "series_id": "V1P88Z1d",
+  "token_id": "10417951838014799872",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1950": {
+  "series_id": "jqGmA6bp",
+  "token_id": "11918494938859307008",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1951": {
+  "series_id": "jqGmA6bp",
+  "token_id": "9231534811179384832",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1952": {
+  "series_id": "jqGmA6bp",
+  "token_id": "12209258589801414656",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1953": {
+  "series_id": "jqGmA6bp",
+  "token_id": "11845874394867957760",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1954": {
+  "series_id": "jqGmA6bp",
+  "token_id": "13716557090086977536",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1955": {
+  "series_id": "jqGmA6bp",
+  "token_id": "13015402923100733440",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1956": {
+  "series_id": "jqGmA6bp",
+  "token_id": "9648117776711155712",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1957": {
+  "series_id": "jqGmA6bp",
+  "token_id": "11640116186892468224",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1958": {
+  "series_id": "r1JoLvbv",
+  "token_id": "10574733400042635264",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1959": {
+  "series_id": "r1JoLvbv",
+  "token_id": "12443727245401391104",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1960": {
+  "series_id": "r1JoLvbv",
+  "token_id": "11453498277333303296",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1961": {
+  "series_id": "r1JoLvbv",
+  "token_id": "9416182395901575168",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1962": {
+  "series_id": "Pbd4BabK",
+  "token_id": "12265835060120256512",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1963": {
+  "series_id": "2RXxYWRm",
+  "token_id": "13522339356156624896",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1964": {
+  "series_id": "2RXxYWRm",
+  "token_id": "11026219262686527488",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1965": {
+  "series_id": "2RXxYWRm",
+  "token_id": "9913830154726014976",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1966": {
+  "series_id": "2RXxYWRm",
+  "token_id": "10929110395721351168",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1967": {
+  "series_id": "2RXxYWRm",
+  "token_id": "11141061053184475136",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1968": {
+  "series_id": "2RXxYWRm",
+  "token_id": "9720738320702504960",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1969": {
+  "series_id": "2RXxYWRm",
+  "token_id": "9718205045912109056",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1970": {
+  "series_id": "5RNBLNRM",
+  "token_id": "10336605569745420288",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1971": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "13664484219395506176",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1972": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "9867105308592046080",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1973": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "10372634366764384256",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1974": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "12762356919037853696",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1975": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "9539186960724131840",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1976": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "11392136732410380288",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1977": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "12265553585143545856",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1978": {
+  "series_id": "vbQjvZRZ",
+  "token_id": "10669308992217415680",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1979": {
+  "series_id": "Aq4gD4RQ",
+  "token_id": "10778802758157860864",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
+ },
+ "1980": {
+  "series_id": "X1Ovjnqm",
+  "token_id": "11121076329838018560",
+  "exact": true,
+  "via": "found in NHL Breakaway set listing (fetch --discover)"
  }
 }
