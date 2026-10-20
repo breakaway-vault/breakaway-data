@@ -7,11 +7,11 @@ USAGE
   python breakaway.py all                 # fetch (only new/missing) -> covers -> build -> package
   python breakaway.py fetch [--refresh] [--ids 12,40] [--discover]
                                           # highlight->token links + raw nft. metadata for the card list
-  python breakaway.py covers [--repair]   # full-res cover art into output/covers_full/ (IPFS first, sha256-checked)
+  python breakaway.py covers [--repair]   # full-res cover art into output/covers_full/ (NHL Breakaway first, IPFS backup, sha256-checked)
   python breakaway.py build               # OFFLINE: rebuild output/highlights.xlsx from data/ only
   python breakaway.py package             # output/covers/, covers.zip, Breakaway-Highlights.zip
   python breakaway.py videos [--video-dir DIR] [--limit N] [--player/--team/--set/--series ..] [--ids ..] [--yes] [--repair]
-                                          # OPT-IN video download, IPFS originals first (asks y/n after a size estimate)
+                                          # OPT-IN video download, NHL Breakaway first, IPFS backup (asks y/n after a size estimate)
   python breakaway.py verify              # re-hash data/meta, covers and videos: original / reencoded / unverified
   python breakaway.py add <url|seriesId/tokenId> ...   # add moments (also reads data/extra_moments.txt)
   python breakaway.py album [--layout 1up|2x2|3x3] [--page letter|a4] [--set ..] [--series ..] [--player ..]
@@ -19,7 +19,8 @@ USAGE
   python breakaway.py view                # offline viewer/index.html (search, filters, details, video)
   python breakaway.py check-ipfs [--sample N | --full]   # which IPFS CIDs still answer -> data/ipfs_status.json
   python breakaway.py pin [--kubo | --service pinata|filebase|URL] [--types video,cover]   # help keep files alive
-  IPFS: --gateway URL (repeatable) adds gateways tried first; --ipfs-only never uses the Breakaway CDN;
+  Sources: --prefer breakaway|ipfs (default breakaway: NHL Breakaway's servers first, IPFS as the backup);
+        --gateway URL (repeatable) adds IPFS gateways tried first; --ipfs-only never uses the Breakaway CDN;
         --offline never touches the network. Settings: breakaway.config.json (see breakaway.config.example.json).
 
 SOURCES (all public, no login)
@@ -29,8 +30,9 @@ SOURCES (all public, no login)
                 set + player + series; existing links in data/links.json are kept as they are
   on-chain-ish  https://nft.nhlbreakaway.com/series/<series>/<token>  saved byte-for-byte to data/meta/<id>.json
   off-chain     raw set listings + set completion + quest data in data/offchain/
-  covers/video  IPFS gateways first (the originals), then the nft.nhlbreakaway.com / mediagateway.sweet.io CDN,
-                which now serves re-encoded videos (output/, gitignored; output/download_log.json says which)
+  covers/video  the nft.nhlbreakaway.com / mediagateway.sweet.io CDN first (covers are the originals, videos are
+                re-encoded copies), then the IPFS gateways (the originals) when the CDN fails or gives a bad file;
+                --prefer ipfs reverses that (output/, gitignored; output/download_log.json says which)
 
 IDS
   "id" in data/highlights.json is the card id from the original card list (1..1818, not contiguous). Moments
@@ -66,7 +68,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
-VERSION = "1.1.4"       # the one place the version lives: menu header, --version, viewer footer
+VERSION = "1.1.5"       # the one place the version lives: menu header, --version, viewer footer
 TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
@@ -651,16 +653,18 @@ def cmd_build(a):
     return rows
 
 
-# ------------------------------------------------------------------ media: IPFS-first, sha256-verified
-# Sweet's mediagateway now serves RE-ENCODED videos whose bytes no longer match the sha256 in the metadata.
-# The IPFS CIDs in the metadata point at the ORIGINAL files, so media is fetched from IPFS gateways first
-# and every file is checked against the metadata sha256. The NHL Breakaway CDN is only a last resort, and
-# anything taken from it that doesn't match is kept but logged as "reencoded".
+# ------------------------------------------------------------------ media: NHL Breakaway first, IPFS as the backup
+# By default media comes from NHL Breakaway's own servers while they are up (fast and reliable), and the IPFS
+# gateways are the fallback when a request fails, is refused, times out or gives a bad file. Every file is
+# checked against the sha256 in the metadata. Covers on the CDN are the original files (same sha256). Videos on
+# Sweet's mediagateway are re-encoded copies whose bytes differ from the originals on IPFS: they are accepted
+# after a sanity check (a complete MP4) and logged as "reencoded". `--prefer ipfs` (or "prefer": "ipfs" in
+# breakaway.config.json) asks the IPFS gateways first for the originals, with the CDN as the last resort.
 DEFAULT_GATEWAYS = ["https://ipfs.filebase.io/ipfs/", "https://gateway.pinata.cloud/ipfs/", "https://ipfs.io/ipfs/",
                     "https://dweb.link/ipfs/", "https://w3s.link/ipfs/", "https://4everland.io/ipfs/"]
 GATEWAYS = list(DEFAULT_GATEWAYS)
 IPFS_ONLY = False
-CDN_FIRST = False
+CDN_FIRST = True         # "prefer": "breakaway" (default). False = "prefer": "ipfs"
 COOLDOWN = {}            # host -> unix time before which we don't ask it again (after a 429)
 HOST_THR = {}
 _HLOCK = threading.Lock()
@@ -698,7 +702,7 @@ def ipfs_url(gw, cid): return gw.rstrip("/") + "/" + clean_cid(cid)
 
 
 def sources(primary, cid, ipfs_only=None):
-    """[(kind, url)]: IPFS gateways first (originals), the NHL Breakaway CDN last (may be re-encoded)."""
+    """[(kind, url)]: the NHL Breakaway CDN first, then the IPFS gateways (or IPFS first with --prefer ipfs)."""
     ipfs_only = IPFS_ONLY if ipfs_only is None else ipfs_only
     out = [("ipfs", ipfs_url(g, cid)) for g in GATEWAYS] if cid else []
     if primary and not ipfs_only:
@@ -722,6 +726,41 @@ def file_sha_b64(path):
 
 def file_matches(path, expected):
     return bool(expected) and file_sha_b64(path).rstrip("=") == expected.rstrip("=")
+
+
+IMG_MAGIC = (b"\x89PNG", b"\xff\xd8\xff", b"GIF8", b"RIFF")
+
+
+def mp4_complete(path):
+    """Is this a whole MP4? Walks the top-level boxes: they must start with ftyp, include moov and mdat, and end
+    exactly at the end of the file. A cut-off download fails this even though it starts like a video."""
+    try:
+        size = os.path.getsize(path); pos = 0; seen = set()
+        with open(path, "rb") as f:
+            while pos < size:
+                f.seek(pos); h = f.read(16)
+                if len(h) < 8: return False
+                n, typ = int.from_bytes(h[:4], "big"), h[4:8]
+                if n == 1:
+                    if len(h) < 16: return False
+                    n = int.from_bytes(h[8:16], "big")
+                elif n == 0: n = size - pos                                   # last box runs to the end
+                if n < 8 or not typ.isascii(): return False
+                if not seen and typ != b"ftyp": return False
+                seen.add(typ); pos += n
+        return pos == size and b"moov" in seen and b"mdat" in seen
+    except OSError: return False
+
+
+def plausible(path, kind):
+    """Sanity check for a file we can't compare with the metadata sha256 (or before trusting a CDN copy)."""
+    try:
+        if os.path.getsize(path) == 0: return False
+        if kind == "video": return mp4_complete(path)
+        if kind == "cover":
+            with open(path, "rb") as f: return f.read(4).startswith(IMG_MAGIC)
+        return True
+    except OSError: return False
 
 
 def stream_to(url, part, kind, timeout=120):
@@ -769,9 +808,18 @@ class DownloadLog:
 
 
 def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
-    """Download one file, IPFS first. Returns 'original', 'reencoded', 'unverified' or None (failed).
-    'original' = bytes match the metadata sha256. 'reencoded' = only the CDN had it and its bytes differ."""
+    """Download one file (NHL Breakaway CDN first by default, IPFS as the backup). Returns 'original',
+    'reencoded', 'unverified' or None (failed). 'original' = bytes match the metadata sha256.
+    'reencoded' = the CDN's copy, whose bytes differ (videos: always; it passed the MP4 sanity check)."""
     part = dest + ".part"; os.makedirs(os.path.dirname(dest), exist_ok=True)
+    spare = None   # a CDN cover that doesn't match: kept only in case no source has the original
+
+    def done(path, status, src_kind, url):
+        os.replace(path, dest)
+        log.set(kind, key, {"file": relp(dest, ROOT), "status": status, "source": src_kind,
+                            "host": host_of(url), "sha256": file_sha_b64(dest), "expected_sha256": sha, "bytes": os.path.getsize(dest),
+                            "cid": (cid or "").replace("ipfs://", ""), "at": now()})
+        return status
     for src_kind, url in sources(primary, cid, ipfs_only):
         if cooled(url): continue
         if stopping(): break
@@ -784,17 +832,19 @@ def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
             if stop_wait(min(60, 3 * 2 ** attempt)): break           # broke mid-file: back off, resume
         if res == "stopped" or stopping(): break
         if res != "ok": continue
-        b64 = file_sha_b64(part)
-        if sha and b64.rstrip("=") == sha.rstrip("="): status = "original"
-        elif not sha: status = "unverified"
-        elif src_kind == "cdn": status = "reencoded"
-        else: os.remove(part); continue                               # a gateway served other bytes: try the next
-        os.replace(part, dest)
-        log.set(kind, key, {"file": relp(dest, ROOT), "status": status, "source": src_kind,
-                            "host": host_of(url), "sha256": b64, "expected_sha256": sha, "bytes": os.path.getsize(dest),
-                            "cid": (cid or "").replace("ipfs://", ""), "at": now()})
-        return status
+        if sha and file_sha_b64(part).rstrip("=") == sha.rstrip("="):
+            if spare and os.path.exists(spare[0]): os.remove(spare[0])
+            return done(part, "original", src_kind, url)
+        if not plausible(part, kind): os.remove(part); continue           # empty, an error page, a cut-off video: next source
+        if not sha: return done(part, "unverified", src_kind, url)
+        if src_kind == "cdn" and kind == "video": return done(part, "reencoded", src_kind, url)   # Sweet's re-encoded copy
+        if src_kind == "cdn" and not spare:                              # a cover that should match: look for the original
+            spare = (dest + ".cdn.part", url); os.replace(part, spare[0]); continue
+        os.remove(part)                                                  # a gateway served other bytes: try the next
     if os.path.exists(part): os.remove(part)   # never leave half a file behind (also when stopped)
+    if spare and os.path.exists(spare[0]):
+        if stopping(): os.remove(spare[0]); return None
+        return done(spare[0], "reencoded", "cdn", spare[1])               # better than nothing; logged as not original
     return None
 
 
@@ -819,8 +869,12 @@ def saved_ok(path, log, kind, key, sha):
     if size == 0: return False
     rec = log.get(kind, key)
     if rec and rec.get("bytes"): return rec["bytes"] == size and os.path.basename(rec.get("file", path)) == os.path.basename(path)
-    if sha: return file_matches(path, sha)
-    return True                                             # nothing to check it against
+    if sha and file_matches(path, sha): return True
+    if kind == "video" and mp4_complete(path):              # e.g. NHL Breakaway's (re-encoded) copy saved by the viewer
+        log.set(kind, key, {"file": relp(path, ROOT), "status": "reencoded" if sha else "unverified", "source": "found in folder",
+                            "host": "", "sha256": file_sha_b64(path), "expected_sha256": sha, "bytes": size, "cid": "", "at": now()})
+        return True
+    return not sha                                          # nothing to check it against
 
 
 def asset_ipfs(meta, purpose_or_path):
@@ -1003,6 +1057,7 @@ def cmd_videos(a):
     repair = [r for r in repair if r not in todo]   # an incomplete file is simply downloaded again
     p(f"{len(rows)} videos selected, {len(rows) - len(todo)} already saved, {len(todo)} to download into {out}"
       + (f", {len(repair)} to repair from IPFS" if a.repair else ""))
+    log.save()   # keeps what saved_ok() learned about copies found in the folder
     if not todo and not repair: return
     sample = todo if len(todo) <= 20 else todo[:: max(1, len(todo) // 20)][:20]
     sizes = [n for n in (video_size(r) for r in sample) if n]
@@ -1024,7 +1079,7 @@ def cmd_videos(a):
         with lock: stats[st or "failed"] += 1
         pr.add("ok" if st else "failed")
         if not st: p(f"  failed {r['id']} ({r['player']}): no source answered")
-        elif st == "reencoded": p(f"  {r['id']}: only the CDN had it; saved, but it is a re-encoded copy (not the original)")
+        elif st == "reencoded" and not CDN_FIRST: p(f"  {r['id']}: only the CDN had it; saved, but it is a re-encoded copy (not the original)")
         return st
     skip_n = len(rows) - len(todo) - len(repair)
     with Progress("Videos", len(rows), folder=out, show_bytes=True, expect_bytes=est) as pr:
@@ -1033,7 +1088,7 @@ def cmd_videos(a):
             run_pool(one, todo, min(MEDIA_CONC, 4), pr)
             run_pool(lambda r: one(r, True), repair, min(MEDIA_CONC, 4), pr)
         finally: log.save()
-    p(f"  {stats['original']} original, {stats['reencoded']} re-encoded (CDN only), {stats['unverified']} unverified, "
+    p(f"  {stats['original']} original (IPFS), {stats['reencoded']} NHL Breakaway copies (re-encoded), {stats['unverified']} unverified, "
       f"{stats['failed']} failed  (log: {relp(log.path, ROOT)})")
 
 
@@ -1436,10 +1491,11 @@ def cmd_pin(a):
 
 
 # ------------------------------------------------------------------ verify
-def classify(path, expected, logrec):
+def classify(path, expected, logrec, kind=None):
     if not expected: return "unverified"
     if file_matches(path, expected): return "original"
     if logrec and logrec.get("source") == "ipfs": return "corrupt"
+    if not plausible(path, kind): return "corrupt"          # empty, not an image, or a cut-off video
     return "reencoded"
 
 
@@ -1458,7 +1514,7 @@ def cmd_verify(a):
             if path and os.path.exists(path)]
     with Progress("Verifying files", len(jobs), ok="ok", failed="not original", skipped="", resumable=False) as pr:
         for r, kind, path, purpose in jobs:
-            _, sh = asset_ipfs(r["_meta"], purpose); st = classify(path, sh, log.get(kind, r["id"]))
+            _, sh = asset_ipfs(r["_meta"], purpose); st = classify(path, sh, log.get(kind, r["id"]), kind)
             files[kind][st] = files[kind].get(st, 0) + 1; per.setdefault(str(r["id"]), {})[kind] = st
             if st in ("reencoded", "corrupt"): notes.append(f"{kind} {r['id']}: {st}")
             with pr.lock: pr.n["ok" if st in ("original", "unverified") else "failed"] += 1; pr.bytes += os.path.getsize(path)
@@ -1467,10 +1523,13 @@ def cmd_verify(a):
           os.path.join(OUT, "verify_report.json"))
     p(f"Metadata: {res}")
     for kind, d in files.items(): p(f"{kind.capitalize()}s: " + (", ".join(f"{v} {k}" for k, v in sorted(d.items())) or "none downloaded"))
-    for b in notes[:40]: p("  ", b)
+    shown = [b for b in notes if not b.endswith(": reencoded")]   # re-encoded videos are normal now (NHL Breakaway's copies)
+    for b in shown[:40]: p("  ", b)
+    if len(shown) > 40: p(f"   ... and {len(shown) - 40} more (see the report)")
     if any(d.get("reencoded") or d.get("corrupt") for d in files.values()):
-        p("original = matches the sha256 in the NHL Breakaway metadata. reencoded = a different copy (the CDN "
-          "now re-encodes). Run the same command with --repair to replace them with originals from IPFS.")
+        p("original = matches the sha256 in the NHL Breakaway metadata (the IPFS original). reencoded = NHL Breakaway's "
+          "own copy of a video: complete and playable, but re-encoded. corrupt = damaged or cut off. `covers --repair` / "
+          "`videos --repair` replace damaged files (and re-encoded copies, if you want the originals) from IPFS.")
     p(f"Report: {relp(os.path.join(OUT, 'verify_report.json'), ROOT)}")
 
 
@@ -1674,6 +1733,7 @@ const HAS_MINE = DATA.some(r=>r.mine);
 if(HAS_MINE){document.getElementById('minebox').style.display='';document.getElementById('f_sort').style.display=''}
 const MY_MOMENTS = DATA.filter(r=>r.mine).length, MY_EDS = DATA.reduce((n,r)=>n+(r.mine?(r.eds||[]).length:0),0);
 const GW = __GATEWAYS__;
+const PREFER = "__PREFER__";   // "breakaway": NHL Breakaway's servers first, IPFS as the backup; "ipfs": the IPFS originals first
 const $ = s => document.querySelector(s);
 const fmt = n => Number(n).toLocaleString('en-US');
 function opts(sel, key, label){const v=[...new Set(DATA.map(r=>r.s[key]).filter(Boolean))].sort();
@@ -1688,7 +1748,8 @@ function ipfsAll(cid){return cidOf(cid)?GW.map((g,i)=>ipfsUrl(cid,i)):[]}
 // then the other gateways. A source that errors or hasn't loaded after STALL_MS is skipped; at most MAX_SRC tries.
 const STALL_MS=6000, MAX_SRC=5;
 function coverSources(r){const s=r.s,ip=ipfsAll(s.cover_ipfs);
-  return [...new Set([r.local_cover,ip[0],s.cover_url,...ip.slice(1)].filter(Boolean))].slice(0,MAX_SRC)}
+  const order=PREFER==='ipfs'?[r.local_cover,ip[0],s.cover_url,...ip.slice(1)]:[r.local_cover,s.cover_url,...ip];
+  return [...new Set(order.filter(Boolean))].slice(0,MAX_SRC)}
 function imgTag(r){const a=coverSources(r);if(!a.length)return '<img alt="">';
   return `<img loading="lazy" decoding="async" src="${esc(a[0])}" data-alts="${esc(a.slice(1).join('|'))}" onerror="nextSrc(this)" alt="">`}
 function nextSrc(img){clearTimeout(img._t);const a=(img.dataset.alts||'').split('|').filter(Boolean);
@@ -1789,10 +1850,21 @@ function probeLocal(url,kind){return new Promise(res=>{if(!url)return res(false)
   el.onerror=()=>fin(false);setTimeout(()=>fin(false),5000);el.src=url})}
 function shaOf(r,kind){return String((kind==='video'?r.s.video_sha256:r.s.cover_sha256)||'').replace(/=+$/,'')}
 // deep=true also hashes (on click). Covers are small, so they are always hashed; videos only get a size check on open.
+// a whole MP4? top-level boxes start with ftyp, include moov and mdat and end exactly at the end (a cut-off file fails)
+async function mp4ok(blob){const n=blob.size;let pos=0,first=true;const seen=new Set();
+  try{while(pos<n){const h=new DataView(await blob.slice(pos,pos+16).arrayBuffer());if(h.byteLength<8)return false;
+    let len=h.getUint32(0);const t=String.fromCharCode(h.getUint8(4),h.getUint8(5),h.getUint8(6),h.getUint8(7));
+    if(len===1){if(h.byteLength<16)return false;len=h.getUint32(8)*4294967296+h.getUint32(12)}else if(len===0)len=n-pos;
+    if(len<8||!/^[\x20-\x7e]{4}$/.test(t)||(first&&t!=='ftyp'))return false;first=false;seen.add(t);pos+=len}
+    return pos===n&&seen.has('moov')&&seen.has('mdat')}catch(e){return false}}
 async function checkSaved(i,kind,deep){const r=DATA[i],name=kind==='video'?r.video_name:r.cover_name,sha=shaOf(r,kind),want=(r.dlb||{})[kind]||0;
   const dir=await dirIfGranted();
   if(dir&&dir!=='ask'){const f=await fileIn(dir,kind,name),where=`${dir.name}/${SUBDIR[kind]}/${name}`;
     if(f){if(!f.size)return {state:'bad',where,why:'it is empty'};
+      if(kind==='video'){   // NHL Breakaway's videos are re-encoded copies: a complete MP4 counts as saved; the hash only says which copy
+        if(!await mp4ok(f))return {state:'bad',where,why:'it is cut off (not a complete video)'};
+        if(!(deep&&sha))return {state:'ok',how:want&&f.size===want?'size':'unchecked',where};
+        const h=await b64sha(await f.arrayBuffer());return {state:'ok',how:h&&h===sha?'verified':'copy',where}}
       if(want&&f.size!==want)return {state:'bad',where,why:`its size (${mbs(f.size)}) doesn't match the original (${mbs(want)})`};
       if(sha&&(deep||kind==='cover')){const h=await b64sha(await f.arrayBuffer());
         if(h&&h!==sha)return {state:'bad',where,why:"its fingerprint (sha256) doesn't match the original"};
@@ -1806,13 +1878,14 @@ function render(i,kind,res){const w=document.querySelector(`#box .dlw_${kind}`);
   const b=w.querySelector('.main'),again=w.querySelector('.again'),say=t=>{const s=document.querySelector('#box .st_'+kind);if(s)s.textContent=t};
   w.dataset.state=res.state;w.dataset.how=res.how||'';b.disabled=false;b.classList.toggle('saved',res.state==='ok');again.style.display=res.state==='ok'?'':'none';
   if(res.state==='ok'){b.textContent='Already saved \u2713';
-    say({verified:`Already saved and verified (sha256 matches the original): ${res.where}`,size:`Already saved (size matches the original): ${res.where}. Click to check its fingerprint.`,
-         unchecked:`Already saved: ${res.where}. Click to check it.`,local:`Already saved in your archive folder (${res.where}).`,
+    say({verified:`Already saved and verified (sha256 matches the original): ${res.where}`,size:`Already saved (same size as when it was downloaded): ${res.where}. Click to check its fingerprint.`,
+         unchecked:`Already saved: ${res.where}. Click to check it.`,
+         copy:`Already saved: ${res.where}. It's NHL Breakaway's copy of the video (complete, but re-encoded, so not byte-identical to the IPFS original).`,local:`Already saved in your archive folder (${res.where}).`,
          downloads:`Saved to your Downloads as ${res.where}. The app will move it into the archive next time you run it.`}[res.how]||'Already saved.')}
   else if(res.state==='bad'){b.textContent='Download again';say(`The saved copy (${res.where}) looks incomplete: ${res.why}. Click "Download again" to replace it.`)}
   else{b.textContent=LABEL[kind];say(res.state==='ask'?'':'')}}
 async function onMain(i,kind,btn){const w=btn.closest('.dlw'),st=w.dataset.state,how=w.dataset.how;
-  if(st==='ok'){if(how==='verified'){render(i,kind,{state:'ok',how:'verified',where:(await CHECKS[kind]||{}).where||''});return}
+  if(st==='ok'){if(how==='verified'||how==='copy'){render(i,kind,{state:'ok',how,where:(await CHECKS[kind]||{}).where||''});return}
     if(how==='local'||how==='downloads'){const s=document.querySelector('#box .st_'+kind);if(s&&how==='local')s.textContent='Already saved in your archive folder. To check it, use 7) Check my downloaded files in the app, or "Download again" to replace it.';return}
     btn.disabled=true;btn.textContent='Checking...';const res=await checkSaved(i,kind,true);CHECKS[kind]=Promise.resolve(res);render(i,kind,res);return}
   if(st==='ask'){btn.disabled=true;   // a remembered folder that needs permission again: ask now (this is a click)
@@ -1829,23 +1902,27 @@ async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video';
   const done=res=>{CHECKS[kind]=Promise.resolve(res);render(i,kind,res)};
   const fail=t=>{btn.disabled=false;btn.textContent=LABEL[kind];say(t)};
   const dir=await archiveDir(say);
-  // sources: the first IPFS gateways, then NHL Breakaway's copy, then the other gateways; every one is checked by sha256
-  const ip=ipfsAll(cid),srcs=[...ip.slice(0,2).map(u=>['ipfs',u]),...(cdn?[['cdn',cdn]]:[]),...ip.slice(2,4).map(u=>['ipfs',u])];
-  let got=null,verified=false;
+  // sources: NHL Breakaway first, then the IPFS gateways (PREFER "ipfs": two gateways, NHL Breakaway, two more).
+  // Every file is checked by sha256. Covers on NHL Breakaway are the originals; its videos are re-encoded copies,
+  // taken when they are a complete MP4. (Its video server currently refuses in-page downloads, so those use IPFS.)
+  const ip=ipfsAll(cid).map(u=>['ipfs',u]),cs=cdn?[['cdn',cdn]]:[];
+  const srcs=PREFER==='ipfs'?[...ip.slice(0,2),...cs,...ip.slice(2,4)]:[...cs,...ip.slice(0,4)];
+  let got=null,verified=false,copy=false;
   try{
     for(const [k,u] of srcs){const host=u.split('/')[2];
       try{say('Trying '+(k==='cdn'?'the NHL Breakaway CDN':host)+'...');btn.textContent='Downloading...';
         const b=await fetchBuf(u,btn);btn.textContent='Checking...';const h=sha?await b64sha(b):null;
         if(h&&h===sha){got=b;verified=true;break}
-        if(k==='cdn'&&!got){got=b;console.warn('[download] the CDN copy is not the original (sha256 differs); keeping it as a fallback')}
+        if(k==='cdn'&&isV&&await mp4ok(new Blob([b]))){got=b;copy=true;break}
+        if(k==='cdn'&&!got&&!isV){got=b;console.warn('[download] the CDN copy is not the original (sha256 differs); keeping it as a fallback')}
         else console.warn(`[download] ${host}: sha256 differs from the metadata, trying the next source`)}
       catch(e){console.warn(`[download] ${host} failed:`,e&&e.message||e)}}
   }catch(e){console.error('[download] unexpected error:',e)}
-  if(got&&verified&&dir){   // createWritable writes to a temporary file and swaps it in on close, so a broken write never replaces a good file
-    try{await writeInto(dir,sub,name,got);return done({state:'ok',how:'verified',where:`${dir.name}/${sub}/${name}`})}
+  if(got&&(verified||copy)&&dir){   // createWritable writes to a temporary file and swaps it in on close, so a broken write never replaces a good file
+    try{await writeInto(dir,sub,name,got);return done({state:'ok',how:verified?'verified':'copy',where:`${dir.name}/${sub}/${name}`})}
     catch(e){console.warn('[download] could not write into the archive folder, saving to Downloads instead:',e&&e.message||e)}}
   if(got){saveBuf(got,name,type);
-    if(verified)return done({state:'ok',how:'downloads',where:name});
+    if(verified||copy)return done({state:'ok',how:'downloads',where:name});
     return fail(`Saved to your Downloads as ${name} (${mbs(got.byteLength)}). This copy is from the NHL Breakaway CDN and may be re-encoded, so the app will leave it there.`)}
   const u=cidOf(cid)?ipfsDlUrl(cid,name,0):cdn;
   if(u){console.warn('[download] every source failed; opening a download link in a new tab instead:',u);window.open(u,'_blank');
@@ -1853,7 +1930,7 @@ async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video';
   fail('No source answered. Please try again later.')}
 function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
   const cov=coverSources(r);const poster=r.local_cover||s.cover_url||cov[0]||'';
-  // playback: your local file, then the CDN (fast; may be a re-encoded copy), then IPFS. Downloads prefer the IPFS original.
+  // playback: your local file, then NHL Breakaway (a re-encoded copy), then IPFS (the original).
   const vsrc=[r.local_video,s.video_url,...ipfsAll(s.video_ipfs).slice(0,2)].filter(Boolean);
   const video=vsrc.length?`<video controls preload="none" poster="${esc(poster)}">${vsrc.map(v=>`<source src="${esc(v)}" type="video/mp4">`).join('')}</video>`:imgTag(r);
   const eds=r.eds||[];
@@ -1949,6 +2026,7 @@ def import_downloads(video_dir=None, rows=None):
         for kind, purpose in (("cover", "front"), ("video", "primary-asset")):
             sha = asset_ipfs(r["_meta"], purpose)[1]
             if sha: index[(kind, sha.rstrip("="))] = r
+    by_vname = {video_name(r): r for r in rows}
     log = DownloadLog(); moved, have, left = 0, 0, []
     for kind, src in found:
         # cheap check first, so big videos already in the archive aren't re-hashed on every start
@@ -1959,20 +2037,26 @@ def import_downloads(video_dir=None, rows=None):
         except OSError: pass
         try: r = index.get((kind, file_sha_b64(src).rstrip("=")))
         except OSError: continue
+        status, source = "original", "browser download"
+        if not r and kind == "video" and base in by_vname and mp4_complete(src):
+            # NHL Breakaway's copy of a video (re-encoded, so not the original's sha256): its exact app file name
+            # says which moment it is, and it has to be a complete MP4
+            r, status, source = by_vname[base], "reencoded", "browser download (NHL Breakaway copy)"
         if not r: left.append(os.path.basename(src)); continue
         if kind == "cover":
             front = ((r["_meta"] or {}).get("images") or {}).get("front") or {}
             dest = cover_path(r) or cover_dest(r, front.get("url")); sha = asset_ipfs(r["_meta"], "front")[1]
         else:
             dest = os.path.join(vdir, video_name(r)); sha = asset_ipfs(r["_meta"], "primary-asset")[1]
-        if os.path.exists(dest) and file_matches(dest, sha): have += 1; continue      # already in the archive: leave the copy
+        if os.path.exists(dest) and (file_matches(dest, sha) or (status == "reencoded" and mp4_complete(dest))):
+            have += 1; continue                                                        # already in the archive: leave the copy
         os.makedirs(os.path.dirname(dest), exist_ok=True); tmp = dest + ".part"
         try:
             shutil.copy2(src, tmp); os.replace(tmp, dest); os.remove(src); moved += 1
         except OSError as e:
             if os.path.exists(tmp): os.remove(tmp)
             p(f"  couldn't import {os.path.basename(src)}: {e}"); continue
-        log.set(kind, r["id"], {"file": relp(dest, ROOT), "status": "original", "source": "browser download",
+        log.set(kind, r["id"], {"file": relp(dest, ROOT), "status": status, "source": source,
                                 "host": "", "sha256": file_sha_b64(dest), "expected_sha256": sha, "bytes": os.path.getsize(dest),
                                 "cid": "", "at": now()})
     log.save()
@@ -2002,7 +2086,7 @@ def cmd_view(a):
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
                      "mine": MINE is not None and str(r["id"]) in MINE, "eds": (MINE or {}).get(str(r["id"])) or [],
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
-    out = VIEWER.replace("__MINEPATH__", html.escape(MINE_PATH if MINE is not None else "")).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE)).replace("__VERSION__", VERSION)
+    out = VIEWER.replace("__MINEPATH__", html.escape(MINE_PATH if MINE is not None else "")).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__PREFER__", "breakaway" if CDN_FIRST and not IPFS_ONLY else "ipfs").replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE)).replace("__VERSION__", VERSION)
     open(os.path.join(vd, "index.html"), "w", encoding="utf-8").write(out)
     p(f"Wrote {relp(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
       f"{sum(1 for d in data if d['local_cover'])} local covers, {sum(1 for d in data if d['local_video'])} local videos). Open it in a browser.")
@@ -2055,7 +2139,7 @@ def cmd_album(a):
     rows = mine_only(rows)
     if not rows: sys.exit("No highlights match those filters.")
     if any(not cover_path(r) for r in rows) and not OFFLINE:
-        p("Some covers aren't downloaded yet; fetching them first (IPFS first). Use --offline to skip."); cmd_covers(a, rows)
+        p("Some covers aren't downloaded yet; fetching them first. Use --offline to skip."); cmd_covers(a, rows)
     secs = album_sections(rows)
     cols, rws = {"1up": (1, 1), "2x2": (2, 2), "3x3": (3, 3)}[a.layout]; per = cols * rws
     TW, TH = A4 if a.page == "a4" else letter            # trim size
@@ -2233,11 +2317,11 @@ def cmd_album(a):
 CONFIG_KEYS = {   # breakaway.config.json key -> argparse dest (a flag on the command line always wins)
     "gateways": "gateway", "concurrency": "concurrency", "media_concurrency": "media_concurrency",
     "ipfs_concurrency": "ipfs_concurrency", "output_dir": "output_dir", "video_dir": "video_dir",
-    "viewer_dir": "viewer_dir", "ipfs_only": "ipfs_only", "cdn_first": "cdn_first", "offline": "offline",
+    "viewer_dir": "viewer_dir", "ipfs_only": "ipfs_only", "cdn_first": "cdn_first", "offline": "offline", "prefer": "prefer",
     "issues_url": "issues_url",
 }
 DEFAULTS = {"gateway": [], "concurrency": 6, "media_concurrency": 2, "ipfs_concurrency": 2, "output_dir": "output",
-            "video_dir": None, "viewer_dir": "viewer", "ipfs_only": False, "cdn_first": False, "offline": False,
+            "video_dir": None, "viewer_dir": "viewer", "ipfs_only": False, "cdn_first": False, "offline": False, "prefer": "breakaway",
             "issues_url": None}
 COMMANDS = ["all", "fetch", "covers", "build", "package", "videos", "verify", "add", "view", "album", "check-ipfs", "pin",
             "check-live", "health"]
@@ -2259,7 +2343,9 @@ def main(argv=None):
     g.add_argument("--ipfs-concurrency", type=int, default=None, help="check-ipfs: parallel checks (1-6, default 2)")
     g.add_argument("--gateway", action="append", default=None, help="IPFS gateway to try first (repeatable), e.g. https://ipfs.io/ipfs/")
     g.add_argument("--ipfs-only", action="store_true", default=None, help="covers/videos: IPFS gateways only, never the NHL Breakaway CDN")
-    g.add_argument("--cdn-first", action="store_true", default=None, help="covers/videos: try the CDN before IPFS (faster, but videos come re-encoded)")
+    g.add_argument("--prefer", choices=["breakaway", "ipfs"], default=None, help="covers/videos/viewer: where to download from first: "
+                   "breakaway = NHL Breakaway's servers, IPFS as the backup (default); ipfs = the IPFS originals first, NHL Breakaway last")
+    g.add_argument("--cdn-first", action="store_true", default=None, help=argparse.SUPPRESS)   # old name for --prefer breakaway
     g.add_argument("--ids", help="comma-separated card IDs (the id in data/highlights.json)")
     g.add_argument("--series", help='only this series, e.g. "Series 3"')
     g.add_argument("--set", help="only sets whose name contains this")
@@ -2318,7 +2404,9 @@ def main(argv=None):
     a.ipfs_concurrency = max(1, min(int(a.ipfs_concurrency), 6))
     user_gw = [x if x.rstrip("/").endswith("/ipfs") or x.endswith("/ipfs/") else x.rstrip("/") + "/ipfs/" for x in a.gateway]
     GATEWAYS = list(dict.fromkeys([x.rstrip("/") + "/" for x in user_gw] + DEFAULT_GATEWAYS))
-    IPFS_ONLY, CDN_FIRST, OFFLINE = bool(a.ipfs_only), bool(a.cdn_first), bool(a.offline)
+    prefer = str(a.prefer or "breakaway").lower()
+    if prefer not in ("breakaway", "ipfs"): sys.exit(f'"prefer" must be "breakaway" or "ipfs", not "{a.prefer}".')
+    IPFS_ONLY, CDN_FIRST, OFFLINE = bool(a.ipfs_only), prefer == "breakaway" or bool(a.cdn_first), bool(a.offline)
     if a.issues_url: ISSUES_URL = a.issues_url
     global MINE, MINE_PATH
     MINE = None; MINE_PATH = ""
@@ -2460,7 +2548,8 @@ def menu():
         elif c == "7":
             run(["verify"])
         elif c == "8":
-            p("Pinning keeps a copy of the original files on IPFS so they stay online. Nothing is pinned unless you choose to.\n"
+            p("Pinning keeps a copy of the original files on IPFS, the backup that keeps working if NHL Breakaway's servers go away.\n"
+              "Nothing is pinned unless you choose to.\n"
               "  1) Just write the lists of CIDs (no upload)\n  2) Pin on my own IPFS node (Kubo installed)\n"
               "  3) Pin with a pinning service (Pinata or Filebase; your token in PIN_SERVICE_TOKEN)")
             m = ask("Choose", "1"); f = ask_filter("files"); t = ask("Only some file types? e.g. video,cover (Enter = all)")

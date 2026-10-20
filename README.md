@@ -20,7 +20,7 @@ In the menu, most people want **4) Open the viewer** (browse every moment right 
 ![The offline viewer: search and filter all 1,973 moments](docs/images/viewer.png)
 
 An unofficial fan archive of NHL Breakaway digital highlights: the details of all 1,973 known moments, saved here so they survive if the site goes away.
-A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the original cover art and videos from IPFS.
+A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the cover art and videos: from NHL Breakaway's own servers while they're up, with IPFS as the backup that keeps working if they go away.
 Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warranty-use-at-your-own-risk)).
 
 **Jump to:** [Start here](#start-here) · [Download the app](#no-python-download-the-app) · [**Show only my cards**](#show-only-my-cards-optional) · [FAQ](#faq) · [With Python](#with-python-windows-mac-or-linux) · [Common tasks](#common-tasks) · [If NHL Breakaway shuts down](#if-nhl-breakaway-shuts-down) · [Help keep it alive](#help-keep-it-alive) · [No warranty](#no-warranty-use-at-your-own-risk)
@@ -41,7 +41,7 @@ It saves a copy of what NHL Breakaway already shows to everyone, so the details 
 
 **Where do my files go?** Into an `output` folder next to the app: covers, videos (`output/videos`), the spreadsheet and the album. The viewer is saved in a `viewer` folder and the archive data in a `data` folder, both next to the app. If that folder can't be written to, the app uses a `Breakaway-Archive` folder in your home folder instead.
 
-**I used the Download buttons in the viewer. Where did the files go?** In Chrome or Edge you can pick your `Breakaway-Archive/output` folder once and they're saved straight into the archive. Otherwise (or in Firefox and Safari) they go to your Downloads folder under the app's own file names, and the app moves them into the archive the next time you run it, after checking each one against its fingerprint (sha256). Files that don't match, like re-encoded copies, are left where they are.
+**I used the Download buttons in the viewer. Where did the files go?** In Chrome or Edge you can pick your `Breakaway-Archive/output` folder once and they're saved straight into the archive. Otherwise (or in Firefox and Safari) they go to your Downloads folder under the app's own file names, and the app moves them into the archive the next time you run it, after checking it. A cover must match its fingerprint (sha256). NHL Breakaway's videos are re-encoded copies with a different fingerprint, so a video is taken when it has the app's exact file name and is a complete video file. Anything else is left where it is.
 
 **Some covers in the viewer are blank or slow to appear?** Until you download them, the viewer loads each cover live from the internet (a public IPFS link first, then NHL Breakaway's own image server if that is slow), so they can take a moment when many load at once. To make them instant (and work offline), run **1) Get cover art** first, or with **10) Show only my cards** to get just yours, then open the viewer again.
 
@@ -128,7 +128,7 @@ On Mac/Linux, type `python3` where it says `python`. On Windows, if `python` isn
 | Help keep the files online | 8 | `python breakaway.py pin` (see [Help keep it alive](#help-keep-it-alive)) |
 
 Things to know:
-* **Covers and videos come from IPFS first**, which serves the original files. Every file is checked against the sha256 fingerprint in its metadata. NHL Breakaway's own CDN is only a fallback, and it now serves *re-encoded* videos. Those are kept but marked `reencoded` in `output/download_log.json`. `verify` shows original vs. re-encoded, and `--repair` swaps re-encoded files for originals.
+* **Covers and videos come from NHL Breakaway's own servers first** while they're up (faster and more reliable), and from IPFS when a file fails, is refused, times out or comes back wrong. Every file is checked against the sha256 fingerprint in its metadata. NHL Breakaway's covers are the original files. Its videos are *re-encoded* copies (same video, different bytes), so they are accepted when they are a complete MP4 and marked `reencoded` in `output/download_log.json`. `verify` shows original vs. re-encoded. If you'd rather have the IPFS originals, use `--prefer ipfs` (or `"prefer": "ipfs"` in `breakaway.config.json`); `--repair` swaps re-encoded files you already have for the originals.
 * **Videos are big**: all of them come to roughly 220 GB. `videos` shows an estimate and asks before downloading. Re-running resumes and skips finished files.
 * **Album options**: `--layout 1up|2x2|3x3`, `--page letter|a4`, `--bleed` (3 mm bleed + crop marks for a print shop), `--max-px 600 --jpeg 80` for a small screen-only file. The full album is about 2,061 / 615 / 343 pages (1up / 2x2 / 3x3) and ~2.3 GB, so one PDF per series is easier.
 * **Works offline**: once covers (and any videos) are downloaded, `build`, `view` and `album` need no internet. Add `--offline` to be sure.
@@ -150,7 +150,7 @@ python breakaway.py verify
 
 ## Help keep it alive
 
-Nothing is pinned by this project. The originals survive only if people keep copies:
+NHL Breakaway's servers are the main source while they're up. IPFS is the backup that keeps working if they go away, and it holds the original files, but only while someone pins them. Nothing is pinned by this project, so the originals survive only if people keep copies:
 1. **Keep the folder.** Back up `data/` (the archive) and `output/` (your downloaded covers and videos).
 2. **Pin the CIDs.** `python breakaway.py pin` writes CID lists to `output/pin/` (`all.txt`, `video.txt`, `cover.txt`, ...). Then either:
    * your own IPFS node ([Kubo](https://docs.ipfs.tech/install/command-line/)): `python breakaway.py pin --kubo --types video,cover --series "Series 1"`
@@ -227,8 +227,8 @@ It catalogs **public data**: the NFT metadata and public set and listing data th
 ```
 python breakaway.py                         # menu
 python breakaway.py fetch   [--refresh] [--ids 12,40] [--discover [--limit N]]
-python breakaway.py covers  [filters] [--repair] [--ipfs-only | --cdn-first]
-python breakaway.py videos  [filters] [--video-dir DIR] [--limit N] [--yes] [--repair] [--ipfs-only]
+python breakaway.py covers  [filters] [--repair] [--prefer breakaway|ipfs] [--ipfs-only]
+python breakaway.py videos  [filters] [--video-dir DIR] [--limit N] [--yes] [--repair] [--prefer breakaway|ipfs] [--ipfs-only]
 python breakaway.py build | package | all | view [--viewer-dir DIR]
 python breakaway.py verify  [--video-dir DIR]
 python breakaway.py add     <url | seriesId/tokenId> ...      # also reads data/extra_moments.txt
@@ -243,7 +243,7 @@ general: --output-dir DIR, --offline, --config FILE, --gateway URL, --concurrenc
          --media-concurrency N (downloads, 1-4), --ipfs-concurrency N (check-ipfs, 1-4)
 ```
 
-**Settings file:** copy `breakaway.config.example.json` to `breakaway.config.json` (next to `breakaway.py` or the app) to set the gateways, concurrency, output/video/viewer folders, `ipfs_only`, `offline` or the issues link for your fork. Flags always win. Nothing in the code depends on this repo's location, so forks work as-is. To look for browser-saved files somewhere other than your Downloads folder, set the `BREAKAWAY_DOWNLOADS_DIR` environment variable.
+**Settings file:** copy `breakaway.config.example.json` to `breakaway.config.json` (next to `breakaway.py` or the app) to set the gateways, concurrency, output/video/viewer folders, `prefer` (`"breakaway"`, the default, or `"ipfs"`), `ipfs_only`, `offline` or the issues link for your fork. Flags always win. Nothing in the code depends on this repo's location, so forks work as-is. To look for browser-saved files somewhere other than your Downloads folder, set the `BREAKAWAY_DOWNLOADS_DIR` environment variable.
 
 **Politeness:** every host gets its own throttle, requests back off on errors, `Retry-After` on 429 is respected, and a gateway that answers 429 is rested for a while. 401/403/404 are never worked around.
 

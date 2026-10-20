@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.5 (2026-10-20)
+
+* Covers and videos now come from NHL Breakaway's own servers first while they're up (faster and more reliable), with the IPFS gateways as the backup when a file fails, is refused, times out or comes back wrong. This applies to the app (every menu option and command that downloads) and to the viewer's covers and Download buttons. The video player already played NHL Breakaway's copy before IPFS.
+* What we found: NHL Breakaway's covers are byte-for-byte the originals (40 of 40 matched the sha256 in the metadata), so they are still verified. Its videos are re-encoded copies (6 of 6 differed from the originals by about 1%), so a video from there is accepted when it is a complete MP4 and logged as `reencoded`. Already saved, the Downloads import and `verify` treat these copies as saved instead of downloading them again; a cut-off video is still caught.
+* NHL Breakaway's video server refuses downloads made from inside a web page, so the viewer's "Download video" button gets the original from IPFS instead. Playing videos in the viewer isn't affected.
+* New setting to switch back: `--prefer ipfs`, or `"prefer": "ipfs"` in `breakaway.config.json` (default `"breakaway"`). `--ipfs-only` still never contacts NHL Breakaway.
+* README: IPFS is described as the backup that keeps working if NHL Breakaway's servers go away, which is what pinning (menu 8) helps with.
+
 ## v1.1.4 (2026-10-20)
 
 * Fixed: the viewer kept "My cards" after an upgrade only if your list was called `my_cards.txt` or `my_cards.csv` next to the app. It now remembers the list you used (a path inside the archive folder is stored relative, so no personal folder names end up in the viewer).

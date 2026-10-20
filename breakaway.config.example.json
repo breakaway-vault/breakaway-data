@@ -8,7 +8,7 @@
  "media_concurrency": 2,
  "ipfs_concurrency": 2,
  "ipfs_only": false,
- "cdn_first": false,
+ "prefer": "breakaway",
  "offline": false,
  "issues_url": "https://github.com/breakaway-vault/breakaway-data/issues"
 }
