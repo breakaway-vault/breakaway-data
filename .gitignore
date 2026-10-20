@@ -25,3 +25,8 @@ breakaway.config.json
 # your own card list (private)
 my_cards.txt
 my_cards.csv
+
+# OS / Python clutter
+.DS_Store
+Thumbs.db
+*.pyc
