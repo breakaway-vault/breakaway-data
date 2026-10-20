@@ -6,6 +6,8 @@ A preservation archive of NHL Breakaway digital highlight metadata for 1,973 hig
 (`data/highlights.json`) ships with the repo and grows with `add` (see below): 1,811 moments from the
 original card list plus 162 found in NHL Breakaway's own set listings (`"on_site": false`).
 
+Card list originally compiled from The Fifth Line (https://thefifthlinecode.onrender.com).
+
 NHL Breakaway may shut down, so the raw metadata is stored **in this repo, byte-for-byte as served**.
 Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
 
@@ -17,7 +19,7 @@ Everything else (the spreadsheet, cover art, videos) can be rebuilt from it.
 | `data/manifest.json` | Per highlight: source URL, fetch time (UTC), HTTP status, bytes, sha256 of the stored file, moment UUID, how it was linked, off-chain file, and **every IPFS CID + sha256** found in its metadata (images and video). |
 | `data/offchain/sets/<set_uuid>.json` | Raw NHL Breakaway set listings (`apigw.sweet.io/catalog/search/moment/set/...`): off-chain descriptions, game/play details, edition sizes, rarity, dates. |
 | `data/offchain/setcompletion_826.json`, `collection_challenge_826.json` | Raw set-completion and quest data (set rewards, quest highlight lists). |
-| `data/highlights.json` | The card list: card id, player, set, rarity, edition size, team, an October 2026 price snapshot (lowest ask / FMV; empty for moments added later) and `on_site` (false for moments that weren't in the original list). Card ids 1-1818 come from the original list; added moments get the next free numbers. Every command starts from this file. |
+| `data/highlights.json` | The card list: card id, player, set, rarity, edition size, team, an October 2026 price snapshot (lowest ask / FMV; empty for moments added later) `on_site` (false for moments that weren't in the original list) and, for the original 1,811, `site_url` (that card's page on The Fifth Line). Card ids 1-1818 come from the original list; added moments get the next free numbers. Every command starts from this file. |
 | `data/links.json` | Card id -> NHL Breakaway series id + token id (+ moment UUID), and how each was found. |
 | `data/cids.txt` | Every IPFS CID (cover images, posters, videos) referenced by the metadata, deduplicated, ready to pin. |
 | `data/extra_moments.txt` | Anyone-editable list of extra NHL Breakaway links to add (see below). |

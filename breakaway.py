@@ -340,6 +340,7 @@ def summary(r):
         "cover_url": front.get("url", ""), "cover_ipfs": (front.get("altloc") or {}).get("ipfs", ""), "cover_sha256": front.get("sha256", ""),
         "video_url": vid, "breakaway_url": ln.get("source_url", "").replace("nft.nhlbreakaway.com/series", "nhlbreakaway.com/series"),
         "meta_url": ln.get("source_url", ""), "id": r["id"], "on_site": "yes" if r.get("on_site", True) else "no",
+        "site_url": r.get("site_url", ""),
         "moment_uuid": ln.get("moment_uuid", ""), "raw_meta_path": ln.get("meta_path", ""),
         "offchain_path": ln.get("offchain_path", ""), "link_via": ln.get("link_via", ""),
         "source": " + ".join(x for x, ok in (("card list", True), ("nft. metadata", bool(r["_meta"])), ("Breakaway off-chain", bool(r["_off"]))) if ok),
@@ -368,10 +369,10 @@ COLS = [("row", "#"), ("cover", "Cover"), ("player", "Player"), ("team", "Team")
         ("issued", "Released"), ("audio", "Audio"), ("lowest_ask", "Lowest Ask"), ("fmv", "FMV"),
         ("cover_url", "Cover Art (full res)"), ("cover_ipfs", "Cover IPFS CID"), ("cover_sha256", "Cover sha256"),
         ("video_url", "Video"), ("breakaway_url", "NHL Breakaway Page"), ("meta_url", "Metadata URL"),
-        ("cover_file", "Cover File"), ("id", "Card ID"), ("on_site", "In Original List"),
+        ("cover_file", "Cover File"), ("id", "Card ID"), ("on_site", "In Original List"), ("site_url", "Card List Page"),
         ("moment_uuid", "Moment UUID"), ("raw_meta_path", "raw_meta_path"), ("offchain_path", "offchain_path"),
         ("link_via", "How Linked"), ("source", "Data Source"), ("missing", "Missing / Notes")]
-LINKS = {"cover_url": "Cover art", "video_url": "Watch", "breakaway_url": "Breakaway", "meta_url": "JSON"}
+LINKS = {"cover_url": "Cover art", "video_url": "Watch", "breakaway_url": "Breakaway", "meta_url": "JSON", "site_url": "The Fifth Line"}
 
 
 def cmd_build(a):
@@ -486,7 +487,7 @@ KEY COLUMNS
                     "Set (list label)" is the set name as written in data/highlights.json)
   Description       The official write-up, good for album captions
   Lowest Ask / FMV  Price snapshot (USD) saved with the card list in October 2026
-  Cover Art, Video, NHL Breakaway Page, Metadata URL   clickable links
+  Cover Art, Video, NHL Breakaway Page, Metadata URL, Card List Page   clickable links
   Cover IPFS CID / Cover sha256   permanent IPFS address and checksum of the cover image
   Cover File        matching image in covers/
   Data Source / Missing / Notes   where the row's data came from, or why something is missing
