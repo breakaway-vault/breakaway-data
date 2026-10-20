@@ -41,6 +41,8 @@ It saves a copy of what NHL Breakaway already shows to everyone, so the details 
 
 **Where do my files go?** Into an `output` folder next to the app: covers, videos (`output/videos`), the spreadsheet and the album. The viewer is saved in a `viewer` folder and the archive data in a `data` folder, both next to the app. If that folder can't be written to, the app uses a `Breakaway-Archive` folder in your home folder instead.
 
+**Some covers in the viewer are blank or slow to appear?** Until you download them, the viewer loads each cover live from the public IPFS links, which can be slow when hundreds load at once. They fill in after a bit. To make them instant (and work offline), run **1) Get cover art** first, or with **10) Show only my cards** to get just yours, then open the viewer again.
+
 **How much space does it need?** The archive data is about 50 MB. All 1,973 covers are about 1.7 GB. All the videos together are roughly 220 GB, so most people pick a player, team or set; the app shows the size and asks before downloading any videos. A full one-PDF album is about 2.3 GB.
 
 ## Quick start
