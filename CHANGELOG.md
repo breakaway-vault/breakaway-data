@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.1.4 (2026-10-20)
+
+* Fixed: the viewer kept "My cards" after an upgrade only if your list was called `my_cards.txt` or `my_cards.csv` next to the app. It now remembers the list you used (a path inside the archive folder is stored relative, so no personal folder names end up in the viewer).
+* Fixed: "Open the viewer" could open the wrong page or nothing when the archive folder's name has a space, `#` or accented letters. The same goes for the viewer's links to your downloaded covers and videos.
+* Fixed (Windows): an output or video folder on a different drive from the app (e.g. app on `Z:`, videos on `D:`) made downloads and the viewer stop with an error.
+* The pin list summary no longer ends with a stray comma when no files match.
+
 ## v1.1.3 (2026-10-20)
 
 * Viewer: the detail card now checks whether you already have the cover and video (in the folder you picked, or next to the viewer) and shows "Already saved ✓" instead of downloading again, with a small "Download again" link. A saved copy with the wrong size or fingerprint is flagged as incomplete and can be replaced. After a download the button switches to "Already saved" straight away.

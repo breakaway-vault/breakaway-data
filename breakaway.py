@@ -66,7 +66,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
-VERSION = "1.1.3"       # the one place the version lives: menu header, --version, viewer footer
+VERSION = "1.1.4"       # the one place the version lives: menu header, --version, viewer footer
 TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
@@ -114,6 +114,12 @@ def _dur(s):
     if s < 60: return f"{s} s"
     if s < 3600: return f"{s // 60} min"
     return f"{s // 3600} h {s % 3600 // 60:02d} min"
+
+
+def relp(path, start):
+    """os.path.relpath that can't fail: on Windows a path on another drive has no relative form, so keep it absolute."""
+    try: return os.path.relpath(path, start)
+    except ValueError: return os.path.abspath(path)
 
 
 class Progress:
@@ -640,7 +646,7 @@ def cmd_build(a):
     wb.save(os.path.join(OUT, xlsx))
     if MINE is None: jdump([{k: v for k, v in r["_s"].items()} for r in rows], os.path.join(OUT, "highlights_summary.json"))
     n = sum(1 for r in rows if r["_meta"]); o = sum(1 for r in rows if r["_off"])
-    p(f"Built {os.path.relpath(os.path.join(OUT, xlsx), ROOT)}: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
+    p(f"Built {relp(os.path.join(OUT, xlsx), ROOT)}: {len(rows)} rows, {n} with nft. metadata, {o} with off-chain data, "
       f"{sum(1 for r in rows if cover_path(r))} with cover thumbnails, {len(cols)} flattened fields")
     return rows
 
@@ -784,7 +790,7 @@ def fetch_asset(primary, cid, sha, dest, log, kind, key, ipfs_only=None):
         elif src_kind == "cdn": status = "reencoded"
         else: os.remove(part); continue                               # a gateway served other bytes: try the next
         os.replace(part, dest)
-        log.set(kind, key, {"file": os.path.relpath(dest, ROOT), "status": status, "source": src_kind,
+        log.set(kind, key, {"file": relp(dest, ROOT), "status": status, "source": src_kind,
                             "host": host_of(url), "sha256": b64, "expected_sha256": sha, "bytes": os.path.getsize(dest),
                             "cid": (cid or "").replace("ipfs://", ""), "at": now()})
         return status
@@ -1010,7 +1016,7 @@ def cmd_videos(a):
         if ipfs_only:   # repair: download next to the old file, swap only if we got the original
             tmp = dst + ".new"
             st = fetch_asset(None, cid, sh, tmp, log, "video", r["id"], ipfs_only=True)
-            if st == "original": os.replace(tmp, dst); log.d["video"][str(r["id"])]["file"] = os.path.relpath(dst, ROOT)
+            if st == "original": os.replace(tmp, dst); log.d["video"][str(r["id"])]["file"] = relp(dst, ROOT)
             elif os.path.exists(tmp): os.remove(tmp)
         else:
             st = fetch_asset(r["_s"]["video_url"], cid, sh, dst, log, "video", r["id"])
@@ -1028,7 +1034,7 @@ def cmd_videos(a):
             run_pool(lambda r: one(r, True), repair, min(MEDIA_CONC, 4), pr)
         finally: log.save()
     p(f"  {stats['original']} original, {stats['reencoded']} re-encoded (CDN only), {stats['unverified']} unverified, "
-      f"{stats['failed']} failed  (log: {os.path.relpath(log.path, ROOT)})")
+      f"{stats['failed']} failed  (log: {relp(log.path, ROOT)})")
 
 
 # ------------------------------------------------------------------ IPFS / preservation
@@ -1373,7 +1379,7 @@ def cmd_pin(a):
     for c, e in idx.items(): by.setdefault(e["type"], []).append(c)
     for t, lst in by.items(): open(os.path.join(pd, f"{t}.txt"), "w").write("\n".join(lst) + "\n")
     open(os.path.join(pd, "all.txt"), "w").write("\n".join(idx) + "\n")
-    p(f"Pin lists ({len(idx)} CIDs) in {os.path.relpath(pd, ROOT)}/: all.txt, " + ", ".join(f"{t}.txt ({len(v)})" for t, v in by.items()))
+    p(f"Pin lists ({len(idx)} CIDs) in {relp(pd, ROOT)}/: " + ", ".join(["all.txt"] + [f"{t}.txt ({len(v)})" for t, v in by.items()]))
     if not a.kubo and not a.service:
         p("Nothing pinned. To pin: --kubo (your own IPFS node) or --service pinata|filebase|<API URL> "
           "with your key in PIN_SERVICE_TOKEN. Start small, e.g. --types video,cover --series \"Series 1\".")
@@ -1382,7 +1388,7 @@ def cmd_pin(a):
     done = set(open(done_path).read().split()) if os.path.exists(done_path) else set()
     todo = [c for c in idx if c not in done]
     if a.limit: todo = todo[: a.limit]
-    p(f"{len(todo)} to pin ({len(done)} already done according to {os.path.relpath(done_path, ROOT)})")
+    p(f"{len(todo)} to pin ({len(done)} already done according to {relp(done_path, ROOT)})")
     if not todo: return
     if not a.yes and input("Pin now? [y/N] ").strip().lower() not in ("y", "yes"): p("Cancelled."); return
     ok = fail = 0
@@ -1465,7 +1471,7 @@ def cmd_verify(a):
     if any(d.get("reencoded") or d.get("corrupt") for d in files.values()):
         p("original = matches the sha256 in the NHL Breakaway metadata. reencoded = a different copy (the CDN "
           "now re-encodes). Run the same command with --repair to replace them with originals from IPFS.")
-    p(f"Report: {os.path.relpath(os.path.join(OUT, 'verify_report.json'), ROOT)}")
+    p(f"Report: {relp(os.path.join(OUT, 'verify_report.json'), ROOT)}")
 
 
 # ------------------------------------------------------------------ add moments by URL
@@ -1488,6 +1494,7 @@ def parse_moment_refs(items):
 MINE = None          # {card id: [edition numbers you listed]} when --mine is used
 SITE_PLAYER_RE = re.compile(r"/player/(\d+)\b")
 MINE_DEFAULT = "my_cards.txt"
+MINE_PATH = ""       # the list file used for this run (remembered in the viewer so an upgrade can rebuild it the same way)
 
 
 def mine_lines(path):
@@ -1626,6 +1633,7 @@ def add_refs(refs, via):
 VIEWER = r"""<!doctype html><html><head><meta charset="utf-8"><title>breakaway-data viewer</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="generator" content="Breakaway Archive v__VERSION__">
+<meta name="breakaway-mine" content="__MINEPATH__">
 <style>
 body{margin:0;font:14px system-ui,sans-serif;background:#0f141a;color:#e6edf3}
 header{position:sticky;top:0;background:#16202b;padding:10px;display:flex;flex-wrap:wrap;gap:8px;z-index:2}
@@ -1964,7 +1972,7 @@ def import_downloads(video_dir=None, rows=None):
         except OSError as e:
             if os.path.exists(tmp): os.remove(tmp)
             p(f"  couldn't import {os.path.basename(src)}: {e}"); continue
-        log.set(kind, r["id"], {"file": os.path.relpath(dest, ROOT), "status": "original", "source": "browser download",
+        log.set(kind, r["id"], {"file": relp(dest, ROOT), "status": "original", "source": "browser download",
                                 "host": "", "sha256": file_sha_b64(dest), "expected_sha256": sha, "bytes": os.path.getsize(dest),
                                 "cid": "", "at": now()})
     log.save()
@@ -1983,7 +1991,7 @@ def cmd_view(a):
         s = dict(r["_s"]); s["video_ipfs"], _ = asset_ipfs(r["_meta"], "primary-asset")
         for k in ("cover_ipfs", "video_ipfs", "card_image_ipfs"): s[k] = clean_cid(s.get(k))
         cp = cover_path(r); vp = os.path.join(vdir, video_name(r))
-        rel = lambda x: os.path.relpath(x, vd).replace(os.sep, "/")
+        rel = lambda x: rel_url(x, vd)
         data.append({"i": i, "s": s, "meta": r["_meta"], "off": {k: v for k, v in (r["_off"] or {}).items() if k not in ("series", "token_set", "badges")},
                      "ipfs": {e["path"]: {"cid": clean_cid(e["ipfs"]), "sha256": e.get("sha256") or ""} for e in (r["_man"].get("ipfs") or [])},
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
@@ -1994,9 +2002,9 @@ def cmd_view(a):
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
                      "mine": MINE is not None and str(r["id"]) in MINE, "eds": (MINE or {}).get(str(r["id"])) or [],
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
-    out = VIEWER.replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE)).replace("__VERSION__", VERSION)
+    out = VIEWER.replace("__MINEPATH__", html.escape(MINE_PATH if MINE is not None else "")).replace("__DATA__", json.dumps(data, ensure_ascii=False).replace("</", "<\\/")).replace("__GATEWAYS__", json.dumps(GATEWAYS)).replace("__ISSUES__", html.escape(ISSUES_URL)).replace("__WARRANTY__", html.escape(WARRANTY)).replace("__TAGLINE__", html.escape(TAGLINE)).replace("__VERSION__", VERSION)
     open(os.path.join(vd, "index.html"), "w", encoding="utf-8").write(out)
-    p(f"Wrote {os.path.relpath(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
+    p(f"Wrote {relp(os.path.join(vd, 'index.html'), ROOT)} ({len(out)/1e6:.1f} MB, {len(data)} highlights, "
       f"{sum(1 for d in data if d['local_cover'])} local covers, {sum(1 for d in data if d['local_video'])} local videos). Open it in a browser.")
 
 
@@ -2054,7 +2062,7 @@ def cmd_album(a):
     BL = 3 * mm if a.bleed else 0                         # bleed on each side
     M = 0.5 * inch                                        # safe margin inside trim
     # --- page plan: cover, TOC, then per section a title page + card pages
-    toc_lines = []
+    toc_lines = []; prev_series = None
     for s in secs: toc_lines += ([("series", s[0])] if not toc_lines or s[0] != prev_series else []) + [("set", s)]; prev_series = s[0]
     toc_per_page = int((TH - 2 * M - 70) // 15)
     toc_pages = max(1, -(-len(toc_lines) // toc_per_page))
@@ -2312,13 +2320,16 @@ def main(argv=None):
     GATEWAYS = list(dict.fromkeys([x.rstrip("/") + "/" for x in user_gw] + DEFAULT_GATEWAYS))
     IPFS_ONLY, CDN_FIRST, OFFLINE = bool(a.ipfs_only), bool(a.cdn_first), bool(a.offline)
     if a.issues_url: ISSUES_URL = a.issues_url
-    global MINE
-    MINE = None
+    global MINE, MINE_PATH
+    MINE = None; MINE_PATH = ""
     if a.mine is not None and a.command in ("covers", "videos", "build", "view", "album", "pin"):
         path = a.mine if os.path.isabs(a.mine) or os.path.exists(a.mine) else os.path.join(ROOT, a.mine)
         if a.mine == MINE_DEFAULT and not os.path.exists(path) and os.path.exists(os.path.join(ROOT, "my_cards.csv")):
             path = os.path.join(ROOT, "my_cards.csv")   # The Fifth Line export
-        MINE, _ = load_mine(path)
+        MINE, _ = load_mine(path); MINE_PATH = os.path.abspath(path)
+        try:   # inside the archive folder: keep it relative, so the viewer holds no personal folder names
+            if os.path.commonpath([MINE_PATH, os.path.abspath(ROOT)]) == os.path.abspath(ROOT): MINE_PATH = relp(MINE_PATH, ROOT)
+        except ValueError: pass   # another drive on Windows
     if OFFLINE and (a.command in ("fetch", "add", "videos", "check-ipfs", "all", "covers") or (a.command == "pin" and (a.kubo or a.service))):
         sys.exit(f"`{a.command}` needs the network; drop --offline.")
     if a.command in ("fetch", "all"): cmd_fetch(a)
@@ -2344,6 +2355,19 @@ MENU = """
   0) Quit"""
 
 
+def rel_url(path, base):
+    """A link from the viewer folder to a local file: relative and URL-encoded (a folder named "My #1 cards" works),
+    or an absolute file:/// URL when it's on another drive (Windows can't make a relative path across drives)."""
+    try: return urllib.parse.quote(os.path.relpath(path, base).replace(os.sep, "/"), safe="/")
+    except ValueError: return file_url(path)
+
+
+def file_url(path):
+    """file:///Z:/folder%20name/index.html on Windows, file:///Users/... on a Mac: spaces and # are encoded."""
+    import pathlib
+    return pathlib.Path(os.path.abspath(path)).as_uri()
+
+
 def refresh_viewer():
     """viewer/index.html is made by the app, not shipped in the zip, so an upgrade would leave an old copy behind
     (people often open it directly). Rebuild it quietly when it was made by another version."""
@@ -2355,7 +2379,11 @@ def refresh_viewer():
     if f'content="Breakaway Archive v{VERSION}"' in page[:2000]: return
     argv = ["view", "--offline"]
     if '"mine": true' in page:   # it was made with "Show only my cards": keep that if the list is still here
-        mine = next((os.path.join(ROOT, f) for f in ("my_cards.txt", "my_cards.csv") if os.path.exists(os.path.join(ROOT, f))), None)
+        m = re.search(r'<meta name="breakaway-mine" content="([^"]*)"', page[:3000])
+        mine = html.unescape(m.group(1)) if m else ""
+        if mine and not os.path.isabs(mine): mine = os.path.join(ROOT, mine)
+        if not (mine and os.path.exists(mine)):
+            mine = next((os.path.join(ROOT, f) for f in ("my_cards.txt", "my_cards.csv") if os.path.exists(os.path.join(ROOT, f))), None)
         if mine: argv += ["--mine", mine]
     p(f"Updating your viewer (viewer/index.html) to v{VERSION}...")
     run(argv)
@@ -2417,7 +2445,7 @@ def menu():
             if run(["view"]):
                 import webbrowser
                 path = os.path.join(ROOT, "viewer", "index.html"); p(f"Opening {path}")
-                webbrowser.open("file://" + os.path.abspath(path).replace(os.sep, "/"))
+                webbrowser.open(file_url(path))
         elif c == "5":
             f = ask_filter("highlights for the album")
             lay = {"1": "1up", "2": "2x2", "3": "3x3"}.get(ask("Cards per page: 1) one big  2) four (2x2)  3) nine (3x3)", "2"), "2x2")
@@ -2462,7 +2490,7 @@ def menu():
             cmd = {"1": "album", "2": "view", "3": "build", "4": "covers", "5": "videos"}.get(what, "album")
             if run([cmd, "--mine", path]) and cmd == "view":
                 import webbrowser
-                webbrowser.open("file://" + os.path.abspath(os.path.join(ROOT, "viewer", "index.html")).replace(os.sep, "/"))
+                webbrowser.open(file_url(os.path.join(ROOT, "viewer", "index.html")))
         elif c == "9":
             run(["check-ipfs", "--sample", ask("How many to check", "100")])
         else:
