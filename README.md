@@ -2,18 +2,46 @@
 
 *Made for the community, by the community. Fork it, build on it, do whatever you like with it.*
 
+## Start here
+
+> **What you get, on your own computer:** the details of all 1,973 NHL Breakaway moments, their cover art and videos (download as many as you like), an offline viewer to browse them, a printable album (PDF) and a spreadsheet.
+>
+> 1. **Download the app:** https://github.com/breakaway-vault/breakaway-data/releases/latest (pick the zip for Windows, Mac or Linux).
+> 2. **Unzip, double-click, type a number.**
+>
+> Windows may say "Windows protected your PC": click **More info**, then **Run anyway** ([why](#faq); Mac and Linux steps are [here](#no-python-download-the-app)).
+
+### What should I pick first?
+
+In the menu, most people want **4) Open the viewer** (browse every moment right away), **1) Get cover art** (saves all the covers to your computer) and **5) Make a printable album (PDF)**. Have your own list of cards? Pick **10) Show only my cards** ([how](#show-only-my-cards-optional)).
+
+![The numbered menu](docs/images/menu.png)
+
+![The offline viewer: search and filter all 1,973 moments](docs/images/viewer.png)
+
 An unofficial fan archive of NHL Breakaway digital highlights: the details of all 1,973 known moments, saved here so they survive if the site goes away.
 A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the original cover art and videos from IPFS.
 Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warranty-use-at-your-own-risk)).
 
-**Jump to:** [Download the app](#no-python-download-the-app) · [**Show only my cards**](#show-only-my-cards-optional) · [With Python](#with-python-windows-mac-or-linux) · [Common tasks](#common-tasks) · [If NHL Breakaway shuts down](#if-nhl-breakaway-shuts-down) · [Help keep it alive](#help-keep-it-alive) · [No warranty](#no-warranty-use-at-your-own-risk)
+**Jump to:** [Start here](#start-here) · [Download the app](#no-python-download-the-app) · [**Show only my cards**](#show-only-my-cards-optional) · [FAQ](#faq) · [With Python](#with-python-windows-mac-or-linux) · [Common tasks](#common-tasks) · [If NHL Breakaway shuts down](#if-nhl-breakaway-shuts-down) · [Help keep it alive](#help-keep-it-alive) · [No warranty](#no-warranty-use-at-your-own-risk)
 
 ## What this project is (and isn't)
 
-It catalogs **public data**: the NFT metadata and public set and listing data that NHL Breakaway and Sweet already publish for anyone to see.
-* **Public, unauthenticated endpoints only:** `nft.nhlbreakaway.com`, `apigw.sweet.io` (set listings), NHL Breakaway's media CDN and public IPFS gateways. No logins, cookies, paywalls or private APIs, and nothing that gets around rate limits or access controls (it slows down on 429s and stops on 401/403). The only credential the tool ever touches is your *own* pinning-service token, and only if you choose to pin.
-* **No personal data:** no owner or collector names, usernames, wallets, emails or account data are stored. The one wallet address in the raw metadata is Sweet's own royalty-fee address (`fees.recipient_address`), which is part of every token's public metadata. `status` records only *that* a listing or price was seen, never who.
-* **No media in the repo:** no images or videos are hosted here. They stay the property of their rights holders. The tool only helps individuals fetch the public files for their own personal archival use.
+It only uses public pages and links: no logins, no wallets, no personal data.
+
+It saves a copy of what NHL Breakaway already shows to everyone, so the details survive. No highlight images or videos are stored here (only a screenshot of the viewer); the tool fetches them for your own personal archive. The technical details are in [Data sources and privacy](#data-sources-and-privacy).
+
+## FAQ
+
+**Is it free?** Yes. It's open source under the MIT license: no account, no payment, no ads.
+
+**Is it safe?** All of the code is public in this repo (the tool is one file, `breakaway.py`), and the app downloads are built from it by GitHub's own build service ([`release.yml`](.github/workflows/release.yml)). The apps aren't code-signed, so Windows and Mac warn you the first time you open them; that's normal for small free tools ([what to click](#no-python-download-the-app)). The tool only reads public pages and files and needs no account or password (the optional pinning feature uses your own pinning-service token, only if you choose to pin).
+
+**Do I need a wallet, a login or crypto?** No. There's nothing to connect, sign or pay. (The optional [Show only my cards](#show-only-my-cards-optional) export on The Fifth Line looks up your public wallet address on that site, but this tool never asks for it.)
+
+**Where do my files go?** Into an `output` folder next to the app: covers, videos (`output/videos`), the spreadsheet and the album. The viewer is saved in a `viewer` folder and the archive data in a `data` folder, both next to the app. If that folder can't be written to, the app uses a `Breakaway-Archive` folder in your home folder instead.
+
+**How much space does it need?** The archive data is about 50 MB. All 1,973 covers are about 1.7 GB. All the videos together are roughly 220 GB, so most people pick a player, team or set; the app shows the size and asks before downloading any videos. A full one-PDF album is about 2.3 GB.
 
 ## Quick start
 
@@ -140,13 +168,20 @@ This tool and data are provided **AS IS, with no warranty of any kind**, express
 
 ## Disclaimer
 
-Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no media; anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a [GitHub issue](https://github.com/breakaway-vault/breakaway-data/issues).
+Unofficial fan preservation project. Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team. All trademarks, names, logos, videos and images belong to their respective owners. This repository contains no highlight media (apart from one screenshot of the viewer); anyone who downloads media with the tool does so only for personal archival use. Takedown requests are honored: please open a [GitHub issue](https://github.com/breakaway-vault/breakaway-data/issues).
 
 Card list originally compiled from The Fifth Line (https://thefifthlinecode.onrender.com).
 
 ---
 
 ## Reference
+
+### Data sources and privacy
+
+It catalogs **public data**: the NFT metadata and public set and listing data that NHL Breakaway and Sweet already publish for anyone to see.
+* **Public, unauthenticated endpoints only:** `nft.nhlbreakaway.com`, `apigw.sweet.io` (set listings), NHL Breakaway's media CDN and public IPFS gateways. No logins, cookies, paywalls or private APIs, and nothing that gets around rate limits or access controls (it slows down on 429s and stops on 401/403). The only credential the tool ever touches is your *own* pinning-service token, and only if you choose to pin.
+* **No personal data:** no owner or collector names, usernames, wallets, emails or account data are stored. The one wallet address in the raw metadata is Sweet's own royalty-fee address (`fees.recipient_address`), which is part of every token's public metadata. `status` records only *that* a listing or price was seen, never who.
+* **No media in the repo:** no highlight images or videos are hosted here, apart from one small screenshot of the viewer in `docs/images/`. They stay the property of their rights holders. The tool only helps individuals fetch the public files for their own personal archival use.
 
 ### What's in the repo
 
@@ -221,4 +256,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md): fork, add the link to `data/extra_moment
 
 ### License
 
-Code: MIT ([LICENSE](LICENSE)). The metadata in `data/` is a preservation copy of public NHL Breakaway / Sweet metadata. It and all highlight media, names and marks remain the property of their rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No media is stored in this repo.
+Code: MIT ([LICENSE](LICENSE)). The metadata in `data/` is a preservation copy of public NHL Breakaway / Sweet metadata. It and all highlight media, names and marks remain the property of their rights holders (NHL, NHLPA, NHLAA, SocialSweet Inc.). No highlight media is stored in this repo, apart from one screenshot of the viewer.
