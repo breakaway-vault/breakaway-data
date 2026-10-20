@@ -11,11 +11,13 @@ sys.path.insert(0, HERE)
 import breakaway as b   # noqa: E402
 
 OK = re.compile(r"^https://[^/\s]+/ipfs/[A-Za-z0-9]+(/\S*)?$")
+# download links (viewer's fallback) may add exactly ?filename=<app file name>&download=true
+DL_OK = re.compile(r"^https://[^/\s]+/ipfs/[A-Za-z0-9]+(/[^\s?]*)?\?filename=[A-Za-z0-9._%()-]+&download=true$")
 bad = []
 
 
-def check(url, where):
-    if not OK.match(url or ""): bad.append(f"{where}: {url!r}")
+def check(url, where, rx=OK):
+    if not rx.match(url or ""): bad.append(f"{where}: {url!r}")
 
 
 man = json.load(open(os.path.join(HERE, "data", "manifest.json"), encoding="utf-8"))
@@ -51,11 +53,16 @@ for u in re.findall(r"https://[^\"'<>\s]+/ipfs/[^\"'<>]*", page):   # literal IP
     if u not in gws: check(u, "viewer page")   # the bare gateway bases themselves are fine
 if shutil.which("node"):
     js = page[page.index("<script>") + 8: page.index("</script>")]
-    fn = re.search(r"function cidOf\(c\)\{.*?\n", js).group(0) + re.search(r"function ipfsUrl\(cid,g\)\{.*?\n", js).group(0)
+    fn = "".join(re.search(r"function %s\(.*?\n" % f, js).group(0) for f in ("cidOf", "ipfsUrl", "ipfsDlUrl"))
+    names = [(c, (r.get("video_name") if "video" in w else r.get("cover_name")) or "x.png") for r in data
+             for w, c in (("cover", r["s"].get("cover_ipfs")), ("video", r["s"].get("video_ipfs"))) if c]
     prog = (f"const GW={json.dumps(gws)};{fn}const V={json.dumps([c for _, c in vals] + ['ipfs://QmAbc123  sha256=xyz='])};"
-            "console.log(JSON.stringify(V.flatMap(c=>GW.map((g,i)=>ipfsUrl(c,i)))))")
-    out = subprocess.run(["node", "-"], input=prog, capture_output=True, text=True, check=True).stdout
-    for u in json.loads(out): check(u, "viewer JS ipfsUrl")
+            f"const N={json.dumps(names)};"
+            "console.log(JSON.stringify({u:V.flatMap(c=>GW.map((g,i)=>ipfsUrl(c,i))),d:N.flatMap(([c,n])=>GW.map((g,i)=>ipfsDlUrl(c,n,i)))}))")
+    out = json.loads(subprocess.run(["node", "-"], input=prog, capture_output=True, text=True, check=True).stdout)
+    for u in out["u"]: check(u, "viewer JS ipfsUrl")
+    for u in out["d"]: check(u, "viewer JS download link", DL_OK)
+    print(f"viewer download links checked: {len(out['d'])}")
     print("viewer JS cidOf/ipfsUrl checked with Node.js")
 print(f"{len(cids)} CIDs x {len(b.DEFAULT_GATEWAYS)} gateways (Python), {len(vals)} viewer CIDs x {len(gws)} gateways: "
       f"{len(bad)} bad IPFS URL(s)")

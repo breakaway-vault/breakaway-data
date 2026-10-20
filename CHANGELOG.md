@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.1.2 (2026-10-20)
+
+* Fixed: the viewer's "Download video" and "Download cover" buttons always opened a new tab instead of saving. The page looked for its status text in the wrong place, which stopped every download attempt before it started. They now really download, check the sha256 and save.
+* The buttons save under the app's own file names (e.g. `481.png`, `0751_Mark_Stone_Signature_Cores.mp4`). In Chrome and Edge you can pick your `Breakaway-Archive/output` folder once and files go straight into `covers_full/` or `videos/`; otherwise they go to Downloads.
+* The app picks up covers and videos saved to your Downloads folder (also `name (1).mp4` duplicates): when you start it and before `covers` / `videos`, files whose sha256 matches an original are moved into the archive ("Imported N files from Downloads"). Other files are never touched.
+* Button downloads no longer give up after a few seconds on a slow source: they show progress and only move on when a source sends nothing for 15 s (30 s once started). If every source fails, the new tab gets a gateway link that downloads under the right name, and the reason is logged in the browser console.
+* If the browser has no built-in SHA-256 (crypto.subtle), the viewer uses its own, so "Verified original" still works.
+
 ## v1.1.1 (2026-10-20)
 
 * Downloads show a live progress line: done / total, percent, ok / skipped / failed, MB downloaded and rough time left (covers, videos, verify, pinning and the IPFS check). It updates in place in a terminal window and prints a plain line every few seconds in logs, then ends with a summary.

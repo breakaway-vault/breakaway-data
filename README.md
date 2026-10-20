@@ -41,6 +41,8 @@ It saves a copy of what NHL Breakaway already shows to everyone, so the details 
 
 **Where do my files go?** Into an `output` folder next to the app: covers, videos (`output/videos`), the spreadsheet and the album. The viewer is saved in a `viewer` folder and the archive data in a `data` folder, both next to the app. If that folder can't be written to, the app uses a `Breakaway-Archive` folder in your home folder instead.
 
+**I used the Download buttons in the viewer. Where did the files go?** In Chrome or Edge you can pick your `Breakaway-Archive/output` folder once and they're saved straight into the archive. Otherwise (or in Firefox and Safari) they go to your Downloads folder under the app's own file names, and the app moves them into the archive the next time you run it, after checking each one against its fingerprint (sha256). Files that don't match, like re-encoded copies, are left where they are.
+
 **Some covers in the viewer are blank or slow to appear?** Until you download them, the viewer loads each cover live from the internet (a public IPFS link first, then NHL Breakaway's own image server if that is slow), so they can take a moment when many load at once. To make them instant (and work offline), run **1) Get cover art** first, or with **10) Show only my cards** to get just yours, then open the viewer again.
 
 **How much space does it need?** The archive data is about 50 MB. All 1,973 covers are about 1.7 GB. All the videos together are roughly 220 GB, so most people pick a player, team or set; the app shows the size and asks before downloading any videos. A full one-PDF album is about 2.3 GB.
@@ -241,7 +243,7 @@ general: --output-dir DIR, --offline, --config FILE, --gateway URL, --concurrenc
          --media-concurrency N (downloads, 1-4), --ipfs-concurrency N (check-ipfs, 1-4)
 ```
 
-**Settings file:** copy `breakaway.config.example.json` to `breakaway.config.json` (next to `breakaway.py` or the app) to set the gateways, concurrency, output/video/viewer folders, `ipfs_only`, `offline` or the issues link for your fork. Flags always win. Nothing in the code depends on this repo's location, so forks work as-is.
+**Settings file:** copy `breakaway.config.example.json` to `breakaway.config.json` (next to `breakaway.py` or the app) to set the gateways, concurrency, output/video/viewer folders, `ipfs_only`, `offline` or the issues link for your fork. Flags always win. Nothing in the code depends on this repo's location, so forks work as-is. To look for browser-saved files somewhere other than your Downloads folder, set the `BREAKAWAY_DOWNLOADS_DIR` environment variable.
 
 **Politeness:** every host gets its own throttle, requests back off on errors, `Retry-After` on 429 is respected, and a gateway that answers 429 is rested for a while. 401/403/404 are never worked around.
 

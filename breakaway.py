@@ -66,7 +66,7 @@ NFT = "https://nft.nhlbreakaway.com/series"
 APIGW = "https://apigw.sweet.io"
 UA = "Mozilla/5.0 (breakaway-data preservation export; polite, cached)"
 HDR = {"User-Agent": UA}   # plain public requests: no cookies, logins, tokens or spoofed Referer/Origin headers
-VERSION = "1.1.1"       # the one place the version lives: menu header, --version, viewer footer
+VERSION = "1.1.2"       # the one place the version lives: menu header, --version, viewer footer
 TAGLINE = "Made for the community, by the community. Fork it, build on it, do whatever you like with it."
 WARRANTY = "Unofficial fan tool, provided AS IS with no warranty. Use at your own risk. See LICENSE."
 ISSUES_URL = "https://github.com/breakaway-vault/breakaway-data/issues"   # override with "issues_url" in breakaway.config.json
@@ -861,6 +861,7 @@ def pick(rows, a):
 
 def cmd_covers(a, rows=None):
     rows = rows if rows is not None else pick(sort_rows(load_model()), a)[: getattr(a, "limit", None) or None]
+    import_downloads(getattr(a, "video_dir", None))   # files saved by the viewer's Download buttons
     if getattr(a, "ask", False):
         missing = [r for r in rows if not cover_path(r)]
         p(f"{len(rows)} covers selected, {len(rows) - len(missing)} already saved, {len(missing)} to download "
@@ -980,7 +981,7 @@ def cmd_videos(a):
     if a.limit: rows = rows[: a.limit]
     out = os.path.abspath(a.video_dir); os.makedirs(out, exist_ok=True)
     def fname(r): return os.path.join(out, video_name(r))
-    log = DownloadLog(); clean_partials(out)
+    clean_partials(out); import_downloads(out); log = DownloadLog()
     repair = []
     if a.repair:   # files that exist but aren't the original (e.g. re-encoded CDN copies): replace from IPFS
         for r in rows:
@@ -1709,34 +1710,93 @@ function more(){const part=list.slice(shown,shown+120);shown+=part.length;
 function rowsOf(o,pre=''){let out=[];if(o&&typeof o==='object'){for(const[k,v]of Object.entries(o)){out=out.concat(rowsOf(v,pre?pre+'.'+k:k))}}else out.push([pre,o]);return out}
 function link(v){v=String(v??'');if(/^https?:\/\//.test(v))return `<a href="${esc(v)}" target="_blank">${esc(v)}</a>`;
   if(/^ipfs:\/\//i.test(v)&&cidOf(v))return `<a href="${esc(ipfsUrl(v))}" target="_blank">${esc(v)}</a>`;return esc(v)}
-// ---- downloads from the detail card: verified IPFS original first, the CDN copy after, a new tab as the last resort
+// ---- downloads from the detail card: verified IPFS original first, the CDN copy after, a new tab only if all fail
 function fname(s,kind,ext){return `${s.player} - ${s.set} - ${kind}.${ext}`.replace(/[\\\/:*?"<>|]+/g,'-')}
-async function b64sha(buf){try{if(!(window.crypto&&crypto.subtle))return null;const h=new Uint8Array(await crypto.subtle.digest('SHA-256',buf));
-  let s='';h.forEach(b=>s+=String.fromCharCode(b));return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}catch(e){return null}}
-async function fetchBuf(url,btn){const r=await fetch(url);if(!r.ok)throw new Error('HTTP '+r.status);
-  if((r.headers.get('content-type')||'').includes('text/html'))throw new Error('html');
-  const total=+(r.headers.get('content-length')||0);if(!(r.body&&r.body.getReader))return await r.arrayBuffer();
-  const rd=r.body.getReader(),parts=[];let got=0;
-  for(;;){const {done,value}=await rd.read();if(done)break;parts.push(value);got+=value.length;
-    btn.textContent=total?`Downloading ${Math.floor(got*100/total)}%...`:`Downloading ${(got/1e6).toFixed(1)} MB...`}
-  const out=new Uint8Array(got);let o=0;for(const p of parts){out.set(p,o);o+=p.length}return out.buffer}
-function saveBuf(buf,name){const u=URL.createObjectURL(new Blob([buf]));const a=document.createElement('a');a.href=u;a.download=name;
-  document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(u),60000)}
-async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video',st=btn.parentNode.querySelector('.st_'+kind);
+// small pure-JS SHA-256, used only when the browser has no crypto.subtle (e.g. some browsers on file://)
+function sha256js(buf){const K=new Uint32Array([0x428a2f98,0x71374491,0xb5c0fbcf,0xe9b5dba5,0x3956c25b,0x59f111f1,0x923f82a4,0xab1c5ed5,0xd807aa98,0x12835b01,0x243185be,0x550c7dc3,0x72be5d74,0x80deb1fe,0x9bdc06a7,0xc19bf174,0xe49b69c1,0xefbe4786,0x0fc19dc6,0x240ca1cc,0x2de92c6f,0x4a7484aa,0x5cb0a9dc,0x76f988da,0x983e5152,0xa831c66d,0xb00327c8,0xbf597fc7,0xc6e00bf3,0xd5a79147,0x06ca6351,0x14292967,0x27b70a85,0x2e1b2138,0x4d2c6dfc,0x53380d13,0x650a7354,0x766a0abb,0x81c2c92e,0x92722c85,0xa2bfe8a1,0xa81a664b,0xc24b8b70,0xc76c51a3,0xd192e819,0xd6990624,0xf40e3585,0x106aa070,0x19a4c116,0x1e376c08,0x2748774c,0x34b0bcb5,0x391c0cb3,0x4ed8aa4a,0x5b9cca4f,0x682e6ff3,0x748f82ee,0x78a5636f,0x84c87814,0x8cc70208,0x90befffa,0xa4506ceb,0xbef9a3f7,0xc67178f2]);
+  const b=new Uint8Array(buf),n=b.length,L=((n+9+63)>>6)<<6,m=new Uint8Array(L);m.set(b);m[n]=0x80;const dv=new DataView(m.buffer);
+  dv.setUint32(L-8,Math.floor(n/0x20000000));dv.setUint32(L-4,(n<<3)>>>0);
+  let h0=0x6a09e667,h1=0xbb67ae85,h2=0x3c6ef372,h3=0xa54ff53a,h4=0x510e527f,h5=0x9b05688c,h6=0x1f83d9ab,h7=0x5be0cd19;const w=new Uint32Array(64);
+  const r=(x,k)=>(x>>>k)|(x<<(32-k));
+  for(let o=0;o<L;o+=64){for(let i=0;i<16;i++)w[i]=dv.getUint32(o+i*4);
+    for(let i=16;i<64;i++){const a=w[i-15],c=w[i-2];w[i]=(w[i-16]+(r(a,7)^r(a,18)^(a>>>3))+w[i-7]+(r(c,17)^r(c,19)^(c>>>10)))>>>0}
+    let a=h0,bb=h1,c=h2,d=h3,e=h4,f=h5,g=h6,hh=h7;
+    for(let i=0;i<64;i++){const t1=(hh+(r(e,6)^r(e,11)^r(e,25))+((e&f)^(~e&g))+K[i]+w[i])>>>0,t2=((r(a,2)^r(a,13)^r(a,22))+((a&bb)^(a&c)^(bb&c)))>>>0;
+      hh=g;g=f;f=e;e=(d+t1)>>>0;d=c;c=bb;bb=a;a=(t1+t2)>>>0}
+    h0=(h0+a)>>>0;h1=(h1+bb)>>>0;h2=(h2+c)>>>0;h3=(h3+d)>>>0;h4=(h4+e)>>>0;h5=(h5+f)>>>0;h6=(h6+g)>>>0;h7=(h7+hh)>>>0}
+  const out=new Uint8Array(32),ov=new DataView(out.buffer);[h0,h1,h2,h3,h4,h5,h6,h7].forEach((v,i)=>ov.setUint32(i*4,v));return out}
+async function b64sha(buf){let h=null;
+  try{if(window.crypto&&crypto.subtle)h=new Uint8Array(await crypto.subtle.digest('SHA-256',buf))}catch(e){console.info('crypto.subtle unavailable, using the built-in SHA-256:',e)}
+  try{if(!h)h=sha256js(buf)}catch(e){console.warn('could not hash the file:',e);return null}
+  let s='';for(let i=0;i<h.length;i++)s+=String.fromCharCode(h[i]);return btoa(s).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'')}
+// plain GET (no custom headers, so no CORS preflight). Gives up only if the server sends nothing for 30 s;
+// a slow but moving download just keeps going and shows its progress on the button.
+async function fetchBuf(url,btn){const ac=new AbortController();let timer;const idle=(ms)=>{clearTimeout(timer);timer=setTimeout(()=>ac.abort(),ms||30000)};
+  idle(15000);   // no answer at all within 15 s: next source
+  try{const r=await fetch(url,{signal:ac.signal});if(!r.ok)throw new Error('HTTP '+r.status);
+    if((r.headers.get('content-type')||'').includes('text/html'))throw new Error('got an HTML page, not the file');
+    const total=+(r.headers.get('content-length')||0);
+    if(!(r.body&&r.body.getReader)){const b=await r.arrayBuffer();return b}
+    const rd=r.body.getReader(),parts=[];let got=0;
+    for(;;){idle();const {done,value}=await rd.read();if(done)break;parts.push(value);got+=value.length;
+      btn.textContent=total?`Downloading ${Math.floor(got*100/total)}%...`:`Downloading ${(got/1e6).toFixed(1)} MB...`}
+    if(!got)throw new Error('empty response');
+    const out=new Uint8Array(got);let o=0;for(const p of parts){out.set(p,o);o+=p.length}return out.buffer}
+  catch(e){if(e&&e.name==='AbortError')throw new Error('no data in time (15 s to start, 30 s between chunks)');throw e}
+  finally{clearTimeout(timer)}}
+function saveBuf(buf,name,type){const u=URL.createObjectURL(new Blob([buf],{type:type||'application/octet-stream'}));const a=document.createElement('a');
+  a.href=u;a.download=name;a.style.display='none';document.body.appendChild(a);a.click();
+  setTimeout(()=>{a.remove();URL.revokeObjectURL(u)},120000)}   // keep the URL alive long enough for big files
+// a gateway link that downloads under the app's own file name (gateways honour ?filename=...&download=true)
+function ipfsDlUrl(cid,name,g){const u=ipfsUrl(cid,g);return u?u+'?filename='+encodeURIComponent(name)+'&download=true':''}
+// ---- saving straight into the archive folder (Chrome/Edge: File System Access API; the folder is remembered)
+const FS_OK=typeof window.showDirectoryPicker==='function';let OUT_DIR=null,FS_DECLINED=false;
+function idb(){return new Promise((res,rej)=>{const q=indexedDB.open('breakaway-viewer',1);q.onupgradeneeded=()=>q.result.createObjectStore('kv');q.onsuccess=()=>res(q.result);q.onerror=()=>rej(q.error)})}
+async function kv(k,v){try{const db=await idb();return await new Promise(res=>{const st=db.transaction('kv',v===undefined?'readonly':'readwrite').objectStore('kv');
+  const q=v===undefined?st.get(k):st.put(v,k);q.onsuccess=()=>res(v===undefined?q.result:true);q.onerror=()=>res(null)})}catch(e){return null}}
+async function archiveDir(say){   // call first thing in a click: the folder picker needs the click's "user activation"
+  if(!FS_OK||FS_DECLINED)return null;
+  try{let h=OUT_DIR||await kv('outdir');
+    if(h){let p=await h.queryPermission({mode:'readwrite'});if(p!=='granted')p=await h.requestPermission({mode:'readwrite'});if(p==='granted')return OUT_DIR=h}
+    say('Pick your Breakaway-Archive/output folder (only asked once)...');
+    h=await window.showDirectoryPicker({id:'breakaway-output',mode:'readwrite'});
+    try{h=await h.getDirectoryHandle('output')}catch(e){}            // picked Breakaway-Archive itself: use its output folder
+    await kv('outdir',h);return OUT_DIR=h}
+  catch(e){console.info('[download] no archive folder picked, saving to Downloads instead:',e&&e.message||e);FS_DECLINED=true;return null}}
+async function writeInto(dir,sub,name,buf){const d=await dir.getDirectoryHandle(sub,{create:true});const fh=await d.getFileHandle(name,{create:true});
+  const w=await fh.createWritable();await w.write(buf);await w.close()}   // written to a temp file, renamed on close
+async function dl(i,kind,btn){const r=DATA[i],s=r.s,isV=kind==='video';
+  const stEl=document.querySelector('#box .st_'+kind),say=t=>{if(stEl)stEl.textContent=t};
   const cid=isV?s.video_ipfs:s.cover_ipfs,sha=String((isV?s.video_sha256:s.cover_sha256)||'').replace(/=+$/,''),cdn=isV?s.video_url:s.cover_url,local=isV?r.local_video:r.local_cover;
-  const ext=isV?'mp4':(((local||cdn||'').split('?')[0].match(/\.(png|jpe?g|webp|gif)$/i)||[0,'png'])[1]);
-  const name=fname(s,kind,ext),label=btn.textContent;btn.disabled=true;
-  const fin=t=>{btn.disabled=false;btn.textContent=label;st.textContent=t};
+  const name=(isV?r.video_name:r.cover_name)||fname(s,kind,isV?'mp4':'png'),ext=(name.split('.').pop()||'').toLowerCase();
+  const type=isV?'video/mp4':(ext==='png'?'image/png':ext==='webp'?'image/webp':ext==='gif'?'image/gif':'image/jpeg');
+  const sub=isV?'videos':'covers_full',label=btn.textContent;btn.disabled=true;
+  const fin=t=>{btn.disabled=false;btn.textContent=label;say(t)};
   if(local){const a=document.createElement('a');a.href=local;a.download=name;a.target='_blank';document.body.appendChild(a);a.click();a.remove();
-    return fin(`Already in your archive folder (${local}). If it opened instead of saving: right-click > Save as.`)}
-  for(const u of ipfsAll(cid).slice(0,4)){try{st.textContent='Trying '+u.split('/')[2]+'...';btn.textContent='Downloading...';
-      const b=await fetchBuf(u,btn);const h=sha?await b64sha(b):null;
-      if(h&&h!==sha){st.textContent='That gateway sent different bytes; trying the next one...';continue}
-      saveBuf(b,name);return fin(h?'Saved. Verified original (sha256 matches the metadata).':'Saved (original, from IPFS).')}catch(e){}}
-  if(cdn){try{st.textContent='Trying the NHL Breakaway CDN...';const b=await fetchBuf(cdn,btn);const h=sha?await b64sha(b):null;saveBuf(b,name);
-      return fin(h&&h===sha?'Saved from the NHL Breakaway CDN. Verified original (sha256 matches).':'Saved from the NHL Breakaway CDN (may be re-encoded).')}catch(e){}}
-  const u=cdn||ipfsAll(cid)[0];
-  if(u){window.open(u,'_blank');return fin(`Opened in a new tab: right-click > Save ${isV?'video':'image'} as...`)}
+    return fin(`Already in your archive folder (${local}).`)}
+  const dir=await archiveDir(say);
+  // sources: the first IPFS gateways, then NHL Breakaway's copy, then the other gateways; every one is checked by sha256
+  const ip=ipfsAll(cid),srcs=[...ip.slice(0,2).map(u=>['ipfs',u]),...(cdn?[['cdn',cdn]]:[]),...ip.slice(2,4).map(u=>['ipfs',u])];
+  let got=null,verified=false,from='';
+  try{
+    for(const [k,u] of srcs){const host=u.split('/')[2];
+      try{say('Trying '+(k==='cdn'?'the NHL Breakaway CDN':host)+'...');btn.textContent='Downloading...';
+        const b=await fetchBuf(u,btn);btn.textContent='Checking...';const h=sha?await b64sha(b):null;
+        if(h&&h===sha){got=b;verified=true;from=k;break}
+        if(k==='cdn'&&!got){got=b;from=k;console.warn('[download] the CDN copy is not the original (sha256 differs); keeping it as a fallback')}
+        else console.warn(`[download] ${host}: sha256 differs from the metadata, trying the next source`)}
+      catch(e){console.warn(`[download] ${host} failed:`,e&&e.message||e)}}
+  }catch(e){console.error('[download] unexpected error:',e)}
+  const mb=got?` (${(got.byteLength/1e6).toFixed(1)} MB)`:'';
+  if(got&&verified&&dir){
+    try{await writeInto(dir,sub,name,got);return fin(`Saved into your archive: ${dir.name}/${sub}/${name}${mb}. Verified original.`)}
+    catch(e){console.warn('[download] could not write into the archive folder, saving to Downloads instead:',e&&e.message||e)}}
+  if(got){saveBuf(got,name,type);
+    return fin(verified?`Saved to your Downloads as ${name}${mb}. Verified original. The app will move it into the archive next time you run it.`
+                       :`Saved to your Downloads as ${name}${mb}. This copy is from the NHL Breakaway CDN and may be re-encoded, so the app will leave it there.`)}
+  const u=cidOf(cid)?ipfsDlUrl(cid,name,0):cdn;
+  if(u){console.warn('[download] every source failed; opening a download link in a new tab instead:',u);window.open(u,'_blank');
+    return fin(`Couldn't download it here, so a download link opened in a new tab. If it shows the file instead, right-click > Save as and name it ${name}.`)}
   fin('No source answered. Please try again later.')}
 function open_(i){const r=DATA[i],s=r.s;const gwName=u=>u.split('/')[2];
   const cov=coverSources(r);const poster=r.local_cover||s.cover_url||cov[0]||'';
@@ -1777,6 +1837,92 @@ document.onkeydown=e=>{if(e.key==='Escape'){$('#dlg').style.display='none';const
 def video_name(r): return f"{r['_s']['row']:04d}_{safe(r['player'])}_{safe(r['_s']['set'])}.mp4"
 
 
+def cover_name(r):
+    """File name the app uses for a cover in output/covers_full/ (e.g. 22.png)."""
+    cp = cover_path(r)
+    if cp: return os.path.basename(cp)
+    front = ((r["_meta"] or {}).get("images") or {}).get("front") or {}
+    return os.path.basename(cover_dest(r, front.get("url")))
+
+
+# ------------------------------------------------------------------ pick up files saved by the viewer's Download buttons
+IMPORT_COVER_RE = re.compile(r"^\d+(?: \(\d+\))?\.(?:png|jpe?g|webp|gif)$", re.I)          # 22.png, 22 (1).png
+IMPORT_VIDEO_RE = re.compile(r"^\d{4}_[A-Za-z0-9_]+(?: \(\d+\))?\.mp4$", re.I)              # 0001_Mark_Stone_Base (1).mp4
+
+
+def downloads_dirs():
+    """The user's Downloads folder(s): BREAKAWAY_DOWNLOADS_DIR if set, else the standard place on Windows/Mac/Linux."""
+    if os.environ.get("BREAKAWAY_DOWNLOADS_DIR"): return [os.environ["BREAKAWAY_DOWNLOADS_DIR"]]
+    out = []
+    if sys.platform == "win32":
+        try:   # the real Downloads folder, even if it was moved (Known Folder FOLDERID_Downloads)
+            import ctypes, uuid
+            from ctypes import wintypes
+            class GUID(ctypes.Structure):
+                _fields_ = [("a", wintypes.DWORD), ("b", wintypes.WORD), ("c", wintypes.WORD), ("d", ctypes.c_ubyte * 8)]
+            u = uuid.UUID("374DE290-123F-4565-9164-39C4925E467B"); g = GUID(u.fields[0], u.fields[1], u.fields[2], (ctypes.c_ubyte * 8)(*u.bytes[8:]))
+            buf = ctypes.c_wchar_p()
+            if ctypes.windll.shell32.SHGetKnownFolderPath(ctypes.byref(g), 0, None, ctypes.byref(buf)) == 0:
+                out.append(buf.value); ctypes.windll.ole32.CoTaskMemFree(buf)
+        except Exception: pass
+    elif sys.platform.startswith("linux"):
+        try:   # xdg-user-dirs: XDG_DOWNLOAD_DIR="$HOME/Downloads"
+            cfg = os.path.join(os.environ.get("XDG_CONFIG_HOME") or os.path.expanduser("~/.config"), "user-dirs.dirs")
+            m = re.search(r'^XDG_DOWNLOAD_DIR="([^"]+)"', open(cfg, encoding="utf-8").read(), re.M)
+            if m: out.append(os.path.expandvars(m.group(1).replace("$HOME", os.path.expanduser("~"))))
+        except OSError: pass
+    out.append(os.path.join(os.path.expanduser("~"), "Downloads"))
+    return [d for d in dict.fromkeys(out) if d and os.path.isdir(d)]
+
+
+def import_downloads(video_dir=None, rows=None):
+    """Move covers/videos saved by the viewer's Download buttons from Downloads into the archive.
+    Only files named like the app's own files are looked at, and a file is only moved if its sha256 matches
+    an original in the archive (that also decides where it goes). Everything else is left exactly where it is."""
+    found = []
+    for d in downloads_dirs():
+        try: names = os.listdir(d)
+        except OSError: continue
+        for f in names:
+            kind = "cover" if IMPORT_COVER_RE.match(f) else "video" if IMPORT_VIDEO_RE.match(f) else None
+            if kind and os.path.isfile(os.path.join(d, f)): found.append((kind, os.path.join(d, f)))
+    if not found: return 0
+    rows = rows if rows is not None else sort_rows(load_model())
+    vdir = os.path.abspath(video_dir or os.path.join(OUT, "videos"))
+    index = {}
+    for r in rows:
+        for kind, purpose in (("cover", "front"), ("video", "primary-asset")):
+            sha = asset_ipfs(r["_meta"], purpose)[1]
+            if sha: index[(kind, sha.rstrip("="))] = r
+    log = DownloadLog(); moved, have, left = 0, 0, []
+    for kind, src in found:
+        try: r = index.get((kind, file_sha_b64(src).rstrip("=")))
+        except OSError: continue
+        if not r: left.append(os.path.basename(src)); continue
+        if kind == "cover":
+            front = ((r["_meta"] or {}).get("images") or {}).get("front") or {}
+            dest = cover_path(r) or cover_dest(r, front.get("url")); sha = asset_ipfs(r["_meta"], "front")[1]
+        else:
+            dest = os.path.join(vdir, video_name(r)); sha = asset_ipfs(r["_meta"], "primary-asset")[1]
+        if os.path.exists(dest) and file_matches(dest, sha): have += 1; continue      # already in the archive: leave the copy
+        os.makedirs(os.path.dirname(dest), exist_ok=True); tmp = dest + ".part"
+        try:
+            shutil.copy2(src, tmp); os.replace(tmp, dest); os.remove(src); moved += 1
+        except OSError as e:
+            if os.path.exists(tmp): os.remove(tmp)
+            p(f"  couldn't import {os.path.basename(src)}: {e}"); continue
+        log.set(kind, r["id"], {"file": os.path.relpath(dest, ROOT), "status": "original", "source": "browser download",
+                                "host": "", "sha256": file_sha_b64(dest), "expected_sha256": sha, "bytes": os.path.getsize(dest),
+                                "cid": "", "at": now()})
+    log.save()
+    if moved or have or left:
+        msg = f"Imported {moved} file(s) from Downloads" if moved else "Nothing new to import from Downloads"
+        if have: msg += f"; {have} already in the archive (left in Downloads)"
+        if left: msg += f"; {len(left)} named like archive files but not matching an original (left in Downloads, e.g. {left[0]})"
+        p(msg + ".")
+    return moved
+
+
 def cmd_view(a):
     rows = sort_rows(load_model()); vd = os.path.abspath(a.viewer_dir); os.makedirs(vd, exist_ok=True)
     vdir = os.path.abspath(a.video_dir); data = []; log = DownloadLog()
@@ -1789,6 +1935,7 @@ def cmd_view(a):
                      "ipfs": {e["path"]: {"cid": clean_cid(e["ipfs"]), "sha256": e.get("sha256") or ""} for e in (r["_man"].get("ipfs") or [])},
                      "src": {k: r["_man"].get(k) for k in ("source_url", "fetched_at", "sha256", "meta_path", "offchain_path", "link_via")},
                      "local_cover": rel(cp) if cp else "", "local_video": rel(vp) if os.path.exists(vp) else "",
+                     "cover_name": cover_name(r), "video_name": video_name(r),
                      "dl": {k: (log.get(k, r["id"]) or {}).get("status") for k in ("cover", "video")},
                      "mine": MINE is not None and str(r["id"]) in MINE, "eds": (MINE or {}).get(str(r["id"])) or [],
                      "text": " ".join(str(s.get(k, "")) for k in ("player", "team", "set", "series", "rarity", "description", "tagline", "date", "cover_ipfs", "video_ipfs")).lower()})
@@ -2181,6 +2328,9 @@ def menu():
     p(TAGLINE)
     p(WARRANTY + " Personal archival use only.")
     p(f"Files are saved in: {OUT}")
+    p("Covers and videos you saved with the viewer's Download buttons are picked up from your Downloads folder automatically.")
+    try: import_downloads()
+    except Exception as e: p(f"(Couldn't check Downloads: {e})")
     while True:
         p(MENU); c = ask("Type a number and press Enter")
         if c in ("0", "q", "quit", "exit", ""):
