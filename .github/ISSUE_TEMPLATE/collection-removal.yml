@@ -6,13 +6,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        A maintainer removes the entry by hand, usually within a few days. You don't need to give a reason. If it's your own entry, open this from the GitHub account that submitted it. If someone posted your cards or your name without asking, say so and it will be taken down.
+        We take the collection down by hand, usually within a few days. You don't need to give a reason. If it's your own collection, send this from the same GitHub account you used to add it. If someone posted your cards or your name without asking, say so and we'll take it down.
   - type: input
     id: handle
     attributes:
-      label: Handle
-      description: The @handle on the Collector Hall (letters, numbers, underscores and dashes).
-      placeholder: puck_hoarder_97
+      label: Collector name or page link
+      description: "The @name on the Collector Hall page (like Rink Rat 97), or the page link (like ...collection.html#h=rink_rat_97). Either works."
+      placeholder: Rink Rat 97
     validations:
       required: true
   - type: textarea

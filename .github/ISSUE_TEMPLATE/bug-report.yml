@@ -14,7 +14,7 @@ body:
     id: command
     attributes:
       label: Command or menu option
-      placeholder: python breakaway.py album --player "McDavid"   (or: app menu option 5)
+      placeholder: 'python breakaway.py album --player "McDavid"   (or: app menu option 5)'
   - type: dropdown
     id: how
     attributes:

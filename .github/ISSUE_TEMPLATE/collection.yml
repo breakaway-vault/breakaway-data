@@ -6,35 +6,31 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Everything you post here is public, forever,** both in this issue and on the site. Use a handle, **not your real name**, and remove anything you want to keep private (wallet addresses, emails, account names) before you submit.
+        **Everything you post here is public, forever,** both on this page and on the site. Don't use your real name, and take out anything you want to keep private (wallet addresses, emails) before you send it.
 
-        Drag your `my_cards.csv` into the Cards box (or paste it). A bot checks your list with the same card matching as the archive app, then opens a pull request that adds `collections/<handle>.csv`. **Nothing is published until a maintainer merges it.** To change your entry later, submit this form again from the same GitHub account. To remove it, see [CONTRIBUTING.md](https://github.com/breakaway-vault/breakaway-data/blob/main/CONTRIBUTING.md#collector-hall).
+        Drop your `my_cards.csv` into the cards box below and press the green button at the bottom to send it. We check your cards right away and reply here. We take a quick look before anything goes up, then your collection appears in the [Collector Hall](https://breakaway-vault.github.io/breakaway-data/hall.html). To change it later, fill in this form again from the same GitHub account. To take it down, use the [removal form](https://github.com/breakaway-vault/breakaway-data/issues/new?template=collection-removal.yml).
   - type: input
     id: handle
     attributes:
-      label: Handle
-      description: 3-30 lowercase letters, numbers, underscores and dashes; must start and end with a letter or number. Shown on the site as @handle. Not your real name (NHL Breakaway usernames with underscores are fine).
-      placeholder: puck_hoarder_97
+      label: Your collector name
+      description: "The name shown on your Collector Hall page, e.g. your NHL Breakaway name. Spaces and capitals are fine (3 to 30 letters, numbers, spaces, _ - or .). Please not your real name."
+      placeholder: Rink Rat 97
     validations:
       required: true
   - type: textarea
     id: cards
     attributes:
-      label: Cards
+      label: Your cards
       description: |
-        Drag your my_cards.csv straight into this box (easiest), or paste its contents. Use the "Export my cards" file from The Fifth Line, or "Export my_cards.csv" from the My collection page. Card numbers or NHL Breakaway links, one per line, work too. Only card numbers and edition numbers are kept.
+        Drop your my_cards.csv here (drag the file into this box). You get it from "Export my cards" on The Fifth Line, or "Export my_cards.csv" on the My collection page. You can also paste what's inside the file, or card numbers or NHL Breakaway links, one per line. We only keep card and edition numbers.
       placeholder: |
-        Drag my_cards.csv here, or paste:
-
-        card_id,edition
-        22,5
-        1,12
+        Drop your my_cards.csv here
     validations:
       required: true
   - type: input
     id: blurb
     attributes:
-      label: Short blurb (optional)
+      label: A short line about your collection (optional)
       description: Up to 140 characters, no links.
       placeholder: Chasing every Etched In Ice goalie.
   - type: dropdown
@@ -84,9 +80,9 @@ body:
   - type: checkboxes
     id: confirm
     attributes:
-      label: Before you submit
+      label: Before you send
       options:
-        - label: I understand this issue and my collection are public, and I've removed anything I want to keep private.
+        - label: I understand this post and my collection are public, and I've taken out anything I want to keep private.
           required: true
-        - label: My handle is not my real name (or anyone else's).
+        - label: My collector name is not my real name (or anyone else's).
           required: true

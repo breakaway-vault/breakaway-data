@@ -37,8 +37,8 @@
     const src = cur.source, hall = cur.hall;
     $('#intake').hidden = true; $('#result').hidden = false;
     $('#shared').hidden = src !== 'shared'; $('#example').hidden = !(hall && hall.example);
-    document.title = 'Breakaway Archive · ' + (src === 'hall' ? '@' + hall.h : 'My collection');
-    $('#title').textContent = src === 'hall' ? '@' + hall.h : src === 'shared' ? 'A shared collection' : src === 'saved' ? cur.name : 'My collection';
+    document.title = 'Breakaway Archive · ' + (src === 'hall' ? '@' + (hall.name || hall.h) : 'My collection');
+    $('#title').textContent = src === 'hall' ? '@' + (hall.name || hall.h) : src === 'shared' ? 'A shared collection' : src === 'saved' ? cur.name : 'My collection';
     $('#lede').innerHTML = src === 'hall'
       ? `${hall.blurb ? esc(hall.blurb) + ' · ' : ''}${hall.team ? 'Favourite team: ' + esc(hall.team) + ' · ' : ''}<a href="hall.html">Collector Hall</a>${hall.example && !hall.blurb ? ' · <b>An example entry made up to show the page, not a real collection.</b>' : ''}`
       : src === 'shared' ? 'Opened from a share link. The collection lives entirely in the link; nothing is stored on a server, and nothing is saved in your browser unless you choose to.'
@@ -171,7 +171,7 @@
   });
   $('#submitHall').addEventListener('click', () => {
     window.open(`${REPO}/issues/new?template=collection.yml`, '_blank', 'noopener');
-    $('#shareNote').textContent = 'The Collector Hall form opened in a new tab. Drag your my_cards.csv into the Cards box (or paste it), pick a handle that is not your real name, then submit.';
+    $('#shareNote').textContent = 'The Collector Hall form opened in a new tab. Type your collector name (your NHL Breakaway name is fine, spaces and capitals too), drop your my_cards.csv into the cards box, then send it.';
   });
 
   function toIntake() {
@@ -195,19 +195,23 @@
   let hallData = null;
   async function hallEntry(h) {
     if (!hallData) { const r = await fetch('data/hall.json', {cache: 'no-cache'}); if (!r.ok) throw new Error('the Collector Hall data is missing'); hallData = await r.json(); }
-    return hallData.entries.find(e => e.h === h);
+    // h is the slug from the link; also accept a typed name ("Rink Rat 97", "Rink%20Rat%2097") so hand-made links still work.
+    const slug = s => s.normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[\s.]+/g, '_').replace(/[^a-z0-9_-]/g, '')
+      .replace(/[_-]{2,}/g, m => m.includes('_') ? '_' : '-').replace(/^[_-]+|[_-]+$/g, '');
+    return hallData.entries.find(e => e.h === h) || hallData.entries.find(e => e.h === slug(h) || (e.name || '').toLowerCase() === h.toLowerCase());
   }
   async function fromHash(first) {
     const h = location.hash;
-    const c = h.match(/^#c=([A-Za-z0-9_-]+)/), hh = h.match(/^#h=([a-z0-9_-]+)/);
+    const c = h.match(/^#c=([A-Za-z0-9_-]+)/), hh = h.match(/^#h=([^&]+)/);
     if (c) {
       if (cur && cur.source === 'shared' && BA.restoreHash === h) return;
       try { BA.restoreHash = h; say(''); show(await MyCards.decode(c[1]), {source: 'shared'}); } catch (e) { showErr('That share link could not be read: ' + e.message); }
       return;
     }
     if (hh) {
-      if (cur && cur.source === 'hall' && cur.hall.h === hh[1]) return;
-      try { const e = await hallEntry(hh[1]); if (!e) throw new Error(`no collector called @${hh[1]}`); BA.restoreHash = h; show(e.mine, {source: 'hall', hall: e}); }
+      let hv = hh[1]; try { hv = decodeURIComponent(hv); } catch (_) { /* keep as typed */ }
+      if (cur && cur.source === 'hall' && cur.hall.h === hv) return;
+      try { const e = await hallEntry(hv); if (!e) throw new Error(`no collector called @${hv}`); BA.restoreHash = h; show(e.mine, {source: 'hall', hall: e}); }
       catch (e) { showErr('Collector Hall: ' + e.message + '.'); }
       return;
     }

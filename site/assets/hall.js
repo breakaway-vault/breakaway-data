@@ -12,7 +12,7 @@
     return `<a class="hcard" href="collection.html#h=${encodeURIComponent(e.h)}">
       ${art}
       <div class="hcbody">
-        <div class="hchead"><b>@${esc(e.h)}</b>${e.example ? '<span class="pill ex">Example</span>' : ''}</div>
+        <div class="hchead"><b>@${esc(e.name || e.h)}</b>${e.example ? '<span class="pill ex">Example</span>' : ''}</div>
         ${e.team ? `<small class="dim">${esc(e.team)} fan</small>` : ''}
         ${e.blurb ? `<p class="blurb">${esc(e.blurb)}</p>` : ''}
         <dl class="hcstats">
@@ -27,11 +27,11 @@
 
   function render() {
     const q = BA.norm($('#hq').value.trim()), sort = $('#hsort').value;
-    let list = all.filter(e => !q || BA.norm([e.h, e.team, e.blurb].join(' ')).includes(q));
+    let list = all.filter(e => !q || BA.norm([e.name, e.h, e.team, e.blurb].join(' ')).includes(q));
     const by = {
       value: (a, b) => b.s.value - a.s.value, moments: (a, b) => b.s.items.length - a.s.items.length,
       sets: (a, b) => (b.s.complete - a.s.complete) || (b.top - a.top), newest: (a, b) => (b.added || '').localeCompare(a.added || ''),
-      handle: (a, b) => a.h.localeCompare(b.h),
+      handle: (a, b) => (a.name || a.h).localeCompare(b.name || b.h, undefined, {sensitivity: 'base'}),
     }[sort];
     list.sort((a, b) => (a.example - b.example) || by(a, b) || a.h.localeCompare(b.h));
     $('#hcount').textContent = q ? `${fmt(list.length)} of ${fmt(all.length)} collectors` : `${fmt(all.length)} collector${all.length === 1 ? '' : 's'}`;

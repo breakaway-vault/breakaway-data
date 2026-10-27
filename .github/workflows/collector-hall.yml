@@ -1,5 +1,6 @@
 name: collector-hall
-# Turns a "Collector Hall submission" issue into a pull request that adds collections/<handle>.csv.
+# Turns a "Collector Hall submission" issue into a pull request that adds collections/<slug>.csv + .json.
+# The fan types a display name ("Rink Rat 97"); hall_submit.py derives the slug (rink_rat_97) used for files and #h= links.
 # Cards may be pasted or a GitHub attachment link (drag-and-drop); hall_submit.py downloads allowed hosts only.
 # Nothing is published until a maintainer merges that pull request.
 # Needs: Settings > Actions > General > Workflow permissions > "Allow GitHub Actions to create and approve pull requests".
@@ -47,12 +48,13 @@ jobs:
             echo "ok=false" >> "$GITHUB_OUTPUT"
           fi
           python scripts/hall_comment.py "$RUNNER_TEMP/result.json" > "$RUNNER_TEMP/comment.md"
-          echo "handle=$(python -c 'import json,sys;print(json.load(open(sys.argv[1]))["handle"])' "$RUNNER_TEMP/result.json")" >> "$GITHUB_OUTPUT"
+          python -c 'import json,sys;r=json.load(open(sys.argv[1]));print("handle="+r["handle"]);print("display="+" ".join((r.get("display_name") or r["handle"]).split()))' "$RUNNER_TEMP/result.json" >> "$GITHUB_OUTPUT"
       - name: Open or update the pull request
         id: pr
         if: steps.check.outputs.ok == 'true'
         env:
           HANDLE: ${{ steps.check.outputs.handle }}
+          DISPLAY: ${{ steps.check.outputs.display }}
         run: |
           git config user.name "Breakaway Archive"
           git config user.email "breakaway-archive@users.noreply.github.com"
@@ -61,21 +63,19 @@ jobs:
           if git diff --cached --quiet; then echo "nochange=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -q -m "Collector Hall: add @$HANDLE (from #$ISSUE)"
           git push -f origin "$BRANCH"
-          body="Adds the Collector Hall entry \`@$HANDLE\` submitted in #$ISSUE. The cards were checked with the same matching as breakaway.py and normalised to card numbers and editions. Merge to publish it; close to decline."
+          body="Adds the Collector Hall entry \`@$DISPLAY\` (slug \`$HANDLE\`) submitted in #$ISSUE. Their page will be @$DISPLAY at collection.html#h=$HANDLE. Files: collections/$HANDLE.csv and collections/$HANDLE.json. The cards were checked with the same matching as breakaway.py and normalised to card numbers and editions. Merge to publish it; close to decline."
           url=$(gh pr list --head "$BRANCH" --state open --json url --jq '.[0].url')
           if [ -z "$url" ]; then
-            url=$(gh pr create --head "$BRANCH" --base "${{ github.event.repository.default_branch }}" --title "Collector Hall: @$HANDLE" --body "$body")
+            url=$(gh pr create --head "$BRANCH" --base "${{ github.event.repository.default_branch }}" --title "Collector Hall: @$DISPLAY ($HANDLE)" --body "$body")
           else
-            gh pr edit "$url" --title "Collector Hall: @$HANDLE" --body "$body"
+            gh pr edit "$url" --title "Collector Hall: @$DISPLAY ($HANDLE)" --body "$body"
           fi
           echo "url=$url" >> "$GITHUB_OUTPUT"
       - name: Reply on the issue
         if: always() && steps.check.outcome == 'success'
         env:
-          PR_URL: ${{ steps.pr.outputs.url }}
           NOCHANGE: ${{ steps.pr.outputs.nochange }}
         run: |
           f="$RUNNER_TEMP/comment.md"
-          if [ -n "$PR_URL" ]; then printf '\n\nPull request for a maintainer to review: %s\n' "$PR_URL" >> "$f"; fi
-          if [ "$NOCHANGE" = "true" ]; then printf '\n\nNothing changed compared with the entry that is already in the Hall.\n' >> "$f"; fi
+          if [ "$NOCHANGE" = "true" ]; then printf '\n\nThis is the same as your collection that is already in the Collector Hall, so nothing needs to change.\n' >> "$f"; fi
           gh issue comment "$ISSUE" --body-file "$f"
