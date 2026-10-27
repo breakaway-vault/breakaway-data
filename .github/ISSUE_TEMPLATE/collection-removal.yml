@@ -11,7 +11,8 @@ body:
     id: handle
     attributes:
       label: Handle
-      placeholder: puck-hoarder-97
+      description: The @handle on the Collector Hall (letters, numbers, underscores and dashes).
+      placeholder: puck_hoarder_97
     validations:
       required: true
   - type: textarea

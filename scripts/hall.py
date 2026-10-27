@@ -16,7 +16,7 @@ sys.path.insert(0, ROOT)
 import breakaway as b  # noqa: E402  (read-only use of the app's loaders)
 
 DIR = os.path.join(ROOT, "collections")
-HANDLE_RE = re.compile(r"^[a-z0-9](?:[a-z0-9]|-(?=[a-z0-9])){2,29}$")   # 3-30 chars, a-z 0-9 and single dashes
+HANDLE_RE = re.compile(r"^[a-z0-9][a-z0-9_-]{1,28}[a-z0-9]$")  # 3-30 chars, a-z 0-9 _ -, start/end alnum
 RESERVED = {"example", "example-collector", "maple-leafs-complete", "admin", "administrator", "maintainer", "moderator", "official", "staff",
             "support", "team", "nhl", "nhlpa", "sweet", "breakaway", "breakaway-archive", "archive", "hall", "null",
             "undefined", "anonymous", "me", "you"}
@@ -67,7 +67,7 @@ def clean_blurb(s):
 
 def check_meta(handle, meta, team_list):
     errs = []
-    if not HANDLE_RE.match(handle or ""): errs.append(f"handle {handle!r}: use 3-30 lowercase letters, numbers and single dashes")
+    if not HANDLE_RE.match(handle or ""): errs.append(f"handle {handle!r}: use 3-30 lowercase letters, numbers, underscores and dashes (start and end with a letter or number)")
     if meta.get("handle") != handle: errs.append(f"{handle}.json: handle must be {handle!r}")
     blurb = meta.get("blurb") or ""
     if len(blurb) > BLURB_MAX: errs.append(f"{handle}: blurb is longer than {BLURB_MAX} characters")

@@ -165,7 +165,7 @@ def submit(body, user_id, dry_run=False, today=None):
     handle = field(sec, "handle").strip().lstrip("@").strip().lower()
     res["handle"] = handle if hall.HANDLE_RE.match(handle) else ""
     if not handle: E("Pick a handle.")
-    elif not hall.HANDLE_RE.match(handle): E("The handle must be 3-30 characters: lowercase letters, numbers and single dashes (like `puck-hoarder-97`).")
+    elif not hall.HANDLE_RE.match(handle): E("The handle must be 3-30 characters: lowercase letters, numbers, underscores and dashes, starting and ending with a letter or number (like `puck_hoarder_97` or `puck-hoarder-97`).")
     elif handle in hall.RESERVED: E(f"`{handle}` is reserved. Please pick another handle.")
     if not str(user_id).isdigit(): E("Missing GitHub user id.")
     confirm = field(sec, "confirm")

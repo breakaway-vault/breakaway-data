@@ -13,8 +13,8 @@ body:
     id: handle
     attributes:
       label: Handle
-      description: 3-30 lowercase letters, numbers and single dashes. Shown on the site as @handle. Not your real name.
-      placeholder: puck-hoarder-97
+      description: 3-30 lowercase letters, numbers, underscores and dashes; must start and end with a letter or number. Shown on the site as @handle. Not your real name (NHL Breakaway usernames with underscores are fine).
+      placeholder: puck_hoarder_97
     validations:
       required: true
   - type: textarea

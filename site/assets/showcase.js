@@ -199,7 +199,7 @@
   }
   async function fromHash(first) {
     const h = location.hash;
-    const c = h.match(/^#c=([A-Za-z0-9_-]+)/), hh = h.match(/^#h=([a-z0-9-]+)/);
+    const c = h.match(/^#c=([A-Za-z0-9_-]+)/), hh = h.match(/^#h=([a-z0-9_-]+)/);
     if (c) {
       if (cur && cur.source === 'shared' && BA.restoreHash === h) return;
       try { BA.restoreHash = h; say(''); show(await MyCards.decode(c[1]), {source: 'shared'}); } catch (e) { showErr('That share link could not be read: ' + e.message); }
