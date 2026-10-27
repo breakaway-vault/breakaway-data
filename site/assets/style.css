@@ -177,6 +177,23 @@ button.danger:hover{background:rgba(229,72,77,.18)}
 .hcstats .track{display:block;height:7px;margin:4px 0 2px}
 .hcstats dd .dim{font-weight:500;font-size:.78rem}
 
+/* help */
+.help{max-width:820px;margin:0 auto;padding:0 clamp(12px,3vw,32px) 40px}
+.help .toc{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:14px 18px;margin:18px 0 28px}
+.help .toc h2{margin:0 0 8px;font-size:1rem;text-transform:uppercase;letter-spacing:.04em}
+.help .toc ol{margin:0;padding-left:1.3em;line-height:1.7}
+.help .toc a{color:var(--ice);text-decoration:none;font-weight:600}
+.help .toc a:hover{text-decoration:underline}
+.help section{margin:0 0 32px;scroll-margin-top:80px}
+.help h2{margin:0 0 10px;font-size:1.35rem;text-transform:uppercase;letter-spacing:.03em}
+.help h3{margin:18px 0 6px;font-size:1.05rem}
+.help p,.help li{line-height:1.55;color:#cdd9ea}
+.help ol,.help ul{padding-left:1.3em;margin:8px 0}
+.help li{margin:4px 0}
+.help .callout{background:rgba(78,161,255,.08);border:1px solid color-mix(in srgb,var(--accent) 45%,transparent);border-radius:12px;padding:12px 14px;margin:12px 0}
+.help .callout.warn{background:rgba(229,72,77,.1);border-color:rgba(229,72,77,.45)}
+.help .back{display:inline-block;margin-top:8px;font-size:.9rem}
+
 @media (max-width:820px){
   .detail{grid-template-columns:1fr}
   .detail .media{padding:12px}

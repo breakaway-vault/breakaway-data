@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Help · Breakaway Archive</title>
+  <meta name="description" content="How to use the Breakaway Archive museum, My collection, Collector Hall, and the desktop app." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <strong>Breakaway Archive</strong>
+        <span>Unofficial fan preservation · museum of every moment</span>
+      </div>
+    </div>
+    <nav>
+      <a href="./">Museum</a>
+      <a href="collection.html">My collection</a>
+      <a href="hall.html">Collector Hall</a>
+      <a href="help.html" aria-current="page">Help</a>
+      <a href="https://github.com/breakaway-vault/breakaway-data" target="_blank" rel="noopener">Data</a>
+    </nav>
+  </header>
+
+  <main class="hero" style="padding-bottom:8px">
+    <h1>Help</h1>
+    <p>Plain answers for fans using this site and the free desktop app. No wallet connect, no login, nothing to pay.</p>
+  </main>
+
+  <div class="help">
+    <nav class="toc" aria-label="On this page">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#what">What this site is</a></li>
+        <li><a href="#museum">Browsing the Museum</a></li>
+        <li><a href="#collection">My collection</a></li>
+        <li><a href="#hall">Collector Hall</a></li>
+        <li><a href="#app">The desktop app</a></li>
+        <li><a href="#faq">Troubleshooting FAQ</a></li>
+        <li><a href="#privacy">Privacy</a></li>
+        <li><a href="#contact">Contact and takedowns</a></li>
+      </ol>
+    </nav>
+
+    <section id="what">
+      <h2>What this site is</h2>
+      <p>This is an <b>unofficial fan preservation archive</b> for NHL Breakaway moments. Fans built it so you can still find and enjoy the cards if the original site goes away.</p>
+      <ul>
+        <li>It is <b>not</b> affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet, or any team.</li>
+        <li>The site <b>does not host media</b>. Covers and videos load from NHL Breakaway’s own servers first, with public IPFS as a backup.</li>
+        <li>Nothing here asks you to connect a wallet, sign in, or spend money.</li>
+      </ul>
+      <div class="callout warn">
+        <b>Disclaimer.</b> Use at your own risk. There is no warranty that the data is complete or that every file stays available. See the
+        <a href="https://github.com/breakaway-vault/breakaway-data#no-warranty-use-at-your-own-risk" target="_blank" rel="noopener">No warranty</a> section in the README.
+      </div>
+    </section>
+
+    <section id="museum">
+      <h2>Browsing the Museum</h2>
+      <p>The <a href="./">Museum</a> lists every known moment. Use it like a catalogue.</p>
+      <h3>Search, filters, and sorting</h3>
+      <ul>
+        <li><b>Search</b> by player, team, set, or other text in the search box.</li>
+        <li><b>Filters</b> narrow the list (for example by team or set when those controls are shown).</li>
+        <li><b>Sorting</b> changes the order of the grid (newest, name, and so on).</li>
+      </ul>
+      <h3>Opening a moment and playing a video</h3>
+      <p>Tap or click a card to open its detail panel. From there you can read the moment info and play the video when a source answers. If playback is slow, give it a few seconds — the page tries Breakaway’s servers first, then IPFS.</p>
+      <h3>What “At risk” means</h3>
+      <p>A moment tagged <b>At risk</b> is one that is not listed on NHL Breakaway right now, or whose IPFS copies look unhealthy or missing. It is a heads-up that the files may be harder to reach — not a guarantee they are gone forever.</p>
+      <h3>Why a cover or video might be slow or missing</h3>
+      <ul>
+        <li>Media comes from <b>Breakaway’s servers first</b>, with <b>IPFS as backup</b>. Neither lives on this site.</li>
+        <li>Many cards loading at once can make thumbs lag.</li>
+        <li>A cold IPFS file or a temporary outage can leave a blank until you try again later.</li>
+      </ul>
+      <p>For offline copies on your own computer, use the <a href="#app">desktop app</a>.</p>
+    </section>
+
+    <section id="collection">
+      <h2>My collection</h2>
+      <p>On <a href="collection.html">My collection</a> you can drop in a CSV of your cards, browse only those moments, save the list in this browser, and share a link. Nothing is uploaded to a server.</p>
+
+      <h3>Getting <code>my_cards.csv</code> from The Fifth Line</h3>
+      <ol>
+        <li>Open <a href="https://thefifthlinecode.onrender.com" target="_blank" rel="noopener">The Fifth Line</a> and <b>search your wallet</b> address. That opens your portfolio.</li>
+        <li>Open your portfolio if it is not already open.</li>
+        <li>Click <b>Export my cards</b> (next to Compress). It downloads <code>my_cards.csv</code>.</li>
+      </ol>
+
+      <h3>Adding cards by hand</h3>
+      <p>You can also build a simple text file yourself. Put <b>one card per line</b>:</p>
+      <ul>
+        <li>An NHL Breakaway moment link, or</li>
+        <li>A <code>seriesId</code> and <code>tokenId</code> pair (the same style the app and CSV expect).</li>
+      </ul>
+      <p>Lines that do not match a known card are listed and skipped; nothing else breaks.</p>
+
+      <h3>Dropping the file in</h3>
+      <p>On My collection, drop the CSV onto the page or use the file picker. Your moments appear in the grid. You can clear the file and start over any time.</p>
+
+      <h3>Saved collections (this browser only)</h3>
+      <ul>
+        <li>Use <b>Save in this browser</b> to keep a named list in <b>this browser only</b> (localStorage). Other people and other devices do not see it.</li>
+        <li>Open a saved list and use <b>Export my_cards.csv</b> to keep a backup or move it.</li>
+        <li>To use the same list on another device, export the CSV there (or re-export from The Fifth Line), drop it in again, then save it on that device if you like.</li>
+      </ul>
+
+      <h3>Share links</h3>
+      <p>Use <b>Copy share link</b> to copy a link with your card list encoded in the URL (the <code>#c=</code> part). Anyone who opens it sees that collection. The link can get long for big lists; that is normal. Clearing site data on your phone or browser removes saved collections, but a share link you already copied still works for anyone who has it.</p>
+    </section>
+
+    <section id="hall">
+      <h2>Collector Hall</h2>
+      <p>The <a href="hall.html">Collector Hall</a> is a public wall of fan collections under a handle. A maintainer reviews every submission before it appears.</p>
+      <h3>How to submit</h3>
+      <ol>
+        <li>On Collector Hall, click the button to submit (it opens a GitHub form).</li>
+        <li>Fill in the form. Use a <b>handle, not your real name</b>.</li>
+        <li>A maintainer reviews it. When it is accepted, your entry shows up in the Hall.</li>
+      </ol>
+      <p>Details and the form live in
+        <a href="https://github.com/breakaway-vault/breakaway-data/blob/main/CONTRIBUTING.md#collector-hall" target="_blank" rel="noopener">CONTRIBUTING.md</a>.
+      </p>
+      <h3>Updating your entry</h3>
+      <p>Submit again with the same handle and the updated card list. A maintainer will refresh your entry.</p>
+      <h3>Asking for removal</h3>
+      <p>Open a
+        <a href="https://github.com/breakaway-vault/breakaway-data/issues/new" target="_blank" rel="noopener">GitHub issue</a>
+        and ask to remove your Hall entry. Say the handle. Maintainers will take it down.</p>
+    </section>
+
+    <section id="app">
+      <h2>The desktop app</h2>
+      <p>Want covers, videos, or a printable album on your own computer? Use the free app — no Python required.</p>
+      <ul>
+        <li><b>Downloads:</b>
+          <a href="https://github.com/breakaway-vault/breakaway-data/releases/latest" target="_blank" rel="noopener">Releases</a>
+          (pick the zip for Windows, Mac, or Linux).</li>
+        <li><b>How to use it:</b> the
+          <a href="https://github.com/breakaway-vault/breakaway-data#no-python-download-the-app" target="_blank" rel="noopener">README</a>
+          walks through the menu.</li>
+      </ul>
+      <p>Common picks:</p>
+      <ul>
+        <li><b>1) Get cover art</b> — saves covers to your computer.</li>
+        <li><b>Videos</b> — same idea for clips (see the menu / README).</li>
+        <li><b>5) Make a printable album (PDF)</b>.</li>
+        <li><b>4) Open the viewer</b> — browse every moment locally.</li>
+        <li><b>10) Show only my cards</b> — point at your <code>my_cards.csv</code> so downloads and the album cover just your collection.</li>
+      </ul>
+      <p class="back"><a href="https://github.com/breakaway-vault/breakaway-data#show-only-my-cards-optional" target="_blank" rel="noopener">Full “Show only my cards” steps in the README →</a></p>
+    </section>
+
+    <section id="faq">
+      <h2>Troubleshooting FAQ</h2>
+
+      <h3>Covers fail with “no source answered” or rate limits</h3>
+      <p>The app politely slows down when Breakaway or a gateway says “too many requests.” Wait about an <b>hour</b> and run the same step again. Files you already saved are skipped, so a second run only retries what is still missing.</p>
+
+      <h3>A line in my file does not match a card</h3>
+      <p>That line is listed and skipped. Fix the link or ids and drop the file in again. Matching cards still load.</p>
+
+      <h3>The share link is really long</h3>
+      <p>That is expected. The card list lives in the link itself so nothing is stored on a server. For everyday use on the same phone or computer, Save a named collection instead.</p>
+
+      <h3>My saved collections disappeared</h3>
+      <p>They live only in this browser’s storage. Clearing site data, using a private window, or switching browsers or devices wipes them. Export a backup CSV when a list matters to you, or keep the share link.</p>
+
+      <h3>A cover or video is blank on the website</h3>
+      <p>Try again later, or download with the desktop app so you have a local copy. Remember: this site does not host the media.</p>
+    </section>
+
+    <section id="privacy">
+      <h2>Privacy</h2>
+      <ul>
+        <li><b>CSVs are read in your browser and never uploaded</b> to this project’s servers. Dropping a file or saving a collection stays on your device.</li>
+        <li>Share links put the card list in the URL you copy; only people you give that link to can see it.</li>
+        <li>The <b>Collector Hall only shows what you submit</b> through the public form (handle and card list). Use a handle, not your real name.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact and takedowns</h2>
+      <p>Questions, corrections, or a request to remove something: open a
+        <a href="https://github.com/breakaway-vault/breakaway-data/issues/new" target="_blank" rel="noopener">GitHub issue</a>.
+        Please include enough detail for maintainers to find the entry (for Hall removals, the handle).</p>
+      <p>Rights holders who need a takedown can use the same issues page. This is a fan archive with no media hosted here; links and catalogue data are what the site shows.</p>
+    </section>
+  </div>
+
+  <script src="assets/common.js"></script>
+  <script>BA.footer();</script>
+</body>
+</html>
