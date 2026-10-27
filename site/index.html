@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakaway Archive · Museum</title>
+<meta name="description" content="Every known NHL Breakaway moment, preserved by fans. Search, filter and open covers and videos.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="assets/favicon.svg" alt="" width="34" height="34"><span><b>Breakaway</b> Archive</span></a>
+  <nav><a href="./" aria-current="page">Museum</a><a href="collection.html">My collection</a><a href="hall.html">Collector Hall</a><a href="https://github.com/breakaway-vault/breakaway-data" target="_blank" rel="noopener">Data</a></nav>
+</header>
+<section class="hero">
+  <h1>The NHL Breakaway Museum</h1>
+  <p>Every known moment, preserved by fans. <span id="stats">Loading the archive…</span></p>
+</section>
+<section class="controls" aria-label="Search and filters">
+  <div class="searchrow">
+    <input id="q" type="search" placeholder="Search players, teams, sets, plays…" aria-label="Search" autocomplete="off">
+    <select id="sort" aria-label="Sort">
+      <option value="date-desc">Newest moment</option>
+      <option value="date-asc">Oldest moment</option>
+      <option value="rare">Rarest first</option>
+      <option value="value-desc">Highest FMV</option>
+      <option value="value-asc">Lowest FMV</option>
+      <option value="player">Player A–Z</option>
+      <option value="id">Card number</option>
+    </select>
+    <button id="toggleFilters" class="ghost" type="button">Filters</button>
+    <button id="reset" class="ghost" type="button">Reset</button>
+  </div>
+  <div id="filters" class="filters">
+    <select id="f_team" aria-label="Team"><option value="">All teams</option></select>
+    <select id="f_set" aria-label="Set"><option value="">All sets</option></select>
+    <select id="f_rarity" aria-label="Rarity"><option value="">All rarities</option></select>
+  </div>
+  <p id="count" class="count"></p>
+</section>
+<main>
+  <div id="grid" class="grid"></div>
+  <div id="sentinel"></div>
+</main>
+<script src="assets/common.js"></script>
+<script src="assets/museum.js"></script>
+</body>
+</html>

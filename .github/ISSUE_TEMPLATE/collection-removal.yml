@@ -1,0 +1,20 @@
+name: Collector Hall removal
+description: Take a collection off the Collector Hall
+title: "Remove from the Collector Hall: "
+labels: ["collector hall removal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A maintainer removes the entry by hand, usually within a few days. You don't need to give a reason. If it's your own entry, open this from the GitHub account that submitted it. If someone posted your cards or your name without asking, say so and it will be taken down.
+  - type: input
+    id: handle
+    attributes:
+      label: Handle
+      placeholder: puck-hoarder-97
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else? (optional)

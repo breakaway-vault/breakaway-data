@@ -16,3 +16,4 @@ jobs:
           python-version: "3.12"
       - run: python scripts/validate.py
       - run: python scripts/test_links.py
+      - run: python scripts/hall.py check

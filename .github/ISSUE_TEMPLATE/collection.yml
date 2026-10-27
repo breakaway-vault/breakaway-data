@@ -1,0 +1,90 @@
+name: Collector Hall submission
+description: Add your collection to the public Collector Hall on the community site
+title: "Collector Hall: "
+labels: ["collector hall"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything you post here is public, forever,** both in this issue and on the site. Use a handle, **not your real name**, and remove anything you want to keep private (wallet addresses, emails, account names) before you submit.
+
+        A bot checks your list with the same card matching as the archive app, then opens a pull request that adds `collections/<handle>.csv`. **Nothing is published until a maintainer merges it.** To change your entry later, submit this form again from the same GitHub account. To remove it, see [CONTRIBUTING.md](https://github.com/breakaway-vault/breakaway-data/blob/main/CONTRIBUTING.md#collector-hall).
+  - type: input
+    id: handle
+    attributes:
+      label: Handle
+      description: 3-30 lowercase letters, numbers and single dashes. Shown on the site as @handle. Not your real name.
+      placeholder: puck-hoarder-97
+    validations:
+      required: true
+  - type: textarea
+    id: cards
+    attributes:
+      label: Cards
+      description: Paste your my_cards.csv (the "Export my cards" file from The Fifth Line, or "Export my_cards.csv" from the My collection page). Card numbers or NHL Breakaway links, one per line, work too. Only card numbers and edition numbers are kept.
+      placeholder: |
+        card_id,edition
+        22,5
+        1,12
+      render: csv
+    validations:
+      required: true
+  - type: input
+    id: blurb
+    attributes:
+      label: Short blurb (optional)
+      description: Up to 140 characters, no links.
+      placeholder: Chasing every Etched In Ice goalie.
+  - type: dropdown
+    id: team
+    attributes:
+      label: Favourite team (optional)
+      options:
+        - "No favourite team"
+        - "Anaheim Ducks"
+        - "Arizona Coyotes"
+        - "Boston Bruins"
+        - "Buffalo Sabres"
+        - "Calgary Flames"
+        - "Carolina Hurricanes"
+        - "Chicago Blackhawks"
+        - "Colorado Avalanche"
+        - "Columbus Blue Jackets"
+        - "Dallas Stars"
+        - "Detroit Red Wings"
+        - "Edmonton Oilers"
+        - "Florida Panthers"
+        - "Hartford Whalers"
+        - "LA Kings"
+        - "Minnesota North Stars"
+        - "Minnesota Wild"
+        - "Montr\u00e9al Canadiens"
+        - "Nashville Predators"
+        - "New Jersey Devils"
+        - "New York Islanders"
+        - "New York Rangers"
+        - "Ottawa Senators"
+        - "Philadelphia Flyers"
+        - "Phoenix Coyotes"
+        - "Pittsburgh Penguins"
+        - "Quebec Nordiques"
+        - "San Jose Sharks"
+        - "Seattle Kraken"
+        - "St. Louis Blues"
+        - "Tampa Bay Lightning"
+        - "Toronto Maple Leafs"
+        - "Utah Hockey Club"
+        - "Vancouver Canucks"
+        - "Vegas Golden Knights"
+        - "Washington Capitals"
+        - "Winnipeg Jets"
+      default: 0
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand this issue and my collection are public, and I've removed anything I want to keep private.
+          required: true
+        - label: My handle is not my real name (or anyone else's).
+          required: true

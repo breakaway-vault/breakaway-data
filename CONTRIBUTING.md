@@ -11,6 +11,20 @@ Thanks for helping preserve NHL Breakaway highlights.
 
 No GitHub account? Open a **Missing moment** issue with the link instead.
 
+## Collector Hall
+
+The [Collector Hall](https://breakaway-vault.github.io/breakaway-data/hall.html) shows collections that fans chose to make public. Each one is a pair of files in [`collections/`](collections/).
+
+**Add or update your entry.** On the site's **My collection** page, load your `my_cards.csv` and press **Submit to the Collector Hall**. That opens the [submission form](https://github.com/breakaway-vault/breakaway-data/issues/new?template=collection.yml) with your cards filled in (or copied, for long lists). Pick a handle and submit. A workflow checks the list with the same matching as `breakaway.py`, replies on the issue, and opens a pull request. **Nothing appears until a maintainer merges it.**
+
+- Everything in the issue and the entry is public. Use a handle, not your real name, and remove anything private (wallet addresses, emails) before you submit. Only card numbers and edition numbers are kept in the entry.
+- A handle is 3 to 30 lowercase letters, numbers and single dashes, and belongs to the GitHub account that first used it. Submitting again from the same account updates your entry, and a new handle renames it.
+- `example-collector` is made up to show the page. It is not a real collection.
+
+**Remove an entry.** Open a [removal request](https://github.com/breakaway-vault/breakaway-data/issues/new?template=collection-removal.yml), or a pull request that deletes `collections/<handle>.csv` and `.json`. No reason is needed. If someone posted your cards or your name without asking, say so and it will be taken down.
+
+**For maintainers.** The workflow needs Settings > Actions > General > Workflow permissions > "Allow GitHub Actions to create and approve pull requests", and the `collector hall` label (the form adds it). Pull requests it opens don't trigger other workflows, so run `python scripts/hall.py check` (or close and reopen the PR) before merging. Merging to `main` republishes the site.
+
 ## Ground rules
 
 * Files in `data/meta/` and `data/offchain/` are raw responses, byte-for-byte as served: don't reformat them.

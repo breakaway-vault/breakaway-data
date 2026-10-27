@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakaway Archive · My collection</title>
+<meta name="description" content="Turn your my_cards.csv into a collector showcase: set completion, rarest cards, teams and value. Read in your browser only, nothing is uploaded.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="assets/favicon.svg" alt="" width="34" height="34"><span><b>Breakaway</b> Archive</span></a>
+  <nav><a href="./">Museum</a><a href="collection.html" aria-current="page">My collection</a><a href="hall.html">Collector Hall</a><a href="https://github.com/breakaway-vault/breakaway-data" target="_blank" rel="noopener">Data</a></nav>
+</header>
+<section class="hero">
+  <h1 id="title">Collector showcase</h1>
+  <p id="lede">Drop your <code>my_cards.csv</code> to build your collection page. Your file is read in this browser only. Nothing is uploaded or sent anywhere.</p>
+</section>
+<main class="showcase">
+  <section id="intake" class="intake">
+    <label id="drop" class="drop" tabindex="0">
+      <input id="file" type="file" accept=".csv,.txt,text/csv,text/plain" hidden>
+      <span class="big">Drop my_cards.csv here</span>
+      <span>or <u>choose a file</u> (my_cards.csv or my_cards.txt)</span>
+    </label>
+    <details class="paste">
+      <summary>Or paste your list</summary>
+      <textarea id="pasted" rows="6" placeholder="One card per line: an archive card number (like 22), an NHL Breakaway link, or seriesId/tokenId. Or paste the CSV."></textarea>
+      <button id="usePaste">Show my collection</button>
+    </details>
+    <details class="howto">
+      <summary>How do I get my_cards.csv?</summary>
+      <p>It is the same file the archive app's <b>10) Show only my cards</b> uses. Open <a href="https://thefifthlinecode.onrender.com" target="_blank" rel="noopener">The Fifth Line</a>, search your wallet address to open your portfolio, then click <b>Export my cards</b>. Any CSV works if it has a <code>card_id</code>, <code>url</code>, or <code>series_id</code> + <code>token_id</code> column (an <code>edition</code> column is optional). A plain text file with one card number or NHL Breakaway link per line works too.</p>
+    </details>
+    <p id="err" class="warn" hidden></p>
+    <div id="savedList" class="savedlist" hidden>
+      <h2>Saved in this browser</h2>
+      <div id="savedItems" class="saveditems"></div>
+      <p class="note dim">Saved collections live only in this browser on this device. Clearing this site's data (or your browsing data) removes them. Open one and use <b>Export my_cards.csv</b> to keep a backup or move it to another device.</p>
+    </div>
+  </section>
+  <section id="result" hidden>
+    <div class="sharebar">
+      <span id="shared" class="pill" hidden>Shared collection</span>
+      <span id="example" class="pill ex" hidden>Example entry</span>
+      <button id="share">Copy share link</button>
+      <button id="export" class="ghost">Export my_cards.csv</button>
+      <button id="submitHall" class="ghost">Submit to the Collector Hall</button>
+      <button id="clear" class="ghost">Load another list</button>
+      <span id="shareNote" class="dim" aria-live="polite"></span>
+    </div>
+    <section id="savedPanel" class="saved" aria-labelledby="savedH">
+      <div class="savedrow">
+        <h2 id="savedH">Saved in this browser</h2>
+        <label id="switchWrap" class="switch" hidden><span class="dim">Open</span> <select id="savedSel" aria-label="Open a saved collection"></select></label>
+      </div>
+      <form id="saveForm" class="savedrow" hidden>
+        <label for="saveName" id="saveLbl">Save this collection as</label>
+        <input id="saveName" maxlength="60" value="My collection" autocomplete="off">
+        <button type="submit" id="saveBtn">Save in this browser</button>
+        <span id="dupNote" class="dim"></span>
+      </form>
+      <div id="savedTools" class="savedrow" hidden>
+        <input id="renameInput" maxlength="60" aria-label="Collection name" autocomplete="off">
+        <button id="rename" class="ghost">Rename</button>
+        <button id="replace" class="ghost">Replace from a new CSV</button>
+        <input id="replaceFile" type="file" accept=".csv,.txt,text/csv,text/plain" hidden>
+        <button id="del" class="ghost danger">Delete</button>
+      </div>
+      <p id="savedMsg" class="dim" aria-live="polite"></p>
+      <p class="note dim">Saved collections live only in this browser on this device. Nothing is uploaded. Clearing this site's data (or your browsing data) removes them, so use <b>Export my_cards.csv</b> to back one up or move it to another device.</p>
+    </section>
+    <div id="summary" class="summary"></div>
+    <p id="unmatched" class="dim"></p>
+    <h2>Rarest cards</h2>
+    <div id="rarest" class="grid small"></div>
+    <div class="cols">
+      <section><h2>Set completion</h2><div id="sets" class="bars"></div></section>
+      <section><h2>Teams <small class="dim">cards owned</small></h2><div id="teams" class="bars"></div></section>
+    </div>
+    <h2>All my moments <small id="allcount" class="dim"></small></h2>
+    <div class="searchrow"><input id="mq" type="search" placeholder="Search my moments…" aria-label="Search my moments"><select id="msort" aria-label="Sort">
+      <option value="rare">Rarest first</option><option value="value">Highest value</option><option value="copies">Most copies</option><option value="date">Newest moment</option><option value="player">Player A–Z</option></select></div>
+    <div id="mine" class="grid"></div>
+    <div id="sentinel"></div>
+  </section>
+</main>
+<script src="assets/common.js"></script>
+<script src="assets/mycards.js"></script>
+<script src="assets/saved.js"></script>
+<script src="assets/showcase.js"></script>
+</body>
+</html>

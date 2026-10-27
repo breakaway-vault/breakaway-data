@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Breakaway Archive · Collector Hall</title>
+<meta name="description" content="Public NHL Breakaway collections shared by fans: moments owned, rarest card, set completion and estimated value.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="./"><img src="assets/favicon.svg" alt="" width="34" height="34"><span><b>Breakaway</b> Archive</span></a>
+  <nav><a href="./">Museum</a><a href="collection.html">My collection</a><a href="hall.html" aria-current="page">Collector Hall</a><a href="https://github.com/breakaway-vault/breakaway-data" target="_blank" rel="noopener">Data</a></nav>
+</header>
+<section class="hero">
+  <h1>Collector Hall</h1>
+  <p>Collections fans chose to share publicly, under a handle. <span id="hstats"></span> Want yours here? Open <a href="collection.html">My collection</a>, load your <code>my_cards.csv</code> and press <b>Submit to the Collector Hall</b>. A maintainer reviews every entry before it appears. Removal is one <a href="https://github.com/breakaway-vault/breakaway-data/issues/new?template=collection-removal.yml" target="_blank" rel="noopener">request</a> away.</p>
+</section>
+<section class="controls" aria-label="Search and sort">
+  <div class="searchrow">
+    <input id="hq" type="search" placeholder="Search handles, teams, blurbs…" aria-label="Search collectors" autocomplete="off">
+    <select id="hsort" aria-label="Sort">
+      <option value="value">Highest estimated value</option>
+      <option value="moments">Most moments</option>
+      <option value="sets">Best set completion</option>
+      <option value="newest">Newest entry</option>
+      <option value="handle">Handle A–Z</option>
+    </select>
+  </div>
+  <p id="hcount" class="count"></p>
+</section>
+<main>
+  <div id="hall" class="hallgrid"></div>
+</main>
+<script src="assets/common.js"></script>
+<script src="assets/hall.js"></script>
+</body>
+</html>

@@ -1,32 +1,34 @@
-# generated / downloaded locally - never committed
-output/
-cache/
-videos/
-covers/
-*.zip
-*.xlsx
-*.part
-*.tmp
-*.log
-__pycache__/
-# secrets
-.env
-.env.*
-viewer/
-drive/
-preview/
-# standalone app builds
-build/
-dist/
-*.spec
-# your own settings (copy breakaway.config.example.json)
-breakaway.config.json
-*.new
-# your own card list (private)
-my_cards.txt
-my_cards.csv
 
 # OS / Python clutter
-.DS_Store
-Thumbs.db
+# generated / downloaded locally - never committed
+# secrets
+# standalone app builds
+# your own card list (private)
+# your own settings (copy breakaway.config.example.json)
+*.log
+*.new
+*.part
 *.pyc
+*.spec
+*.tmp
+*.xlsx
+*.zip
+.DS_Store
+.env
+.env.*
+Thumbs.db
+__pycache__/
+breakaway.config.json
+build/
+cache/
+covers/
+dist/
+drive/
+my_cards.csv
+my_cards.txt
+output/
+preview/
+shots/
+site/data/
+videos/
+viewer/
