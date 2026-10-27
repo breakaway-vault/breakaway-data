@@ -169,13 +169,9 @@
       : location.origin + location.pathname + '#c=' + await MyCards.encode(cur.mine);
     copy(url, `Link copied (${fmt(url.length)} characters). Anyone with it sees this collection; it holds card numbers and edition numbers only.`);
   });
-  $('#submitHall').addEventListener('click', async () => {
-    const csv = MyCards.toCsv(cur.mine, db.byId, true);
-    const base = `${REPO}/issues/new?template=collection.yml&title=${encodeURIComponent('Collector Hall: ')}`;
-    const full = base + '&cards=' + encodeURIComponent(csv);
-    if (full.length <= 7000) { window.open(full, '_blank', 'noopener'); $('#shareNote').textContent = 'The submission form opened in a new tab with your cards filled in. Pick a handle (not your real name), then submit.'; return; }
-    await copy(csv, 'Your list is too long to pre-fill, so it was copied: paste it into the Cards box on the form that just opened.');
-    window.open(base, '_blank', 'noopener');
+  $('#submitHall').addEventListener('click', () => {
+    window.open(`${REPO}/issues/new?template=collection.yml`, '_blank', 'noopener');
+    $('#shareNote').textContent = 'The Collector Hall form opened in a new tab. Drag your my_cards.csv into the Cards box (or paste it), pick a handle that is not your real name, then submit.';
   });
 
   function toIntake() {

@@ -1,5 +1,6 @@
 name: collector-hall
 # Turns a "Collector Hall submission" issue into a pull request that adds collections/<handle>.csv.
+# Cards may be pasted or a GitHub attachment link (drag-and-drop); hall_submit.py downloads allowed hosts only.
 # Nothing is published until a maintainer merges that pull request.
 # Needs: Settings > Actions > General > Workflow permissions > "Allow GitHub Actions to create and approve pull requests".
 on:

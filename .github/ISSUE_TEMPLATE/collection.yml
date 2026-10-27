@@ -8,7 +8,7 @@ body:
       value: |
         **Everything you post here is public, forever,** both in this issue and on the site. Use a handle, **not your real name**, and remove anything you want to keep private (wallet addresses, emails, account names) before you submit.
 
-        A bot checks your list with the same card matching as the archive app, then opens a pull request that adds `collections/<handle>.csv`. **Nothing is published until a maintainer merges it.** To change your entry later, submit this form again from the same GitHub account. To remove it, see [CONTRIBUTING.md](https://github.com/breakaway-vault/breakaway-data/blob/main/CONTRIBUTING.md#collector-hall).
+        Drag your `my_cards.csv` into the Cards box (or paste it). A bot checks your list with the same card matching as the archive app, then opens a pull request that adds `collections/<handle>.csv`. **Nothing is published until a maintainer merges it.** To change your entry later, submit this form again from the same GitHub account. To remove it, see [CONTRIBUTING.md](https://github.com/breakaway-vault/breakaway-data/blob/main/CONTRIBUTING.md#collector-hall).
   - type: input
     id: handle
     attributes:
@@ -21,8 +21,11 @@ body:
     id: cards
     attributes:
       label: Cards
-      description: Paste your my_cards.csv (the "Export my cards" file from The Fifth Line, or "Export my_cards.csv" from the My collection page). Card numbers or NHL Breakaway links, one per line, work too. Only card numbers and edition numbers are kept.
+      description: |
+        Drag your my_cards.csv straight into this box (easiest), or paste its contents. Use the "Export my cards" file from The Fifth Line, or "Export my_cards.csv" from the My collection page. Card numbers or NHL Breakaway links, one per line, work too. Only card numbers and edition numbers are kept.
       placeholder: |
+        Drag my_cards.csv here, or paste:
+
         card_id,edition
         22,5
         1,12
