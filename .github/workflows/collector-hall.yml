@@ -13,7 +13,10 @@ concurrency:
   cancel-in-progress: true
 jobs:
   submit:
-    if: github.event.issue.state == 'open' && contains(github.event.issue.labels.*.name, 'collector hall')
+    if: >-
+      github.event.issue.state == 'open' &&
+      (contains(github.event.issue.labels.*.name, 'collector hall') ||
+       startsWith(github.event.issue.title, 'Collector Hall:'))
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
