@@ -17,10 +17,10 @@ import breakaway as b  # noqa: E402  (read-only use of the app's loaders)
 
 DIR = os.path.join(ROOT, "collections")
 HANDLE_RE = re.compile(r"^[a-z0-9](?:[a-z0-9]|-(?=[a-z0-9])){2,29}$")   # 3-30 chars, a-z 0-9 and single dashes
-RESERVED = {"example", "example-collector", "admin", "administrator", "maintainer", "moderator", "official", "staff",
+RESERVED = {"example", "example-collector", "maple-leafs-complete", "admin", "administrator", "maintainer", "moderator", "official", "staff",
             "support", "team", "nhl", "nhlpa", "sweet", "breakaway", "breakaway-archive", "archive", "hall", "null",
             "undefined", "anonymous", "me", "you"}
-EXAMPLES = {"example-collector"}          # seed entries made up for the page, never real people
+EXAMPLES = {"example-collector", "maple-leafs-complete"}  # seed entries made up for the page, never real people
 BLURB_MAX = 140
 MAX_LINES = 10000
 
