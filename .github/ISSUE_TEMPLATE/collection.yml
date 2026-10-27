@@ -29,7 +29,6 @@ body:
         card_id,edition
         22,5
         1,12
-      render: csv
     validations:
       required: true
   - type: input
