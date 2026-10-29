@@ -2,7 +2,8 @@ name: collector-hall
 # Turns a "Collector Hall submission" issue into a pull request that adds collections/<slug>.csv + .json.
 # The fan types a display name ("Rink Rat 97"); hall_submit.py derives the slug (rink_rat_97) used for files and #h= links.
 # Cards may be pasted or a GitHub attachment link (drag-and-drop); hall_submit.py downloads allowed hosts only.
-# Nothing is published until a maintainer merges that pull request.
+# Nothing is published until a maintainer merges that pull request. The PR body says "Closes #<issue>",
+# so merging it closes the submission issue; collector-hall-close.yml adds a thank-you comment.
 # Needs: Settings > Actions > General > Workflow permissions > "Allow GitHub Actions to create and approve pull requests".
 on:
   issues:
@@ -63,7 +64,7 @@ jobs:
           if git diff --cached --quiet; then echo "nochange=true" >> "$GITHUB_OUTPUT"; exit 0; fi
           git commit -q -m "Collector Hall: add @$HANDLE (from #$ISSUE)"
           git push -f origin "$BRANCH"
-          body="Adds the Collector Hall entry \`@$DISPLAY\` (slug \`$HANDLE\`) submitted in #$ISSUE. Their page will be @$DISPLAY at collection.html#h=$HANDLE. Files: collections/$HANDLE.csv and collections/$HANDLE.json. The cards were checked with the same matching as breakaway.py and normalised to card numbers and editions. Merge to publish it; close to decline."
+          body="Adds the Collector Hall entry \`@$DISPLAY\` (slug \`$HANDLE\`) submitted in #$ISSUE. Their page will be @$DISPLAY at collection.html#h=$HANDLE. Files: collections/$HANDLE.csv and collections/$HANDLE.json. The cards were checked with the same matching as breakaway.py and normalised to card numbers and editions. Merge to publish it; close to decline."$'\n\n'"Closes #$ISSUE"
           url=$(gh pr list --head "$BRANCH" --state open --json url --jq '.[0].url')
           if [ -z "$url" ]; then
             url=$(gh pr create --head "$BRANCH" --base "${{ github.event.repository.default_branch }}" --title "Collector Hall: @$DISPLAY ($HANDLE)" --body "$body")

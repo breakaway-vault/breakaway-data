@@ -1,0 +1,49 @@
+name: collector-hall-close
+# When a Collector Hall pull request is merged, thank the collector on their issue and close it.
+# Submission PRs come from branches named collector-hall/issue-<number> (see collector-hall.yml).
+# Removal PRs can use collector-hall/removal-<number> to get the same treatment.
+# The PR body also says "Closes #<number>", so GitHub may already have closed the issue; that is fine.
+on:
+  pull_request:
+    types: [closed]
+permissions:
+  contents: read
+jobs:
+  close:
+    if: >-
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.head.ref, 'collector-hall/')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      issues: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      HEAD_REF: ${{ github.event.pull_request.head.ref }}
+      PR: ${{ github.event.pull_request.number }}
+    steps:
+      - name: Thank the collector and close the issue
+        run: |
+          case "$HEAD_REF" in
+            collector-hall/issue-*)   kind=add;    num="${HEAD_REF#collector-hall/issue-}" ;;
+            collector-hall/removal-*) kind=remove; num="${HEAD_REF#collector-hall/removal-}" ;;
+            *) echo "Not a Collector Hall branch: $HEAD_REF"; exit 0 ;;
+          esac
+          case "$num" in ''|*[!0-9]*) echo "No issue number in $HEAD_REF"; exit 0 ;; esac
+          if ! gh issue view "$num" --json number > /dev/null 2>&1; then
+            echo "Issue #$num not found"; exit 0
+          fi
+          if [ "$kind" = add ]; then
+            msg="Thanks! Your collection is now in the [Collector Hall](https://breakaway-vault.github.io/breakaway-data/hall.html) (merged in #$PR). It can take a few minutes to show up on the site. To change it later, fill in the form again from the same GitHub account."
+          else
+            msg="Done. Your collection has been taken out of the [Collector Hall](https://breakaway-vault.github.io/breakaway-data/hall.html) (merged in #$PR). It can take a few minutes to disappear from the site."
+          fi
+          gh issue comment "$num" --body "$msg"
+          state=$(gh issue view "$num" --json state --jq .state)
+          if [ "$state" = OPEN ]; then
+            gh issue close "$num" --reason completed
+          else
+            echo "Issue #$num is already closed"
+          fi
