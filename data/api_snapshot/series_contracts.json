@@ -1,0 +1,1591 @@
+{
+ "21x65ARG": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x9b82C35A79603EAfcF1924dD93c8879305998529/",
+  "explorer_url": "https://polygonscan.com/token/0x9b82C35A79603EAfcF1924dD93c8879305998529/?a=9545379410211766272",
+  "sample_moment": "1463",
+  "sample_token_id": "9545379410211766272",
+  "sets": null
+ },
+ "21x6XXRG": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x1AB241dd5A03D4B31C312533AD101CB15C18668C/",
+  "explorer_url": "https://polygonscan.com/token/0x1AB241dd5A03D4B31C312533AD101CB15C18668C/?a=10665086867566755840",
+  "sample_moment": "800",
+  "sample_token_id": "10665086867566755840",
+  "sets": null
+ },
+ "21x6YeRG": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xAf2e2082f3b5C24D9a68C25166Ff7D5Edb9E86cC/",
+  "explorer_url": "https://polygonscan.com/token/0xAf2e2082f3b5C24D9a68C25166Ff7D5Edb9E86cC/?a=13451689137002250240",
+  "sample_moment": "266",
+  "sample_token_id": "13451689137002250240",
+  "sets": null
+ },
+ "2RXxYWRm": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x0f5c8DfE16E7B2Dd322f035fF1e44cb4097B6123/",
+  "explorer_url": "https://polygonscan.com/token/0x0f5c8DfE16E7B2Dd322f035fF1e44cb4097B6123/?a=12136075095856644096",
+  "sample_moment": "936",
+  "sample_token_id": "12136075095856644096",
+  "sets": null
+ },
+ "2RXxdARm": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xA41a9aF1e2505a77d5F9312365d0B1db4241Cc14/",
+  "explorer_url": "https://polygonscan.com/token/0xA41a9aF1e2505a77d5F9312365d0B1db4241Cc14/?a=10290725148541583360",
+  "sample_moment": "288",
+  "sample_token_id": "10290725148541583360",
+  "sets": null
+ },
+ "2bjVV0b5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x243e1F526C6459cBf81D38D2fb5E5a3FB36Ba247/",
+  "explorer_url": "https://polygonscan.com/token/0x243e1F526C6459cBf81D38D2fb5E5a3FB36Ba247/?a=11008767814130466816",
+  "sample_moment": "381",
+  "sample_token_id": "11008767814130466816",
+  "sets": null
+ },
+ "2bjVmPb5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x024021168B8df28CbFc4C43599A73Bd3BA9e7DF5/",
+  "explorer_url": "https://polygonscan.com/token/0x024021168B8df28CbFc4C43599A73Bd3BA9e7DF5/?a=10819616629780905984",
+  "sample_moment": "1150",
+  "sample_token_id": "10819616629780905984",
+  "sets": null
+ },
+ "2qVv4Mqz": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x006c6Cdd4f3959a1c6314335B98bb750924550eD/",
+  "explorer_url": "https://polygonscan.com/token/0x006c6Cdd4f3959a1c6314335B98bb750924550eD/?a=9466284941756071936",
+  "sample_moment": "1526",
+  "sample_token_id": "9466284941756071936",
+  "sets": null
+ },
+ "3qYV4J1V": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x4247223af3716a85C9839381Df7C2a3d811AbB20/",
+  "explorer_url": "https://polygonscan.com/token/0x4247223af3716a85C9839381Df7C2a3d811AbB20/?a=12058106527307792384",
+  "sample_moment": "1050",
+  "sample_token_id": "12058106527307792384",
+  "sets": null
+ },
+ "3qYVVZ1V": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x82e8e9826890EBb4279d39DAeFA0d1c1f3188734/",
+  "explorer_url": "https://polygonscan.com/token/0x82e8e9826890EBb4279d39DAeFA0d1c1f3188734/?a=11623227688289828864",
+  "sample_moment": "311",
+  "sample_token_id": "11623227688289828864",
+  "sets": null
+ },
+ "3qYVm01V": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x109D3B4FD5fb02aE6715B1A5a9b0e482A7491bf9/",
+  "explorer_url": "https://polygonscan.com/token/0x109D3B4FD5fb02aE6715B1A5a9b0e482A7491bf9/?a=10027827520293830656",
+  "sample_moment": "1783",
+  "sample_token_id": "10027827520293830656",
+  "sets": null
+ },
+ "5RNBByRM": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x0982e701Ba23Dffee6EaF13b6f22A142d80F5F82/",
+  "explorer_url": "https://polygonscan.com/token/0x0982e701Ba23Dffee6EaF13b6f22A142d80F5F82/?a=13648721620699709440",
+  "sample_moment": "314",
+  "sample_token_id": "13648721620699709440",
+  "sets": null
+ },
+ "5RNBLNRM": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x5d78C761CAA1CD1CfB867d4B5790f6c03273193F/",
+  "explorer_url": "https://polygonscan.com/token/0x5d78C761CAA1CD1CfB867d4B5790f6c03273193F/?a=9523424362028335104",
+  "sample_moment": "854",
+  "sample_token_id": "9523424362028335104",
+  "sets": null
+ },
+ "5RNBeARM": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x4c6FaD4f0A14DF94a64E09aEF501997412EEe887/",
+  "explorer_url": "https://polygonscan.com/token/0x4c6FaD4f0A14DF94a64E09aEF501997412EEe887/?a=12152682119482572800",
+  "sample_moment": "1558",
+  "sample_token_id": "12152682119482572800",
+  "sets": null
+ },
+ "61p66BRP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x5476a76FFEbF77D94bb9b8645c28eD9894875149/",
+  "explorer_url": "https://polygonscan.com/token/0x5476a76FFEbF77D94bb9b8645c28eD9894875149/?a=9663035950476820480",
+  "sample_moment": "694",
+  "sample_token_id": "9663035950476820480",
+  "sets": null
+ },
+ "8bML661d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xC04889CA43C2F212c22765c4723253DCd075C86F/",
+  "explorer_url": "https://polygonscan.com/token/0xC04889CA43C2F212c22765c4723253DCd075C86F/?a=13791147958915301376",
+  "sample_moment": "1672",
+  "sample_token_id": "13791147958915301376",
+  "sets": null
+ },
+ "8bMLLo1d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x857D179023C1aeeDdbF27C1cE1fC6D31391ac0e5/",
+  "explorer_url": "https://polygonscan.com/token/0x857D179023C1aeeDdbF27C1cE1fC6D31391ac0e5/?a=10671279317054390272",
+  "sample_moment": "373",
+  "sample_token_id": "10671279317054390272",
+  "sets": null
+ },
+ "8bMLm51d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x90Dad02e7E8165AE46d02C7Abdf2D77099942e55/",
+  "explorer_url": "https://polygonscan.com/token/0x90Dad02e7E8165AE46d02C7Abdf2D77099942e55/?a=9364672475163525120",
+  "sample_moment": "1617",
+  "sample_token_id": "9364672475163525120",
+  "sets": null
+ },
+ "916gJ6b7": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xf9a4575BF5225033CdCAA278333eF5b3f21D2203/",
+  "explorer_url": "https://polygonscan.com/token/0xf9a4575BF5225033CdCAA278333eF5b3f21D2203/?a=9648117776711155712",
+  "sample_moment": "1626",
+  "sample_token_id": "9648117776711155712",
+  "sets": null
+ },
+ "916gYNb7": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xC2F97bCb356f8bfF87d0cA05df5335f6F3C829fe/",
+  "explorer_url": "https://polygonscan.com/token/0xC2F97bCb356f8bfF87d0cA05df5335f6F3C829fe/?a=10327035420537257984",
+  "sample_moment": "1776",
+  "sample_token_id": "10327035420537257984",
+  "sets": null
+ },
+ "916gz3b7": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xc82D413825A4E6D83f51023801cA134e8af68721/",
+  "explorer_url": "https://polygonscan.com/token/0xc82D413825A4E6D83f51023801cA134e8af68721/?a=13688409592415911936",
+  "sample_moment": "201",
+  "sample_token_id": "13688409592415911936",
+  "sets": null
+ },
+ "A1LwwOqw": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x404E63385E2834a10D473C04f6c2Ccc163E655Be/",
+  "explorer_url": "https://polygonscan.com/token/0x404E63385E2834a10D473C04f6c2Ccc163E655Be/?a=12468497043351928832",
+  "sample_moment": "356",
+  "sample_token_id": "12468497043351928832",
+  "sets": null
+ },
+ "Aq4gD4RQ": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x16d9D3c7Ca044d13C9F89933701dDBa9BB2522C3/",
+  "explorer_url": "https://polygonscan.com/token/0x16d9D3c7Ca044d13C9F89933701dDBa9BB2522C3/?a=9937755527746420736",
+  "sample_moment": "1068",
+  "sample_token_id": "9937755527746420736",
+  "sets": null
+ },
+ "AqkW0kq6": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x24fc32fB8E80Cf00AB857DC4c2785238E7866e5D/",
+  "explorer_url": "https://polygonscan.com/token/0x24fc32fB8E80Cf00AB857DC4c2785238E7866e5D/?a=12676788526117814272",
+  "sample_moment": "1511",
+  "sample_token_id": "12676788526117814272",
+  "sets": null
+ },
+ "BjqGw7qp": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xCA28251Acf27e55FDBFbF997397A28DB122e70b2/",
+  "explorer_url": "https://polygonscan.com/token/0xCA28251Acf27e55FDBFbF997397A28DB122e70b2/?a=12043188353542127616",
+  "sample_moment": "16",
+  "sample_token_id": "12043188353542127616",
+  "sets": null
+ },
+ "DRwE5P1O": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xb636a2300b91847CFdBFB6cC3434cD8747c89270/",
+  "explorer_url": "https://polygonscan.com/token/0xb636a2300b91847CFdBFB6cC3434cD8747c89270/?a=10333509345001603072",
+  "sample_moment": "1002",
+  "sample_token_id": "10333509345001603072",
+  "sets": null
+ },
+ "GqEK4QbD": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x4bC89EbB5e96A51932Ac412D0eC5908981deA274/",
+  "explorer_url": "https://polygonscan.com/token/0x4bC89EbB5e96A51932Ac412D0eC5908981deA274/?a=11989145158013681664",
+  "sample_moment": "1",
+  "sample_token_id": "11989145158013681664",
+  "sets": null
+ },
+ "GqEK76bD": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x5a573e888d09744eaC1e97e4DDa779B6861CBC42/",
+  "explorer_url": "https://polygonscan.com/token/0x5a573e888d09744eaC1e97e4DDa779B6861CBC42/?a=11036915311801532416",
+  "sample_moment": "1249",
+  "sample_token_id": "11036915311801532416",
+  "sets": null
+ },
+ "GqEKQrbD": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xF30944eA7790f8ED0f943EeB0950a464cC8667B7/",
+  "explorer_url": "https://polygonscan.com/token/0xF30944eA7790f8ED0f943EeB0950a464cC8667B7/?a=9340747102143119360",
+  "sample_moment": "265",
+  "sample_token_id": "9340747102143119360",
+  "sets": null
+ },
+ "GqEKoQbD": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xDb8CB9Fb9Db4Ea3005B7bb17AE04A7d4F885EDAC/",
+  "explorer_url": "https://polygonscan.com/token/0xDb8CB9Fb9Db4Ea3005B7bb17AE04A7d4F885EDAC/?a=9929874228398522368",
+  "sample_moment": "753",
+  "sample_token_id": "9929874228398522368",
+  "sets": null
+ },
+ "KR9Xaybd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x29cf086D4D39a663a0B5ECFBF4Ce378fA24f90a5/",
+  "explorer_url": "https://polygonscan.com/token/0x29cf086D4D39a663a0B5ECFBF4Ce378fA24f90a5/?a=11452372377426460672",
+  "sample_moment": "1051",
+  "sample_token_id": "11452372377426460672",
+  "sets": null
+ },
+ "KR9Xxmbd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x3b73DB0821E9a89F59c4E60e46CC06d26f7CCad8/",
+  "explorer_url": "https://polygonscan.com/token/0x3b73DB0821E9a89F59c4E60e46CC06d26f7CCad8/?a=10137602761210986496",
+  "sample_moment": "308",
+  "sample_token_id": "10137602761210986496",
+  "sets": null
+ },
+ "KbKmKgq5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x57dB8C2ec2B0520be06237E8c8e5a59bED74b722/",
+  "explorer_url": "https://polygonscan.com/token/0x57dB8C2ec2B0520be06237E8c8e5a59bED74b722/?a=10540674927860645888",
+  "sample_moment": "1796",
+  "sample_token_id": "10540674927860645888",
+  "sets": null
+ },
+ "KbKmX2q5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xfC545d0A7fCF8bA8eD5Db30B0D3767aB0C3d6180/",
+  "explorer_url": "https://polygonscan.com/token/0xfC545d0A7fCF8bA8eD5Db30B0D3767aB0C3d6180/?a=11060840684821938176",
+  "sample_moment": "1114",
+  "sample_token_id": "11060840684821938176",
+  "sets": null
+ },
+ "KbKmXYq5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xc8164c4829D90D4741A27453C37d296583DE7469/",
+  "explorer_url": "https://polygonscan.com/token/0xc8164c4829D90D4741A27453C37d296583DE7469/?a=9514135687796883456",
+  "sample_moment": "1131",
+  "sample_token_id": "9514135687796883456",
+  "sets": null
+ },
+ "KbKmorq5": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xe7887Aba6959b112f212641d148FB0Be0550CAe8/",
+  "explorer_url": "https://polygonscan.com/token/0xe7887Aba6959b112f212641d148FB0Be0550CAe8/?a=10717159738258227200",
+  "sample_moment": "228",
+  "sample_token_id": "10717159738258227200",
+  "sets": null
+ },
+ "LRgw7JR6": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x7343Cd7dE99f2189D20F5F123D1844AB35F4FA91/",
+  "explorer_url": "https://polygonscan.com/token/0x7343Cd7dE99f2189D20F5F123D1844AB35F4FA91/?a=12233465437798531072",
+  "sample_moment": "267",
+  "sample_token_id": "12233465437798531072",
+  "sets": null
+ },
+ "LRgwr4R6": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x5C0Ef65C472D75D832Cdfd71e076adc3C237DBd9/",
+  "explorer_url": "https://polygonscan.com/token/0x5C0Ef65C472D75D832Cdfd71e076adc3C237DBd9/?a=9339621202236276736",
+  "sample_moment": "1478",
+  "sample_token_id": "9339621202236276736",
+  "sets": null
+ },
+ "M1AO4XRz": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x9a2df53F2B87581D251e464F15DCfDC378D9c4A8/",
+  "explorer_url": "https://polygonscan.com/token/0x9a2df53F2B87581D251e464F15DCfDC378D9c4A8/?a=9692027873078018048",
+  "sample_moment": "1146",
+  "sample_token_id": "9692027873078018048",
+  "sets": null
+ },
+ "M1AOGXRz": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x78fa801c23f9e71Be9B04C39848fF96e4537A161/",
+  "explorer_url": "https://polygonscan.com/token/0x78fa801c23f9e71Be9B04C39848fF96e4537A161/?a=9988983973507760128",
+  "sample_moment": "1386",
+  "sample_token_id": "9988983973507760128",
+  "sets": null
+ },
+ "M1AOOVRz": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x936269A46EfcA1F469A202B277Ce820cD393e0C6/",
+  "explorer_url": "https://polygonscan.com/token/0x936269A46EfcA1F469A202B277Ce820cD393e0C6/?a=11891473341095084032",
+  "sample_moment": "401",
+  "sample_token_id": "11891473341095084032",
+  "sets": null
+ },
+ "M1ao45RK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x417e0153AdF51812122Fe9353082e0A3c568BAC9/",
+  "explorer_url": "https://polygonscan.com/token/0x417e0153AdF51812122Fe9353082e0A3c568BAC9/?a=11045359561102852096",
+  "sample_moment": "1052",
+  "sample_token_id": "11045359561102852096",
+  "sets": null
+ },
+ "M1aoV5RK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xc8D75dbb01E32747a9c7398676e79032AD1FA0C4/",
+  "explorer_url": "https://polygonscan.com/token/0xc8D75dbb01E32747a9c7398676e79032AD1FA0C4/?a=10057945342801870848",
+  "sample_moment": "846",
+  "sample_token_id": "10057945342801870848",
+  "sets": null
+ },
+ "M8R5DJbD": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x890dd4F5243f030af3416d4D6D3c593EcB172017/",
+  "explorer_url": "https://polygonscan.com/token/0x890dd4F5243f030af3416d4D6D3c593EcB172017/?a=9854438934640066560",
+  "sample_moment": "112",
+  "sample_token_id": "9854438934640066560",
+  "sets": null
+ },
+ "N2RX6A1m": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x17EB13bA9b94B42e1A10B92fF1B77036C79cCB8A/",
+  "explorer_url": "https://polygonscan.com/token/0x17EB13bA9b94B42e1A10B92fF1B77036C79cCB8A/?a=9871890383196127232",
+  "sample_moment": "121",
+  "sample_token_id": "9871890383196127232",
+  "sets": null
+ },
+ "Nbnn4nbW": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x27f484eEf99a349A933ff05D585279f464C7CD8d/",
+  "explorer_url": "https://polygonscan.com/token/0x27f484eEf99a349A933ff05D585279f464C7CD8d/?a=12497488965953126400",
+  "sample_moment": "421",
+  "sample_token_id": "12497488965953126400",
+  "sets": null
+ },
+ "Nbnn5nbW": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xADED0ac78Dff85D519b5758D0239cA98BbAdc9a1/",
+  "explorer_url": "https://polygonscan.com/token/0xADED0ac78Dff85D519b5758D0239cA98BbAdc9a1/?a=12190681241338511360",
+  "sample_moment": "6",
+  "sample_token_id": "12190681241338511360",
+  "sets": null
+ },
+ "NbnnKxbW": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x2a4879ce10Dc040e5197A32a793fAc735C3c2670/",
+  "explorer_url": "https://polygonscan.com/token/0x2a4879ce10Dc040e5197A32a793fAc735C3c2670/?a=9557764309187035136",
+  "sample_moment": "264",
+  "sample_token_id": "9557764309187035136",
+  "sets": null
+ },
+ "NbnnM8bW": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x71dB4edbFE63988c70db2829cE1C6FE4496B6d05/",
+  "explorer_url": "https://polygonscan.com/token/0x71dB4edbFE63988c70db2829cE1C6FE4496B6d05/?a=11083358682958790656",
+  "sample_moment": "1443",
+  "sample_token_id": "11083358682958790656",
+  "sets": null
+ },
+ "NbnnQzbW": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xadDaEBe02360F32F1922c1cB9770Efa81CA1a87f/",
+  "explorer_url": "https://polygonscan.com/token/0xadDaEBe02360F32F1922c1cB9770Efa81CA1a87f/?a=9309503379728236544",
+  "sample_moment": "1741",
+  "sample_token_id": "9309503379728236544",
+  "sets": null
+ },
+ "Pbd44mbK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x54f3AE87103cce64d5C5d385A626809fd0Ce27a7/",
+  "explorer_url": "https://polygonscan.com/token/0x54f3AE87103cce64d5C5d385A626809fd0Ce27a7/?a=9831357986549792768",
+  "sample_moment": "601",
+  "sample_token_id": "9831357986549792768",
+  "sets": null
+ },
+ "Pbd4BabK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x313D66522B9E46A7E23520B4949D0f9b7c828dDC/",
+  "explorer_url": "https://polygonscan.com/token/0x313D66522B9E46A7E23520B4949D0f9b7c828dDC/?a=12265835060120256512",
+  "sample_moment": "1962",
+  "sample_token_id": "12265835060120256512",
+  "sets": null
+ },
+ "Pbd4YGbK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x21fEb01e11d9e1237b0acAC64B6d39843647582d/",
+  "explorer_url": "https://polygonscan.com/token/0x21fEb01e11d9e1237b0acAC64B6d39843647582d/?a=11910050689557987328",
+  "sample_moment": "1733",
+  "sample_token_id": "11910050689557987328",
+  "sets": null
+ },
+ "Pbd4gmbK": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xE29c6258B9de5eC719710FaB4e2476230c9adbC7/",
+  "explorer_url": "https://polygonscan.com/token/0xE29c6258B9de5eC719710FaB4e2476230c9adbC7/?a=9735656494468169728",
+  "sample_moment": "1029",
+  "sample_token_id": "9735656494468169728",
+  "sets": null
+ },
+ "QRvZgoRw": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x9298456399A49CA31955d0CFb0da6Af5476fDEa2/",
+  "explorer_url": "https://polygonscan.com/token/0x9298456399A49CA31955d0CFb0da6Af5476fDEa2/?a=9669228399964454912",
+  "sample_moment": "1810",
+  "sample_token_id": "9669228399964454912",
+  "sets": null
+ },
+ "QRvZmARw": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xCE40A3b3D5afa86f849FaF5Db4428752Aac7ffE3/",
+  "explorer_url": "https://polygonscan.com/token/0xCE40A3b3D5afa86f849FaF5Db4428752Aac7ffE3/?a=12550124786598019072",
+  "sample_moment": "976",
+  "sample_token_id": "12550124786598019072",
+  "sets": null
+ },
+ "QqBmkGRA": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xc894C6f12555bC8257117385d0BEFa0d099B1991/",
+  "explorer_url": "https://polygonscan.com/token/0xc894C6f12555bC8257117385d0BEFa0d099B1991/?a=10110299688470052864",
+  "sample_moment": "868",
+  "sample_token_id": "10110299688470052864",
+  "sets": null
+ },
+ "V1P88Z1d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xC3E614B158BDca1769178a9A230f3F46AEAD9215/",
+  "explorer_url": "https://polygonscan.com/token/0xC3E614B158BDca1769178a9A230f3F46AEAD9215/?a=11953679310948139008",
+  "sample_moment": "340",
+  "sample_token_id": "11953679310948139008",
+  "sets": null
+ },
+ "V1orAzqQ": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xF3a145f2f51525Dfa207731c8d8905F8A88dbC73/",
+  "explorer_url": "https://polygonscan.com/token/0xF3a145f2f51525Dfa207731c8d8905F8A88dbC73/?a=10738833311464947712",
+  "sample_moment": "1630",
+  "sample_token_id": "10738833311464947712",
+  "sets": null
+ },
+ "VqmoD3bg": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xF8248F741bEf6A79CBCaf24DF355D8faD3879169/",
+  "explorer_url": "https://polygonscan.com/token/0xF8248F741bEf6A79CBCaf24DF355D8faD3879169/?a=13649284570653130752",
+  "sample_moment": "1493",
+  "sample_token_id": "13649284570653130752",
+  "sets": null
+ },
+ "WvRDo2bP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x61422343b6d168074bbcBA7B4695FD92A31146A0/",
+  "explorer_url": "https://polygonscan.com/token/0x61422343b6d168074bbcBA7B4695FD92A31146A0/?a=12454423294516396032",
+  "sample_moment": "67",
+  "sample_token_id": "12454423294516396032",
+  "sets": null
+ },
+ "X1Ov9pqm": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x10C2186a5e5C142f865db73e24254f55a1BEAbC4/",
+  "explorer_url": "https://polygonscan.com/token/0x10C2186a5e5C142f865db73e24254f55a1BEAbC4/?a=13347824870596018176",
+  "sample_moment": "1764",
+  "sample_token_id": "13347824870596018176",
+  "sets": null
+ },
+ "X1Ovjnqm": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x7a676A36DE628Dba594779eEB417CafcFea8f4b8/",
+  "explorer_url": "https://polygonscan.com/token/0x7a676A36DE628Dba594779eEB417CafcFea8f4b8/?a=11629983087730884608",
+  "sample_moment": "1266",
+  "sample_token_id": "11629983087730884608",
+  "sets": null
+ },
+ "XRe24Wqk": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x4342E200832B338268649E903B9D661f8E41f920/",
+  "explorer_url": "https://polygonscan.com/token/0x4342E200832B338268649E903B9D661f8E41f920/?a=13454785361746067456",
+  "sample_moment": "239",
+  "sample_token_id": "13454785361746067456",
+  "sets": null
+ },
+ "XRe2mzqk": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x83EF674Db0d3b3B3c391B318962D571d93f167A0/",
+  "explorer_url": "https://polygonscan.com/token/0x83EF674Db0d3b3B3c391B318962D571d93f167A0/?a=11094336207050506240",
+  "sample_moment": "1657",
+  "sample_token_id": "11094336207050506240",
+  "sets": null
+ },
+ "XRe2vQqk": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xCd632C3d9648c4BBEC02FcD01eedfE8a8348A768/",
+  "explorer_url": "https://polygonscan.com/token/0xCd632C3d9648c4BBEC02FcD01eedfE8a8348A768/?a=12351684928017006592",
+  "sample_moment": "1691",
+  "sample_token_id": "12351684928017006592",
+  "sets": null
+ },
+ "Y13a5eRg": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xBAc171014bFaA8F251428D1Bcaea672657b3d02d/",
+  "explorer_url": "https://polygonscan.com/token/0xBAc171014bFaA8F251428D1Bcaea672657b3d02d/?a=12300456482255667200",
+  "sample_moment": "1473",
+  "sample_token_id": "12300456482255667200",
+  "sets": null
+ },
+ "YqrMgPRJ": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xf2060B31BD5d67FEEAc4959b8bE6F4d11387dADc/",
+  "explorer_url": "https://polygonscan.com/token/0xf2060B31BD5d67FEEAc4959b8bE6F4d11387dADc/?a=9963088275650379776",
+  "sample_moment": "822",
+  "sample_token_id": "9963088275650379776",
+  "sets": null
+ },
+ "ebWVvd1G": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xE91453257E28A0D272b2ee145eefc421b9B86523/",
+  "explorer_url": "https://polygonscan.com/token/0xE91453257E28A0D272b2ee145eefc421b9B86523/?a=9225342361691750400",
+  "sample_moment": "1152",
+  "sample_token_id": "9225342361691750400",
+  "sets": null
+ },
+ "gb04X2bA": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x4886aD43E06ac23d510566Da23Af67Be191042ef/",
+  "explorer_url": "https://polygonscan.com/token/0x4886aD43E06ac23d510566Da23Af67Be191042ef/?a=9666132175220637696",
+  "sample_moment": "131",
+  "sample_token_id": "9666132175220637696",
+  "sets": null
+ },
+ "j1ZJ8O1K": {
+  "campaign": null,
+  "contract": null,
+  "explorer_url": "",
+  "sample_moment": "1392",
+  "sample_token_id": "11906954464814170112",
+  "sets": null
+ },
+ "j1ZJOO1K": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xfA93EaE6991EA7E3D89F62f2A1F06923d7786813/",
+  "explorer_url": "https://polygonscan.com/token/0xfA93EaE6991EA7E3D89F62f2A1F06923d7786813/?a=9427159919993290752",
+  "sample_moment": "1151",
+  "sample_token_id": "9427159919993290752",
+  "sets": null
+ },
+ "j1ZJjx1K": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x5380f289EFc082f9afB82A189D10152956fD62e2/",
+  "explorer_url": "https://polygonscan.com/token/0x5380f289EFc082f9afB82A189D10152956fD62e2/?a=12734490896343498752",
+  "sample_moment": "1694",
+  "sample_token_id": "12734490896343498752",
+  "sets": null
+ },
+ "jqGm06bp": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x3a088f170A1a876b448aE152478686148701F2F8/",
+  "explorer_url": "https://polygonscan.com/token/0x3a088f170A1a876b448aE152478686148701F2F8/?a=12094698274280177664",
+  "sample_moment": "1149",
+  "sample_token_id": "12094698274280177664",
+  "sets": null
+ },
+ "jqGmA6bp": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xb33f51d95b9c50B45b76fd4EA552565332c56F6F/",
+  "explorer_url": "https://polygonscan.com/token/0xb33f51d95b9c50B45b76fd4EA552565332c56F6F/?a=9342717426980093952",
+  "sample_moment": "1431",
+  "sample_token_id": "9342717426980093952",
+  "sets": null
+ },
+ "jqGmmrbp": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x28fb22a0173106f9CB4Acc2c394BDd9DbbD49f57/",
+  "explorer_url": "https://polygonscan.com/token/0x28fb22a0173106f9CB4Acc2c394BDd9DbbD49f57/?a=10337449994675552256",
+  "sample_moment": "395",
+  "sample_token_id": "10337449994675552256",
+  "sets": null
+ },
+ "kR7GKGRE": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x91719e5b26C129DC2A96b32E4a40ac19566F6Aac/",
+  "explorer_url": "https://polygonscan.com/token/0x91719e5b26C129DC2A96b32E4a40ac19566F6Aac/?a=10937273170045960192",
+  "sample_moment": "1644",
+  "sample_token_id": "10937273170045960192",
+  "sets": null
+ },
+ "r1Jo7kbv": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xB88Ec90B64BfDb0263B74310BDF25A2f418F163b/",
+  "explorer_url": "https://polygonscan.com/token/0xB88Ec90B64BfDb0263B74310BDF25A2f418F163b/?a=12707750773555986432",
+  "sample_moment": "1904",
+  "sample_token_id": "12707750773555986432",
+  "sets": null
+ },
+ "r1JoLvbv": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x59CC69d25Ff972B1d847Bf4764722E7BABFe80A0/",
+  "explorer_url": "https://polygonscan.com/token/0x59CC69d25Ff972B1d847Bf4764722E7BABFe80A0/?a=10438780986291388416",
+  "sample_moment": "1111",
+  "sample_token_id": "10438780986291388416",
+  "sets": null
+ },
+ "r1JoM3bv": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x9BA1A6C3D4518dde9C7543be78602B9b04cAF8C6/",
+  "explorer_url": "https://polygonscan.com/token/0x9BA1A6C3D4518dde9C7543be78602B9b04cAF8C6/?a=9655717601082343424",
+  "sample_moment": "807",
+  "sample_token_id": "9655717601082343424",
+  "sets": null
+ },
+ "rR8rAl1d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xD32A1dD93c2475E29864Ea97900d8Ebc2B165c9A/",
+  "explorer_url": "https://polygonscan.com/token/0xD32A1dD93c2475E29864Ea97900d8Ebc2B165c9A/?a=10866341475914874880",
+  "sample_moment": "257",
+  "sample_token_id": "10866341475914874880",
+  "sets": null
+ },
+ "rR8rk21d": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xe808FcC0264F28fe981c602fC527B0050360B085/",
+  "explorer_url": "https://polygonscan.com/token/0xe808FcC0264F28fe981c602fC527B0050360B085/?a=10890548323911991296",
+  "sample_moment": "1805",
+  "sample_token_id": "10890548323911991296",
+  "sets": null
+ },
+ "rb2kN6Rd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xFfd4018Ddd6d20C1B97A5ed2265661fb193B87d4/",
+  "explorer_url": "https://polygonscan.com/token/0xFfd4018Ddd6d20C1B97A5ed2265661fb193B87d4/?a=13390046117102616576",
+  "sample_moment": "1049",
+  "sample_token_id": "13390046117102616576",
+  "sets": null
+ },
+ "rb2kg7Rd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x12E62f81B03D5D93AeB28d279DD2Fc8Ce9C94466/",
+  "explorer_url": "https://polygonscan.com/token/0x12E62f81B03D5D93AeB28d279DD2Fc8Ce9C94466/?a=10458484234661134336",
+  "sample_moment": "1297",
+  "sample_token_id": "10458484234661134336",
+  "sets": null
+ },
+ "rb2kkkRd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x9251a22CD8d67f80236B070abd5b1eC072F318D9/",
+  "explorer_url": "https://polygonscan.com/token/0x9251a22CD8d67f80236B070abd5b1eC072F318D9/?a=13494754808438980608",
+  "sample_moment": "313",
+  "sample_token_id": "13494754808438980608",
+  "sets": null
+ },
+ "rb2kwkRd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xEd1e8B0C40B0371e6136cB1E1BE595Dc062b4f6b/",
+  "explorer_url": "https://polygonscan.com/token/0xEd1e8B0C40B0371e6136cB1E1BE595Dc062b4f6b/?a=10648198368964116480",
+  "sample_moment": "87",
+  "sample_token_id": "10648198368964116480",
+  "sets": null
+ },
+ "rb2kx7Rd": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x8CC5625AAC7b64148F9D22aED2Db575938aAB736/",
+  "explorer_url": "https://polygonscan.com/token/0x8CC5625AAC7b64148F9D22aED2Db575938aAB736/?a=12201095815476805632",
+  "sample_moment": "1532",
+  "sample_token_id": "12201095815476805632",
+  "sets": null
+ },
+ "v1yjJQbP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xdc54E8C185E949e9af4c7bbD11221d14f81cBc61/",
+  "explorer_url": "https://polygonscan.com/token/0xdc54E8C185E949e9af4c7bbD11221d14f81cBc61/?a=13487999408997924864",
+  "sample_moment": "1661",
+  "sample_token_id": "13487999408997924864",
+  "sets": null
+ },
+ "v1yjQGbP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x836f7b2c967273fa6c50F49CFF457A56eC411b19/",
+  "explorer_url": "https://polygonscan.com/token/0x836f7b2c967273fa6c50F49CFF457A56eC411b19/?a=13513895106855305216",
+  "sample_moment": "1608",
+  "sample_token_id": "13513895106855305216",
+  "sets": null
+ },
+ "v1yjjzbP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0xCE1eC2de12804DFe62ca02244370873D0c9d9115/",
+  "explorer_url": "https://polygonscan.com/token/0xCE1eC2de12804DFe62ca02244370873D0c9d9115/?a=10459047184614555648",
+  "sample_moment": "365",
+  "sample_token_id": "10459047184614555648",
+  "sets": null
+ },
+ "vbQjvZRZ": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x0A173eB8F69d44cF46EE2f23e1350d51D526a01f/",
+  "explorer_url": "https://polygonscan.com/token/0x0A173eB8F69d44cF46EE2f23e1350d51D526a01f/?a=11980419433735651328",
+  "sample_moment": "1091",
+  "sample_token_id": "11980419433735651328",
+  "sets": null
+ },
+ "yRzEN8bP": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x1A998b61d0B2fC404aD6C17D47BdD93595fa2A36/",
+  "explorer_url": "https://polygonscan.com/token/0x1A998b61d0B2fC404aD6C17D47BdD93595fa2A36/?a=9546223835141898240",
+  "sample_moment": "1496",
+  "sample_token_id": "9546223835141898240",
+  "sets": null
+ },
+ "zqlMMQ1N": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x3Bcca132C0F847771A43937C97a46607BD91B5E5/",
+  "explorer_url": "https://polygonscan.com/token/0x3Bcca132C0F847771A43937C97a46607BD91B5E5/?a=12260205560586043392",
+  "sample_moment": "451",
+  "sample_token_id": "12260205560586043392",
+  "sets": null
+ },
+ "zqlMjN1N": {
+  "campaign": {
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png",
+   "campaign_id": 826,
+   "client": {
+    "company": "NHL",
+    "name": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL"
+  },
+  "contract": "0x68dba606E11020a8271DBF852253d8d81D45F432/",
+  "explorer_url": "https://polygonscan.com/token/0x68dba606E11020a8271DBF852253d8d81D45F432/?a=10541519352790777856",
+  "sample_moment": "1715",
+  "sample_token_id": "10541519352790777856",
+  "sets": null
+ }
+}

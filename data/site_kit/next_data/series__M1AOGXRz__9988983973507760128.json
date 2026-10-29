@@ -1,0 +1,638 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbQP9cjn7bDq5bsSdewr3i76m8EChZcxaCV5iRcvDcAq3"
+       },
+       "content-type": "image/png",
+       "sha256": "sreA2d3KtCoS5l0xdY00vyiRiyFaMNg180jGSFOawfw=",
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVvzxNobTrt41ixPCPwVJUCBRdfqeM7Db6Ds84F6zy53r"
+       },
+       "content-type": "image/png",
+       "sha256": "wKLT7kmHaJoH1aWT10sOA7OgRwYQrpQB33-t2l4MYG8=",
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmadfsnroE6BNqhmt3Mc9HygEdvnuDAbgm9Z65wEjJX2WZ"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOGXRz/9988983973507760128/card-image.png",
+        "purpose": "card-image",
+        "sha256": "TqFquKNgFumho1PP_kgOD6Gtjx9K3S2sX8_EZg660Gs=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOGXRz/9988983973507760128/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmcZXcf7ZBjj9JddcUvxuXsPVS1RNeB71eN2j4rYDNQc3f"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOGXRz/9988983973507760128/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "tXTYog_PiaVYQP_dxjmtTjaPAq6wbs75zvwK1TbBROQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOGXRz/9988983973507760128/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVvzxNobTrt41ixPCPwVJUCBRdfqeM7Db6Ds84F6zy53r"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOGXRz/9988983973507760128/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "wKLT7kmHaJoH1aWT10sOA7OgRwYQrpQB33-t2l4MYG8=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOGXRz/9988983973507760128/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbQP9cjn7bDq5bsSdewr3i76m8EChZcxaCV5iRcvDcAq3"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOGXRz/9988983973507760128/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "sreA2d3KtCoS5l0xdY00vyiRiyFaMNg180jGSFOawfw=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOGXRz/9988983973507760128/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2025-05-18"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fe374100008aa0000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Seth Jones"
+      },
+      {
+       "name": "Rarity",
+       "value": "Rare"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Hoist the Cup 2025"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fe374100000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Florida Panthers"
+      },
+      {
+       "name": "Total Editions",
+       "value": "250"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In Florida\u2019s only series that went the full seven games, defenseman Seth Jones ignited the offense early in the second period, setting the tone for a dominant Panthers performance. Jumping into the rush, Jones carried the puck into the zone, looked off a pass, and rifled a shot far side for his third goal of the postseason.  \r\nJones was a cornerstone of the Panthers\u2019 success, leading the team in ice time with an average of over 25 minutes per game. His steady presence on the blue line and ability to contribute offensively were pivotal in helping Florida secure their second consecutive Stanley Cup championship.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmbQP9cjn7bDq5bsSdewr3i76m8EChZcxaCV5iRcvDcAq3"
+      },
+      "content-type": "image/png",
+      "sha256": "sreA2d3KtCoS5l0xdY00vyiRiyFaMNg180jGSFOawfw=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmTTwAC4kZNxvZ3ym43Wv9x5K2rttrG2kxVhHSAVEnD1SC"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "OsGX1FhIhXyQ_V1i4Ecya4un_tR9kVF4a4PXg0_CkFY=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmRp6eHeD58h73Z8EFJheD4hWgzXx92uQg711sU9G4UPob"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "207347ZxxSINMUP-Va4IqZ6xspyCsg2PHPoj5fYV6yk=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbQP9cjn7bDq5bsSdewr3i76m8EChZcxaCV5iRcvDcAq3"
+       },
+       "content-type": "image/png",
+       "sha256": "sreA2d3KtCoS5l0xdY00vyiRiyFaMNg180jGSFOawfw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmTTwAC4kZNxvZ3ym43Wv9x5K2rttrG2kxVhHSAVEnD1SC"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "OsGX1FhIhXyQ_V1i4Ecya4un_tR9kVF4a4PXg0_CkFY=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRp6eHeD58h73Z8EFJheD4hWgzXx92uQg711sU9G4UPob"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "207347ZxxSINMUP-Va4IqZ6xspyCsg2PHPoj5fYV6yk=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVvzxNobTrt41ixPCPwVJUCBRdfqeM7Db6Ds84F6zy53r"
+       },
+       "content-type": "image/png",
+       "sha256": "wKLT7kmHaJoH1aWT10sOA7OgRwYQrpQB33-t2l4MYG8=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmNnGcvYTxeXguALRX7QMEtsvR3A7PHdqxC13tUJgcFeWX"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "9swpQTifCwalk97-_EEfuNi6RQs3pUgc2N6Vcum6SQo=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmbwBscyySPK1d4MoRae6qCx2xdeDNsj45qdV3w6JkVXU5"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "-XwRSEV15UnHS-A9CY3el-0CxfMcQIdnqKFXcfFqEbk=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-07-10T14:30:50.367214",
+     "name": "Seth Jones #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "51TpjfQYrpcPegRhYqCZ64BJMqh0ruaizQr_mN2SgpE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 9988983973507760000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In Florida\u2019s only series that went the full seven games, defenseman Seth Jones ignited the offense early in the second period, setting the tone for a dominant Panthers performance. Jumping into the rush, Jones carried the puck into the zone, looked off a pass, and rifled a shot far side for his third goal of the postseason.  \r\nJones was a cornerstone of the Panthers\u2019 success, leading the team in ice time with an average of over 25 minutes per game. His steady presence on the blue line and ability to contribute offensively were pivotal in helping Florida secure their second consecutive Stanley Cup championship.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hoist the Cup 2025",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz/9988983973507760128",
+     "pack_uuid": null,
+     "set_id": 93,
+     "set_uuid": "cd2f47fe374100000000000000000000",
+     "moment_id": 35488
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x78fa801c23f9e71Be9B04C39848fF96e4537A161/?a=9988983973507760128",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 13,
+     "name": "Florida Panthers",
+     "abbreviation": "FLA",
+     "short_name": "Florida",
+     "venue_city": "Sunrise",
+     "venue_name": "FLA Live Arena",
+     "key": "FloridaPanthers",
+     "url": "https://www.nhl.com/panthers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/FloridaPanthers.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Hoist the Cup 2025",
+      "description": "<p><em data-stringify-type=\"italic\">Hoist the Cup 2025</em>&nbsp;celebrates the triumphs of the 2025 Stanley Cup champions. This annual Rare collection captures the most electrifying moments from the Florida Panthers journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/c9474aee-39dd-4212-b5ec-0d6e77e6fcd5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz",
+      "uuid": "cd2f47fe374100000000000000000000",
+      "rarity": {
+       "name": "Rare",
+       "editions": 250
+      }
+     },
+     "description": "In Florida\u2019s only series that went the full seven games, defenseman Seth Jones ignited the offense early in the second period, setting the tone for a dominant Panthers performance. Jumping into the rush, Jones carried the puck into the zone, looked off a pass, and rifled a shot far side for his third goal of the postseason.  \r\nJones was a cornerstone of the Panthers\u2019 success, leading the team in ice time with an average of over 25 minutes per game. His steady presence on the blue line and ability to contribute offensively were pivotal in helping Florida secure their second consecutive Stanley Cup championship.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe374100008aa0000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Breakaway Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+       "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/c9474aee-39dd-4212-b5ec-0d6e77e6fcd5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 35488,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOGXRz/moment/9988983973507760128/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOGXRz/moment/9988983973507760128/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOGXRz/moment/9988983973507760128/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOGXRz/moment/9988983973507760128/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOGXRz/moment/9988983973507760128/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOGXRz/moment/9988983973507760128/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOGXRz/moment/9988983973507760128/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOGXRz/moment/9988983973507760128/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/8aa0/images/front.png"
+      }
+     },
+     "editions": 250,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "51TpjfQYrpcPegRhYqCZ64BJMqh0ruaizQr_mN2SgpE=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmU9DPBvDNZHuUBrZbeh9CDRqNqYP8CyREVdsYEGdMU5kK"
+        },
+        "content-type": "image/png",
+        "sha256": "gwa4nPhHxtUFvoKPS8H1g3Xy-zMtDh_WXZvfqtUt9q4=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmU9DPBvDNZHuUBrZbeh9CDRqNqYP8CyREVdsYEGdMU5kK"
+        },
+        "content-type": "image/png",
+        "sha256": "gwa4nPhHxtUFvoKPS8H1g3Xy-zMtDh_WXZvfqtUt9q4=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOGXRz/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Hoist the Cup 2025",
+        "description": "<p><em data-stringify-type=\"italic\">Hoist the Cup 2025</em>&nbsp;celebrates the triumphs of the 2025 Stanley Cup champions. This annual Rare collection captures the most electrifying moments from the Florida Panthers journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 2",
+         "rank": 2
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz"
+      },
+      "name": "Hoist the Cup 2025",
+      "issued": "2025-07-10T14:30:50.367214",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Seth Jones",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Toronto Maple Leafs - Scotiabank Arena (Toronto, ON)",
+       "final_score": "FLA 6, TOR 1 - FINAL",
+       "venue": {
+        "name": "Scotiabank Arena",
+        "location": "Toronto, ON",
+        "team": "TOR"
+       },
+       "away": {
+        "final_score": 6,
+        "team": "FLA"
+       },
+       "home": {
+        "final_score": 1,
+        "team": "TOR"
+       }
+      },
+      "collectible_tagline": "Goal vs TOR | 2nd Period | May 18, 2025",
+      "primary_player": {
+       "name": "Seth Jones",
+       "is_rookie": false,
+       "position": "D",
+       "team": "FLA",
+       "jersey": 3,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2025-05-18",
+       "period": "2nd Period",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs TOR | 2nd Period | May 18, 2025",
+       "clock": "3:15",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-07-10",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Rare",
+      "sorting_position": 40,
+      "editions": 250
+     }
+    },
+    "_metadata": {
+     "name": "Seth Jones",
+     "description": "In Florida\u2019s only series that went the full seven games, defenseman Seth Jones ignited the offense early in the second period, setting the tone for a dominant Panthers performance. Jumping into the rush, Jones carried the puck into the zone, looked off a pass, and rifled a shot far side for his third goal of the postseason.  \r\nJones was a cornerstone of the Panthers\u2019 success, leading the team in ice time with an average of over 25 minutes per game. His steady presence on the blue line and ability to contribute offensively were pivotal in helping Florida secure their second consecutive Stanley Cup championship.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 250,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs TOR | 2nd Period | May 18, 2025",
+     "team": "FLA",
+     "player_name": "Seth Jones",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 6
+       },
+       "home": {
+        "team": "TOR",
+        "final_score": 1
+       },
+       "venue": {
+        "name": "Scotiabank Arena",
+        "team": "TOR",
+        "location": "Toronto, ON"
+       },
+       "game_ends": "FINAL",
+       "final_score": "FLA 6, TOR 1 - FINAL",
+       "venue_location": "Toronto Maple Leafs - Scotiabank Arena (Toronto, ON)"
+      },
+      "moment": {
+       "date": "2025-05-18",
+       "clock": "3:15",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs TOR | 2nd Period | May 18, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Seth Jones",
+       "team": "FLA",
+       "jersey": 3,
+       "status": "NHLPA",
+       "position": "D",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs TOR | 2nd Period | May 18, 2025"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "M1AOGXRz",
+   "tokenId": "9988983973507760128",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Seth Jones",
+     "date": "May 18, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/M1AOGXRz/9988983973507760128",
+    "image": "https://mediagateway.sweet.io/media/token/M1AOGXRz/9988983973507760128/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fe374100008aa0000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "M1AOGXRz",
+  "token_id": "9988983973507760128"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

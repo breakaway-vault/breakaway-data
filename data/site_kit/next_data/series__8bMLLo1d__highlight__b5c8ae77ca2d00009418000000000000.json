@@ -1,0 +1,460 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Joe Sakic",
+     "description": "During Game 4 of the 1996 Western Conference Semifinals, Joe Sakic scored a pivotal goal for the Colorado Avalanche on the road in Chicago to even up the series. Positioned at the side of the net, Sakic redirects Alexei Gusarov\u2019s pass from the point for the game winner in triple overtime. Sakic\u2019s overtime goal was his second of the game. Colorado successfully concluded the series against the Chicago Blackhawks in six games. They continued their playoff journey by overcoming the Detroit Red Wings in the subsequent series. Ultimately, they secured their first-ever Stanley Cup victory by defeating the Florida Panthers in the Stanley Cup Final. Sakic was awarded the Conn Smythe Trophy that year and led all playoff performers in both points (34) and goals (18) of which six were game winners.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Hanging from the Rafters",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "COL",
+        "final_score": 3
+       },
+       "home": {
+        "team": "CHI",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "United Center",
+        "team": "CHI",
+        "location": "Chicago, IL"
+       },
+       "game_ends": "FINAL (3OT)",
+       "final_score": "COL 3, CHI 2 - FINAL (3OT)",
+       "venue_location": "Chicago Blackhawks - United Center (Chicago, IL)"
+      },
+      "moment": {
+       "date": "1996-05-08",
+       "clock": "4:33",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 12
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CHI | Third Overtime | May 8, 1996"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Joe Sakic",
+       "team": "COL",
+       "jersey": 19,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs CHI | Third Overtime | May 8, 1996"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+     "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 21,
+     "name": "Colorado Avalanche",
+     "abbreviation": "COL",
+     "short_name": "Colorado",
+     "venue_city": "Denver",
+     "venue_name": "Ball Arena",
+     "key": "ColoradoAvalanche",
+     "url": "https://www.nhl.com/avalanche",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/ColoradoAvalanche.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/8bMLLo1d/10671279317054390441",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmT4p5ptuyWDfF9oxwucbXKcs4TDQQSXtJofwSurj3ACyn"
+       },
+       "content-type": "image/png",
+       "sha256": "cd42Kt9rCfAX2i7BzrSNErILfxFz6rFb9rlIz0Hs2AQ=",
+       "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUpsU6yK9a8xCaCJT4JLyXhwARm3e2UALY3THBPshhZSC"
+       },
+       "content-type": "image/png",
+       "sha256": "slgZsPlEDRXhcqa80i9bRsre0UpagAaFxQLAXTHL43E=",
+       "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmdj5dqb6vZF28fZAtmgz3rkh9YeEVkGv5NVVRje1cUsZk"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/8bMLLo1d/10671279317054390441/card-image.png",
+        "purpose": "card-image",
+        "sha256": "tH-A2HfDvEmdYmfwOpegh8AuyzNHr0nlSs-eLx-cxHk=",
+        "uri": "https://mediagateway.sweet.io/media/token/8bMLLo1d/10671279317054390441/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRZKeSfvdBcjUs223LvtCUfFzmdUJydhGjHzmXCr4v48g"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/8bMLLo1d/10671279317054390441/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "7DV3Qh9nlJ7LmypbJWwR5yUUgeanAbDGw-Mhld37RIc=",
+        "uri": "https://mediagateway.sweet.io/media/token/8bMLLo1d/10671279317054390441/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUpsU6yK9a8xCaCJT4JLyXhwARm3e2UALY3THBPshhZSC"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/8bMLLo1d/10671279317054390441/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "slgZsPlEDRXhcqa80i9bRsre0UpagAaFxQLAXTHL43E=",
+        "uri": "https://mediagateway.sweet.io/media/token/8bMLLo1d/10671279317054390441/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmT4p5ptuyWDfF9oxwucbXKcs4TDQQSXtJofwSurj3ACyn"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/8bMLLo1d/10671279317054390441/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "cd42Kt9rCfAX2i7BzrSNErILfxFz6rFb9rlIz0Hs2AQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/8bMLLo1d/10671279317054390441/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "1996-05-08",
+      "edition-number": "170",
+      "moment-uuid": "b5c8ae77ca2d00009418000000000000",
+      "play": "Goal",
+      "player": "Joe Sakic",
+      "rarity": "Rare",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Hanging from the Rafters",
+      "set-uuid": "b5c8ae77ca2d00000000000000000000",
+      "team": "Colorado Avalanche",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "During Game 4 of the 1996 Western Conference Semifinals, Joe Sakic scored a pivotal goal for the Colorado Avalanche on the road in Chicago to even up the series. Positioned at the side of the net, Sakic redirects Alexei Gusarov\u2019s pass from the point for the game winner in triple overtime. Sakic\u2019s overtime goal was his second of the game. Colorado successfully concluded the series against the Chicago Blackhawks in six games. They continued their playoff journey by overcoming the Detroit Red Wings in the subsequent series. Ultimately, they secured their first-ever Stanley Cup victory by defeating the Florida Panthers in the Stanley Cup Final. Sakic was awarded the Conn Smythe Trophy that year and led all playoff performers in both points (34) and goals (18) of which six were game winners.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 170,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmT4p5ptuyWDfF9oxwucbXKcs4TDQQSXtJofwSurj3ACyn"
+      },
+      "content-type": "image/png",
+      "sha256": "cd42Kt9rCfAX2i7BzrSNErILfxFz6rFb9rlIz0Hs2AQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmUpBWChu7BFFvrP2yPYZys39iFv1nJYpa93NoCovdEMdJ"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "0TUZaYpgOyNBS8fBXu2hz4gPj_aYEk35Z25RFJFeIqY=",
+        "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmRiAxMngCJ3n94fXvzd5w5bUUNUmbUahcJxcpe6pi95Jo"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "_jSKy8vx2CmfW4b-vBj2f7bBzmIqi5nMtu4vh8kkKUk=",
+        "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmT4p5ptuyWDfF9oxwucbXKcs4TDQQSXtJofwSurj3ACyn"
+       },
+       "content-type": "image/png",
+       "sha256": "cd42Kt9rCfAX2i7BzrSNErILfxFz6rFb9rlIz0Hs2AQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmUpBWChu7BFFvrP2yPYZys39iFv1nJYpa93NoCovdEMdJ"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "0TUZaYpgOyNBS8fBXu2hz4gPj_aYEk35Z25RFJFeIqY=",
+         "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRiAxMngCJ3n94fXvzd5w5bUUNUmbUahcJxcpe6pi95Jo"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "_jSKy8vx2CmfW4b-vBj2f7bBzmIqi5nMtu4vh8kkKUk=",
+         "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUpsU6yK9a8xCaCJT4JLyXhwARm3e2UALY3THBPshhZSC"
+       },
+       "content-type": "image/png",
+       "sha256": "slgZsPlEDRXhcqa80i9bRsre0UpagAaFxQLAXTHL43E=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmTv4XgUDREyzEgemaDC73q2XWa6ZKV2ipNrWavy79N4He"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "TixzFp0iEPf8RabBVi_V86o8dzxj_VXlEEiXCsliqPY=",
+         "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmNkZghL8rE8sTCZZioFjWGBoauQyc8MCjSyBEgvnB2TZU"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "vEypDs9TRFg_MUBW1iRbsWZTkDReWFyb7NUEog5zWYA=",
+         "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/8bMLLo1d/9418/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-06-18T16:44:51.908687",
+     "name": "Joe Sakic #170",
+     "network": "matic",
+     "sequence_number": "10671279317054390441",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "During Game 4 of the 1996 Western Conference Semifinals, Joe Sakic scored a pivotal goal for the Colorado Avalanche on the road in Chicago to even up the series. Positioned at the side of the net, Sakic redirects Alexei Gusarov\u2019s pass from the point for the game winner in triple overtime. Sakic\u2019s overtime goal was his second of the game. Colorado successfully concluded the series against the Chicago Blackhawks in six games. They continued their playoff journey by overcoming the Detroit Red Wings in the subsequent series. Ultimately, they secured their first-ever Stanley Cup victory by defeating the Florida Panthers in the Stanley Cup Final. Sakic was awarded the Conn Smythe Trophy that year and led all playoff performers in both points (34) and goals (18) of which six were game winners.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hanging from the Rafters",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/8bMLLo1d",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Joe Sakic #170",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "1996-05-08"
+      },
+      {
+       "key": "edition-number",
+       "value": "170"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77ca2d00009418000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Joe Sakic"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Hanging from the Rafters"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77ca2d00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Colorado Avalanche"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77ca2d00009418000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/eqeVZObB",
+       "listing_id": "eqeVZObB",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 4,
+       "starts_at": "2026-10-24T08:09:53",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x857D179023C1aeeDdbF27C1cE1fC6D31391ac0e5/?a=10671279317054390441",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "8bMLLo1d",
+   "momentUuid": "b5c8ae77ca2d00009418000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Joe Sakic",
+     "date": "May 8, 1996"
+    },
+    "url": "https://nhlbreakaway.com/series/8bMLLo1d/highlight/b5c8ae77ca2d00009418000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/8bMLLo1d/10671279317054390441/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "8bMLLo1d",
+  "moment_uuid": "b5c8ae77ca2d00009418000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

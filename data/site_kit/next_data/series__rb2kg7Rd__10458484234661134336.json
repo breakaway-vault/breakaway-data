@@ -1,0 +1,626 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmNRNmg6m6xcppQQZUDWTrgChBxYgVY1ts2tSwdrumyEVf"
+       },
+       "content-type": "image/png",
+       "sha256": "x-VXIwLkuEDK8A-HOkJMDdw-G2AsfVU8aN8f33oPrgQ=",
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qmeb36phPUphkrYGEwatW3Bhfktix3iANDeuG1hSAFiTi4"
+       },
+       "content-type": "image/png",
+       "sha256": "NyK2hK6F8K8Wb83wvkVANsYnl3osTAzoHVddxHTe1EM=",
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRTCuaD9oo3dJPtZ3DQQfYHsz9vxf5Si2THyd8ntYTtJG"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kg7Rd/10458484234661134336/card-image.png",
+        "purpose": "card-image",
+        "sha256": "CYkOibFQ_UotLvm3ah-Ei_RCfG7DgvxhISnLb1pqV6o=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kg7Rd/10458484234661134336/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNjH77YbihXEWWG6294ai97qLQEzUmZYWkSQZWgYpxfg9"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kg7Rd/10458484234661134336/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "OB8-JqEq_tGU9r73tK29jbQ69cm9R1emCGXFszE2zSc=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kg7Rd/10458484234661134336/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmeb36phPUphkrYGEwatW3Bhfktix3iANDeuG1hSAFiTi4"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kg7Rd/10458484234661134336/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "NyK2hK6F8K8Wb83wvkVANsYnl3osTAzoHVddxHTe1EM=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kg7Rd/10458484234661134336/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNRNmg6m6xcppQQZUDWTrgChBxYgVY1ts2tSwdrumyEVf"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kg7Rd/10458484234661134336/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "x-VXIwLkuEDK8A-HOkJMDdw-G2AsfVU8aN8f33oPrgQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kg7Rd/10458484234661134336/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2025-05-04"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fe3c8100009124000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Cole Perfetti"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "The Hunt for Stanley 2025"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fe3c8100000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Winnipeg Jets"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "With their season on the line in Game 7, Cole Perfetti and the Jets fought desperately to stay alive. Already on the scoresheet earlier in the game, Perfetti delivered in dramatic fashion, scoring with just three seconds left in regulation\u2014the latest game-tying goal in a Game 7 in NHL history.  \r\nStationed in front of the net, Perfetti redirected the puck past the goaltender, igniting an electric roar from the Winnipeg crowd and forcing overtime. Thanks to Perfetti\u2019s clutch heroics, the Jets seized their moment in the extra frame, clinching the series on Adam Lowry\u2019s game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmNRNmg6m6xcppQQZUDWTrgChBxYgVY1ts2tSwdrumyEVf"
+      },
+      "content-type": "image/png",
+      "sha256": "x-VXIwLkuEDK8A-HOkJMDdw-G2AsfVU8aN8f33oPrgQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmZLuK2JPs5mEPcQDBPc9VDDTeM2JTfiX15tT3diVmJ2vu"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "EAtxxmACltxQn2j5mkhzSHtbR7Vi7LzD0Bc7C5fcY_8=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXrMz3Zhrh9Y8hYtpd1P73G4zbtazcvGCotWMPgUYMJua"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "jh8IuPL2lXzpQTU0TIJnN8z3W6dJ-g3OU6Hx3AOtAq8=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmNRNmg6m6xcppQQZUDWTrgChBxYgVY1ts2tSwdrumyEVf"
+       },
+       "content-type": "image/png",
+       "sha256": "x-VXIwLkuEDK8A-HOkJMDdw-G2AsfVU8aN8f33oPrgQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmZLuK2JPs5mEPcQDBPc9VDDTeM2JTfiX15tT3diVmJ2vu"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "EAtxxmACltxQn2j5mkhzSHtbR7Vi7LzD0Bc7C5fcY_8=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXrMz3Zhrh9Y8hYtpd1P73G4zbtazcvGCotWMPgUYMJua"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "jh8IuPL2lXzpQTU0TIJnN8z3W6dJ-g3OU6Hx3AOtAq8=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qmeb36phPUphkrYGEwatW3Bhfktix3iANDeuG1hSAFiTi4"
+       },
+       "content-type": "image/png",
+       "sha256": "NyK2hK6F8K8Wb83wvkVANsYnl3osTAzoHVddxHTe1EM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmXdwYdancYnYPwBdC76Sc6UpWtGV2xMwwp8Tu6c5AkPd7"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "xIwkuViCa9SJV6Jsw1zz7YhOnPvrm4RwnVPNbApIXzg=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmPcokYRkTpvToKRpVgMc3bDTpdEtSenN1PPX5HYqKVskS"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "GQ4A94EnksdMkrovW-ev1ZVYccw5KLuaQnfdOV26Wn0=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-06-04T00:25:54.927121",
+     "name": "Cole Perfetti #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "irjOaQ6Nh_1x2emPnHHo8f0Ho41LgP-2AtCbASjVp2E=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 10458484234661134000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "With their season on the line in Game 7, Cole Perfetti and the Jets fought desperately to stay alive. Already on the scoresheet earlier in the game, Perfetti delivered in dramatic fashion, scoring with just three seconds left in regulation\u2014the latest game-tying goal in a Game 7 in NHL history.  \r\nStationed in front of the net, Perfetti redirected the puck past the goaltender, igniting an electric roar from the Winnipeg crowd and forcing overtime. Thanks to Perfetti\u2019s clutch heroics, the Jets seized their moment in the extra frame, clinching the series on Adam Lowry\u2019s game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Hunt for Stanley 2025",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/10458484234661134336",
+     "pack_uuid": null,
+     "set_id": 92,
+     "set_uuid": "cd2f47fe3c8100000000000000000000",
+     "moment_id": 37156
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x12E62f81B03D5D93AeB28d279DD2Fc8Ce9C94466/?a=10458484234661134336",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 52,
+     "name": "Winnipeg Jets",
+     "abbreviation": "WPG",
+     "short_name": "Winnipeg",
+     "venue_city": "Winnipeg",
+     "venue_name": "Canada Life Centre",
+     "key": "WinnipegJets",
+     "url": "https://www.nhl.com/jets",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/WinnipegJets.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "The Hunt for Stanley 2025",
+      "description": "<p>The Hunt for Stanley 2025 features the most exhilarating highlights from the first three rounds of the 2025 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/dd4c0ea8-56bd-4f01-aa91-f4a2df650222.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd",
+      "uuid": "cd2f47fe3c8100000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "With their season on the line in Game 7, Cole Perfetti and the Jets fought desperately to stay alive. Already on the scoresheet earlier in the game, Perfetti delivered in dramatic fashion, scoring with just three seconds left in regulation\u2014the latest game-tying goal in a Game 7 in NHL history.  \r\nStationed in front of the net, Perfetti redirected the puck past the goaltender, igniting an electric roar from the Winnipeg crowd and forcing overtime. Thanks to Perfetti\u2019s clutch heroics, the Jets seized their moment in the extra frame, clinching the series on Adam Lowry\u2019s game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe3c8100009124000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/dd4c0ea8-56bd-4f01-aa91-f4a2df650222.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 37156,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/rb2kg7Rd/moment/10458484234661134336/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/rb2kg7Rd/moment/10458484234661134336/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/rb2kg7Rd/moment/10458484234661134336/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/rb2kg7Rd/moment/10458484234661134336/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/rb2kg7Rd/moment/10458484234661134336/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/rb2kg7Rd/moment/10458484234661134336/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/rb2kg7Rd/moment/10458484234661134336/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/rb2kg7Rd/moment/10458484234661134336/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/9124/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "s-Ugh2FpTOpOFOWhtwLk7gAmLdJ2NHuDQmJr6ja6FMc=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmVdsJsXM7oAfgMMENhwt6d35ocGGoery6bdodRSynS2DK"
+        },
+        "content-type": "image/png",
+        "sha256": "z_dPCpTIVB03V1-3N0nC7oFdihDHWW1btOtUIpvKOvw=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmVdsJsXM7oAfgMMENhwt6d35ocGGoery6bdodRSynS2DK"
+        },
+        "content-type": "image/png",
+        "sha256": "z_dPCpTIVB03V1-3N0nC7oFdihDHWW1btOtUIpvKOvw=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kg7Rd/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "The Hunt for Stanley 2025",
+        "description": "<p>The Hunt for Stanley 2025 features the most exhilarating highlights from the first three rounds of the 2025 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd"
+      },
+      "name": "The Hunt for Stanley 2025",
+      "issued": "2025-06-25T18:16:58.620962",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Cole Perfetti",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL (2OT)",
+       "venue_location": "Winnipeg Jets - Canada Life Centre (Winnipeg, MB)",
+       "final_score": "STL 3, WPG 4 - FINAL (2OT)",
+       "venue": {
+        "name": "Canada Life Centre",
+        "location": "Winnipeg, MB",
+        "team": "WPG"
+       },
+       "away": {
+        "final_score": 3,
+        "team": "STL"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "WPG"
+       }
+      },
+      "collectible_tagline": "Goal vs STL | 3rd Period | May 4, 2025",
+      "primary_player": {
+       "name": "Cole Perfetti",
+       "is_rookie": false,
+       "position": "C",
+       "team": "WPG",
+       "jersey": 91,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2025-05-04",
+       "period": "3rd Period",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs STL | 3rd Period | May 4, 2025",
+       "clock": "19:57",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-06-04",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Cole Perfetti",
+     "description": "With their season on the line in Game 7, Cole Perfetti and the Jets fought desperately to stay alive. Already on the scoresheet earlier in the game, Perfetti delivered in dramatic fashion, scoring with just three seconds left in regulation\u2014the latest game-tying goal in a Game 7 in NHL history.  \r\nStationed in front of the net, Perfetti redirected the puck past the goaltender, igniting an electric roar from the Winnipeg crowd and forcing overtime. Thanks to Perfetti\u2019s clutch heroics, the Jets seized their moment in the extra frame, clinching the series on Adam Lowry\u2019s game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png"
+     },
+     "video_overlay_text": "Goal vs STL | 3rd Period | May 4, 2025",
+     "team": "WPG",
+     "player_name": "Cole Perfetti",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "STL",
+        "final_score": 3
+       },
+       "home": {
+        "team": "WPG",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Canada Life Centre",
+        "team": "WPG",
+        "location": "Winnipeg, MB"
+       },
+       "game_ends": "FINAL (2OT)",
+       "final_score": "STL 3, WPG 4 - FINAL (2OT)",
+       "venue_location": "Winnipeg Jets - Canada Life Centre (Winnipeg, MB)"
+      },
+      "moment": {
+       "date": "2025-05-04",
+       "clock": "19:57",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs STL | 3rd Period | May 4, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Cole Perfetti",
+       "team": "WPG",
+       "jersey": 91,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs STL | 3rd Period | May 4, 2025"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "rb2kg7Rd",
+   "tokenId": "10458484234661134336",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Cole Perfetti",
+     "date": "May 4, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/rb2kg7Rd/10458484234661134336",
+    "image": "https://mediagateway.sweet.io/media/token/rb2kg7Rd/10458484234661134336/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fe3c8100009124000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "rb2kg7Rd",
+  "token_id": "10458484234661134336"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

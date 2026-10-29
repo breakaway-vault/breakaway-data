@@ -1,0 +1,626 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQuRdSidNHhdV2WnRpDZTJBbRUDJQKxUewzJNGKZcWusn"
+       },
+       "content-type": "image/png",
+       "sha256": "GXYOm-9WNqUCTqkKG1jgytCIis3WKZ-XDVG1u7GdJ-4=",
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYzx5hRYmkJTy47FqEAnd3K5Z37r5LE5TXpSnNsgT5HSF"
+       },
+       "content-type": "image/png",
+       "sha256": "_MAFqDqkveg9AZ1zXVUsqtIbFj4TnQkXBKcE5csHF_g=",
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdCNfnBxKZosRWdiyjQYyJRnMepFmtXHg5HPNu2pBbAfK"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/VqmoD3bg/13649284570653130752/card-image.png",
+        "purpose": "card-image",
+        "sha256": "Ynv00rq6Ad23Y3DOGeV4lwdMdUTfDJEnfK2QGpUTsoM=",
+        "uri": "https://mediagateway.sweet.io/media/token/VqmoD3bg/13649284570653130752/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVz9XZmw3DHckZTnBP6G9T6gmHnauMXocKWuHrNS4fjBU"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/VqmoD3bg/13649284570653130752/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "EQMmRUJbf-e69pNnzpI4iZi5Be6NzF66DFEhtG7SYZk=",
+        "uri": "https://mediagateway.sweet.io/media/token/VqmoD3bg/13649284570653130752/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYzx5hRYmkJTy47FqEAnd3K5Z37r5LE5TXpSnNsgT5HSF"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/VqmoD3bg/13649284570653130752/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "_MAFqDqkveg9AZ1zXVUsqtIbFj4TnQkXBKcE5csHF_g=",
+        "uri": "https://mediagateway.sweet.io/media/token/VqmoD3bg/13649284570653130752/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQuRdSidNHhdV2WnRpDZTJBbRUDJQKxUewzJNGKZcWusn"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/VqmoD3bg/13649284570653130752/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "GXYOm-9WNqUCTqkKG1jgytCIis3WKZ-XDVG1u7GdJ-4=",
+        "uri": "https://mediagateway.sweet.io/media/token/VqmoD3bg/13649284570653130752/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2002-04-25"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b572cf353ad10000bd6c000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Sergei Fedorov"
+      },
+      {
+       "name": "Rarity",
+       "value": "Epic"
+      },
+      {
+       "name": "Series",
+       "value": "Series 3"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Cause for a Celly: 2000s"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b572cf353ad100000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Detroit Red Wings"
+      },
+      {
+       "name": "Total Editions",
+       "value": "100"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmQuRdSidNHhdV2WnRpDZTJBbRUDJQKxUewzJNGKZcWusn"
+      },
+      "content-type": "image/png",
+      "sha256": "GXYOm-9WNqUCTqkKG1jgytCIis3WKZ-XDVG1u7GdJ-4=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmaQLY7gK13TiKSgUBXM6ydgWijvumXPJu6QhQEvpRHr4Z"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "AflRtsWfde25psYvQF1itIOup56M_J1ExHIfxRTGxhY=",
+        "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXezUfAUmmMVYqQhzxoxm1YTXw92qm7fKrybpQYid9jcu"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "-6WqdQkAHob2px_WW2z1SPd8bW6GCIEYyGKNnqO5E7o=",
+        "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQuRdSidNHhdV2WnRpDZTJBbRUDJQKxUewzJNGKZcWusn"
+       },
+       "content-type": "image/png",
+       "sha256": "GXYOm-9WNqUCTqkKG1jgytCIis3WKZ-XDVG1u7GdJ-4=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmaQLY7gK13TiKSgUBXM6ydgWijvumXPJu6QhQEvpRHr4Z"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "AflRtsWfde25psYvQF1itIOup56M_J1ExHIfxRTGxhY=",
+         "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXezUfAUmmMVYqQhzxoxm1YTXw92qm7fKrybpQYid9jcu"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "-6WqdQkAHob2px_WW2z1SPd8bW6GCIEYyGKNnqO5E7o=",
+         "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYzx5hRYmkJTy47FqEAnd3K5Z37r5LE5TXpSnNsgT5HSF"
+       },
+       "content-type": "image/png",
+       "sha256": "_MAFqDqkveg9AZ1zXVUsqtIbFj4TnQkXBKcE5csHF_g=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qme2bDn9nFQYqQzdxfU4i6XpR9XZYRLGR42LwcBz6QF9pb"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "QDiEhbFVKFhWxbYsjZFt3IH7Ndt-wIltaKqEf80N878=",
+         "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmVKa3ahtrH9SQLenXaJoJdczdAPQqPmMaTVxvMaq7GJiD"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "xoeNLrKCtC1l5Rn7MzST6tNTEHxtIIYgyRejEYN6pno=",
+         "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-10-06T16:04:08.934484",
+     "name": "Sergei Fedorov #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "prwvTNtwLgMTf_wmJhYsjFQeTnzqLeVxSHSjq5H7alo=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 13649284570653130000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Cause for a Celly: 2000s",
+       "rarity": {
+        "name": "Tier 3",
+        "rank": 3
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg/13649284570653130752",
+     "pack_uuid": null,
+     "set_id": 101,
+     "set_uuid": "b572cf353ad100000000000000000000",
+     "moment_id": 48492
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xF8248F741bEf6A79CBCaf24DF355D8faD3879169/?a=13649284570653130752",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 17,
+     "name": "Detroit Red Wings",
+     "abbreviation": "DET",
+     "short_name": "Detroit",
+     "venue_city": "Detroit",
+     "venue_name": "Little Caesars Arena",
+     "key": "DetroitRedWings",
+     "url": "https://www.nhl.com/redwings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/DetroitRedWings.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Cause for a Celly: 2000s",
+      "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/4cd8f46e-010e-45ca-b160-944a1eff2e80.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg",
+      "uuid": "b572cf353ad100000000000000000000",
+      "rarity": {
+       "name": "Epic",
+       "editions": 100
+      }
+     },
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf353ad10000bd6c000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      }
+     ],
+     "token_series": {
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/4cd8f46e-010e-45ca-b160-944a1eff2e80.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "moment_id": 48492,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/VqmoD3bg/moment/13649284570653130752/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/VqmoD3bg/moment/13649284570653130752/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/VqmoD3bg/moment/13649284570653130752/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/VqmoD3bg/moment/13649284570653130752/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/VqmoD3bg/moment/13649284570653130752/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/VqmoD3bg/moment/13649284570653130752/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/VqmoD3bg/moment/13649284570653130752/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/VqmoD3bg/moment/13649284570653130752/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/bd6c/images/front.png"
+      }
+     },
+     "editions": 100,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "ydIJr1IDsQ8aiHYlXSb2gBwC3qbf1B6wzKQ5d3NPGxs=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmaLjbERWkKCWrrw3KKQr4cV1xwrjLiQDA6JphSShVyabZ"
+        },
+        "content-type": "image/png",
+        "sha256": "hfdiB8InrPi1GaMA1dFRDQU7th8Mky60tbgdUkVQiS8=",
+        "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmaLjbERWkKCWrrw3KKQr4cV1xwrjLiQDA6JphSShVyabZ"
+        },
+        "content-type": "image/png",
+        "sha256": "hfdiB8InrPi1GaMA1dFRDQU7th8Mky60tbgdUkVQiS8=",
+        "url": "https://nft.nhlbreakaway.com/series/VqmoD3bg/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Cause for a Celly: 2000s",
+        "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 3",
+         "rank": 3
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg"
+      },
+      "name": "Cause for a Celly: 2000s",
+      "issued": "2025-11-06T17:53:29.926778",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Sergei Fedorov",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)",
+       "final_score": "VAN 0, DET 4 - FINAL",
+       "venue": {
+        "name": "Joe Louis Arena",
+        "location": "Detroit, MI",
+        "team": "DET"
+       },
+       "away": {
+        "final_score": 0,
+        "team": "VAN"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "DET"
+       }
+      },
+      "collectible_tagline": "Goal vs VAN | 1st Period | Apr 25, 2002",
+      "primary_player": {
+       "name": "Sergei Fedorov",
+       "is_rookie": false,
+       "position": "C",
+       "team": "DET",
+       "jersey": 91,
+       "status": "NHLAA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2002-04-25",
+       "period": "1st Period",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002",
+       "clock": "18:31",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-10-06",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Epic",
+      "sorting_position": 50,
+      "editions": 100
+     }
+    },
+    "_metadata": {
+     "name": "Sergei Fedorov",
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 100,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png"
+     },
+     "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002",
+     "team": "DET",
+     "player_name": "Sergei Fedorov",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "VAN",
+        "final_score": 0
+       },
+       "home": {
+        "team": "DET",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Joe Louis Arena",
+        "team": "DET",
+        "location": "Detroit, MI"
+       },
+       "game_ends": "FINAL",
+       "final_score": "VAN 0, DET 4 - FINAL",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)"
+      },
+      "moment": {
+       "date": "2002-04-25",
+       "clock": "18:31",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Sergei Fedorov",
+       "team": "DET",
+       "jersey": 91,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs VAN | 1st Period | Apr 25, 2002"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "VqmoD3bg",
+   "tokenId": "13649284570653130752",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Sergei Fedorov",
+     "date": "April 25, 2002"
+    },
+    "url": "https://nhlbreakaway.com/series/VqmoD3bg/13649284570653130752",
+    "image": "https://mediagateway.sweet.io/media/token/VqmoD3bg/13649284570653130752/poster-image-16x9.png"
+   },
+   "momentUuid": "b572cf353ad10000bd6c000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "VqmoD3bg",
+  "token_id": "13649284570653130752"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

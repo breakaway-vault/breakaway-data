@@ -1,0 +1,457 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Adam Lowry",
+     "description": "After making a defensive play on Matthew Tkachuk during a Florida Panthers power play where he loses his stick, Adam Lowry skates towards the puck. As he kicks it forward with his skate, he is handed another stick from the bench at the same time. Now on a two on one, Lowry sends a backhander over to Mason Appleton who finishes the play earning Lowry the apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Signature Cores",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Heroic",
+     "editions": 5,
+     "badges": {
+      "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "Signature Quest III Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/84337975-543e-4953-b5a5-835bc31c372c.png"
+     },
+     "video_overlay_text": "Assist vs FLA | 3rd Period | Oct 14, 2023",
+     "team": "WPG",
+     "player_name": "Adam Lowry",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 4
+       },
+       "home": {
+        "team": "WPG",
+        "final_score": 6
+       },
+       "venue": {
+        "name": "Canada Life Centre",
+        "team": "WPG",
+        "location": "Winnipeg, MB"
+       },
+       "game_ends": "FINAL",
+       "final_score": "FLA 4, WPG 6 - FINAL",
+       "venue_location": "Winnipeg Jets - Canada Life Centre (Winnipeg, MB)"
+      },
+      "moment": {
+       "date": "2023-10-14",
+       "clock": "14:17",
+       "event": "Assist",
+       "extra": {
+        "assist_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Assist vs FLA | 3rd Period | Oct 14, 2023"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Adam Lowry",
+       "team": "WPG",
+       "jersey": 17,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Assist vs FLA | 3rd Period | Oct 14, 2023"
+     }
+    },
+    "_badges": {
+     "Signature Quest III Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/84337975-543e-4953-b5a5-835bc31c372c.png",
+     "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Signature Quest III Badge",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/84337975-543e-4953-b5a5-835bc31c372c.png",
+      "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Signature Quest III Badge",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/84337975-543e-4953-b5a5-835bc31c372c.png",
+      "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 52,
+     "name": "Winnipeg Jets",
+     "abbreviation": "WPG",
+     "short_name": "Winnipeg",
+     "venue_city": "Winnipeg",
+     "venue_name": "Canada Life Centre",
+     "key": "WinnipegJets",
+     "url": "https://www.nhl.com/jets",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/WinnipegJets.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/12857213986189344769",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmSWwT4g1npH5BPy9innxJjMWxmyLdC5VZiniR5UFxjFdm"
+       },
+       "content-type": "image/png",
+       "sha256": "c81K6Pb10kwZD9sdoBLMemC7eX6kJOyiipc4dSirBQo=",
+       "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmPv9VEoDjDttgoomJwq1heK7nGprVrs3jJBepmDFAmpfK"
+       },
+       "content-type": "image/png",
+       "sha256": "zsmJaC-83FTIBRoWA6fp1XmV-1v6O8smhiHyAP4KSn0=",
+       "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVgSTT77D1BtbCkQUt3gjM8BMRT89r927x9VEbHgFbppF"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/zqlMMQ1N/12857213986189344769/card-image.png",
+        "purpose": "card-image",
+        "sha256": "afvsNhLSkoaNQyRJ5VPCNHnwxptDj516Soxfqe7VumA=",
+        "uri": "https://mediagateway.sweet.io/media/token/zqlMMQ1N/12857213986189344769/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmP1oruydCt4F6TjpfDyyb6cx6ua2Xf5kWjnvi7KbU7dzR"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/zqlMMQ1N/12857213986189344769/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "TwmgopefCfYFTg2EbjnCXWI_7NTwz4FanPDCYbldH7E=",
+        "uri": "https://mediagateway.sweet.io/media/token/zqlMMQ1N/12857213986189344769/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPv9VEoDjDttgoomJwq1heK7nGprVrs3jJBepmDFAmpfK"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/zqlMMQ1N/12857213986189344769/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "zsmJaC-83FTIBRoWA6fp1XmV-1v6O8smhiHyAP4KSn0=",
+        "uri": "https://mediagateway.sweet.io/media/token/zqlMMQ1N/12857213986189344769/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmSWwT4g1npH5BPy9innxJjMWxmyLdC5VZiniR5UFxjFdm"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/zqlMMQ1N/12857213986189344769/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "c81K6Pb10kwZD9sdoBLMemC7eX6kJOyiipc4dSirBQo=",
+        "uri": "https://mediagateway.sweet.io/media/token/zqlMMQ1N/12857213986189344769/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "crafted-from-editions": "1043,1355,1426,1445,1218,1286,1209,962,983,985,947,559,842,156,217",
+      "crafted-from-rarity": "Core",
+      "date": "2023-10-14",
+      "edition-number": "2",
+      "moment-uuid": "b5c8ae7734180000b26e000000000000",
+      "play": "Assist",
+      "player": "Adam Lowry",
+      "rarity": "Heroic",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Signature Cores",
+      "set-uuid": "b5c8ae77341800000000000000000000",
+      "team": "Winnipeg Jets"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "After making a defensive play on Matthew Tkachuk during a Florida Panthers power play where he loses his stick, Adam Lowry skates towards the puck. As he kicks it forward with his skate, he is handed another stick from the bench at the same time. Now on a two on one, Lowry sends a backhander over to Mason Appleton who finishes the play earning Lowry the apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 2,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmSWwT4g1npH5BPy9innxJjMWxmyLdC5VZiniR5UFxjFdm"
+      },
+      "content-type": "image/png",
+      "sha256": "c81K6Pb10kwZD9sdoBLMemC7eX6kJOyiipc4dSirBQo=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmVhZGSzU9UuuFF6SafNUHpJBBHBrxQmPRfwjbCBsst5m1"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "ln8tccHTnoAHndFvqhm6CSAysAH91vCmjRUba4OdCuA=",
+        "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmbckEDqpMtjsPfcusPnMWWsMJ2eZ37TLXNNqQMUCmi9gT"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "DvcOKh9eV45VrJvw9p9VPlnKSWLFBgsnzm4RGSmZqO4=",
+        "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmSWwT4g1npH5BPy9innxJjMWxmyLdC5VZiniR5UFxjFdm"
+       },
+       "content-type": "image/png",
+       "sha256": "c81K6Pb10kwZD9sdoBLMemC7eX6kJOyiipc4dSirBQo=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmVhZGSzU9UuuFF6SafNUHpJBBHBrxQmPRfwjbCBsst5m1"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "ln8tccHTnoAHndFvqhm6CSAysAH91vCmjRUba4OdCuA=",
+         "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmbckEDqpMtjsPfcusPnMWWsMJ2eZ37TLXNNqQMUCmi9gT"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "DvcOKh9eV45VrJvw9p9VPlnKSWLFBgsnzm4RGSmZqO4=",
+         "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmPv9VEoDjDttgoomJwq1heK7nGprVrs3jJBepmDFAmpfK"
+       },
+       "content-type": "image/png",
+       "sha256": "zsmJaC-83FTIBRoWA6fp1XmV-1v6O8smhiHyAP4KSn0=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmWy6o4XXu6iRzBedp33rXxjbHzTphgczXX9mTgJA39wUa"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "mClahRT3F6KSqHakr4HLo30CHyER-RjbYq7spgZ5I7c=",
+         "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmViA9ZiCWGRKXUBxekfTZ9X5KFZEx7XPquqCCN2P2hvvD"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "h9rByolXdd2C1Ekn945AXTri4pTsEntLAIY5taLvbYM=",
+         "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/zqlMMQ1N/b26e/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-01-09T18:04:48.038104",
+     "name": "Adam Lowry #2",
+     "network": "matic",
+     "sequence_number": "12857213986189344769",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "After making a defensive play on Matthew Tkachuk during a Florida Panthers power play where he loses his stick, Adam Lowry skates towards the puck. As he kicks it forward with his skate, he is handed another stick from the bench at the same time. Now on a two on one, Lowry sends a backhander over to Mason Appleton who finishes the play earning Lowry the apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Signature Cores",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/zqlMMQ1N",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Adam Lowry #2",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "crafted-from-editions",
+       "value": "1043,1355,1426,1445,1218,1286,1209,962,983,985,947,559,842,156,217"
+      },
+      {
+       "key": "crafted-from-rarity",
+       "value": "Core"
+      },
+      {
+       "key": "date",
+       "value": "2023-10-14"
+      },
+      {
+       "key": "edition-number",
+       "value": "2"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae7734180000b26e000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Assist"
+      },
+      {
+       "key": "player",
+       "value": "Adam Lowry"
+      },
+      {
+       "key": "rarity",
+       "value": "Heroic"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Signature Cores"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77341800000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Winnipeg Jets"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae7734180000b26e000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/zBOK6obB",
+       "listing_id": "zBOK6obB",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 25,
+       "starts_at": "2026-07-31T21:15:22",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x3Bcca132C0F847771A43937C97a46607BD91B5E5/?a=12857213986189344769",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "zqlMMQ1N",
+   "momentUuid": "b5c8ae7734180000b26e000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Adam Lowry",
+     "date": "October 14, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/zqlMMQ1N/highlight/b5c8ae7734180000b26e000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/zqlMMQ1N/12857213986189344769/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "zqlMMQ1N",
+  "moment_uuid": "b5c8ae7734180000b26e000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

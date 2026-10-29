@@ -1,0 +1,446 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Valtteri Puustinen",
+     "description": "Against a team equally eager to secure points for a playoff berth, rookie Valtteri Puustinen nets a goal for the Penguins with less than a minute left in the opening period, extending their lead by two goals. Positioned behind the net, Puustinen's teammate Reilly Smith locates him in front of the net, where Puustinen rifles the puck bar down past the goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Playoff Bound",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Core",
+     "editions": 1500,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "DET",
+        "final_score": 3
+       },
+       "home": {
+        "team": "PIT",
+        "final_score": 6
+       },
+       "venue": {
+        "name": "PPG Paints Arena",
+        "team": "PIT",
+        "location": "Pittsburgh, PA"
+       },
+       "game_ends": "FINAL",
+       "final_score": "DET 3, PIT 6 - FINAL",
+       "venue_location": "Pittsburgh Penguins - PPG Paints Arena (Pittsburgh, PA)"
+      },
+      "moment": {
+       "date": "2024-03-17",
+       "clock": "19:16",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 4
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DET | 1st Period | Mar 17, 2024"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Valtteri Puustinen",
+       "team": "PIT",
+       "jersey": 48,
+       "status": "NHLPA",
+       "position": "RW",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Goal vs DET | 1st Period | Mar 17, 2024"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 5,
+     "name": "Pittsburgh Penguins",
+     "abbreviation": "PIT",
+     "short_name": "Pittsburgh",
+     "venue_city": "Pittsburgh",
+     "venue_name": "PPG Paints Arena",
+     "key": "PittsburghPenguins",
+     "url": "https://www.nhl.com/penguins",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/PittsburghPenguins.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/V1P88Z1d/10417951838014799878",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmXtoEMFpfk4muyNExeneB8RJuTh3VNV6DKUeBbunqhzZm"
+       },
+       "content-type": "image/png",
+       "sha256": "MmUalahR1QhwFJv_7evvtyfkaN3BAX__1DYzjp0VIjw=",
+       "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmU6BAQBi6YofSsdU2sHPFMgzBfW7MsY7cMmX8GW4WKebm"
+       },
+       "content-type": "image/png",
+       "sha256": "KvcL3e5Z6ejlzarVeApxo8HCShShM25-6dJzhdaHDiQ=",
+       "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmdkm7yyc5QQcBt8z7EsiPM8Vp4TzHBXbA7sveKobb8VUz"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1P88Z1d/10417951838014799878/card-image.png",
+        "purpose": "card-image",
+        "sha256": "cwrwZ-O0Do2UtMu5ariG08aBAOLMiAyrnpEqrMDA-tI=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1P88Z1d/10417951838014799878/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWKw1AxHcEFhF1gU1RrsjgJCnEXettmAogixCsokmmiyK"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1P88Z1d/10417951838014799878/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "08xVS5mz98iFuWy6K5rVeUsWQJjv0ViGmQFmSrpa70w=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1P88Z1d/10417951838014799878/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmU6BAQBi6YofSsdU2sHPFMgzBfW7MsY7cMmX8GW4WKebm"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1P88Z1d/10417951838014799878/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "KvcL3e5Z6ejlzarVeApxo8HCShShM25-6dJzhdaHDiQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1P88Z1d/10417951838014799878/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXtoEMFpfk4muyNExeneB8RJuTh3VNV6DKUeBbunqhzZm"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1P88Z1d/10417951838014799878/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "MmUalahR1QhwFJv_7evvtyfkaN3BAX__1DYzjp0VIjw=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1P88Z1d/10417951838014799878/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2024-03-17",
+      "edition-number": "7",
+      "moment-uuid": "b5c8ae77d17600009094000000000000",
+      "play": "Goal",
+      "player": "Valtteri Puustinen",
+      "rarity": "Core",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Playoff Bound",
+      "set-uuid": "b5c8ae77d17600000000000000000000",
+      "team": "Pittsburgh Penguins",
+      "total-editions": "1500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Against a team equally eager to secure points for a playoff berth, rookie Valtteri Puustinen nets a goal for the Penguins with less than a minute left in the opening period, extending their lead by two goals. Positioned behind the net, Puustinen's teammate Reilly Smith locates him in front of the net, where Puustinen rifles the puck bar down past the goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 7,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmXtoEMFpfk4muyNExeneB8RJuTh3VNV6DKUeBbunqhzZm"
+      },
+      "content-type": "image/png",
+      "sha256": "MmUalahR1QhwFJv_7evvtyfkaN3BAX__1DYzjp0VIjw=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmVSaZMsQHHU3cEZ4ZsFcQAoznV2svuxhGvjx1ZQDWBdqy"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "nO6Jm6REaDNY1eN1chdxEvIDR6CqpA2mFgv0MVyBR9s=",
+        "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmepGwttk6ZxwRW1nc1j2U2HKFsefHLuFuNjtVPrjy2x9n"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "m_fw-asKpvvyhhfzog8XFIPFOlpvc2vz3Phb6iKH9Y0=",
+        "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmXtoEMFpfk4muyNExeneB8RJuTh3VNV6DKUeBbunqhzZm"
+       },
+       "content-type": "image/png",
+       "sha256": "MmUalahR1QhwFJv_7evvtyfkaN3BAX__1DYzjp0VIjw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmVSaZMsQHHU3cEZ4ZsFcQAoznV2svuxhGvjx1ZQDWBdqy"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "nO6Jm6REaDNY1eN1chdxEvIDR6CqpA2mFgv0MVyBR9s=",
+         "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmepGwttk6ZxwRW1nc1j2U2HKFsefHLuFuNjtVPrjy2x9n"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "m_fw-asKpvvyhhfzog8XFIPFOlpvc2vz3Phb6iKH9Y0=",
+         "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmU6BAQBi6YofSsdU2sHPFMgzBfW7MsY7cMmX8GW4WKebm"
+       },
+       "content-type": "image/png",
+       "sha256": "KvcL3e5Z6ejlzarVeApxo8HCShShM25-6dJzhdaHDiQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmS1ZuaEAw1EFNsECjxuCgq2NPF7BujmitZ8ycAtUgKo1j"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "xwFAULVqAjWI3GtBoDa8Xece0A-o5tuiSy2fbE2sMFA=",
+         "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmYBh1RWUSeQ1aCG5qFmoQ1ptriNRh4MnwuHyD9LvUKq2C"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "7fq6t1Ltb2r4eqKJi3lRgUWKzqadf5E3gU06sxo9gD0=",
+         "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/V1P88Z1d/9094/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-04-15T21:11:43.982856",
+     "name": "Valtteri Puustinen #7",
+     "network": "matic",
+     "sequence_number": "10417951838014799878",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Against a team equally eager to secure points for a playoff berth, rookie Valtteri Puustinen nets a goal for the Penguins with less than a minute left in the opening period, extending their lead by two goals. Positioned behind the net, Puustinen's teammate Reilly Smith locates him in front of the net, where Puustinen rifles the puck bar down past the goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Playoff Bound",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/V1P88Z1d",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Valtteri Puustinen #7",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2024-03-17"
+      },
+      {
+       "key": "edition-number",
+       "value": "7"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77d17600009094000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Valtteri Puustinen"
+      },
+      {
+       "key": "rarity",
+       "value": "Core"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Playoff Bound"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77d17600000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Pittsburgh Penguins"
+      },
+      {
+       "key": "total-editions",
+       "value": "1500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77d17600009094000000000000",
+     "current_offers": [],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xC3E614B158BDca1769178a9A230f3F46AEAD9215/?a=10417951838014799878",
+      "pack_opened": false,
+      "burned": true,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "V1P88Z1d",
+   "momentUuid": "b5c8ae77d17600009094000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Valtteri Puustinen",
+     "date": "March 17, 2024"
+    },
+    "url": "https://nhlbreakaway.com/series/V1P88Z1d/highlight/b5c8ae77d17600009094000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/V1P88Z1d/10417951838014799878/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "V1P88Z1d",
+  "moment_uuid": "b5c8ae77d17600009094000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

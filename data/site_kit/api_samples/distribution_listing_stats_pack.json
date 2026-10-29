@@ -1,0 +1,7 @@
+{
+ "endpoint": "/distribution/listing/stats/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2F8R5xYdbD",
+ "http": 400,
+ "response": {
+  "_non_json": "Invalid request: Token https://nft.nhlbreakaway.com/series/8R5xYdbD could not be found"
+ }
+}

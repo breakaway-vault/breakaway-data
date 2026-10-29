@@ -1,0 +1,8 @@
+[
+ {
+  "uri": "str",
+  "inventory": "int",
+  "number_sold": "str",
+  "session_limit_per_user": "int"
+ }
+]

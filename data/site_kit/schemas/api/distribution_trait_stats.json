@@ -1,0 +1,35 @@
+{
+ "Audio Type": {
+  "Voice Over Commentary": "float",
+  "Sounds of the Game": "float"
+ },
+ "Date": {
+  "2022-05-26": "float",
+  "2025-04-04": "float",
+  "2014-01-10": "float",
+  "2009-06-04": "float",
+  "2023-05-18": "float",
+  "2021-12-06": "float"
+ },
+ "Play": {
+  "Goal": "float"
+ },
+ "Player": {
+  "Matthew Tkachuk": "float",
+  "Alex Ovechkin": "float",
+  "Sidney Crosby": "float",
+  "Cale Makar": "float",
+  "Nathan MacKinnon": "float",
+  "Connor McDavid": "float"
+ },
+ "Rarity": {
+  "Legendary": "float"
+ },
+ "Team": {
+  "Florida Panthers": "float",
+  "Colorado Avalanche": "float",
+  "Pittsburgh Penguins": "float",
+  "Edmonton Oilers": "float",
+  "Washington Capitals": "float"
+ }
+}

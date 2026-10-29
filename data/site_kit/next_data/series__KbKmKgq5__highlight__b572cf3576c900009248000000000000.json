@@ -1,0 +1,472 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Matthew Schaefer",
+     "description": "New York Islanders rookie Matthew Schaefer delivered a signature moment in the second period when he caught a feed from Tony DeAngelo and fired a wrist shot past goaltender Artur Akhtyamov. The goal \u2014 his 23rd of the season \u2014 gave the Islanders a 3-2 lead en route to victory while tying Brian Leetch\u2019s single-season record for the most goals by a rookie defenseman. \r\nSchaefer\u2019s remarkable rookie campaign saw the 18-year-old first-overall pick from the 2025 Draft lead all rookies in time on ice per game (24:41) while tying for the league lead in rookie goals with 23. He finished third in rookie scoring with 59 points \u2014 an NHL record for an 18-year-old defenseman \u2014 and became the first blueliner in more than 90 years to lead rookies in goals. The Hamilton, Ontario native exceeded expectations as the Islanders\u2019 cornerstone two-way defenseman. \r\nHis dominant season culminated in capturing the Calder Memorial Trophy as NHL Rookie of the Year \u2014 the youngest winner in league history at 18 years, 224 days and the first to earn a unanimous vote since Teemu Selanne in 1992-93. This Mythic highlight captures the moment Schaefer tied Leetch\u2019s long-standing mark, signaling the arrival of a generational talent and a bright new era on Long Island.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Ice Vault (Series 3)",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Mythic",
+     "editions": 1,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png"
+     },
+     "video_overlay_text": "Goal vs TOR | 2nd Period | Apr 9, 2026",
+     "team": "NYI",
+     "player_name": "Matthew Schaefer",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "TOR",
+        "final_score": 3
+       },
+       "home": {
+        "team": "NYI",
+        "final_score": 5
+       },
+       "venue": {
+        "name": "UBS Arena",
+        "team": "NYI",
+        "location": "Elmont, NY"
+       },
+       "game_ends": "FINAL",
+       "final_score": "TOR 3, NYI 5 - FINAL",
+       "venue_location": "New York Islanders - UBS Arena (Elmont, NY)"
+      },
+      "moment": {
+       "date": "2026-04-09",
+       "clock": "9:39",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 23
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": true,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs TOR | 2nd Period | Apr 9, 2026"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Matthew Schaefer",
+       "team": "NYI",
+       "jersey": 48,
+       "status": "NHLPA",
+       "position": "D",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Ties NHL Rookie Defenseman Goal Record"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+     "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     },
+     {
+      "name": "#1 Edition",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "description": "#1 edition of each highlight."
+     }
+    ],
+    "_edition_specific_descriptive_badges": [
+     {
+      "name": "#1 Edition",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "description": "#1 edition of each highlight."
+     }
+    ],
+    "_team": {
+     "id": 2,
+     "name": "New York Islanders",
+     "abbreviation": "NYI",
+     "short_name": "NY Islanders",
+     "venue_city": "Elmont",
+     "venue_name": "UBS Arena",
+     "key": "NewYorkIslanders",
+     "url": "https://www.nhl.com/islanders",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/NewYorkIslanders.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/KbKmKgq5/10540674927860645888",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbmUaqUrbxJAZUpsNgA4sKVuzSsmxSSAZkrHPVeGoqB7M"
+       },
+       "content-type": "image/png",
+       "sha256": "bdgsMorN-qtP7WYAdaEX09eaC7IDwj1ncgCkQbs2cCs=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRmnhosNtTjgoyKD7ZNJQXoNkAsC8q2BAeHi53aGbEozr"
+       },
+       "content-type": "image/png",
+       "sha256": "k-m2d5TkcE0S5a_u392l7l0gs8FKIbSijqJ895bi_98=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPHodveJSo5Tie73Y1LyBaq6yufQ9joLXzCUQzbMEJh9n"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmKgq5/10540674927860645888/card-image.png",
+        "purpose": "card-image",
+        "sha256": "hoptyCCqbNJnPOozNcD5XEBS3wEDCcbUImH-gEZVSDk=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmKgq5/10540674927860645888/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmb5VUcFkhcooUqUPs1jF531hQyN9RvySp2Z3n5RNbPrBn"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmKgq5/10540674927860645888/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "HEp8UEUEatce3tn3d57GelvDsfpO5dT_udrxEIcNT1w=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmKgq5/10540674927860645888/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRmnhosNtTjgoyKD7ZNJQXoNkAsC8q2BAeHi53aGbEozr"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmKgq5/10540674927860645888/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "k-m2d5TkcE0S5a_u392l7l0gs8FKIbSijqJ895bi_98=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmKgq5/10540674927860645888/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbmUaqUrbxJAZUpsNgA4sKVuzSsmxSSAZkrHPVeGoqB7M"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmKgq5/10540674927860645888/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "bdgsMorN-qtP7WYAdaEX09eaC7IDwj1ncgCkQbs2cCs=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmKgq5/10540674927860645888/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2026-04-09",
+      "edition-number": "1",
+      "moment-uuid": "b572cf3576c900009248000000000000",
+      "play": "Goal",
+      "player": "Matthew Schaefer",
+      "rarity": "Mythic",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Ice Vault (Series 3)",
+      "set-uuid": "b572cf3576c900000000000000000000",
+      "team": "New York Islanders",
+      "total-editions": "1"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "New York Islanders rookie Matthew Schaefer delivered a signature moment in the second period when he caught a feed from Tony DeAngelo and fired a wrist shot past goaltender Artur Akhtyamov. The goal \u2014 his 23rd of the season \u2014 gave the Islanders a 3-2 lead en route to victory while tying Brian Leetch\u2019s single-season record for the most goals by a rookie defenseman. \r\nSchaefer\u2019s remarkable rookie campaign saw the 18-year-old first-overall pick from the 2025 Draft lead all rookies in time on ice per game (24:41) while tying for the league lead in rookie goals with 23. He finished third in rookie scoring with 59 points \u2014 an NHL record for an 18-year-old defenseman \u2014 and became the first blueliner in more than 90 years to lead rookies in goals. The Hamilton, Ontario native exceeded expectations as the Islanders\u2019 cornerstone two-way defenseman. \r\nHis dominant season culminated in capturing the Calder Memorial Trophy as NHL Rookie of the Year \u2014 the youngest winner in league history at 18 years, 224 days and the first to earn a unanimous vote since Teemu Selanne in 1992-93. This Mythic highlight captures the moment Schaefer tied Leetch\u2019s long-standing mark, signaling the arrival of a generational talent and a bright new era on Long Island.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 1,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmbmUaqUrbxJAZUpsNgA4sKVuzSsmxSSAZkrHPVeGoqB7M"
+      },
+      "content-type": "image/png",
+      "sha256": "bdgsMorN-qtP7WYAdaEX09eaC7IDwj1ncgCkQbs2cCs=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmQm65jzMnVufYc9fEfZZRTNMG7c2VhXAooFrCsmJixSU1"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "opBloSWSePYKUA7JpUzCG5Am05mB-zBVB0IHoZtmrR8=",
+        "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmZzMsccfREXeijSjWDNC1bzifzLzcqZLYNeNa7MrGeBhj"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "i0zCDHiGnqGHvZ8zfiyRCA6jGrMRNvdHzMvIG9gvm9Q=",
+        "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbmUaqUrbxJAZUpsNgA4sKVuzSsmxSSAZkrHPVeGoqB7M"
+       },
+       "content-type": "image/png",
+       "sha256": "bdgsMorN-qtP7WYAdaEX09eaC7IDwj1ncgCkQbs2cCs=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmQm65jzMnVufYc9fEfZZRTNMG7c2VhXAooFrCsmJixSU1"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "opBloSWSePYKUA7JpUzCG5Am05mB-zBVB0IHoZtmrR8=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmZzMsccfREXeijSjWDNC1bzifzLzcqZLYNeNa7MrGeBhj"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "i0zCDHiGnqGHvZ8zfiyRCA6jGrMRNvdHzMvIG9gvm9Q=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRmnhosNtTjgoyKD7ZNJQXoNkAsC8q2BAeHi53aGbEozr"
+       },
+       "content-type": "image/png",
+       "sha256": "k-m2d5TkcE0S5a_u392l7l0gs8FKIbSijqJ895bi_98=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmdrnLkWTebp8nHMgndH17gFeCxgj8b4d5swMXFwJQPUmi"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "iQXqhvwl0kmg93eKFH-Q4uB-90K2ebLrXaILdbQ72Zk=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmW7vkuQ2oF7ZNh7kpby7qfA2ntQZgoa1dFj4UJis2A7kD"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "ig1_LMBp5kA6zxgI0dCgUoT0Jt5oProTdMNxG_jVsqs=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KbKmKgq5/9248/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-07-07T19:18:19.590518",
+     "name": "Matthew Schaefer #1",
+     "network": "matic",
+     "sequence_number": "10540674927860645888",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "New York Islanders rookie Matthew Schaefer delivered a signature moment in the second period when he caught a feed from Tony DeAngelo and fired a wrist shot past goaltender Artur Akhtyamov. The goal \u2014 his 23rd of the season \u2014 gave the Islanders a 3-2 lead en route to victory while tying Brian Leetch\u2019s single-season record for the most goals by a rookie defenseman. \r\nSchaefer\u2019s remarkable rookie campaign saw the 18-year-old first-overall pick from the 2025 Draft lead all rookies in time on ice per game (24:41) while tying for the league lead in rookie goals with 23. He finished third in rookie scoring with 59 points \u2014 an NHL record for an 18-year-old defenseman \u2014 and became the first blueliner in more than 90 years to lead rookies in goals. The Hamilton, Ontario native exceeded expectations as the Islanders\u2019 cornerstone two-way defenseman. \r\nHis dominant season culminated in capturing the Calder Memorial Trophy as NHL Rookie of the Year \u2014 the youngest winner in league history at 18 years, 224 days and the first to earn a unanimous vote since Teemu Selanne in 1992-93. This Mythic highlight captures the moment Schaefer tied Leetch\u2019s long-standing mark, signaling the arrival of a generational talent and a bright new era on Long Island.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Ice Vault (Series 3)",
+       "rarity": {
+        "name": "Mythic",
+        "rank": 6
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/KbKmKgq5",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Matthew Schaefer #1",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2026-04-09"
+      },
+      {
+       "key": "edition-number",
+       "value": "1"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf3576c900009248000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Matthew Schaefer"
+      },
+      {
+       "key": "rarity",
+       "value": "Mythic"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Ice Vault (Series 3)"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf3576c900000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "New York Islanders"
+      },
+      {
+       "key": "total-editions",
+       "value": "1"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf3576c900009248000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/6BlnJGdg",
+       "listing_id": "6BlnJGdg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 4848.48,
+       "starts_at": "2026-07-31T19:52:30",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x57dB8C2ec2B0520be06237E8c8e5a59bED74b722/?a=10540674927860645888",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     },
+     "_listed_edition_specific_descriptive_badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      }
+     ]
+    }
+   },
+   "seriesId": "KbKmKgq5",
+   "momentUuid": "b572cf3576c900009248000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Matthew Schaefer",
+     "date": "April 9, 2026"
+    },
+    "url": "https://nhlbreakaway.com/series/KbKmKgq5/highlight/b572cf3576c900009248000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/KbKmKgq5/10540674927860645888/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "KbKmKgq5",
+  "moment_uuid": "b572cf3576c900009248000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

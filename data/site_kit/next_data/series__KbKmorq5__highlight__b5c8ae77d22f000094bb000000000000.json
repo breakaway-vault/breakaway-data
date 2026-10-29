@@ -1,0 +1,462 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Doug Gilmour",
+     "description": "Doug Gilmour scores the double-overtime winner in Game 1 versus the St. Louis Blues in the 1993 Norris Division Finals. In the play, Gilmour sets up behind the net with the puck where he holds it for a while before fooling goalie Curtis Joseph with a spin before wrapping it into the net. Toronto would go on to win the series in seven games. Gilmour had an incredible playoff that year tying for the lead in playoff assists with 25, finishing second in points with 35 and leading all in plus-minus with +16.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Cause for a Celly: '90s",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Epic",
+     "editions": 100,
+     "badges": {
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "STL",
+        "final_score": 1
+       },
+       "home": {
+        "team": "TOR",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Maple Leaf Gardens",
+        "team": "TOR",
+        "location": "Toronto, ON"
+       },
+       "game_ends": "FINAL (2OT)",
+       "final_score": "STL 1, TOR 2 - FINAL (2OT)",
+       "venue_location": "Toronto Maple Leafs - Maple Leaf Gardens (Toronto, ON)"
+      },
+      "moment": {
+       "date": "1993-05-03",
+       "clock": "3:16",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 4
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd overtime",
+       "audio_type": "Voice Over Commentary",
+       "broadcasters": "Kenny Albert",
+       "video_overlay_text": "Goal vs STL | 2nd Overtime | May 3, 1993"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Doug Gilmour",
+       "team": "TOR",
+       "jersey": 93,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs STL | 2nd Overtime | May 3, 1993"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+     "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 10,
+     "name": "Toronto Maple Leafs",
+     "abbreviation": "TOR",
+     "short_name": "Toronto",
+     "venue_city": "Toronto",
+     "venue_name": "Scotiabank Arena",
+     "key": "TorontoMapleLeafs",
+     "url": "https://www.nhl.com/mapleleafs",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/TorontoMapleLeafs.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/KbKmorq5/10717159738258227218",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbdkJgTNAshds1ASFbtNtbYUtr5w1hzkzqPF2PBkxvxng"
+       },
+       "content-type": "image/png",
+       "sha256": "m5C5v0DP3Ccp76GJ_uVgR_Mnk1O9A1JThL43HTRa5c4=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmT7q7ZfRKBxAQGKLUEXBr7pYX2umLRtVmt6seyLBbKZPd"
+       },
+       "content-type": "image/png",
+       "sha256": "L1GGyh_Dymwuva6BzDgYgUq2F5Ica4qU4-8uf3Xs9Jw=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXbHyPfgYMvLamFoeoDnHXXqC417ZYppKJxSmFCoJion5"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmorq5/10717159738258227218/card-image.png",
+        "purpose": "card-image",
+        "sha256": "cPRs0XBEMAqrSga3FIHLvBirjujn1nduZoK-WKAZ7Y0=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmorq5/10717159738258227218/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmU4EMYZJqnz1WVQSyZJSLUGceY4Kqmrosk3248QyBDPHa"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmorq5/10717159738258227218/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "qQoRb5tyWOJJlitBK107V7FMjgDpHD7n-nVvp0sDYkI=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmorq5/10717159738258227218/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmT7q7ZfRKBxAQGKLUEXBr7pYX2umLRtVmt6seyLBbKZPd"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmorq5/10717159738258227218/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "L1GGyh_Dymwuva6BzDgYgUq2F5Ica4qU4-8uf3Xs9Jw=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmorq5/10717159738258227218/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbdkJgTNAshds1ASFbtNtbYUtr5w1hzkzqPF2PBkxvxng"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KbKmorq5/10717159738258227218/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "m5C5v0DP3Ccp76GJ_uVgR_Mnk1O9A1JThL43HTRa5c4=",
+        "uri": "https://mediagateway.sweet.io/media/token/KbKmorq5/10717159738258227218/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Voice Over Commentary",
+      "date": "1993-05-03",
+      "edition-number": "19",
+      "moment-uuid": "b5c8ae77d22f000094bb000000000000",
+      "play": "Goal",
+      "player": "Doug Gilmour",
+      "rarity": "Epic",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Cause for a Celly: '90s",
+      "set-uuid": "b5c8ae77d22f00000000000000000000",
+      "team": "Toronto Maple Leafs",
+      "total-editions": "100"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Doug Gilmour scores the double-overtime winner in Game 1 versus the St. Louis Blues in the 1993 Norris Division Finals. In the play, Gilmour sets up behind the net with the puck where he holds it for a while before fooling goalie Curtis Joseph with a spin before wrapping it into the net. Toronto would go on to win the series in seven games. Gilmour had an incredible playoff that year tying for the lead in playoff assists with 25, finishing second in points with 35 and leading all in plus-minus with +16.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 19,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmbdkJgTNAshds1ASFbtNtbYUtr5w1hzkzqPF2PBkxvxng"
+      },
+      "content-type": "image/png",
+      "sha256": "m5C5v0DP3Ccp76GJ_uVgR_Mnk1O9A1JThL43HTRa5c4=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmZF2J1TT3sgQb7KTxyPLjyXea9xnUye849NxEeSBQTmTK"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "02yVh_6OomEPt71NTnO0WpHmQu4f64TbYmRfpA5aMWw=",
+        "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmNvitJXUKaQivH2AEykLJaKQFdpqg1vzzyGkXpGg8hSHM"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "6FH1-p4HSe0v-Mwkcm8LXjNwMv2rLX-pVj7X2Xoad94=",
+        "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbdkJgTNAshds1ASFbtNtbYUtr5w1hzkzqPF2PBkxvxng"
+       },
+       "content-type": "image/png",
+       "sha256": "m5C5v0DP3Ccp76GJ_uVgR_Mnk1O9A1JThL43HTRa5c4=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmZF2J1TT3sgQb7KTxyPLjyXea9xnUye849NxEeSBQTmTK"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "02yVh_6OomEPt71NTnO0WpHmQu4f64TbYmRfpA5aMWw=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmNvitJXUKaQivH2AEykLJaKQFdpqg1vzzyGkXpGg8hSHM"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "6FH1-p4HSe0v-Mwkcm8LXjNwMv2rLX-pVj7X2Xoad94=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmT7q7ZfRKBxAQGKLUEXBr7pYX2umLRtVmt6seyLBbKZPd"
+       },
+       "content-type": "image/png",
+       "sha256": "L1GGyh_Dymwuva6BzDgYgUq2F5Ica4qU4-8uf3Xs9Jw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmfYL5oVX3Ufni7YW5MAaifdCaVvZnxH1K8fSo3L7F5b83"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "fbfEIXFX_YkXIBLSQtlgiJHXCihrNED0p9E_JJqm8C0=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmW1orM2pZ12ykZW38AzwB65TqUx5uZn2wJMbgm56EcgNg"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "DNknn-DwfJUE8vU6EOB90LSbacLw-DnAoHSWrww5KYU=",
+         "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KbKmorq5/94bb/images/front-16x9.png"
+      }
+     },
+     "issued": "2023-12-21T16:50:59.147273",
+     "name": "Doug Gilmour #19",
+     "network": "matic",
+     "sequence_number": "10717159738258227218",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Doug Gilmour scores the double-overtime winner in Game 1 versus the St. Louis Blues in the 1993 Norris Division Finals. In the play, Gilmour sets up behind the net with the puck where he holds it for a while before fooling goalie Curtis Joseph with a spin before wrapping it into the net. Toronto would go on to win the series in seven games. Gilmour had an incredible playoff that year tying for the lead in playoff assists with 25, finishing second in points with 35 and leading all in plus-minus with +16.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Cause for a Celly: '90s",
+       "rarity": {
+        "name": "Tier 3",
+        "rank": 3
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Doug Gilmour #19",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Voice Over Commentary"
+      },
+      {
+       "key": "date",
+       "value": "1993-05-03"
+      },
+      {
+       "key": "edition-number",
+       "value": "19"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77d22f000094bb000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Doug Gilmour"
+      },
+      {
+       "key": "rarity",
+       "value": "Epic"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Cause for a Celly: '90s"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77d22f00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Toronto Maple Leafs"
+      },
+      {
+       "key": "total-editions",
+       "value": "100"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77d22f000094bb000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/4BYaeA8B",
+       "listing_id": "4BYaeA8B",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 29,
+       "starts_at": "2026-10-02T18:01:33",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xe7887Aba6959b112f212641d148FB0Be0550CAe8/?a=10717159738258227218",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "KbKmorq5",
+   "momentUuid": "b5c8ae77d22f000094bb000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Doug Gilmour",
+     "date": "May 3, 1993"
+    },
+    "url": "https://nhlbreakaway.com/series/KbKmorq5/highlight/b5c8ae77d22f000094bb000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/KbKmorq5/10717159738258227218/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "KbKmorq5",
+  "moment_uuid": "b5c8ae77d22f000094bb000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

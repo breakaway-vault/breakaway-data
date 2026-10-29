@@ -1,0 +1,7 @@
+{
+ "endpoint": "/collectibles/series/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2FGqEK4QbD/owners?moment_id=cd2f47fe89f20000a662000000000000",
+ "http": 401,
+ "response": {
+  "message": "Unauthorized"
+ }
+}

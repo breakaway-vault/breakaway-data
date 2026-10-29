@@ -1,0 +1,1035 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286351,
+    "summary": {
+     "drop_active": 1713546000,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/gb0442bA",
+     "number_of_highlights": 4,
+     "pack_description": "Gear up for the playoffs with 'Playoff Bound' \u2013 a collection that sets the stage for playoff excitement. The set includes one riveting highlight per playoff-bound team from the regular season, 'Playoff Bound' offers a glimpse into the plays that contributed to their ascension into playoff contention.\r\n\r\nFeaturing jaw-dropping apples and late-game heroics from Aleksander Barkov, Evgeny Kuznetsov, Ryan Nugent-Hopkins, Cam Talbot, Sean Walker, Keegan Kolesar, and more!\r\n\r\nEach pack contains 2 Playoff Bound highlights, 1 mystery Core highlight that could be from Base (25%), Base 2023-24 (25%), Stadiums & Skylines (25%), or Playoff Bound (25%), and 1 mystery highlight that could be from Guardians of the Net (26%), Light the Lamp (26%), Next-Gen Class (26%), Opening Ice 2023-24 (20%), Cause for a Celly: \u201890s (1.9%), or The Greatest Achievements (<1%).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Playoff Bound Debut LE Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae77000000009be9000000000000",
+     "quantity": 4000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Playoff Bound Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday April 19, 2024 at 1PM ET / 10AM PT</span></p>\r\n<p><strong>Remaining Inventory Released: </strong>Tuesday April 23, 2024 at 3PM ET / 12 PM PT</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 4,000. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 4</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Playoff Bound (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Base (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Stadiums &amp; Skylines (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Playoff Bound (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">26% Light the Lamp (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">26% Guardians of the Net (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">26% Next-Gen Class (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.9% Cause for a Celly: &lsquo;90s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.1% The Greatest Achievements (Legendary #10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQgVKZXzoqBLZwP-WMx5bVmE3fRE17wnLN-mglCIZILPJ-Wy_JElt02Y7lWxRuClv5D12jEOHJcF-Iv/pubhtml\" target=\"_blank\" rel=\"noopener\">Full Highlights List</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Playoff Bound, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/playoff-bound-preview/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Stadiums &amp; Skylines, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/stadiums-skylines/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/base-set-preview-rarity-tiers/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/light-the-lamp-preview-march-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Guardians of the Net, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-preview-guardians-of-the-net/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/next-gen-class-preview-feb-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: &lsquo;90s, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/cause-for-a-celly-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/the-greatest-achievements-preview-guardians-of-the-net-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Gear up for the playoffs with 'Playoff Bound' \u2013 a collection that sets the stage for playoff excitement. The set includes one riveting highlight per playoff-bound team from the regular season, 'Playoff Bound' offers a glimpse into the plays that contributed to their ascension into playoff contention.\r\n\r\nFeaturing jaw-dropping apples and late-game heroics from Aleksander Barkov, Evgeny Kuznetsov, Ryan Nugent-Hopkins, Cam Talbot, Sean Walker, Keegan Kolesar, and more!\r\n\r\nEach pack contains 2 Playoff Bound highlights, 1 mystery Core highlight that could be from Base (25%), Base 2023-24 (25%), Stadiums & Skylines (25%), or Playoff Bound (25%), and 1 mystery highlight that could be from Guardians of the Net (26%), Light the Lamp (26%), Next-Gen Class (26%), Opening Ice 2023-24 (20%), Cause for a Celly: \u201890s (1.9%), or The Greatest Achievements (<1%).",
+     "uuid": "b5c8ae77000000009be9000000000000",
+     "assets": {},
+     "editions": 4000,
+     "pack_series": {
+      "assets": {},
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Playoff Bound Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.066,
+          "limit": 264
+         },
+         "name": "Aleksander Barkov",
+         "description": "During a powerplay midway through the second period against conference opponent New York Rangers, Aleksander Barkov makes an incredible play to earn the assist and get the Panthers on the board.  Leading the rush up the ice, Barkov dishes the puck over to Carter Verhaeghe who quickly returns it back.  Barkov then juggles the puck to elude a defender before diving to send the puck over to Sam Reinhart who slams it in the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000093bd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.072,
+          "limit": 288
+         },
+         "name": "Evgeny Kuznetsov",
+         "description": "Facing a conference opponent in the Florida Panthers, Evgeny Kuznetsov nets his first goal as a member of the Carolina Hurricanes. Defenseman Jalen Chatfield finds Kuznetsov who is positioned on the far side. Receiving the pass, Kuznetsov maneuvers toward the goal and fires a wrist shot that hits the mark. His celebration, characterized by his signature \"bird celly,\" ignites cheers from the Hurricanes' faithful crowd.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009c7c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05325,
+          "limit": 213
+         },
+         "name": "Tommy Novak",
+         "description": "Beginning with a stretch pass from goaltender Juuse Saros, Tommy Novak receives the puck just before the offensive blueline and immediately heads toward the net. With a slick backhand-to-forehand move, he jukes the defender and then sends a wrister that finds the back of the net against the division-rival Colorado Avalanche.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000a5e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.07475,
+          "limit": 299
+         },
+         "name": "Sean Walker",
+         "description": "Acquired in a trade ahead of the 2023-24 deadline and playing in his fourth game as a member of the Colorado Avalanche, defenseman Sean Walker came up big in a game versus the rival Edmonton Oilers. After notching his first goal with the new team earlier in the game, Walker leveled the score with just over five minutes remaining in the third period with his second tally. As Casey Mittelstadt skates behind the net with the puck, Walker jumps into the slot from the point where he receives the pass and blasts a one-timer past the netminder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000858c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.059,
+          "limit": 236
+         },
+         "name": "John Carlson",
+         "description": "At 34 years old and playing in his 15th NHL season, all with the Washington Capitals, defenseman John Carlson continues to make an impact on the ice. Facing a divisional opponent, the Philadelphia Flyers, Carlson netted a goal late in the second period which proved to be the game winner. Positioned down low near the net, Carlson capitalized on a rebound generated by a Rasmus Sandin point shot, executing a wraparound maneuver to beat the opposing goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000920a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0525,
+          "limit": 210
+         },
+         "name": "Cam Talbot",
+         "description": "After an errant turnover by the LA Kings, Cam Talbot comes up with a remarkable diving stop on Tim St\u00fctzle.  Despite Claude Giroux's cross-ice pass seemingly leaving St\u00fctzle with a wide-open net, Talbot manages to get across and snatch the puck with his glove just in time. This impressive display comes in Talbot's inaugural season with the LA Kings, where he made a total of 28 saves against his former team from the previous season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000b9c8000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06875,
+          "limit": 275
+         },
+         "name": "Ryan Nugent-Hopkins",
+         "description": "In the final two minutes of regulation, as the Oilers found themselves trailing 1-0, Ryan Nugent-Hopkins makes a tremendous defensive effort getting a stick on Danton Heinen\u2019s shot attempt at the empty net just in time.  This game saving play allowed Leon Draisaitl to even up the score on the very next shift with only 80 seconds remaining in the third period.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008279000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.04975,
+          "limit": 199
+         },
+         "name": "Matt Duchene",
+         "description": "Speeding through the neutral zone, Matt Duchene collects the puck near center ice to head down for a 2-on-1 with Tyler Seguin. Gaining steam, Duchene looks as if he is going to shoot the puck \u2013 fooling both the defenseman and the goalie before he makes a beautiful behind-the-back feed to Seguin who finishes the play.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008272000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06625,
+          "limit": 265
+         },
+         "name": "Bobby McMann",
+         "description": "Bobby McMann nets his first of two goals in the game off of an impressive shift by the Toronto Maple Leafs. As the puck is dumped softly into the offensive zone, Timothy Liljegren chases it down to advance the puck further to John Tavares. Prior to receiving the puck, Tavares takes a look to see McMann open in the slot. Tavares spins with the puck on his backhand to send the puck out to McMann who buries it. McMann finished the night with 2 goals and 1 assist.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000091e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0685,
+          "limit": 274
+         },
+         "name": "Nils Hoglander",
+         "description": "Beginning with a strip of the puck by Connor Garland in the defensive zone, he advances it up the ice to Elias Pettersson who moves it over to the streaking Nils Hoglander. With a clear path to the net, Hoglander freezes the goalie with a fake shot before shifting it to the backhand and roofing it upstairs for his second goal of the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000bfc5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05475,
+          "limit": 219
+         },
+         "name": "Vincent Trocheck",
+         "description": "Centerman, Vincent Trocheck, who set a new career high this year for assists in a single season showcases a beauty here. Carrying the puck on a two-on-one, he opens up on the forehand, seemingly prepared to shoot. As the defenseman slides on the ice trying to take away the passing option, Trocheck sauces it perfectly over to Panarin for the sweet apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000802c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05975,
+          "limit": 239
+         },
+         "name": "Keegan Kolesar",
+         "description": "In the final two minutes of the third period of a tied game, Keegan Kolesar scores the game winner with 80 seconds remaining on the clock. As the puck gets moved over to Brett Howden on the left side, Kolesar positioned on the other side heads directly to the net where he stops. Howden makes a power move to the net where the puck squirts loose directly to Kolesar who buries it past the netminder for the decisive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000927d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0635,
+          "limit": 254
+         },
+         "name": "Danton Heinen",
+         "description": "Holding a one-goal lead in the final five minutes of the third period, Danton Heinen snipes one past the netminder to create a two-goal cushion for the Boston Bruins. The play unfolds from a blocked shot in the defensive zone, initiating an offensive opportunity for Heinen. Charging down the left side, Heinen snaps one tops shelf from near the face-off circle. With Philadelphia scoring moments later, Heinen\u2019s tally proved to be the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009ab5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0685,
+          "limit": 274
+         },
+         "name": "Anthony Cirelli",
+         "description": "As the puck gets moved around the boards, Anthony Cirelli gives chase and beats Jack Eichel to it to spring ahead on a 2-on-0 break with Brandon Hagel. Heading toward the net, Cirelli moves the puck over to Hagel who gives it right back for Cirelli to fire it past the netminder for the shorty.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008710000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0565,
+          "limit": 226
+         },
+         "name": "Neal Pionk",
+         "description": "Originating from a battle for the puck along the boards, the puck squirts loose to Mason Appleton who quickly locates Neal Pionk on the far side. Pionk breaks for the net using his body to shield the puck from the defender and rips it home past the goalie. The first-period goal proved to be the game winner in a 3-0 Jets victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009229000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06625,
+          "limit": 265
+         },
+         "name": "Kyle Palmieri",
+         "description": "Having already scored the first two goals of the game, Kyle Palmieri nets his third in the first period for the natural hat trick. As the puck gets bounced around near the front of the net, Jean-Gabriel Pageau eventually emerges with it and spots Palmieri up near the point. Palmieri moves it over to Ryan Pulock who makes a pass of the goalie pad getting kicked out right to Palmieri who buries it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009f9d000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0595,
+          "limit": 238
+         },
+         "name": "Aleksander Barkov",
+         "description": "During a powerplay midway through the second period against conference opponent New York Rangers, Aleksander Barkov makes an incredible play to earn the assist and get the Panthers on the board.  Leading the rush up the ice, Barkov dishes the puck over to Carter Verhaeghe who quickly returns it back.  Barkov then juggles the puck to elude a defender before diving to send the puck over to Sam Reinhart who slams it in the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000093bd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05475,
+          "limit": 219
+         },
+         "name": "Evgeny Kuznetsov",
+         "description": "Facing a conference opponent in the Florida Panthers, Evgeny Kuznetsov nets his first goal as a member of the Carolina Hurricanes. Defenseman Jalen Chatfield finds Kuznetsov who is positioned on the far side. Receiving the pass, Kuznetsov maneuvers toward the goal and fires a wrist shot that hits the mark. His celebration, characterized by his signature \"bird celly,\" ignites cheers from the Hurricanes' faithful crowd.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009c7c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.075,
+          "limit": 300
+         },
+         "name": "Tommy Novak",
+         "description": "Beginning with a stretch pass from goaltender Juuse Saros, Tommy Novak receives the puck just before the offensive blueline and immediately heads toward the net. With a slick backhand-to-forehand move, he jukes the defender and then sends a wrister that finds the back of the net against the division-rival Colorado Avalanche.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000a5e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0755,
+          "limit": 302
+         },
+         "name": "Sean Walker",
+         "description": "Acquired in a trade ahead of the 2023-24 deadline and playing in his fourth game as a member of the Colorado Avalanche, defenseman Sean Walker came up big in a game versus the rival Edmonton Oilers. After notching his first goal with the new team earlier in the game, Walker leveled the score with just over five minutes remaining in the third period with his second tally. As Casey Mittelstadt skates behind the net with the puck, Walker jumps into the slot from the point where he receives the pass and blasts a one-timer past the netminder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000858c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0585,
+          "limit": 234
+         },
+         "name": "John Carlson",
+         "description": "At 34 years old and playing in his 15th NHL season, all with the Washington Capitals, defenseman John Carlson continues to make an impact on the ice. Facing a divisional opponent, the Philadelphia Flyers, Carlson netted a goal late in the second period which proved to be the game winner. Positioned down low near the net, Carlson capitalized on a rebound generated by a Rasmus Sandin point shot, executing a wraparound maneuver to beat the opposing goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000920a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06525,
+          "limit": 261
+         },
+         "name": "Cam Talbot",
+         "description": "After an errant turnover by the LA Kings, Cam Talbot comes up with a remarkable diving stop on Tim St\u00fctzle.  Despite Claude Giroux's cross-ice pass seemingly leaving St\u00fctzle with a wide-open net, Talbot manages to get across and snatch the puck with his glove just in time. This impressive display comes in Talbot's inaugural season with the LA Kings, where he made a total of 28 saves against his former team from the previous season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000b9c8000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.074,
+          "limit": 296
+         },
+         "name": "Ryan Nugent-Hopkins",
+         "description": "In the final two minutes of regulation, as the Oilers found themselves trailing 1-0, Ryan Nugent-Hopkins makes a tremendous defensive effort getting a stick on Danton Heinen\u2019s shot attempt at the empty net just in time.  This game saving play allowed Leon Draisaitl to even up the score on the very next shift with only 80 seconds remaining in the third period.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008279000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06175,
+          "limit": 247
+         },
+         "name": "Matt Duchene",
+         "description": "Speeding through the neutral zone, Matt Duchene collects the puck near center ice to head down for a 2-on-1 with Tyler Seguin. Gaining steam, Duchene looks as if he is going to shoot the puck \u2013 fooling both the defenseman and the goalie before he makes a beautiful behind-the-back feed to Seguin who finishes the play.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008272000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05575,
+          "limit": 223
+         },
+         "name": "Bobby McMann",
+         "description": "Bobby McMann nets his first of two goals in the game off of an impressive shift by the Toronto Maple Leafs. As the puck is dumped softly into the offensive zone, Timothy Liljegren chases it down to advance the puck further to John Tavares. Prior to receiving the puck, Tavares takes a look to see McMann open in the slot. Tavares spins with the puck on his backhand to send the puck out to McMann who buries it. McMann finished the night with 2 goals and 1 assist.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000091e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05275,
+          "limit": 211
+         },
+         "name": "Nils Hoglander",
+         "description": "Beginning with a strip of the puck by Connor Garland in the defensive zone, he advances it up the ice to Elias Pettersson who moves it over to the streaking Nils Hoglander. With a clear path to the net, Hoglander freezes the goalie with a fake shot before shifting it to the backhand and roofing it upstairs for his second goal of the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000bfc5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.06275,
+          "limit": 251
+         },
+         "name": "Vincent Trocheck",
+         "description": "Centerman, Vincent Trocheck, who set a new career high this year for assists in a single season showcases a beauty here. Carrying the puck on a two-on-one, he opens up on the forehand, seemingly prepared to shoot. As the defenseman slides on the ice trying to take away the passing option, Trocheck sauces it perfectly over to Panarin for the sweet apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000802c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.063,
+          "limit": 252
+         },
+         "name": "Keegan Kolesar",
+         "description": "In the final two minutes of the third period of a tied game, Keegan Kolesar scores the game winner with 80 seconds remaining on the clock. As the puck gets moved over to Brett Howden on the left side, Kolesar positioned on the other side heads directly to the net where he stops. Howden makes a power move to the net where the puck squirts loose directly to Kolesar who buries it past the netminder for the decisive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000927d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05225,
+          "limit": 209
+         },
+         "name": "Danton Heinen",
+         "description": "Holding a one-goal lead in the final five minutes of the third period, Danton Heinen snipes one past the netminder to create a two-goal cushion for the Boston Bruins. The play unfolds from a blocked shot in the defensive zone, initiating an offensive opportunity for Heinen. Charging down the left side, Heinen snaps one tops shelf from near the face-off circle. With Philadelphia scoring moments later, Heinen\u2019s tally proved to be the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009ab5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05525,
+          "limit": 221
+         },
+         "name": "Anthony Cirelli",
+         "description": "As the puck gets moved around the boards, Anthony Cirelli gives chase and beats Jack Eichel to it to spring ahead on a 2-on-0 break with Brandon Hagel. Heading toward the net, Cirelli moves the puck over to Hagel who gives it right back for Cirelli to fire it past the netminder for the shorty.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008710000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.05875,
+          "limit": 235
+         },
+         "name": "Neal Pionk",
+         "description": "Originating from a battle for the puck along the boards, the puck squirts loose to Mason Appleton who quickly locates Neal Pionk on the far side. Pionk breaks for the net using his body to shield the puck from the defender and rips it home past the goalie. The first-period goal proved to be the game winner in a 3-0 Jets victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009229000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.07525,
+          "limit": 301
+         },
+         "name": "Kyle Palmieri",
+         "description": "Having already scored the first two goals of the game, Kyle Palmieri nets his third in the first period for the natural hat trick. As the puck gets bounced around near the front of the net, Jean-Gabriel Pageau eventually emerges with it and spots Palmieri up near the point. Palmieri moves it over to Ryan Pulock who makes a pass of the goalie pad getting kicked out right to Palmieri who buries it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009f9d000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.25,
+          "limit": 1000
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.25,
+          "limit": 1000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.25,
+          "limit": 1000
+         },
+         "name": "Stadiums & Skylines",
+         "description": "<p>Introducing \"Stadiums &amp; Skylines,\" a set that celebrates the thrilling past and present moments from a diverse array of NHL outdoor games. This unique collection showcases iconic stadiums and breathtaking skylines as the backdrop to unforgettable hockey events. Immerse yourself in the excitement of these outdoor spectacles with \"Stadiums &amp; Skylines,\" where the magic of hockey meets the awe-inspiring settings that make these games truly extraordinary.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7743f000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0135,
+          "limit": 54
+         },
+         "name": "Aleksander Barkov",
+         "description": "During a powerplay midway through the second period against conference opponent New York Rangers, Aleksander Barkov makes an incredible play to earn the assist and get the Panthers on the board.  Leading the rush up the ice, Barkov dishes the puck over to Carter Verhaeghe who quickly returns it back.  Barkov then juggles the puck to elude a defender before diving to send the puck over to Sam Reinhart who slams it in the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000093bd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.013,
+          "limit": 52
+         },
+         "name": "Evgeny Kuznetsov",
+         "description": "Facing a conference opponent in the Florida Panthers, Evgeny Kuznetsov nets his first goal as a member of the Carolina Hurricanes. Defenseman Jalen Chatfield finds Kuznetsov who is positioned on the far side. Receiving the pass, Kuznetsov maneuvers toward the goal and fires a wrist shot that hits the mark. His celebration, characterized by his signature \"bird celly,\" ignites cheers from the Hurricanes' faithful crowd.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009c7c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0155,
+          "limit": 62
+         },
+         "name": "Tommy Novak",
+         "description": "Beginning with a stretch pass from goaltender Juuse Saros, Tommy Novak receives the puck just before the offensive blueline and immediately heads toward the net. With a slick backhand-to-forehand move, he jukes the defender and then sends a wrister that finds the back of the net against the division-rival Colorado Avalanche.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000a5e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.013,
+          "limit": 52
+         },
+         "name": "Sean Walker",
+         "description": "Acquired in a trade ahead of the 2023-24 deadline and playing in his fourth game as a member of the Colorado Avalanche, defenseman Sean Walker came up big in a game versus the rival Edmonton Oilers. After notching his first goal with the new team earlier in the game, Walker leveled the score with just over five minutes remaining in the third period with his second tally. As Casey Mittelstadt skates behind the net with the puck, Walker jumps into the slot from the point where he receives the pass and blasts a one-timer past the netminder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000858c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0185,
+          "limit": 74
+         },
+         "name": "Cam Talbot",
+         "description": "After an errant turnover by the LA Kings, Cam Talbot comes up with a remarkable diving stop on Tim St\u00fctzle.  Despite Claude Giroux's cross-ice pass seemingly leaving St\u00fctzle with a wide-open net, Talbot manages to get across and snatch the puck with his glove just in time. This impressive display comes in Talbot's inaugural season with the LA Kings, where he made a total of 28 saves against his former team from the previous season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000b9c8000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0145,
+          "limit": 58
+         },
+         "name": "Ryan Nugent-Hopkins",
+         "description": "In the final two minutes of regulation, as the Oilers found themselves trailing 1-0, Ryan Nugent-Hopkins makes a tremendous defensive effort getting a stick on Danton Heinen\u2019s shot attempt at the empty net just in time.  This game saving play allowed Leon Draisaitl to even up the score on the very next shift with only 80 seconds remaining in the third period.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008279000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.014,
+          "limit": 56
+         },
+         "name": "Matt Duchene",
+         "description": "Speeding through the neutral zone, Matt Duchene collects the puck near center ice to head down for a 2-on-1 with Tyler Seguin. Gaining steam, Duchene looks as if he is going to shoot the puck \u2013 fooling both the defenseman and the goalie before he makes a beautiful behind-the-back feed to Seguin who finishes the play.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008272000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0195,
+          "limit": 78
+         },
+         "name": "Bobby McMann",
+         "description": "Bobby McMann nets his first of two goals in the game off of an impressive shift by the Toronto Maple Leafs. As the puck is dumped softly into the offensive zone, Timothy Liljegren chases it down to advance the puck further to John Tavares. Prior to receiving the puck, Tavares takes a look to see McMann open in the slot. Tavares spins with the puck on his backhand to send the puck out to McMann who buries it. McMann finished the night with 2 goals and 1 assist.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d176000091e4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0145,
+          "limit": 58
+         },
+         "name": "Nils Hoglander",
+         "description": "Beginning with a strip of the puck by Connor Garland in the defensive zone, he advances it up the ice to Elias Pettersson who moves it over to the streaking Nils Hoglander. With a clear path to the net, Hoglander freezes the goalie with a fake shot before shifting it to the backhand and roofing it upstairs for his second goal of the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000bfc5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0115,
+          "limit": 46
+         },
+         "name": "Vincent Trocheck",
+         "description": "Centerman, Vincent Trocheck, who set a new career high this year for assists in a single season showcases a beauty here. Carrying the puck on a two-on-one, he opens up on the forehand, seemingly prepared to shoot. As the defenseman slides on the ice trying to take away the passing option, Trocheck sauces it perfectly over to Panarin for the sweet apple.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000802c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.01325,
+          "limit": 53
+         },
+         "name": "Keegan Kolesar",
+         "description": "In the final two minutes of the third period of a tied game, Keegan Kolesar scores the game winner with 80 seconds remaining on the clock. As the puck gets moved over to Brett Howden on the left side, Kolesar positioned on the other side heads directly to the net where he stops. Howden makes a power move to the net where the puck squirts loose directly to Kolesar who buries it past the netminder for the decisive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000927d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.0145,
+          "limit": 58
+         },
+         "name": "Danton Heinen",
+         "description": "Holding a one-goal lead in the final five minutes of the third period, Danton Heinen snipes one past the netminder to create a two-goal cushion for the Boston Bruins. The play unfolds from a blocked shot in the defensive zone, initiating an offensive opportunity for Heinen. Charging down the left side, Heinen snaps one tops shelf from near the face-off circle. With Philadelphia scoring moments later, Heinen\u2019s tally proved to be the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009ab5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.01975,
+          "limit": 79
+         },
+         "name": "Anthony Cirelli",
+         "description": "As the puck gets moved around the boards, Anthony Cirelli gives chase and beats Jack Eichel to it to spring ahead on a 2-on-0 break with Brandon Hagel. Heading toward the net, Cirelli moves the puck over to Hagel who gives it right back for Cirelli to fire it past the netminder for the shorty.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600008710000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.01875,
+          "limit": 75
+         },
+         "name": "Neal Pionk",
+         "description": "Originating from a battle for the puck along the boards, the puck squirts loose to Mason Appleton who quickly locates Neal Pionk on the far side. Pionk breaks for the net using his body to shield the puck from the defender and rips it home past the goalie. The first-period goal proved to be the game winner in a 3-0 Jets victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009229000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.01925,
+          "limit": 77
+         },
+         "name": "Kyle Palmieri",
+         "description": "Having already scored the first two goals of the game, Kyle Palmieri nets his third in the first period for the natural hat trick. As the puck gets bounced around near the front of the net, Jean-Gabriel Pageau eventually emerges with it and spots Palmieri up near the point. Palmieri moves it over to Ryan Pulock who makes a pass of the goalie pad getting kicked out right to Palmieri who buries it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d17600009f9d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Playoff Bound",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.017,
+          "limit": 68
+         },
+         "name": "John Carlson",
+         "description": "At 34 years old and playing in his 15th NHL season, all with the Washington Capitals, defenseman John Carlson continues to make an impact on the ice. Facing a divisional opponent, the Philadelphia Flyers, Carlson netted a goal late in the second period which proved to be the game winner. Positioned down low near the net, Carlson capitalized on a rebound generated by a Rasmus Sandin point shot, executing a wraparound maneuver to beat the opposing goaltender.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77d1760000920a000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.26,
+          "limit": 1040
+         },
+         "name": "Light the Lamp",
+         "description": "<p>Dive into the heart-pounding moment the puck crosses the goal line with our exclusive collectible set, 'Light the Lamp.' This collection features players scoring thrilling goals, capturing the very essence of why they are cherished as impactful contributors. Each highlight in 'Light the Lamp' serves as a snapshot of electrifying plays showcasing the player's skill and finesse as they find the back of the net. From jaw-dropping breakaways to top corner snipes, these extraordinary highlights remind us why these players are known for their game-changing prowess.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77966800000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.26,
+          "limit": 1040
+         },
+         "name": "Guardians of the Net",
+         "description": "<p>Introducing \"Guardians of the Net,\" a tribute to the exceptional feats of goaltenders in a singular game. This set celebrates performances where goalies serve as the ultimate defense, executing extraordinary saves that propel their teams to triumph. \"Guardians of the Net\" is a celebration of the artistry and resilience displayed by these contemporary net guardians, showcasing their remarkable ability to defy the odds and keep their teams in the game.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b65400000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.26,
+          "limit": 1040
+         },
+         "name": "Next-Gen Class",
+         "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77cc3600000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.2,
+          "limit": 800
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.019,
+          "limit": 76
+         },
+         "name": "Cause for a Celly: '90s",
+         "description": "<div>\r\n<div>The Cause <em>For A Celly: '90s</em> collection immortalizes unforgettable NHL playoff highlights from the '90s that helped define the sport, featuring many of the game's greatest players and iconic moments that have left an indelible mark on hockey history.</div>\r\n<br />\r\n<div>Relive the exhilarating moments, featuring both legendary players and game or series-changing plays. From stunning overtime goals to game-saving glove saves, <em>Cause For A Celly: '90s</em> captures the drama, passion, and intensity of the playoffs like never before.</div>\r\n<br />\r\n<div>This exclusive set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable moments that have shaped the postseason.</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d22f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.00025,
+          "limit": 1
+         },
+         "name": "Teemu Selanne",
+         "description": "Teemu Selanne scored his third goal of the game during the third period, securing his record-setting 54th goal of the 1992-93 season. This impressive feat surpassed Mike Bossy's rookie record of 53 goals, which had been set fifteen seasons earlier. The play unfolded when Selanne's teammate, Tie Domi, launched the puck high into the air, landing near center ice. In a display of speed and skill, Selanne outpaced the defenseman, swatting a backhander past the sliding goalie to secure the record-breaking goal. The ice quickly filled with Selanne's jubilant teammates, celebrating his accomplishment. To commemorate the occasion, the team awarded Selanne a stick, which he raised towards the crowd at center ice in a gesture of gratitude. The rookie season for \"The Finnish Flash\" saw him tally an astounding 76 goals, obliterating the previous record and earning him the prestigious Calder Trophy.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be800009f67000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.00025,
+          "limit": 1
+         },
+         "name": "Wayne Gretzky",
+         "description": "During the 1993-94 season, Wayne Gretzky achieved a historic milestone by surpassing his childhood idol, Gordie Howe, to become the NHL's all-time leading goal scorer. The remarkable play unfolded with Luc Robitaille spearheading the attack, entering the opposing zone and executing a drop pass back to Gretzky. Displaying his exceptional playmaking abilities, Gretzky swiftly delivered a pass to Jari Kurri, who in turn sent the puck over to Marty McSorley. Positioned unmarked on the left side, Gretzky received a pass from McSorley, allowing him to effortlessly tap the puck into the net for the goal. The electrified crowd erupted in cheers as the Kings' bench swiftly flooded the ice, celebrating this incredible accomplishment. The memorable moment came in Gretzky\u2019s 15th NHL season, one in which \u201cThe Great One\u201d led the League in both assists and points.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be80000a881000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.00025,
+          "limit": 1
+         },
+         "name": "Ray Bourque",
+         "description": "After an illustrious career spanning 22 seasons, Ray Bourque finally achieved the ultimate triumph of hoisting the Stanley Cup. At the age of 40, in what would be his final year in professional hockey, Bourque fulfilled his long-standing dream of winning this highly coveted trophy. This remarkable achievement added to the numerous accolades he had already earned, including holding the record for the most goals, assists and points in NHL history by a defenseman, along with five Norris Trophy awards. Leading up to this historic victory, Bourque showcased his invaluable contributions by scoring the game-winning goal during Game 3 of the Stanley Cup Final. With the game tied and a power play in progress, a crucial faceoff ensued in the early moments of the third period. Bourque skillfully seized control of the puck after it was won back to him, swiftly gliding towards the center of the ice before unleashing a powerful slapshot that flew past the formidable Martin Brodeur. Then, on June 9, 2001, following a resounding 3-1 victory by the Colorado Avalanche in Game 7, team captain Joe Sakic received the coveted Stanley Cup from Commissioner Gary Bettman. In a deeply significant gesture, Sakic promptly skated over to Bourque, personally handing off the cherished trophy to the deserving veteran. This poignant moment served as the culmination of Bourque's extraordinary career, marking the pinnacle of his accomplishments and forever etching his name into hockey lore.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be80000b68d000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.00025,
+          "limit": 1
+         },
+         "name": "Alex Ovechkin",
+         "description": "On Dec. 23, 2022, Alex Ovechkin surpassed \u201cMr. Hockey,\u201d Gordie Howe, for second place on the NHL\u2019s all-time goals list behind \u201cThe Great One,\u201d Wayne Gretzky. \u201cThe Great 8\u201d has had a remarkable career having won the Maurice \"Rocket\" Richard Trophy on nine occasions \u2013 the most any NHL player has finished as single-season goals leader. Ovechkin tops a list of only three players to lead the League in goals more than five times, the others being Bobby Hull (7x) and Phil Esposito (6x). For his first goal of the game (801), the play begins with Ovechkin feeding the puck to teammate Ryan Strome on the far side in the neutral zone. As Strome gains the blue line, Ovechkin trails the play getting the drop pass where he walks it in and zips it five-hole past the netminder. In the final play, Ovechkin gains the blue line with the puck where he has a clear shot at the empty net. Instead, he pulls up and passes it over to longtime teammate Evgeny Kuznetsov. Kuznetsov dishes it back to Ovechkin where he spins alongside the boards and throws it into the empty net in front of an elated home crowd, with his teammates then flooding the ice in celebration.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be800009c0c000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Playoff Bound",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/V1P88Z1d",
+        "set_uuid": "b5c8ae77d17600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Light the Lamp",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBByRM",
+        "set_uuid": "b5c8ae77966800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Next-Gen Class",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+        "set_uuid": "b5c8ae77cc3600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Stadiums & Skylines",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgw7JR6",
+        "set_uuid": "b5c8ae7743f000000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rR8rAl1d",
+        "set_uuid": "b5c8ae775be800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Guardians of the Net",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk",
+        "set_uuid": "b5c8ae77b65400000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: '90s",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+        "set_uuid": "b5c8ae77d22f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Base",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+        "set_uuid": "b5c8ae77b8f100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-04-17",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmU2VzGLAk6QFHdhAfWdBpXNg6h6JcbvpFKS3yoDBnRV5W"
+       },
+       "content-type": "image/png",
+       "sha256": "18RIFKyliWyUfBUPzPOkUAxG5HPBOpWSHvjgN5_YrEU=",
+       "url": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmSkteU9jRp16QFPxXCw52TKZowGyNy6Rpy38NvqVeJuDt"
+       },
+       "content-type": "image/png",
+       "sha256": "lg3mrpT2AGm-XIrCrwCPhY2EpAiEM_Rn3IQDwZkSRHU=",
+       "url": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmU2VzGLAk6QFHdhAfWdBpXNg6h6JcbvpFKS3yoDBnRV5W"
+       },
+       "content-type": "image/png",
+       "sha256": "18RIFKyliWyUfBUPzPOkUAxG5HPBOpWSHvjgN5_YrEU=",
+       "url": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front.png"
+      }
+     },
+     "issued": "2024-04-17T22:43:08.489466",
+     "name": "Playoff Bound Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "OashiAP_b1DkwNt-CI-H8zfsK4Y8PUpZdZW_o-NOMPk=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Gear up for the playoffs with 'Playoff Bound' \u2013 a collection that sets the stage for playoff excitement. The set includes one riveting highlight per playoff-bound team from the regular season, 'Playoff Bound' offers a glimpse into the plays that contributed to their ascension into playoff contention.\r\n\r\nFeaturing jaw-dropping apples and late-game heroics from Aleksander Barkov, Evgeny Kuznetsov, Ryan Nugent-Hopkins, Cam Talbot, Sean Walker, Keegan Kolesar, and more!\r\n\r\nEach pack contains 2 Playoff Bound highlights, 1 mystery Core highlight that could be from Base (25%), Base 2023-24 (25%), Stadiums & Skylines (25%), or Playoff Bound (25%), and 1 mystery highlight that could be from Guardians of the Net (26%), Light the Lamp (26%), Next-Gen Class (26%), Opening Ice 2023-24 (20%), Cause for a Celly: \u201890s (1.9%), or The Greatest Achievements (<1%).",
+       "is_openable": true,
+       "name": "Playoff Bound Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 4000,
+      "uri": "https://nft.nhlbreakaway.com/series/gb0442bA"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/gb0442bA"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Playoff Bound Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/gb0442bA",
+    "image": "https://nft.nhlbreakaway.com/series/gb0442bA/image-front-16x9.png"
+   },
+   "seriesId": "gb0442bA",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "gb0442bA"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

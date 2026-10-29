@@ -1,0 +1,2275 @@
+{
+ "props": {
+  "pageProps": {
+   "headerMetadata": {
+    "titleKey": "questsHubTitle",
+    "url": "https://nhlbreakaway.com/play/quests",
+    "image": "https://nhl-static.assets.sweet.io/img/drops_social_share.jpg"
+   },
+   "collectionQuests": [
+    {
+     "challenge_config_id": 124,
+     "freeze_by": 1732694399,
+     "freeze_until": 1733817599,
+     "active_from": 1775718000,
+     "active_until": 1805011199,
+     "title": "11/26 Core NHL Hockey Night Quest",
+     "reward": {
+      "headline": "NHL Hockey Night Breakaway Bag (Core)",
+      "body": "<p>n/a</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/da407b6b-1035-46ae-8629-dc062f8edde9.png",
+      "award_after": 1732604400
+     },
+     "display_image": "https://collectible.sweet.io/images/50UIjKGbSLucuA/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": 9,
+      "challenge_reward_name": "NHL Hockey Night Breakaway Bag (Core)",
+      "challenge_reward_image": "https://collectible.sweet.io/challenge_reward/image/ba38ecc8-aaff-4de1-9c90-cbbf955b3343.png"
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 135,
+     "freeze_by": 1732780799,
+     "freeze_until": 1733903999,
+     "active_from": 1778569200,
+     "active_until": 1807084799,
+     "title": "11/27 Core NHL Hockey Night Quest",
+     "reward": {
+      "headline": "NHL Hockey Night Breakaway Bag (Core)",
+      "body": "<p>n/a</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/1c223fbd-f45d-480a-be5c-c3668cc2075c.png",
+      "award_after": 1732690800
+     },
+     "display_image": "https://collectible.sweet.io/images/abZLdrarHk0Fvw/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": 9,
+      "challenge_reward_name": "NHL Hockey Night Breakaway Bag (Core)",
+      "challenge_reward_image": "https://collectible.sweet.io/challenge_reward/image/ba38ecc8-aaff-4de1-9c90-cbbf955b3343.png"
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 316,
+     "freeze_by": 1759388399,
+     "freeze_until": 1775026799,
+     "active_from": 1749574800,
+     "active_until": 1798700400,
+     "title": "Legend of the Completion Cup Quest: Part \u2161",
+     "reward": {
+      "headline": "Exclusive Wayne Gretzky - The Completion Cup Heroic Highlight",
+      "body": "<p>Highlight reward edition numbers will be randomly distributed to completionists.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/756ddba0-45d9-45f1-9d6c-095b3bf5007b.png",
+      "award_after": 1759863600
+     },
+     "display_image": "https://collectible.sweet.io/images/5ell920nk14OKg/image..png",
+     "nr_highlights": 44,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 324,
+     "freeze_by": 1760943599,
+     "freeze_until": 1776409199,
+     "active_from": 1760031000,
+     "active_until": 1830236400,
+     "title": "Cause for a Celly: 2000s Quest",
+     "reward": {
+      "headline": "Cause for a Celly: 2000s Quest Reward Pack (Epic)",
+      "body": "<p>Minted based on quest completion, containing a guaranteed Epic, and an additional chance for a Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/b1c34899-4756-4d83-9b41-7f7d25c2c076.png",
+      "award_after": 1761332400
+     },
+     "display_image": "https://collectible.sweet.io/images/rHypEBZxzQT8ng/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 323,
+     "freeze_by": 1760943599,
+     "freeze_until": 1776409199,
+     "active_from": 1760031000,
+     "active_until": 1830236400,
+     "title": "Opening Ice: Icons Quest",
+     "reward": {
+      "headline": "Opening Ice: Icons Quest Reward Pack (Rare)",
+      "body": "<p>Minted based on quest completion, containing a guaranteed Rare, and an additional chance for a Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/84794b70-1983-411f-bd6d-765fa546505b.png",
+      "award_after": 1761332400
+     },
+     "display_image": "https://collectible.sweet.io/images/Yhnzun0KBNtpsA/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 322,
+     "freeze_by": 1760943599,
+     "freeze_until": 1776409199,
+     "active_from": 1760031000,
+     "active_until": 1830236400,
+     "title": "Fresh Sweaters: Legacy Quest",
+     "reward": {
+      "headline": "Fresh Sweaters: Legacy Quest Reward Pack (Limited)",
+      "body": "<p>Minted based on quest completion, containing a guaranteed Limited, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/b068c437-71e0-4a97-b7d0-500c53cfea93.png",
+      "award_after": 1761332400
+     },
+     "display_image": "https://collectible.sweet.io/images/KbBT4GVMbZUXUQ/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 321,
+     "freeze_by": 1760943599,
+     "freeze_until": 1776409199,
+     "active_from": 1760031000,
+     "active_until": 1830236400,
+     "title": "Heart & Soul: 80s + 90s Quest",
+     "reward": {
+      "headline": "Heart & Soul: 80s + 90s Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, Epic highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/519d64bd-0a4e-43fa-812c-6a3de3b0784a.png",
+      "award_after": 1761332400
+     },
+     "display_image": "https://collectible.sweet.io/images/garCcWxGCenuJw/image..png",
+     "nr_highlights": 25,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 338,
+     "freeze_by": 1762847999,
+     "freeze_until": 1796543999,
+     "active_from": 1762545600,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest",
+     "reward": {
+      "headline": "One (1) Heart & Soul: 80s + 90s Pack (Core)",
+      "body": "<p>Earn one pack from our most recent drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/f5dcffd2-721c-42a5-9a01-ba25fe9d8135.png",
+      "award_after": 1763150400
+     },
+     "display_image": "https://collectible.sweet.io/images/vyov0BDl-iwMpQ/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 334,
+     "freeze_by": 1762934399,
+     "freeze_until": 1776409199,
+     "active_from": 1762459200,
+     "active_until": 1830236400,
+     "title": "HHOF 2025 Inductee Quest",
+     "reward": {
+      "headline": "One (1) Heart & Soul 80s + 90s Pack (Core)",
+      "body": "<p>Earn a Core pack from our first Series 3 drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/07451ee8-067c-490a-9197-e6aa06acfbfa.png",
+      "award_after": 1763150400
+     },
+     "display_image": "https://collectible.sweet.io/images/dqhv_TQ2GVQPtQ/image..png",
+     "nr_highlights": 25,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 339,
+     "freeze_by": 1763971199,
+     "freeze_until": 1765526399,
+     "active_from": 1763582400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest",
+     "reward": {
+      "headline": "Two (2) Heart & Soul: 80s + 90s Pack (Core)",
+      "body": "<p>Earn two packs from the Season-Opening Drop</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/115fdf82-52e7-4b6c-83b1-f711444860c5.png",
+      "award_after": 1764187200
+     },
+     "display_image": "https://collectible.sweet.io/images/Ym4ARtUtHrOg5w/image..png",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 336,
+     "freeze_by": 1764575999,
+     "freeze_until": 1776409199,
+     "active_from": 1762885800,
+     "active_until": 1830236400,
+     "title": "20/20 Vision Quest",
+     "reward": {
+      "headline": "20/20 Vision Quest Reward Pack (Epic)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Epic, and an additional chance for a Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/e32becce-f093-4d9e-818b-1a797fbe174a.png",
+      "award_after": 1764964800
+     },
+     "display_image": "https://collectible.sweet.io/images/B1h_41J4ePn88w/image..png",
+     "nr_highlights": 50,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 335,
+     "freeze_by": 1764575999,
+     "freeze_until": 1776409199,
+     "active_from": 1762885800,
+     "active_until": 1830236400,
+     "title": "Strong Start Quest",
+     "reward": {
+      "headline": "Strong Start Quest Reward Pack (Limited)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Limited, and an additional chance for a Core, Limited, Rare, or Epic highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/106f5d5d-202f-46e7-9447-ee2ac71ecd5e.png",
+      "award_after": 1764964800
+     },
+     "display_image": "https://collectible.sweet.io/images/vGr8nCcd2EgIeQ/image..png",
+     "nr_highlights": 60,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 342,
+     "freeze_by": 1765180799,
+     "freeze_until": 1767859199,
+     "active_from": 1764878400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - November Goalie Save Percentage",
+     "reward": {
+      "headline": "Two (2) Heart & Soul: 80s + 90s Packs (Core)",
+      "body": "<p>Earn two packs from the Season-Opening Drop</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/7b1743f9-83d1-4386-afb4-acccd8c0f986.png",
+      "award_after": 1765483200
+     },
+     "display_image": "https://collectible.sweet.io/images/u0Hp38VGMvBZxg/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 341,
+     "freeze_by": 1765180799,
+     "freeze_until": 1767859199,
+     "active_from": 1764878400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Top Scoring Forwards",
+     "reward": {
+      "headline": "One (1) Heart & Soul: 80s + 90s Pack (Core)",
+      "body": "<p>Earn one pack from the Season-Opening Drop</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/09aca3db-6519-47ea-8fbb-5989a470b78a.png",
+      "award_after": 1765483200
+     },
+     "display_image": "https://collectible.sweet.io/images/CEgAR2wKVXEEfA/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 340,
+     "freeze_by": 1765180799,
+     "freeze_until": 1767859199,
+     "active_from": 1764878400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Hardest Shot",
+     "reward": {
+      "headline": "One (1) Heart & Soul: 80s + 90s Pack (Core)",
+      "body": "<p>Earn one pack from the Season-Opening Drop</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/4f93e780-e1da-458c-a08d-b92dd25c4d9a.png",
+      "award_after": 1765483200
+     },
+     "display_image": "https://collectible.sweet.io/images/BQxvF14wW0cVDA/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 346,
+     "freeze_by": 1765699199,
+     "freeze_until": 1768377599,
+     "active_from": 1765321200,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Points Per Game",
+     "reward": {
+      "headline": "One (1) Heart & Soul Debut LE Pack (Core)",
+      "body": "<p>Earn a Core pack from our first Series 3 drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/88059002-3019-48c8-8838-811dfe8844eb.png",
+      "award_after": 1766088000
+     },
+     "display_image": "https://collectible.sweet.io/images/sWdHSowwJzHCYA/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 347,
+     "freeze_by": 1766390399,
+     "freeze_until": 1769068799,
+     "active_from": 1765926000,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Fresh Sweaters",
+     "reward": {
+      "headline": "One (1) Heart and Soul: 80s + 90s Pack",
+      "body": "<p>Earn a Core pack from Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/69521a77-3eef-4c7a-bd18-2941567c74f0.png",
+      "award_after": 1766520000
+     },
+     "display_image": "https://collectible.sweet.io/images/dXqAmKhdgb2BfQ/image..jpg",
+     "nr_highlights": 3,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 344,
+     "freeze_by": 1767081599,
+     "freeze_until": 1776409199,
+     "active_from": 1765305000,
+     "active_until": 1830236400,
+     "title": "Fresh Season Sweaters Quest",
+     "reward": {
+      "headline": "Fresh Season Sweaters Quest Reward Pack (Limited)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Limited, and an additional chance for a Core, Limited, Rare, or Epic highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/05d305bd-052b-4820-93ed-4bbfa7e942f0.png",
+      "award_after": 1767988800
+     },
+     "display_image": "https://collectible.sweet.io/images/Azij996DukIqww/image..png",
+     "nr_highlights": 30,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 343,
+     "freeze_by": 1767081599,
+     "freeze_until": 1776409199,
+     "active_from": 1765305000,
+     "active_until": 1830236400,
+     "title": "Next-Gen Class Quest",
+     "reward": {
+      "headline": "Next-Gen Class Quest Reward Pack (Rare)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, or Epic highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/cdc4db16-f133-487c-b0b0-cdf77ff075d1.png",
+      "award_after": 1767988800
+     },
+     "display_image": "https://collectible.sweet.io/images/4QO1Z03S474gHw/image..png",
+     "nr_highlights": 30,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 329,
+     "freeze_by": 1767167999,
+     "freeze_until": 1776409199,
+     "active_from": 1762200000,
+     "active_until": 1798700400,
+     "title": "Vegas Golden Knights Rally Quest",
+     "reward": {
+      "headline": "Erik Haula - 2018\u00a02OT Goal in\u00a0Game 2 of the First Round",
+      "body": "<p>Exclusive Heroic highlight reward editions will be awarded based on completion place.</p>\r\n<p>&nbsp;</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/a53a6dca-8012-4178-be31-91e57656adbc.png",
+      "award_after": 1768248000
+     },
+     "display_image": "https://collectible.sweet.io/images/JeYZjqL_CZMApA/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 328,
+     "freeze_by": 1767167999,
+     "freeze_until": 1776409199,
+     "active_from": 1761591600,
+     "active_until": 1798700400,
+     "title": "Ottawa Senators Rally Quest",
+     "reward": {
+      "headline": "Brady Tkachuk - First Career Hat Trick Multi Highlight",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/0793da97-449f-4226-9da7-68055f8b56f5.png",
+      "award_after": 1768248000
+     },
+     "display_image": "https://collectible.sweet.io/images/A3_kH9mwx40NNg/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 327,
+     "freeze_by": 1767167999,
+     "freeze_until": 1776409199,
+     "active_from": 1760986800,
+     "active_until": 1798700400,
+     "title": "Los Angeles Kings Rally Quest",
+     "reward": {
+      "headline": "Quinton Byfield - 2025 One-Handed Goal vs SEA",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/9edea0ab-630b-4e6f-a9a5-f656e56adbac.png",
+      "award_after": 1768248000
+     },
+     "display_image": "https://collectible.sweet.io/images/iolpPWGplU_3vg/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 326,
+     "freeze_by": 1767167999,
+     "freeze_until": 1776409199,
+     "active_from": 1760382000,
+     "active_until": 1798700400,
+     "title": "Florida Panthers Rally Quest",
+     "reward": {
+      "headline": "Carter Verhaeghe - 2023 OT goal in Game 7 vs BOS",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/1bd31783-ee51-4d2a-9934-0e9de28f4676.png",
+      "award_after": 1736712000
+     },
+     "display_image": "https://collectible.sweet.io/images/hRyUW_PVI4qb5g/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 345,
+     "freeze_by": 1767254397,
+     "freeze_until": 1769932799,
+     "active_from": 1764878400,
+     "active_until": 1830236400,
+     "title": "Collector Coach December First Freeze Quest",
+     "reward": {
+      "headline": "Collector Coach December Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core highlight, and an additional chance for a Core, Limited, or Rare highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/12e3917e-d15c-4a42-8f22-728b7f0ae502.png",
+      "award_after": 1767988800
+     },
+     "display_image": "https://collectible.sweet.io/images/Py_pNsqerutINg/image..png",
+     "nr_highlights": 3,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 325,
+     "freeze_by": 1767254399,
+     "freeze_until": 1790837999,
+     "active_from": 1760036400,
+     "active_until": 1798700400,
+     "title": "Legend of the Completion Cup Quest: Part \u2162",
+     "reward": {
+      "headline": "Exclusive Sergei Fedorov - The Completion Cup Heroic Highlight",
+      "body": "<p>Highlight reward edition numbers will be distributed based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/b6948211-a95d-461f-a073-0c70715b0232.png",
+      "award_after": 1768248000
+     },
+     "display_image": "https://collectible.sweet.io/images/sdi4Xhs90jhcow/image..png",
+     "nr_highlights": 39,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 348,
+     "freeze_by": 1767686399,
+     "freeze_until": 1770364799,
+     "active_from": 1767394800,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Most Goals in Calendar Year",
+     "reward": {
+      "headline": "One (1) Heart and Soul: 80s + 90s Pack",
+      "body": "<p>Earn a Core pack from Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/927890f2-03ca-4238-bb64-d8fca8b8ae93.png",
+      "award_after": 1768334400
+     },
+     "display_image": "https://collectible.sweet.io/images/b69fSXAj7z7omQ/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 352,
+     "freeze_by": 1768031999,
+     "freeze_until": 1770710399,
+     "active_from": 1767826800,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Most Shots",
+     "reward": {
+      "headline": "One (1) Fresh Sweaters 25/26 December Expansion Pack (Core)",
+      "body": "<p>Earn one core pack from the Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/f49287b2-55fb-434d-9473-7e9c5d8f405c.png",
+      "award_after": 1768334400
+     },
+     "display_image": "https://collectible.sweet.io/images/hjj8n8fCV-Y9PA/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 351,
+     "freeze_by": 1768031999,
+     "freeze_until": 1770710399,
+     "active_from": 1767826800,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Power Play Points",
+     "reward": {
+      "headline": "One (1) Fresh Sweaters 25/26 December Expansion Pack (Core)",
+      "body": "<p>Earn one core pack from the Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/fc3e307d-fe24-4d35-968b-39d6228aafda.png",
+      "award_after": 1768334400
+     },
+     "display_image": "https://collectible.sweet.io/images/XUHibuZrdUNxBA/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 350,
+     "freeze_by": 1768031999,
+     "freeze_until": 1770710399,
+     "active_from": 1767826800,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Defensemen TOI",
+     "reward": {
+      "headline": "One (1) Fresh Sweaters 2025-26 December Expansion Pack (Core)",
+      "body": "<p>Earn one core pack from the Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/3a0d8bec-bfc0-40ab-b655-7f32ee831904.png",
+      "award_after": 1768334400
+     },
+     "display_image": "https://collectible.sweet.io/images/stXUv4v0fQAjIg/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 349,
+     "freeze_by": 1769932797,
+     "freeze_until": 1772351999,
+     "active_from": 1767394800,
+     "active_until": 1830236400,
+     "title": "Collector Coach January 2026 First Freeze Quest",
+     "reward": {
+      "headline": "Collector Coach January 2026 Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core highlight, and an additional chance for a Core, Limited, or Rare highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/9126e917-0d16-46a6-b462-4729514c67d3.png",
+      "award_after": 1770408000
+     },
+     "display_image": "https://collectible.sweet.io/images/ckur8zWVpkIZcw/image..png",
+     "nr_highlights": 3,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 353,
+     "freeze_by": 1769932799,
+     "freeze_until": 1790751599,
+     "active_from": 1768329000,
+     "active_until": 1830236400,
+     "title": "Seasoned Steel Quest",
+     "reward": {
+      "headline": "Seasoned Steel Quest Reward Pack (Rare)",
+      "body": "<p>The reward pack edition size will be based on the total number of collectors who complete the quest. Each reward pack will contain a guaranteed Rare highlight and an additional chance for a Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/82bb4389-8e98-4d72-8072-fc03653d04f9.png",
+      "award_after": 1770408000
+     },
+     "display_image": "https://collectible.sweet.io/images/nQ_mG2nk7GyGgA/image..png",
+     "nr_highlights": 175,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 360,
+     "freeze_by": 1770019199,
+     "freeze_until": 1772265599,
+     "active_from": 1769641200,
+     "active_until": 1830236400,
+     "title": "NHL On Ice Quest - Division Leaders",
+     "reward": {
+      "headline": "One (1) Heart & Soul pack (Core)",
+      "body": "<p>Earn one core pack from the Series 3</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d406188d-5341-41cc-8f13-ca076bc26cac.png",
+      "award_after": 1770753600
+     },
+     "display_image": "https://collectible.sweet.io/images/WjhyGJwQsdf5Mw/image..jpg",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 362,
+     "freeze_by": 1770505200,
+     "freeze_until": 1773125999,
+     "active_from": 1770418800,
+     "active_until": 1830236400,
+     "title": "Czechia Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80's + 90's Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/17488da6-6166-4357-a9d2-fe06a5f5276c.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/Bq0j7cpbhhSw3w/image..png",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 373,
+     "freeze_by": 1770764400,
+     "freeze_until": 1773989999,
+     "active_from": 1770678000,
+     "active_until": 1830236400,
+     "title": "15+ Overtime Goals Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/013dc8f8-b298-4563-8693-44215aaa6f2d.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/5NRm4R-dj8qOMQ/image..png",
+     "nr_highlights": 18,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 363,
+     "freeze_by": 1770937200,
+     "freeze_until": 1773298799,
+     "active_from": 1770850800,
+     "active_until": 1830236400,
+     "title": "Slovakia / Finland Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80's + 90's Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/2cadc974-0877-4ecb-bf37-659104c91114.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/MZqfbRXn1Dy-xA/image..png",
+     "nr_highlights": 18,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 364,
+     "freeze_by": 1771023600,
+     "freeze_until": 1773385199,
+     "active_from": 1770937200,
+     "active_until": 1830236400,
+     "title": "Canada Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80's + 90's Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/87ca37f3-b07c-4c53-bd46-d14e1c5c5405.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/h5cWPGcC11-2NQ/image..png",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 365,
+     "freeze_by": 1771110000,
+     "freeze_until": 1773471599,
+     "active_from": 1771023600,
+     "active_until": 1830236400,
+     "title": "Scandinavian Showdown Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/7de3b5ae-9da9-441a-86e5-3665f523cb6a.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/RUXON30oOsFA8w/image..png",
+     "nr_highlights": 36,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 366,
+     "freeze_by": 1771196400,
+     "freeze_until": 1773557999,
+     "active_from": 1771110000,
+     "active_until": 1830236400,
+     "title": "3 Nation Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/5b4a62d4-6e79-4635-b618-34daba6ad55d.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/xIy13ihlhA920Q/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 367,
+     "freeze_by": 1771282800,
+     "freeze_until": 1773557999,
+     "active_from": 1771196400,
+     "active_until": 1830236400,
+     "title": "USA / Germany Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/93facf86-0e95-4941-a36e-dfe0ba01d64b.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/2gKD32jHWStpbQ/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 368,
+     "freeze_by": 1771369200,
+     "freeze_until": 1773730799,
+     "active_from": 1771282800,
+     "active_until": 1830236400,
+     "title": "500-Goal Club Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/180135f7-82d4-44b6-9d2b-d3f71367138a.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/Qe3Fdrg5bP-M7w/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 369,
+     "freeze_by": 1771455600,
+     "freeze_until": 1773817199,
+     "active_from": 1771369200,
+     "active_until": 1830236400,
+     "title": "Total Miles Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/96052820-1812-4e96-b300-9a8f8654a91b.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/h8t013XFAIgB0w/image..png",
+     "nr_highlights": 9,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 370,
+     "freeze_by": 1771542000,
+     "freeze_until": 1773903599,
+     "active_from": 1771455600,
+     "active_until": 1830236400,
+     "title": "Quarterway Clash Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/cb26444d-b9f6-4901-a2e1-ce6f97b9768b.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/lov8QUu9v-ksRw/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 371,
+     "freeze_by": 1771628400,
+     "freeze_until": 1773989999,
+     "active_from": 1771542000,
+     "active_until": 1830236400,
+     "title": "Tendy Wins Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/6c9f3766-daa5-4df4-b7f6-b47e6e7d8264.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/_0z4oR1gktYXOQ/image..png",
+     "nr_highlights": 18,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 372,
+     "freeze_by": 1771714800,
+     "freeze_until": 1774076399,
+     "active_from": 1771628400,
+     "active_until": 1830236400,
+     "title": "Semifinal Spotlight Quest",
+     "reward": {
+      "headline": "Series 3 Core Pack",
+      "body": "<p>Earn a Heart &amp; Soul 80&rsquo;s + 90&rsquo;s or a Winter Breakaway Quest Reward Pack</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/c724723c-e334-47c3-893f-9a9c656f1ebe.png",
+      "award_after": 1772136000
+     },
+     "display_image": "https://collectible.sweet.io/images/dk_ydMamQ1K2rQ/image..png",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 374,
+     "freeze_by": 1772146800,
+     "freeze_until": 1774508399,
+     "active_from": 1772060400,
+     "active_until": 1830236400,
+     "title": "First Place Quest",
+     "reward": {
+      "headline": "Winter Breakaway EPIC Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Epic, and an additional chance for a Limited, Rare, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/28ff00b7-2e2d-4a0c-aa1d-34506d1c9c3c.jpg",
+      "award_after": 1773601200
+     },
+     "display_image": "https://collectible.sweet.io/images/uOwTaUlPRFb1-A/image..jpg",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 361,
+     "freeze_by": 1772351997,
+     "freeze_until": 1775030399,
+     "active_from": 1769976000,
+     "active_until": 1830236400,
+     "title": "Collector Coach February First Freeze Quest",
+     "reward": {
+      "headline": "Collector Coach February Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core highlight, and an additional chance for a Core, Limited, or Rare highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/2bc99bf5-0e6d-48ac-acfd-f106d8939431.png",
+      "award_after": 1773172800
+     },
+     "display_image": "https://collectible.sweet.io/images/FHi57twS0S5LPA/image..png",
+     "nr_highlights": 3,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 375,
+     "freeze_by": 1773734399,
+     "freeze_until": 1776412799,
+     "active_from": 1771963200,
+     "active_until": 1830236400,
+     "title": "Filthy Apples Quest",
+     "reward": {
+      "headline": "One (1) Filthy Apples Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Limited, and an additional chance for a Core, Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/2f258f6b-82a1-4c0c-a730-1d2572fd2a9f.png",
+      "award_after": 1774033200
+     },
+     "display_image": "https://collectible.sweet.io/images/JfQwKOEgZpoT3Q/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 377,
+     "freeze_by": 1774335599,
+     "freeze_until": 1776927599,
+     "active_from": 1773082800,
+     "active_until": 1830236400,
+     "title": "Deadline Frenzy Quest",
+     "reward": {
+      "headline": "One (1) Deadline Frenzy Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/60f7f484-7330-4757-898e-fb659c241fc3.png",
+      "award_after": 1774983600
+     },
+     "display_image": "https://collectible.sweet.io/images/sQvuCZ8eRurGSw/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 378,
+     "freeze_by": 1775026799,
+     "freeze_until": 1785567599,
+     "active_from": 1773762600,
+     "active_until": 1830236400,
+     "title": "Rinkside Rivalries Quest",
+     "reward": {
+      "headline": "One (1) Rinkside Rivalries Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/5fe4ca87-34df-45d9-ab80-1d2cdf13b6a2.png",
+      "award_after": 1775761200
+     },
+     "display_image": "https://collectible.sweet.io/images/m3KXk-cVRfjAGw/image..png",
+     "nr_highlights": 15,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 383,
+     "freeze_by": 1775545199,
+     "freeze_until": 1786085999,
+     "active_from": 1774378800,
+     "active_until": 1830236400,
+     "title": "Art Ross Trophy Quest",
+     "reward": {
+      "headline": "One (1) Art Ross Trophy Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Epic, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/5a0e416a-73f2-4257-ae6b-7850c9dfe59c.png",
+      "award_after": 1776366000
+     },
+     "display_image": "https://collectible.sweet.io/images/dd5RWLH25zoMNQ/image..png",
+     "nr_highlights": 9,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 382,
+     "freeze_by": 1775545199,
+     "freeze_until": 1786085999,
+     "active_from": 1774378800,
+     "active_until": 1830236400,
+     "title": "Conn Smythe Showcase Quest",
+     "reward": {
+      "headline": "One (1) Conn Smythe Showcase Quest Reward Pack",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d4998a3f-5a0f-4ee8-9c60-b249c6a0c5f1.png",
+      "award_after": 1776366000
+     },
+     "display_image": "https://collectible.sweet.io/images/AytNfMmvBk-GGQ/image..png",
+     "nr_highlights": 30,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 359,
+     "freeze_by": 1776409199,
+     "freeze_until": 1790751599,
+     "active_from": 1769457600,
+     "active_until": 1830236400,
+     "title": "Winnipeg Jets Rally Quest",
+     "reward": {
+      "headline": "Kyle Connor - First Career NHL goal",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/bd355280-b09b-4edb-8896-d4284049b5e6.png",
+      "award_after": 1781290800
+     },
+     "display_image": "https://collectible.sweet.io/images/Dy96ZmAxHSPmsw/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 358,
+     "freeze_by": 1776409199,
+     "freeze_until": 1790751599,
+     "active_from": 1769198400,
+     "active_until": 1830236400,
+     "title": "Toronto Maple Leafs Rally Quest",
+     "reward": {
+      "headline": "William Nylander - 2017 First Career Hat trick Multi Highlight",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d224e7a3-affa-417b-babc-85081e479f02.png",
+      "award_after": 1781290800
+     },
+     "display_image": "https://collectible.sweet.io/images/pAVZosaErFrJXg/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 357,
+     "freeze_by": 1776409199,
+     "freeze_until": 1790751599,
+     "active_from": 1768852800,
+     "active_until": 1830236400,
+     "title": "Seattle Kraken Rally Quest",
+     "reward": {
+      "headline": "Vince Dunn - 2021 scores franchises first ever home goal!",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/e94660b2-b049-4c80-80a7-708acd768bbf.png",
+      "award_after": 1781290800
+     },
+     "display_image": "https://collectible.sweet.io/images/D_Nmn_kPgv0qyg/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 356,
+     "freeze_by": 1776409199,
+     "freeze_until": 1790751599,
+     "active_from": 1768593600,
+     "active_until": 1830236400,
+     "title": "Nashville Predators Rally Quest",
+     "reward": {
+      "headline": "Roman Josi - 2022 Goal & Assist to become All-Time Franchise points leader",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/03a51b56-2a1d-4f55-93f5-d07290e142ac.png",
+      "award_after": 1781290800
+     },
+     "display_image": "https://collectible.sweet.io/images/TSVQcMm0Ez-f0g/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 355,
+     "freeze_by": 1776409199,
+     "freeze_until": 1790751599,
+     "active_from": 1768420800,
+     "active_until": 1830236400,
+     "title": "Minnesota Wild Rally Quest",
+     "reward": {
+      "headline": "Matt Boldy - 2024 OT Goal vs Tor",
+      "body": "<p>Heroic highlight reward editions will be awarded based on completion place.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/93437ecb-4d56-458e-90f2-bf9b36fe7873.png",
+      "award_after": 1781290800
+     },
+     "display_image": "https://collectible.sweet.io/images/E8QYut2F7ggAtA/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 400,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Utah Mammoth",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/20dee401-dd3d-4738-a699-541b7038adef.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/oq9IWjJzERZ2Iw/image..png",
+     "nr_highlights": 5,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 399,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Los Angeles Kings",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/270b68ab-4b58-4a1f-848d-51115e87c774.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/H91buSu-qgFuyg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 398,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Anaheim Ducks",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/90230a0d-67c6-4e80-b691-dc778a168229.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/7ykj21b-imY9-w/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 397,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Edmonton Oilers",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/b9c1a21d-06ef-4a4b-b590-6b2805391dc9.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/tAx94OAp3CBiog/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 396,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Vegas Golden Knights",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/2c8d09e9-6b53-4516-be87-721b9d4e695f.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/VStEpYZzXmSDVg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 395,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Minnesota Wild",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/72438401-8e89-4eac-b9e9-d720ce02a105.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/8wHssCRQc2nXqw/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 394,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Dallas Stars",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/0c33466e-b2ae-4c45-b19b-d495608884fe.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/Kk9D0B0Oxd1sbg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 393,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Colorado Avalanche",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/aae49b7a-0df7-4ac0-b69e-6953899f08a9.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/Aq-ex_uv0hxAYw/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 392,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Ottawa Senators",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/5aa13b73-05f5-4daf-8a09-52003fddb7e5.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/X68v5KSrr4_-kQ/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 391,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Boston Bruins",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/ad27cb26-3012-4fe9-90e0-1f37b9207344.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/PAe30jVto_q5NA/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 390,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Philadelphia Flyers",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/2dc9419a-e188-4dc5-ba60-215806e9b8f7.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/wTcOdsRQaLU0bg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 389,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Pittsburgh Penguins",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/8b0f1849-3c3d-4bff-a872-55b301d2623d.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/1NHEY6b1RqVObg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 388,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Carolina Hurricanes",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d98e0b03-4442-4a5f-aa58-500c5d7654c2.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/_IMpRiL-T1Wagg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 387,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Montreal Canadiens",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/4fd392d6-c490-4c52-859d-615a2276f166.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/KBD4wFOMqFl6-g/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 386,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Tampa Bay Lightning",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/5c4db8f4-2ab5-40ab-b796-7f0a818d31d3.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/pwkp8xJq--t1Vg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 385,
+     "freeze_by": 1776711600,
+     "freeze_until": 1786085999,
+     "active_from": 1776452400,
+     "active_until": 1830236400,
+     "title": "Choose the Finals Quest - Buffalo Sabres",
+     "reward": {
+      "headline": "Choose the Finals Quest reward pack (must pick both SCF teams correctly)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d49e5163-950c-4a4f-ba30-b5661c721116.png",
+      "award_after": 1782414000
+     },
+     "display_image": "https://collectible.sweet.io/images/fAX7oTFGO7TbRg/image..png",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 402,
+     "freeze_by": 1777100399,
+     "freeze_until": 1782370799,
+     "active_from": 1776722400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Hot Start",
+     "reward": {
+      "headline": "On-Ice Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/9ba21820-b127-41b1-8c9a-5909b6c6d2b6.png",
+      "award_after": 1777662000
+     },
+     "display_image": "https://collectible.sweet.io/images/vG-LMWkSwmA-ZQ/image..jpg",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 405,
+     "freeze_by": 1777705199,
+     "freeze_until": 1782370799,
+     "active_from": 1777057200,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Playoff Coaches",
+     "reward": {
+      "headline": "Playoff Bound 2026 Pack (Core)",
+      "body": "<p>Earn a Core pack from our Series 3 drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d8ecc99f-91db-4d2c-b3d1-1d40069b5b59.png",
+      "award_after": 1778007600
+     },
+     "display_image": "https://collectible.sweet.io/images/PJ_tPTL28LqeKg/image..jpg",
+     "nr_highlights": 4,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 407,
+     "freeze_by": 1778180400,
+     "freeze_until": 1782370799,
+     "active_from": 1778094000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - 2nd Round Playoff Goalies",
+     "reward": {
+      "headline": "On-Ice Quest Round 2 Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/b183d7c3-e5b4-4eb9-9022-9e5d75ce4eba.png",
+      "award_after": 1778612400
+     },
+     "display_image": "https://collectible.sweet.io/images/ceMIsGy2fb28OA/image..jpg",
+     "nr_highlights": 8,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 406,
+     "freeze_by": 1778309999,
+     "freeze_until": 1782370799,
+     "active_from": 1777662000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - OT Winners",
+     "reward": {
+      "headline": "Playoff Bound 2026 Pack (Core)",
+      "body": "<p>Earn a Core pack from our Series 3 drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/35160002-b08a-4a8f-bf57-c9f19dcb626e.png",
+      "award_after": 1778612400
+     },
+     "display_image": "https://collectible.sweet.io/images/pY2TIR9eZo1fMw/image..jpg",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 408,
+     "freeze_by": 1779087599,
+     "freeze_until": 1782975599,
+     "active_from": 1778526000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Top 5 Playoff Points",
+     "reward": {
+      "headline": "Playoff Bound 2026 Pack (Core)",
+      "body": "<p>Earn a Core pack from our Series 3 drop!</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/932995cc-ede8-4862-abbe-ae09e69dd3e4.png",
+      "award_after": 1779217200
+     },
+     "display_image": "https://collectible.sweet.io/images/PoqlT1axw09gig/image..jpg",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 409,
+     "freeze_by": 1779692399,
+     "freeze_until": 1782370799,
+     "active_from": 1779228000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Conference Finals",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/a253bd54-aa22-4931-a02b-b97473b76ee7.png",
+      "award_after": 1779919200
+     },
+     "display_image": "https://collectible.sweet.io/images/aIkchiPC0qJFBw/image..jpg",
+     "nr_highlights": 36,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 410,
+     "freeze_by": 1780297199,
+     "freeze_until": 1783925999,
+     "active_from": 1779822000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Points & Plus Player - Top 15",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/dbe1448e-0b71-4c40-a375-be1476c591a6.png",
+      "award_after": 1780513200
+     },
+     "display_image": "https://collectible.sweet.io/images/eibu83h_7j2arA/image..jpg",
+     "nr_highlights": 16,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 411,
+     "freeze_by": 1781593199,
+     "freeze_until": 1786863599,
+     "active_from": 1780426800,
+     "active_until": 1830236400,
+     "title": "The Hunt for Stanley 2026 Quest",
+     "reward": {
+      "headline": "The Hunt for Stanley 2026 Quest Reward Pack (Limited)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Limited, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/85cb2d46-6ae7-418e-82e0-e9fee06f002a.png",
+      "award_after": 1782241200
+     },
+     "display_image": "https://collectible.sweet.io/images/tw68In0BYVNT8w/image..png",
+     "nr_highlights": 32,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 416,
+     "freeze_by": 1781679599,
+     "freeze_until": 1786949999,
+     "active_from": 1781550000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - All-Rookie Team 2025-26",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/bdf2ec3b-7ccc-49d4-a86b-f4f7c0aa46d7.png",
+      "award_after": 1781895600
+     },
+     "display_image": "https://collectible.sweet.io/images/CC6OA_0lTVIigg/image..jpg",
+     "nr_highlights": 6,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 415,
+     "freeze_by": 1781938799,
+     "freeze_until": 1787209199,
+     "active_from": 1781550000,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - The Carolina Hurricanes 2026",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/1f284fe2-3503-4fef-9bcc-c3dabbb2762b.png",
+      "award_after": 1782241200
+     },
+     "display_image": "https://collectible.sweet.io/images/1rX2-bM89tpmOQ/image..jpg",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 417,
+     "freeze_by": 1782716399,
+     "freeze_until": 1787381999,
+     "active_from": 1782154800,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - First All-Star Team 2025-26",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/761db61c-9e40-42bd-a48d-f2148047c2e1.png",
+      "award_after": 1783018800
+     },
+     "display_image": "https://collectible.sweet.io/images/vAj08D799UVBCA/image..jpg",
+     "nr_highlights": 18,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 418,
+     "freeze_by": 1783148399,
+     "freeze_until": 1787986799,
+     "active_from": 1782500400,
+     "active_until": 1830236400,
+     "title": "NHL On-Ice Quest - Fathers & Sons",
+     "reward": {
+      "headline": "On-Ice Quest Reward Pack (Rare)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Core, Limited, Rare, Epic, or Legendary.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/f09cb97b-02fc-443f-98c3-5225eb4a0837.png",
+      "award_after": 1783623600
+     },
+     "display_image": "https://collectible.sweet.io/images/PEQgdSzJtV3KNA/image..jpg",
+     "nr_highlights": 10,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 419,
+     "freeze_by": 1783321199,
+     "freeze_until": 1787986799,
+     "active_from": 1782759600,
+     "active_until": 1830236400,
+     "title": "Cup-Hoisting Goalies Quest",
+     "reward": {
+      "headline": "Cup-Hoisting Goalies Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/d22f457a-ac70-48af-912a-9a6eb523958c.png",
+      "award_after": 1784055600
+     },
+     "display_image": "https://collectible.sweet.io/images/lqrf8VI0TyCALg/image..png",
+     "nr_highlights": 20,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 414,
+     "freeze_by": 1785571199,
+     "freeze_until": 1798703999,
+     "active_from": 1781118000,
+     "active_until": 1830236400,
+     "title": "Signature Collectors Quest",
+     "reward": {
+      "headline": "One (1) Signature Collectors Quest Reward Pack (Rare)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Limited, Rare, Epic, or Legendary highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/9153216d-2fe4-4e6f-b047-4861f3b8b9d1.png",
+      "award_after": 1786129200
+     },
+     "display_image": "https://collectible.sweet.io/images/zhh7FFnfj4hh7Q/image..png",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": true,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 421,
+     "freeze_by": 1786345199,
+     "freeze_until": 1798700399,
+     "active_from": 1785438000,
+     "active_until": 1830236400,
+     "title": "Hoist the Cup 2026 Quest",
+     "reward": {
+      "headline": "Hoist the Cup 2026 Quest Reward Pack (Rare)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Rare, and an additional chance for a Core, Limited, Rare, or Epic.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/f5b0fb48-e9e5-4590-ae78-1aa8a16de514.png",
+      "award_after": 1787252400
+     },
+     "display_image": "https://collectible.sweet.io/images/Ubek_C_cs_-wsQ/image..png",
+     "nr_highlights": 12,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    },
+    {
+     "challenge_config_id": 423,
+     "freeze_by": 1789369199,
+     "freeze_until": 1798703999,
+     "active_from": 1786744800,
+     "active_until": 1830236400,
+     "title": "Big Summer Quest",
+     "reward": {
+      "headline": "One (1) Big Summer Quest Reward Pack (Core)",
+      "body": "<p>Minted based on quest completion and distributed randomly, containing a guaranteed Core, and an additional chance for a Limited, Rare, or Epic highlight.</p>",
+      "image": "https://collectible.sweet.io/game_challenge_config/image/e1572b71-ba36-43dc-82f3-c7fe9f9a4be6.png",
+      "award_after": 1793473200
+     },
+     "display_image": "https://collectible.sweet.io/images/NS6rdyWfnYrW7w/image..png",
+     "nr_highlights": 100,
+     "highlights": [],
+     "challenge_reward": {
+      "challenge_reward_id": null,
+      "challenge_reward_name": null,
+      "challenge_reward_image": null
+     },
+     "campaign_id": 826,
+     "exclusive_lock": false,
+     "unique_card_game": false
+    }
+   ],
+   "craftingQuests": [
+    {
+     "challenge_config_id": null,
+     "active_from": 1780340400,
+     "active_until": 1830236400,
+     "award_after": 1784919600,
+     "lock_by": 1780988399,
+     "lock_until": 1788937199,
+     "exclusive_lock": false,
+     "crafting_challenge_id": 13,
+     "challenge_title": "Signature Quest XI",
+     "challenge_description": "Welcome to Signature Quest \u2169I where you can craft an exclusive and unique Signature Highlight from your favorite players and teams using your collection! Collectors who submit edition #1 as part of the Highlight Submission requirement and complete the quest will be awarded with edition #1 of the Signature Highlight (provided it has not already been crafted by another collector during a previous Signature Quest). All other editions will be randomized amongst eligible collectors. You may only craft one Signature Edition per Signature Quest. Get started below now, choose wisely!",
+     "challenge_image": "https://collectible.sweet.io/images/LtxOP-LYpbPLaw/image..png",
+     "reward_title": "Signature Highlight (Heroic)",
+     "reward_description": "New Signature edition of the highlight selected for your quest!",
+     "reward_image": "https://collectible.sweet.io/images/SmAawZoQMcNbtQ/image..png",
+     "crafting_generator_id": 1,
+     "rules": {
+      "heroic": {
+       "turnin_count": null,
+       "freeze_count": null
+      },
+      "fandom": {
+       "turnin_count": 35,
+       "freeze_count": null
+      },
+      "core": {
+       "turnin_count": 15,
+       "freeze_count": null
+      },
+      "limited": {
+       "turnin_count": 9,
+       "freeze_count": null
+      },
+      "rare": {
+       "turnin_count": 5,
+       "freeze_count": null
+      },
+      "epic": {
+       "turnin_count": 3,
+       "freeze_count": null
+      }
+     },
+     "humanized_rules": "<ul>\r\n<li>Submit to freeze the required highlights by 11:59:59 pm PT on June 8, 2026 to receive a free airdrop of a Signature Highlight edition on or about July 24, 2026.</li>\r\n<li>When you &ldquo;freeze&rdquo; a highlight, you will not be able to transact with that frozen highlight outside of this quest until after the unfreeze date of September 8, 2026 at 11:59:59 pm PT. Any frozen highlights used to complete the &ldquo;Team Freeze&rdquo; requirement of the quest will remain frozen until the unfreeze date, whether you complete the quest or not.</li>\r\n<li>If the quest is not completed by you, your highlights will be automatically unfrozen on the unfreeze date, at which time you will again be able to transact with those highlights.</li>\r\n<li>If the quest is completed by you, your highlight editions used to complete the &ldquo;Highlight Submission&rdquo; quest requirement will be surrendered forever and permanently removed from your collection. Permanently surrendered highlights will subsequently be taken out of circulation.</li>\r\n<li>The edition numbers for each Signature Highlight will be randomly distributed to those who complete the quest provided, however, that collectors who submit an edition #1 and complete the quest are automatically awarded the corresponding edition #1 Signature Highlight provided it has not already been crafted by another collector during a previous Signature Quest. The total number of minted highlights (i.e., edition size) will match the total number of questers who earn the specific Signature Highlight.</li>\r\n<li>Limit of one play and one Signature Highlight for each authorized user.</li>\r\n<li>Highlights are provided &ldquo;as is&rdquo; and, at all times, subject to these rules, the Terms. It is prohibited here and on the NHL Breakaway Platform to hold or control multiple accounts, to loan highlights to complete quests, or to otherwise act in a manner designed to evade rules or terms. Reward edition numbering remains subject to adjustment until final delivery. Published dates and times are best estimates subject to change.</li>\r\n</ul>",
+     "user_count": 171,
+     "completed_count": 153
+    }
+   ]
+  },
+  "__N_SSP": true
+ },
+ "page": "/play/quests",
+ "query": {},
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

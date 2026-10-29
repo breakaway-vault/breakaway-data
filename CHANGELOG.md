@@ -5,6 +5,8 @@
 * New: fan copies of the moment videos and cover art are on the [Internet Archive](README.md#internet-archive-copies), and `data/archive_urls.json` maps each moment to its Archive item and files. The videos are NHL Breakaway's re-encoded server copies, not the byte-exact IPFS originals; the covers are the originals.
 * Website: moment pages play the Internet Archive copy first, then NHL Breakaway's servers, then IPFS, and link the Archive item and video file. Covers can fall back to the Archive copy too.
 * Fixed (website): every moment was tagged "At risk". Only moments that are unlisted or have files missing on IPFS (202 right now) get the tag, and the note says why in plain words.
+* All moments are now on the Internet Archive: 1,953 videos (the last one, #1114, is up), 1,973 covers and 1,087 card images. The website uses the Archive copies for the newer Series 3 moments too, and `data/archive_urls.json` now has card image links.
+* New rebuild data in `data/`: public API snapshot (`api_snapshot/`), Polygon contracts and token id rules (`chain/`), the full public transaction history (`transaction_history.csv.xz`, no names or wallets), the site's route list, page data and API samples (`site_kit/`), the Wayback snapshot list, an inventory of everything saved (`ARCHIVE_INVENTORY.md`) and a guide to how the site worked and how to rebuild it (`REBUILD.md`).
 * The app (v1.1.5) is unchanged.
 
 ## v1.1.5 (2026-10-20)

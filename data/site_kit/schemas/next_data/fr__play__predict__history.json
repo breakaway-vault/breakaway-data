@@ -1,0 +1,10 @@
+{
+ "pageProps": {
+  "headerMetadata": {
+   "titleKey": "str",
+   "url": "str",
+   "image": "str"
+  }
+ },
+ "__N_SSP": "bool"
+}

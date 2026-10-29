@@ -1,0 +1,31 @@
+{
+ "font_families": {
+  "Lateral": 1,
+  "Lateral Expanded": 1,
+  "Ruder Plakat": 1,
+  "var(--sohne)": 1,
+  "Founders grotesk mono medium": 1,
+  "Lateral Condensed": 1,
+  "var(--lateralextended)": 1,
+  "Lateral,sans-serif": 1,
+  "Ruder Plakat,sans-serif": 1,
+  "var(--sohn)": 1,
+  "var(--condensedheavy)": 1,
+  "var(--mono)": 1,
+  "var(--lateralstandard)": 1,
+  "var(--laterallight)": 1,
+  "Lateral Extended Heavy": 1,
+  "var(--ruder)": 1,
+  "Canela,serif": 1,
+  "ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helveti": 1,
+  "ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,mo": 1,
+  "inherit": 1,
+  "var(--lateralexpanded)": 1,
+  "var(--standard)": 1,
+  "var(--lateral)": 1,
+  "var(--healineBold)": 1,
+  "var(--headlineBold)": 1,
+  "var(--lateral-extended)": 1,
+  "var(--lateral-expanded)": 1
+ }
+}

@@ -1,0 +1,313 @@
+{
+ "props": {
+  "pageProps": {
+   "headerMetadata": {
+    "titleKey": "tradesLoungeTitle",
+    "url": "https://nhlbreakaway.com/trade",
+    "image": "https://nhl-static.assets.sweet.io/img/drops_social_share.jpg"
+   },
+   "activeSets": [
+    {
+     "set_uuid": "cd2f47fe4c3200000000000000000000",
+     "name": "895"
+    },
+    {
+     "set_uuid": "cd2f47fea54500000000000000000000",
+     "name": "Across the Pond"
+    },
+    {
+     "set_uuid": "b5c8ae77b8f100000000000000000000",
+     "name": "Base"
+    },
+    {
+     "set_uuid": "b5c8ae77b99b00000000000000000000",
+     "name": "Base 2023-24"
+    },
+    {
+     "set_uuid": "cd2f47feed2400000000000000000000",
+     "name": "Base 2024-25"
+    },
+    {
+     "set_uuid": "b572cf35ea8000000000000000000000",
+     "name": "Base 2025-26"
+    },
+    {
+     "set_uuid": "b5c8ae77d22f00000000000000000000",
+     "name": "Cause for a Celly: '90s"
+    },
+    {
+     "set_uuid": "b572cf353ad100000000000000000000",
+     "name": "Cause for a Celly: 2000s"
+    },
+    {
+     "set_uuid": "cd2f47fe6ac200000000000000000000",
+     "name": "Cause for a Celly: 2010s"
+    },
+    {
+     "set_uuid": "b5c8ae77184f00000000000000000000",
+     "name": "Conn Smythe Showcase"
+    },
+    {
+     "set_uuid": "cd2f47fe89f200000000000000000000",
+     "name": "Etched In Ice"
+    },
+    {
+     "set_uuid": "b572cf35051200000000000000000000",
+     "name": "Filthy Apples"
+    },
+    {
+     "set_uuid": "cd2f47fef2be00000000000000000000",
+     "name": "Fresh Sweaters"
+    },
+    {
+     "set_uuid": "b572cf353aed00000000000000000000",
+     "name": "Fresh Sweaters 2025-26"
+    },
+    {
+     "set_uuid": "b572cf35dd0b00000000000000000000",
+     "name": "Fresh Sweaters: Legacy"
+    },
+    {
+     "set_uuid": "cd2f47fe899c00000000000000000000",
+     "name": "Global Gamechangers"
+    },
+    {
+     "set_uuid": "b5c8ae77b65400000000000000000000",
+     "name": "Guardians of the Net"
+    },
+    {
+     "set_uuid": "b5c8ae771b0c00000000000000000000",
+     "name": "Hanging from the Rafters"
+    },
+    {
+     "set_uuid": "b572cf35f5dc00000000000000000000",
+     "name": "Heart & Soul: 80s + 90s"
+    },
+    {
+     "set_uuid": "b5c8ae77e5e800000000000000000000",
+     "name": "Hoist the Cup 2024"
+    },
+    {
+     "set_uuid": "cd2f47fe374100000000000000000000",
+     "name": "Hoist the Cup 2025"
+    },
+    {
+     "set_uuid": "b572cf35304000000000000000000000",
+     "name": "Hoist the Cup 2026"
+    },
+    {
+     "set_uuid": "b5c8ae77cb9600000000000000000000",
+     "name": "Hometown History: Chicago Blackhawks"
+    },
+    {
+     "set_uuid": "b5c8ae77dcbe00000000000000000000",
+     "name": "Hometown History: Chicago Blackhawks (Limited)"
+    },
+    {
+     "set_uuid": "b5c8ae77f40800000000000000000000",
+     "name": "Hometown History: Dallas Stars"
+    },
+    {
+     "set_uuid": "cd2f47fe1c3500000000000000000000",
+     "name": "Hometown History: Detroit Red Wings"
+    },
+    {
+     "set_uuid": "b5c8ae77723900000000000000000000",
+     "name": "Ice Nation"
+    },
+    {
+     "set_uuid": "b572cf35f52000000000000000000000",
+     "name": "Ice Nation (Series 3)"
+    },
+    {
+     "set_uuid": "b572cf3576c900000000000000000000",
+     "name": "Ice Vault (Series 3)"
+    },
+    {
+     "set_uuid": "b5c8ae77966800000000000000000000",
+     "name": "Light the Lamp"
+    },
+    {
+     "set_uuid": "cd2f47feb0d800000000000000000000",
+     "name": "Light the Lamp: Legacy"
+    },
+    {
+     "set_uuid": "b5c8ae772c2f00000000000000000000",
+     "name": "Making the Mark"
+    },
+    {
+     "set_uuid": "b5c8ae7769b900000000000000000000",
+     "name": "Making the Mark 2023-24"
+    },
+    {
+     "set_uuid": "cd2f47fe4c4a00000000000000000000",
+     "name": "Making the Mark 2024-25"
+    },
+    {
+     "set_uuid": "b572cf35afe100000000000000000000",
+     "name": "Making the Mark 2025-26"
+    },
+    {
+     "set_uuid": "cd2f47fe465100000000000000000000",
+     "name": "Most Valuable Keepers"
+    },
+    {
+     "set_uuid": "b5c8ae77cc3600000000000000000000",
+     "name": "Next-Gen Class"
+    },
+    {
+     "set_uuid": "b572cf354eaf00000000000000000000",
+     "name": "Next-Gen Class 2025-26"
+    },
+    {
+     "set_uuid": "b5c8ae77e61100000000000000000000",
+     "name": "Opening Ice"
+    },
+    {
+     "set_uuid": "b5c8ae77dcf100000000000000000000",
+     "name": "Opening Ice 2023-24"
+    },
+    {
+     "set_uuid": "cd2f47fe2ad600000000000000000000",
+     "name": "Opening Ice 2024-25"
+    },
+    {
+     "set_uuid": "b572cf3537d000000000000000000000",
+     "name": "Opening Ice 2025-26"
+    },
+    {
+     "set_uuid": "cd2f47fef2af00000000000000000000",
+     "name": "Opening Ice: Elites"
+    },
+    {
+     "set_uuid": "b572cf35e89900000000000000000000",
+     "name": "Opening Ice: Icons"
+    },
+    {
+     "set_uuid": "b5c8ae77d17600000000000000000000",
+     "name": "Playoff Bound"
+    },
+    {
+     "set_uuid": "b572cf355f5100000000000000000000",
+     "name": "Playoff Bound 2026"
+    },
+    {
+     "set_uuid": "cd2f47fe963a00000000000000000000",
+     "name": "Rally Time"
+    },
+    {
+     "set_uuid": "b572cf35aad400000000000000000000",
+     "name": "Rinkside Rivalries"
+    },
+    {
+     "set_uuid": "b572cf35f44300000000000000000000",
+     "name": "Seasoned Steel"
+    },
+    {
+     "set_uuid": "cd2f47fedf2d00000000000000000000",
+     "name": "Set the Tone"
+    },
+    {
+     "set_uuid": "b5c8ae77341800000000000000000000",
+     "name": "Signature Cores"
+    },
+    {
+     "set_uuid": "b5c8ae77655400000000000000000000",
+     "name": "Signature Epics"
+    },
+    {
+     "set_uuid": "b572cf354c5a00000000000000000000",
+     "name": "Signature Fandoms"
+    },
+    {
+     "set_uuid": "b5c8ae7708fd00000000000000000000",
+     "name": "Signature Heroics"
+    },
+    {
+     "set_uuid": "b5c8ae779c3800000000000000000000",
+     "name": "Signature Limiteds"
+    },
+    {
+     "set_uuid": "b5c8ae77cddf00000000000000000000",
+     "name": "Signature Rares"
+    },
+    {
+     "set_uuid": "b5c8ae7743f000000000000000000000",
+     "name": "Stadiums & Skylines"
+    },
+    {
+     "set_uuid": "cd2f47fe710c00000000000000000000",
+     "name": "Stanley Cup 2025"
+    },
+    {
+     "set_uuid": "b572cf35df5200000000000000000000",
+     "name": "Stanley Cup 2026"
+    },
+    {
+     "set_uuid": "cd2f47fe957f00000000000000000000",
+     "name": "Take A Bow"
+    },
+    {
+     "set_uuid": "b5c8ae7730e900000000000000000000",
+     "name": "The Completion Cup"
+    },
+    {
+     "set_uuid": "b572cf356da800000000000000000000",
+     "name": "The Completion Cup (Award)"
+    },
+    {
+     "set_uuid": "b572cf35d9e800000000000000000000",
+     "name": "The Completion Cup (Series 3)"
+    },
+    {
+     "set_uuid": "b5c8ae775be800000000000000000000",
+     "name": "The Greatest Achievements"
+    },
+    {
+     "set_uuid": "b5c8ae77c33c00000000000000000000",
+     "name": "The Hunt for Stanley 2023"
+    },
+    {
+     "set_uuid": "b5c8ae77789000000000000000000000",
+     "name": "The Hunt for Stanley 2024"
+    },
+    {
+     "set_uuid": "cd2f47fe3c8100000000000000000000",
+     "name": "The Hunt for Stanley 2025"
+    },
+    {
+     "set_uuid": "b572cf35b54a00000000000000000000",
+     "name": "The Hunt for Stanley 2026"
+    }
+   ],
+   "seriesData": [
+    {
+     "label": "Series 1",
+     "value": "b5c8ae77000000000000000000000000"
+    },
+    {
+     "label": "Series 2",
+     "value": "cd2f47fe000000000000000000000000"
+    },
+    {
+     "label": "Series 3",
+     "value": "b572cf35000000000000000000000000"
+    }
+   ]
+  },
+  "__N_SSP": true
+ },
+ "page": "/trade",
+ "query": {},
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,463 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Seamus Casey",
+     "description": "In the second game of the NHL Global Series in Prague against the Buffalo Sabres, defenseman Seamus Casey netted his first NHL goal. Positioned at the point on a Devils power play, Casey received a pass and skated towards the net, evading a defender with slick stickhandling before rifling a wrist shot top shelf for a beauty.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 2",
+     "set_name": "Opening Ice 2024-25",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs BUF | 2nd Period | Oct 5, 2024",
+     "team": "NJD",
+     "player_name": "Seamus Casey",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "BUF",
+        "final_score": 1
+       },
+       "home": {
+        "team": "NJD",
+        "final_score": 3
+       },
+       "venue": {
+        "location": "Prague, CZ"
+       },
+       "game_ends": "FINAL",
+       "final_score": "BUF 1, NJD 3 - FINAL",
+       "venue_location": "Prague, CZ"
+      },
+      "moment": {
+       "date": "2024-10-05",
+       "clock": "11:59",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1,
+        "first_career_goal_or_win": "First NHL Goal (Skater)"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs BUF | 2nd Period | Oct 5, 2024"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Seamus Casey",
+       "team": "NJD",
+       "jersey": 24,
+       "status": "NHLPA",
+       "position": "D",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Goal vs BUF | 2nd Period | Oct 5, 2024"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 1,
+     "name": "New Jersey Devils",
+     "abbreviation": "NJD",
+     "short_name": "Newark",
+     "venue_city": "Newark",
+     "venue_name": "Prudential Center",
+     "key": "NewJerseyDevils",
+     "url": "https://www.nhl.com/devils",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/NewJerseyDevils.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/9735656494468169788",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmPYJZbD1sBAW31Zd95JXcbHFcLJjCP4txAstPR22VRXCS"
+       },
+       "content-type": "image/png",
+       "sha256": "o924ZLWXx410gguW5AJVXtuUsTGc0vqc3yb-XIEM9_o=",
+       "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUiy46GKCbHZKZufZJRE49VoUYKARkhwQYP7Gsk79AqGW"
+       },
+       "content-type": "image/png",
+       "sha256": "ymJ87CUaMmvU6Fc9b1C4ph85k-SgttJhLU2fyH7pKPQ=",
+       "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmd8mkWeRSinWkD77N1vEqW1Fg1SZ2PpkAPGrHcESqMXXc"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Pbd4gmbK/9735656494468169788/card-image.png",
+        "purpose": "card-image",
+        "sha256": "UKl5cuq28KNn2wGhfDwg6d66lBvm3xtL2Suo8wteMsg=",
+        "uri": "https://mediagateway.sweet.io/media/token/Pbd4gmbK/9735656494468169788/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbN1X6KqirefgzuhJMPgxaiU2WF77mynjkoXdNa4izDud"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Pbd4gmbK/9735656494468169788/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "-n4qBEPHaaDCZEFmvaA6VNV8C77CH-XSeIUrYy66104=",
+        "uri": "https://mediagateway.sweet.io/media/token/Pbd4gmbK/9735656494468169788/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUiy46GKCbHZKZufZJRE49VoUYKARkhwQYP7Gsk79AqGW"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Pbd4gmbK/9735656494468169788/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "ymJ87CUaMmvU6Fc9b1C4ph85k-SgttJhLU2fyH7pKPQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/Pbd4gmbK/9735656494468169788/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPYJZbD1sBAW31Zd95JXcbHFcLJjCP4txAstPR22VRXCS"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Pbd4gmbK/9735656494468169788/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "o924ZLWXx410gguW5AJVXtuUsTGc0vqc3yb-XIEM9_o=",
+        "uri": "https://mediagateway.sweet.io/media/token/Pbd4gmbK/9735656494468169788/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2024-10-05",
+      "edition-number": "61",
+      "moment-uuid": "cd2f47fe2ad60000871c000000000000",
+      "play": "Goal",
+      "player": "Seamus Casey",
+      "rarity": "Rare",
+      "series": "Series 2",
+      "series-uuid": "cd2f47fe000000000000000000000000",
+      "set": "Opening Ice 2024-25",
+      "set-uuid": "cd2f47fe2ad600000000000000000000",
+      "team": "New Jersey Devils",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In the second game of the NHL Global Series in Prague against the Buffalo Sabres, defenseman Seamus Casey netted his first NHL goal. Positioned at the point on a Devils power play, Casey received a pass and skated towards the net, evading a defender with slick stickhandling before rifling a wrist shot top shelf for a beauty.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 61,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmPYJZbD1sBAW31Zd95JXcbHFcLJjCP4txAstPR22VRXCS"
+      },
+      "content-type": "image/png",
+      "sha256": "o924ZLWXx410gguW5AJVXtuUsTGc0vqc3yb-XIEM9_o=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmQabEy6Ypgrj8VzA6N1cM1am3Fsuhh6HC2pKohNmpm9oN"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "6ifa5HC3Nof88SDUfTdonXNm8NKiD2_R6R_1CPibliw=",
+        "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXpbqGJDwhHrwHE9LBe8YLxC1cgMrBrrXNDmh1GxaqvAX"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "xgiayiO_G1u-TLB_Pc7Ghk0JZZqtC1DpmLJ1U3pDPaA=",
+        "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmPYJZbD1sBAW31Zd95JXcbHFcLJjCP4txAstPR22VRXCS"
+       },
+       "content-type": "image/png",
+       "sha256": "o924ZLWXx410gguW5AJVXtuUsTGc0vqc3yb-XIEM9_o=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmQabEy6Ypgrj8VzA6N1cM1am3Fsuhh6HC2pKohNmpm9oN"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "6ifa5HC3Nof88SDUfTdonXNm8NKiD2_R6R_1CPibliw=",
+         "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXpbqGJDwhHrwHE9LBe8YLxC1cgMrBrrXNDmh1GxaqvAX"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "xgiayiO_G1u-TLB_Pc7Ghk0JZZqtC1DpmLJ1U3pDPaA=",
+         "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUiy46GKCbHZKZufZJRE49VoUYKARkhwQYP7Gsk79AqGW"
+       },
+       "content-type": "image/png",
+       "sha256": "ymJ87CUaMmvU6Fc9b1C4ph85k-SgttJhLU2fyH7pKPQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPzUwksug2dvFEcC2iERG1dAyodKd95qToYjuagDD56fX"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "q0Ih3-dCTJOTOLwcX22YUtbFc0cQEcDC4w6udL_NwpE=",
+         "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qmdy9EbrtrkiV6RMxbqrNwKPSGpPvLekLq6kSLzuUchUR2"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "OMA0qbUBrMnRZzzC0s8zEr8fw7zlxup7awLN5CB4X9c=",
+         "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/Pbd4gmbK/871c/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-12-11T21:08:40.502414",
+     "name": "Seamus Casey #61",
+     "network": "matic",
+     "sequence_number": "9735656494468169788",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In the second game of the NHL Global Series in Prague against the Buffalo Sabres, defenseman Seamus Casey netted his first NHL goal. Positioned at the point on a Devils power play, Casey received a pass and skated towards the net, evading a defender with slick stickhandling before rifling a wrist shot top shelf for a beauty.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Opening Ice 2024-25",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/Pbd4gmbK",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Seamus Casey #61",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2024-10-05"
+      },
+      {
+       "key": "edition-number",
+       "value": "61"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "cd2f47fe2ad60000871c000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Seamus Casey"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 2"
+      },
+      {
+       "key": "series-uuid",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Opening Ice 2024-25"
+      },
+      {
+       "key": "set-uuid",
+       "value": "cd2f47fe2ad600000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "New Jersey Devils"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "cd2f47fe2ad60000871c000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/xqb6bRbq",
+       "listing_id": "xqb6bRbq",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-10-08T19:50:05",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xE29c6258B9de5eC719710FaB4e2476230c9adbC7/?a=9735656494468169788",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "Pbd4gmbK",
+   "momentUuid": "cd2f47fe2ad60000871c000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Seamus Casey",
+     "date": "October 5, 2024"
+    },
+    "url": "https://nhlbreakaway.com/series/Pbd4gmbK/highlight/cd2f47fe2ad60000871c000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/Pbd4gmbK/9735656494468169788/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "Pbd4gmbK",
+  "moment_uuid": "cd2f47fe2ad60000871c000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

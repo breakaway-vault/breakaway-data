@@ -1,0 +1,614 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmWYW9AAYNWekVFLmE4AHXwKMn8XReA2nbrd5qKHMLvgs7"
+       },
+       "content-type": "image/png",
+       "sha256": "Q0vbi2-3Bc3YT5jVdHSmOVw_6JYXcH9UH2JnzznKCXg=",
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVYBfDgtXsRPtZbBwrWycvtysj5UPU5S7Y9VgBaU8uTxG"
+       },
+       "content-type": "image/png",
+       "sha256": "FwMG8v-VoLn2gk05lwSIf0JV91ZTju2uxtns1BihyIk=",
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmV1sorfRVDAtMxdTWv1ftkSR3SEPpPznPPReKHmjWJYBn"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KR9Xaybd/11452372377426460672/card-image.png",
+        "purpose": "card-image",
+        "sha256": "55y-YKf04Ii0ZKzUQLmqgCmbCw6alJHQ3jpt-J5Dosw=",
+        "uri": "https://mediagateway.sweet.io/media/token/KR9Xaybd/11452372377426460672/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRXkvY4VvQcXq4KsjLtQ7AVDL38ovBpA2aBwMPRMwTnT1"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KR9Xaybd/11452372377426460672/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "op5_doh1JGTnS_a8uSuKp-yHTx6FSQrwovMxjTy27MU=",
+        "uri": "https://mediagateway.sweet.io/media/token/KR9Xaybd/11452372377426460672/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVYBfDgtXsRPtZbBwrWycvtysj5UPU5S7Y9VgBaU8uTxG"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KR9Xaybd/11452372377426460672/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "FwMG8v-VoLn2gk05lwSIf0JV91ZTju2uxtns1BihyIk=",
+        "uri": "https://mediagateway.sweet.io/media/token/KR9Xaybd/11452372377426460672/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWYW9AAYNWekVFLmE4AHXwKMn8XReA2nbrd5qKHMLvgs7"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/KR9Xaybd/11452372377426460672/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "Q0vbi2-3Bc3YT5jVdHSmOVw_6JYXcH9UH2JnzznKCXg=",
+        "uri": "https://mediagateway.sweet.io/media/token/KR9Xaybd/11452372377426460672/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2006-03-31"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fe640800009eef000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Steve Yzerman"
+      },
+      {
+       "name": "Rarity",
+       "value": "Rare"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Hometown History: Detroit Red Wings"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fe640800000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Detroit Red Wings"
+      },
+      {
+       "name": "Total Editions",
+       "value": "250"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In his final season with the Detroit Red Wings, 22-season team captain Steve Yzerman delivered a memorable moment at Joe Louis Arena on March 31, 2006. Capitalizing on a play he disrupted at the blue line that led to a Chicago turnover, Yzerman found himself in the slot and hammered home a pass for his 691st career goal. This goal moved him past Mario Lemieux on the all-time goal-scoring list, placing him 8th at the time. Adding to an already legendary career, Yzerman\u2019s accolades include three Stanley Cup championships, a Conn Smythe Trophy, a Frank J. Selke Trophy, and induction into the Hockey Hall of Fame.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmWYW9AAYNWekVFLmE4AHXwKMn8XReA2nbrd5qKHMLvgs7"
+      },
+      "content-type": "image/png",
+      "sha256": "Q0vbi2-3Bc3YT5jVdHSmOVw_6JYXcH9UH2JnzznKCXg=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmP8uXUBNZP9Rvud4d6TzKSEhG8otKqi5mw1Ct4HNMQ7Cn"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "MJCPOBA4qELn3ffLi7K2PIkdmp0deOG-zwRZTKsHx1U=",
+        "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmQQCoQEQ5ptkZWrmZYmSKfpcBKmzho5VxmnMDHaENoV7a"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "t9QDn7X0yXqf0RXpxdwZPlI3kmtRdcGQctE749TQMIA=",
+        "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmWYW9AAYNWekVFLmE4AHXwKMn8XReA2nbrd5qKHMLvgs7"
+       },
+       "content-type": "image/png",
+       "sha256": "Q0vbi2-3Bc3YT5jVdHSmOVw_6JYXcH9UH2JnzznKCXg=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmP8uXUBNZP9Rvud4d6TzKSEhG8otKqi5mw1Ct4HNMQ7Cn"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "MJCPOBA4qELn3ffLi7K2PIkdmp0deOG-zwRZTKsHx1U=",
+         "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmQQCoQEQ5ptkZWrmZYmSKfpcBKmzho5VxmnMDHaENoV7a"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "t9QDn7X0yXqf0RXpxdwZPlI3kmtRdcGQctE749TQMIA=",
+         "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVYBfDgtXsRPtZbBwrWycvtysj5UPU5S7Y9VgBaU8uTxG"
+       },
+       "content-type": "image/png",
+       "sha256": "FwMG8v-VoLn2gk05lwSIf0JV91ZTju2uxtns1BihyIk=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmcgparPEwYmH6VhwJ56z6hFA9KnL6UbcnHcu8fEGbPiUT"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "K3kmTm8k_MkfD2uHfiSHYak0mxoJ3deai1D1gTzqre8=",
+         "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmWetwLMTtH7UboZojCVdCq1gvEj1dM3fBNxV8RhP71V3S"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "cFxbkOlMUN3NedofmLeZPQbZ9H_AUMfihKRaKGhefX8=",
+         "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-01-10T16:12:01.117219",
+     "name": "Steve Yzerman #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "LC16e38HFR-Y9qivY5gm7BQgyeAfLJM42LJr0pO6Lio=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11452372377426460000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In his final season with the Detroit Red Wings, 22-season team captain Steve Yzerman delivered a memorable moment at Joe Louis Arena on March 31, 2006. Capitalizing on a play he disrupted at the blue line that led to a Chicago turnover, Yzerman found himself in the slot and hammered home a pass for his 691st career goal. This goal moved him past Mario Lemieux on the all-time goal-scoring list, placing him 8th at the time. Adding to an already legendary career, Yzerman\u2019s accolades include three Stanley Cup championships, a Conn Smythe Trophy, a Frank J. Selke Trophy, and induction into the Hockey Hall of Fame.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hometown History: Detroit Red Wings",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd/11452372377426460672",
+     "pack_uuid": null,
+     "set_id": 65,
+     "set_uuid": "cd2f47fe640800000000000000000000",
+     "moment_id": 40687
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x29cf086D4D39a663a0B5ECFBF4Ce378fA24f90a5/?a=11452372377426460672",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 17,
+     "name": "Detroit Red Wings",
+     "abbreviation": "DET",
+     "short_name": "Detroit",
+     "venue_city": "Detroit",
+     "venue_name": "Little Caesars Arena",
+     "key": "DetroitRedWings",
+     "url": "https://www.nhl.com/redwings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/DetroitRedWings.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Hometown History: Detroit Red Wings",
+      "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Hometown History: Detroit Red Wings</em>, a compilation of highlights commemorating historical moments celebrated by the Red Wings during the 2024-25 season. These collectibles not only honor the rich history of the team but also rewind the clock to capture the players and achievements that solidify the franchise in the hearts of fans, and within the pages of NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/35e22a2a-0621-45fd-a30d-1a2061e4bfb3.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd",
+      "uuid": "cd2f47fe640800000000000000000000",
+      "rarity": {
+       "name": "Rare",
+       "editions": 250
+      }
+     },
+     "description": "In his final season with the Detroit Red Wings, 22-season team captain Steve Yzerman delivered a memorable moment at Joe Louis Arena on March 31, 2006. Capitalizing on a play he disrupted at the blue line that led to a Chicago turnover, Yzerman found himself in the slot and hammered home a pass for his 691st career goal. This goal moved him past Mario Lemieux on the all-time goal-scoring list, placing him 8th at the time. Adding to an already legendary career, Yzerman\u2019s accolades include three Stanley Cup championships, a Conn Smythe Trophy, a Frank J. Selke Trophy, and induction into the Hockey Hall of Fame.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe640800009eef000000000000",
+     "badges": [
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/35e22a2a-0621-45fd-a30d-1a2061e4bfb3.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 40687,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/KR9Xaybd/moment/11452372377426460672/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/KR9Xaybd/moment/11452372377426460672/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/KR9Xaybd/moment/11452372377426460672/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/KR9Xaybd/moment/11452372377426460672/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/KR9Xaybd/moment/11452372377426460672/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/KR9Xaybd/moment/11452372377426460672/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/KR9Xaybd/moment/11452372377426460672/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/KR9Xaybd/moment/11452372377426460672/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/9eef/images/front.png"
+      }
+     },
+     "editions": 250,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "LC16e38HFR-Y9qivY5gm7BQgyeAfLJM42LJr0pO6Lio=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmeTRiHiXBkHKcqD2DS2ykavZzojK7eQUSKPdP6ak28TS6"
+        },
+        "content-type": "image/png",
+        "sha256": "F0p96lTRTPY9Mn9XjIGs8THemZMl7QpF59po5EPBCA4=",
+        "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmeTRiHiXBkHKcqD2DS2ykavZzojK7eQUSKPdP6ak28TS6"
+        },
+        "content-type": "image/png",
+        "sha256": "F0p96lTRTPY9Mn9XjIGs8THemZMl7QpF59po5EPBCA4=",
+        "url": "https://nft.nhlbreakaway.com/series/KR9Xaybd/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Hometown History: Detroit Red Wings",
+        "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Hometown History: Detroit Red Wings</em>, a compilation of highlights commemorating historical moments celebrated by the Red Wings during the 2024-25 season. These collectibles not only honor the rich history of the team but also rewind the clock to capture the players and achievements that solidify the franchise in the hearts of fans, and within the pages of NHL history.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 2",
+         "rank": 2
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd"
+      },
+      "name": "Hometown History: Detroit Red Wings",
+      "issued": "2025-01-10T16:12:01.117219",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/KR9Xaybd",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Steve Yzerman",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL (OT)",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)",
+       "final_score": "CHI 3, DET 2 - FINAL (OT)",
+       "venue": {
+        "name": "Joe Louis Arena",
+        "location": "Detroit, MI",
+        "team": "DET"
+       },
+       "away": {
+        "final_score": 3,
+        "team": "CHI"
+       },
+       "home": {
+        "final_score": 2,
+        "team": "DET"
+       }
+      },
+      "collectible_tagline": "Goal vs CHI | 1st Period | Mar 31, 2006",
+      "primary_player": {
+       "name": "Steve Yzerman",
+       "is_rookie": false,
+       "position": "C",
+       "team": "DET",
+       "jersey": 19,
+       "status": "NHLAA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2006-03-31",
+       "period": "1st Period",
+       "extra": {
+        "goal_number_this_season": 13
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CHI | 1st Period | Mar 31, 2006",
+       "clock": "10:56",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-01-10",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Rare",
+      "sorting_position": 40,
+      "editions": 250
+     }
+    },
+    "_metadata": {
+     "name": "Steve Yzerman",
+     "description": "In his final season with the Detroit Red Wings, 22-season team captain Steve Yzerman delivered a memorable moment at Joe Louis Arena on March 31, 2006. Capitalizing on a play he disrupted at the blue line that led to a Chicago turnover, Yzerman found himself in the slot and hammered home a pass for his 691st career goal. This goal moved him past Mario Lemieux on the all-time goal-scoring list, placing him 8th at the time. Adding to an already legendary career, Yzerman\u2019s accolades include three Stanley Cup championships, a Conn Smythe Trophy, a Frank J. Selke Trophy, and induction into the Hockey Hall of Fame.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 250,
+     "badges": {
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs CHI | 1st Period | Mar 31, 2006",
+     "team": "DET",
+     "player_name": "Steve Yzerman",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "CHI",
+        "final_score": 3
+       },
+       "home": {
+        "team": "DET",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Joe Louis Arena",
+        "team": "DET",
+        "location": "Detroit, MI"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "CHI 3, DET 2 - FINAL (OT)",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)"
+      },
+      "moment": {
+       "date": "2006-03-31",
+       "clock": "10:56",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 13
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CHI | 1st Period | Mar 31, 2006"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Steve Yzerman",
+       "team": "DET",
+       "jersey": 19,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs CHI | 1st Period | Mar 31, 2006"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "KR9Xaybd",
+   "tokenId": "11452372377426460672",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Steve Yzerman",
+     "date": "March 31, 2006"
+    },
+    "url": "https://nhlbreakaway.com/series/KR9Xaybd/11452372377426460672",
+    "image": "https://mediagateway.sweet.io/media/token/KR9Xaybd/11452372377426460672/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fe640800009eef000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "KR9Xaybd",
+  "token_id": "11452372377426460672"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

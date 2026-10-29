@@ -1,0 +1,644 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmYNUh2igSNL2UFijeZuSEkRotAPCLAHszAbbCWgpysF4M"
+       },
+       "content-type": "image/png",
+       "sha256": "PBD82s-tZmsvHlIVBTCnx1sTgKUROEtzthlSPmIe3GA=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmSuYEXLM7AQ3LcQnP6aYXj9z9BMAggT5QHcCd57zGpazS"
+       },
+       "content-type": "image/png",
+       "sha256": "npmEKB-dXRRg0XB-6s9caODNAAp2FrN4bpFClzE_xtk=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmW4kUoHUKAdDKUnqSU3KsYTN9EmFvTuSn94PMtuEPUZBA"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe24Wqk/13454785361746067456/card-image.png",
+        "purpose": "card-image",
+        "sha256": "aFK7ZJxAhOLNZuTuxU-KvRcr3JW4T5ws9iakhLFlhfo=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe24Wqk/13454785361746067456/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQHXX2Y4mvRnYjwuoqKHsaEZWAH64ZGykuT7C4N4XQ1tw"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe24Wqk/13454785361746067456/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "6KN_ObRJ_aLRKwj2IHfvf7EUh_OYg4ykr0u8lPnTOh0=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe24Wqk/13454785361746067456/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmSuYEXLM7AQ3LcQnP6aYXj9z9BMAggT5QHcCd57zGpazS"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe24Wqk/13454785361746067456/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "npmEKB-dXRRg0XB-6s9caODNAAp2FrN4bpFClzE_xtk=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe24Wqk/13454785361746067456/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYNUh2igSNL2UFijeZuSEkRotAPCLAHszAbbCWgpysF4M"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe24Wqk/13454785361746067456/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "PBD82s-tZmsvHlIVBTCnx1sTgKUROEtzthlSPmIe3GA=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe24Wqk/13454785361746067456/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2023-12-07"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae77b6540000bab9000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Save"
+      },
+      {
+       "name": "Player",
+       "value": "Joseph Woll"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Guardians of the Net"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae77b65400000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Toronto Maple Leafs"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In a face off between the Toronto Maple Leafs and the Ottawa Senators, rookie goaltender Joseph Woll delivered a stellar performance, securing a road victory for his team in the heated \"Battle of Ontario\" matchup. In the midst of a scoreless first period, Ottawa gained a two-on-one opportunity down low, but Woll showcased his brilliance with an incredible glove save, denying what seemed to be a certain goal by Vladimir Tarasenko. Woll's stellar play continued in the same period when he thwarted Rourke Chartier's attempt in the slot. As the game progressed into the second period with the score tied at one goal apiece, Woll once again stood tall thwarting Tarasenko's attempt on the far side, maintaining the deadlock. Despite leaving the game with just under ten minutes to play due to injury, Woll was key to the Toronto victory, making a total of 29 saves. His outstanding efforts did not go unnoticed, as he was rightfully named the game\u2019s \u201cFirst Star,\u201d solidifying his impact on the ice in the Battle of Ontario clash.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmYNUh2igSNL2UFijeZuSEkRotAPCLAHszAbbCWgpysF4M"
+      },
+      "content-type": "image/png",
+      "sha256": "PBD82s-tZmsvHlIVBTCnx1sTgKUROEtzthlSPmIe3GA=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmV7qQRi9mUr1j9gQLpfxmEtrUVTKHJfzLCwHUx2nYty4U"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "e5BQLafhW60X6zWpm31fHcR4a_5665njE0-Lop0Gr5Y=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmU7swUEu4MMyHUWQTN2Zf6LqcyozQncVqTWRxAUi36LU7"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "-3lnemKfoXUteH6U0bantn0yqybwafTVn1qFwD5UQ0A=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmYNUh2igSNL2UFijeZuSEkRotAPCLAHszAbbCWgpysF4M"
+       },
+       "content-type": "image/png",
+       "sha256": "PBD82s-tZmsvHlIVBTCnx1sTgKUROEtzthlSPmIe3GA=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmV7qQRi9mUr1j9gQLpfxmEtrUVTKHJfzLCwHUx2nYty4U"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "e5BQLafhW60X6zWpm31fHcR4a_5665njE0-Lop0Gr5Y=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmU7swUEu4MMyHUWQTN2Zf6LqcyozQncVqTWRxAUi36LU7"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "-3lnemKfoXUteH6U0bantn0yqybwafTVn1qFwD5UQ0A=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmSuYEXLM7AQ3LcQnP6aYXj9z9BMAggT5QHcCd57zGpazS"
+       },
+       "content-type": "image/png",
+       "sha256": "npmEKB-dXRRg0XB-6s9caODNAAp2FrN4bpFClzE_xtk=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmbBBv9A2DiUZTuw5vybPp9efXKPqAAz8AEKiGhPxZ5sjZ"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "zeR_JsVzIzFGbGXkiqkzcdxssbIM6K76lWCT4v3s4c8=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmQDkXknYE2FXQRcLLvsbtzGdeXWSAQbWz4hq6M9pPt3xX"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "th0XqP1Gv99_Pl856r9W8LJxEb-RdQ3RerVpTA-S4kA=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-01-29T21:39:37.545472",
+     "name": "Joseph Woll #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "htddYQ6_sLyd_QCYWFjUGV05bYiIpQHmPmAjwywVFcQ=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 13454785361746067000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In a face off between the Toronto Maple Leafs and the Ottawa Senators, rookie goaltender Joseph Woll delivered a stellar performance, securing a road victory for his team in the heated \"Battle of Ontario\" matchup. In the midst of a scoreless first period, Ottawa gained a two-on-one opportunity down low, but Woll showcased his brilliance with an incredible glove save, denying what seemed to be a certain goal by Vladimir Tarasenko. Woll's stellar play continued in the same period when he thwarted Rourke Chartier's attempt in the slot. As the game progressed into the second period with the score tied at one goal apiece, Woll once again stood tall thwarting Tarasenko's attempt on the far side, maintaining the deadlock. Despite leaving the game with just under ten minutes to play due to injury, Woll was key to the Toronto victory, making a total of 29 saves. His outstanding efforts did not go unnoticed, as he was rightfully named the game\u2019s \u201cFirst Star,\u201d solidifying his impact on the ice in the Battle of Ontario clash.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Guardians of the Net",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk/13454785361746067456",
+     "pack_uuid": null,
+     "set_id": 12,
+     "set_uuid": "b5c8ae77b65400000000000000000000",
+     "moment_id": 47801
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x4342E200832B338268649E903B9D661f8E41f920/?a=13454785361746067456",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 10,
+     "name": "Toronto Maple Leafs",
+     "abbreviation": "TOR",
+     "short_name": "Toronto",
+     "venue_city": "Toronto",
+     "venue_name": "Scotiabank Arena",
+     "key": "TorontoMapleLeafs",
+     "url": "https://www.nhl.com/mapleleafs",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/TorontoMapleLeafs.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Guardians of the Net",
+      "description": "<p>Introducing \"Guardians of the Net,\" a tribute to the exceptional feats of goaltenders in a singular game. This set celebrates performances where goalies serve as the ultimate defense, executing extraordinary saves that propel their teams to triumph. \"Guardians of the Net\" is a celebration of the artistry and resilience displayed by these contemporary net guardians, showcasing their remarkable ability to defy the odds and keep their teams in the game.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/4f1efee5-8be7-4976-8f4d-9776a752afec.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk",
+      "uuid": "b5c8ae77b65400000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "In a face off between the Toronto Maple Leafs and the Ottawa Senators, rookie goaltender Joseph Woll delivered a stellar performance, securing a road victory for his team in the heated \"Battle of Ontario\" matchup. In the midst of a scoreless first period, Ottawa gained a two-on-one opportunity down low, but Woll showcased his brilliance with an incredible glove save, denying what seemed to be a certain goal by Vladimir Tarasenko. Woll's stellar play continued in the same period when he thwarted Rourke Chartier's attempt in the slot. As the game progressed into the second period with the score tied at one goal apiece, Woll once again stood tall thwarting Tarasenko's attempt on the far side, maintaining the deadlock. Despite leaving the game with just under ten minutes to play due to injury, Woll was key to the Toronto victory, making a total of 29 saves. His outstanding efforts did not go unnoticed, as he was rightfully named the game\u2019s \u201cFirst Star,\u201d solidifying his impact on the ice in the Battle of Ontario clash.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae77b6540000bab9000000000000",
+     "badges": [
+      {
+       "name": "Breakaway Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png"
+      },
+      {
+       "name": "Multi-Highlight",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png"
+      },
+      {
+       "name": "Rookie Status",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png"
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+      }
+     ],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/4f1efee5-8be7-4976-8f4d-9776a752afec.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 47801,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe24Wqk/moment/13454785361746067456/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe24Wqk/moment/13454785361746067456/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe24Wqk/moment/13454785361746067456/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe24Wqk/moment/13454785361746067456/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe24Wqk/moment/13454785361746067456/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe24Wqk/moment/13454785361746067456/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe24Wqk/moment/13454785361746067456/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe24Wqk/moment/13454785361746067456/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/bab9/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "htddYQ6_sLyd_QCYWFjUGV05bYiIpQHmPmAjwywVFcQ=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmXR1Pma6z1PF8e2vimzC4r4FivL3WDgEmLs74Zkoa5EwK"
+        },
+        "content-type": "image/png",
+        "sha256": "3DrksKu5uMas7x0g2H-LBxmzGpAw3yAYuejOqMiQ2dM=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmXR1Pma6z1PF8e2vimzC4r4FivL3WDgEmLs74Zkoa5EwK"
+        },
+        "content-type": "image/png",
+        "sha256": "3DrksKu5uMas7x0g2H-LBxmzGpAw3yAYuejOqMiQ2dM=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe24Wqk/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Guardians of the Net",
+        "description": "<p>Introducing \"Guardians of the Net,\" a tribute to the exceptional feats of goaltenders in a singular game. This set celebrates performances where goalies serve as the ultimate defense, executing extraordinary saves that propel their teams to triumph. \"Guardians of the Net\" is a celebration of the artistry and resilience displayed by these contemporary net guardians, showcasing their remarkable ability to defy the odds and keep their teams in the game.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk"
+      },
+      "name": "Guardians of the Net",
+      "issued": "2024-01-29T23:29:45.199461",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Joseph Woll",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Ottawa Senators - Canadian Tire Centre (Ottawa, ON)",
+       "final_score": "TOR 4, OTT 3 - FINAL",
+       "venue": {
+        "name": "Canadian Tire Centre",
+        "location": "Ottawa, ON",
+        "team": "OTT"
+       },
+       "away": {
+        "final_score": 4,
+        "team": "TOR"
+       },
+       "home": {
+        "final_score": 3,
+        "team": "OTT"
+       }
+      },
+      "collectible_tagline": "Saves vs OTT | Dec 7, 2023",
+      "primary_player": {
+       "name": "Joseph Woll",
+       "is_rookie": true,
+       "position": "G",
+       "team": "TOR",
+       "jersey": 60,
+       "status": "NHLPA"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-12-07",
+        "period": "1st Period",
+        "video_overlay_text": "Save vs OTT | 1st Period | Dec 7, 2023",
+        "event": "Save"
+       },
+       "1": {
+        "date": "2023-12-07",
+        "period": "2nd Period",
+        "video_overlay_text": "Save vs OTT | 2nd Period | Dec 7, 2023",
+        "event": "Save"
+       }
+      },
+      "highlight_type": "Multi",
+      "moment": {
+       "date": "2023-12-07",
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs OTT | 1st Period | Dec 7, 2023",
+       "event": "Save"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2024-01-29",
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Joseph Woll",
+     "description": "In a face off between the Toronto Maple Leafs and the Ottawa Senators, rookie goaltender Joseph Woll delivered a stellar performance, securing a road victory for his team in the heated \"Battle of Ontario\" matchup. In the midst of a scoreless first period, Ottawa gained a two-on-one opportunity down low, but Woll showcased his brilliance with an incredible glove save, denying what seemed to be a certain goal by Vladimir Tarasenko. Woll's stellar play continued in the same period when he thwarted Rourke Chartier's attempt in the slot. As the game progressed into the second period with the score tied at one goal apiece, Woll once again stood tall thwarting Tarasenko's attempt on the far side, maintaining the deadlock. Despite leaving the game with just under ten minutes to play due to injury, Woll was key to the Toronto victory, making a total of 29 saves. His outstanding efforts did not go unnoticed, as he was rightfully named the game\u2019s \u201cFirst Star,\u201d solidifying his impact on the ice in the Battle of Ontario clash.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "TOR",
+        "final_score": 4
+       },
+       "home": {
+        "team": "OTT",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "Canadian Tire Centre",
+        "team": "OTT",
+        "location": "Ottawa, ON"
+       },
+       "game_ends": "FINAL",
+       "final_score": "TOR 4, OTT 3 - FINAL",
+       "venue_location": "Ottawa Senators - Canadian Tire Centre (Ottawa, ON)"
+      },
+      "moment": {
+       "date": "2023-12-07",
+       "event": "Save",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs OTT | 1st Period | Dec 7, 2023"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-12-07",
+        "event": "Save",
+        "period": "1st Period",
+        "video_overlay_text": "Save vs OTT | 1st Period | Dec 7, 2023"
+       },
+       "1": {
+        "date": "2023-12-07",
+        "event": "Save",
+        "period": "2nd Period",
+        "video_overlay_text": "Save vs OTT | 2nd Period | Dec 7, 2023"
+       }
+      },
+      "highlight_type": "Multi",
+      "primary_player": {
+       "name": "Joseph Woll",
+       "team": "TOR",
+       "jersey": 60,
+       "status": "NHLPA",
+       "position": "G",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Saves vs OTT | Dec 7, 2023"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "XRe24Wqk",
+   "tokenId": "13454785361746067456",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Joseph Woll",
+     "date": "December 7, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/XRe24Wqk/13454785361746067456",
+    "image": "https://mediagateway.sweet.io/media/token/XRe24Wqk/13454785361746067456/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae77b6540000bab9000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "XRe24Wqk",
+  "token_id": "13454785361746067456"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

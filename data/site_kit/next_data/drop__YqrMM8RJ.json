@@ -1,0 +1,346 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286346,
+    "summary": {
+     "drop_active": 1711731600,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/YqrMM8RJ",
+     "number_of_highlights": 3,
+     "pack_description": "Base Expansion Packs are back, with more can\u2019t-miss moments of the 2023-24 season! Featuring coast-to-coast heroics, first career goals, and last-minute game-winners from Luke Hughes, Matt Rempe, Shea Theodore, Bo Horvat, Nazem Kadri, Tyson Foerster and more!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, plus 1 mystery highlight that could be from Base 2023-24 (35%), Stadiums & Skylines (32%), Guardians of the Net (15%), Next-Gen Class (15%), Opening Ice 2023-24 (2%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements sets (<1%).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Base 2023-24 March Expansion Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae77000000008854000000000000",
+     "quantity": 4000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Base 2023-24 March Expansion Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday March 29, 2024 at 1PM ET / 10AM PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 4,000. Edition numbers are distributed randomly upon purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlight from Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">35% Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">32% Stadiums &amp; Skylines (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Guardians of the Net (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Next-Gen Class (Limited #/500) &mdash; one of the first chances to pull Quinton Byfield!</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Cause for a Celly: &lsquo;90s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.025% The Greatest Achievements (Legendary #/10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQmRDk6WprylVjgbA90nJnbiW5sGQ6ruI1IOanya4BBJyzcS1lH96NjFyaCViihoCv-H-ppm1o-TFgC/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Stadiums &amp; Skylines, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/stadiums-skylines/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Guardians of the Net, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-preview-guardians-of-the-net/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/next-gen-class-preview-feb-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: &lsquo;90s, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/cause-for-a-celly-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/the-greatest-achievements-preview-guardians-of-the-net-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Base Expansion Packs are back, with more can\u2019t-miss moments of the 2023-24 season! Featuring coast-to-coast heroics, first career goals, and last-minute game-winners from Luke Hughes, Matt Rempe, Shea Theodore, Bo Horvat, Nazem Kadri, Tyson Foerster and more!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, plus 1 mystery highlight that could be from Base 2023-24 (35%), Stadiums & Skylines (32%), Guardians of the Net (15%), Next-Gen Class (15%), Opening Ice 2023-24 (2%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements sets (<1%).",
+     "uuid": "b5c8ae77000000008854000000000000",
+     "assets": {},
+     "editions": 4000,
+     "pack_series": {
+      "assets": {},
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Base 2023-24 March Expansion Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 1,
+          "limit": 4000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 1,
+          "limit": 4000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.34975,
+          "limit": 1399
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.32,
+          "limit": 1280
+         },
+         "name": "Stadiums & Skylines",
+         "description": "<p>Introducing \"Stadiums &amp; Skylines,\" a set that celebrates the thrilling past and present moments from a diverse array of NHL outdoor games. This unique collection showcases iconic stadiums and breathtaking skylines as the backdrop to unforgettable hockey events. Immerse yourself in the excitement of these outdoor spectacles with \"Stadiums &amp; Skylines,\" where the magic of hockey meets the awe-inspiring settings that make these games truly extraordinary.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7743f000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.15,
+          "limit": 600
+         },
+         "name": "Guardians of the Net",
+         "description": "<p>Introducing \"Guardians of the Net,\" a tribute to the exceptional feats of goaltenders in a singular game. This set celebrates performances where goalies serve as the ultimate defense, executing extraordinary saves that propel their teams to triumph. \"Guardians of the Net\" is a celebration of the artistry and resilience displayed by these contemporary net guardians, showcasing their remarkable ability to defy the odds and keep their teams in the game.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b65400000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.15,
+          "limit": 600
+         },
+         "name": "Next-Gen Class",
+         "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77cc3600000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.02,
+          "limit": 80
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.01,
+          "limit": 40
+         },
+         "name": "Cause for a Celly: '90s",
+         "description": "<div>\r\n<div>The Cause <em>For A Celly: '90s</em> collection immortalizes unforgettable NHL playoff highlights from the '90s that helped define the sport, featuring many of the game's greatest players and iconic moments that have left an indelible mark on hockey history.</div>\r\n<br />\r\n<div>Relive the exhilarating moments, featuring both legendary players and game or series-changing plays. From stunning overtime goals to game-saving glove saves, <em>Cause For A Celly: '90s</em> captures the drama, passion, and intensity of the playoffs like never before.</div>\r\n<br />\r\n<div>This exclusive set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable moments that have shaped the postseason.</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d22f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 4000,
+          "probability": 0.00025,
+          "limit": 1
+         },
+         "name": "Alex Ovechkin",
+         "description": "On Dec. 23, 2022, Alex Ovechkin surpassed \u201cMr. Hockey,\u201d Gordie Howe, for second place on the NHL\u2019s all-time goals list behind \u201cThe Great One,\u201d Wayne Gretzky. \u201cThe Great 8\u201d has had a remarkable career having won the Maurice \"Rocket\" Richard Trophy on nine occasions \u2013 the most any NHL player has finished as single-season goals leader. Ovechkin tops a list of only three players to lead the League in goals more than five times, the others being Bobby Hull (7x) and Phil Esposito (6x). For his first goal of the game (801), the play begins with Ovechkin feeding the puck to teammate Ryan Strome on the far side in the neutral zone. As Strome gains the blue line, Ovechkin trails the play getting the drop pass where he walks it in and zips it five-hole past the netminder. In the final play, Ovechkin gains the blue line with the puck where he has a clear shot at the empty net. Instead, he pulls up and passes it over to longtime teammate Evgeny Kuznetsov. Kuznetsov dishes it back to Ovechkin where he spins alongside the boards and throws it into the empty net in front of an elated home crowd, with his teammates then flooding the ice in celebration.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be800009c0c000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Next-Gen Class",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+        "set_uuid": "b5c8ae77cc3600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Stadiums & Skylines",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgw7JR6",
+        "set_uuid": "b5c8ae7743f000000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rR8rAl1d",
+        "set_uuid": "b5c8ae775be800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Guardians of the Net",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk",
+        "set_uuid": "b5c8ae77b65400000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: '90s",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+        "set_uuid": "b5c8ae77d22f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-03-28",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmfJ5i71ndMGVNtrdUyL7DYrFFJab8JNaXvwMEG96Q2KMo"
+       },
+       "content-type": "image/png",
+       "sha256": "HJmeMs300veHJVoHtAG7DhbZ1DMR0mZtzW4fxwsviTM=",
+       "url": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qmd6McoTmLNWA2tm5Q3emiswBBd3cPLWD5LcaaimyWKGYv"
+       },
+       "content-type": "image/png",
+       "sha256": "txgrNAYHU6XgRP8MVMDFZj5nuJ9ZNUpYIp6w1pNwtxE=",
+       "url": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmfJ5i71ndMGVNtrdUyL7DYrFFJab8JNaXvwMEG96Q2KMo"
+       },
+       "content-type": "image/png",
+       "sha256": "HJmeMs300veHJVoHtAG7DhbZ1DMR0mZtzW4fxwsviTM=",
+       "url": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front.png"
+      }
+     },
+     "issued": "2024-03-28T18:28:43.642384",
+     "name": "Base 2023-24 March Expansion Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "-zmljHZEjEpQyFRshN4Yj0QiCjVZ2crhqiwuM0nWx6k=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Base Expansion Packs are back, with more can\u2019t-miss moments of the 2023-24 season! Featuring coast-to-coast heroics, first career goals, and last-minute game-winners from Luke Hughes, Matt Rempe, Shea Theodore, Bo Horvat, Nazem Kadri, Tyson Foerster and more!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, plus 1 mystery highlight that could be from Base 2023-24 (35%), Stadiums & Skylines (32%), Guardians of the Net (15%), Next-Gen Class (15%), Opening Ice 2023-24 (2%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements sets (<1%).",
+       "is_openable": true,
+       "name": "Base 2023-24 March Expansion Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 4000,
+      "uri": "https://nft.nhlbreakaway.com/series/YqrMM8RJ"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/YqrMM8RJ"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Base 2023-24 March Expansion Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/YqrMM8RJ",
+    "image": "https://nft.nhlbreakaway.com/series/YqrMM8RJ/image-front-16x9.png"
+   },
+   "seriesId": "YqrMM8RJ",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "YqrMM8RJ"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

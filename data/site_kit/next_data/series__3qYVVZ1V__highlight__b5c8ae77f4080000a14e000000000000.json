@@ -1,0 +1,415 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Mike Modano",
+     "description": "In what would be Mike Modano\u2019s final home game donning a Dallas Stars uniform, the crowd at American Airlines Center honored him with a heartwarming standing ovation during the third period of Dallas' game against the Anaheim Ducks on April 8, 2010. Moments later, Modano thrilled them by scoring the game-tying goal with a tip-in off a point shot with less than two minutes remaining in regulation. After a scoreless overtime, the game went to a shootout. With the fans on their feet, Modano skated in and snapped a shot past Ducks netminder Jonas Hiller resulting in thunderous cheers from fans in the American Airlines Center. The Stars went on to win the game 3-2 in the shootout.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Hometown History: Dallas Stars",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Limited",
+     "editions": 500,
+     "badges": {},
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "ANA",
+        "final_score": 2
+       },
+       "home": {
+        "team": "DAL",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "American Airlines Center",
+        "team": "DAL",
+        "location": "Dallas, TX"
+       },
+       "game_ends": "FINAL (SO)",
+       "final_score": "ANA 2, DAL 3 - FINAL (SO)",
+       "venue_location": "Dallas Stars - American Airlines Center (Dallas, TX)"
+      },
+      "moment": {
+       "date": "2010-04-08",
+       "clock": "18:13",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 14
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "video_overlay_text": "Goal vs ANA | 3rd Period | Apr 8, 2010"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Mike Modano",
+       "team": "DAL",
+       "jersey": 9,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs ANA | 3rd Period | Apr 8, 2010"
+     }
+    },
+    "_badges": null,
+    "_common_descriptive_badges": [],
+    "_descriptive_badges": null,
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 25,
+     "name": "Dallas Stars",
+     "abbreviation": "DAL",
+     "short_name": "Dallas",
+     "venue_city": "Dallas",
+     "venue_name": "American Airlines Center",
+     "key": "DallasStars",
+     "url": "https://www.nhl.com/stars",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/DallasStars.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/11623227688289829266",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmWQMSKWL3ip8bKCLwK9ojdRqokrLxHWKLqDC2nNuw5BMo"
+       },
+       "content-type": "image/png",
+       "sha256": "GRPPRVULqfmh7QDMOYrn4bA14VZRTuy6jYKiznvFNlQ=",
+       "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmP6aoUAPcVtGdC6n7KKsmXYFbwCHXvd7z6T4Dfa4QNAtK"
+       },
+       "content-type": "image/png",
+       "sha256": "Mh367hdzRsGqWO38gsnSPQcO9zFcY_MrsrSxF72WiH8=",
+       "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmetnGUJuK4NHjRBW9GF2zsPdRA4xRYFQP3fPxuzWQeaDB"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/3qYVVZ1V/11623227688289829266/card-image.png",
+        "purpose": "card-image",
+        "sha256": "RFYMFH6_wPckSKrixaViV6mA1uRK7woRYO1B6Vo3pBc=",
+        "uri": "https://mediagateway.sweet.io/media/token/3qYVVZ1V/11623227688289829266/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmSeWB2PZ6n8vVv7VxJFRu91gtrgAJEKxUuc4aWXJRyAnX"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/3qYVVZ1V/11623227688289829266/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "MDOgezFb42uQx7d-UVvb5wS-b-WUc0mvFJr_YkmaYPk=",
+        "uri": "https://mediagateway.sweet.io/media/token/3qYVVZ1V/11623227688289829266/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmP6aoUAPcVtGdC6n7KKsmXYFbwCHXvd7z6T4Dfa4QNAtK"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/3qYVVZ1V/11623227688289829266/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "Mh367hdzRsGqWO38gsnSPQcO9zFcY_MrsrSxF72WiH8=",
+        "uri": "https://mediagateway.sweet.io/media/token/3qYVVZ1V/11623227688289829266/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWQMSKWL3ip8bKCLwK9ojdRqokrLxHWKLqDC2nNuw5BMo"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/3qYVVZ1V/11623227688289829266/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "GRPPRVULqfmh7QDMOYrn4bA14VZRTuy6jYKiznvFNlQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/3qYVVZ1V/11623227688289829266/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "date": "2010-04-08",
+      "edition-number": "403",
+      "moment-uuid": "b5c8ae77f4080000a14e000000000000",
+      "play": "Goal",
+      "player": "Mike Modano",
+      "rarity": "Limited",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Hometown History: Dallas Stars",
+      "set-uuid": "b5c8ae77f40800000000000000000000",
+      "team": "Dallas Stars",
+      "total-editions": "500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In what would be Mike Modano\u2019s final home game donning a Dallas Stars uniform, the crowd at American Airlines Center honored him with a heartwarming standing ovation during the third period of Dallas' game against the Anaheim Ducks on April 8, 2010. Moments later, Modano thrilled them by scoring the game-tying goal with a tip-in off a point shot with less than two minutes remaining in regulation. After a scoreless overtime, the game went to a shootout. With the fans on their feet, Modano skated in and snapped a shot past Ducks netminder Jonas Hiller resulting in thunderous cheers from fans in the American Airlines Center. The Stars went on to win the game 3-2 in the shootout.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 403,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmWQMSKWL3ip8bKCLwK9ojdRqokrLxHWKLqDC2nNuw5BMo"
+      },
+      "content-type": "image/png",
+      "sha256": "GRPPRVULqfmh7QDMOYrn4bA14VZRTuy6jYKiznvFNlQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmR5feA4RY3q6F5Cn1uahEfxY7wYCBegNWbrp9AB5wLd6h"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "bwvkMtZngF9_wTJBP301CnTWKvguBcYhmi8ihHcqb2A=",
+        "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmbFvsnEJexMQ6heppbyyc6gAtRihv2oAixtjCbPuc4qAp"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "6k4MUJhpux9u9LL78aR831Us_W0foPFEwbpJZaDrMxs=",
+        "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmWQMSKWL3ip8bKCLwK9ojdRqokrLxHWKLqDC2nNuw5BMo"
+       },
+       "content-type": "image/png",
+       "sha256": "GRPPRVULqfmh7QDMOYrn4bA14VZRTuy6jYKiznvFNlQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmR5feA4RY3q6F5Cn1uahEfxY7wYCBegNWbrp9AB5wLd6h"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "bwvkMtZngF9_wTJBP301CnTWKvguBcYhmi8ihHcqb2A=",
+         "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmbFvsnEJexMQ6heppbyyc6gAtRihv2oAixtjCbPuc4qAp"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "6k4MUJhpux9u9LL78aR831Us_W0foPFEwbpJZaDrMxs=",
+         "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmP6aoUAPcVtGdC6n7KKsmXYFbwCHXvd7z6T4Dfa4QNAtK"
+       },
+       "content-type": "image/png",
+       "sha256": "Mh367hdzRsGqWO38gsnSPQcO9zFcY_MrsrSxF72WiH8=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmaXpyUEV5pKTDDtRqX5fKHRPpcBNLJtA2QxU7Bffqs7T7"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "Bm1uzFyobqkULRs75wLBljyxmzs1crHjTAo23vOK-5s=",
+         "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmaSFFALECVairNytG4d3ikgKg5RpfPAZ2k6ub1A41fEuE"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "KC_DTYtMLbOuQ7NPsclk_WHxMnRIL-1IowODDzUuPNc=",
+         "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/3qYVVZ1V/a14e/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-03-13T15:31:03.354986",
+     "name": "Mike Modano #403",
+     "network": "matic",
+     "sequence_number": "11623227688289829266",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In what would be Mike Modano\u2019s final home game donning a Dallas Stars uniform, the crowd at American Airlines Center honored him with a heartwarming standing ovation during the third period of Dallas' game against the Anaheim Ducks on April 8, 2010. Moments later, Modano thrilled them by scoring the game-tying goal with a tip-in off a point shot with less than two minutes remaining in regulation. After a scoreless overtime, the game went to a shootout. With the fans on their feet, Modano skated in and snapped a shot past Ducks netminder Jonas Hiller resulting in thunderous cheers from fans in the American Airlines Center. The Stars went on to win the game 3-2 in the shootout.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hometown History: Dallas Stars",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/3qYVVZ1V",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Mike Modano #403",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "date",
+       "value": "2010-04-08"
+      },
+      {
+       "key": "edition-number",
+       "value": "403"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77f4080000a14e000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Mike Modano"
+      },
+      {
+       "key": "rarity",
+       "value": "Limited"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Hometown History: Dallas Stars"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77f40800000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Dallas Stars"
+      },
+      {
+       "key": "total-editions",
+       "value": "500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77f4080000a14e000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/dgyMLNDg",
+       "listing_id": "dgyMLNDg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 4.44,
+       "starts_at": "2026-08-29T00:57:56",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x82e8e9826890EBb4279d39DAeFA0d1c1f3188734/?a=11623227688289829266",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "3qYVVZ1V",
+   "momentUuid": "b5c8ae77f4080000a14e000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Mike Modano",
+     "date": "April 8, 2010"
+    },
+    "url": "https://nhlbreakaway.com/series/3qYVVZ1V/highlight/b5c8ae77f4080000a14e000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/3qYVVZ1V/11623227688289829266/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "3qYVVZ1V",
+  "moment_uuid": "b5c8ae77f4080000a14e000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,644 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286336,
+    "summary": {
+     "drop_active": 1724950800,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/Vqmoy7bg",
+     "number_of_highlights": 4,
+     "pack_description": "Prepare for the close of Series 1 in grand fashion with the Series 1 Grand Finale Pack! These packs will be the final drop of Series 1, and one of the last chances to find Series 1 highlights before the start of Series 2. Each pack contains highlights from the Base 2023-24 set, and includes the chance to pull some of the most iconic highlights in Series 1 from Connor McDavid, Connor Bedard, Auston Matthews, Wayne Gretzky, Mario Lemieux, and Martin Brodeur. \r\n\r\nAdditionally, these packs will be the only chance to find the new Conn Smythe Showcase set in a drop, including debuts from Patrick Kane, Scott Stevens, Henrik Zetterberg, Jean-Sebastien Giguere, Al MacInnis, and Brad Richards!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, 1 mystery Core highlight that could be from Base 2023-24 (55%), Stadiums & Skylines (25%), or Playoff Bound (20%), and 1 mystery highlight that could be from Light the Lamp (50%), Guardians of the Net (13%), Next-Gen Class (10%), Hanging from the Rafters (Limited: 8.7%), Hoist the Cup (3.5%), Conn Smythe Showcase (1.98%), The Hunt for Stanley 2024 (1.8%), Opening Ice (1%), Opening Ice: Elites (1%), Opening Ice 2023-24 (1%), Hanging from the Rafters (Rare: 1%), Making the Mark 2023-24 (1%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Series 1 Grand Finale Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae7700000000a272000000000000",
+     "quantity": 5000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Series 1 Grand Finale Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Thursday Aug 29, 2024 at 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 5000. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Twenty-five (25) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 4</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">55% Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Stadiums &amp; Skylines (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Playoff Bound (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Light the Lamp (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">13% Guardians of the Net (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Next-Gen Class (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">8.7% Hanging from the Rafters (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">5% The Hunt for Stanley 2023 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">3.5% Hoist the Cup (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.98% Conn Smythe Showcase (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.8% The Hunt for Stanley 2024 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Opening Ice (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Hanging from the Rafters (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Making the Mark 2023-24 (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Cause for a Celly: &lsquo;90s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.02% The Greatest Achievements (Legendary #10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/1EGofvyItPvmCNRV1DsDgRCmlcKjHexsflIwe2M7jUjk/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2023-24, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Playoff Bound, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Hunt for Stanley 2023, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Hunt for Stanley 2024, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hanging from the Rafters, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Elites, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice 2023-24, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hoist the Cup 2024, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: &lsquo;90s, Series 1</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/making-the-mark-2023-24-preview-may-23-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Conn Smythe Showcase, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/conn-smythe-showcase-preview-aug-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/the-greatest-achievements-preview-guardians-of-the-net-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Prepare for the close of Series 1 in grand fashion with the Series 1 Grand Finale Pack! These packs will be the final drop of Series 1, and one of the last chances to find Series 1 highlights before the start of Series 2. Each pack contains highlights from the Base 2023-24 set, and includes the chance to pull some of the most iconic highlights in Series 1 from Connor McDavid, Connor Bedard, Auston Matthews, Wayne Gretzky, Mario Lemieux, and Martin Brodeur. \r\n\r\nAdditionally, these packs will be the only chance to find the new Conn Smythe Showcase set in a drop, including debuts from Patrick Kane, Scott Stevens, Henrik Zetterberg, Jean-Sebastien Giguere, Al MacInnis, and Brad Richards!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, 1 mystery Core highlight that could be from Base 2023-24 (55%), Stadiums & Skylines (25%), or Playoff Bound (20%), and 1 mystery highlight that could be from Light the Lamp (50%), Guardians of the Net (13%), Next-Gen Class (10%), Hanging from the Rafters (Limited: 8.7%), Hoist the Cup (3.5%), Conn Smythe Showcase (1.98%), The Hunt for Stanley 2024 (1.8%), Opening Ice (1%), Opening Ice: Elites (1%), Opening Ice 2023-24 (1%), Hanging from the Rafters (Rare: 1%), Making the Mark 2023-24 (1%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae7700000000a272000000000000",
+     "assets": [],
+     "editions": 5000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Series 1 Grand Finale Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.55,
+          "limit": 2750
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.25,
+          "limit": 1250
+         },
+         "name": "Stadiums & Skylines",
+         "description": "<p>Introducing \"Stadiums &amp; Skylines,\" a set that celebrates the thrilling past and present moments from a diverse array of NHL outdoor games. This unique collection showcases iconic stadiums and breathtaking skylines as the backdrop to unforgettable hockey events. Immerse yourself in the excitement of these outdoor spectacles with \"Stadiums &amp; Skylines,\" where the magic of hockey meets the awe-inspiring settings that make these games truly extraordinary.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7743f000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.2,
+          "limit": 1000
+         },
+         "name": "Playoff Bound",
+         "description": "<p>Gear up for the playoffs with 'Playoff Bound' &ndash; a collection that sets the stage for playoff excitement. Featuring one riveting highlight per playoff-bound team from the regular season, this set showcases pivotal and intense plays as teams prepare to battle for postseason glory. From jaw-dropping apples to late game heroics, 'Playoff Bound' offers fans a thrilling glimpse into the moments that contributed to their favorite team propelling playoff contention.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d17600000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.5,
+          "limit": 2500
+         },
+         "name": "Light the Lamp",
+         "description": "<p>Dive into the heart-pounding moment the puck crosses the goal line with our exclusive collectible set, 'Light the Lamp.' This collection features players scoring thrilling goals, capturing the very essence of why they are cherished as impactful contributors. Each highlight in 'Light the Lamp' serves as a snapshot of electrifying plays showcasing the player's skill and finesse as they find the back of the net. From jaw-dropping breakaways to top corner snipes, these extraordinary highlights remind us why these players are known for their game-changing prowess.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77966800000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.13,
+          "limit": 650
+         },
+         "name": "Guardians of the Net",
+         "description": "<p>Introducing \"Guardians of the Net,\" a tribute to the exceptional feats of goaltenders in a singular game. This set celebrates performances where goalies serve as the ultimate defense, executing extraordinary saves that propel their teams to triumph. \"Guardians of the Net\" is a celebration of the artistry and resilience displayed by these contemporary net guardians, showcasing their remarkable ability to defy the odds and keep their teams in the game.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b65400000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.1,
+          "limit": 500
+         },
+         "name": "Next-Gen Class",
+         "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77cc3600000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.087,
+          "limit": 435
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae771b0c00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.05,
+          "limit": 250
+         },
+         "name": "The Hunt for Stanley 2023",
+         "description": "<p>The Stanley Cup Playoffs are the most grueling and intense postseason in all of sports, and they are a true test of a team's skill, endurance, and mental toughness. The excitement of the playoffs is palpable, with every game feeling like a do-or-die battle for survival. The physicality of the games is ramped up, and every player knows that they have to bring their A-game if they want to advance to the next round. The grind of the playoffs is intense, with teams playing every other night for weeks on end. Injuries can pile up, and exhaustion can set in, but the desire to win the ultimate prize keeps players pushing themselves to their limits. It's a thrilling and exhausting experience that only the best teams are able to survive and emerge victorious.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77c33c00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.035,
+          "limit": 175
+         },
+         "name": "Hoist the Cup 2024",
+         "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Hoist the Cup 2024</em>, a Rare set celebrating the triumphs of the 2024 Stanley Cup champions. This collection captures the most electrifying moments from the Florida Panthers' journey through the Stanley Cup Finals. Relive the thrilling goals, spectacular saves, and pivotal plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77e5e800000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0042,
+          "limit": 21
+         },
+         "name": "Scott Stevens",
+         "description": "In 2000, Scott Stevens won the Conn Smythe Trophy as the Stanley Cup Playoffs MVP, leading the New Jersey Devils to their second Stanley Cup championship. Renowned for his physical presence and leadership, Stevens anchored the defense and helped shut down opponents' best players, embodying the team's resilience and tenacity throughout its successful playoff run.\r\nIn Game 2 of the Eastern Conference Quarterfinals against the Florida Panthers, Stevens led a 2-on-1 rush up the ice in the third period. After passing the puck to John Madden, Stevens received it back, moved it to his backhand, and tucked it five-hole past the netminder for the game-winning goal.\r\nIn Game 5 of the Eastern Conference Semifinals against the Toronto Maple Leafs, Stevens made his presence felt by delivering a big hit that immediately stopped the Maple Leafs' rush. His defensive contributions throughout the 2000 NHL Playoffs were crucial to the Devils' success.\r\nIn Game 1 of the Stanley Cup Final against the Dallas Stars, Stevens scored the eventual game-winner. After receiving a drop pass from Jay Pandolfo, Stevens teed up and blasted a shot that eluded the netminder. The Devils would eventually clinch the series in six games and Stevens tied for the League lead in plus/minus (+9).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f00009402000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0034,
+          "limit": 17
+         },
+         "name": "Patrick Kane",
+         "description": "A winner of three Stanley Cup championships with the Chicago Blackhawks, Patrick Kane took home the Conn Smythe Trophy for his outstanding performance during the 2013 Stanley Cup Playoffs. Kane's offensive brilliance was on full display as he tallied 19 points in 23 playoff games, including two game-winning goals.\r\nIn the Western Conference Final against the Los Angeles Kings, Kane scored the series winner in double overtime of Game 5. The play unfolded during a 2-on-1 rush up the ice with teammate Jonathan Toews. Toews passed the puck to Kane near the top of the circle, and Kane fired a one-timer past the outstretched netminder for his third goal of the game.\r\nIn Game 5 of the Stanley Cup Final, with the series tied, Kane scored his second game-winner of the playoffs. After Bryan Bickell took the initial shot, he went behind the net and threw it out front. Kane got to the bouncing puck first and sent a backhand into the net. Chicago won this pivotal game and then went on to clinch their second Stanley Cup championship in four years in the next game.\r\nKane\u2019s clutch performances in critical moments, combined with his skill and creativity, cemented his status as the postseason\u2019s most valuable player.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f0000b824000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0032,
+          "limit": 16
+         },
+         "name": "Jean-Sebastien Giguere",
+         "description": "Jean-Sebastien Giguere won the 2003 Conn Smythe Trophy as the Stanley Cup Playoffs MVP, leading the Mighty Ducks of Anaheim to the Stanley Cup Final with outstanding goaltending, despite the team ultimately losing to the New Jersey Devils.\r\nFacing the heavily favored, defending Stanley Cup champion Detroit Red Wings in the first round, Giguere had an incredible performance in his first-ever playoff game, stopping a staggering 63 shots in a 2-1 triple-overtime victory on the road. One of his best saves came when he stopped Igor Larionov at the side of the net, preventing a tap-in rebound with a swift glove save.\r\nIn the Western Conference Semifinals against the Dallas Stars, Giguere robbed Mike Modano in the third period of a scoreless Game 4, which Anaheim won 1-0 to gain a commanding 3-1 series lead. His incredible save earned loud cheers from the home crowd.\r\nAgainst the Minnesota Wild in the Western Conference Final, Giguere was again nearly unbeatable. In the four-game sweep, he allowed only one goal, stopping 122 shots. In Game 1 of that series, during a Minnesota power play, Giguere made a diving stick save to rob the Wild of a sure goal headed for an open net. He recorded a shutout that evening with a 1-0 win in double overtime.\r\nGiguere\u2019s remarkable playoff performance included five shutouts, a 1.62 goals-against average, and a .945 save percentage, making him only the fifth player, at that time, from a losing team to win the Conn Smythe Trophy.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f0000abbc000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.003,
+          "limit": 15
+         },
+         "name": "Henrik Zetterberg",
+         "description": "Propelling the Detroit Red Wings to their 11th Stanley Cup championship, Henrik Zetterberg won the 2008 Conn Smythe Trophy. Zetterberg's exceptional two-way play, combined with his offensive contributions, earned him the award.\r\nIn the clinching Game 4 of the Western Conference Semifinals against the Colorado Avalanche, Zetterberg scored a spectacular goal, his second of the night. After receiving a drop pass, he took an initial shot that was stopped, then spun around and swatted the puck on his backhand while falling.\r\nOn the road in Dallas for Game 3 of the Western Conference Final, Zetterberg scored an unassisted shorthanded goal early in the third period. Rushing down the ice with the puck, he maneuvered around a defender and patiently waited for a good angle before firing it into the net, helping Detroit to a commanding 3-0 series lead.\r\nDuring the third period of Game 4 in the Stanley Cup Final, Zetterberg was tasked with killing a 5-on-3 advantage for the Pittsburgh Penguins while Detroit held a slim one-goal lead. The defining moment of his tremendous shift was when he stopped Sidney Crosby\u2019s attempt at the side of an open net, showcasing Zetterberg\u2019s remarkable defensive play throughout the playoffs.\r\nLeading the playoffs in scoring with 27 points, Zetterberg demonstrated clutch performance in critical moments, solidifying his status as a pivotal player in the Red Wings' successful postseason campaign.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f000090c9000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0028,
+          "limit": 14
+         },
+         "name": "Brad Richards",
+         "description": "Brad Richards won the 2004 Conn Smythe Trophy as the Stanley Cup Playoffs MVP, playing a crucial role in leading the Tampa Bay Lightning to their first Stanley Cup championship. Richards excelled with 26 points in 23 games, leading all players in the postseason.\r\nFacing the Montreal Canadiens in the Eastern Conference Semifinals, Richards netted the Game 3 overtime winner in Montreal to give Tampa Bay a commanding 3-0 series lead. After taking the initial shot, which was stopped, Richards collected the rebound behind the goal line and banked it in off the goalie.\r\nDuring the Eastern Conference Final against the Philadelphia Flyers, Richards scored two more game-winning goals including the decisive tally in Game 1. Positioned in front of the Flyers' net, Richards sniffed out the rebound and sent a backhander into the back of the net.\r\nIn the Stanley Cup Final, down 2-1 in the series against the Calgary Flames, Richards scored the only goal of Game 4, his seventh and last game-winner of the 2004 postseason, setting a record for most game-winning goals in a single Stanley Cup Playoffs. On a power play, Dave Andreychuk passed the puck to Richards, who blasted a one-timer past the netminder. Tampa Bay went on to win the series in seven games.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f000091e9000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Conn Smythe Showcase",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0032,
+          "limit": 16
+         },
+         "name": "Al MacInnis",
+         "description": "Winning the 1989 Conn Smythe Trophy as the Stanley Cup Playoffs MVP, Al MacInnis played a crucial role in leading the Calgary Flames to their first Stanley Cup championship. As a defenseman, MacInnis demonstrated his powerful shot and playmaking abilities, amassing 31 points in 22 games, the most of any player that year.\r\nIn Game 4 of the Clarence Campbell Conference Finals, on the road in Chicago, MacInnis scored the overtime winner with a powerful slapshot past Alain Chevrier, giving Calgary a 3-1 series lead. The Flames then closed out the series in the next game, advancing to the Stanley Cup Final against the Montreal Canadiens.\r\nDuring Game 4 of the Stanley Cup Final, with the Flames down two games to one, MacInnis skated the puck end-to-end before unleashing another big slapshot that beat Patrick Roy. This late third-period goal proved to be the game-winner, evening the series with the Canadiens. In the following game, MacInnis scored yet another crucial goal with a power-play slapshot in the final minute of the first period. This goal, his seventh of the playoffs, was also a game-winner.\r\nThe dominant performance by MacInnis at both ends of the ice was pivotal in the Flames\u2019 successful postseason run, cementing his legacy as a key contributor to their historic championship victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77184f0000a913000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.018,
+          "limit": 90
+         },
+         "name": "The Hunt for Stanley 2024",
+         "description": "<p><em data-stringify-type=\"italic\">The Hunt for Stanley 2024</em>&nbsp;features the most exhilarating highlights from the first three rounds of the 2024 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77789000000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Opening Ice",
+         "description": "<p>Get ready to witness the NHL&rsquo;s rising stars like never before with Opening Ice. This set features 20 heart-pounding highlights from players who have notched their first career goal in the 2021-22 and 2022-23 seasons.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77e61100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing Opening Ice: Elites, an exhilarating set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments. Opening Ice: Elites is a celebration of the sport's future legends and a must-have addition to any hockey enthusiast's collection, cherishing the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7756ae00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77ca2d00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Making the Mark 2023-24",
+         "description": "<p>Making the Mark 2023-24 commemorates remarkable single-season and career achievements from the 2023-2024 NHL regular season. This seasonal set features an elite guardian ascending the throne, a scoring mark not seen for decades, an assist milestone achieved by only five players in hockey history, and other noteworthy feats. These standout performances are defining moments in players' careers, poised to become enduring landmarks in NHL history as each athlete leaves their mark on the ice.&nbsp;</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7769b900000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.01,
+          "limit": 50
+         },
+         "name": "Cause for a Celly: '90s",
+         "description": "<div>\r\n<div>The Cause <em>For A Celly: '90s</em> collection immortalizes unforgettable NHL playoff highlights from the '90s that helped define the sport, featuring many of the game's greatest players and iconic moments that have left an indelible mark on hockey history.</div>\r\n<br />\r\n<div>Relive the exhilarating moments, featuring both legendary players and game or series-changing plays. From stunning overtime goals to game-saving glove saves, <em>Cause For A Celly: '90s</em> captures the drama, passion, and intensity of the playoffs like never before.</div>\r\n<br />\r\n<div>This exclusive set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable moments that have shaped the postseason.</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d22f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0002,
+          "limit": 1
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>In the rich tapestry of hockey's history, numerous great players, exceptional plays, and cherished memories have left an indelible mark. Yet, amidst this legacy of greatness, there are rare occasions when something truly extraordinary takes place, captivating the entire hockey world and etching it permanently into the collective memory. Whether it's witnessing a longstanding record shattered, a team achieving a momentous milestone, or witnessing a player's exceptional accomplishments being rightfully recognized, these events become timeless and integral parts of the sport's legacy. \"The Greatest Achievements\" serves to honor this rich history and commemorate in a unique way in the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae775be800000000000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Conn Smythe Showcase",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/21x6XXRG",
+        "set_uuid": "b5c8ae77184f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Hoist the Cup 2024",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/jqGmmrbp",
+        "set_uuid": "b5c8ae77e5e800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Hunt for Stanley 2024",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5",
+        "set_uuid": "b5c8ae77789000000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Hanging from the Rafters",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/8bMLLo1d",
+        "set_uuid": "b5c8ae77ca2d00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Hanging from the Rafters",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/v1yjjzbP",
+        "set_uuid": "b5c8ae771b0c00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Playoff Bound",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/V1P88Z1d",
+        "set_uuid": "b5c8ae77d17600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Making the Mark 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/A1LwwOqw",
+        "set_uuid": "b5c8ae7769b900000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Light the Lamp",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBByRM",
+        "set_uuid": "b5c8ae77966800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Next-Gen Class",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+        "set_uuid": "b5c8ae77cc3600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Stadiums & Skylines",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgw7JR6",
+        "set_uuid": "b5c8ae7743f000000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rR8rAl1d",
+        "set_uuid": "b5c8ae775be800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Guardians of the Net",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe24Wqk",
+        "set_uuid": "b5c8ae77b65400000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: '90s",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+        "set_uuid": "b5c8ae77d22f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kwkRd",
+        "set_uuid": "b5c8ae7756ae00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Hunt for Stanley 2023",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m",
+        "set_uuid": "b5c8ae77c33c00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Opening Ice",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/WvRDo2bP",
+        "set_uuid": "b5c8ae77e61100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       }
+      ]
+     },
+     "issued": "2024-08-28",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://Qme7RoMdAos9mW9iik6BgybuCCSq6txJykbHjG9KNRws5t"
+       },
+       "content-type": "image/png",
+       "sha256": "H5jAbROsM4zdYMdxkJjSH1emcvpfG-kQq6LSs12Zmo8=",
+       "url": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmfMqm4JHKc6ELKVAic1yRiGL7Gs5HwunFCgQQZiew4bpQ"
+       },
+       "content-type": "image/png",
+       "sha256": "2jq6ixPwfTVM9aGSliW7O3k7hycNej8VrDvkvNrcTM4=",
+       "url": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://Qme7RoMdAos9mW9iik6BgybuCCSq6txJykbHjG9KNRws5t"
+       },
+       "content-type": "image/png",
+       "sha256": "H5jAbROsM4zdYMdxkJjSH1emcvpfG-kQq6LSs12Zmo8=",
+       "url": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front.png"
+      }
+     },
+     "issued": "2024-08-28T01:07:12.324662",
+     "name": "Series 1 Grand Finale Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "e4cgmj-k_EOIygGXoyH7OqRvshCtJY20hV3nafNBDlw=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Prepare for the close of Series 1 in grand fashion with the Series 1 Grand Finale Pack! These packs will be the final drop of Series 1, and one of the last chances to find Series 1 highlights before the start of Series 2. Each pack contains highlights from the Base 2023-24 set, and includes the chance to pull some of the most iconic highlights in Series 1 from Connor McDavid, Connor Bedard, Auston Matthews, Wayne Gretzky, Mario Lemieux, and Martin Brodeur. \r\n\r\nAdditionally, these packs will be the only chance to find the new Conn Smythe Showcase set in a drop, including debuts from Patrick Kane, Scott Stevens, Henrik Zetterberg, Jean-Sebastien Giguere, Al MacInnis, and Brad Richards!\r\n\r\nEach pack contains 2 Base 2023-24 highlights, 1 mystery Core highlight that could be from Base 2023-24 (55%), Stadiums & Skylines (25%), or Playoff Bound (20%), and 1 mystery highlight that could be from Light the Lamp (50%), Guardians of the Net (13%), Next-Gen Class (10%), Hanging from the Rafters (Limited: 8.7%), Hoist the Cup (3.5%), Conn Smythe Showcase (1.98%), The Hunt for Stanley 2024 (1.8%), Opening Ice (1%), Opening Ice: Elites (1%), Opening Ice 2023-24 (1%), Hanging from the Rafters (Rare: 1%), Making the Mark 2023-24 (1%), Cause for a Celly: \u201890s (1%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Series 1 Grand Finale Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 5000,
+      "uri": "https://nft.nhlbreakaway.com/series/Vqmoy7bg"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/Vqmoy7bg"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Series 1 Grand Finale Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/Vqmoy7bg",
+    "image": "https://nft.nhlbreakaway.com/series/Vqmoy7bg/image-front-16x9.png"
+   },
+   "seriesId": "Vqmoy7bg",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "Vqmoy7bg"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

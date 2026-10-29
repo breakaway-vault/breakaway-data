@@ -1,0 +1,1429 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286368,
+    "summary": {
+     "drop_active": 1732557600,
+     "drop_expires": null,
+     "pack_price": "65.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/vRDkMgbP",
+     "number_of_highlights": 5,
+     "pack_description": "Opening Ice: Elites returns for Series 2 to capture more unforgettable moments when the game's current stars scored their first NHL career goal, or a talented goalie secured his debut NHL victory. Experience the sheer joy and determination as they find the back of the net, or defend their crease in their milestone highlights. Featuring first career milestones from Brady Tkachuk, Brad Marchand, Artemi Panarin, William Nylander, Mikko Rantanen, Jake Oettinger, and more! \r\n\r\nEach pack contains 1 Opening Ice: Elites highlight, 1 Light the Lamp: Legacy highlight, 2 mystery Core highlights that could be from Base 2024-25 (50%), or Across the Pond (50%), and 1 mystery highlight that could be from Base 2024-25 (25%), Light the Lamp: Legacy (20%), Fresh Sweaters (15%), Across the Pond (15%), Opening Ice: Elites (13%), Cause for a Celly: 2010s (7%), or Opening Ice: Icons (5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front-16x9.png",
+     "pack_rarity": "Rare",
+     "pack_title": "Opening Ice: Elites Debut LE (Rare)",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe0000000086ea000000000000",
+     "quantity": 1500,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Opening Ice: Elites Debut LE (Rare)",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Monday, Nov 25 at 1pm ET / 10am PT</span></p>\r\n<p><strong>Sweepstakes:</strong><span style=\"font-weight: 400;\"> Each pack purchased between Jan 3, 2025 at 12:01:01am ET and Jan 18, 2025 at 11:59:59pm ET is an entry for a chance to win a trip to the NHL Stadium Series&trade; . Read the </span><a href=\"https://blog.nhlbreakaway.com/jan-6-encore-pack-drop-nhl-stadium-series-sweepstakes-pickems-return-2/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">blog announcement</span></a><span style=\"font-weight: 400;\"> and </span><a href=\"https://help.nhlbreakaway.com/en/articles/10339109-nhl-breakaway-2025-nhl-stadium-series-sweepstakes-by-sweet-official-rules?ref=blog.nhlbreakaway.com\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">official rules</span></a><span style=\"font-weight: 400;\"> (</span><a href=\"https://help.nhlbreakaway.com/en/articles/10339113-concours-nhl-breakaway-de-la-stadium-series-2025-de-la-lnh-par-sweet-reglement-officiel?ref=blog.nhlbreakaway.com\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">version Fran&ccedil;aise</span></a><span style=\"font-weight: 400;\">) for more information. No purchase necessary to enter.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $65 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 1500 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Thirty (30) pack limit per person. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Light the Lamp: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Across the Pond (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Light the Lamp: Legacy (Limited #/500)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">13% Opening Ice: Elites (Rare #/250)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">7% Cause for a Celly: 2010s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">5% Opening Ice: Icons (Rare #/250)&nbsp;</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Payment via cryptocurrency is also available. See these </span><a href=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\"><span style=\"font-weight: 400;\">FAQs</span></a><span style=\"font-weight: 400;\"> for a complete list of supported currencies.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included: </strong><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vS7PfsDLm1r31vGy6Ga6h94xOlBLuEuk9Dwj9lTz2tYTPtwH4Qoj4m0TkjNn5TpE2WuN3QzzqkPnC9T/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Opening Ice: Elites returns for Series 2 to capture more unforgettable moments when the game's current stars scored their first NHL career goal, or a talented goalie secured his debut NHL victory. Experience the sheer joy and determination as they find the back of the net, or defend their crease in their milestone highlights. Featuring first career milestones from Brady Tkachuk, Brad Marchand, Artemi Panarin, William Nylander, Mikko Rantanen, Jake Oettinger, and more! \r\n\r\nEach pack contains 1 Opening Ice: Elites highlight, 1 Light the Lamp: Legacy highlight, 2 mystery Core highlights that could be from Base 2024-25 (50%), or Across the Pond (50%), and 1 mystery highlight that could be from Base 2024-25 (25%), Light the Lamp: Legacy (20%), Fresh Sweaters (15%), Across the Pond (15%), Opening Ice: Elites (13%), Cause for a Celly: 2010s (7%), or Opening Ice: Icons (5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe0000000086ea000000000000",
+     "assets": [],
+     "editions": 1500,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Opening Ice: Elites Debut LE (Rare)",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.056,
+          "limit": 84
+         },
+         "name": "Cole Caufield",
+         "description": "Some career first goals stand out more than others, and Cole Caufield\u2019s was certainly memorable. He scored his first goal as an overtime game winner in front of the home crowd in Montreal. During a 3-on-3 overtime against the Ottawa Senators, Caufield slipped behind the defenders and skated hard toward the net. Jeff Petry spotted him unguarded and fed him the puck, allowing Caufield to redirect it in for his inaugural tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a1f3000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.054,
+          "limit": 81
+         },
+         "name": "Devon Toews",
+         "description": "In an overtime matchup against the Chicago Blackhawks, defenseman Devon Toews scored his first NHL goal. After the puck was cycled around, Toews received a pass and unleashed a one-timer that was stopped, but the rebound kicked back out to him. He capitalized on the opportunity, burying the puck for the game winner. Toews spent his first two seasons with the New York Islanders before eventually joining the Colorado Avalanche.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000bd5d000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.052,
+          "limit": 78
+         },
+         "name": "Jason Robertson",
+         "description": "Jason Robertson, selected 39th overall in the 2017 NHL Draft, averaged nearly a point per game in his first full NHL season, recording 45 points in 51 games. In early February 2021, he scored his first career goal against Chicago. As the puck was moved to the point, a shot redirected off the goalie\u2019s glove, deflected off Robertson, and went into the net. This game-tying goal in the third period helped the Stars secure a point in the contest.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b796000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05333333333333334,
+          "limit": 80
+         },
+         "name": "Nick Suzuki",
+         "description": "In the final minute of the first period against the Minnesota Wild, Nick Suzuki netted his first career goal on home ice. After Jeff Petry's one-timer was partially blocked, the puck deflected over to Suzuki, who buried a backhander into the net. Suzuki finished the 2019-20 season with a strong rookie performance, tallying 13 goals and 41 points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000095e6000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05266666666666667,
+          "limit": 79
+         },
+         "name": "Noah Dobson",
+         "description": "Chosen 12th overall in the 2018 NHL Draft by the New York Islanders, Noah Dobson is a smooth-skating, puck-moving defenseman. Following an offensive zone faceoff win, the puck was worked over to Dobson, who sent a shot toward the net through heavy traffic. It deflected off the hand of a Detroit player and into the net, marking Dobson's first career goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008f68000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.052,
+          "limit": 78
+         },
+         "name": "Quinn Hughes",
+         "description": "Selected 7th overall by the Canucks in the 2018 NHL Draft, Quinn Hughes entered the League with high expectations as a smooth-skating, skilled defenseman\u2014and he delivered. In the Canucks' 2019-20 home opener against the Los Angeles Kings, Hughes scored his first career goal with a power-play slapshot that beat the goaltender. After appearing in just five games the previous season, Hughes finished his first full NHL campaign with an impressive 53 points in 68 games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008289000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05466666666666667,
+          "limit": 82
+         },
+         "name": "Seth Jarvis",
+         "description": "With his impressive speed, gifted skater Seth Jarvis scored his first career goal in just his second NHL game. After forcing a turnover at the defensive blue line, Jarvis raced down the ice with the puck, outpacing the defender. As he approached the net with a defending player in pursuit, Jarvis lost control of the puck. However, the puck, already in forward motion, continued its path and slipped through the five-hole into the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000097b4000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.050666666666666665,
+          "limit": 76
+         },
+         "name": "Troy Terry",
+         "description": "During an Anaheim Ducks power play against the New Jersey Devils, Troy Terry received a pass, skated in, and fired a wrist shot through traffic that found the back of the net for his first career goal. The Colorado-born forward has been a remarkable find for the Ducks, who selected him in the fifth round of the 2015 NHL Draft.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008c54000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.052,
+          "limit": 78
+         },
+         "name": "Artemi Panarin",
+         "description": "In his NHL debut Oct. 7, 2015, against the New York Rangers, Artemi Panarin scored his first career goal. As Patrick Kane controlled the puck deep in the Rangers' zone, Panarin skated into the slot. Kane fed him the puck, and Panarin, all alone in front, fired a wrist shot past the goalie to find the back of the net. With 30 goals, 47 assists, and 77 points in the 2015-16 season, Panarin led all rookies in those categories, earning the Calder Trophy as rookie of the year.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008217000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05333333333333334,
+          "limit": 80
+         },
+         "name": "Brad Marchand",
+         "description": "Drafted by the Boston Bruins in the third round of the 2006 NHL Draft, Brad Marchand scored 21 goals in his first full NHL season in 2010-11, after appearing in 20 games the previous year. On Nov. 3, 2010, Marchand netted his first career goal \u2013 a shorthanded effort against the Buffalo Sabres to open the scoring on the road. The Bruins went on to win the Stanley Cup that season, with Marchand contributing 19 points in 25 playoff games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000815f000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05,
+          "limit": 75
+         },
+         "name": "Brady Tkachuk",
+         "description": "In his second NHL game and first at home, Brady Tkachuk, the fourth overall pick in the 2018 NHL Draft, netted his first career goal. During an Ottawa Senators power play, the feisty and physical forward charged to the net, where the puck deflected off his skate and slipped behind the goalie for his first of two goals in the game. Tkachuk wrapped up his rookie season with 22 goals and 45 points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00009db5000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.050666666666666665,
+          "limit": 76
+         },
+         "name": "Ilya Sorokin",
+         "description": "Playing with a two-goal lead early in the second period, rookie goaltender Ilya Sorokin flashed his glove to make a key stop on Henri Jokiharju. Holding the same lead in the third period, Sorokin came up big again with a crucial glove save on Victor Olofsson in the slot. Sorokin\u2019s 20-save effort secured his first career win and shutout during the 2020-21 season, when he recorded 13 wins and three shutouts along with a .918 save percentage and 2.17 goals-against average over 22 games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a43f000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05,
+          "limit": 75
+         },
+         "name": "Jaccob Slavin",
+         "description": "Chosen 120th overall by the Carolina Hurricanes in the 2012 NHL Draft, defenseman Jaccob Slavin netted his first career goal during the 2015-16 season on Dec. 8, 2015, against the Dallas Stars. Skating the puck up the ice, Slavin dished it to Eric Staal on the far side before driving to the net. He then buried a rebound sitting in the crease from a Riley Nash shot, scoring his first NHL goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00009894000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.051333333333333335,
+          "limit": 77
+         },
+         "name": "Jake Oettinger",
+         "description": "The only goaltender selected in the first round of the 2017 NHL Draft, Jake Oettinger earned his first career win against the Detroit Red Wings on Jan. 28, 2021. Late in the second period, Oettinger made a series of key saves during a Red Wings power play to preserve the Stars\u2019 two-goal lead. He later denied an attempt from the slot by Bobby Ryan in the third period. Oettinger finished his first NHL start with 20 saves, contributing to a successful debut.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000aeb7000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.052,
+          "limit": 78
+         },
+         "name": "Mathew Barzal",
+         "description": "Mathew Barzal, renowned for his great ability to transport the puck up the ice, demonstrated his talent in a game against the rival New York Rangers by scoring his first career goal. Skating the puck through the neutral zone, Barzal navigated around his check along the boards and advanced toward the net. He then fired a sharp angle shot that beat the goaltender. Barzal\u2019s remarkable rookie season with the New York Islanders ended with 85 points and earned him the Calder Trophy as rookie of the year.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008906000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05466666666666667,
+          "limit": 82
+         },
+         "name": "Mikko Rantanen",
+         "description": "A big-bodied forward with a powerful shot, Mikko Rantanen was selected 10th overall in the 2015 NHL Draft by the Colorado Avalanche and scored his first career goal Nov. 11, 2016, at home against the Winnipeg Jets. During an Avalanche power play, Rantanen used his excellent shot release to beat the goaltender short-side high for the game's opening goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000088c4000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05333333333333334,
+          "limit": 80
+         },
+         "name": "Robert Thomas",
+         "description": "Selected as the St. Louis Blues' first pick in the 2017 NHL Draft, Robert Thomas has proven to be a standout for the franchise. During his rookie season in 2018-19, Thomas netted his first career goal against the Nashville Predators. After a Predators turnover at the blue line, Brayden Schenn sent the puck to Thomas, positioned near the faceoff dot on the far side. Thomas collected the puck, took a quick glance, and fired a wrist shot top shelf on the far side, marking his milestone goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b2ca000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05466666666666667,
+          "limit": 82
+         },
+         "name": "Roman Josi",
+         "description": "Early in the third period in a game against the Anaheim Ducks, Roman Josi scored his first NHL goal on a power play. After receiving a pass from fellow defenseman Shea Weber, Josi fired a slapshot from the point through a screen, beating the goaltender. His goal gave Nashville its first lead of the game, which they held on to for the win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a624000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05266666666666667,
+          "limit": 79
+         },
+         "name": "William Nylander",
+         "description": "In just his fourth NHL game, William Nylander scored his first career goal at home against the Ottawa Senators. After a Toronto faceoff win in the offensive zone, Nylander collected the puck, skated into the slot, and fired a wrist shot that beat the goalie for his inaugural tally. Nylander recorded 13 points in 22 games during the 2015-16 season, and followed it up with 61 points the next season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b752000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0013333333333333333,
+          "limit": 2
+         },
+         "name": "Connor McDavid",
+         "description": "Connor McDavid, known for his sensational and electrifying play, set Edmonton ablaze early in the 2021-22 season. Late in the third period, trailing by a goal, McDavid executed the unthinkable by weaving through four defenders and then deking out the netminder with just under three minutes remaining to score the tying goal. That same season, McDavid would secure his fourth Art Ross Trophy leading the league in points in only his seventh season in the league.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2f000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Evgeni Malkin",
+         "description": "Starting with a backcheck and a strip of the puck, Evgeni Malkin scored a beautiful unassisted goal. In one fluid motion, Malkin executed a spin-o-rama and sniped a backhander bar-down for a sensational goal. Later that 2015-16 season, Malkin won his second Stanley Cup \u2013 and first of back-to-back championships that boosted his career total to three (all with the Penguins).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008cd4000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Jonathan Toews",
+         "description": "As a child, Jonathan Toews idolized Joe Sakic, and in his fifth NHL game of his rookie season, he faced off against his hero, donning the same jersey number 19 that Sakic wore. During that game, Toews scored a spectacular goal that electrified the home crowd. Early in the first period of a scoreless game, he weaved through three Colorado defenders, deked the goalie, and tucked the puck into the net. Toews finished his rookie season with 24 goals and 54 points in 64 games, and later won three Stanley Cups with Chicago.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a44000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Nikita Kucherov",
+         "description": "During the 2016-17 season, the deceptive Nikita Kucherov scored a memorable shootout goal that decided the game against Buffalo. As Kucherov approached the netminder, he faked a shot and let the puck slide past the fooled goalie into the net. Kucherov continues to climb the all-time ranks in franchise history, averaging 1.20 points per game through his first 10 years in the league, all with Tampa Bay.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2e000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0013333333333333333,
+          "limit": 2
+         },
+         "name": "Rick Nash",
+         "description": "In the final minute of the third period of a tied game, Rick Nash scored a sensational, unforgettable goal. Disrupting the play at the blueline, Nash headed up the ice and received a pass, setting up a 1-on-2 rush. He skillfully stickhandled through two Coyotes defenders, deked the goalie, and fired the puck into the open net for the game-winner. Nash spent 9 of his 15 NHL seasons with the Blue Jackets and left as the franchise leader in goals, assists and points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a2b5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Ryan Getzlaf",
+         "description": "Ryan Getzlaf, the all-time points leader for the Anaheim Ducks, scored a remarkable shorthanded goal during the 2017-18 season. In the defensive zone, while attempting to clear the puck, Getzlaf lofted it high into the air and chased it down. As the puck settled near the high slot, the goalie came out of the net to swat it away. However, Getzlaf reached it first, chipped it past the netminder, and shot it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009a71000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Sidney Crosby",
+         "description": "Sidney Crosby has scored many spectacular goals throughout his storied career, but one particularly memorable moment came during a game against Edmonton in the 2018-19 season. In overtime, Crosby carried the puck into the offensive zone, skated it below the goal line, and maneuvered through two defenders to get in front of the net. He held onto the puck until reaching the far side of the goal, where he fired a backhander into the net. That season, Crosby finished with 100 points, marking the sixth time in his career he reached the century mark in a single season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009c7a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0013333333333333333,
+          "limit": 2
+         },
+         "name": "Zdeno Chara",
+         "description": "Known as \"Big Z\" and standing at 6\u20199\u201d, Zdeno Chara was renowned for his disruptive defense and physical presence rather than for dazzling offensive plays. However, in a game against Florida during the 2012-13 season, Chara executed a beautiful spin-a-rama after receiving a pass, depositing a backhander into the top of the net. Chara spent 14 of his 24-year career in Boston, where he won a Norris Trophy in 2009 and captained the team to a Stanley Cup championship in 2011.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000b6ac000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.07066666666666667,
+          "limit": 106
+         },
+         "name": "Aleksander Barkov",
+         "description": "Aleksander Barkov, a two-time Selke Trophy winner renowned for his elite two-way play as a center, also showcases extraordinary offensive prowess. In a 2018-19 season matchup against the Montreal Canadiens, he demonstrated his skill in spectacular fashion. After eluding a defender and closing in on the goalie, Barkov pulled off an incredible between-the-legs move to score a jaw-dropping highlight-reel goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008861000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06666666666666667,
+          "limit": 100
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After scoring earlier in the third period, Alexis Lafreni\u00e8re dazzled with a spectacular backhand goal against the Detroit Red Wings. As he skated towards the net in the slot, Lafreni\u00e8re faked a shot, freezing the defender. He then smoothly pulled the puck through his legs to his backhand and lifted it top shelf for a stunning finish.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a236000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06533333333333333,
+          "limit": 98
+         },
+         "name": "Andrei Svechnikov",
+         "description": "In his second NHL season, Andrei Svechnikov scored the league's first-ever lacrosse-style goal called the \"Michigan goal.\" This remarkable goal was the first of two Svechnikov scored in the third period, leading Carolina to a 2-1 victory over Calgary.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095c3000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06466666666666666,
+          "limit": 97
+         },
+         "name": "Anthony Duclair",
+         "description": "During his brief stint with the Columbus Blue Jackets, Anthony Duclair scored an unforgettable goal. The speedy forward received a pass at the far blue line and attempted to cut towards the middle to evade a defender. Although he fell to his knees, Duclair remarkably kept control of the puck, pulled it back in, and fired it into the net after spinning around.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a46000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.066,
+          "limit": 99
+         },
+         "name": "Bobby Ryan",
+         "description": "During the 2011 Stanley Cup Playoffs, Bobby Ryan scored a sensational goal against the Nashville Predators. After intercepting a cross-ice pass just inside the blue line, Ryan carried the puck through the neutral zone. He then made two incredible moves to evade the same defender before firing a backhand shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a057000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06666666666666667,
+          "limit": 100
+         },
+         "name": "Claude Giroux",
+         "description": "Claude Giroux, who played 1,000 games and scored 291 goals with the Philadelphia Flyers during his first 15 seasons, showcased his skill and creativity with a memorable goal against Tampa Bay. As he entered the offensive zone, three Lightning players converged on him. With a deft lift of a defender's stick, Giroux broke through the check, maneuvered around the goalie, and calmly deposited the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000084d8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06266666666666666,
+          "limit": 94
+         },
+         "name": "Corey Perry",
+         "description": "With only two seconds left in the second period, Corey Perry scored an incredible goal from his knees. After receiving a drop pass just inside the blue line, Perry toe-dragged around a defender, got tripped up, and fired a shot into the net from his knees. Perry spent the first 14 seasons of his career in Anaheim, where he currently ranks second all-time in goals in franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000092f2000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06266666666666666,
+          "limit": 94
+         },
+         "name": "Filip Forsberg",
+         "description": "Since joining the NHL with the Nashville Predators, Filip Forsberg has thrilled fans with countless spectacular plays. One of his most memorable moments came when he scored a \"Michigan\" goal against the Oilers. After an offensive zone faceoff, Forsberg retrieved the puck along the boards, skated behind the net, and executed a perfect lacrosse-style goal, leaving everyone in awe.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095fe000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06533333333333333,
+          "limit": 98
+         },
+         "name": "Vladimir Tarasenko",
+         "description": "Vladimir Tarasenko began his NHL career with the St. Louis Blues, where he spent parts of 11 seasons, creating countless memories for fans, including playing a key role in a Stanley Cup championship. During the 2021-22 season, when he set a career-high with 82 points, one moment stood out above the rest. Against the Los Angeles Kings, Tarasenko dazzled by slipping the puck through a defender's legs to cut to the middle, then made one final move on the netminder before firing a shot upstairs over the goalie\u2019s shoulder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000086a8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06533333333333333,
+          "limit": 98
+         },
+         "name": "Kris Letang",
+         "description": "Kris Letang, a gifted skater known for his offensive prowess as a defenseman, has spent his entire career with the Pittsburgh Penguins, contributing to three Stanley Cup championships. In an October 2019 game against the Dallas Stars, Letang showcased his skill by weaving past two defenders and scoring a beautiful third-period goal that gave Pittsburgh their first lead of the game. The Penguins held onto the lead, and Letang later sealed the victory with an empty-net goal for his second of the night.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000bbb5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.068,
+          "limit": 102
+         },
+         "name": "Marek Malik",
+         "description": "Marek Malik, a defenseman known more for his defensive skills rather than his scoring ability, delivered a stunning surprise during a shootout against the Washington Capitals. In the 15th round, Malik astounded everyone by executing a between-the-legs move, scoring a sensational goal that secured the Rangers' victory and earned them two points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009762000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06466666666666666,
+          "limit": 97
+         },
+         "name": "Mathew Barzal",
+         "description": "In a March 2021 game against the Buffalo Sabres, Mathew Barzal powered past a defender in a one-on-one battle, beating him on the outside. Closing in on the goalie, Barzal slowed down and pulled off a stunning between-the-legs move to score a remarkable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000980a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06866666666666667,
+          "limit": 103
+         },
+         "name": "Mitch Marner",
+         "description": "On an offensive break with Auston Matthews, Mitch Marner received a pass in the slot, surrounded by multiple defenders. In one fluid motion, he shifted the puck between his legs to evade the crowd and slipped it five-hole past the goalie, perfectly showcasing his elite offensive skill.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000adcb000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06466666666666666,
+          "limit": 97
+         },
+         "name": "Morgan Rielly",
+         "description": "Playing against the Edmonton Oilers at home, defenseman Morgan Rielly scored a brilliant unassisted goal. The play began with Rielly blocking a shot in the defensive zone. He then collected the puck, weaved through multiple defenders up the ice, and, once in the slot, toe-dragged the final defender before firing a shot top shelf for an impressive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008715000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.07066666666666667,
+          "limit": 106
+         },
+         "name": "Patrick Kane",
+         "description": "Charging down the right side of the ice with speed, Patrick Kane noticed the defender backing off and executed an incredible spin-o-rama, finishing with a stunning backhand goal. Known for his creativity and exceptional talent, Kane went on to win the Conn Smythe Trophy later that season, as well as his second Stanley Cup.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009ea1000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.5,
+          "limit": 750
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.5,
+          "limit": 750
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.5,
+          "limit": 750
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.5,
+          "limit": 750
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.25,
+          "limit": 375
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0013333333333333333,
+          "limit": 2
+         },
+         "name": "Connor McDavid",
+         "description": "Connor McDavid, known for his sensational and electrifying play, set Edmonton ablaze early in the 2021-22 season. Late in the third period, trailing by a goal, McDavid executed the unthinkable by weaving through four defenders and then deking out the netminder with just under three minutes remaining to score the tying goal. That same season, McDavid would secure his fourth Art Ross Trophy leading the league in points in only his seventh season in the league.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2f000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05,
+          "limit": 75
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Jonathan Toews",
+         "description": "As a child, Jonathan Toews idolized Joe Sakic, and in his fifth NHL game of his rookie season, he faced off against his hero, donning the same jersey number 19 that Sakic wore. During that game, Toews scored a spectacular goal that electrified the home crowd. Early in the first period of a scoreless game, he weaved through three Colorado defenders, deked the goalie, and tucked the puck into the net. Toews finished his rookie season with 24 goals and 54 points in 64 games, and later won three Stanley Cups with Chicago.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a44000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Nikita Kucherov",
+         "description": "During the 2016-17 season, the deceptive Nikita Kucherov scored a memorable shootout goal that decided the game against Buffalo. As Kucherov approached the netminder, he faked a shot and let the puck slide past the fooled goalie into the net. Kucherov continues to climb the all-time ranks in franchise history, averaging 1.20 points per game through his first 10 years in the league, all with Tampa Bay.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2e000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Rick Nash",
+         "description": "In the final minute of the third period of a tied game, Rick Nash scored a sensational, unforgettable goal. Disrupting the play at the blueline, Nash headed up the ice and received a pass, setting up a 1-on-2 rush. He skillfully stickhandled through two Coyotes defenders, deked the goalie, and fired the puck into the open net for the game-winner. Nash spent 9 of his 15 NHL seasons with the Blue Jackets and left as the franchise leader in goals, assists and points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a2b5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Ryan Getzlaf",
+         "description": "Ryan Getzlaf, the all-time points leader for the Anaheim Ducks, scored a remarkable shorthanded goal during the 2017-18 season. In the defensive zone, while attempting to clear the puck, Getzlaf lofted it high into the air and chased it down. As the puck settled near the high slot, the goalie came out of the net to swat it away. However, Getzlaf reached it first, chipped it past the netminder, and shot it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009a71000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Sidney Crosby",
+         "description": "Sidney Crosby has scored many spectacular goals throughout his storied career, but one particularly memorable moment came during a game against Edmonton in the 2018-19 season. In overtime, Crosby carried the puck into the offensive zone, skated it below the goal line, and maneuvered through two defenders to get in front of the net. He held onto the puck until reaching the far side of the goal, where he fired a backhander into the net. That season, Crosby finished with 100 points, marking the sixth time in his career he reached the century mark in a single season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009c7a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Zdeno Chara",
+         "description": "Known as \"Big Z\" and standing at 6\u20199\u201d, Zdeno Chara was renowned for his disruptive defense and physical presence rather than for dazzling offensive plays. However, in a game against Florida during the 2012-13 season, Chara executed a beautiful spin-a-rama after receiving a pass, depositing a backhander into the top of the net. Chara spent 14 of his 24-year career in Boston, where he won a Norris Trophy in 2009 and captained the team to a Stanley Cup championship in 2011.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000b6ac000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.014,
+          "limit": 21
+         },
+         "name": "Aleksander Barkov",
+         "description": "Aleksander Barkov, a two-time Selke Trophy winner renowned for his elite two-way play as a center, also showcases extraordinary offensive prowess. In a 2018-19 season matchup against the Montreal Canadiens, he demonstrated his skill in spectacular fashion. After eluding a defender and closing in on the goalie, Barkov pulled off an incredible between-the-legs move to score a jaw-dropping highlight-reel goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008861000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After scoring earlier in the third period, Alexis Lafreni\u00e8re dazzled with a spectacular backhand goal against the Detroit Red Wings. As he skated towards the net in the slot, Lafreni\u00e8re faked a shot, freezing the defender. He then smoothly pulled the puck through his legs to his backhand and lifted it top shelf for a stunning finish.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a236000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Andrei Svechnikov",
+         "description": "In his second NHL season, Andrei Svechnikov scored the league's first-ever lacrosse-style goal called the \"Michigan goal.\" This remarkable goal was the first of two Svechnikov scored in the third period, leading Carolina to a 2-1 victory over Calgary.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095c3000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Anthony Duclair",
+         "description": "During his brief stint with the Columbus Blue Jackets, Anthony Duclair scored an unforgettable goal. The speedy forward received a pass at the far blue line and attempted to cut towards the middle to evade a defender. Although he fell to his knees, Duclair remarkably kept control of the puck, pulled it back in, and fired it into the net after spinning around.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a46000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Bobby Ryan",
+         "description": "During the 2011 Stanley Cup Playoffs, Bobby Ryan scored a sensational goal against the Nashville Predators. After intercepting a cross-ice pass just inside the blue line, Ryan carried the puck through the neutral zone. He then made two incredible moves to evade the same defender before firing a backhand shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a057000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Claude Giroux",
+         "description": "Claude Giroux, who played 1,000 games and scored 291 goals with the Philadelphia Flyers during his first 15 seasons, showcased his skill and creativity with a memorable goal against Tampa Bay. As he entered the offensive zone, three Lightning players converged on him. With a deft lift of a defender's stick, Giroux broke through the check, maneuvered around the goalie, and calmly deposited the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000084d8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.014,
+          "limit": 21
+         },
+         "name": "Corey Perry",
+         "description": "With only two seconds left in the second period, Corey Perry scored an incredible goal from his knees. After receiving a drop pass just inside the blue line, Perry toe-dragged around a defender, got tripped up, and fired a shot into the net from his knees. Perry spent the first 14 seasons of his career in Anaheim, where he currently ranks second all-time in goals in franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000092f2000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Filip Forsberg",
+         "description": "Since joining the NHL with the Nashville Predators, Filip Forsberg has thrilled fans with countless spectacular plays. One of his most memorable moments came when he scored a \"Michigan\" goal against the Oilers. After an offensive zone faceoff, Forsberg retrieved the puck along the boards, skated behind the net, and executed a perfect lacrosse-style goal, leaving everyone in awe.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095fe000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.07,
+          "limit": 105
+         },
+         "name": "Cause for a Celly: 2010s",
+         "description": "<p>Cause for a Celly: 2010s immortalizes many unforgettable NHL playoff highlights that helped define the sport, featuring some of the game's greatest players and iconic plays that have left an indelible mark on hockey history. From stunning overtime goals to game-saving glove saves, Cause for a Celly: 2010s captures the drama, passion, and intensity of the playoffs like never before. This Epic set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable plays that have shaped the postseason.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe6ac200000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Kris Letang",
+         "description": "Kris Letang, a gifted skater known for his offensive prowess as a defenseman, has spent his entire career with the Pittsburgh Penguins, contributing to three Stanley Cup championships. In an October 2019 game against the Dallas Stars, Letang showcased his skill by weaving past two defenders and scoring a beautiful third-period goal that gave Pittsburgh their first lead of the game. The Penguins held onto the lead, and Letang later sealed the victory with an empty-net goal for his second of the night.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000bbb5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.014,
+          "limit": 21
+         },
+         "name": "Marek Malik",
+         "description": "Marek Malik, a defenseman known more for his defensive skills rather than his scoring ability, delivered a stunning surprise during a shootout against the Washington Capitals. In the 15th round, Malik astounded everyone by executing a between-the-legs move, scoring a sensational goal that secured the Rangers' victory and earned them two points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009762000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Mathew Barzal",
+         "description": "In a March 2021 game against the Buffalo Sabres, Mathew Barzal powered past a defender in a one-on-one battle, beating him on the outside. Closing in on the goalie, Barzal slowed down and pulled off a stunning between-the-legs move to score a remarkable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000980a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Mitch Marner",
+         "description": "On an offensive break with Auston Matthews, Mitch Marner received a pass in the slot, surrounded by multiple defenders. In one fluid motion, he shifted the puck between his legs to evade the crowd and slipped it five-hole past the goalie, perfectly showcasing his elite offensive skill.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000adcb000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Morgan Rielly",
+         "description": "Playing against the Edmonton Oilers at home, defenseman Morgan Rielly scored a brilliant unassisted goal. The play began with Rielly blocking a shot in the defensive zone. He then collected the puck, weaved through multiple defenders up the ice, and, once in the slot, toe-dragged the final defender before firing a shot top shelf for an impressive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008715000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.014,
+          "limit": 21
+         },
+         "name": "Patrick Kane",
+         "description": "Charging down the right side of the ice with speed, Patrick Kane noticed the defender backing off and executed an incredible spin-o-rama, finishing with a stunning backhand goal. Known for his creativity and exceptional talent, Kane went on to win the Conn Smythe Trophy later that season, as well as his second Stanley Cup.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009ea1000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Vladimir Tarasenko",
+         "description": "Vladimir Tarasenko began his NHL career with the St. Louis Blues, where he spent parts of 11 seasons, creating countless memories for fans, including playing a key role in a Stanley Cup championship. During the 2021-22 season, when he set a career-high with 82 points, one moment stood out above the rest. Against the Los Angeles Kings, Tarasenko dazzled by slipping the puck through a defender's legs to cut to the middle, then made one final move on the netminder before firing a shot upstairs over the goalie\u2019s shoulder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000086a8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.15,
+          "limit": 225
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.15,
+          "limit": 225
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Cole Caufield",
+         "description": "Some career first goals stand out more than others, and Cole Caufield\u2019s was certainly memorable. He scored his first goal as an overtime game winner in front of the home crowd in Montreal. During a 3-on-3 overtime against the Ottawa Senators, Caufield slipped behind the defenders and skated hard toward the net. Jeff Petry spotted him unguarded and fed him the puck, allowing Caufield to redirect it in for his inaugural tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a1f3000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.008,
+          "limit": 12
+         },
+         "name": "Devon Toews",
+         "description": "In an overtime matchup against the Chicago Blackhawks, defenseman Devon Toews scored his first NHL goal. After the puck was cycled around, Toews received a pass and unleashed a one-timer that was stopped, but the rebound kicked back out to him. He capitalized on the opportunity, burying the puck for the game winner. Toews spent his first two seasons with the New York Islanders before eventually joining the Colorado Avalanche.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000bd5d000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006,
+          "limit": 9
+         },
+         "name": "Jason Robertson",
+         "description": "Jason Robertson, selected 39th overall in the 2017 NHL Draft, averaged nearly a point per game in his first full NHL season, recording 45 points in 51 games. In early February 2021, he scored his first career goal against Chicago. As the puck was moved to the point, a shot redirected off the goalie\u2019s glove, deflected off Robertson, and went into the net. This game-tying goal in the third period helped the Stars secure a point in the contest.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b796000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.007333333333333333,
+          "limit": 11
+         },
+         "name": "Nick Suzuki",
+         "description": "In the final minute of the first period against the Minnesota Wild, Nick Suzuki netted his first career goal on home ice. After Jeff Petry's one-timer was partially blocked, the puck deflected over to Suzuki, who buried a backhander into the net. Suzuki finished the 2019-20 season with a strong rookie performance, tallying 13 goals and 41 points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000095e6000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006,
+          "limit": 9
+         },
+         "name": "Noah Dobson",
+         "description": "Chosen 12th overall in the 2018 NHL Draft by the New York Islanders, Noah Dobson is a smooth-skating, puck-moving defenseman. Following an offensive zone faceoff win, the puck was worked over to Dobson, who sent a shot toward the net through heavy traffic. It deflected off the hand of a Detroit player and into the net, marking Dobson's first career goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008f68000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Quinn Hughes",
+         "description": "Selected 7th overall by the Canucks in the 2018 NHL Draft, Quinn Hughes entered the League with high expectations as a smooth-skating, skilled defenseman\u2014and he delivered. In the Canucks' 2019-20 home opener against the Los Angeles Kings, Hughes scored his first career goal with a power-play slapshot that beat the goaltender. After appearing in just five games the previous season, Hughes finished his first full NHL campaign with an impressive 53 points in 68 games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008289000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.008,
+          "limit": 12
+         },
+         "name": "Seth Jarvis",
+         "description": "With his impressive speed, gifted skater Seth Jarvis scored his first career goal in just his second NHL game. After forcing a turnover at the defensive blue line, Jarvis raced down the ice with the puck, outpacing the defender. As he approached the net with a defending player in pursuit, Jarvis lost control of the puck. However, the puck, already in forward motion, continued its path and slipped through the five-hole into the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000097b4000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Troy Terry",
+         "description": "During an Anaheim Ducks power play against the New Jersey Devils, Troy Terry received a pass, skated in, and fired a wrist shot through traffic that found the back of the net for his first career goal. The Colorado-born forward has been a remarkable find for the Ducks, who selected him in the fifth round of the 2015 NHL Draft.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008c54000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Artemi Panarin",
+         "description": "In his NHL debut Oct. 7, 2015, against the New York Rangers, Artemi Panarin scored his first career goal. As Patrick Kane controlled the puck deep in the Rangers' zone, Panarin skated into the slot. Kane fed him the puck, and Panarin, all alone in front, fired a wrist shot past the goalie to find the back of the net. With 30 goals, 47 assists, and 77 points in the 2015-16 season, Panarin led all rookies in those categories, earning the Calder Trophy as rookie of the year.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008217000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Brad Marchand",
+         "description": "Drafted by the Boston Bruins in the third round of the 2006 NHL Draft, Brad Marchand scored 21 goals in his first full NHL season in 2010-11, after appearing in 20 games the previous year. On Nov. 3, 2010, Marchand netted his first career goal \u2013 a shorthanded effort against the Buffalo Sabres to open the scoring on the road. The Bruins went on to win the Stanley Cup that season, with Marchand contributing 19 points in 25 playoff games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000815f000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.008,
+          "limit": 12
+         },
+         "name": "Brady Tkachuk",
+         "description": "In his second NHL game and first at home, Brady Tkachuk, the fourth overall pick in the 2018 NHL Draft, netted his first career goal. During an Ottawa Senators power play, the feisty and physical forward charged to the net, where the puck deflected off his skate and slipped behind the goalie for his first of two goals in the game. Tkachuk wrapped up his rookie season with 22 goals and 45 points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00009db5000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Ilya Sorokin",
+         "description": "Playing with a two-goal lead early in the second period, rookie goaltender Ilya Sorokin flashed his glove to make a key stop on Henri Jokiharju. Holding the same lead in the third period, Sorokin came up big again with a crucial glove save on Victor Olofsson in the slot. Sorokin\u2019s 20-save effort secured his first career win and shutout during the 2020-21 season, when he recorded 13 wins and three shutouts along with a .918 save percentage and 2.17 goals-against average over 22 games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a43f000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006,
+          "limit": 9
+         },
+         "name": "Jaccob Slavin",
+         "description": "Chosen 120th overall by the Carolina Hurricanes in the 2012 NHL Draft, defenseman Jaccob Slavin netted his first career goal during the 2015-16 season on Dec. 8, 2015, against the Dallas Stars. Skating the puck up the ice, Slavin dished it to Eric Staal on the far side before driving to the net. He then buried a rebound sitting in the crease from a Riley Nash shot, scoring his first NHL goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00009894000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Jake Oettinger",
+         "description": "The only goaltender selected in the first round of the 2017 NHL Draft, Jake Oettinger earned his first career win against the Detroit Red Wings on Jan. 28, 2021. Late in the second period, Oettinger made a series of key saves during a Red Wings power play to preserve the Stars\u2019 two-goal lead. He later denied an attempt from the slot by Bobby Ryan in the third period. Oettinger finished his first NHL start with 20 saves, contributing to a successful debut.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000aeb7000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.007333333333333333,
+          "limit": 11
+         },
+         "name": "Mathew Barzal",
+         "description": "Mathew Barzal, renowned for his great ability to transport the puck up the ice, demonstrated his talent in a game against the rival New York Rangers by scoring his first career goal. Skating the puck through the neutral zone, Barzal navigated around his check along the boards and advanced toward the net. He then fired a sharp angle shot that beat the goaltender. Barzal\u2019s remarkable rookie season with the New York Islanders ended with 85 points and earned him the Calder Trophy as rookie of the year.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af00008906000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Mikko Rantanen",
+         "description": "A big-bodied forward with a powerful shot, Mikko Rantanen was selected 10th overall in the 2015 NHL Draft by the Colorado Avalanche and scored his first career goal Nov. 11, 2016, at home against the Winnipeg Jets. During an Avalanche power play, Rantanen used his excellent shot release to beat the goaltender short-side high for the game's opening goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af000088c4000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006,
+          "limit": 9
+         },
+         "name": "Robert Thomas",
+         "description": "Selected as the St. Louis Blues' first pick in the 2017 NHL Draft, Robert Thomas has proven to be a standout for the franchise. During his rookie season in 2018-19, Thomas netted his first career goal against the Nashville Predators. After a Predators turnover at the blue line, Brayden Schenn sent the puck to Thomas, positioned near the faceoff dot on the far side. Thomas collected the puck, took a quick glance, and fired a wrist shot top shelf on the far side, marking his milestone goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b2ca000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.006666666666666667,
+          "limit": 10
+         },
+         "name": "Roman Josi",
+         "description": "Early in the third period in a game against the Anaheim Ducks, Roman Josi scored his first NHL goal on a power play. After receiving a pass from fellow defenseman Shea Weber, Josi fired a slapshot from the point through a screen, beating the goaltender. His goal gave Nashville its first lead of the game, which they held on to for the win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000a624000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Opening Ice: Elites",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.007333333333333333,
+          "limit": 11
+         },
+         "name": "William Nylander",
+         "description": "In just his fourth NHL game, William Nylander scored his first career goal at home against the Ottawa Senators. After a Toronto faceoff win in the offensive zone, Nylander collected the puck, skated into the slot, and fired a wrist shot that beat the goalie for his inaugural tally. Nylander recorded 13 points in 22 games during the 2015-16 season, and followed it up with 61 points the next season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fef2af0000b752000000000000",
+         "rarity": "Rare"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O",
+        "set_uuid": "cd2f47fef2af00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QqBmkGRA",
+        "set_uuid": "cd2f47feed2400000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+        "set_uuid": "cd2f47fef2be00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1aoV5RK",
+        "set_uuid": "cd2f47fe460e00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Light the Lamp: Legacy",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/YqrMgPRJ",
+        "set_uuid": "cd2f47feb0d800000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: 2010s",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBLNRM",
+        "set_uuid": "cd2f47fe6ac200000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-11-23",
+     "rarity": {
+      "editions": 250,
+      "name": "Rare"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmSUAyWTTQJU1LtqHtcBZK9GAY267bMGSpq3ACLjJbRhCv"
+       },
+       "content-type": "image/png",
+       "sha256": "vY3nUnqsq3j6joIawkJTzYjT_noYF9sVWuq8j_a6250=",
+       "url": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVzCKkDHD7n9WMgf5G5LrmUzctubH2WdDvMLxt3WSA26A"
+       },
+       "content-type": "image/png",
+       "sha256": "vqEost9gIwMdt3Q0jk4qWodmbPSOiBthpGvKa_9F82E=",
+       "url": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmSUAyWTTQJU1LtqHtcBZK9GAY267bMGSpq3ACLjJbRhCv"
+       },
+       "content-type": "image/png",
+       "sha256": "vY3nUnqsq3j6joIawkJTzYjT_noYF9sVWuq8j_a6250=",
+       "url": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front.png"
+      }
+     },
+     "issued": "2024-11-23T01:36:43.454117",
+     "name": "Opening Ice: Elites Debut LE (Rare)",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "fV0WRYuAAgOG-49hTegzXpRwdbCyFi1TH-MCb8pwPvE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Opening Ice: Elites returns for Series 2 to capture more unforgettable moments when the game's current stars scored their first NHL career goal, or a talented goalie secured his debut NHL victory. Experience the sheer joy and determination as they find the back of the net, or defend their crease in their milestone highlights. Featuring first career milestones from Brady Tkachuk, Brad Marchand, Artemi Panarin, William Nylander, Mikko Rantanen, Jake Oettinger, and more! \r\n\r\nEach pack contains 1 Opening Ice: Elites highlight, 1 Light the Lamp: Legacy highlight, 2 mystery Core highlights that could be from Base 2024-25 (50%), or Across the Pond (50%), and 1 mystery highlight that could be from Base 2024-25 (25%), Light the Lamp: Legacy (20%), Fresh Sweaters (15%), Across the Pond (15%), Opening Ice: Elites (13%), Cause for a Celly: 2010s (7%), or Opening Ice: Icons (5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Opening Ice: Elites Debut LE (Rare)",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "image"
+      },
+      "total_number": 1500,
+      "uri": "https://nft.nhlbreakaway.com/series/vRDkMgbP"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/vRDkMgbP"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Opening Ice: Elites Debut LE (Rare)"
+    },
+    "url": "https://nhlbreakaway.com/drop/vRDkMgbP",
+    "image": "https://nft.nhlbreakaway.com/series/vRDkMgbP/image-front-16x9.png"
+   },
+   "seriesId": "vRDkMgbP",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "vRDkMgbP"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

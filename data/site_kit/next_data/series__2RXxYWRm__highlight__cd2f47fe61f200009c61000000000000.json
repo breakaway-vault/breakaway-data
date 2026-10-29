@@ -1,0 +1,442 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Mikhail Sergachev",
+     "description": "During a Utah power play, Mikhail Sergachev unleashed a snap shot from near the top of the circles that soared past the goalie and into the net just over his shoulder. Sergachev\u2019s perfectly placed snipe was part of an impressive three-point performance, as he also tallied two assists in the game.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 2",
+     "set_name": "Signature Cores",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Heroic",
+     "editions": 6,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Signature Quest V Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/13feec51-3c1c-426c-b7fd-e0f6e6f0a1d1.png"
+     },
+     "video_overlay_text": "Goal vs CGY | 2nd Period | Oct 30, 2024",
+     "team": "UTA",
+     "player_name": "Mikhail Sergachev",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "CGY",
+        "final_score": 1
+       },
+       "home": {
+        "team": "UTA",
+        "final_score": 5
+       },
+       "venue": {
+        "name": "Delta Center",
+        "team": "UTA",
+        "location": "Salt Lake City, UT"
+       },
+       "game_ends": "FINAL",
+       "final_score": "CGY 1, UTA 5 - FINAL",
+       "venue_location": "Utah Hockey Club - Delta Center (Salt Lake City, UT)"
+      },
+      "moment": {
+       "date": "2024-10-30",
+       "clock": "16:32",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CGY | 2nd Period | Oct 30, 2024"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Mikhail Sergachev",
+       "team": "UTA",
+       "jersey": 98,
+       "status": "NHLPA",
+       "position": "D",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs CGY | 2nd Period | Oct 30, 2024"
+     }
+    },
+    "_badges": {
+     "Signature Quest V Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/13feec51-3c1c-426c-b7fd-e0f6e6f0a1d1.png",
+     "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Signature Quest V Badge",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/13feec51-3c1c-426c-b7fd-e0f6e6f0a1d1.png",
+      "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Signature Quest V Badge",
+      "image": "https://nft.nhlbreakaway.com/collectible_icon/original/13feec51-3c1c-426c-b7fd-e0f6e6f0a1d1.png",
+      "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 57,
+     "name": "Utah Hockey Club",
+     "abbreviation": "UTA",
+     "short_name": "Utah",
+     "venue_city": "Salt Lake City",
+     "venue_name": "Delta Center",
+     "key": "UtahHockey",
+     "url": "https://www.nhl.com/utah",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/UtahHockey.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/2RXxYWRm/11268287742657691653",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://Qmdn1fhJu7iKe4mZQkVkdyQED4Hm3EyyiD4bbW6CtPpiS3"
+       },
+       "content-type": "image/png",
+       "sha256": "-3IumfbqChEZc_zY18AXgh8DrowoUHn8nLFmIQ1KK-8=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmcQ75M6p9tBy2CKJbvQArj2UWrFbnG8HNpH1jHoiZ1mdf"
+       },
+       "content-type": "image/png",
+       "sha256": "PFSQy984TZzk7g8m76ghIlyxJdqAsjWyBfOiqQjN_rw=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWMnPuaY9MYGuZr1AoTUuaVvDr5DMw11u8iDUN2b19q5J"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxYWRm/11268287742657691653/card-image.png",
+        "purpose": "card-image",
+        "sha256": "o7eKYJcCYoYHfTYN4SqjNNiIZ1LyxR1WeRShSso5yu8=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxYWRm/11268287742657691653/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdBw4j4VtATcctcZw28dBA5d9HWbSX53oHkAuC3MXkyUH"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxYWRm/11268287742657691653/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "UpZSbGklOdNIV8EL5qrRvCLAUn6pwv3-ouz_Y5dE_Hs=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxYWRm/11268287742657691653/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmcQ75M6p9tBy2CKJbvQArj2UWrFbnG8HNpH1jHoiZ1mdf"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxYWRm/11268287742657691653/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "PFSQy984TZzk7g8m76ghIlyxJdqAsjWyBfOiqQjN_rw=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxYWRm/11268287742657691653/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmdn1fhJu7iKe4mZQkVkdyQED4Hm3EyyiD4bbW6CtPpiS3"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxYWRm/11268287742657691653/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "-3IumfbqChEZc_zY18AXgh8DrowoUHn8nLFmIQ1KK-8=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxYWRm/11268287742657691653/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "crafted-from-editions": "1336,1445,1395,1382,1363,1284,1245,1210,1260,948,813,803,799,775,665",
+      "crafted-from-rarity": "Core",
+      "date": "2024-10-30",
+      "edition-number": "6",
+      "moment-uuid": "cd2f47fe61f200009c61000000000000",
+      "play": "Goal",
+      "player": "Mikhail Sergachev",
+      "rarity": "Heroic",
+      "series": "Series 2",
+      "series-uuid": "cd2f47fe000000000000000000000000",
+      "set": "Signature Cores",
+      "set-uuid": "cd2f47fe61f200000000000000000000",
+      "team": "Utah Hockey Club"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "During a Utah power play, Mikhail Sergachev unleashed a snap shot from near the top of the circles that soared past the goalie and into the net just over his shoulder. Sergachev\u2019s perfectly placed snipe was part of an impressive three-point performance, as he also tallied two assists in the game.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 6,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://Qmdn1fhJu7iKe4mZQkVkdyQED4Hm3EyyiD4bbW6CtPpiS3"
+      },
+      "content-type": "image/png",
+      "sha256": "-3IumfbqChEZc_zY18AXgh8DrowoUHn8nLFmIQ1KK-8=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://Qmch4mVgZtTXmVKYWwZudsnaefHsbEpPTnswuyz8BicXi1"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "j46d5D-5A63f5tNpze83IX8ZGL8eFmvyJMH2YBOnlqI=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXF3t8nPM1Zwo4s5DUd25msjQVjXTi1iTYNR32TJ4oCHg"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "tXc0Nhd2IP6NJ_OaswehqDWAGfyg2XgpSS6ECYMrjsk=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://Qmdn1fhJu7iKe4mZQkVkdyQED4Hm3EyyiD4bbW6CtPpiS3"
+       },
+       "content-type": "image/png",
+       "sha256": "-3IumfbqChEZc_zY18AXgh8DrowoUHn8nLFmIQ1KK-8=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmch4mVgZtTXmVKYWwZudsnaefHsbEpPTnswuyz8BicXi1"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "j46d5D-5A63f5tNpze83IX8ZGL8eFmvyJMH2YBOnlqI=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXF3t8nPM1Zwo4s5DUd25msjQVjXTi1iTYNR32TJ4oCHg"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "tXc0Nhd2IP6NJ_OaswehqDWAGfyg2XgpSS6ECYMrjsk=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmcQ75M6p9tBy2CKJbvQArj2UWrFbnG8HNpH1jHoiZ1mdf"
+       },
+       "content-type": "image/png",
+       "sha256": "PFSQy984TZzk7g8m76ghIlyxJdqAsjWyBfOiqQjN_rw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmax53UzGbequkX5FjkULSPZBerPtjeRdbPLJ1e25hyCM3"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "HSuZFbFpuGoiYg4byV-m1fU8_PB8GVtkO33qwU0cnic=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmW9JguYtPd5Gez4HhSJoYcLCjtLHLLAMfTiTT6y11YKXd"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "EAOc8KxSFmespDJYOX44i-K4YW_U4cnx-PaKQqFvwKI=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2RXxYWRm/9c61/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-02-18T18:08:56.119453",
+     "name": "Mikhail Sergachev #6",
+     "network": "matic",
+     "sequence_number": "11268287742657691653",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "During a Utah power play, Mikhail Sergachev unleashed a snap shot from near the top of the circles that soared past the goalie and into the net just over his shoulder. Sergachev\u2019s perfectly placed snipe was part of an impressive three-point performance, as he also tallied two assists in the game.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Signature Cores",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/2RXxYWRm",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Mikhail Sergachev #6",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "crafted-from-editions",
+       "value": "1336,1445,1395,1382,1363,1284,1245,1210,1260,948,813,803,799,775,665"
+      },
+      {
+       "key": "crafted-from-rarity",
+       "value": "Core"
+      },
+      {
+       "key": "date",
+       "value": "2024-10-30"
+      },
+      {
+       "key": "edition-number",
+       "value": "6"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "cd2f47fe61f200009c61000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Mikhail Sergachev"
+      },
+      {
+       "key": "rarity",
+       "value": "Heroic"
+      },
+      {
+       "key": "series",
+       "value": "Series 2"
+      },
+      {
+       "key": "series-uuid",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Signature Cores"
+      },
+      {
+       "key": "set-uuid",
+       "value": "cd2f47fe61f200000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Utah Hockey Club"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "cd2f47fe61f200009c61000000000000",
+     "current_offers": [],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x0f5c8DfE16E7B2Dd322f035fF1e44cb4097B6123/?a=11268287742657691653",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "2RXxYWRm",
+   "momentUuid": "cd2f47fe61f200009c61000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Mikhail Sergachev",
+     "date": "October 30, 2024"
+    },
+    "url": "https://nhlbreakaway.com/series/2RXxYWRm/highlight/cd2f47fe61f200009c61000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/2RXxYWRm/11268287742657691653/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "2RXxYWRm",
+  "moment_uuid": "cd2f47fe61f200009c61000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

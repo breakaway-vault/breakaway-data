@@ -1,0 +1,22 @@
+{
+ "pageProps": {
+  "headerMetadata": {
+   "titleKey": "str",
+   "url": "str",
+   "image": "str"
+  },
+  "activeSets": [
+   {
+    "set_uuid": "str",
+    "name": "str"
+   }
+  ],
+  "seriesData": [
+   {
+    "label": "str",
+    "value": "str"
+   }
+  ]
+ },
+ "__N_SSP": "bool"
+}

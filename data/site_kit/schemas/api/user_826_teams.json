@@ -1,0 +1,15 @@
+{
+ "teams": [
+  {
+   "id": "int",
+   "name": "str",
+   "abbreviation": "str",
+   "short_name": "str",
+   "venue_city": "str",
+   "venue_name": "str",
+   "key": "str",
+   "url": "str",
+   "logo": "str"
+  }
+ ]
+}

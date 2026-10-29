@@ -1,0 +1,595 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286321,
+    "summary": {
+     "drop_active": 1785430800,
+     "drop_expires": 1786741200,
+     "pack_price": "25.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/QqBmP5RA",
+     "number_of_highlights": 6,
+     "pack_description": "Introducing Hoist the Cup 2026, a rare set celebrating the triumphs of the 2026 Stanley Cup champions. This premium collection captures the most electrifying moments from the Carolina Hurricanes journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup. Featuring Andrei Svechnikov, Brandon Bussi, Seth Jarvis, Nikolaj Ehlers, Taylor Hall, and Jaccob Slavin! \r\nEach pack contains 1 highlight from Hoist the Cup 2026 (100%); 2 mystery highlights that could be from Base 2025-26 (45%), Playoff Bound 2026 (20%), The Hunt for Stanley 2026 (25%), or Opening Ice 2025-26 (10%); 1 mystery highlight that could be from Base 2025-26 (75%), Opening Ice 2025-26 (20%), or Making the Mark 2025-26 (5%), 1 mystery highlight that could be from Base 2025-26 (40%), Rinkside Rivalries (20%), Filthy Apples (20%), Seasoned Steel (14%), or Making the Mark 2025-26 (6%); and 1 mystery highlight that could be from Base 2025-26 (49%), The Hunt for Stanley 2026 (40%), Opening Ice Icons (7.47%), Making the Mark 2025-26 (1.5%), Conn Smythe Showcase (1.5%), The Greatest Achievements (.13%), or Ice Vault (.4%).6\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front-16x9.png",
+     "pack_rarity": "Rare",
+     "pack_title": "Hoist The Cup 2026 Debut LE Pack",
+     "series_name": "Series 3",
+     "pack_uuid": "b572cf350000000084f1000000000000",
+     "quantity": 1500,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Hoist The Cup 2026 Debut LE Pack",
+      "description": "<p><strong>Promotion:&nbsp; </strong>For every <strong>3 Hoist the Cup 2026 packs</strong> you purchase from this Drop page by Monday, August 3 at 1pm ET, you'll receive one <strong>Hoist the Cup Bonus Reward Pack </strong>at no additional cost. Reward Pack may contain a Mythic, Legendary, Epic, or Rare highlight! <a href=\"https://blog.nhlbreakaway.com/hoist-the-cup-2026-july-30-drop/\" target=\"_blank\" rel=\"noopener\">Full details in blog</a>.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Thursday July 30 at 1PM ET / 10AM PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $25 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 1500 packs total. Edition numbers are distributed randomly upon purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Twelve (12) pack limit per person for the first 6 hours; the limit increases to a fifty four (54) pack limit per person afterward. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 6</span></p>\r\n<p><span style=\"font-weight: 400;\">Pack Contents (Highlight Rarity, Edition Size):</span></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Hoist the Cup 2026 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">45% Base 2025-26 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">20% Playoff Bound 2026 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">25% The Hunt for Stanley 2026 (Limited #/500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">10% Opening Ice 2025-26 (Rare #/250)</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">75% Base 2025-26 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">20% Opening Ice 2025-26 (Rare #/250)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">5% Making the Mark 2025-26 (Epic #/100)</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">40% Base 2025-26 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">20% Rinkside Rivalries (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">20% Filthy Apples (Limited #/500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">14% Seasoned Steel (Rare #/250)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">6% Making the Mark 2025-26 (Epic #/100)&nbsp;</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">49% Base 2025-26 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">40% The Hunt for Stanley 2026 (Limited #/500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">7.47% Opening Ice Icons (Rare #/250)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">1.5% Making the Mark 2025-26 (Epic #/100)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">1.5% Conn Smythe Showcase (Epic #/100)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">0.13% The Greatest Achievements (Legendary #/10)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">0.4% Ice Vault (Mythic #/3)</li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1caLxjfkPhJUgme_XT46cLs3-7hAMgqwbQCs_7i-y1Q6gDEXVu1JbDhLEoXcKgEAUC0_umMW8kyVq/pubhtml\" target=\"_blank\" rel=\"noopener\">Highlights List</a><br /><br /></p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be processed via Stripe.&nbsp;</span></p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span><span style=\"font-weight: 400;\"><br /></span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 3 highlights will only be distributed during Series 3, which ends prior to the start of the 2026-27 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>"
+     },
+     "description": "Introducing Hoist the Cup 2026, a rare set celebrating the triumphs of the 2026 Stanley Cup champions. This premium collection captures the most electrifying moments from the Carolina Hurricanes journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup. Featuring Andrei Svechnikov, Brandon Bussi, Seth Jarvis, Nikolaj Ehlers, Taylor Hall, and Jaccob Slavin! \r\nEach pack contains 1 highlight from Hoist the Cup 2026 (100%); 2 mystery highlights that could be from Base 2025-26 (45%), Playoff Bound 2026 (20%), The Hunt for Stanley 2026 (25%), or Opening Ice 2025-26 (10%); 1 mystery highlight that could be from Base 2025-26 (75%), Opening Ice 2025-26 (20%), or Making the Mark 2025-26 (5%), 1 mystery highlight that could be from Base 2025-26 (40%), Rinkside Rivalries (20%), Filthy Apples (20%), Seasoned Steel (14%), or Making the Mark 2025-26 (6%); and 1 mystery highlight that could be from Base 2025-26 (49%), The Hunt for Stanley 2026 (40%), Opening Ice Icons (7.47%), Making the Mark 2025-26 (1.5%), Conn Smythe Showcase (1.5%), The Greatest Achievements (.13%), or Ice Vault (.4%).6\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf350000000084f1000000000000",
+     "assets": [],
+     "editions": 1500,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Hoist The Cup 2026 Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 1,
+          "limit": 1500
+         },
+         "name": "Hoist the Cup 2026",
+         "description": "<p><span style=\"font-weight: 400;\">Introducing </span><em><span style=\"font-weight: 400;\">Hoist the Cup 2026</span></em><span style=\"font-weight: 400;\">, a rare set celebrating the triumphs of the 2026 Stanley Cup champions. This premium collection captures the most electrifying moments from the Carolina Hurricanes journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35304000000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.45,
+          "limit": 675
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.25,
+          "limit": 375
+         },
+         "name": "The Hunt for Stanley 2026",
+         "description": "<p>The Hunt for Stanley 2026 features the most exhilarating highlights from the first three rounds of the [YEAR] Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35b54a00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.45,
+          "limit": 675
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.25,
+          "limit": 375
+         },
+         "name": "The Hunt for Stanley 2026",
+         "description": "<p>The Hunt for Stanley 2026 features the most exhilarating highlights from the first three rounds of the [YEAR] Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35b54a00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.75,
+          "limit": 1125
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.05,
+          "limit": 75
+         },
+         "name": "Making the Mark 2025-26",
+         "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35afe100000000000000000000",
+         "rarity": "Epic"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.4,
+          "limit": 600
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Rinkside Rivalries",
+         "description": "<p>Rinkside Rivalries is a Core set that dives into hockey at its most intense, spotlighting six of the <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span>&rsquo;s most storied rivalries across some of their most emotional moments. Each rivalry is represented by one goal per team, featuring dramatic overtime tallies, massive momentum shifters, and clutch game-winners that silenced arenas and ignited fanbases&mdash;no matter the stage.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35aad400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Filthy Apples",
+         "description": "<p><span style=\"font-weight: 400;\">Filthy Apples celebrates the slickest setup artists in the game &ndash; the visionaries who turn split-second reads into jaw-dropping goals. From no-look dishes to cross-ice lasers, this set is all about creativity, awareness, and pure playmaking audacity. Different styles, same result - defenders frozen, goalies guessing, and highlight reels getting longer.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35051200000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.14,
+          "limit": 210
+         },
+         "name": "Seasoned Steel",
+         "description": "<div id=\"message-list_1765910272.874639\" class=\"c-virtual_list__item\" tabindex=\"0\" role=\"listitem\" aria-setsize=\"-1\" data-qa=\"virtual-list-item\" data-item-key=\"1765910272.874639\">\r\n<div class=\"c-message_kit__background c-message_kit__background--hovered c-message_kit__background--labels c-message_kit__background--labels--later p-message_pane_message__message c-message_kit__message\" role=\"presentation\" data-qa=\"message_container\" data-qa-unprocessed=\"false\" data-qa-placeholder=\"false\" data-msg-ts=\"1765910272.874639\" data-msg-channel-id=\"C09HHG88H4Z\" data-qa-label=\"later\">\r\n<div class=\"c-message_kit__hover c-message_kit__hover--hovered\" role=\"document\" aria-roledescription=\"message\" data-qa-hover=\"true\">\r\n<div class=\"c-message_kit__actions c-message_kit__actions--default\">\r\n<div class=\"p-message_pane_message__message_label c-message_kit__labels c-message_kit__labels--light\">\r\n<div class=\"c-message_kit__gutter\">\r\n<div class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\">\r\n<div class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\">\r\n<div class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\">\r\n<div class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\">\r\n<div class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\">\r\n<div class=\"p-rich_text_block\" dir=\"auto\">\r\n<div class=\"p-rich_text_section\"><em data-stringify-type=\"italic\">Seasoned Steel&nbsp;</em>is a Rare set that honors the veterans who&rsquo;ve earned lasting respect from their fanbases. Some are stars still driving the play, others steady contributors with years of impact, and some the unsung staples who&rsquo;ve quietly held their teams together. Different paths, same result &mdash; players who&rsquo;ve become part of their team&rsquo;s identity.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f44300000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.06,
+          "limit": 90
+         },
+         "name": "Making the Mark 2025-26",
+         "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35afe100000000000000000000",
+         "rarity": "Epic"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.49,
+          "limit": 735
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.4,
+          "limit": 600
+         },
+         "name": "The Hunt for Stanley 2026",
+         "description": "<p>The Hunt for Stanley 2026 features the most exhilarating highlights from the first three rounds of the [YEAR] Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35b54a00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.07466666666666667,
+          "limit": 112
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Opening Ice: Icons is a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals or goalies secured their first NHL win. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35e89900000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.015333333333333332,
+          "limit": 23
+         },
+         "name": "Making the Mark 2025-26",
+         "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35afe100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.014666666666666666,
+          "limit": 22
+         },
+         "name": "Conn Smythe Showcase",
+         "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dbe100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0013333333333333333,
+          "limit": 2
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>Hockey&rsquo;s history is rich with legendary players, unforgettable plays, and cherished memories. Yet every so often, something truly extraordinary occurs&mdash;like a record-shattering milestone or a Stanley Cup&ndash;winning goal from a franchise icon. These achievements capture the hockey world and become timeless pieces of the sport&rsquo;s legacy.&nbsp;<em data-stringify-type=\"italic\">The Greatest Achievements</em>&nbsp;honors these moments as part of the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35a62c00000000000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.004,
+          "limit": 6
+         },
+         "name": "Ice Vault (Series 3)",
+         "description": "<p><em data-renderer-mark=\"true\">Ice Vault</em> is <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span> Breakaway&rsquo;s premier Mythic-tier collectible set.<br />It contains only the highest-rarity highlights, with each piece limited to fewer than 10 editions. Every highlight receives unique Mythic visual styling and custom framing reserved exclusively for this tier.<br />Once a highlight enters the Ice Vault, it is permanently retired and never released in any other set or edition.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3576c900000000000000000000",
+         "rarity": "Mythic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Hoist the Cup 2026",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZgoRw",
+        "set_uuid": "b572cf35304000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Ice Vault (Series 3)",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmKgq5",
+        "set_uuid": "b572cf3576c900000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Mythic"
+       },
+       {
+        "name": "The Hunt for Stanley 2026",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm",
+        "set_uuid": "b572cf35b54a00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Playoff Bound 2026",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/zqlMjN1N",
+        "set_uuid": "b572cf355f5100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Rinkside Rivalries",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/j1ZJjx1K",
+        "set_uuid": "b572cf35aad400000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Conn Smythe Showcase",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk",
+        "set_uuid": "b572cf35dbe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Making the Mark 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/8bML661d",
+        "set_uuid": "b572cf35afe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Filthy Apples",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/v1yjJQbP",
+        "set_uuid": "b572cf35051200000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Seasoned Steel",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/kR7GKGRE",
+        "set_uuid": "b572cf35f44300000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/AqkW0kq6",
+        "set_uuid": "b572cf35ea8000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz",
+        "set_uuid": "b572cf3537d000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/21x65ARG",
+        "set_uuid": "b572cf35e89900000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+        "set_uuid": "b572cf35a62c00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Legendary"
+       }
+      ]
+     },
+     "issued": "2026-07-28",
+     "rarity": {
+      "editions": 250,
+      "name": "Rare"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQL2YfK6WzPwESTgw5ejuGUGmxWyPxnJa3qriL8etjNtk"
+       },
+       "content-type": "image/png",
+       "sha256": "yrrWPRtqnqhw7r0liVJ-hiQrzbG7PhReYYLrb9OxKlk=",
+       "url": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmPqTRczzxbfNxsuZL6BsUKr68QhaxhPmcm6Tpnyk1tf2B"
+       },
+       "content-type": "image/png",
+       "sha256": "dnr0St4xFZGNfO7VsDvbSIyj9w9qBv--bMu1UQO0KVs=",
+       "url": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQL2YfK6WzPwESTgw5ejuGUGmxWyPxnJa3qriL8etjNtk"
+       },
+       "content-type": "image/png",
+       "sha256": "yrrWPRtqnqhw7r0liVJ-hiQrzbG7PhReYYLrb9OxKlk=",
+       "url": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front.png"
+      }
+     },
+     "issued": "2026-07-28T19:03:11.925846",
+     "name": "Hoist The Cup 2026 Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "ecDnlxL5PWu8LuyjcTxXAL5ZR_lnPMzgL5OIe7LXLcE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Introducing Hoist the Cup 2026, a rare set celebrating the triumphs of the 2026 Stanley Cup champions. This premium collection captures the most electrifying moments from the Carolina Hurricanes journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup. Featuring Andrei Svechnikov, Brandon Bussi, Seth Jarvis, Nikolaj Ehlers, Taylor Hall, and Jaccob Slavin! \r\nEach pack contains 1 highlight from Hoist the Cup 2026 (100%); 2 mystery highlights that could be from Base 2025-26 (45%), Playoff Bound 2026 (20%), The Hunt for Stanley 2026 (25%), or Opening Ice 2025-26 (10%); 1 mystery highlight that could be from Base 2025-26 (75%), Opening Ice 2025-26 (20%), or Making the Mark 2025-26 (5%), 1 mystery highlight that could be from Base 2025-26 (40%), Rinkside Rivalries (20%), Filthy Apples (20%), Seasoned Steel (14%), or Making the Mark 2025-26 (6%); and 1 mystery highlight that could be from Base 2025-26 (49%), The Hunt for Stanley 2026 (40%), Opening Ice Icons (7.47%), Making the Mark 2025-26 (1.5%), Conn Smythe Showcase (1.5%), The Greatest Achievements (.13%), or Ice Vault (.4%).6\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Hoist The Cup 2026 Debut LE Pack",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "image"
+      },
+      "total_number": 1500,
+      "uri": "https://nft.nhlbreakaway.com/series/QqBmP5RA"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/QqBmP5RA"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Hoist The Cup 2026 Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/QqBmP5RA",
+    "image": "https://nft.nhlbreakaway.com/series/QqBmP5RA/image-front-16x9.png"
+   },
+   "seriesId": "QqBmP5RA",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "QqBmP5RA"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

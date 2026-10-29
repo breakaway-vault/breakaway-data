@@ -1,0 +1,232 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286344,
+    "summary": {
+     "drop_active": 1708876800,
+     "drop_expires": 1713477600,
+     "pack_price": "7.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/Y13aD0Rg",
+     "number_of_highlights": 1,
+     "pack_description": "Collect one of three highlights celebrating signature moments from Chris Chelios' storied career with the Chicago Blackhawks!\r\n\r\nThis commemorative collection is being released as part of Chelios\u2019 jersey retirement ceremony on February 25, 2024, as the Blackhawks send his No. 7 to the rafters.\r\n\r\nEach pack contains 1 mystery highlight that could be either his first goal as a Blackhawk in 1990 (Core #/1,849), breaking the net cam on a goal in the 1995 Western Conference Quarterfinals (Limited #/500), or his game-winning OT goal against the Canucks in Game 3 of the 1995 Western Conference Semifinals (Rare #/250).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "No. 7 Chris Chelios",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae77000000008f50000000000000",
+     "quantity": 2599,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "No. 7 Chris Chelios",
+      "description": "<p><strong>Sale Starts: </strong>Sunday, February 25 at 10am CT / 11am ET / 8am PT</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $7 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 2,599</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 24 hours; limit increased to thirty (30) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 1</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">71.1% First goal as a Chicago Blackhawk in 1990 (Core #/1,849)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">19.2% Breaking the net cam on a shorthanded game-winning goal in the 1995 Western Conference Quarterfinals (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">9.6% Game-winning OT goal against the Canucks in Game 3 of the 1995 Western Conference Semifinals (Rare #/250)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hometown History: Chicago Blackhawks, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/introducing-hometown-history-chicago-blackhawks/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Collect one of three highlights celebrating signature moments from Chris Chelios' storied career with the Chicago Blackhawks!\r\n\r\nThis commemorative collection is being released as part of Chelios\u2019 jersey retirement ceremony on February 25, 2024, as the Blackhawks send his No. 7 to the rafters.\r\n\r\nEach pack contains 1 mystery highlight that could be either his first goal as a Blackhawk in 1990 (Core #/1,849), breaking the net cam on a goal in the 1995 Western Conference Quarterfinals (Limited #/500), or his game-winning OT goal against the Canucks in Game 3 of the 1995 Western Conference Semifinals (Rare #/250).",
+     "uuid": "b5c8ae77000000008f50000000000000",
+     "assets": [],
+     "editions": 2599,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "No. 7 Chris Chelios",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Hometown History: Chicago Blackhawks",
+         "probability": {
+          "max_limit": 2599,
+          "probability": 0.7114274721046556,
+          "limit": 1849
+         },
+         "name": "Chris Chelios",
+         "description": "Debut to Remember: On October 4, 1990, Chris Chelios made his Blackhawks debut in Chicago Stadium versus the New York Rangers one to remember. In the opening minute of the third period and with two assists in the game already, No. 7 took a pass from Steve Larmer at the point and fired a slap shot past John Vanbiesbrouck to extend the Blackhawks lead to 4-1. Chicago went on to win the game 4-3, with Chelios tallying three points and his first goal with the Blackhawks.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77cb96000084a4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Hometown History: Chicago Blackhawks",
+         "probability": {
+          "max_limit": 2599,
+          "probability": 0.19238168526356292,
+          "limit": 500
+         },
+         "name": "Chris Chelios",
+         "description": "1995 Western Conference Quarterfinals Netcam-Breaking Goal: On May 11, 1995, in the Western Conference Quarterfinals against Toronto at Maple Leaf Gardens, Chelios scored a shorthanded goal that broke the NHL netcam. In the third period of Game 3, with the Blackhawks up 2-1, No. 7 went blue line to blue line and fired a powerful slapshot past F\u00e9lix Potvin\u2019s glove and through the NHL\u2019s camera. Chicago would go on to win the game 3-2 and the series in seven games, advancing to the Western Conference Semifinals.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae7758b5000081a1000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Hometown History: Chicago Blackhawks",
+         "probability": {
+          "max_limit": 2599,
+          "probability": 0.09619084263178146,
+          "limit": 250
+         },
+         "name": "Chris Chelios",
+         "description": "1995 Western Conference Semifinals OT Winner #1: On May 25, 1995, Chelios closed out Game 3 of the Western Conference Semifinals versus the Vancouver Canucks at Pacific Coliseum. In the first overtime, Bernie Nicholls found Chelios entering the offensive zone where No. 7 faked a slap shot, freezing goaltender Kirk McLean and sliding in a goal that propelled the Hawks to a 3-0 series lead. Chicago would go on to sweep the series and advance to the Western Conference Final versus the rival Detroit Red Wings.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b90d0000baae000000000000",
+         "rarity": "Rare"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Hometown History: Chicago Blackhawks",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/21x6YeRG",
+        "set_uuid": "b5c8ae77b90d00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Hometown History: Chicago Blackhawks",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/GqEKQrbD",
+        "set_uuid": "b5c8ae7758b500000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Hometown History: Chicago Blackhawks",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/NbnnKxbW",
+        "set_uuid": "b5c8ae77cb9600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-02-24",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmRUW6GVyZfG8rY87QsNLtq77JQQqxtLAE65pez8Qc4QdE"
+       },
+       "content-type": "image/png",
+       "sha256": "vZFCUzxhirVMk_egqBhDlVz-ceW7-Fvl1XdhJt76EWg=",
+       "url": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmehPdtMtqvEerdpGWDLMqcrL2Cp9pv85hRjc4o4UGNGFQ"
+       },
+       "content-type": "image/png",
+       "sha256": "PqTQ7fdo5WNMIy4eXJdgHGUBHyaQ0SBNNvjVKPzbbJY=",
+       "url": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmRUW6GVyZfG8rY87QsNLtq77JQQqxtLAE65pez8Qc4QdE"
+       },
+       "content-type": "image/png",
+       "sha256": "vZFCUzxhirVMk_egqBhDlVz-ceW7-Fvl1XdhJt76EWg=",
+       "url": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front.png"
+      }
+     },
+     "issued": "2024-02-24T20:49:41.431772",
+     "name": "No. 7 Chris Chelios",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "6m4xHkE24mFVhT5zG_pqNIkmYWdOxkCYwHTtxhg1HcI=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Collect one of three highlights celebrating signature moments from Chris Chelios' storied career with the Chicago Blackhawks!\r\n\r\nThis commemorative collection is being released as part of Chelios\u2019 jersey retirement ceremony on February 25, 2024, as the Blackhawks send his No. 7 to the rafters.\r\n\r\nEach pack contains 1 mystery highlight that could be either his first goal as a Blackhawk in 1990 (Core #/1,849), breaking the net cam on a goal in the 1995 Western Conference Quarterfinals (Limited #/500), or his game-winning OT goal against the Canucks in Game 3 of the 1995 Western Conference Semifinals (Rare #/250).",
+       "is_openable": true,
+       "name": "No. 7 Chris Chelios",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 2599,
+      "uri": "https://nft.nhlbreakaway.com/series/Y13aD0Rg"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/Y13aD0Rg"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "No. 7 Chris Chelios"
+    },
+    "url": "https://nhlbreakaway.com/drop/Y13aD0Rg",
+    "image": "https://nft.nhlbreakaway.com/series/Y13aD0Rg/image-front-16x9.png"
+   },
+   "seriesId": "Y13aD0Rg",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "Y13aD0Rg"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

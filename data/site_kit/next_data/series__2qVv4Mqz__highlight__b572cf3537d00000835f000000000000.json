@@ -1,0 +1,468 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Ben Kindel",
+     "description": "Pittsburgh\u2019s 11th overall pick in the 2025 draft, Coquitlam, British Columbia native Ben Kindel, jumps up the ice off a Rangers turnover. Taking the puck wide, Kindel fires a shot short-side, beating Igor Shesterkin clean for his first career NHL goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Opening Ice 2025-26",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs NYR | 2nd Period | Oct 11, 2025",
+     "team": "PIT",
+     "player_name": "Ben Kindel",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "NYR",
+        "final_score": 6
+       },
+       "home": {
+        "team": "PIT",
+        "final_score": 1
+       },
+       "venue": {
+        "name": "PPG Paints Arena",
+        "team": "PIT",
+        "location": "Pittsburgh, PA"
+       },
+       "game_ends": "FINAL",
+       "final_score": "NYR 6, PIT 1 - FINAL",
+       "venue_location": "Pittsburgh Penguins - PPG Paints Arena (Pittsburgh, PA)"
+      },
+      "moment": {
+       "date": "2025-10-11",
+       "clock": "3:04",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1,
+        "first_career_goal_or_win": "First NHL Goal (Skater)"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs NYR | 2nd Period | Oct 11, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Ben Kindel",
+       "team": "PIT",
+       "jersey": 81,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Goal vs NYR | 2nd Period | Oct 11, 2025"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 5,
+     "name": "Pittsburgh Penguins",
+     "abbreviation": "PIT",
+     "short_name": "Pittsburgh",
+     "venue_city": "Pittsburgh",
+     "venue_name": "PPG Paints Arena",
+     "key": "PittsburghPenguins",
+     "url": "https://www.nhl.com/penguins",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/PittsburghPenguins.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/9466284941756072181",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbeEsK3EdwsK6UbNMfpE6T2QLamPzSxG34YpNiPcAsN9v"
+       },
+       "content-type": "image/png",
+       "sha256": "kEk7HxMe_aQcxtElgodTpnLMbBEbz3JbzDVu4fOAkKc=",
+       "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmQRnghQrFP8gaNtXDqb23LfczfGSss5CrKniJbnBVBAXf"
+       },
+       "content-type": "image/png",
+       "sha256": "d9KHhDRQcw53WMc6_r-3Y9f1hDkLSBPOdSqNF8wvtzE=",
+       "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmb5fyzkEHGUKkUkwNpm633NQm6qt4j6NuNLRcqaC1eaE5"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2qVv4Mqz/9466284941756072181/card-image.png",
+        "purpose": "card-image",
+        "sha256": "M8HwZgPNXZMC6IqjoEsRJ6ym39jQAwNPOTE63N0NGlc=",
+        "uri": "https://mediagateway.sweet.io/media/token/2qVv4Mqz/9466284941756072181/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmfF2xnkG8z5Ny4xhAWkrRRTcg3uMeyXLqy2Fg7AjYpVjX"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2qVv4Mqz/9466284941756072181/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "W08pZ-GV0GBsSkElDHNLHcI-QFRhiImhvJXLJvG16Xw=",
+        "uri": "https://mediagateway.sweet.io/media/token/2qVv4Mqz/9466284941756072181/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQRnghQrFP8gaNtXDqb23LfczfGSss5CrKniJbnBVBAXf"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2qVv4Mqz/9466284941756072181/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "d9KHhDRQcw53WMc6_r-3Y9f1hDkLSBPOdSqNF8wvtzE=",
+        "uri": "https://mediagateway.sweet.io/media/token/2qVv4Mqz/9466284941756072181/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbeEsK3EdwsK6UbNMfpE6T2QLamPzSxG34YpNiPcAsN9v"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2qVv4Mqz/9466284941756072181/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "kEk7HxMe_aQcxtElgodTpnLMbBEbz3JbzDVu4fOAkKc=",
+        "uri": "https://mediagateway.sweet.io/media/token/2qVv4Mqz/9466284941756072181/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2025-10-11",
+      "edition-number": "246",
+      "moment-uuid": "b572cf3537d00000835f000000000000",
+      "play": "Goal",
+      "player": "Ben Kindel",
+      "rarity": "Rare",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Opening Ice 2025-26",
+      "set-uuid": "b572cf3537d000000000000000000000",
+      "team": "Pittsburgh Penguins",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Pittsburgh\u2019s 11th overall pick in the 2025 draft, Coquitlam, British Columbia native Ben Kindel, jumps up the ice off a Rangers turnover. Taking the puck wide, Kindel fires a shot short-side, beating Igor Shesterkin clean for his first career NHL goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 246,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmbeEsK3EdwsK6UbNMfpE6T2QLamPzSxG34YpNiPcAsN9v"
+      },
+      "content-type": "image/png",
+      "sha256": "kEk7HxMe_aQcxtElgodTpnLMbBEbz3JbzDVu4fOAkKc=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmPrhn2LEsu2fZVtMoLiPBwi7LE6UJWySBKFZ5nB8d24kN"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "lurpw5VKL2r3h1ntjo1xxixBt_byxcSfbHpsYvqqKUk=",
+        "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmdpSZKstBmURJKWEQkYVhoiRFGBiLGQrpcWKvtyUUMki4"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "rKSZNvcRGLo8kHhCvJA8qLNhScS8z1ZUljTHAco0skA=",
+        "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbeEsK3EdwsK6UbNMfpE6T2QLamPzSxG34YpNiPcAsN9v"
+       },
+       "content-type": "image/png",
+       "sha256": "kEk7HxMe_aQcxtElgodTpnLMbBEbz3JbzDVu4fOAkKc=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPrhn2LEsu2fZVtMoLiPBwi7LE6UJWySBKFZ5nB8d24kN"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "lurpw5VKL2r3h1ntjo1xxixBt_byxcSfbHpsYvqqKUk=",
+         "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmdpSZKstBmURJKWEQkYVhoiRFGBiLGQrpcWKvtyUUMki4"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "rKSZNvcRGLo8kHhCvJA8qLNhScS8z1ZUljTHAco0skA=",
+         "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmQRnghQrFP8gaNtXDqb23LfczfGSss5CrKniJbnBVBAXf"
+       },
+       "content-type": "image/png",
+       "sha256": "d9KHhDRQcw53WMc6_r-3Y9f1hDkLSBPOdSqNF8wvtzE=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmQAEtEjwotasbqsyhA8qioUFV2nhGccokTcTxD1vGetAu"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "-DoNYsll1s50rVIUnyVdy5v6Cls7FNcvtwZwy7QOt_4=",
+         "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmNbLyfE9aN4vRi1Fr7AFDMhscKNoXayRYYNTGcbYwKzqT"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "WJxmyGyz0I6ZrCMHTa14pzrj-EQ79C5dx8ZRB0Jj1Mo=",
+         "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2qVv4Mqz/835f/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-11-06T18:49:53.149254",
+     "name": "Ben Kindel #246",
+     "network": "matic",
+     "sequence_number": "9466284941756072181",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Pittsburgh\u2019s 11th overall pick in the 2025 draft, Coquitlam, British Columbia native Ben Kindel, jumps up the ice off a Rangers turnover. Taking the puck wide, Kindel fires a shot short-side, beating Igor Shesterkin clean for his first career NHL goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Opening Ice 2025-26",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Ben Kindel #246",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2025-10-11"
+      },
+      {
+       "key": "edition-number",
+       "value": "246"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf3537d00000835f000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Ben Kindel"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Opening Ice 2025-26"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf3537d000000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Pittsburgh Penguins"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf3537d00000835f000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/3BrE6XKq",
+       "listing_id": "3BrE6XKq",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 4,
+       "starts_at": "2026-09-14T20:56:33",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x006c6Cdd4f3959a1c6314335B98bb750924550eD/?a=9466284941756072181",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "2qVv4Mqz",
+   "momentUuid": "b572cf3537d00000835f000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Ben Kindel",
+     "date": "October 11, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/2qVv4Mqz/highlight/b572cf3537d00000835f000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/2qVv4Mqz/9466284941756072181/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "2qVv4Mqz",
+  "moment_uuid": "b572cf3537d00000835f000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

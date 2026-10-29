@@ -1,0 +1,14 @@
+{
+ "endpoint": "/distribution/series/stats/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2FGqEK4QbD/cd2f47fe89f20000a662000000000000",
+ "http": 200,
+ "response": {
+  "edition_size": 10,
+  "collected": 10,
+  "listed": 3,
+  "others": 0,
+  "in_packs": 0,
+  "used_for_crafting": 0,
+  "frozen": 0,
+  "removed_from_circulation": 0
+ }
+}

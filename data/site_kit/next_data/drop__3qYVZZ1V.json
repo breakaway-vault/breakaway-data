@@ -1,0 +1,320 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286276,
+    "summary": {
+     "drop_active": 1695260700,
+     "drop_expires": 1695591257,
+     "pack_price": "15.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/3qYVZZ1V",
+     "number_of_highlights": 5,
+     "pack_description": "Get ready to experience the excitement and anticipation of the upcoming NHL season like never before with our Preseason Starter Pack! Whether you're a die-hard hockey fan, an avid collector, or just looking for a thrilling way to connect with your favorite teams and players, this pack is a great way to kick off your collection or move you closer to completing your first sets. \r\n\r\nFeaturing every set released so far in Series 1 and many of the top stars of the game with awe-inspiring plays, career milestones, and Stanley Cup chasing highlights from Connor McDavid, Linus Ullmark, Dylan Larkin, Mark Stone, Matty Beniers, Jack Hughes and more! \r\n\r\nEach pack contains 3 Base highlights, plus 2 mystery highlights that could be from Making the Mark, The Hunt for Stanley 2023, Opening Ice, or Base sets.",
+     "pack_image": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front.jpg",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front-16x9.jpg",
+     "pack_rarity": "Core",
+     "pack_title": "Preseason Starter Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae7700000000b846000000000000",
+     "quantity": 5000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Preseason Starter Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday, Sep 22 at 11AM ET / 8AM PT</span></p>\r\n<p><strong>Eligibility</strong><span style=\"font-weight: 400;\">: Beta users only. Not a beta user? </span><a href=\"https://account.sweet.io/external/login?return=https%3A%2F%2Fnhlbreakaway.sweet.io%2F\"><span style=\"font-weight: 400;\">Click here</span></a><span style=\"font-weight: 400;\"> to create your account.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $15 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 5000 packs total.&nbsp;</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Six (6) pack limit per person. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Three (3) Base highlights (Core #/1500) from the 2022-23 Base set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">70% Base highlight (Core) from the 2022-23 Base set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">30% The Hunt for Stanley 2023 highlight (Limited)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">80% Base highlight (Core) from the 2022-23 Base set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">16% Opening Ice highlight (Rare)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">4% Making the Mark highlight (Epic) &ndash; includes new career and season-defining highlights from </span><strong>Claude Giroux, Phil Kessel</strong><span style=\"font-weight: 400;\">, and </span><strong>Joe Pavelski</strong></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Purchases via cryptocurrency and ACH transfers into your NHL Breakaway account are coming later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights will be eligible to be sold to other collectors on the NHL Breakaway fan marketplace later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights will be eligible to be traded with or gifted to other NHL Breakaway users later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRr4ptaoy6coOd3S0nO1UUZTCXlN6DUnj__w39OHDqv8pQdCV9EcSHPyN-froJHVfFibx_aRwJuQIcw/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Hunt for Stanley 2023, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-previews-the-hunt-for-stanley-2023-base-expansion/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-preview-opening-ice/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-previews-the-hunt-for-stanley-2023-base-expansion/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\"> (Expansion) | </span><a href=\"https://blog.nhlbreakaway.com/base-set-preview-rarity-tiers/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\"> (Original)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Get ready to experience the excitement and anticipation of the upcoming NHL season like never before with our Preseason Starter Pack! Whether you're a die-hard hockey fan, an avid collector, or just looking for a thrilling way to connect with your favorite teams and players, this pack is a great way to kick off your collection or move you closer to completing your first sets. \r\n\r\nFeaturing every set released so far in Series 1 and many of the top stars of the game with awe-inspiring plays, career milestones, and Stanley Cup chasing highlights from Connor McDavid, Linus Ullmark, Dylan Larkin, Mark Stone, Matty Beniers, Jack Hughes and more! \r\n\r\nEach pack contains 3 Base highlights, plus 2 mystery highlights that could be from Making the Mark, The Hunt for Stanley 2023, Opening Ice, or Base sets.",
+     "uuid": "b5c8ae7700000000b846000000000000",
+     "assets": [
+      {
+       "purpose": "card-image",
+       "mime": "image/jpeg",
+       "url": "https://nft.nhlbreakaway.com/nhl_pack_image/original/740dadaa-44f3-4b3f-90a4-0a4e958a51de.jpg"
+      }
+     ],
+     "editions": 5000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000",
+      "rarity": null
+     },
+     "asset_type": "pack-release",
+     "name": "Preseason Starter Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.7,
+          "limit": 3500
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.3,
+          "limit": 1500
+         },
+         "name": "The Hunt for Stanley 2023",
+         "description": "<p>The Stanley Cup Playoffs are the most grueling and intense postseason in all of sports, and they are a true test of a team's skill, endurance, and mental toughness. The excitement of the playoffs is palpable, with every game feeling like a do-or-die battle for survival. The physicality of the games is ramped up, and every player knows that they have to bring their A-game if they want to advance to the next round. The grind of the playoffs is intense, with teams playing every other night for weeks on end. Injuries can pile up, and exhaustion can set in, but the desire to win the ultimate prize keeps players pushing themselves to their limits. It's a thrilling and exhausting experience that only the best teams are able to survive and emerge victorious.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77c33c00000000000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.8,
+          "limit": 4000
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.16,
+          "limit": 800
+         },
+         "name": "Opening Ice",
+         "description": "<p>Get ready to witness the NHL&rsquo;s rising stars like never before with Opening Ice. This set features 20 heart-pounding highlights from players who have notched their first career goal in the 2021-22 and 2022-23 seasons.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77e61100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.04,
+          "limit": 200
+         },
+         "name": "Making the Mark",
+         "description": "<p>Making the Mark set celebrates record-setting and career accomplishments of the recent season &ndash; moments that have the opportunity to transcend the game and become landmarks in the annals of NHL history.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae772c2f00000000000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "The Hunt for Stanley 2023",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m",
+        "set_uuid": "b5c8ae77c33c00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Making the Mark",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M8R5DJbD",
+        "set_uuid": "b5c8ae772c2f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/WvRDo2bP",
+        "set_uuid": "b5c8ae77e61100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+        "set_uuid": "b5c8ae77b8f100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2023-09-21",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmRm1KGYgQrmzdi8NTbv8BAsji1U3zGMcTmgf3pi6ZUyML"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "j-XAzegZdkXySTyIRwOgHuwJnuqmiVNiFjCQzDWKe_4=",
+       "url": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front.jpg"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmXXENXDF9bRRdfwDCN75kBNN5awH9QSfAHzNRMeBUNh1f"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "p_ssmy-NcoLoU7QUZJaOiUY7ssW0JxFikculyUKsb3A=",
+       "url": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front-16x9.jpg"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmRm1KGYgQrmzdi8NTbv8BAsji1U3zGMcTmgf3pi6ZUyML"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "j-XAzegZdkXySTyIRwOgHuwJnuqmiVNiFjCQzDWKe_4=",
+       "url": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front.jpg"
+      }
+     },
+     "issued": "2023-09-21T16:01:22.350385",
+     "name": "Preseason Starter Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "1uz-wuisUkv1S3rqNiXrz2AaBy_ieqlkbrnriBBLF9I=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Get ready to experience the excitement and anticipation of the upcoming NHL season like never before with our Preseason Starter Pack! Whether you're a die-hard hockey fan, an avid collector, or just looking for a thrilling way to connect with your favorite teams and players, this pack is a great way to kick off your collection or move you closer to completing your first sets. \r\n\r\nFeaturing every set released so far in Series 1 and many of the top stars of the game with awe-inspiring plays, career milestones, and Stanley Cup chasing highlights from Connor McDavid, Linus Ullmark, Dylan Larkin, Mark Stone, Matty Beniers, Jack Hughes and more! \r\n\r\nEach pack contains 3 Base highlights, plus 2 mystery highlights that could be from Making the Mark, The Hunt for Stanley 2023, Opening Ice, or Base sets.",
+       "is_openable": true,
+       "name": "Preseason Starter Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 5000,
+      "uri": "https://nft.nhlbreakaway.com/series/3qYVZZ1V"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/3qYVZZ1V"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Preseason Starter Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/3qYVZZ1V",
+    "image": "https://nft.nhlbreakaway.com/series/3qYVZZ1V/image-front-16x9.jpg"
+   },
+   "seriesId": "3qYVZZ1V",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "3qYVZZ1V"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

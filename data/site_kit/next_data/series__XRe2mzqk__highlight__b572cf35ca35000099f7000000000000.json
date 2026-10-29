@@ -1,0 +1,455 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Carter Verhaeghe",
+     "description": "Carter Verhaeghe delivered in the most dramatic way possible \u2014 Game 7 overtime in Boston. With Florida\u2019s season on the line, Verhaeghe stepped up yet again as a big-moment finisher. Early in OT, he found a soft spot high in the zone, took the puck, and ripped a perfect shot through traffic finding the back of the net, silencing TD Garden and stunning the Presidents\u2019 Trophy winners.  \r\nKnown for scoring huge goals, he added another signature moment to his growing reputation as one of hockey\u2019s most dangerous playoff performers. That OT capped Florida\u2019s comeback from a 3\u20131 series deficit, but also launched the Panthers on their run to the Stanley Cup Final \u2014 powered, once again, by Verhaeghe\u2019s knack for rising when it matters most.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Rally Time",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Heroic",
+     "editions": 38,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs BOS | Overtime | Apr 30, 2023",
+     "team": "FLA",
+     "player_name": "Carter Verhaeghe",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 4
+       },
+       "home": {
+        "team": "BOS",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "TD Garden",
+        "team": "BOS",
+        "location": "Boston, MA"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "FLA 4, BOS 3 - FINAL (OT)",
+       "venue_location": "Boston Bruins - TD Garden (Boston, MA)"
+      },
+      "moment": {
+       "date": "2023-04-30",
+       "clock": "8:35",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "Overtime",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs BOS | Overtime | Apr 30, 2023"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Carter Verhaeghe",
+       "team": "FLA",
+       "jersey": 23,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs BOS | Overtime | Apr 30, 2023"
+     }
+    },
+    "_badges": {
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+     "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Curator Badge",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 13,
+     "name": "Florida Panthers",
+     "abbreviation": "FLA",
+     "short_name": "Florida",
+     "venue_city": "Sunrise",
+     "venue_name": "FLA Live Arena",
+     "key": "FloridaPanthers",
+     "url": "https://www.nhl.com/panthers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/FloridaPanthers.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/XRe2mzqk/11094336207050506260",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmZgBSa35PKP7stq1dyanheLVxBxMe4YmvaaVdvrPoT7bA"
+       },
+       "content-type": "image/png",
+       "sha256": "DgnTmnwh4O4_LDTcM-uBQmYQJsE0o7wgOVAsIpEfmEE=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmX5hsqkFbW1vXFNir2biBWDCDnRBVqwzGdnmHwEkzcZ36"
+       },
+       "content-type": "image/png",
+       "sha256": "BL_8fCenkGUQ463DZFfBXsCp5xrOxWR0P7heUYaMvm0=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVoEDrBX7DeY3Kgm4s7wDA5JTFQ6c66xtciwfHMHYGNCe"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2mzqk/11094336207050506260/card-image.png",
+        "purpose": "card-image",
+        "sha256": "3U8t5aVe4XONVuLmarzTK4qMi0O4wHEHw_RvtOqo93E=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2mzqk/11094336207050506260/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUgppfy7CCooGmydDAg3G5Kgq4kFMtcSQLwYmHudkGpp1"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2mzqk/11094336207050506260/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "lQW_K3AuEgSf89NPtbH73Z-c37u7s3l23V-JHt7C41w=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2mzqk/11094336207050506260/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmX5hsqkFbW1vXFNir2biBWDCDnRBVqwzGdnmHwEkzcZ36"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2mzqk/11094336207050506260/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "BL_8fCenkGUQ463DZFfBXsCp5xrOxWR0P7heUYaMvm0=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2mzqk/11094336207050506260/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZgBSa35PKP7stq1dyanheLVxBxMe4YmvaaVdvrPoT7bA"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2mzqk/11094336207050506260/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "DgnTmnwh4O4_LDTcM-uBQmYQJsE0o7wgOVAsIpEfmEE=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2mzqk/11094336207050506260/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2023-04-30",
+      "edition-number": "21",
+      "moment-uuid": "b572cf35ca35000099f7000000000000",
+      "play": "Goal",
+      "player": "Carter Verhaeghe",
+      "rarity": "Heroic",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Rally Time",
+      "set-uuid": "b572cf35ca3500000000000000000000",
+      "team": "Florida Panthers",
+      "total-editions": "38"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Carter Verhaeghe delivered in the most dramatic way possible \u2014 Game 7 overtime in Boston. With Florida\u2019s season on the line, Verhaeghe stepped up yet again as a big-moment finisher. Early in OT, he found a soft spot high in the zone, took the puck, and ripped a perfect shot through traffic finding the back of the net, silencing TD Garden and stunning the Presidents\u2019 Trophy winners.  \r\nKnown for scoring huge goals, he added another signature moment to his growing reputation as one of hockey\u2019s most dangerous playoff performers. That OT capped Florida\u2019s comeback from a 3\u20131 series deficit, but also launched the Panthers on their run to the Stanley Cup Final \u2014 powered, once again, by Verhaeghe\u2019s knack for rising when it matters most.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 21,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmZgBSa35PKP7stq1dyanheLVxBxMe4YmvaaVdvrPoT7bA"
+      },
+      "content-type": "image/png",
+      "sha256": "DgnTmnwh4O4_LDTcM-uBQmYQJsE0o7wgOVAsIpEfmEE=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmPU97uUKpxsbkHU8wFDaYxvsuXxwQLibjx4TKyeD8k2Am"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "W-SaVUiaxy2ZFYf0nnwqTu7zSnvSBkWK3RrPcG1Cs-k=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmWMT8anZC1Qf3RhchuhNZBsmFeYQwDZVfbZFPkWbXSURP"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "kbEN5QsEYL8k-i3jMq1vtXq1izJe40IrvT0xSbGNaGA=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmZgBSa35PKP7stq1dyanheLVxBxMe4YmvaaVdvrPoT7bA"
+       },
+       "content-type": "image/png",
+       "sha256": "DgnTmnwh4O4_LDTcM-uBQmYQJsE0o7wgOVAsIpEfmEE=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPU97uUKpxsbkHU8wFDaYxvsuXxwQLibjx4TKyeD8k2Am"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "W-SaVUiaxy2ZFYf0nnwqTu7zSnvSBkWK3RrPcG1Cs-k=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmWMT8anZC1Qf3RhchuhNZBsmFeYQwDZVfbZFPkWbXSURP"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "kbEN5QsEYL8k-i3jMq1vtXq1izJe40IrvT0xSbGNaGA=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmX5hsqkFbW1vXFNir2biBWDCDnRBVqwzGdnmHwEkzcZ36"
+       },
+       "content-type": "image/png",
+       "sha256": "BL_8fCenkGUQ463DZFfBXsCp5xrOxWR0P7heUYaMvm0=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmeP9vwpymdi3GM23CQa7CpU5aEhKod1sr8Gtnx2A7bKuB"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "sIoxlqbeXXA7IHG7su5ejuOp2wch7m9qovQK00aTMOM=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qma4txPB6DbLPwN43fe4ZecoL9MjbxDxrSWAgfSmRFNGoH"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "7GR_PV9IsXZ-qf1pTqDKJX_NcJxdWPweIVKKjm6JdDE=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe2mzqk/99f7/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-01-08T02:45:44.451971",
+     "name": "Carter Verhaeghe #21",
+     "network": "matic",
+     "sequence_number": "11094336207050506260",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Carter Verhaeghe delivered in the most dramatic way possible \u2014 Game 7 overtime in Boston. With Florida\u2019s season on the line, Verhaeghe stepped up yet again as a big-moment finisher. Early in OT, he found a soft spot high in the zone, took the puck, and ripped a perfect shot through traffic finding the back of the net, silencing TD Garden and stunning the Presidents\u2019 Trophy winners.  \r\nKnown for scoring huge goals, he added another signature moment to his growing reputation as one of hockey\u2019s most dangerous playoff performers. That OT capped Florida\u2019s comeback from a 3\u20131 series deficit, but also launched the Panthers on their run to the Stanley Cup Final \u2014 powered, once again, by Verhaeghe\u2019s knack for rising when it matters most.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Rally Time",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/XRe2mzqk",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Carter Verhaeghe #21",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2023-04-30"
+      },
+      {
+       "key": "edition-number",
+       "value": "21"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf35ca35000099f7000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Carter Verhaeghe"
+      },
+      {
+       "key": "rarity",
+       "value": "Heroic"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Rally Time"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf35ca3500000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Florida Panthers"
+      },
+      {
+       "key": "total-editions",
+       "value": "38"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf35ca35000099f7000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/PqN03dwj",
+       "listing_id": "PqN03dwj",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 44,
+       "starts_at": "2026-10-12T18:06:37",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x83EF674Db0d3b3B3c391B318962D571d93f167A0/?a=11094336207050506260",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "XRe2mzqk",
+   "momentUuid": "b572cf35ca35000099f7000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Carter Verhaeghe",
+     "date": "April 30, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/XRe2mzqk/highlight/b572cf35ca35000099f7000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/XRe2mzqk/11094336207050506260/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "XRe2mzqk",
+  "moment_uuid": "b572cf35ca35000099f7000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

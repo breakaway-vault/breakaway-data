@@ -1,0 +1,630 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmTsYFtDra2R3wpMJEmso7QmP2g2JvYnAqQYBc5SWof3K2"
+       },
+       "content-type": "image/png",
+       "sha256": "fxCm6uuQXIW1kxG0vdxUReu7xAHPanTFdC_QMJkgW9M=",
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmbCUhKK4oHEmNj64KG6iccm2ARpx8Tz8DjupzmBm5KUhs"
+       },
+       "content-type": "image/png",
+       "sha256": "SUK6MxmM1Vw7QyIBPMbKUuE-Uj7B9d4tebucr1x-ELs=",
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmSTTSmMTHk958mt5dJkXn87LfHLQYtw3oEWXna4qmsP8h"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1orAzqQ/10738833311464947712/card-image.png",
+        "purpose": "card-image",
+        "sha256": "kCuZhri0jsDhUB7Zl5B0N91olfQRP6qV6X_Hn3rxnmM=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1orAzqQ/10738833311464947712/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmSretx2v9JQ17jiGQtnQJ2WJ55iBdo7a3ig2iduFowiu3"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1orAzqQ/10738833311464947712/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "Y2WQ1ixl8353vXnpz5eSQAa-cXB1zsSUO488NM6cnoQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1orAzqQ/10738833311464947712/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbCUhKK4oHEmNj64KG6iccm2ARpx8Tz8DjupzmBm5KUhs"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1orAzqQ/10738833311464947712/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "SUK6MxmM1Vw7QyIBPMbKUuE-Uj7B9d4tebucr1x-ELs=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1orAzqQ/10738833311464947712/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmTsYFtDra2R3wpMJEmso7QmP2g2JvYnAqQYBc5SWof3K2"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/V1orAzqQ/10738833311464947712/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "fxCm6uuQXIW1kxG0vdxUReu7xAHPanTFdC_QMJkgW9M=",
+        "uri": "https://mediagateway.sweet.io/media/token/V1orAzqQ/10738833311464947712/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Crafted from Editions",
+       "value": "95,68,7"
+      },
+      {
+       "name": "Crafted from Rarity",
+       "value": "Epic"
+      },
+      {
+       "name": "Date",
+       "value": "2002-04-25"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b572cf350e0c00009508000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Sergei Fedorov"
+      },
+      {
+       "name": "Rarity",
+       "value": "Heroic"
+      },
+      {
+       "name": "Series",
+       "value": "Series 3"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Signature Epics"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b572cf350e0c00000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Detroit Red Wings"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmTsYFtDra2R3wpMJEmso7QmP2g2JvYnAqQYBc5SWof3K2"
+      },
+      "content-type": "image/png",
+      "sha256": "fxCm6uuQXIW1kxG0vdxUReu7xAHPanTFdC_QMJkgW9M=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmVGXjyXAN9wyETbbQraDZ1qHCTzdvvmQSR1fDNUFDyuf8"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "kdjh9ye5OVBRb0MVOeIuNS2eCBBTWinUi4tN9_yeNN8=",
+        "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmYxY3YpDMB8eJCj1cVg8WFiBLZYABmGQJ48nhzQpJ6nu1"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "Ev5ZX62ZkKamVQYUiLtDVooA-B2sdOhEfGTFXLimFXc=",
+        "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmTsYFtDra2R3wpMJEmso7QmP2g2JvYnAqQYBc5SWof3K2"
+       },
+       "content-type": "image/png",
+       "sha256": "fxCm6uuQXIW1kxG0vdxUReu7xAHPanTFdC_QMJkgW9M=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmVGXjyXAN9wyETbbQraDZ1qHCTzdvvmQSR1fDNUFDyuf8"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "kdjh9ye5OVBRb0MVOeIuNS2eCBBTWinUi4tN9_yeNN8=",
+         "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmYxY3YpDMB8eJCj1cVg8WFiBLZYABmGQJ48nhzQpJ6nu1"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "Ev5ZX62ZkKamVQYUiLtDVooA-B2sdOhEfGTFXLimFXc=",
+         "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmbCUhKK4oHEmNj64KG6iccm2ARpx8Tz8DjupzmBm5KUhs"
+       },
+       "content-type": "image/png",
+       "sha256": "SUK6MxmM1Vw7QyIBPMbKUuE-Uj7B9d4tebucr1x-ELs=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmcemqSjvYxa8wYK4TMpBcUKxF1pTyYAqbkYr5kQXzg3Pa"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "-n410Bb6GOOMNl5l1bvMr9-HalhHBFrU1t_PFzXKmsk=",
+         "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmVypgpVQYA6dRaNrGxpExbZPZXdhS5n1rdfyycrTCjD7G"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "ofwe6wKgiUJHsCPYGkLc99XFQMx88S-AzmzrB0UfPLM=",
+         "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-12-18T00:23:25.195305",
+     "name": "Sergei Fedorov #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "pCGvObUvFFZzZJUsYkh63BafHDmZAFXbJPqXV5ZdCRM=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 10738833311464948000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Signature Epics",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ/10738833311464947712",
+     "pack_uuid": null,
+     "set_id": 110,
+     "set_uuid": "b572cf350e0c00000000000000000000",
+     "moment_id": 38152
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xF3a145f2f51525Dfa207731c8d8905F8A88dbC73/?a=10738833311464947712",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 17,
+     "name": "Detroit Red Wings",
+     "abbreviation": "DET",
+     "short_name": "Detroit",
+     "venue_city": "Detroit",
+     "venue_name": "Little Caesars Arena",
+     "key": "DetroitRedWings",
+     "url": "https://www.nhl.com/redwings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/DetroitRedWings.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Signature Epics",
+      "description": "<p>The Signature Epics set contains all of the Heroic Signature Highlights crafted from Series 3 Epic sets by collectors during Signature Quests.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/87de33da-626b-42b9-9741-38a475cd5fb5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ",
+      "uuid": "b572cf350e0c00000000000000000000",
+      "rarity": {
+       "name": "Heroic",
+       "editions": 1
+      }
+     },
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf350e0c00009508000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Curator Badge",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+       "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+      },
+      {
+       "name": "Signature Quest IX Badge",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/1195a11f-5d58-4bc0-be36-4a0214eb2080.png",
+       "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+      }
+     ],
+     "token_series": {
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/87de33da-626b-42b9-9741-38a475cd5fb5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "moment_id": 38152,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/V1orAzqQ/moment/10738833311464947712/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/V1orAzqQ/moment/10738833311464947712/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/V1orAzqQ/moment/10738833311464947712/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/V1orAzqQ/moment/10738833311464947712/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/V1orAzqQ/moment/10738833311464947712/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/V1orAzqQ/moment/10738833311464947712/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/V1orAzqQ/moment/10738833311464947712/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/V1orAzqQ/moment/10738833311464947712/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/9508/images/front.png"
+      }
+     },
+     "editions": 1,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "cX30RooTM1aLTJRQ2ddqVL5oybxEf1y8I8JZGsa8nD0=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmZUctoSzn4zFAad5MoUaaHtfL3PPqnCdCA7gpDd8AQnED"
+        },
+        "content-type": "image/png",
+        "sha256": "AuQ5UjTXKg5TCLlWD0zhX6B0RsPWuuGcYD_o5JcqDRo=",
+        "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmZUctoSzn4zFAad5MoUaaHtfL3PPqnCdCA7gpDd8AQnED"
+        },
+        "content-type": "image/png",
+        "sha256": "AuQ5UjTXKg5TCLlWD0zhX6B0RsPWuuGcYD_o5JcqDRo=",
+        "url": "https://nft.nhlbreakaway.com/series/V1orAzqQ/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Signature Epics",
+        "description": "<p>The Signature Epics set contains all of the Heroic Signature Highlights crafted from Series 3 Epic sets by collectors during Signature Quests.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 5",
+         "rank": 5
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ"
+      },
+      "name": "Signature Epics",
+      "issued": "2026-07-22T18:01:26.356524",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/V1orAzqQ",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Sergei Fedorov",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)",
+       "final_score": "VAN 0, DET 4 - FINAL",
+       "venue": {
+        "name": "Joe Louis Arena",
+        "location": "Detroit, MI",
+        "team": "DET"
+       },
+       "away": {
+        "final_score": 0,
+        "team": "VAN"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "DET"
+       }
+      },
+      "collectible_tagline": "Goal vs VAN | 1st Period | Apr 25, 2002",
+      "primary_player": {
+       "name": "Sergei Fedorov",
+       "is_rookie": false,
+       "position": "C",
+       "team": "DET",
+       "jersey": 91,
+       "status": "NHLAA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2002-04-25",
+       "period": "1st Period",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002",
+       "clock": "18:31",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-12-18",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Heroic",
+      "sorting_position": 70,
+      "editions": 1
+     }
+    },
+    "_metadata": {
+     "name": "Sergei Fedorov",
+     "description": "A smooth-skating forward who made gliding across the ice look effortless, Sergei Fedorov was a key piece of the Detroit Red Wings\u2019 success throughout his time there. A two-time Selke Trophy winner, Fedorov was as reliable defensively as he was dangerous with the puck, impacting the game at both ends of the rink. Entering the 2002 Stanley Cup Playoffs with two championships already on his resume, Fedorov once again rose to the occasion when his team needed him most.  \r\nLocked in a tough first-round battle with the Vancouver Canucks, Fedorov delivered a highlight-reel moment in Game 5. Late in the first period, he exploded up the ice, beating his check to get to Brett Hull\u2019s pass in front of the net. In full stride, Fedorov reached out and, with one hand on his stick, backhanded the puck past the goaltender for a sensational goal that showcased his elite skill and poise. Fedorov finished the postseason with 19 points, tied for third-most among all players, as the Red Wings went on to capture their third Stanley Cup in six seasons.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 1,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "Signature Quest IX Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/1195a11f-5d58-4bc0-be36-4a0214eb2080.png"
+     },
+     "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002",
+     "team": "DET",
+     "player_name": "Sergei Fedorov",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "VAN",
+        "final_score": 0
+       },
+       "home": {
+        "team": "DET",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Joe Louis Arena",
+        "team": "DET",
+        "location": "Detroit, MI"
+       },
+       "game_ends": "FINAL",
+       "final_score": "VAN 0, DET 4 - FINAL",
+       "venue_location": "Detroit Red Wings - Joe Louis Arena (Detroit, MI)"
+      },
+      "moment": {
+       "date": "2002-04-25",
+       "clock": "18:31",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Apr 25, 2002"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Sergei Fedorov",
+       "team": "DET",
+       "jersey": 91,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs VAN | 1st Period | Apr 25, 2002"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "V1orAzqQ",
+   "tokenId": "10738833311464947712",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Sergei Fedorov",
+     "date": "April 25, 2002"
+    },
+    "url": "https://nhlbreakaway.com/series/V1orAzqQ/10738833311464947712",
+    "image": "https://mediagateway.sweet.io/media/token/V1orAzqQ/10738833311464947712/poster-image-16x9.png"
+   },
+   "momentUuid": "b572cf350e0c00009508000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "V1orAzqQ",
+  "token_id": "10738833311464947712"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,354 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286312,
+    "summary": {
+     "drop_active": 1762884000,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/M1aozDRK",
+     "number_of_highlights": 3,
+     "pack_description": "Celebrate the start of the 2025-26 NHL regular season with the Base 2025-26 Debut LE Pack! As the cornerstone set of each NHL Breakaway series, Base 2025-26 is packed with nonstop action and pure hockey energy, from clutch goals and precision passes to standout defensive plays and highlight-reel saves. Featuring Pavel Dorofeyev, Ryan O'Reilly, Scott Wedgewood, Seth Jarvis, Harrison Brunicke, Fraser Minten, and more!\r\n\r\nEach pack contains 1 highlight from Base 2025-26, 1 mystery Core highlight from Base 2025-26 (40%), Fresh Sweaters 2025-26 (40%), or Heart & Soul: 80s + 90s (20%), and 1 mystery highlight that could be from Fresh Sweaters: Legacy (77.94%), Opening Ice 2025-26 (10%), Opening Ice: Icons (10%), Cause for a Celly: 2000s (2%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Base 2025-26 Debut LE Pack",
+     "series_name": "Series 3",
+     "pack_uuid": "b572cf3500000000abbe000000000000",
+     "quantity": 1500,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Base 2025-26 Debut LE Pack",
+      "description": "<p><strong>Sweepstakes: </strong>Each pack purchased from the NHL Breakaway Drops page (limit 10 per user) is an entry for the chance to win a trip for two to the <strong>NHL Winter Classic&reg;</strong>, including airfare and lodging! Ends Nov 28, 2025 at 11:59:59 pm ET. <a href=\"https://blog.nhlbreakaway.com/you-could-win-a-trip-to-the-nhl-winter-classic-r-2/\" target=\"_blank\" rel=\"noopener\">Details</a></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Tuesday, Nov 11 at 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 1500 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 6 hours; the limit increases to a fifty (50) pack limit per person afterward. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Base 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">40% Base 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">40% Fresh Sweaters 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Heart &amp; Soul: 80s + 90s (Core #/1500)</span></li>\r\n</ul>\r\n</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">77.94% Fresh Sweaters: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice 2025-26 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Cause for a Celly: 2000s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.06% The Greatest Achievements (Legendary #/10)</span></li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be processed via Stripe.&nbsp;</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vR-MsZOyr3YUKj8d450u0FAWBhEGNReeHtU0dJfnxlw2WRB_iomPDXOmmZ23jgYqed4VCxg3aFPscrT/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Heart &amp; Soul: 80s + 90s, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-first-set-reveal-heart-soul-80s-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2025-26, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/first-sets-of-the-2025-26-season-nov-11-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters 2025-26, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/first-sets-of-the-2025-26-season-nov-11-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters: Legacy, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-limited-set-reveal-fresh-sweaters-legacy/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Icons, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-rare-set-reveal-opening-ice-icons/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice 2025-26, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/first-sets-of-the-2025-26-season-nov-11-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: 2000s, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 3 highlights will only be distributed during Series 3, which ends prior to the start of the 2026-27 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Celebrate the start of the 2025-26 NHL regular season with the Base 2025-26 Debut LE Pack! As the cornerstone set of each NHL Breakaway series, Base 2025-26 is packed with nonstop action and pure hockey energy, from clutch goals and precision passes to standout defensive plays and highlight-reel saves. Featuring Pavel Dorofeyev, Ryan O'Reilly, Scott Wedgewood, Seth Jarvis, Harrison Brunicke, Fraser Minten, and more!\r\n\r\nEach pack contains 1 highlight from Base 2025-26, 1 mystery Core highlight from Base 2025-26 (40%), Fresh Sweaters 2025-26 (40%), or Heart & Soul: 80s + 90s (20%), and 1 mystery highlight that could be from Fresh Sweaters: Legacy (77.94%), Opening Ice 2025-26 (10%), Opening Ice: Icons (10%), Cause for a Celly: 2000s (2%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf3500000000abbe000000000000",
+     "assets": [],
+     "editions": 1500,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Base 2025-26 Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 1,
+          "limit": 1500
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.4,
+          "limit": 600
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.4,
+          "limit": 600
+         },
+         "name": "Fresh Sweaters 2025-26",
+         "description": "<p>Celebrate the excitement of a fresh start with the&nbsp;<strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Fresh Sweaters 2025-26</em></strong>&nbsp;Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353aed00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Heart & Soul: 80s + 90s",
+         "description": "<p>Celebrate the players who brought heart and soul to the ice with the&nbsp;<em data-stringify-type=\"italic\">Heart &amp; Soul: 80s + 90s</em>&nbsp;set! Relive great moments from fan-favorite players whose passion and grit defined their teams. These highlights showcase the unforgettable energy and excitement of 80s and 90s hockey.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f5dc00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.7793333333333333,
+          "limit": 1169
+         },
+         "name": "Fresh Sweaters: Legacy",
+         "description": "<p>Celebrate the thrill of new beginnings with the&nbsp;<em data-stringify-type=\"italic\">Fresh Sweaters: Legacy</em>&nbsp;Limited set&mdash;spotlighting legendary players as they suited up for NHL teams you wouldn&rsquo;t typically associate them with in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dd0b00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Opening Ice: Icons is a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals or goalies secured their first NHL win. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35e89900000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02,
+          "limit": 30
+         },
+         "name": "Cause for a Celly: 2000s",
+         "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353ad100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>Hockey&rsquo;s history is rich with legendary players, unforgettable plays, and cherished memories. Yet every so often, something truly extraordinary occurs&mdash;like a record-shattering milestone or a Stanley Cup&ndash;winning goal from a franchise icon. These achievements capture the hockey world and become timeless pieces of the sport&rsquo;s legacy.&nbsp;<em data-stringify-type=\"italic\">The Greatest Achievements</em>&nbsp;honors these moments as part of the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35a62c00000000000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Base 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/AqkW0kq6",
+        "set_uuid": "b572cf35ea8000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz",
+        "set_uuid": "b572cf3537d000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Fresh Sweaters 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kx7Rd",
+        "set_uuid": "b572cf353aed00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Cause for a Celly: 2000s",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg",
+        "set_uuid": "b572cf353ad100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/21x65ARG",
+        "set_uuid": "b572cf35e89900000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+        "set_uuid": "b572cf35a62c00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Heart & Soul: 80s + 90s",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/yRzEN8bP",
+        "set_uuid": "b572cf35f5dc00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters: Legacy",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgwr4R6",
+        "set_uuid": "b572cf35dd0b00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       }
+      ]
+     },
+     "issued": "2025-11-10",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://Qmcff3wiu8qroJpANFb4iavXvi4b7DZUjRTk9t1ABB55Zq"
+       },
+       "content-type": "image/png",
+       "sha256": "5YeRw0VFlvI_AXM06FhKCQspgcCN8Dse7FUNwfcc3NQ=",
+       "url": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRzLEQeD9DKXk2kQ1Jjptz4pwHVHr7cFNhbbLxSv7iEPb"
+       },
+       "content-type": "image/png",
+       "sha256": "bpdcdisaBsgXIzb5lmZVXQfA5RvtuHJapTReBW6jn_0=",
+       "url": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://Qmcff3wiu8qroJpANFb4iavXvi4b7DZUjRTk9t1ABB55Zq"
+       },
+       "content-type": "image/png",
+       "sha256": "5YeRw0VFlvI_AXM06FhKCQspgcCN8Dse7FUNwfcc3NQ=",
+       "url": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front.png"
+      }
+     },
+     "issued": "2025-11-10T17:32:10.440160",
+     "name": "Base 2025-26 Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "ydIJr1IDsQ8aiHYlXSb2gBwC3qbf1B6wzKQ5d3NPGxs=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Celebrate the start of the 2025-26 NHL regular season with the Base 2025-26 Debut LE Pack! As the cornerstone set of each NHL Breakaway series, Base 2025-26 is packed with nonstop action and pure hockey energy, from clutch goals and precision passes to standout defensive plays and highlight-reel saves. Featuring Pavel Dorofeyev, Ryan O'Reilly, Scott Wedgewood, Seth Jarvis, Harrison Brunicke, Fraser Minten, and more!\r\n\r\nEach pack contains 1 highlight from Base 2025-26, 1 mystery Core highlight from Base 2025-26 (40%), Fresh Sweaters 2025-26 (40%), or Heart & Soul: 80s + 90s (20%), and 1 mystery highlight that could be from Fresh Sweaters: Legacy (77.94%), Opening Ice 2025-26 (10%), Opening Ice: Icons (10%), Cause for a Celly: 2000s (2%), or The Greatest Achievements (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Base 2025-26 Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 1500,
+      "uri": "https://nft.nhlbreakaway.com/series/M1aozDRK"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/M1aozDRK"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Base 2025-26 Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/M1aozDRK",
+    "image": "https://nft.nhlbreakaway.com/series/M1aozDRK/image-front-16x9.png"
+   },
+   "seriesId": "M1aozDRK",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "M1aozDRK"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

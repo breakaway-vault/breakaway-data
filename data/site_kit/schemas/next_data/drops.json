@@ -1,0 +1,35 @@
+{
+ "pageProps": {
+  "server_time": "int",
+  "featured": "NoneType",
+  "sold_out": [
+   {
+    "drop_active": "int",
+    "drop_expires": "NoneType",
+    "pack_price": "str",
+    "remaining": "int",
+    "uri": "str",
+    "number_of_highlights": "int",
+    "pack_description": "str",
+    "pack_image": "str",
+    "pack_image_16x9": "str",
+    "pack_rarity": "str",
+    "pack_title": "str",
+    "series_name": "str",
+    "pack_uuid": "str",
+    "quantity": "int",
+    "is_pfp": "bool",
+    "is_openable": "bool",
+    "sets": [],
+    "pack_moments": []
+   }
+  ],
+  "active": [],
+  "headerMetadata": {
+   "titleKey": "str",
+   "url": "str",
+   "image": "str"
+  }
+ },
+ "__N_SSP": "bool"
+}

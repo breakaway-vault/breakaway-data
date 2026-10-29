@@ -1,0 +1,622 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmNUBSokdUjfTPMb7vBLfQRVkTXVuYoZ3cMUb3Dap9Z8gQ"
+       },
+       "content-type": "image/png",
+       "sha256": "fLhBCJOqYGmv1jqg3hsKXQVzTYGnBGTU702bU_5R1HM=",
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVBmY3FCHq2uUetKhhfx25zhgJNRcf3eLwZPUK6y6Ues5"
+       },
+       "content-type": "image/png",
+       "sha256": "T1QPotqP0Hk1ZVteKsu9uQExbnd8GgikDxMqW7xTyDw=",
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPzz6KJEEgyq2r7YGncuRfGJ67etUTq6YBbyavYFR58nB"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnQzbW/9309503379728236544/card-image.png",
+        "purpose": "card-image",
+        "sha256": "WexjlsxVySqLbqBMpIjb1qT91vyNkX_ySWcmWaJBUqQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnQzbW/9309503379728236544/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVZzWeYTYDyTw1rr7SbrRFTdL136s6Ygt81jn5PGSTGJH"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnQzbW/9309503379728236544/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "hDOrD3wRdcZQjvyFqEvdVYO0OZ9fYq1b3oP9P0zuddM=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnQzbW/9309503379728236544/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVBmY3FCHq2uUetKhhfx25zhgJNRcf3eLwZPUK6y6Ues5"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnQzbW/9309503379728236544/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "T1QPotqP0Hk1ZVteKsu9uQExbnd8GgikDxMqW7xTyDw=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnQzbW/9309503379728236544/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNUBSokdUjfTPMb7vBLfQRVkTXVuYoZ3cMUb3Dap9Z8gQ"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnQzbW/9309503379728236544/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "fLhBCJOqYGmv1jqg3hsKXQVzTYGnBGTU702bU_5R1HM=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnQzbW/9309503379728236544/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2025-12-10"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b572cf35f52000008132000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Save"
+      },
+      {
+       "name": "Player",
+       "value": "Sergei Bobrovsky"
+      },
+      {
+       "name": "Rarity",
+       "value": "Fandom"
+      },
+      {
+       "name": "Series",
+       "value": "Series 3"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Ice Nation (Series 3)"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b572cf35f52000000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Florida Panthers"
+      },
+      {
+       "name": "Total Editions",
+       "value": "3000"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Facing a 2-on-1 rush by Utah, Sergei Bobrovsky comes up with a sensational diving stop, sliding across just in time to rob Clayton Keller on a one-timer. Fresh off back-to-back Stanley Cup championships, the two-time Vezina Trophy winner has built a remarkable career, and this acrobatic save is another brilliant example of the athleticism and poise that have defined his greatness in goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmNUBSokdUjfTPMb7vBLfQRVkTXVuYoZ3cMUb3Dap9Z8gQ"
+      },
+      "content-type": "image/png",
+      "sha256": "fLhBCJOqYGmv1jqg3hsKXQVzTYGnBGTU702bU_5R1HM=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmTcwu4hZBtBU74ffPUZScfSeKVasFZHSLxCXpLBZGppTn"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "L2V6CJXTSck48qecYrXyY2CLZNTW5J-mpnMxsA3cqYY=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXLNmRuKHfBM6SXKSYmeMkbKD4vGPwje29zkw6XwZQxeg"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "aziQka9JDqZBXshBt-becpUvNHq3XCHocWNqIk3_eI8=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmNUBSokdUjfTPMb7vBLfQRVkTXVuYoZ3cMUb3Dap9Z8gQ"
+       },
+       "content-type": "image/png",
+       "sha256": "fLhBCJOqYGmv1jqg3hsKXQVzTYGnBGTU702bU_5R1HM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmTcwu4hZBtBU74ffPUZScfSeKVasFZHSLxCXpLBZGppTn"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "L2V6CJXTSck48qecYrXyY2CLZNTW5J-mpnMxsA3cqYY=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXLNmRuKHfBM6SXKSYmeMkbKD4vGPwje29zkw6XwZQxeg"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "aziQka9JDqZBXshBt-becpUvNHq3XCHocWNqIk3_eI8=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmVBmY3FCHq2uUetKhhfx25zhgJNRcf3eLwZPUK6y6Ues5"
+       },
+       "content-type": "image/png",
+       "sha256": "T1QPotqP0Hk1ZVteKsu9uQExbnd8GgikDxMqW7xTyDw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmVLpRHDnmRhq8PEz23nD8NwadeWWNGqgMZN18CyyArA1C"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "n8yBTDf0u7tJmMZ-BiitIGVo7T_dwJHc3JGjUIwpWXs=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmPyPJZDue7zxtgVDTmESjAUTpXVsrJUXoibdoTuUAarNd"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "XOre-pQNe-l450_8KDXqtsqu9peDT57nps_BD2KXMm0=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-05-01T19:06:24.442320",
+     "name": "Sergei Bobrovsky #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "9fpVkiLwJaTObV_lYZCRHsZJXqsAv2_M2XCRhVQAe60=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 9309503379728237000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Facing a 2-on-1 rush by Utah, Sergei Bobrovsky comes up with a sensational diving stop, sliding across just in time to rob Clayton Keller on a one-timer. Fresh off back-to-back Stanley Cup championships, the two-time Vezina Trophy winner has built a remarkable career, and this acrobatic save is another brilliant example of the athleticism and poise that have defined his greatness in goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Ice Nation (Series 3)",
+       "rarity": {
+        "name": "Fandom",
+        "rank": 0
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW/9309503379728236544",
+     "pack_uuid": null,
+     "set_id": 121,
+     "set_uuid": "b572cf35f52000000000000000000000",
+     "moment_id": 33074
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xadDaEBe02360F32F1922c1cB9770Efa81CA1a87f/?a=9309503379728236544",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 13,
+     "name": "Florida Panthers",
+     "abbreviation": "FLA",
+     "short_name": "Florida",
+     "venue_city": "Sunrise",
+     "venue_name": "FLA Live Arena",
+     "key": "FloridaPanthers",
+     "url": "https://www.nhl.com/panthers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/FloridaPanthers.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Ice Nation (Series 3)",
+      "description": "<p>Ice Nation celebrates the game at its most electrifying. Featuring stars from across the league, this Fandom-tier set captures jaw-dropping saves, highlight-reel goals, and moments of pure, unbelievable skill from the 2025&ndash;26 regular season. A collection of exciting moments from the season that showcase the skill and star power across the league.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/78b27d7c-964c-4f0e-b599-104ad8314dcc.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW",
+      "uuid": "b572cf35f52000000000000000000000",
+      "rarity": {
+       "name": "Fandom",
+       "editions": 5000
+      }
+     },
+     "description": "Facing a 2-on-1 rush by Utah, Sergei Bobrovsky comes up with a sensational diving stop, sliding across just in time to rob Clayton Keller on a one-timer. Fresh off back-to-back Stanley Cup championships, the two-time Vezina Trophy winner has built a remarkable career, and this acrobatic save is another brilliant example of the athleticism and poise that have defined his greatness in goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf35f52000008132000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/78b27d7c-964c-4f0e-b599-104ad8314dcc.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "moment_id": 33074,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/NbnnQzbW/moment/9309503379728236544/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/NbnnQzbW/moment/9309503379728236544/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/NbnnQzbW/moment/9309503379728236544/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/NbnnQzbW/moment/9309503379728236544/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/NbnnQzbW/moment/9309503379728236544/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/NbnnQzbW/moment/9309503379728236544/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/NbnnQzbW/moment/9309503379728236544/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/NbnnQzbW/moment/9309503379728236544/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/8132/images/front.png"
+      }
+     },
+     "editions": 3000,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "9fpVkiLwJaTObV_lYZCRHsZJXqsAv2_M2XCRhVQAe60=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmaEmJwW1kGbVU8joA6kg64BAKDpDad9yPgmCfggYcbswZ"
+        },
+        "content-type": "image/png",
+        "sha256": "BAwl3d5kukz1bU8a2MTH5a_RCYpX30lNus4G32qipbA=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmaEmJwW1kGbVU8joA6kg64BAKDpDad9yPgmCfggYcbswZ"
+        },
+        "content-type": "image/png",
+        "sha256": "BAwl3d5kukz1bU8a2MTH5a_RCYpX30lNus4G32qipbA=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnQzbW/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Ice Nation (Series 3)",
+        "description": "<p>Ice Nation celebrates the game at its most electrifying. Featuring stars from across the league, this Fandom-tier set captures jaw-dropping saves, highlight-reel goals, and moments of pure, unbelievable skill from the 2025&ndash;26 regular season. A collection of exciting moments from the season that showcase the skill and star power across the league.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Fandom",
+         "rank": 0
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW"
+      },
+      "name": "Ice Nation (Series 3)",
+      "issued": "2026-05-01T19:06:24.442320",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Sergei Bobrovsky",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Utah Mammoth - Delta Center (Salt Lake City, UT)",
+       "final_score": "FLA 4, UTA 3 - FINAL",
+       "venue": {
+        "name": "Delta Center",
+        "location": "Salt Lake City, UT"
+       },
+       "away": {
+        "final_score": 4,
+        "team": "FLA"
+       },
+       "home": {
+        "final_score": 3,
+        "team": "UTA"
+       }
+      },
+      "collectible_tagline": "Save vs UTA | 2nd Period | Dec 10, 2025",
+      "primary_player": {
+       "name": "Sergei Bobrovsky",
+       "is_rookie": false,
+       "position": "G",
+       "team": "FLA",
+       "jersey": 72,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2025-12-10",
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs UTA | 2nd Period | Dec 10, 2025",
+       "event": "Save"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2026-05-01",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Fandom",
+      "sorting_position": 10,
+      "editions": 5000
+     }
+    },
+    "_metadata": {
+     "name": "Sergei Bobrovsky",
+     "description": "Facing a 2-on-1 rush by Utah, Sergei Bobrovsky comes up with a sensational diving stop, sliding across just in time to rob Clayton Keller on a one-timer. Fresh off back-to-back Stanley Cup championships, the two-time Vezina Trophy winner has built a remarkable career, and this acrobatic save is another brilliant example of the athleticism and poise that have defined his greatness in goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 3000,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Save vs UTA | 2nd Period | Dec 10, 2025",
+     "team": "FLA",
+     "player_name": "Sergei Bobrovsky",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 4
+       },
+       "home": {
+        "team": "UTA",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "Delta Center",
+        "location": "Salt Lake City, UT"
+       },
+       "game_ends": "FINAL",
+       "final_score": "FLA 4, UTA 3 - FINAL",
+       "venue_location": "Utah Mammoth - Delta Center (Salt Lake City, UT)"
+      },
+      "moment": {
+       "date": "2025-12-10",
+       "event": "Save",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs UTA | 2nd Period | Dec 10, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Sergei Bobrovsky",
+       "team": "FLA",
+       "jersey": 72,
+       "status": "NHLPA",
+       "position": "G",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Save vs UTA | 2nd Period | Dec 10, 2025"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "NbnnQzbW",
+   "tokenId": "9309503379728236544",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Sergei Bobrovsky",
+     "date": "December 10, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/NbnnQzbW/9309503379728236544",
+    "image": "https://mediagateway.sweet.io/media/token/NbnnQzbW/9309503379728236544/poster-image-16x9.png"
+   },
+   "momentUuid": "b572cf35f52000008132000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "NbnnQzbW",
+  "token_id": "9309503379728236544"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

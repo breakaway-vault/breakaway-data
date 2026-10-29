@@ -1,0 +1,614 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmXafG6PnjXtWaz6xJwe52VGRQ8VxE15V2Byv5XvNBae9Z"
+       },
+       "content-type": "image/png",
+       "sha256": "tjMUvlCaDBiJXj9SZWwXRoXc7RqeCGT_eezf1mU98Oo=",
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYtxCuzXyP9AGxz2saQQ6AbBArVbCubjYGQ4meZsPJqXu"
+       },
+       "content-type": "image/png",
+       "sha256": "bcmh_1S4sUi1YkwcJSjBaB_386PXtkeUTFuc2hqqyhk=",
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUJJgc68A17XFeN3NYgyeHtZrhfPGKhXAENniExYh5HUL"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1ao45RK/11045359561102852096/card-image.png",
+        "purpose": "card-image",
+        "sha256": "VWf-xlI-y5s-RW4Btf9lu4btlv_VLP_CWG8f76n0IzI=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1ao45RK/11045359561102852096/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWwii6MNTG2dqo7PNf2wfJ2vJDxtJkAetaiAGEJra2zAi"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1ao45RK/11045359561102852096/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "YQb3BkkfUVWqXV7iv7WxznDRynmR0hwtUDADI1eefCw=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1ao45RK/11045359561102852096/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYtxCuzXyP9AGxz2saQQ6AbBArVbCubjYGQ4meZsPJqXu"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1ao45RK/11045359561102852096/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "bcmh_1S4sUi1YkwcJSjBaB_386PXtkeUTFuc2hqqyhk=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1ao45RK/11045359561102852096/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXafG6PnjXtWaz6xJwe52VGRQ8VxE15V2Byv5XvNBae9Z"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1ao45RK/11045359561102852096/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "tjMUvlCaDBiJXj9SZWwXRoXc7RqeCGT_eezf1mU98Oo=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1ao45RK/11045359561102852096/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2002-04-27"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fe899c00009949000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Brett Hull"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Global Gamechangers"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fe899c00000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Detroit Red Wings"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Primarily celebrated for his goal-scoring prowess rather than his penalty-killing abilities, Brett Hull showcased his versatility in the clinching Game 6 of the Western Conference Quarterfinals against the Vancouver Canucks by netting the first of his three goals while shorthanded. His heroics that game were part of an incredible 10-goal performance during the 2002 Stanley Cup Playoffs, leading all players as he helped secure a Stanley Cup championship. Over his illustrious 19-season career, Hull scored 741 goals, ranking fifth all-time in NHL history.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmXafG6PnjXtWaz6xJwe52VGRQ8VxE15V2Byv5XvNBae9Z"
+      },
+      "content-type": "image/png",
+      "sha256": "tjMUvlCaDBiJXj9SZWwXRoXc7RqeCGT_eezf1mU98Oo=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://Qmb8SpVupKATmaN7svgi1imvCLZ6Ni5t2o24t7hY12e7z1"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "KxIUL6GASQtmcdBwHrxF2mDB0rw4Pzq--CQovAEaUQg=",
+        "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmRrbDfWtkz8yJhW3kHpsQMydnedCsr2w9YQzNDbBtLWc5"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "P8-dKuhmvh4WXrlNV7KrPgNEx5PgtGq52OU3EVbwg04=",
+        "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmXafG6PnjXtWaz6xJwe52VGRQ8VxE15V2Byv5XvNBae9Z"
+       },
+       "content-type": "image/png",
+       "sha256": "tjMUvlCaDBiJXj9SZWwXRoXc7RqeCGT_eezf1mU98Oo=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmb8SpVupKATmaN7svgi1imvCLZ6Ni5t2o24t7hY12e7z1"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "KxIUL6GASQtmcdBwHrxF2mDB0rw4Pzq--CQovAEaUQg=",
+         "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRrbDfWtkz8yJhW3kHpsQMydnedCsr2w9YQzNDbBtLWc5"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "P8-dKuhmvh4WXrlNV7KrPgNEx5PgtGq52OU3EVbwg04=",
+         "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYtxCuzXyP9AGxz2saQQ6AbBArVbCubjYGQ4meZsPJqXu"
+       },
+       "content-type": "image/png",
+       "sha256": "bcmh_1S4sUi1YkwcJSjBaB_386PXtkeUTFuc2hqqyhk=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmXEkTj5Hn9TEYrQS9hnxp7tuzheJKmvgNApEsmECvXHKw"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "80Tv0s8yIZHsi7Vl_hPkOylznqn8Kzq-pe2Rez0EIDg=",
+         "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmPh73MgrSqPCPc9bDeR431SiUcbNMcAFtLzkVQtK6UKHF"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "YwNEJ5t9cqDdIkREH5ZC4ZjBXJ6zWpxIkTCFTtKFPlI=",
+         "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-01-21T18:54:49.865750",
+     "name": "Brett Hull #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "oh1FdoCNM_MNXSdU3mCniXijMI12Qp3zcUZL13-fhqw=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11045359561102852000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Primarily celebrated for his goal-scoring prowess rather than his penalty-killing abilities, Brett Hull showcased his versatility in the clinching Game 6 of the Western Conference Quarterfinals against the Vancouver Canucks by netting the first of his three goals while shorthanded. His heroics that game were part of an incredible 10-goal performance during the 2002 Stanley Cup Playoffs, leading all players as he helped secure a Stanley Cup championship. Over his illustrious 19-season career, Hull scored 741 goals, ranking fifth all-time in NHL history.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Global Gamechangers",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK/11045359561102852096",
+     "pack_uuid": null,
+     "set_id": 66,
+     "set_uuid": "cd2f47fe899c00000000000000000000",
+     "moment_id": 39241
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x417e0153AdF51812122Fe9353082e0A3c568BAC9/?a=11045359561102852096",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 17,
+     "name": "Detroit Red Wings",
+     "abbreviation": "DET",
+     "short_name": "Detroit",
+     "venue_city": "Detroit",
+     "venue_name": "Little Caesars Arena",
+     "key": "DetroitRedWings",
+     "url": "https://www.nhl.com/redwings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/DetroitRedWings.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Global Gamechangers",
+      "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Global Gamechangers</em>, a Limited set that showcases highlights of notable players from the United States, Canada, Sweden, and Finland. This collection features NHL moments that exemplify the skill and impact of these hockey legends, who excelled in the league and played pivotal roles in their countries' success in international competitions, including the Olympics, World Championships, and other prestigious tournaments.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/108b5931-56e7-4a6d-807f-ee1ceea9c31e.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK",
+      "uuid": "cd2f47fe899c00000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "Primarily celebrated for his goal-scoring prowess rather than his penalty-killing abilities, Brett Hull showcased his versatility in the clinching Game 6 of the Western Conference Quarterfinals against the Vancouver Canucks by netting the first of his three goals while shorthanded. His heroics that game were part of an incredible 10-goal performance during the 2002 Stanley Cup Playoffs, leading all players as he helped secure a Stanley Cup championship. Over his illustrious 19-season career, Hull scored 741 goals, ranking fifth all-time in NHL history.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe899c00009949000000000000",
+     "badges": [
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/108b5931-56e7-4a6d-807f-ee1ceea9c31e.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 39241,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/M1ao45RK/moment/11045359561102852096/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1ao45RK/moment/11045359561102852096/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/M1ao45RK/moment/11045359561102852096/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1ao45RK/moment/11045359561102852096/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1ao45RK/moment/11045359561102852096/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/M1ao45RK/moment/11045359561102852096/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1ao45RK/moment/11045359561102852096/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1ao45RK/moment/11045359561102852096/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/9949/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "oh1FdoCNM_MNXSdU3mCniXijMI12Qp3zcUZL13-fhqw=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmNVFmKCBXJLqTeiC16zfb9k6uBBpmzKwaE2ZX2gRp2UnJ"
+        },
+        "content-type": "image/png",
+        "sha256": "ql2kCHjSAFfvUVpqEyGZOHDVz0uF9lrgZ_CggzSwlgU=",
+        "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmNVFmKCBXJLqTeiC16zfb9k6uBBpmzKwaE2ZX2gRp2UnJ"
+        },
+        "content-type": "image/png",
+        "sha256": "ql2kCHjSAFfvUVpqEyGZOHDVz0uF9lrgZ_CggzSwlgU=",
+        "url": "https://nft.nhlbreakaway.com/series/M1ao45RK/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Global Gamechangers",
+        "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Global Gamechangers</em>, a Limited set that showcases highlights of notable players from the United States, Canada, Sweden, and Finland. This collection features NHL moments that exemplify the skill and impact of these hockey legends, who excelled in the league and played pivotal roles in their countries' success in international competitions, including the Olympics, World Championships, and other prestigious tournaments.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK"
+      },
+      "name": "Global Gamechangers",
+      "issued": "2025-01-21T18:54:49.865750",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/M1ao45RK",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Brett Hull",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Vancouver Canucks - General Motors Place (Vancouver, BC)",
+       "final_score": "DET 6, VAN 4 - FINAL",
+       "venue": {
+        "name": "General Motors Place",
+        "location": "Vancouver, BC",
+        "team": "VAN"
+       },
+       "away": {
+        "final_score": 6,
+        "team": "DET"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "VAN"
+       }
+      },
+      "collectible_tagline": "Goal vs VAN | 2nd Period | Apr 27, 2002",
+      "primary_player": {
+       "name": "Brett Hull",
+       "is_rookie": false,
+       "position": "RW",
+       "team": "DET",
+       "jersey": 17,
+       "status": "NHLAA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2002-04-27",
+       "period": "2nd Period",
+       "extra": {
+        "goal_number_this_season": 1
+       },
+       "flags": {
+        "shorthanded_goal": true,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": false,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 2nd Period | Apr 27, 2002",
+       "clock": "7:10",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-01-21",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Brett Hull",
+     "description": "Primarily celebrated for his goal-scoring prowess rather than his penalty-killing abilities, Brett Hull showcased his versatility in the clinching Game 6 of the Western Conference Quarterfinals against the Vancouver Canucks by netting the first of his three goals while shorthanded. His heroics that game were part of an incredible 10-goal performance during the 2002 Stanley Cup Playoffs, leading all players as he helped secure a Stanley Cup championship. Over his illustrious 19-season career, Hull scored 741 goals, ranking fifth all-time in NHL history.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs VAN | 2nd Period | Apr 27, 2002",
+     "team": "DET",
+     "player_name": "Brett Hull",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "DET",
+        "final_score": 6
+       },
+       "home": {
+        "team": "VAN",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "General Motors Place",
+        "team": "VAN",
+        "location": "Vancouver, BC"
+       },
+       "game_ends": "FINAL",
+       "final_score": "DET 6, VAN 4 - FINAL",
+       "venue_location": "Vancouver Canucks - General Motors Place (Vancouver, BC)"
+      },
+      "moment": {
+       "date": "2002-04-27",
+       "clock": "7:10",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": true,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 2nd Period | Apr 27, 2002"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Brett Hull",
+       "team": "DET",
+       "jersey": 17,
+       "status": "NHLAA",
+       "position": "RW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs VAN | 2nd Period | Apr 27, 2002"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "M1ao45RK",
+   "tokenId": "11045359561102852096",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Brett Hull",
+     "date": "April 27, 2002"
+    },
+    "url": "https://nhlbreakaway.com/series/M1ao45RK/11045359561102852096",
+    "image": "https://mediagateway.sweet.io/media/token/M1ao45RK/11045359561102852096/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fe899c00009949000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "M1ao45RK",
+  "token_id": "11045359561102852096"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

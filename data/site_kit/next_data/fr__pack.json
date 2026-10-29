@@ -1,0 +1,28 @@
+{
+ "props": {
+  "pageProps": {
+   "headerMetadata": {
+    "titleKey": "packOpeningTitle",
+    "url": "https://nhlbreakaway.com/pack",
+    "image": "https://nhl-static.assets.sweet.io/img/drops_social_share.jpg"
+   }
+  },
+  "__N_SSP": true
+ },
+ "page": "/pack",
+ "query": {},
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "dynamicIds": [
+  61037
+ ],
+ "gssp": true,
+ "locale": "fr",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,680 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmNmJkzryUP3DU77YpveecnxiUi8hSi55nQWaqNSRYjgxV"
+       },
+       "content-type": "image/png",
+       "sha256": "GbU77BPklcrTg1S7b2czDCjrows3ArNOgM89pk-of5g=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmXJ1VFjw9ciYb7JBWKf9j63oUGXFpgRwmn4SRMZDoyD3c"
+       },
+       "content-type": "image/png",
+       "sha256": "ZUdBWbI_9080RcRctagL1R7KsnkDo_dWQRhJLt4xUmE=",
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZbwxBK7gabFZgHp2kAAx585d87hqAd5xDU7gRmzb1Xhy"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2vQqk/12351684928017006592/card-image.png",
+        "purpose": "card-image",
+        "sha256": "Fy1FqCS8GT1_avMdenK4ip4_IAc2aylCsafHnAQJVVk=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2vQqk/12351684928017006592/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbAN2UhiMXFLVG377Vn14A1u1KbC6bhufsuLx4hPqdCxy"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2vQqk/12351684928017006592/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "SFtqo3RxaDJ0ey0pgmlNuEzt9QCaiQanzzHKXf4rUKA=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2vQqk/12351684928017006592/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXJ1VFjw9ciYb7JBWKf9j63oUGXFpgRwmn4SRMZDoyD3c"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2vQqk/12351684928017006592/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "ZUdBWbI_9080RcRctagL1R7KsnkDo_dWQRhJLt4xUmE=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2vQqk/12351684928017006592/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNmJkzryUP3DU77YpveecnxiUi8hSi55nQWaqNSRYjgxV"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/XRe2vQqk/12351684928017006592/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "GbU77BPklcrTg1S7b2czDCjrows3ArNOgM89pk-of5g=",
+        "uri": "https://mediagateway.sweet.io/media/token/XRe2vQqk/12351684928017006592/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2014-04-28"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b572cf35dbe10000ab6a000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Justin Williams"
+      },
+      {
+       "name": "Rarity",
+       "value": "Epic"
+      },
+      {
+       "name": "Series",
+       "value": "Series 3"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Conn Smythe Showcase"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b572cf35dbe100000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "LA Kings"
+      },
+      {
+       "name": "Total Editions",
+       "value": "100"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Justin Williams earned the 2014 Conn Smythe Trophy as Stanley Cup Playoffs MVP, leading the Los Angeles Kings to their second championship in three seasons. Known for his clutch performances, Williams consistently delivered in the biggest moments, pairing timely scoring with steady leadership throughout the postseason.\r\nIn the opening round against in-state rival San Jose Sharks, Williams played a pivotal role in one of the most remarkable comebacks in playoff history. With the Kings trailing the series three games to none, he scored twice in a must-win Game 6, including the go-ahead and eventual game-winning goal midway through the third period, helping propel Los Angeles to a seven-game series victory.\r\nWilliams continued his heroics in the Second Round against another California rival, the Anaheim Ducks. In Game 7, he opened the scoring, giving the Kings a lead they would never surrender. Then in Game 1 of the Stanley Cup Final versus the New York Rangers, Williams came through once more, scoring the overtime winner to give Los Angeles a series lead it would not relinquish, ultimately capturing the Cup in five games and securing the third Stanley Cup championship of his career.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmNmJkzryUP3DU77YpveecnxiUi8hSi55nQWaqNSRYjgxV"
+      },
+      "content-type": "image/png",
+      "sha256": "GbU77BPklcrTg1S7b2czDCjrows3ArNOgM89pk-of5g=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmYva679EhdnzGCuazQ85JEps47L98evQCSmjFGp3ziEc7"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "YjBB_CzgKJ1M7JpAJleJoNJM0QCqzTfhQwAvAeWecBU=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmfA4zgRgizAestMTj5MKgeSf9D7B149jRGYxVTvxMajo8"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "N3Jnu9mTp-zkp8JXMPKRNLQHCr9AwuGrZ_kPw47sM7g=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmNmJkzryUP3DU77YpveecnxiUi8hSi55nQWaqNSRYjgxV"
+       },
+       "content-type": "image/png",
+       "sha256": "GbU77BPklcrTg1S7b2czDCjrows3ArNOgM89pk-of5g=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYva679EhdnzGCuazQ85JEps47L98evQCSmjFGp3ziEc7"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "YjBB_CzgKJ1M7JpAJleJoNJM0QCqzTfhQwAvAeWecBU=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmfA4zgRgizAestMTj5MKgeSf9D7B149jRGYxVTvxMajo8"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "N3Jnu9mTp-zkp8JXMPKRNLQHCr9AwuGrZ_kPw47sM7g=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmXJ1VFjw9ciYb7JBWKf9j63oUGXFpgRwmn4SRMZDoyD3c"
+       },
+       "content-type": "image/png",
+       "sha256": "ZUdBWbI_9080RcRctagL1R7KsnkDo_dWQRhJLt4xUmE=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmfBaPW6r3cUp5KXu5SSW5S8skCFrvsQ7z8a83PDS3bfF4"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "7l47tTp43dnUX8M_qzL9NsyppmSRAgOG_txcA2v45pY=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmaD3He9dkt2TBWzLunm6v9Jn7EegJRXZ4iBqai3RGSZWj"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "tHUaIWCmWAqax3Z28OAirNfwlepwy_plRyed7swCn28=",
+         "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-03-18T16:48:00.795046",
+     "name": "Justin Williams #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "SPCEFYIQQg03UJGzRKC2qjMvxF6xKdDcyRMZ8oiqMNE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 12351684928017007000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Justin Williams earned the 2014 Conn Smythe Trophy as Stanley Cup Playoffs MVP, leading the Los Angeles Kings to their second championship in three seasons. Known for his clutch performances, Williams consistently delivered in the biggest moments, pairing timely scoring with steady leadership throughout the postseason.\r\nIn the opening round against in-state rival San Jose Sharks, Williams played a pivotal role in one of the most remarkable comebacks in playoff history. With the Kings trailing the series three games to none, he scored twice in a must-win Game 6, including the go-ahead and eventual game-winning goal midway through the third period, helping propel Los Angeles to a seven-game series victory.\r\nWilliams continued his heroics in the Second Round against another California rival, the Anaheim Ducks. In Game 7, he opened the scoring, giving the Kings a lead they would never surrender. Then in Game 1 of the Stanley Cup Final versus the New York Rangers, Williams came through once more, scoring the overtime winner to give Los Angeles a series lead it would not relinquish, ultimately capturing the Cup in five games and securing the third Stanley Cup championship of his career.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Conn Smythe Showcase",
+       "rarity": {
+        "name": "Tier 3",
+        "rank": 3
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk/12351684928017006592",
+     "pack_uuid": null,
+     "set_id": 117,
+     "set_uuid": "b572cf35dbe100000000000000000000",
+     "moment_id": 43882
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xCd632C3d9648c4BBEC02FcD01eedfE8a8348A768/?a=12351684928017006592",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 26,
+     "name": "LA Kings",
+     "abbreviation": "LAK",
+     "short_name": "Los Angeles",
+     "venue_city": "Los Angeles",
+     "venue_name": "Crypto.com Arena",
+     "key": "LosAngelesKings",
+     "url": "https://www.nhl.com/kings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/LosAngelesKings.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Conn Smythe Showcase",
+      "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/8dcfa8d1-6c07-405e-8a29-229af9fdd3b6.jpg",
+        "mime": "image/jpeg"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk",
+      "uuid": "b572cf35dbe100000000000000000000",
+      "rarity": {
+       "name": "Epic",
+       "editions": 100
+      }
+     },
+     "description": "Justin Williams earned the 2014 Conn Smythe Trophy as Stanley Cup Playoffs MVP, leading the Los Angeles Kings to their second championship in three seasons. Known for his clutch performances, Williams consistently delivered in the biggest moments, pairing timely scoring with steady leadership throughout the postseason.\r\nIn the opening round against in-state rival San Jose Sharks, Williams played a pivotal role in one of the most remarkable comebacks in playoff history. With the Kings trailing the series three games to none, he scored twice in a must-win Game 6, including the go-ahead and eventual game-winning goal midway through the third period, helping propel Los Angeles to a seven-game series victory.\r\nWilliams continued his heroics in the Second Round against another California rival, the Anaheim Ducks. In Game 7, he opened the scoring, giving the Kings a lead they would never surrender. Then in Game 1 of the Stanley Cup Final versus the New York Rangers, Williams came through once more, scoring the overtime winner to give Los Angeles a series lead it would not relinquish, ultimately capturing the Cup in five games and securing the third Stanley Cup championship of his career.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf35dbe10000ab6a000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Award Year",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+       "description": "Highlights from a season the primary player won a trophy or award."
+      },
+      {
+       "name": "Breakaway Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+       "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Multi-Highlight",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+       "description": "Highlights that feature more than one unique play"
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/8dcfa8d1-6c07-405e-8a29-229af9fdd3b6.jpg",
+        "mime": "image/jpeg"
+       }
+      ],
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "moment_id": 43882,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe2vQqk/moment/12351684928017006592/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe2vQqk/moment/12351684928017006592/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe2vQqk/moment/12351684928017006592/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe2vQqk/moment/12351684928017006592/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe2vQqk/moment/12351684928017006592/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/XRe2vQqk/moment/12351684928017006592/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe2vQqk/moment/12351684928017006592/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/XRe2vQqk/moment/12351684928017006592/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/ab6a/images/front.png"
+      }
+     },
+     "editions": 100,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "SPCEFYIQQg03UJGzRKC2qjMvxF6xKdDcyRMZ8oiqMNE=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmTbgiUStqt5zGPveehSgaRU92Swdm3gn97xiYaVkHYmG3"
+        },
+        "content-type": "image/jpeg",
+        "sha256": "1y7kCJWfu4VEsr_aK0Pks6chW6QpLlA2UrZHx7-rYDQ=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/image-front.jpg"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmTbgiUStqt5zGPveehSgaRU92Swdm3gn97xiYaVkHYmG3"
+        },
+        "content-type": "image/jpeg",
+        "sha256": "1y7kCJWfu4VEsr_aK0Pks6chW6QpLlA2UrZHx7-rYDQ=",
+        "url": "https://nft.nhlbreakaway.com/series/XRe2vQqk/image-front.jpg"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Conn Smythe Showcase",
+        "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 3",
+         "rank": 3
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk"
+      },
+      "name": "Conn Smythe Showcase",
+      "issued": "2026-04-17T15:49:36.430912",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Justin Williams",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Los Angeles Kings - STAPLES Center (Los Angeles, CA)",
+       "final_score": "SJS 1, LAK 4 - FINAL",
+       "venue": {
+        "name": "STAPLES Center",
+        "location": "Los Angeles, CA",
+        "team": "LAK"
+       },
+       "away": {
+        "final_score": 1,
+        "team": "SJS"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "LAK"
+       }
+      },
+      "collectible_tagline": "2014 Conn Smythe Trophy Winner",
+      "primary_player": {
+       "name": "Justin Williams",
+       "is_rookie": false,
+       "position": "RW",
+       "team": "LAK",
+       "jersey": 14,
+       "status": "NHLAA"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2014-05-16",
+        "period": "1st Period",
+        "video_overlay_text": "Goal vs ANA | 1st Period | May 16, 2014",
+        "clock": "4:30",
+        "event": "Goal",
+        "video_overlay_additional": "2014 Conn Smythe Trophy Winner"
+       },
+       "1": {
+        "date": "2014-06-04",
+        "period": "Overtime",
+        "video_overlay_text": "Goal vs NYR | Overtime | Jun 4, 2014",
+        "clock": "4:36",
+        "event": "Goal",
+        "video_overlay_additional": "2014 Conn Smythe Trophy Winner"
+       }
+      },
+      "highlight_type": "Multi",
+      "moment": {
+       "date": "2014-04-28",
+       "period": "3rd Period",
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": true,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs SJS | 3rd Period | Apr 28, 2014",
+       "clock": "11:56",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2026-03-18",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Epic",
+      "sorting_position": 50,
+      "editions": 100
+     }
+    },
+    "_metadata": {
+     "name": "Justin Williams",
+     "description": "Justin Williams earned the 2014 Conn Smythe Trophy as Stanley Cup Playoffs MVP, leading the Los Angeles Kings to their second championship in three seasons. Known for his clutch performances, Williams consistently delivered in the biggest moments, pairing timely scoring with steady leadership throughout the postseason.\r\nIn the opening round against in-state rival San Jose Sharks, Williams played a pivotal role in one of the most remarkable comebacks in playoff history. With the Kings trailing the series three games to none, he scored twice in a must-win Game 6, including the go-ahead and eventual game-winning goal midway through the third period, helping propel Los Angeles to a seven-game series victory.\r\nWilliams continued his heroics in the Second Round against another California rival, the Anaheim Ducks. In Game 7, he opened the scoring, giving the Kings a lead they would never surrender. Then in Game 1 of the Stanley Cup Final versus the New York Rangers, Williams came through once more, scoring the overtime winner to give Los Angeles a series lead it would not relinquish, ultimately capturing the Cup in five games and securing the third Stanley Cup championship of his career.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 100,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs SJS | 3rd Period | Apr 28, 2014",
+     "team": "LAK",
+     "player_name": "Justin Williams",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "SJS",
+        "final_score": 1
+       },
+       "home": {
+        "team": "LAK",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "STAPLES Center",
+        "team": "LAK",
+        "location": "Los Angeles, CA"
+       },
+       "game_ends": "FINAL",
+       "final_score": "SJS 1, LAK 4 - FINAL",
+       "venue_location": "Los Angeles Kings - STAPLES Center (Los Angeles, CA)"
+      },
+      "moment": {
+       "date": "2014-04-28",
+       "clock": "11:56",
+       "event": "Goal",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs SJS | 3rd Period | Apr 28, 2014"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2014-05-16",
+        "clock": "4:30",
+        "event": "Goal",
+        "period": "1st Period",
+        "video_overlay_text": "Goal vs ANA | 1st Period | May 16, 2014",
+        "video_overlay_additional": "2014 Conn Smythe Trophy Winner"
+       },
+       "1": {
+        "date": "2014-06-04",
+        "clock": "4:36",
+        "event": "Goal",
+        "period": "Overtime",
+        "video_overlay_text": "Goal vs NYR | Overtime | Jun 4, 2014",
+        "video_overlay_additional": "2014 Conn Smythe Trophy Winner"
+       }
+      },
+      "highlight_type": "Multi",
+      "primary_player": {
+       "name": "Justin Williams",
+       "team": "LAK",
+       "jersey": 14,
+       "status": "NHLAA",
+       "position": "RW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "2014 Conn Smythe Trophy Winner"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "XRe2vQqk",
+   "tokenId": "12351684928017006592",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Justin Williams",
+     "date": "April 28, 2014"
+    },
+    "url": "https://nhlbreakaway.com/series/XRe2vQqk/12351684928017006592",
+    "image": "https://mediagateway.sweet.io/media/token/XRe2vQqk/12351684928017006592/poster-image-16x9.png"
+   },
+   "momentUuid": "b572cf35dbe10000ab6a000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "XRe2vQqk",
+  "token_id": "12351684928017006592"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

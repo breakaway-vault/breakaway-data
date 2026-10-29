@@ -1,0 +1,251 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286356,
+    "summary": {
+     "drop_active": 1732125600,
+     "drop_expires": null,
+     "pack_price": "7.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/jqGmLrbp",
+     "number_of_highlights": 4,
+     "pack_description": "Welcome to the next generation of collecting sports memorabilia, video-style!  You may have missed Series 1 but you\u2019re in now and we are psyched you\u2019re here to collect the Series 2 Starter Pack! Re-live your love of hockey by collecting digital packs featuring game-winning goals, crucial saves, and franchise milestone key plays from Alex Ovechkin, Dylan Guenther, Connor Zary, John Tavares, Patrik Laine, Martin St. Louis, and more. Then put your video collection to work by completing Sets and Quests to unlock rewards! Each Breakaway digital Rewards Bag you unlock is stuffed with real-world and digital rewards that could include a chance to score NHL Shop gift cards or NHL game tickets!\r\n\r\nEach digital pack is randomly stuffed with four (4) video Highlights featuring key plays from NHL Breakaway curated Sets including one early adopters known as \u201cBase\u201d, featuring Highlights from key plays made during the 2024-25 season. The Starter Pack also includes a Highlight from a Set we named \u201cAcross the Pond\u201d which celebrates key plays from international games, and a key play from our NEWEST Set \u201cFresh Sweaters\u201d, featuring players making their mark with their new NHL teams.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Series 2 Starter Pack",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe00000000bbc2000000000000",
+     "quantity": 3000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Series 2 Starter Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Wednesday, Nov 20 at 1pm ET / 10am PT</span></p>\r\n<p><span style=\"font-weight: 400;\"><strong>Sweepstakes:</strong> Each pack purchased between Jan 3, 2025 at 12:01:01am ET and Jan 18, 2025 at 11:59:59pm ET is an entry for a chance to win a trip to the NHL Stadium Series&trade; . Read the <a href=\"https://blog.nhlbreakaway.com/jan-6-encore-pack-drop-nhl-stadium-series-sweepstakes-pickems-return-2/\" target=\"_blank\" rel=\"noopener\">blog announcement</a> and <a href=\"https://help.nhlbreakaway.com/en/articles/10339109-nhl-breakaway-2025-nhl-stadium-series-sweepstakes-by-sweet-official-rules?ref=blog.nhlbreakaway.com\" target=\"_blank\" rel=\"noopener\">official rules</a> (<a href=\"https://help.nhlbreakaway.com/en/articles/10339113-concours-nhl-breakaway-de-la-stadium-series-2025-de-la-lnh-par-sweet-reglement-officiel?ref=blog.nhlbreakaway.com\" target=\"_blank\" rel=\"noopener\">version Fran&ccedil;aise</a>) for more information. No purchase necessary to enter.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $7 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 3,000</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Five (5) pack limit per person. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Video Highlights included in each Pack:</strong><span style=\"font-weight: 400;\"> 4</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Across the Pond (Core #/1500)</span></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Payment via cryptocurrency is also available. See these </span><a href=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\"><span style=\"font-weight: 400;\">FAQs</span></a><span style=\"font-weight: 400;\"> for a complete list of supported currencies.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included: </strong><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSGh872p2AnGrPrbdWMPPN5-f0ROSt6ugIpDdfIX5oPKyB7skeINPruwY0k6Z-7wCUulXSMT_Ec5QUF/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Welcome to the next generation of collecting sports memorabilia, video-style!  You may have missed Series 1 but you\u2019re in now and we are psyched you\u2019re here to collect the Series 2 Starter Pack! Re-live your love of hockey by collecting digital packs featuring game-winning goals, crucial saves, and franchise milestone key plays from Alex Ovechkin, Dylan Guenther, Connor Zary, John Tavares, Patrik Laine, Martin St. Louis, and more. Then put your video collection to work by completing Sets and Quests to unlock rewards! Each Breakaway digital Rewards Bag you unlock is stuffed with real-world and digital rewards that could include a chance to score NHL Shop gift cards or NHL game tickets!\r\n\r\nEach digital pack is randomly stuffed with four (4) video Highlights featuring key plays from NHL Breakaway curated Sets including one early adopters known as \u201cBase\u201d, featuring Highlights from key plays made during the 2024-25 season. The Starter Pack also includes a Highlight from a Set we named \u201cAcross the Pond\u201d which celebrates key plays from international games, and a key play from our NEWEST Set \u201cFresh Sweaters\u201d, featuring players making their mark with their new NHL teams.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe00000000bbc2000000000000",
+     "assets": [],
+     "editions": 3000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Series 2 Starter Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Base 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QqBmkGRA",
+        "set_uuid": "cd2f47feed2400000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+        "set_uuid": "cd2f47fef2be00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-11-19",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmUr6k436zSdWGuEH6UpKqosksUGSoUH75swEGifEfxP1Z"
+       },
+       "content-type": "image/png",
+       "sha256": "G9OxJkrP4ClKgtg5ETQlegiLNnisdJWwiVAiUafg_wk=",
+       "url": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmSKEHzuynmYG287F1gXs8he3RXZ8HsGsFFUSvjtcvKF6Z"
+       },
+       "content-type": "image/png",
+       "sha256": "AvsWxAiMFiu42K3b-xiJtejl3AMnRfx36NX8puBFgtE=",
+       "url": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmUr6k436zSdWGuEH6UpKqosksUGSoUH75swEGifEfxP1Z"
+       },
+       "content-type": "image/png",
+       "sha256": "G9OxJkrP4ClKgtg5ETQlegiLNnisdJWwiVAiUafg_wk=",
+       "url": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front.png"
+      }
+     },
+     "issued": "2024-11-19T02:56:07.784729",
+     "name": "Series 2 Starter Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "fV0WRYuAAgOG-49hTegzXpRwdbCyFi1TH-MCb8pwPvE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Welcome to the next generation of collecting sports memorabilia, video-style!  You may have missed Series 1 but you\u2019re in now and we are psyched you\u2019re here to collect the Series 2 Starter Pack! Re-live your love of hockey by collecting digital packs featuring game-winning goals, crucial saves, and franchise milestone key plays from Alex Ovechkin, Dylan Guenther, Connor Zary, John Tavares, Patrik Laine, Martin St. Louis, and more. Then put your video collection to work by completing Sets and Quests to unlock rewards! Each Breakaway digital Rewards Bag you unlock is stuffed with real-world and digital rewards that could include a chance to score NHL Shop gift cards or NHL game tickets!\r\n\r\nEach digital pack is randomly stuffed with four (4) video Highlights featuring key plays from NHL Breakaway curated Sets including one early adopters known as \u201cBase\u201d, featuring Highlights from key plays made during the 2024-25 season. The Starter Pack also includes a Highlight from a Set we named \u201cAcross the Pond\u201d which celebrates key plays from international games, and a key play from our NEWEST Set \u201cFresh Sweaters\u201d, featuring players making their mark with their new NHL teams.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Series 2 Starter Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 3000,
+      "uri": "https://nft.nhlbreakaway.com/series/jqGmLrbp"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/jqGmLrbp"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Series 2 Starter Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/jqGmLrbp",
+    "image": "https://nft.nhlbreakaway.com/series/jqGmLrbp/image-front-16x9.png"
+   },
+   "seriesId": "jqGmLrbp",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "jqGmLrbp"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

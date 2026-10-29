@@ -1,0 +1,313 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286324,
+    "summary": {
+     "drop_active": 1728406800,
+     "drop_expires": null,
+     "pack_price": "99.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/V1P8BA1d",
+     "number_of_highlights": 5,
+     "pack_description": "Collect the unforgettable highlights when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Featuring first goal origins from Wayne Gretzky, Mario Lemieux, Chris Pronger, Brendan Shanahan, Peter Forsberg, Duncan Keith, and more! \r\n\r\nEach pack contains 1 Opening Ice: Icons highlight, 1 Light the Lamp: Legacy highlight, 2 Across the Pond highlights, and 1 mystery highlight that could be from Across the Pond (55%), Light the Lamp: Legacy (20%), Opening Ice: Icons (15%), or Cause for a Celly: 2010s (10%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front-16x9.png",
+     "pack_rarity": "Rare",
+     "pack_title": "Opening Ice: Icons Debut LE Pack",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe000000009214000000000000",
+     "quantity": 1250,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Opening Ice: Icons Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Tuesday, Oct 8 at 1pm ET / 10am PT</span></p>\r\n<p><strong>Sweepstakes:</strong><span style=\"font-weight: 400;\"> Each pack purchased between Jan 3, 2025 at 12:01:01am ET and Jan 18, 2025 at 11:59:59pm ET is an entry for a chance to win a trip to the NHL Stadium Series&trade; . Read the </span><a href=\"https://blog.nhlbreakaway.com/jan-6-encore-pack-drop-nhl-stadium-series-sweepstakes-pickems-return-2/\"><span style=\"font-weight: 400;\">blog announcement</span></a><span style=\"font-weight: 400;\"> and </span><a href=\"https://help.nhlbreakaway.com/en/articles/10339109-nhl-breakaway-2025-nhl-stadium-series-sweepstakes-by-sweet-official-rules?ref=blog.nhlbreakaway.com\"><span style=\"font-weight: 400;\">official rules</span></a><span style=\"font-weight: 400;\"> (</span><a href=\"https://help.nhlbreakaway.com/en/articles/10339113-concours-nhl-breakaway-de-la-stadium-series-2025-de-la-lnh-par-sweet-reglement-officiel?ref=blog.nhlbreakaway.com\"><span style=\"font-weight: 400;\">version Fran&ccedil;aise</span></a><span style=\"font-weight: 400;\">) for more information. No purchase necessary to enter.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $99 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 1250 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong data-stringify-type=\"bold\">Purchase Limit:</strong>&nbsp;Ten (10) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Light the Lamp: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">55% Across the Pond (Core #/1500)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Light the Lamp: Legacy (Limited #/500)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Opening Ice: Icons (Rare #/250)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Cause for a Celly: 2010s (Epic #/100)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Payment via cryptocurrency is also available. See these&nbsp;<a class=\"c-link\" href=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\" data-sk=\"tooltip_parent\">FAQs</a>&nbsp;for a complete list of supported currencies.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQQva_eKdSwgMWlfSsGA2gObKhDsuRSATPETSryQCw7p9KwzRsruYhpguA3gt5-AjqkLzjApFFPkh6W/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Across the Pond, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp: Legacy, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Icons, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: 2010s, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Collect the unforgettable highlights when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Featuring first goal origins from Wayne Gretzky, Mario Lemieux, Chris Pronger, Brendan Shanahan, Peter Forsberg, Duncan Keith, and more! \r\n\r\nEach pack contains 1 Opening Ice: Icons highlight, 1 Light the Lamp: Legacy highlight, 2 Across the Pond highlights, and 1 mystery highlight that could be from Across the Pond (55%), Light the Lamp: Legacy (20%), Opening Ice: Icons (15%), or Cause for a Celly: 2010s (10%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe000000009214000000000000",
+     "assets": [],
+     "editions": 1250,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Opening Ice: Icons Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 1,
+          "limit": 1250
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 1,
+          "limit": 1250
+         },
+         "name": "Light the Lamp: Legacy",
+         "description": "<p>Toe drags, \"Michigan\" goals, spin-o-ramas&mdash;there's nothing quite like the thrill of lighting the lamp. In Light the Lamp: Legacy, we take you on a journey through some of the most breathtaking goals scored over the past two decades. This Limited set is a tribute to the incredible skill, creativity, and sheer brilliance that define the NHL. From jaw-dropping dekes to fake shots, Light the Lamp: Legacy captures the essence of what makes hockey so exhilarating, showcasing the unforgettable highlights that have left fans in awe.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feb0d800000000000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 1,
+          "limit": 1250
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 1,
+          "limit": 1250
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 0.5496,
+          "limit": 687
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 0.2,
+          "limit": 250
+         },
+         "name": "Light the Lamp: Legacy",
+         "description": "<p>Toe drags, \"Michigan\" goals, spin-o-ramas&mdash;there's nothing quite like the thrill of lighting the lamp. In Light the Lamp: Legacy, we take you on a journey through some of the most breathtaking goals scored over the past two decades. This Limited set is a tribute to the incredible skill, creativity, and sheer brilliance that define the NHL. From jaw-dropping dekes to fake shots, Light the Lamp: Legacy captures the essence of what makes hockey so exhilarating, showcasing the unforgettable highlights that have left fans in awe.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feb0d800000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 0.1504,
+          "limit": 188
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1250,
+          "probability": 0.1,
+          "limit": 125
+         },
+         "name": "Cause for a Celly: 2010s",
+         "description": "<p>Cause for a Celly: 2010s immortalizes many unforgettable NHL playoff highlights that helped define the sport, featuring some of the game's greatest players and iconic plays that have left an indelible mark on hockey history. From stunning overtime goals to game-saving glove saves, Cause for a Celly: 2010s captures the drama, passion, and intensity of the playoffs like never before. This Epic set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable plays that have shaped the postseason.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe6ac200000000000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1aoV5RK",
+        "set_uuid": "cd2f47fe460e00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Light the Lamp: Legacy",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/YqrMgPRJ",
+        "set_uuid": "cd2f47feb0d800000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: 2010s",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBLNRM",
+        "set_uuid": "cd2f47fe6ac200000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-10-04",
+     "rarity": {
+      "editions": 250,
+      "name": "Rare"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmaKMTDNZUi5AF7KC1HGSCG6bhXof4bZLHa6NK1nHSAok4"
+       },
+       "content-type": "image/png",
+       "sha256": "f5dgm_NDizDKyYksTwujqFwgTIuN6zz4N25fK4AZKGc=",
+       "url": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmQzpUsC8Vz1QnmuSBn9Xqip9V4YK13wzEJtuvXb9mQfJy"
+       },
+       "content-type": "image/png",
+       "sha256": "6XXQeeupI2MTvBjUn8GmVK2u7QMij0HUjnNEo5fRTVw=",
+       "url": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmaKMTDNZUi5AF7KC1HGSCG6bhXof4bZLHa6NK1nHSAok4"
+       },
+       "content-type": "image/png",
+       "sha256": "f5dgm_NDizDKyYksTwujqFwgTIuN6zz4N25fK4AZKGc=",
+       "url": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front.png"
+      }
+     },
+     "issued": "2024-10-04T15:25:02.874966",
+     "name": "Opening Ice: Icons Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "q2zsZo18DjqFYxyLvDAp_YE7f5aRB-IWlBN9OxFmiPU=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Collect the unforgettable highlights when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Featuring first goal origins from Wayne Gretzky, Mario Lemieux, Chris Pronger, Brendan Shanahan, Peter Forsberg, Duncan Keith, and more! \r\n\r\nEach pack contains 1 Opening Ice: Icons highlight, 1 Light the Lamp: Legacy highlight, 2 Across the Pond highlights, and 1 mystery highlight that could be from Across the Pond (55%), Light the Lamp: Legacy (20%), Opening Ice: Icons (15%), or Cause for a Celly: 2010s (10%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Opening Ice: Icons Debut LE Pack",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "image"
+      },
+      "total_number": 1250,
+      "uri": "https://nft.nhlbreakaway.com/series/V1P8BA1d"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/V1P8BA1d"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Opening Ice: Icons Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/V1P8BA1d",
+    "image": "https://nft.nhlbreakaway.com/series/V1P8BA1d/image-front-16x9.png"
+   },
+   "seriesId": "V1P8BA1d",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "V1P8BA1d"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

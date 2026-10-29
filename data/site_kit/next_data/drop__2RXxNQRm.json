@@ -1,0 +1,373 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286268,
+    "summary": {
+     "drop_active": 1760029200,
+     "drop_expires": null,
+     "pack_price": "19.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/2RXxNQRm",
+     "number_of_highlights": 5,
+     "pack_description": "Celebrate the thrill of new beginnings with Fresh Sweaters: Legacy Debut LE Pack, spotlighting legendary players as they suited up for NHL teams you wouldn\u2019t typically associate them with, in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.\r\n\r\nEach pack contains 1 highlight from Fresh Sweaters: Legacy, 2 highlights from Heart & Soul: 80s + 90s, 1 mystery highlight that could be from Heart & Soul: 80s + 90s (45%), Fresh Sweaters: Legacy (38%), Opening Ice: Icons (15%), or Cause for a Celly: 2000s (2%) and 1 mystery highlight that could be from Heart & Soul: 80s + 90s (47.87%), Fresh Sweaters: Legacy (35%), Opening Ice: Icons, Cause for a Celly: 2000s (2%), or The Greatest Achievements (< 1%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front-16x9.png",
+     "pack_rarity": "Limited",
+     "pack_title": "Fresh Sweaters: Legacy Debut LE Pack",
+     "series_name": "Series 3",
+     "pack_uuid": "b572cf3500000000a911000000000000",
+     "quantity": 750,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Fresh Sweaters: Legacy Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Thursday, Oct 9 at 1pm ET / 10am PT</span></p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $19 USD</span></p>\r\n<p><strong># PacksAvailable:</strong><span style=\"font-weight: 400;\"> 750 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Five (5) pack limit per person for the first 6 hours; limit increased to thirty (30) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Fresh Sweaters: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Heart &amp; Soul: 80s + 90s (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">45% Heart &amp; Soul: 80s + 90s (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">38% Fresh Sweaters: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Cause for a Celly: 2000s (Epic #/100)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">47.87% Heart &amp; Soul: 80s + 90s (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">35% Fresh Sweaters: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Cause for a Celly: 2000s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.13% The Greatest Achievements (Legendary #/10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be processed via Stripe.&nbsp;</span></p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSRLRqOwRtydhcL2bXPbLN9m6cltHp_qPLeTW-ErUnwQkM_gpT1kXcsPE7j4cZ1HgZJ-TL0wc8T6GXj/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Heart &amp; Soul: 80s + 90s, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-first-set-reveal-heart-soul-80s-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters: Legacy, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-limited-set-reveal-fresh-sweaters-legacy/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Icons, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-rare-set-reveal-opening-ice-icons/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: 2000s, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 3 highlights will only be distributed during Series 3, which ends prior to the start of the 2026-27 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Celebrate the thrill of new beginnings with Fresh Sweaters: Legacy Debut LE Pack, spotlighting legendary players as they suited up for NHL teams you wouldn\u2019t typically associate them with, in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.\r\n\r\nEach pack contains 1 highlight from Fresh Sweaters: Legacy, 2 highlights from Heart & Soul: 80s + 90s, 1 mystery highlight that could be from Heart & Soul: 80s + 90s (45%), Fresh Sweaters: Legacy (38%), Opening Ice: Icons (15%), or Cause for a Celly: 2000s (2%) and 1 mystery highlight that could be from Heart & Soul: 80s + 90s (47.87%), Fresh Sweaters: Legacy (35%), Opening Ice: Icons, Cause for a Celly: 2000s (2%), or The Greatest Achievements (< 1%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf3500000000a911000000000000",
+     "assets": [],
+     "editions": 750,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Fresh Sweaters: Legacy Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 1,
+          "limit": 750
+         },
+         "name": "Fresh Sweaters: Legacy",
+         "description": "<p>Celebrate the thrill of new beginnings with the&nbsp;<em data-stringify-type=\"italic\">Fresh Sweaters: Legacy</em>&nbsp;Limited set&mdash;spotlighting legendary players as they suited up for NHL teams you wouldn&rsquo;t typically associate them with in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dd0b00000000000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 1,
+          "limit": 750
+         },
+         "name": "Heart & Soul: 80s + 90s",
+         "description": "<p>Celebrate the players who brought heart and soul to the ice with the&nbsp;<em data-stringify-type=\"italic\">Heart &amp; Soul: 80s + 90s</em>&nbsp;set! Relive great moments from fan-favorite players whose passion and grit defined their teams. These highlights showcase the unforgettable energy and excitement of 80s and 90s hockey.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f5dc00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 1,
+          "limit": 750
+         },
+         "name": "Heart & Soul: 80s + 90s",
+         "description": "<p>Celebrate the players who brought heart and soul to the ice with the&nbsp;<em data-stringify-type=\"italic\">Heart &amp; Soul: 80s + 90s</em>&nbsp;set! Relive great moments from fan-favorite players whose passion and grit defined their teams. These highlights showcase the unforgettable energy and excitement of 80s and 90s hockey.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f5dc00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.45066666666666666,
+          "limit": 338
+         },
+         "name": "Heart & Soul: 80s + 90s",
+         "description": "<p>Celebrate the players who brought heart and soul to the ice with the&nbsp;<em data-stringify-type=\"italic\">Heart &amp; Soul: 80s + 90s</em>&nbsp;set! Relive great moments from fan-favorite players whose passion and grit defined their teams. These highlights showcase the unforgettable energy and excitement of 80s and 90s hockey.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f5dc00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.38,
+          "limit": 285
+         },
+         "name": "Fresh Sweaters: Legacy",
+         "description": "<p>Celebrate the thrill of new beginnings with the&nbsp;<em data-stringify-type=\"italic\">Fresh Sweaters: Legacy</em>&nbsp;Limited set&mdash;spotlighting legendary players as they suited up for NHL teams you wouldn&rsquo;t typically associate them with in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dd0b00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.14933333333333335,
+          "limit": 112
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Opening Ice: Icons is a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals or goalies secured their first NHL win. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35e89900000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.02,
+          "limit": 15
+         },
+         "name": "Cause for a Celly: 2000s",
+         "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353ad100000000000000000000",
+         "rarity": "Epic"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.4786666666666667,
+          "limit": 359
+         },
+         "name": "Heart & Soul: 80s + 90s",
+         "description": "<p>Celebrate the players who brought heart and soul to the ice with the&nbsp;<em data-stringify-type=\"italic\">Heart &amp; Soul: 80s + 90s</em>&nbsp;set! Relive great moments from fan-favorite players whose passion and grit defined their teams. These highlights showcase the unforgettable energy and excitement of 80s and 90s hockey.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f5dc00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.3506666666666667,
+          "limit": 263
+         },
+         "name": "Fresh Sweaters: Legacy",
+         "description": "<p>Celebrate the thrill of new beginnings with the&nbsp;<em data-stringify-type=\"italic\">Fresh Sweaters: Legacy</em>&nbsp;Limited set&mdash;spotlighting legendary players as they suited up for NHL teams you wouldn&rsquo;t typically associate them with in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dd0b00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.14933333333333335,
+          "limit": 112
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Opening Ice: Icons is a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals or goalies secured their first NHL win. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35e89900000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.02,
+          "limit": 15
+         },
+         "name": "Cause for a Celly: 2000s",
+         "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353ad100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 750,
+          "probability": 0.0013333333333333333,
+          "limit": 1
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>Hockey&rsquo;s history is rich with legendary players, unforgettable plays, and cherished memories. Yet every so often, something truly extraordinary occurs&mdash;like a record-shattering milestone or a Stanley Cup&ndash;winning goal from a franchise icon. These achievements capture the hockey world and become timeless pieces of the sport&rsquo;s legacy.&nbsp;<em data-stringify-type=\"italic\">The Greatest Achievements</em>&nbsp;honors these moments as part of the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35a62c00000000000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Cause for a Celly: 2000s",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg",
+        "set_uuid": "b572cf353ad100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/21x65ARG",
+        "set_uuid": "b572cf35e89900000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+        "set_uuid": "b572cf35a62c00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Heart & Soul: 80s + 90s",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/yRzEN8bP",
+        "set_uuid": "b572cf35f5dc00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters: Legacy",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgwr4R6",
+        "set_uuid": "b572cf35dd0b00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       }
+      ]
+     },
+     "issued": "2025-10-08",
+     "rarity": {
+      "editions": 500,
+      "name": "Limited"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmX8zVsCLBFkqbQUnDH38M9YogjhgtcGUwVmuAVZxaPoPN"
+       },
+       "content-type": "image/png",
+       "sha256": "8gg0BA5QppRVQ6BBGEFn6CkYnYQlytd8ObYsOaENaEM=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRfPRSxqVnCRzmun5oR6SRsXmyutzt6BYL3SAJVE2p9aV"
+       },
+       "content-type": "image/png",
+       "sha256": "jRHSpjTS8zu31gAH4lTyaxD1X7RcnFGoRuI3jpTIaoE=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmX8zVsCLBFkqbQUnDH38M9YogjhgtcGUwVmuAVZxaPoPN"
+       },
+       "content-type": "image/png",
+       "sha256": "8gg0BA5QppRVQ6BBGEFn6CkYnYQlytd8ObYsOaENaEM=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front.png"
+      }
+     },
+     "issued": "2025-10-08T14:44:10.312360",
+     "name": "Fresh Sweaters: Legacy Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "NBu0Kv5oKDyb3a4m09-XQBaELuHf6GibhgcpwEjovOg=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Celebrate the thrill of new beginnings with Fresh Sweaters: Legacy Debut LE Pack, spotlighting legendary players as they suited up for NHL teams you wouldn\u2019t typically associate them with, in most cases. These highlights capture iconic names taking the ice in unfamiliar colors, leaving their mark in unexpected places.\r\n\r\nEach pack contains 1 highlight from Fresh Sweaters: Legacy, 2 highlights from Heart & Soul: 80s + 90s, 1 mystery highlight that could be from Heart & Soul: 80s + 90s (45%), Fresh Sweaters: Legacy (38%), Opening Ice: Icons (15%), or Cause for a Celly: 2000s (2%) and 1 mystery highlight that could be from Heart & Soul: 80s + 90s (47.87%), Fresh Sweaters: Legacy (35%), Opening Ice: Icons, Cause for a Celly: 2000s (2%), or The Greatest Achievements (< 1%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Fresh Sweaters: Legacy Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 750,
+      "uri": "https://nft.nhlbreakaway.com/series/2RXxNQRm"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/2RXxNQRm"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Fresh Sweaters: Legacy Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/2RXxNQRm",
+    "image": "https://nft.nhlbreakaway.com/series/2RXxNQRm/image-front-16x9.png"
+   },
+   "seriesId": "2RXxNQRm",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "2RXxNQRm"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,12 @@
+{
+ "endpoint": "/distribution/inventory/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2F8R5xYdbD",
+ "http": 200,
+ "response": [
+  {
+   "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD",
+   "inventory": 0,
+   "number_sold": "-",
+   "session_limit_per_user": 10
+  }
+ ]
+}

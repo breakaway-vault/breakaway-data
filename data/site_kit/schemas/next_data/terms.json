@@ -1,0 +1,10 @@
+{
+ "pageProps": {
+  "data": {
+   "data": "str",
+   "version": "str"
+  },
+  "page": "str"
+ },
+ "__N_SSP": "bool"
+}

@@ -1,0 +1,498 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286307,
+    "summary": {
+     "drop_active": 1718902800,
+     "drop_expires": 1727744961,
+     "pack_price": "65.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/KbKmm2q5",
+     "number_of_highlights": 7,
+     "pack_description": "Hanging from the Rafters set takes you on a captivating journey through hockey history to celebrate the sport's legendary players. This unique collection that includes both Limited and Rare highlights offers an exhilarating showcase of why these players are revered as the best of their time, leaving an indelible mark as hockey's true icons.\r\n\r\nFeaturing incredible playoff performances and electrifying goals from Martin Brodeur, Joe Sakic, Luc Robitaille, Nicklas Lidstrom, Paul Coffey, Ray Bourque, and more!\r\n\r\nEach pack contains 1 Hanging from the Rafters (Rare) highlight, 1 Hanging from the Rafters (Limited) highlight, 2 mystery Core highlights that could be from Base (50%), or Base 2023-24 (50%), 2 Ice Nation highlights, and 1 mystery highlight that could be from Hanging from the Rafters (Limited: 21%), Light the Lamp (21%), Next-Gen Class (21%), Opening Ice 2023-24 (15%), Hanging from the Rafters (Rare: 10%), Opening Ice: Elites (5%), Making the Mark 2023-24 (4%), Cause for a Celly: \u201890s (2.4%), or The Greatest Achievements (<1%).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front-16x9.png",
+     "pack_rarity": "Rare",
+     "pack_title": "Hanging from the Rafters Debut LE Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae7700000000a0a1000000000000",
+     "quantity": 1000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Hanging from the Rafters Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Thursday June 20, 2024 at 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $65 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 1,000. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Five (5) pack limit per person for the first 24 hours; limit increased to ten (10) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 7</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Hanging from the Rafters (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Hanging from the Rafters (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Ice Nation (Fandom #/10000)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Base (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Base 2023-24 (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">21% Hanging from the Rafters (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">21% Light the Lamp (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">21% Next-Gen Class (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Hanging from the Rafters (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">5% Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">4% Making the Mark 2023-24 (Epic #100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2.4% Cause for a Celly: &lsquo;90s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.6% The Greatest Achievements (Legendary #10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQbHoeu55gFmehCnNuN4nBpORZO3jX6AOXIWcG6DpI94hTFnJpuFsJvNMCVhpwiazklD68pg5UGxvPy/pubhtml\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Ice Nation, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/introducing-ice-nation-packs-highlights/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/base-set-preview-rarity-tiers/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/light-the-lamp-preview-march-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/next-gen-class-preview-feb-29-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Elites, Series 1 - </span><a href=\"http://blog.nhlbreakaway.com/opening-ice-elites-set-preview/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: &lsquo;90s, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/cause-for-a-celly-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark 2023-24 - </span><a href=\"https://blog.nhlbreakaway.com/making-the-mark-2023-24-preview-may-23-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/the-greatest-achievements-preview-guardians-of-the-net-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Hanging from the Rafters set takes you on a captivating journey through hockey history to celebrate the sport's legendary players. This unique collection that includes both Limited and Rare highlights offers an exhilarating showcase of why these players are revered as the best of their time, leaving an indelible mark as hockey's true icons.\r\n\r\nFeaturing incredible playoff performances and electrifying goals from Martin Brodeur, Joe Sakic, Luc Robitaille, Nicklas Lidstrom, Paul Coffey, Ray Bourque, and more!\r\n\r\nEach pack contains 1 Hanging from the Rafters (Rare) highlight, 1 Hanging from the Rafters (Limited) highlight, 2 mystery Core highlights that could be from Base (50%), or Base 2023-24 (50%), 2 Ice Nation highlights, and 1 mystery highlight that could be from Hanging from the Rafters (Limited: 21%), Light the Lamp (21%), Next-Gen Class (21%), Opening Ice 2023-24 (15%), Hanging from the Rafters (Rare: 10%), Opening Ice: Elites (5%), Making the Mark 2023-24 (4%), Cause for a Celly: \u201890s (2.4%), or The Greatest Achievements (<1%).",
+     "uuid": "b5c8ae7700000000a0a1000000000000",
+     "assets": [],
+     "editions": 1000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Hanging from the Rafters Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 1,
+          "limit": 1000
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77ca2d00000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 1,
+          "limit": 1000
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae771b0c00000000000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 1,
+          "limit": 1000
+         },
+         "name": "Ice Nation",
+         "description": "<p>Prepare for an adrenaline-pumping journey through a selection of electrifying highlights from both the 2022-23 and 2023-24 NHL seasons! These remarkable plays have been handpicked to not only showcase the incredible diversity of talent across the league but also to captivate and excite newcomers as they step into the exhilarating world of NHL Breakaway.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77723900000000000000000000",
+         "rarity": "Fandom"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 1,
+          "limit": 1000
+         },
+         "name": "Ice Nation",
+         "description": "<p>Prepare for an adrenaline-pumping journey through a selection of electrifying highlights from both the 2022-23 and 2023-24 NHL seasons! These remarkable plays have been handpicked to not only showcase the incredible diversity of talent across the league but also to captivate and excite newcomers as they step into the exhilarating world of NHL Breakaway.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77723900000000000000000000",
+         "rarity": "Fandom"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.5,
+          "limit": 500
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.5,
+          "limit": 500
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.5,
+          "limit": 500
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.5,
+          "limit": 500
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.21,
+          "limit": 210
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae771b0c00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.21,
+          "limit": 210
+         },
+         "name": "Light the Lamp",
+         "description": "<p>Dive into the heart-pounding moment the puck crosses the goal line with our exclusive collectible set, 'Light the Lamp.' This collection features players scoring thrilling goals, capturing the very essence of why they are cherished as impactful contributors. Each highlight in 'Light the Lamp' serves as a snapshot of electrifying plays showcasing the player's skill and finesse as they find the back of the net. From jaw-dropping breakaways to top corner snipes, these extraordinary highlights remind us why these players are known for their game-changing prowess.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77966800000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.21,
+          "limit": 210
+         },
+         "name": "Next-Gen Class",
+         "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77cc3600000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.15,
+          "limit": 150
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.1,
+          "limit": 100
+         },
+         "name": "Hanging from the Rafters",
+         "description": "<p>Introducing Hanging from the Rafters, a special collection that celebrates the sport's legendary players. This unique historical set that includes both Rare, and Limited highlights commemorates the amazing plays that made these athletes stand out, showcasing their skill and talent on the ice. From incredible playoff performances to electrifying goals, experience the excitement of some of hockey's greatest stars as they leave their mark on the game. Hanging from the Rafters invites you to rediscover the magic of these historic highlights, captured for fans to enjoy for years to come.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77ca2d00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.05,
+          "limit": 50
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing Opening Ice: Elites, an exhilarating set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments. Opening Ice: Elites is a celebration of the sport's future legends and a must-have addition to any hockey enthusiast's collection, cherishing the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7756ae00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.04,
+          "limit": 40
+         },
+         "name": "Making the Mark 2023-24",
+         "description": "<p>Making the Mark 2023-24 commemorates remarkable single-season and career achievements from the 2023-2024 NHL regular season. This seasonal set features an elite guardian ascending the throne, a scoring mark not seen for decades, an assist milestone achieved by only five players in hockey history, and other noteworthy feats. These standout performances are defining moments in players' careers, poised to become enduring landmarks in NHL history as each athlete leaves their mark on the ice.&nbsp;</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7769b900000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.024,
+          "limit": 24
+         },
+         "name": "Cause for a Celly: '90s",
+         "description": "<div>\r\n<div>The Cause <em>For A Celly: '90s</em> collection immortalizes unforgettable NHL playoff highlights from the '90s that helped define the sport, featuring many of the game's greatest players and iconic moments that have left an indelible mark on hockey history.</div>\r\n<br />\r\n<div>Relive the exhilarating moments, featuring both legendary players and game or series-changing plays. From stunning overtime goals to game-saving glove saves, <em>Cause For A Celly: '90s</em> captures the drama, passion, and intensity of the playoffs like never before.</div>\r\n<br />\r\n<div>This exclusive set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable moments that have shaped the postseason.</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d22f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1000,
+          "probability": 0.006,
+          "limit": 6
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>In the rich tapestry of hockey's history, numerous great players, exceptional plays, and cherished memories have left an indelible mark. Yet, amidst this legacy of greatness, there are rare occasions when something truly extraordinary takes place, captivating the entire hockey world and etching it permanently into the collective memory. Whether it's witnessing a longstanding record shattered, a team achieving a momentous milestone, or witnessing a player's exceptional accomplishments being rightfully recognized, these events become timeless and integral parts of the sport's legacy. \"The Greatest Achievements\" serves to honor this rich history and commemorate in a unique way in the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae775be800000000000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Hanging from the Rafters",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/8bMLLo1d",
+        "set_uuid": "b5c8ae77ca2d00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Hanging from the Rafters",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/v1yjjzbP",
+        "set_uuid": "b5c8ae771b0c00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Making the Mark 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/A1LwwOqw",
+        "set_uuid": "b5c8ae7769b900000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Light the Lamp",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBByRM",
+        "set_uuid": "b5c8ae77966800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Next-Gen Class",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+        "set_uuid": "b5c8ae77cc3600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rR8rAl1d",
+        "set_uuid": "b5c8ae775be800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Cause for a Celly: '90s",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+        "set_uuid": "b5c8ae77d22f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Ice Nation",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/ebWVvd1G",
+        "set_uuid": "b5c8ae77723900000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Fandom"
+       },
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kwkRd",
+        "set_uuid": "b5c8ae7756ae00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+        "set_uuid": "b5c8ae77b8f100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-06-19",
+     "rarity": {
+      "editions": 250,
+      "name": "Rare"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmYnAfoGsqqqErTg8U4dD5nNnJqasrDj96gRKUEjL7Z8eo"
+       },
+       "content-type": "image/png",
+       "sha256": "atDIdvkMql85iT1wvp2lFUkQRjHUXghLMiK7qcTXsVw=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmNryUST5Nf9emNedQKtMYkC6VscPQpzbpHjXCyto2LoiK"
+       },
+       "content-type": "image/png",
+       "sha256": "kb3JG4OMeKaCwj6b0HKdW24If2bNSG84qmdQzHCXH8A=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmYnAfoGsqqqErTg8U4dD5nNnJqasrDj96gRKUEjL7Z8eo"
+       },
+       "content-type": "image/png",
+       "sha256": "atDIdvkMql85iT1wvp2lFUkQRjHUXghLMiK7qcTXsVw=",
+       "url": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front.png"
+      }
+     },
+     "issued": "2024-06-19T19:13:41.012378",
+     "name": "Hanging from the Rafters Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "x5VUwWq2lbzm4tiEDX2ekCrh3WCiNTrQpwU0qdxkjHY=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Hanging from the Rafters set takes you on a captivating journey through hockey history to celebrate the sport's legendary players. This unique collection that includes both Limited and Rare highlights offers an exhilarating showcase of why these players are revered as the best of their time, leaving an indelible mark as hockey's true icons.\r\n\r\nFeaturing incredible playoff performances and electrifying goals from Martin Brodeur, Joe Sakic, Luc Robitaille, Nicklas Lidstrom, Paul Coffey, Ray Bourque, and more!\r\n\r\nEach pack contains 1 Hanging from the Rafters (Rare) highlight, 1 Hanging from the Rafters (Limited) highlight, 2 mystery Core highlights that could be from Base (50%), or Base 2023-24 (50%), 2 Ice Nation highlights, and 1 mystery highlight that could be from Hanging from the Rafters (Limited: 21%), Light the Lamp (21%), Next-Gen Class (21%), Opening Ice 2023-24 (15%), Hanging from the Rafters (Rare: 10%), Opening Ice: Elites (5%), Making the Mark 2023-24 (4%), Cause for a Celly: \u201890s (2.4%), or The Greatest Achievements (<1%).",
+       "is_openable": true,
+       "name": "Hanging from the Rafters Debut LE Pack",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "image"
+      },
+      "total_number": 1000,
+      "uri": "https://nft.nhlbreakaway.com/series/KbKmm2q5"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/KbKmm2q5"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Hanging from the Rafters Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/KbKmm2q5",
+    "image": "https://nft.nhlbreakaway.com/series/KbKmm2q5/image-front-16x9.png"
+   },
+   "seriesId": "KbKmm2q5",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "KbKmm2q5"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

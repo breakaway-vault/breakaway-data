@@ -1,0 +1,572 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286280,
+    "summary": {
+     "drop_active": 1776877200,
+     "drop_expires": null,
+     "pack_price": "15.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/61p6QVRP",
+     "number_of_highlights": 5,
+     "pack_description": "Get ready for the playoffs with Playoff Bound 2026! This Core set features one standout highlight from each playoff-bound team\u2019s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!\r\n\r\nEach pack contains 1 highlight from Playoff Bound 2026 (100%); 2 highlights that can be from Playoff Bound 2026 (50%), Base 2025-26 (20%), Next-Gen 2025-26 (20%), or Opening Ice 2025-26 (10%); 1 highlight that can be from Rinkside Rivalries (66%), Fresh Sweaters 2025-26 (6%), Seasoned Steel (16%), Opening Ice 2025-26 (10%), Cause for a Celly: 2000s (1%) or Making the Mark 2025-26 (1%); 1 highlight that could be from Playoff Bound (33.95%), Base 2025-26 (25%), Fresh Sweaters 2025-26 (10%), Filthy Apples (20%), Seasoned Steel (5%), Next-Gen Class 2025-26 (5%), Conn Smythe Showcase (1%), or The Greatest Achievements (.05%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Playoff Bound 2026 Debut LE Pack",
+     "series_name": "Series 3",
+     "pack_uuid": "b572cf3500000000acb3000000000000",
+     "quantity": 2000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Playoff Bound 2026 Debut LE Pack",
+      "description": "<p>&nbsp;</p>\r\n<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Wednesday, April 22nd at 1pm ET / 10am PT</span></p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $15 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 2000 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 6 hours; the limit increases to a fifty (50) pack limit per person afterward. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Playoff Bound 2026 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights with the following probabilities:</span></li>\r\n</ul>\r\n<ul>\r\n<li style=\"list-style-type: none;\">\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Playoff Bound 2026 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Base 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Next-Gen Class 2025-26 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice 2025-26 (Rare #/250)</span></li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n</ul>\r\n<ul>\r\n<li style=\"list-style-type: none;\">\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">66% Rinkside Rivalries (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">6% Fresh Sweaters 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">16% Seasoned Steel (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice 2025-26 (Rare #/250)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Making the Mark 2025-26 (Epic #/100)&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Cause for a Celly: 2000s (Epic #/100)&nbsp;</span></li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n</ul>\r\n<ul>\r\n<li style=\"list-style-type: none;\">\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">33.95% Playoff Bound 2026 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Base 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Fresh Sweaters 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Filthy Apples (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">5% Next-Gen Class 2025-26 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">5% Seasoned Steel (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1% Conn Smythe Showcase (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.05% The Greatest Achievements (Legendary #/10)</span></li>\r\n</ul>\r\n</li>\r\n</ul>\r\n<p><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSCx5hztXIw2GqrxCncNAL5hUGk1ED0o8tD5jPeLh5BR9_aVbtN2pu3dYykp9A4hksjU2RoRMpFT-gm/pubhtml\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be processed via Stripe.&nbsp;</span></p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 3 highlights will only be distributed during Series 3, which ends prior to the start of the 2026-27 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>"
+     },
+     "description": "Get ready for the playoffs with Playoff Bound 2026! This Core set features one standout highlight from each playoff-bound team\u2019s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!\r\n\r\nEach pack contains 1 highlight from Playoff Bound 2026 (100%); 2 highlights that can be from Playoff Bound 2026 (50%), Base 2025-26 (20%), Next-Gen 2025-26 (20%), or Opening Ice 2025-26 (10%); 1 highlight that can be from Rinkside Rivalries (66%), Fresh Sweaters 2025-26 (6%), Seasoned Steel (16%), Opening Ice 2025-26 (10%), Cause for a Celly: 2000s (1%) or Making the Mark 2025-26 (1%); 1 highlight that could be from Playoff Bound (33.95%), Base 2025-26 (25%), Fresh Sweaters 2025-26 (10%), Filthy Apples (20%), Seasoned Steel (5%), Next-Gen Class 2025-26 (5%), Conn Smythe Showcase (1%), or The Greatest Achievements (.05%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf3500000000acb3000000000000",
+     "assets": [],
+     "editions": 2000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Playoff Bound 2026 Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 1,
+          "limit": 2000
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.5,
+          "limit": 1000
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.2,
+          "limit": 400
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.2,
+          "limit": 400
+         },
+         "name": "Next-Gen Class 2025-26",
+         "description": "<p>Elevate your collection with the&nbsp;<em data-stringify-type=\"italic\">Next-Gen Class 2025-26</em>&nbsp;set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf354eaf00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.1,
+          "limit": 200
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.5,
+          "limit": 1000
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.2,
+          "limit": 400
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.2,
+          "limit": 400
+         },
+         "name": "Next-Gen Class 2025-26",
+         "description": "<p>Elevate your collection with the&nbsp;<em data-stringify-type=\"italic\">Next-Gen Class 2025-26</em>&nbsp;set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf354eaf00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.1,
+          "limit": 200
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.66,
+          "limit": 1320
+         },
+         "name": "Rinkside Rivalries",
+         "description": "<p>Rinkside Rivalries is a Core set that dives into hockey at its most intense, spotlighting six of the <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span>&rsquo;s most storied rivalries across some of their most emotional moments. Each rivalry is represented by one goal per team, featuring dramatic overtime tallies, massive momentum shifters, and clutch game-winners that silenced arenas and ignited fanbases&mdash;no matter the stage.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35aad400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.06,
+          "limit": 120
+         },
+         "name": "Fresh Sweaters 2025-26",
+         "description": "<p>Celebrate the excitement of a fresh start with the&nbsp;<strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Fresh Sweaters 2025-26</em></strong>&nbsp;Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353aed00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.16,
+          "limit": 320
+         },
+         "name": "Seasoned Steel",
+         "description": "<div id=\"message-list_1765910272.874639\" class=\"c-virtual_list__item\" tabindex=\"0\" role=\"listitem\" aria-setsize=\"-1\" data-qa=\"virtual-list-item\" data-item-key=\"1765910272.874639\">\r\n<div class=\"c-message_kit__background c-message_kit__background--hovered c-message_kit__background--labels c-message_kit__background--labels--later p-message_pane_message__message c-message_kit__message\" role=\"presentation\" data-qa=\"message_container\" data-qa-unprocessed=\"false\" data-qa-placeholder=\"false\" data-msg-ts=\"1765910272.874639\" data-msg-channel-id=\"C09HHG88H4Z\" data-qa-label=\"later\">\r\n<div class=\"c-message_kit__hover c-message_kit__hover--hovered\" role=\"document\" aria-roledescription=\"message\" data-qa-hover=\"true\">\r\n<div class=\"c-message_kit__actions c-message_kit__actions--default\">\r\n<div class=\"p-message_pane_message__message_label c-message_kit__labels c-message_kit__labels--light\">\r\n<div class=\"c-message_kit__gutter\">\r\n<div class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\">\r\n<div class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\">\r\n<div class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\">\r\n<div class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\">\r\n<div class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\">\r\n<div class=\"p-rich_text_block\" dir=\"auto\">\r\n<div class=\"p-rich_text_section\"><em data-stringify-type=\"italic\">Seasoned Steel&nbsp;</em>is a Rare set that honors the veterans who&rsquo;ve earned lasting respect from their fanbases. Some are stars still driving the play, others steady contributors with years of impact, and some the unsung staples who&rsquo;ve quietly held their teams together. Different paths, same result &mdash; players who&rsquo;ve become part of their team&rsquo;s identity.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f44300000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.1,
+          "limit": 200
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.01,
+          "limit": 20
+         },
+         "name": "Cause for a Celly: 2000s",
+         "description": "<p><strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Cause for a Celly: 2000s</em></strong><strong data-stringify-type=\"bold\">, an Epic set that celebrates unforgettable NHL playoff moments that helped define the decade. From legendary players to game-changing plays&mdash;overtime winners, Game 7 heroics, and more&mdash;this Epic set captures the intensity, drama, and passion of postseason hockey at its finest.</strong></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353ad100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.01,
+          "limit": 20
+         },
+         "name": "Making the Mark 2025-26",
+         "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35afe100000000000000000000",
+         "rarity": "Epic"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.3395,
+          "limit": 679
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.25,
+          "limit": 500
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.1,
+          "limit": 200
+         },
+         "name": "Fresh Sweaters 2025-26",
+         "description": "<p>Celebrate the excitement of a fresh start with the&nbsp;<strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Fresh Sweaters 2025-26</em></strong>&nbsp;Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353aed00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.2,
+          "limit": 400
+         },
+         "name": "Filthy Apples",
+         "description": "<p><span style=\"font-weight: 400;\">Filthy Apples celebrates the slickest setup artists in the game &ndash; the visionaries who turn split-second reads into jaw-dropping goals. From no-look dishes to cross-ice lasers, this set is all about creativity, awareness, and pure playmaking audacity. Different styles, same result - defenders frozen, goalies guessing, and highlight reels getting longer.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35051200000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.05,
+          "limit": 100
+         },
+         "name": "Next-Gen Class 2025-26",
+         "description": "<p>Elevate your collection with the&nbsp;<em data-stringify-type=\"italic\">Next-Gen Class 2025-26</em>&nbsp;set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf354eaf00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.05,
+          "limit": 100
+         },
+         "name": "Seasoned Steel",
+         "description": "<div id=\"message-list_1765910272.874639\" class=\"c-virtual_list__item\" tabindex=\"0\" role=\"listitem\" aria-setsize=\"-1\" data-qa=\"virtual-list-item\" data-item-key=\"1765910272.874639\">\r\n<div class=\"c-message_kit__background c-message_kit__background--hovered c-message_kit__background--labels c-message_kit__background--labels--later p-message_pane_message__message c-message_kit__message\" role=\"presentation\" data-qa=\"message_container\" data-qa-unprocessed=\"false\" data-qa-placeholder=\"false\" data-msg-ts=\"1765910272.874639\" data-msg-channel-id=\"C09HHG88H4Z\" data-qa-label=\"later\">\r\n<div class=\"c-message_kit__hover c-message_kit__hover--hovered\" role=\"document\" aria-roledescription=\"message\" data-qa-hover=\"true\">\r\n<div class=\"c-message_kit__actions c-message_kit__actions--default\">\r\n<div class=\"p-message_pane_message__message_label c-message_kit__labels c-message_kit__labels--light\">\r\n<div class=\"c-message_kit__gutter\">\r\n<div class=\"c-message_kit__gutter__right\" role=\"presentation\" data-qa=\"message_content\">\r\n<div class=\"c-message_kit__blocks c-message_kit__blocks--rich_text\">\r\n<div class=\"c-message__message_blocks c-message__message_blocks--rich_text\" data-qa=\"message-text\">\r\n<div class=\"p-block_kit_renderer\" data-qa=\"block-kit-renderer\">\r\n<div class=\"p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first\">\r\n<div class=\"p-rich_text_block\" dir=\"auto\">\r\n<div class=\"p-rich_text_section\"><em data-stringify-type=\"italic\">Seasoned Steel&nbsp;</em>is a Rare set that honors the veterans who&rsquo;ve earned lasting respect from their fanbases. Some are stars still driving the play, others steady contributors with years of impact, and some the unsung staples who&rsquo;ve quietly held their teams together. Different paths, same result &mdash; players who&rsquo;ve become part of their team&rsquo;s identity.</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f44300000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.01,
+          "limit": 20
+         },
+         "name": "Conn Smythe Showcase",
+         "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dbe100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 2000,
+          "probability": 0.0005,
+          "limit": 1
+         },
+         "name": "Martin Brodeur",
+         "description": "On March 17, 2009, Martin Brodeur solidified his place in hockey history with a performance that showcased his brilliance and consistency. In a 30-save masterpiece, Brodeur led the New Jersey Devils to a 3-2 victory, earning his 552nd career win and surpassing Patrick Roy as the NHL\u2019s all-time leader in goaltender victories. The win was a culmination of years of excellence, as Brodeur had long been the gold standard for goaltending with his hybrid style, exceptional ability to handle the puck, unshakable poise, and remarkable longevity.  \r\nFollowing the game, Brodeur celebrated the historic achievement in a way befitting his stature\u2014cutting the net from his goal as a keepsake of the moment. The crowd at Prudential Center erupted in cheers, honoring a goaltender who had brought their franchise three Stanley Cups and countless unforgettable moments. It wasn\u2019t just a celebration of a record; it was a celebration of a career that had redefined what it meant to be a goaltender in the modern era.  \r\nBut Brodeur didn\u2019t stop there. He continued his remarkable career, ultimately amassing an astonishing 691 wins before retiring. Along the way, he set numerous records, including the most shutouts in NHL history with 125. Brodeur\u2019s legacy isn\u2019t just etched in the record books\u2014it\u2019s cemented in the hearts of hockey fans who witnessed a player whose impact on the game went far beyond his dazzling statistics. For a generation of fans, Martin Brodeur became synonymous with greatness in the crease, and his 552nd win will forever be remembered as one of the defining moments of his legendary career.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b572cf35a62c0000a936000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Playoff Bound 2026",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/zqlMjN1N",
+        "set_uuid": "b572cf355f5100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Rinkside Rivalries",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/j1ZJjx1K",
+        "set_uuid": "b572cf35aad400000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Conn Smythe Showcase",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk",
+        "set_uuid": "b572cf35dbe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Making the Mark 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/8bML661d",
+        "set_uuid": "b572cf35afe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Filthy Apples",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/v1yjJQbP",
+        "set_uuid": "b572cf35051200000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Seasoned Steel",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/kR7GKGRE",
+        "set_uuid": "b572cf35f44300000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Next-Gen Class 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBeARM",
+        "set_uuid": "b572cf354eaf00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Base 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/AqkW0kq6",
+        "set_uuid": "b572cf35ea8000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz",
+        "set_uuid": "b572cf3537d000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Fresh Sweaters 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kx7Rd",
+        "set_uuid": "b572cf353aed00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Cause for a Celly: 2000s",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/VqmoD3bg",
+        "set_uuid": "b572cf353ad100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+        "set_uuid": "b572cf35a62c00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Legendary"
+       }
+      ]
+     },
+     "issued": "2026-04-20",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmVdXTmssejc3c1tWb8LfApLauwdn1LGreLRMSd3HT6Cmi"
+       },
+       "content-type": "image/png",
+       "sha256": "er_oAh26ETVnEyBzppJk4vkyHnHbrgJH2YhKI-DFItE=",
+       "url": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmeKoFudCcvtdJpFyb36btFjBTngLUmVaE2ezwTu1SWFKV"
+       },
+       "content-type": "image/png",
+       "sha256": "iN7uekETEN06xR-RAOOQI0ZWe2zzPDkl5Iq77dieDvw=",
+       "url": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmVdXTmssejc3c1tWb8LfApLauwdn1LGreLRMSd3HT6Cmi"
+       },
+       "content-type": "image/png",
+       "sha256": "er_oAh26ETVnEyBzppJk4vkyHnHbrgJH2YhKI-DFItE=",
+       "url": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front.png"
+      }
+     },
+     "issued": "2026-04-20T14:47:51.437410",
+     "name": "Playoff Bound 2026 Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "SPCEFYIQQg03UJGzRKC2qjMvxF6xKdDcyRMZ8oiqMNE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Get ready for the playoffs with Playoff Bound 2026! This Core set features one standout highlight from each playoff-bound team\u2019s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!\r\n\r\nEach pack contains 1 highlight from Playoff Bound 2026 (100%); 2 highlights that can be from Playoff Bound 2026 (50%), Base 2025-26 (20%), Next-Gen 2025-26 (20%), or Opening Ice 2025-26 (10%); 1 highlight that can be from Rinkside Rivalries (66%), Fresh Sweaters 2025-26 (6%), Seasoned Steel (16%), Opening Ice 2025-26 (10%), Cause for a Celly: 2000s (1%) or Making the Mark 2025-26 (1%); 1 highlight that could be from Playoff Bound (33.95%), Base 2025-26 (25%), Fresh Sweaters 2025-26 (10%), Filthy Apples (20%), Seasoned Steel (5%), Next-Gen Class 2025-26 (5%), Conn Smythe Showcase (1%), or The Greatest Achievements (.05%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Playoff Bound 2026 Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 2000,
+      "uri": "https://nft.nhlbreakaway.com/series/61p6QVRP"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/61p6QVRP"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Playoff Bound 2026 Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/61p6QVRP",
+    "image": "https://nft.nhlbreakaway.com/series/61p6QVRP/image-front-16x9.png"
+   },
+   "seriesId": "61p6QVRP",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "61p6QVRP"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

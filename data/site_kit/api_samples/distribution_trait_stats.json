@@ -1,0 +1,39 @@
+{
+ "endpoint": "/distribution/trait/stats/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2FGqEK4QbD",
+ "http": 200,
+ "response": {
+  "Audio Type": {
+   "Voice Over Commentary": 0.1667,
+   "Sounds of the Game": 0.8333
+  },
+  "Date": {
+   "2022-05-26": 0.1667,
+   "2025-04-04": 0.1667,
+   "2014-01-10": 0.1667,
+   "2009-06-04": 0.1667,
+   "2023-05-18": 0.1667,
+   "2021-12-06": 0.1667
+  },
+  "Play": {
+   "Goal": 1.0
+  },
+  "Player": {
+   "Matthew Tkachuk": 0.1667,
+   "Alex Ovechkin": 0.1667,
+   "Sidney Crosby": 0.1667,
+   "Cale Makar": 0.1667,
+   "Nathan MacKinnon": 0.1667,
+   "Connor McDavid": 0.1667
+  },
+  "Rarity": {
+   "Legendary": 1.0
+  },
+  "Team": {
+   "Florida Panthers": 0.1667,
+   "Colorado Avalanche": 0.3333,
+   "Pittsburgh Penguins": 0.1667,
+   "Edmonton Oilers": 0.1667,
+   "Washington Capitals": 0.1667
+  }
+ }
+}

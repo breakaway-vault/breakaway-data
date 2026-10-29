@@ -1,0 +1,1420 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286266,
+    "summary": {
+     "drop_active": 1734458400,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/21x6ZXRG",
+     "number_of_highlights": 3,
+     "pack_description": "Follow the action of the 2024-24 NHL regular season with the Base 2024-25 December Expansion Pack!  Featuring Frederik Andersen, Mattias Ekholm, Leo Carlsson, Jamie Benn, Tage Thompson, Noah Hanifin, and more! This pack includes guaranteed Core highlights with additional chances for Rare, Epic, and Legendary highlights.\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Across the Pond (40%), Base 2024-25 (40%), or Fresh Sweaters (20%), and 1 mystery highlight that could be from Fresh Sweaters (39%), Light the Lamp: Legacy (39%), Opening Ice: Icons (10%), Opening Ice: Elites (10%), Take a Bow (1.94%), or Etched in Ice (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Base 2024-25 December Expansion Pack",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe000000008857000000000000",
+     "quantity": 1500,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Base 2024-25 December Expansion Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Tuesday, Dec 17 at 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># PacksAvailable:</strong><span style=\"font-weight: 400;\"> 1500 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Fifty (50) pack limit per person for the first 6 hours; limit increased to seventy-five (75) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">40% Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">40% Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Fresh Sweaters (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">39% Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">39% Light the Lamp: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.94% Take a Bow (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.06% Etched in Ice (Legendary #/10)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Payment via cryptocurrency is also available. See these </span><a href=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\"><span style=\"font-weight: 400;\">FAQs</span></a><span style=\"font-weight: 400;\"> for a complete list of supported currencies.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vReaebGNnBxZ6XS6kFkV-oL-WOIvZQWAcKUNBr7K0vE8FFEy8wjY54rr-u_e2r5nMxy_DtMvyQ8ODCF/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Across the Pond, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2024-25, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp: Legacy, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Icons, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Elites, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice 2024-25, Series 2 - Preview</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: 2010s, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Take a Bow, Series 2 - <a href=\"https://blog.nhlbreakaway.com/opening-ice-2024-25-preview-dec-17-drop/\" target=\"_blank\" rel=\"noopener\">Preview</a></span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Etched in Ice, Series 2 - <a href=\"https://blog.nhlbreakaway.com/opening-ice-2024-25-preview-dec-17-drop/\" target=\"_blank\" rel=\"noopener\">Preview</a></span></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Follow the action of the 2024-24 NHL regular season with the Base 2024-25 December Expansion Pack!  Featuring Frederik Andersen, Mattias Ekholm, Leo Carlsson, Jamie Benn, Tage Thompson, Noah Hanifin, and more! This pack includes guaranteed Core highlights with additional chances for Rare, Epic, and Legendary highlights.\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Across the Pond (40%), Base 2024-25 (40%), or Fresh Sweaters (20%), and 1 mystery highlight that could be from Fresh Sweaters (39%), Light the Lamp: Legacy (39%), Opening Ice: Icons (10%), Opening Ice: Elites (10%), Take a Bow (1.94%), or Etched in Ice (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe000000008857000000000000",
+     "assets": [],
+     "editions": 1500,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Base 2024-25 December Expansion Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03333333333333333,
+          "limit": 50
+         },
+         "name": "Aleksander Barkov",
+         "description": "Playing in his home country during the NHL Global Series in Helsinki, Aleksander Barkov thrilled the Finnish crowd fresh off a Stanley Cup win the season prior. Barkov showcased his scoring touch by netting a wrist shot from the slot, adding to an electrifying performance. He finished the game with four points, including three assists, earning first-star honors and cementing the moment as a special highlight in front of his hometown fans.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008cf3000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03,
+          "limit": 45
+         },
+         "name": "Alex Lyon",
+         "description": "As the puck moved across the slot to the far side, Alex Lyon slid over just in time to rob Mathew Barzal of a sure goal with a stellar glove save. Lyon was flawless, stopping all 30 shots he faced to secure the Red Wings\u2019 1-0 victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000add0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.023333333333333334,
+          "limit": 35
+         },
+         "name": "Alex Newhook",
+         "description": "Alex Newhook received a pass near the blueline, skated towards the net, and fired a wicked wrist shot top shelf, netting his first goal of the 2024-25 season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a365000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.024,
+          "limit": 36
+         },
+         "name": "Alex Ovechkin",
+         "description": "After notching an assist earlier in the period, Alex Ovechkin set up Aliaksei Protas\u2019 goal to earn his 700th career NHL assist. With that milestone, Ovechkin became the 60th player in league history to reach 700 assists. He also joined an elite group of only six players to record both 700 goals and 700 assists, alongside legends Wayne Gretzky, Gordie Howe, Jaromir Jagr, Phil Esposito, and Marcel Dionne.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000908a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028666666666666667,
+          "limit": 43
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After a puck steal by Artemi Panarin, Alexis Lafreni\u00e8re raced up the ice to receive a pass from his teammate. As he approached the net and the defender slid to block the play, Lafreni\u00e8re executed a smooth toe drag to evade the defender\u2019s stick before firing a shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000097ff000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Aliaksei Protas",
+         "description": "After battling for the puck in his own zone against multiple opponents, Aliaksei Protas moves it up to Dylan Strome and quickly heads up ice. As the play develops, Alex Ovechkin finds Protas on the far side and threads a pass his way. Protas\u2019 pass attempt then takes a fortunate redirect and finds the back of the net. Starting with a strong defensive effort, Protas\u2019 goal gave the Capitals a crucial two-goal lead in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b9c9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.026,
+          "limit": 39
+         },
+         "name": "Brandon Tanev",
+         "description": "Getting his stick in the lane, Brandon Tanev intercepted a pass attempt at the blue line springing him loose on a breakaway.  Approaching the goalie, he fired a wrist shot short side that went bar-and-in.  The unassisted tally was his first of two in the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000094fa000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Brayden Schenn",
+         "description": "In an overtime matchup against the San Jose Sharks, Brayden Schenn scored his first goal of the 2024-25 season, netting the game winner. After picking up the puck in the defensive zone, Schenn weaved through traffic and, as he reached the top of the circle in the offensive zone, unleashed a wrist shot that found the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000088a0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028,
+          "limit": 42
+         },
+         "name": "Brock Nelson",
+         "description": "Brock Nelson, the Islanders' leading goal scorer for the past five seasons, netted a beauty against Colorado. Picking up the puck, Nelson made a slick move to his backhand to shake off a defender, then quickly shifted to his forehand to dodge the goalie\u2019s pokecheck and buried it in the net. It was the first of two goals for Nelson in the Islanders' victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000096e5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.026,
+          "limit": 39
+         },
+         "name": "Cole Caufield",
+         "description": "Stationed down low to the left of the net during a Montreal Canadiens power play, Cole Caufield received a perfect cross-crease pass and one-timed it into the net. His goal, the only one of the game, stood as the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008c4f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03133333333333333,
+          "limit": 47
+         },
+         "name": "Cole Perfetti",
+         "description": "Cole Perfetti picks up a pass in the slot, swiftly maneuvers around the defender\u2019s stick to avoid the pokecheck, and rips a shot far side past the goalie. Perfetti\u2019s goal was the first of two on the night, rounding out a stellar four-point performance with two goals and two assists.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000be2c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.025333333333333333,
+          "limit": 38
+         },
+         "name": "Connor Zary",
+         "description": "In the season opener against the Vancouver Canucks, Connor Zary netted the game-winning goal in overtime. Carrying the puck down the ice, Zary executed a slick backhand deke to beat the defender, then shifted to his forehand to slip past the goaltender and bury the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009e9d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.030666666666666665,
+          "limit": 46
+         },
+         "name": "Frederik Andersen",
+         "description": "During a wild scramble in front of the net, Frederik Andersen came up big with a series of saves as part of his 33-save performance. After blocking a point shot, Andersen denied Jeff Skinner twice in quick succession\u2014first with a point-blank stop, followed by a close-range stuff attempt.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000878b000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.029333333333333333,
+          "limit": 44
+         },
+         "name": "Gustav Nyquist",
+         "description": "On a two-on-one break, Gustav Nyquist carried the puck toward the net. Appearing ready to unleash a heavy shot, he instead surprised the goalie with an off-speed wrister that found the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a239000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03133333333333333,
+          "limit": 47
+         },
+         "name": "Ivan Barbashev",
+         "description": "Already with a goal and two assists, Ivan Barbashev sealed the game in the latter half of the third period with a great play. After making a slick move in the neutral zone to evade the defenseman, Barbashev broke free and fired a backhander top shelf, putting the game out of reach.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b0da000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.030666666666666665,
+          "limit": 46
+         },
+         "name": "Jake Neighbours",
+         "description": "In the defensive zone, Jake Neighbours knocks the puck away from William Nylander, creating a turnover that sends the Blues racing down the ice on a 3-on-1 rush. Receiving a pass from Brayden Schenn, Neighbours opts to keep it, ripping a wrist shot that rings off the post and in.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009430000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03333333333333333,
+          "limit": 50
+         },
+         "name": "Jamie Benn",
+         "description": "Battling for position in front of the net, Jamie Benn outmuscles his defender and shifts to the far post. When a rebound from Miro Heiskanen\u2019s shot bounces into the air, Benn skillfully controls it by knocking it down with his arm before swatting it midair into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b1c4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028666666666666667,
+          "limit": 43
+         },
+         "name": "Jonathan Huberdeau",
+         "description": "Immediately following the Flames' opening goal in the third period, Jonathan Huberdeau doubled the lead with a smart, heads-up play. Chasing down a puck rimmed along the boards, Huberdeau chipped it past a Devils defenseman to create a 2-on-1 rush. He slid a crisp pass to Anthony Mantha, who quickly returned it, setting Huberdeau up for an easy tap-in to cap off the sequence.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a05d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Jonathan Quick",
+         "description": "Late in the second period of a scoreless game with Anaheim on the power play, Jonathan Quick makes a brilliant glove save, snagging Mason McTavish\u2019s one-timer from point-blank range. Quick\u2019s stellar performance helped the Rangers secure a 2-1 victory, with him stopping 32 shots in total.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000bc8c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Jordan Kyrou",
+         "description": "With the score tied late in the second period, Jordan Kyrou disrupted a play at the blue line, forcing a Seattle turnover. The puck found its way to Alexandre Texier, who sent a perfect saucer pass to Kyrou, springing him on a breakaway. With some slick moves, Kyrou fired the puck past the goalie for his second goal of the night, which would stand as the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008aee000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.024666666666666667,
+          "limit": 37
+         },
+         "name": "Jordan Spence",
+         "description": "During a Kings offensive rush, defenseman Jordan Spence activated on the weak side, joining the play at just the right moment. Receiving a crisp pass from Trevor Moore, Spence unleashed a quick snap shot that beat the goalie cleanly on the far side. The goal marked both the game\u2019s opener and Spence\u2019s first of the season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008ab4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Leo Carlsson",
+         "description": "Capitalizing on a turnover by Utah, Leo Carlsson broke free on a breakaway, showcasing his skill with a slick move to outwit the goalie before sliding the puck into the net. The game-winning tally marked Carlsson\u2019s first career overtime goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a67e000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.034,
+          "limit": 51
+         },
+         "name": "Lukas Dostal",
+         "description": "In overtime against the Colorado Avalanche, Lukas Dostal stretched out to make a skate save denying Mikko Rantanen\u2019s wraparound attempt and shutting down a prime scoring chance. Enduring an onslaught of shots all game, Dostal racked up 45 saves, securing the Ducks a point in the contest.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b22f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03,
+          "limit": 45
+         },
+         "name": "MacKenzie Weegar",
+         "description": "Positioned up top during a 4-on-3 power play, MacKenzie Weegar received a pass right in his wheelhouse from Jonathan Huberdeau where he unleashed a one-time blast that beat the netminder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000953a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Matt Boldy",
+         "description": "Working deep in the offensive corner during a cycle, the puck found its way to Matt Boldy. Skating toward the hashmarks, Boldy surprised the goalie with a no-look shot, showcasing his creativity and quick decision-making.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009470000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.025333333333333333,
+          "limit": 38
+         },
+         "name": "Mattias Ekholm",
+         "description": "Off an Oilers faceoff win, the puck made its way to Mattias Ekholm at the point. Displaying excellent lateral movement, Ekholm shifted to the middle of the ice before unleashing a wrist shot through traffic, finding the back of the net for his first goal of the season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000087f9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.025333333333333333,
+          "limit": 38
+         },
+         "name": "Nick Foligno",
+         "description": "In his first season as captain of the Chicago Blackhawks, Nick Foligno scored a power play goal that was a true team effort, with all five skaters touching the puck. As the Blackhawks worked the puck around the zone, Foligno set up in front of the net. The puck was eventually sent toward the crease, where Foligno redirected it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009c9a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.026,
+          "limit": 39
+         },
+         "name": "Noah Hanifin",
+         "description": "With under a minute left in a tied game, Noah Hanifin capped off a clutch performance. Having already tied the game earlier in the period, Hanifin skated into the slot to receive a pass from Ivan Barbashev. After a quick glance at the net, Hanifin released a precise wrist shot to the far side, beating the goaltender for the game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000ae92000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.026,
+          "limit": 39
+         },
+         "name": "Philipp Kurashev",
+         "description": "Philipp Kurashev collects a pass in the high slot on a Chicago power play, dusts it off, and then unleashes a rocket that goes top shelf, beating the goalie clean.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008c48000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.030666666666666665,
+          "limit": 46
+         },
+         "name": "Sam Reinhart",
+         "description": "While on the penalty kill, Sam Reinhart received the puck in the neutral zone and sped down the ice. As he approached the net, he smoothly shifted the puck under the defender\u2019s stick to his forehand, releasing a shot that sailed over the goalie\u2019s shoulder for a sensational shorty.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009d26000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.034,
+          "limit": 51
+         },
+         "name": "Shane Pinto",
+         "description": "Midway through the first period, Shane Pinto capitalized on a Florida turnover in the defensive zone. Skating the puck up the ice, he fired a wrist shot to the far side, beating the goalie clean. Pinto\u2019s unassisted goal stood as the game-winner in Ottawa's victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008e4f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028,
+          "limit": 42
+         },
+         "name": "Tage Thompson",
+         "description": "A player who possesses one of the hardest shots in the league, Tage Thompson teed this one up perfectly unleashing a one-timer that rocketed into the back of the net. His booming blast stood as the game-winning goal in Buffalo's victory over Dallas.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000084d2000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03666666666666667,
+          "limit": 55
+         },
+         "name": "Tomas Hertl",
+         "description": "Early in the third period on the power play, Tomas Hertl drove to the net and received a close-range feed from Mark Stone, tapping it past the goalie. His goal stood as the game winner in Vegas\u2019 victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000befc000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Tye Kartye",
+         "description": "Positioned at the left face-off dot, Tye Kartye took a pass from the corner and ripped a one-timer top shelf, marking his first goal of the 2024-25 season for the second-year forward.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009362000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.03,
+          "limit": 45
+         },
+         "name": "Yegor Chinakhov",
+         "description": "Receiving a pass from Zach Werenski at the top of the circle, Yegor Chinakhov pulls the puck in to adjust the shooting angle before ripping a wrist shot far side that beats the goalie for the game\u2019s opening goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000af8a000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Aleksander Barkov",
+         "description": "Playing in his home country during the NHL Global Series in Helsinki, Aleksander Barkov thrilled the Finnish crowd fresh off a Stanley Cup win the season prior. Barkov showcased his scoring touch by netting a wrist shot from the slot, adding to an electrifying performance. He finished the game with four points, including three assists, earning first-star honors and cementing the moment as a special highlight in front of his hometown fans.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008cf3000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.01,
+          "limit": 15
+         },
+         "name": "Alex Lyon",
+         "description": "As the puck moved across the slot to the far side, Alex Lyon slid over just in time to rob Mathew Barzal of a sure goal with a stellar glove save. Lyon was flawless, stopping all 30 shots he faced to secure the Red Wings\u2019 1-0 victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000add0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Alex Newhook",
+         "description": "Alex Newhook received a pass near the blueline, skated towards the net, and fired a wicked wrist shot top shelf, netting his first goal of the 2024-25 season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a365000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Alex Ovechkin",
+         "description": "After notching an assist earlier in the period, Alex Ovechkin set up Aliaksei Protas\u2019 goal to earn his 700th career NHL assist. With that milestone, Ovechkin became the 60th player in league history to reach 700 assists. He also joined an elite group of only six players to record both 700 goals and 700 assists, alongside legends Wayne Gretzky, Gordie Howe, Jaromir Jagr, Phil Esposito, and Marcel Dionne.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000908a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After a puck steal by Artemi Panarin, Alexis Lafreni\u00e8re raced up the ice to receive a pass from his teammate. As he approached the net and the defender slid to block the play, Lafreni\u00e8re executed a smooth toe drag to evade the defender\u2019s stick before firing a shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000097ff000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Aliaksei Protas",
+         "description": "After battling for the puck in his own zone against multiple opponents, Aliaksei Protas moves it up to Dylan Strome and quickly heads up ice. As the play develops, Alex Ovechkin finds Protas on the far side and threads a pass his way. Protas\u2019 pass attempt then takes a fortunate redirect and finds the back of the net. Starting with a strong defensive effort, Protas\u2019 goal gave the Capitals a crucial two-goal lead in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b9c9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Brandon Tanev",
+         "description": "Getting his stick in the lane, Brandon Tanev intercepted a pass attempt at the blue line springing him loose on a breakaway.  Approaching the goalie, he fired a wrist shot short side that went bar-and-in.  The unassisted tally was his first of two in the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000094fa000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "Brayden Schenn",
+         "description": "In an overtime matchup against the San Jose Sharks, Brayden Schenn scored his first goal of the 2024-25 season, netting the game winner. After picking up the puck in the defensive zone, Schenn weaved through traffic and, as he reached the top of the circle in the offensive zone, unleashed a wrist shot that found the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000088a0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Brock Nelson",
+         "description": "Brock Nelson, the Islanders' leading goal scorer for the past five seasons, netted a beauty against Colorado. Picking up the puck, Nelson made a slick move to his backhand to shake off a defender, then quickly shifted to his forehand to dodge the goalie\u2019s pokecheck and buried it in the net. It was the first of two goals for Nelson in the Islanders' victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000096e5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Cole Caufield",
+         "description": "Stationed down low to the left of the net during a Montreal Canadiens power play, Cole Caufield received a perfect cross-crease pass and one-timed it into the net. His goal, the only one of the game, stood as the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008c4f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Cole Perfetti",
+         "description": "Cole Perfetti picks up a pass in the slot, swiftly maneuvers around the defender\u2019s stick to avoid the pokecheck, and rips a shot far side past the goalie. Perfetti\u2019s goal was the first of two on the night, rounding out a stellar four-point performance with two goals and two assists.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000be2c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "Connor Zary",
+         "description": "In the season opener against the Vancouver Canucks, Connor Zary netted the game-winning goal in overtime. Carrying the puck down the ice, Zary executed a slick backhand deke to beat the defender, then shifted to his forehand to slip past the goaltender and bury the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009e9d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.011333333333333334,
+          "limit": 17
+         },
+         "name": "Frederik Andersen",
+         "description": "During a wild scramble in front of the net, Frederik Andersen came up big with a series of saves as part of his 33-save performance. After blocking a point shot, Andersen denied Jeff Skinner twice in quick succession\u2014first with a point-blank stop, followed by a close-range stuff attempt.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000878b000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Gustav Nyquist",
+         "description": "On a two-on-one break, Gustav Nyquist carried the puck toward the net. Appearing ready to unleash a heavy shot, he instead surprised the goalie with an off-speed wrister that found the back of the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a239000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.011333333333333334,
+          "limit": 17
+         },
+         "name": "Ivan Barbashev",
+         "description": "Already with a goal and two assists, Ivan Barbashev sealed the game in the latter half of the third period with a great play. After making a slick move in the neutral zone to evade the defenseman, Barbashev broke free and fired a backhander top shelf, putting the game out of reach.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b0da000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Jake Neighbours",
+         "description": "In the defensive zone, Jake Neighbours knocks the puck away from William Nylander, creating a turnover that sends the Blues racing down the ice on a 3-on-1 rush. Receiving a pass from Brayden Schenn, Neighbours opts to keep it, ripping a wrist shot that rings off the post and in.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009430000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Jamie Benn",
+         "description": "Battling for position in front of the net, Jamie Benn outmuscles his defender and shifts to the far post. When a rebound from Miro Heiskanen\u2019s shot bounces into the air, Benn skillfully controls it by knocking it down with his arm before swatting it midair into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b1c4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "Jonathan Huberdeau",
+         "description": "Immediately following the Flames' opening goal in the third period, Jonathan Huberdeau doubled the lead with a smart, heads-up play. Chasing down a puck rimmed along the boards, Huberdeau chipped it past a Devils defenseman to create a 2-on-1 rush. He slid a crisp pass to Anthony Mantha, who quickly returned it, setting Huberdeau up for an easy tap-in to cap off the sequence.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a05d000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Jonathan Quick",
+         "description": "Late in the second period of a scoreless game with Anaheim on the power play, Jonathan Quick makes a brilliant glove save, snagging Mason McTavish\u2019s one-timer from point-blank range. Quick\u2019s stellar performance helped the Rangers secure a 2-1 victory, with him stopping 32 shots in total.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000bc8c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "Jordan Kyrou",
+         "description": "With the score tied late in the second period, Jordan Kyrou disrupted a play at the blue line, forcing a Seattle turnover. The puck found its way to Alexandre Texier, who sent a perfect saucer pass to Kyrou, springing him on a breakaway. With some slick moves, Kyrou fired the puck past the goalie for his second goal of the night, which would stand as the game winner.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008aee000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Jordan Spence",
+         "description": "During a Kings offensive rush, defenseman Jordan Spence activated on the weak side, joining the play at just the right moment. Receiving a crisp pass from Trevor Moore, Spence unleashed a quick snap shot that beat the goalie cleanly on the far side. The goal marked both the game\u2019s opener and Spence\u2019s first of the season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008ab4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Leo Carlsson",
+         "description": "Capitalizing on a turnover by Utah, Leo Carlsson broke free on a breakaway, showcasing his skill with a slick move to outwit the goalie before sliding the puck into the net. The game-winning tally marked Carlsson\u2019s first career overtime goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000a67e000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "Lukas Dostal",
+         "description": "In overtime against the Colorado Avalanche, Lukas Dostal stretched out to make a skate save denying Mikko Rantanen\u2019s wraparound attempt and shutting down a prime scoring chance. Enduring an onslaught of shots all game, Dostal racked up 45 saves, securing the Ducks a point in the contest.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000b22f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.010666666666666666,
+          "limit": 16
+         },
+         "name": "MacKenzie Weegar",
+         "description": "Positioned up top during a 4-on-3 power play, MacKenzie Weegar received a pass right in his wheelhouse from Jonathan Huberdeau where he unleashed a one-time blast that beat the netminder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000953a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.01,
+          "limit": 15
+         },
+         "name": "Matt Boldy",
+         "description": "Working deep in the offensive corner during a cycle, the puck found its way to Matt Boldy. Skating toward the hashmarks, Boldy surprised the goalie with a no-look shot, showcasing his creativity and quick decision-making.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009470000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.011333333333333334,
+          "limit": 17
+         },
+         "name": "Mattias Ekholm",
+         "description": "Off an Oilers faceoff win, the puck made its way to Mattias Ekholm at the point. Displaying excellent lateral movement, Ekholm shifted to the middle of the ice before unleashing a wrist shot through traffic, finding the back of the net for his first goal of the season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000087f9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.009333333333333334,
+          "limit": 14
+         },
+         "name": "Nick Foligno",
+         "description": "In his first season as captain of the Chicago Blackhawks, Nick Foligno scored a power play goal that was a true team effort, with all five skaters touching the puck. As the Blackhawks worked the puck around the zone, Foligno set up in front of the net. The puck was eventually sent toward the crease, where Foligno redirected it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009c9a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Noah Hanifin",
+         "description": "With under a minute left in a tied game, Noah Hanifin capped off a clutch performance. Having already tied the game earlier in the period, Hanifin skated into the slot to receive a pass from Ivan Barbashev. After a quick glance at the net, Hanifin released a precise wrist shot to the far side, beating the goaltender for the game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000ae92000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Philipp Kurashev",
+         "description": "Philipp Kurashev collects a pass in the high slot on a Chicago power play, dusts it off, and then unleashes a rocket that goes top shelf, beating the goalie clean.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008c48000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012666666666666666,
+          "limit": 19
+         },
+         "name": "Sam Reinhart",
+         "description": "While on the penalty kill, Sam Reinhart received the puck in the neutral zone and sped down the ice. As he approached the net, he smoothly shifted the puck under the defender\u2019s stick to his forehand, releasing a shot that sailed over the goalie\u2019s shoulder for a sensational shorty.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009d26000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Shane Pinto",
+         "description": "Midway through the first period, Shane Pinto capitalized on a Florida turnover in the defensive zone. Skating the puck up the ice, he fired a wrist shot to the far side, beating the goalie clean. Pinto\u2019s unassisted goal stood as the game-winner in Ottawa's victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400008e4f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.011333333333333334,
+          "limit": 17
+         },
+         "name": "Tage Thompson",
+         "description": "A player who possesses one of the hardest shots in the league, Tage Thompson teed this one up perfectly unleashing a one-timer that rocketed into the back of the net. His booming blast stood as the game-winning goal in Buffalo's victory over Dallas.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed24000084d2000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Tomas Hertl",
+         "description": "Early in the third period on the power play, Tomas Hertl drove to the net and received a close-range feed from Mark Stone, tapping it past the goalie. His goal stood as the game winner in Vegas\u2019 victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000befc000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.013333333333333334,
+          "limit": 20
+         },
+         "name": "Tye Kartye",
+         "description": "Positioned at the left face-off dot, Tye Kartye took a pass from the corner and ripped a one-timer top shelf, marking his first goal of the 2024-25 season for the second-year forward.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed2400009362000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base 2024-25",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.012,
+          "limit": 18
+         },
+         "name": "Yegor Chinakhov",
+         "description": "Receiving a pass from Zach Werenski at the top of the circle, Yegor Chinakhov pulls the puck in to adjust the shooting angle before ripping a wrist shot far side that beats the goalie for the game\u2019s opening goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feed240000af8a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.4,
+          "limit": 600
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.2,
+          "limit": 300
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.39,
+          "limit": 585
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.034666666666666665,
+          "limit": 52
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After scoring earlier in the third period, Alexis Lafreni\u00e8re dazzled with a spectacular backhand goal against the Detroit Red Wings. As he skated towards the net in the slot, Lafreni\u00e8re faked a shot, freezing the defender. He then smoothly pulled the puck through his legs to his backhand and lifted it top shelf for a stunning finish.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a236000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028666666666666667,
+          "limit": 43
+         },
+         "name": "Andrei Svechnikov",
+         "description": "In his second NHL season, Andrei Svechnikov scored the league's first-ever lacrosse-style goal called the \"Michigan goal.\" This remarkable goal was the first of two Svechnikov scored in the third period, leading Carolina to a 2-1 victory over Calgary.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095c3000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Anthony Duclair",
+         "description": "During his brief stint with the Columbus Blue Jackets, Anthony Duclair scored an unforgettable goal. The speedy forward received a pass at the far blue line and attempted to cut towards the middle to evade a defender. Although he fell to his knees, Duclair remarkably kept control of the puck, pulled it back in, and fired it into the net after spinning around.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a46000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Bobby Ryan",
+         "description": "During the 2011 Stanley Cup Playoffs, Bobby Ryan scored a sensational goal against the Nashville Predators. After intercepting a cross-ice pass just inside the blue line, Ryan carried the puck through the neutral zone. He then made two incredible moves to evade the same defender before firing a backhand shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a057000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.029333333333333333,
+          "limit": 44
+         },
+         "name": "Claude Giroux",
+         "description": "Claude Giroux, who played 1,000 games and scored 291 goals with the Philadelphia Flyers during his first 15 seasons, showcased his skill and creativity with a memorable goal against Tampa Bay. As he entered the offensive zone, three Lightning players converged on him. With a deft lift of a defender's stick, Giroux broke through the check, maneuvered around the goalie, and calmly deposited the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000084d8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.030666666666666665,
+          "limit": 46
+         },
+         "name": "Corey Perry",
+         "description": "With only two seconds left in the second period, Corey Perry scored an incredible goal from his knees. After receiving a drop pass just inside the blue line, Perry toe-dragged around a defender, got tripped up, and fired a shot into the net from his knees. Perry spent the first 14 seasons of his career in Anaheim, where he currently ranks second all-time in goals in franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000092f2000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Filip Forsberg",
+         "description": "Since joining the NHL with the Nashville Predators, Filip Forsberg has thrilled fans with countless spectacular plays. One of his most memorable moments came when he scored a \"Michigan\" goal against the Oilers. After an offensive zone faceoff, Forsberg retrieved the puck along the boards, skated behind the net, and executed a perfect lacrosse-style goal, leaving everyone in awe.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095fe000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.025333333333333333,
+          "limit": 38
+         },
+         "name": "Kris Letang",
+         "description": "Kris Letang, a gifted skater known for his offensive prowess as a defenseman, has spent his entire career with the Pittsburgh Penguins, contributing to three Stanley Cup championships. In an October 2019 game against the Dallas Stars, Letang showcased his skill by weaving past two defenders and scoring a beautiful third-period goal that gave Pittsburgh their first lead of the game. The Penguins held onto the lead, and Letang later sealed the victory with an empty-net goal for his second of the night.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000bbb5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.028,
+          "limit": 42
+         },
+         "name": "Marek Malik",
+         "description": "Marek Malik, a defenseman known more for his defensive skills rather than his scoring ability, delivered a stunning surprise during a shootout against the Washington Capitals. In the 15th round, Malik astounded everyone by executing a between-the-legs move, scoring a sensational goal that secured the Rangers' victory and earned them two points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009762000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.023333333333333334,
+          "limit": 35
+         },
+         "name": "Mathew Barzal",
+         "description": "In a March 2021 game against the Buffalo Sabres, Mathew Barzal powered past a defender in a one-on-one battle, beating him on the outside. Closing in on the goalie, Barzal slowed down and pulled off a stunning between-the-legs move to score a remarkable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000980a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.02666666666666667,
+          "limit": 40
+         },
+         "name": "Mitch Marner",
+         "description": "On an offensive break with Auston Matthews, Mitch Marner received a pass in the slot, surrounded by multiple defenders. In one fluid motion, he shifted the puck between his legs to evade the crowd and slipped it five-hole past the goalie, perfectly showcasing his elite offensive skill.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000adcb000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.029333333333333333,
+          "limit": 44
+         },
+         "name": "Morgan Rielly",
+         "description": "Playing against the Edmonton Oilers at home, defenseman Morgan Rielly scored a brilliant unassisted goal. The play began with Rielly blocking a shot in the defensive zone. He then collected the puck, weaved through multiple defenders up the ice, and, once in the slot, toe-dragged the final defender before firing a shot top shelf for an impressive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008715000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.027333333333333334,
+          "limit": 41
+         },
+         "name": "Patrick Kane",
+         "description": "Charging down the right side of the ice with speed, Patrick Kane noticed the defender backing off and executed an incredible spin-o-rama, finishing with a stunning backhand goal. Known for his creativity and exceptional talent, Kane went on to win the Conn Smythe Trophy later that season, as well as his second Stanley Cup.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009ea1000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.026,
+          "limit": 39
+         },
+         "name": "Vladimir Tarasenko",
+         "description": "Vladimir Tarasenko began his NHL career with the St. Louis Blues, where he spent parts of 11 seasons, creating countless memories for fans, including playing a key role in a Stanley Cup championship. During the 2021-22 season, when he set a career-high with 82 points, one moment stood out above the rest. Against the Los Angeles Kings, Tarasenko dazzled by slipping the puck through a defender's legs to cut to the middle, then made one final move on the netminder before firing a shot upstairs over the goalie\u2019s shoulder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000086a8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Opening Ice: Elites</em>, a Rare highlight set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2af00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.1,
+          "limit": 150
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.019333333333333334,
+          "limit": 29
+         },
+         "name": "Take A Bow",
+         "description": "<p>Enter the realm of hockey's rich history through Take a Bow, a commemorative collection that honors revered retired players achieving career-defining milestones. These moments, which once ignited arenas with sheer excitement, range from players entering the prestigious 500-goal club, marking their 1,000th point or a goalie earning his 400th win. Take a Bow is a celebration of their lasting impact on the sport, reliving the thrills that turned them into household names. With carefully curated Epic highlights, this set captures the essence of their charisma and skill, reminding us why they remain ingrained in our hearts.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe957f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 1500,
+          "probability": 0.0006666666666666666,
+          "limit": 1
+         },
+         "name": "Etched In Ice",
+         "description": "<p>Introducing Etched In Ice &mdash; a thrilling collection of the most electrifying and impactful plays from the current superstars of the game, spanning their entire careers. This Legendary set showcases the jaw-dropping moments that have ignited arenas and left fans in awe, featuring the NHL's brightest talents at the peak of their performance. &nbsp;Each Multi Highlight in this set captures the essence of excitement and skill that defines these stars. From gravity-defying goals to astonishing saves and incredible assists, Etched In Ice brings the on-ice brilliance of these players to life.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe89f200000000000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Take A Bow",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Nbnn5nbW",
+        "set_uuid": "cd2f47fe957f00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Etched In Ice",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD",
+        "set_uuid": "cd2f47fe89f200000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O",
+        "set_uuid": "cd2f47fef2af00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QqBmkGRA",
+        "set_uuid": "cd2f47feed2400000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+        "set_uuid": "cd2f47fef2be00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1aoV5RK",
+        "set_uuid": "cd2f47fe460e00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Light the Lamp: Legacy",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/YqrMgPRJ",
+        "set_uuid": "cd2f47feb0d800000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-12-14",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQvFVwV6vAsLVzAQp4ySXQ1HSgaEtaJh6f9RSUXASEWMN"
+       },
+       "content-type": "image/png",
+       "sha256": "l44SnP8cjqkwgDrATgQ1V50pB8u3BCKisGVeqxWJkrk=",
+       "url": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmcwdCwriETmfRuDLZDpbniyB716rPo249xsPa5QQdPfvD"
+       },
+       "content-type": "image/png",
+       "sha256": "IxgNI-kBpq1QvIXfdvWDE_MMdmoB4bnqaErpVorg7-g=",
+       "url": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQvFVwV6vAsLVzAQp4ySXQ1HSgaEtaJh6f9RSUXASEWMN"
+       },
+       "content-type": "image/png",
+       "sha256": "l44SnP8cjqkwgDrATgQ1V50pB8u3BCKisGVeqxWJkrk=",
+       "url": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front.png"
+      }
+     },
+     "issued": "2024-12-14T04:44:01.957329",
+     "name": "Base 2024-25 December Expansion Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "w7ELmWkT5Q7e3a--PGrWRoCpA5CZbYpAd2PlZFMYyK4=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Follow the action of the 2024-24 NHL regular season with the Base 2024-25 December Expansion Pack!  Featuring Frederik Andersen, Mattias Ekholm, Leo Carlsson, Jamie Benn, Tage Thompson, Noah Hanifin, and more! This pack includes guaranteed Core highlights with additional chances for Rare, Epic, and Legendary highlights.\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Across the Pond (40%), Base 2024-25 (40%), or Fresh Sweaters (20%), and 1 mystery highlight that could be from Fresh Sweaters (39%), Light the Lamp: Legacy (39%), Opening Ice: Icons (10%), Opening Ice: Elites (10%), Take a Bow (1.94%), or Etched in Ice (<1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Base 2024-25 December Expansion Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 1500,
+      "uri": "https://nft.nhlbreakaway.com/series/21x6ZXRG"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/21x6ZXRG"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Base 2024-25 December Expansion Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/21x6ZXRG",
+    "image": "https://nft.nhlbreakaway.com/series/21x6ZXRG/image-front-16x9.png"
+   },
+   "seriesId": "21x6ZXRG",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "21x6ZXRG"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

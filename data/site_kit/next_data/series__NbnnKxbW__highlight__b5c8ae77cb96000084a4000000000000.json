@@ -1,0 +1,415 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Chris Chelios",
+     "description": "Debut to Remember: On October 4, 1990, Chris Chelios made his Blackhawks debut in Chicago Stadium versus the New York Rangers one to remember. In the opening minute of the third period and with two assists in the game already, No. 7 took a pass from Steve Larmer at the point and fired a slap shot past John Vanbiesbrouck to extend the Blackhawks lead to 4-1. Chicago went on to win the game 4-3, with Chelios tallying three points and his first goal with the Blackhawks.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Hometown History: Chicago Blackhawks",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Core",
+     "editions": 1849,
+     "badges": {},
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "NYR",
+        "final_score": 3
+       },
+       "home": {
+        "team": "CHI",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Chicago Stadium",
+        "team": "CHI",
+        "location": "Chicago, IL"
+       },
+       "game_ends": "FINAL",
+       "final_score": "NYR 3, CHI 4 - FINAL",
+       "venue_location": "Chicago Blackhawks - Chicago Stadium (Chicago, IL)"
+      },
+      "moment": {
+       "date": "1990-10-04",
+       "clock": "0:41",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "video_overlay_text": "Goal vs NYR | 3rd Period | Oct 4, 1990"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Chris Chelios",
+       "team": "CHI",
+       "jersey": 7,
+       "status": "NHLAA",
+       "position": "D",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs NYR | 3rd Period | Oct 4, 1990"
+     }
+    },
+    "_badges": null,
+    "_common_descriptive_badges": [],
+    "_descriptive_badges": null,
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 16,
+     "name": "Chicago Blackhawks",
+     "abbreviation": "CHI",
+     "short_name": "Chicago",
+     "venue_city": "Chicago",
+     "venue_name": "United Center",
+     "key": "ChicagoBlackhawks",
+     "url": "https://www.nhl.com/blackhawks",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/ChicagoBlackhawks.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/NbnnKxbW/9557764309187035579",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmNb9i96oNKWJdvKHxLcuoV4QgVExgzJMT5fRhMB1JaRJS"
+       },
+       "content-type": "image/png",
+       "sha256": "0PbxJHwIa3nh4_qP20GsfwhLXxdVOgDllV-8M8O60Tw=",
+       "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmWUQFa38bySKM89J3nJAAzRPhWcFAs7rmQYinwLxZCz8j"
+       },
+       "content-type": "image/png",
+       "sha256": "cwRy97FDMyELBhGHgdJy26Rxl7-pILnag35s_wZ1Elw=",
+       "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQA8fiGdFHnfeJWyYcDiWX6BcAKrh9H3zb4UtBP7UNHsr"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnKxbW/9557764309187035579/card-image.png",
+        "purpose": "card-image",
+        "sha256": "NC0Dw0J_2OGdlCXDGsjePzKDqHY-JEJq7xmTf3gnMb4=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnKxbW/9557764309187035579/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWoi6mAt5p7smdoRc9pAGVFSQqgYXZhRS1p5cgJRbJmKY"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnKxbW/9557764309187035579/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "PJHz-RGFsOWUVi9reddeFWVp6wwsaw13seZ0FQySLA0=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnKxbW/9557764309187035579/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWUQFa38bySKM89J3nJAAzRPhWcFAs7rmQYinwLxZCz8j"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnKxbW/9557764309187035579/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "cwRy97FDMyELBhGHgdJy26Rxl7-pILnag35s_wZ1Elw=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnKxbW/9557764309187035579/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNb9i96oNKWJdvKHxLcuoV4QgVExgzJMT5fRhMB1JaRJS"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/NbnnKxbW/9557764309187035579/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "0PbxJHwIa3nh4_qP20GsfwhLXxdVOgDllV-8M8O60Tw=",
+        "uri": "https://mediagateway.sweet.io/media/token/NbnnKxbW/9557764309187035579/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "date": "1990-10-04",
+      "edition-number": "444",
+      "moment-uuid": "b5c8ae77cb96000084a4000000000000",
+      "play": "Goal",
+      "player": "Chris Chelios",
+      "rarity": "Core",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Hometown History: Chicago Blackhawks",
+      "set-uuid": "b5c8ae77cb9600000000000000000000",
+      "team": "Chicago Blackhawks",
+      "total-editions": "1849"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Debut to Remember: On October 4, 1990, Chris Chelios made his Blackhawks debut in Chicago Stadium versus the New York Rangers one to remember. In the opening minute of the third period and with two assists in the game already, No. 7 took a pass from Steve Larmer at the point and fired a slap shot past John Vanbiesbrouck to extend the Blackhawks lead to 4-1. Chicago went on to win the game 4-3, with Chelios tallying three points and his first goal with the Blackhawks.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 444,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmNb9i96oNKWJdvKHxLcuoV4QgVExgzJMT5fRhMB1JaRJS"
+      },
+      "content-type": "image/png",
+      "sha256": "0PbxJHwIa3nh4_qP20GsfwhLXxdVOgDllV-8M8O60Tw=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmWzeB2eG4ZkF1G8uNbbAgrAw1FNGyFSjFfhdrCc28Fyj9"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "ca6eJUVo5DbkBEeJg4znl3tYs_unvvWXEYTRUPBEHVk=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmaWZYHj8coNSiHofu4Ev7TEa9crMsFgSYXYAAA6W4Dazg"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "lZEakmH3yu2PZsWLzN6gHtd4X26ahQxfoacbcqHFJtw=",
+        "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmNb9i96oNKWJdvKHxLcuoV4QgVExgzJMT5fRhMB1JaRJS"
+       },
+       "content-type": "image/png",
+       "sha256": "0PbxJHwIa3nh4_qP20GsfwhLXxdVOgDllV-8M8O60Tw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmWzeB2eG4ZkF1G8uNbbAgrAw1FNGyFSjFfhdrCc28Fyj9"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "ca6eJUVo5DbkBEeJg4znl3tYs_unvvWXEYTRUPBEHVk=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmaWZYHj8coNSiHofu4Ev7TEa9crMsFgSYXYAAA6W4Dazg"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "lZEakmH3yu2PZsWLzN6gHtd4X26ahQxfoacbcqHFJtw=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmWUQFa38bySKM89J3nJAAzRPhWcFAs7rmQYinwLxZCz8j"
+       },
+       "content-type": "image/png",
+       "sha256": "cwRy97FDMyELBhGHgdJy26Rxl7-pILnag35s_wZ1Elw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPAbUYMQQJceVFAiLVuGPnHCEtLPiULUzPdVfurXKSjGk"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "HH5dTwC80PE17cZozZd-GAIMTy8g_QUiShcka3DAv7A=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmZoapsDtk62W5zdYC1Mvar4jqKo8wDoWfYaE2ASfUhrZX"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "A4kUeMKWNqfDqOqzaAZS26xYslZLzoRWm6zhH8sYvkA=",
+         "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/NbnnKxbW/84a4/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-02-24T19:42:07.625702",
+     "name": "Chris Chelios #444",
+     "network": "matic",
+     "sequence_number": "9557764309187035579",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Debut to Remember: On October 4, 1990, Chris Chelios made his Blackhawks debut in Chicago Stadium versus the New York Rangers one to remember. In the opening minute of the third period and with two assists in the game already, No. 7 took a pass from Steve Larmer at the point and fired a slap shot past John Vanbiesbrouck to extend the Blackhawks lead to 4-1. Chicago went on to win the game 4-3, with Chelios tallying three points and his first goal with the Blackhawks.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hometown History: Chicago Blackhawks",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/NbnnKxbW",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Chris Chelios #444",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "date",
+       "value": "1990-10-04"
+      },
+      {
+       "key": "edition-number",
+       "value": "444"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77cb96000084a4000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Chris Chelios"
+      },
+      {
+       "key": "rarity",
+       "value": "Core"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Hometown History: Chicago Blackhawks"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77cb9600000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Chicago Blackhawks"
+      },
+      {
+       "key": "total-editions",
+       "value": "1849"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77cb96000084a4000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/6g1a5Ewg",
+       "listing_id": "6g1a5Ewg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-10-23T19:55:08",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x2a4879ce10Dc040e5197A32a793fAc735C3c2670/?a=9557764309187035579",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "NbnnKxbW",
+   "momentUuid": "b5c8ae77cb96000084a4000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Chris Chelios",
+     "date": "October 4, 1990"
+    },
+    "url": "https://nhlbreakaway.com/series/NbnnKxbW/highlight/b5c8ae77cb96000084a4000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/NbnnKxbW/9557764309187035579/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "NbnnKxbW",
+  "moment_uuid": "b5c8ae77cb96000084a4000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

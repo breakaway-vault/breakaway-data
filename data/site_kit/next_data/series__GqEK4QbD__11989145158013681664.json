@@ -1,0 +1,642 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmetNUTZALWWuyuZv5kRjYzGPY8ASvvEpusNgU59RNeD5R"
+       },
+       "content-type": "image/png",
+       "sha256": "gWvKF7xtxXsM2PcHi2JfQuKtaw24IBcFolEgKN8PZ0Y=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmXHVc4YXtAKKNM3J1XhGp5P2HwGEhPJtpsvQCdTzgKtXY"
+       },
+       "content-type": "image/png",
+       "sha256": "CK4z4zAAQpRoE_cEp2R4_xv54L6TV1Nw8bV_VFt-QxI=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmTCcGJLGAtnzgXMWztyqhwjoegCbYjdonBVbhavBS1weX"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEK4QbD/11989145158013681664/card-image.png",
+        "purpose": "card-image",
+        "sha256": "XqFfTN0QmJnoVpJe83K8_2XK-LAfDhClILdwF3myyVY=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEK4QbD/11989145158013681664/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbEzLzKGUaEKoc6Kemg5xqgnJSN3t11myAVGCvE5YJtYc"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEK4QbD/11989145158013681664/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "0nUYaOYwWOBygPeLbWtWVmzmYcYVpkAKyMArQWVkBnU=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEK4QbD/11989145158013681664/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXHVc4YXtAKKNM3J1XhGp5P2HwGEhPJtpsvQCdTzgKtXY"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEK4QbD/11989145158013681664/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "CK4z4zAAQpRoE_cEp2R4_xv54L6TV1Nw8bV_VFt-QxI=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEK4QbD/11989145158013681664/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmetNUTZALWWuyuZv5kRjYzGPY8ASvvEpusNgU59RNeD5R"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEK4QbD/11989145158013681664/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "gWvKF7xtxXsM2PcHi2JfQuKtaw24IBcFolEgKN8PZ0Y=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEK4QbD/11989145158013681664/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2023-05-18"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fe89f20000a662000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Matthew Tkachuk"
+      },
+      {
+       "name": "Rarity",
+       "value": "Legendary"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Etched In Ice"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fe89f200000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Florida Panthers"
+      },
+      {
+       "name": "Total Editions",
+       "value": "10"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Matthew Tkachuk made an immediate impact after joining the Florida Panthers for the 2022-23 season, revitalizing the team and leading them to the Stanley Cup Final in his first year. Although they fell short in 2023, Tkachuk was the standout of those playoffs, scoring 11 goals, including four game-winners\u2014three of which came in overtime. His relentless determination and competitive spirit reshaped the team's mindset, setting the stage for their Stanley Cup victory just one season later in 2024.  \r\nTkachuk's heroics were particularly evident in the 2023 Eastern Conference Final against the Carolina Hurricanes. In Game 1, which extended to four overtime periods, he netted the winner in Carolina. He followed up in Game 2 with another game-winning goal, this time in the first overtime, still on the road. Finally, in Game 4, with only five seconds remaining in the third period, Tkachuk scored the series-clinching goal, sending the home Panthers crowd into a frenzy and cementing his legacy as the hero of that series.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmetNUTZALWWuyuZv5kRjYzGPY8ASvvEpusNgU59RNeD5R"
+      },
+      "content-type": "image/png",
+      "sha256": "gWvKF7xtxXsM2PcHi2JfQuKtaw24IBcFolEgKN8PZ0Y=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmTGFzVJGXJYdsK1txydtpNdDR9uMwfG6CZPhcRTQUHN7M"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "OhryLFoL9RhwPJjwf5NBeZFeNKUSyfLFc-rTdSPNtPU=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmTLbhxh1wLL8emiHzU1SJxUjvnef44KtdJdF5jnYc8eQs"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "ywInEcZrxO80d59YQ5ZqGEdM5iTJOomxWVn2vR9X6u8=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmetNUTZALWWuyuZv5kRjYzGPY8ASvvEpusNgU59RNeD5R"
+       },
+       "content-type": "image/png",
+       "sha256": "gWvKF7xtxXsM2PcHi2JfQuKtaw24IBcFolEgKN8PZ0Y=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmTGFzVJGXJYdsK1txydtpNdDR9uMwfG6CZPhcRTQUHN7M"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "OhryLFoL9RhwPJjwf5NBeZFeNKUSyfLFc-rTdSPNtPU=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmTLbhxh1wLL8emiHzU1SJxUjvnef44KtdJdF5jnYc8eQs"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "ywInEcZrxO80d59YQ5ZqGEdM5iTJOomxWVn2vR9X6u8=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmXHVc4YXtAKKNM3J1XhGp5P2HwGEhPJtpsvQCdTzgKtXY"
+       },
+       "content-type": "image/png",
+       "sha256": "CK4z4zAAQpRoE_cEp2R4_xv54L6TV1Nw8bV_VFt-QxI=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmfM3KZF4VH8NViiSrJteAH1QVb9ecysoyezdFM1xPKPQE"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "hpVUXUc_lgpc9XTjpa1dcYcgAd6XCHQkA5gfPWdn4Zk=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmZuWe4dvVo7g1s7bHubGKUnEsfp8rGMDtuN7LYcHz2BVp"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "WDF4nvzy4N11hrzwWQR_m4iWpt20gXZaGBkwG2B66sA=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-12-11T21:16:21.473577",
+     "name": "Matthew Tkachuk #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "w7ELmWkT5Q7e3a--PGrWRoCpA5CZbYpAd2PlZFMYyK4=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11989145158013682000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Matthew Tkachuk made an immediate impact after joining the Florida Panthers for the 2022-23 season, revitalizing the team and leading them to the Stanley Cup Final in his first year. Although they fell short in 2023, Tkachuk was the standout of those playoffs, scoring 11 goals, including four game-winners\u2014three of which came in overtime. His relentless determination and competitive spirit reshaped the team's mindset, setting the stage for their Stanley Cup victory just one season later in 2024.  \r\nTkachuk's heroics were particularly evident in the 2023 Eastern Conference Final against the Carolina Hurricanes. In Game 1, which extended to four overtime periods, he netted the winner in Carolina. He followed up in Game 2 with another game-winning goal, this time in the first overtime, still on the road. Finally, in Game 4, with only five seconds remaining in the third period, Tkachuk scored the series-clinching goal, sending the home Panthers crowd into a frenzy and cementing his legacy as the hero of that series.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Etched In Ice",
+       "rarity": {
+        "name": "Tier 4",
+        "rank": 4
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681664",
+     "pack_uuid": null,
+     "set_id": 61,
+     "set_uuid": "cd2f47fe89f200000000000000000000",
+     "moment_id": 42594
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x4bC89EbB5e96A51932Ac412D0eC5908981deA274/?a=11989145158013681664",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 13,
+     "name": "Florida Panthers",
+     "abbreviation": "FLA",
+     "short_name": "Florida",
+     "venue_city": "Sunrise",
+     "venue_name": "FLA Live Arena",
+     "key": "FloridaPanthers",
+     "url": "https://www.nhl.com/panthers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/FloridaPanthers.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Etched In Ice",
+      "description": "<p>Introducing Etched In Ice &mdash; a thrilling collection of the most electrifying and impactful plays from the current superstars of the game, spanning their entire careers. This Legendary set showcases the jaw-dropping moments that have ignited arenas and left fans in awe, featuring the NHL's brightest talents at the peak of their performance. &nbsp;Each Multi Highlight in this set captures the essence of excitement and skill that defines these stars. From gravity-defying goals to astonishing saves and incredible assists, Etched In Ice brings the on-ice brilliance of these players to life.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/e4614115-da04-42a5-b42d-db580696a751.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD",
+      "uuid": "cd2f47fe89f200000000000000000000",
+      "rarity": {
+       "name": "Legendary",
+       "editions": 10
+      }
+     },
+     "description": "Matthew Tkachuk made an immediate impact after joining the Florida Panthers for the 2022-23 season, revitalizing the team and leading them to the Stanley Cup Final in his first year. Although they fell short in 2023, Tkachuk was the standout of those playoffs, scoring 11 goals, including four game-winners\u2014three of which came in overtime. His relentless determination and competitive spirit reshaped the team's mindset, setting the stage for their Stanley Cup victory just one season later in 2024.  \r\nTkachuk's heroics were particularly evident in the 2023 Eastern Conference Final against the Carolina Hurricanes. In Game 1, which extended to four overtime periods, he netted the winner in Carolina. He followed up in Game 2 with another game-winning goal, this time in the first overtime, still on the road. Finally, in Game 4, with only five seconds remaining in the third period, Tkachuk scored the series-clinching goal, sending the home Panthers crowd into a frenzy and cementing his legacy as the hero of that series.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe89f20000a662000000000000",
+     "badges": [
+      {
+       "name": "Multi-Highlight",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png"
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/e4614115-da04-42a5-b42d-db580696a751.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 42594,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEK4QbD/moment/11989145158013681664/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEK4QbD/moment/11989145158013681664/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEK4QbD/moment/11989145158013681664/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEK4QbD/moment/11989145158013681664/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEK4QbD/moment/11989145158013681664/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEK4QbD/moment/11989145158013681664/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEK4QbD/moment/11989145158013681664/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEK4QbD/moment/11989145158013681664/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/a662/images/front.png"
+      }
+     },
+     "editions": 10,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "xMM2jrXN90DxePxnegemzxwL13Bp2ocjYT5ylwtNQBg=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmYNfRzx38wbafaTsgh3WQCM3abpMYgmZzRtXvU4tJExik"
+        },
+        "content-type": "image/png",
+        "sha256": "B1TQYZSUNI-W9U3VcnVzK43zlCDmSrYe5-uwKVTbQZA=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmYNfRzx38wbafaTsgh3WQCM3abpMYgmZzRtXvU4tJExik"
+        },
+        "content-type": "image/png",
+        "sha256": "B1TQYZSUNI-W9U3VcnVzK43zlCDmSrYe5-uwKVTbQZA=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEK4QbD/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Etched In Ice",
+        "description": "<p>Introducing Etched In Ice &mdash; a thrilling collection of the most electrifying and impactful plays from the current superstars of the game, spanning their entire careers. This Legendary set showcases the jaw-dropping moments that have ignited arenas and left fans in awe, featuring the NHL's brightest talents at the peak of their performance. &nbsp;Each Multi Highlight in this set captures the essence of excitement and skill that defines these stars. From gravity-defying goals to astonishing saves and incredible assists, Etched In Ice brings the on-ice brilliance of these players to life.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 4",
+         "rank": 4
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD"
+      },
+      "name": "Etched In Ice",
+      "issued": "2025-04-06T01:22:26.962591",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Matthew Tkachuk",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL (4OT)",
+       "venue_location": "Carolina Hurricanes - PNC Arena (Raleigh, NC)",
+       "final_score": "FLA 3, CAR 2 - FINAL (4OT)",
+       "venue": {
+        "name": "PNC Arena",
+        "location": "Raleigh, NC",
+        "team": "CAR"
+       },
+       "away": {
+        "final_score": 3,
+        "team": "FLA"
+       },
+       "home": {
+        "final_score": 2,
+        "team": "CAR"
+       }
+      },
+      "collectible_tagline": "Iconic Plays",
+      "primary_player": {
+       "name": "Matthew Tkachuk",
+       "is_rookie": false,
+       "position": "LW",
+       "team": "FLA",
+       "jersey": 19,
+       "status": "NHLPA"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-05-20",
+        "period": "Overtime",
+        "video_overlay_text": "Goal vs CAR | Overtime | May 20, 2023",
+        "clock": "1:51",
+        "event": "Goal"
+       },
+       "1": {
+        "date": "2023-05-24",
+        "period": "3rd Period",
+        "video_overlay_text": "Goal vs CAR | 3rd Period | May 24, 2023",
+        "clock": "19:55",
+        "event": "Goal"
+       }
+      },
+      "highlight_type": "Multi",
+      "moment": {
+       "date": "2023-05-18",
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": true,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CAR | Fourth Overtime | May 18, 2023",
+       "clock": "19:47",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2024-12-11",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Legendary",
+      "sorting_position": 60,
+      "editions": 10
+     }
+    },
+    "_metadata": {
+     "name": "Matthew Tkachuk",
+     "description": "Matthew Tkachuk made an immediate impact after joining the Florida Panthers for the 2022-23 season, revitalizing the team and leading them to the Stanley Cup Final in his first year. Although they fell short in 2023, Tkachuk was the standout of those playoffs, scoring 11 goals, including four game-winners\u2014three of which came in overtime. His relentless determination and competitive spirit reshaped the team's mindset, setting the stage for their Stanley Cup victory just one season later in 2024.  \r\nTkachuk's heroics were particularly evident in the 2023 Eastern Conference Final against the Carolina Hurricanes. In Game 1, which extended to four overtime periods, he netted the winner in Carolina. He followed up in Game 2 with another game-winning goal, this time in the first overtime, still on the road. Finally, in Game 4, with only five seconds remaining in the third period, Tkachuk scored the series-clinching goal, sending the home Panthers crowd into a frenzy and cementing his legacy as the hero of that series.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 10,
+     "badges": {
+      "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs CAR | Fourth Overtime | May 18, 2023",
+     "team": "FLA",
+     "player_name": "Matthew Tkachuk",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 3
+       },
+       "home": {
+        "team": "CAR",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "PNC Arena",
+        "team": "CAR",
+        "location": "Raleigh, NC"
+       },
+       "game_ends": "FINAL (4OT)",
+       "final_score": "FLA 3, CAR 2 - FINAL (4OT)",
+       "venue_location": "Carolina Hurricanes - PNC Arena (Raleigh, NC)"
+      },
+      "moment": {
+       "date": "2023-05-18",
+       "clock": "19:47",
+       "event": "Goal",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs CAR | Fourth Overtime | May 18, 2023"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-05-20",
+        "clock": "1:51",
+        "event": "Goal",
+        "period": "Overtime",
+        "video_overlay_text": "Goal vs CAR | Overtime | May 20, 2023"
+       },
+       "1": {
+        "date": "2023-05-24",
+        "clock": "19:55",
+        "event": "Goal",
+        "period": "3rd Period",
+        "video_overlay_text": "Goal vs CAR | 3rd Period | May 24, 2023"
+       }
+      },
+      "highlight_type": "Multi",
+      "primary_player": {
+       "name": "Matthew Tkachuk",
+       "team": "FLA",
+       "jersey": 19,
+       "status": "NHLPA",
+       "position": "LW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Iconic Plays"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "GqEK4QbD",
+   "tokenId": "11989145158013681664",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Matthew Tkachuk",
+     "date": "May 18, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/GqEK4QbD/11989145158013681664",
+    "image": "https://mediagateway.sweet.io/media/token/GqEK4QbD/11989145158013681664/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fe89f20000a662000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "GqEK4QbD",
+  "token_id": "11989145158013681664"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

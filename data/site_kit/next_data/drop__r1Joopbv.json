@@ -1,0 +1,376 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286361,
+    "summary": {
+     "drop_active": 1711731600,
+     "drop_expires": 1721434250,
+     "pack_price": "29.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/r1Joopbv",
+     "number_of_highlights": 5,
+     "pack_description": "He shoots, he scores! From one-timers to backhanders, shorties to penalty shots \u2013 our Light the Lamp collection of players finding the back of the net is sure to bring you out of your seat. \r\n\r\nFeaturing last-second OT winners, top cheese snipes, and franchise record-breakers, from Sam Reinhart, Brad Marchand, Cale Makar, Elias Pettersson, Leon Draisaitl, Mathew Barzal and more!\r\n\r\nEach pack contains 1 Light the Lamp highlight, 2 Stadiums & Skylines highlights, 1 Base 2023-24 highlight, plus 1 mystery highlight that could be from Light the Lamp (75%), Next-Gen Class (12.9%), Opening Ice 2023-24 (10%), Cause for a Celly: \u201890s (2%), or The Greatest Achievements sets (<1%).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front-16x9.png",
+     "pack_rarity": "Limited",
+     "pack_title": "Light the Lamp Debut LE Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae7700000000b758000000000000",
+     "quantity": 3000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Light the Lamp Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday March 29, 2024 at 1PM ET / 10AM PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $29 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 3,000. Edition numbers are distributed randomly upon purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 5</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Light the Lamp (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Two (2) highlights from Stadiums &amp; Skylines (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">75% Light the Lamp (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">12.9% Next-Gen Class (Limited #/500)&nbsp; &mdash; one of the first chances to pull Quinton Byfield!</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Cause for a Celly: &lsquo;90s (Epic #/100)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.1% The Greatest Achievements (Legendary #/10)</span></li>\r\n</ul>\r\n</ul>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQmRDk6WprylVjgbA90nJnbiW5sGQ6ruI1IOanya4BBJyzcS1lH96NjFyaCViihoCv-H-ppm1o-TFgC/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Stadiums &amp; Skylines, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/stadiums-skylines/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: 2023-24, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: &lsquo;90s, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/cause-for-a-celly-90s/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/the-greatest-achievements-preview-guardians-of-the-net-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "He shoots, he scores! From one-timers to backhanders, shorties to penalty shots \u2013 our Light the Lamp collection of players finding the back of the net is sure to bring you out of your seat. \r\n\r\nFeaturing last-second OT winners, top cheese snipes, and franchise record-breakers, from Sam Reinhart, Brad Marchand, Cale Makar, Elias Pettersson, Leon Draisaitl, Mathew Barzal and more!\r\n\r\nEach pack contains 1 Light the Lamp highlight, 2 Stadiums & Skylines highlights, 1 Base 2023-24 highlight, plus 1 mystery highlight that could be from Light the Lamp (75%), Next-Gen Class (12.9%), Opening Ice 2023-24 (10%), Cause for a Celly: \u201890s (2%), or The Greatest Achievements sets (<1%).",
+     "uuid": "b5c8ae7700000000b758000000000000",
+     "assets": {},
+     "editions": 3000,
+     "pack_series": {
+      "assets": {},
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Light the Lamp Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Light the Lamp",
+         "description": "<p>Dive into the heart-pounding moment the puck crosses the goal line with our exclusive collectible set, 'Light the Lamp.' This collection features players scoring thrilling goals, capturing the very essence of why they are cherished as impactful contributors. Each highlight in 'Light the Lamp' serves as a snapshot of electrifying plays showcasing the player's skill and finesse as they find the back of the net. From jaw-dropping breakaways to top corner snipes, these extraordinary highlights remind us why these players are known for their game-changing prowess.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77966800000000000000000000",
+         "rarity": "Limited"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Stadiums & Skylines",
+         "description": "<p>Introducing \"Stadiums &amp; Skylines,\" a set that celebrates the thrilling past and present moments from a diverse array of NHL outdoor games. This unique collection showcases iconic stadiums and breathtaking skylines as the backdrop to unforgettable hockey events. Immerse yourself in the excitement of these outdoor spectacles with \"Stadiums &amp; Skylines,\" where the magic of hockey meets the awe-inspiring settings that make these games truly extraordinary.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7743f000000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Stadiums & Skylines",
+         "description": "<p>Introducing \"Stadiums &amp; Skylines,\" a set that celebrates the thrilling past and present moments from a diverse array of NHL outdoor games. This unique collection showcases iconic stadiums and breathtaking skylines as the backdrop to unforgettable hockey events. Immerse yourself in the excitement of these outdoor spectacles with \"Stadiums &amp; Skylines,\" where the magic of hockey meets the awe-inspiring settings that make these games truly extraordinary.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7743f000000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 1,
+          "limit": 3000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.75,
+          "limit": 2250
+         },
+         "name": "Light the Lamp",
+         "description": "<p>Dive into the heart-pounding moment the puck crosses the goal line with our exclusive collectible set, 'Light the Lamp.' This collection features players scoring thrilling goals, capturing the very essence of why they are cherished as impactful contributors. Each highlight in 'Light the Lamp' serves as a snapshot of electrifying plays showcasing the player's skill and finesse as they find the back of the net. From jaw-dropping breakaways to top corner snipes, these extraordinary highlights remind us why these players are known for their game-changing prowess.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77966800000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.129,
+          "limit": 387
+         },
+         "name": "Next-Gen Class",
+         "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77cc3600000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.1,
+          "limit": 300
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.02,
+          "limit": 60
+         },
+         "name": "Cause for a Celly: '90s",
+         "description": "<div>\r\n<div>The Cause <em>For A Celly: '90s</em> collection immortalizes unforgettable NHL playoff highlights from the '90s that helped define the sport, featuring many of the game's greatest players and iconic moments that have left an indelible mark on hockey history.</div>\r\n<br />\r\n<div>Relive the exhilarating moments, featuring both legendary players and game or series-changing plays. From stunning overtime goals to game-saving glove saves, <em>Cause For A Celly: '90s</em> captures the drama, passion, and intensity of the playoffs like never before.</div>\r\n<br />\r\n<div>This exclusive set delves into the annals of NHL history, bringing to life the brilliance of great players and the unforgettable moments that have shaped the postseason.</div>\r\n</div>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77d22f00000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.0003333333333333333,
+          "limit": 1
+         },
+         "name": "Ray Bourque",
+         "description": "After an illustrious career spanning 22 seasons, Ray Bourque finally achieved the ultimate triumph of hoisting the Stanley Cup. At the age of 40, in what would be his final year in professional hockey, Bourque fulfilled his long-standing dream of winning this highly coveted trophy. This remarkable achievement added to the numerous accolades he had already earned, including holding the record for the most goals, assists and points in NHL history by a defenseman, along with five Norris Trophy awards. Leading up to this historic victory, Bourque showcased his invaluable contributions by scoring the game-winning goal during Game 3 of the Stanley Cup Final. With the game tied and a power play in progress, a crucial faceoff ensued in the early moments of the third period. Bourque skillfully seized control of the puck after it was won back to him, swiftly gliding towards the center of the ice before unleashing a powerful slapshot that flew past the formidable Martin Brodeur. Then, on June 9, 2001, following a resounding 3-1 victory by the Colorado Avalanche in Game 7, team captain Joe Sakic received the coveted Stanley Cup from Commissioner Gary Bettman. In a deeply significant gesture, Sakic promptly skated over to Bourque, personally handing off the cherished trophy to the deserving veteran. This poignant moment served as the culmination of Bourque's extraordinary career, marking the pinnacle of his accomplishments and forever etching his name into hockey lore.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be80000b68d000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.0003333333333333333,
+          "limit": 1
+         },
+         "name": "Teemu Selanne",
+         "description": "Teemu Selanne scored his third goal of the game during the third period, securing his record-setting 54th goal of the 1992-93 season. This impressive feat surpassed Mike Bossy's rookie record of 53 goals, which had been set fifteen seasons earlier. The play unfolded when Selanne's teammate, Tie Domi, launched the puck high into the air, landing near center ice. In a display of speed and skill, Selanne outpaced the defenseman, swatting a backhander past the sliding goalie to secure the record-breaking goal. The ice quickly filled with Selanne's jubilant teammates, celebrating his accomplishment. To commemorate the occasion, the team awarded Selanne a stick, which he raised towards the crowd at center ice in a gesture of gratitude. The rookie season for \"The Finnish Flash\" saw him tally an astounding 76 goals, obliterating the previous record and earning him the prestigious Calder Trophy.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be800009f67000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": "The Greatest Achievements",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.0003333333333333333,
+          "limit": 1
+         },
+         "name": "Wayne Gretzky",
+         "description": "During the 1993-94 season, Wayne Gretzky achieved a historic milestone by surpassing his childhood idol, Gordie Howe, to become the NHL's all-time leading goal scorer. The remarkable play unfolded with Luc Robitaille spearheading the attack, entering the opposing zone and executing a drop pass back to Gretzky. Displaying his exceptional playmaking abilities, Gretzky swiftly delivered a pass to Jari Kurri, who in turn sent the puck over to Marty McSorley. Positioned unmarked on the left side, Gretzky received a pass from McSorley, allowing him to effortlessly tap the puck into the net for the goal. The electrified crowd erupted in cheers as the Kings' bench swiftly flooded the ice, celebrating this incredible accomplishment. The memorable moment came in Gretzky\u2019s 15th NHL season, one in which \u201cThe Great One\u201d led the League in both assists and points.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae775be80000a881000000000000",
+         "rarity": "Legendary"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Light the Lamp",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBByRM",
+        "set_uuid": "b5c8ae77966800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Next-Gen Class",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+        "set_uuid": "b5c8ae77cc3600000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Stadiums & Skylines",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/LRgw7JR6",
+        "set_uuid": "b5c8ae7743f000000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rR8rAl1d",
+        "set_uuid": "b5c8ae775be800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Legendary"
+       },
+       {
+        "name": "Cause for a Celly: '90s",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmorq5",
+        "set_uuid": "b5c8ae77d22f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-03-28",
+     "rarity": {
+      "editions": 500,
+      "name": "Limited"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbBgC4aef4UyeJV2Y34UPHwysqFkBCoWbt9jwxxBn7W5R"
+       },
+       "content-type": "image/png",
+       "sha256": "ydX3a7-eDvABEcr3Z_ZQbQ2WcOEa1JckEZLeKL00JEc=",
+       "url": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUKRr1Yzg5HSkpsvDJ64KmgEkbQp6c8DrEKz9BNdCsNuS"
+       },
+       "content-type": "image/png",
+       "sha256": "hjKNCyIW8wiFoWs7TNfP4ae2vD4K0BcjxA2xZA2ge4c=",
+       "url": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbBgC4aef4UyeJV2Y34UPHwysqFkBCoWbt9jwxxBn7W5R"
+       },
+       "content-type": "image/png",
+       "sha256": "ydX3a7-eDvABEcr3Z_ZQbQ2WcOEa1JckEZLeKL00JEc=",
+       "url": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front.png"
+      }
+     },
+     "issued": "2024-03-28T17:44:01.161962",
+     "name": "Light the Lamp Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "-zmljHZEjEpQyFRshN4Yj0QiCjVZ2crhqiwuM0nWx6k=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "He shoots, he scores! From one-timers to backhanders, shorties to penalty shots \u2013 our Light the Lamp collection of players finding the back of the net is sure to bring you out of your seat. \r\n\r\nFeaturing last-second OT winners, top cheese snipes, and franchise record-breakers, from Sam Reinhart, Brad Marchand, Cale Makar, Elias Pettersson, Leon Draisaitl, Mathew Barzal and more!\r\n\r\nEach pack contains 1 Light the Lamp highlight, 2 Stadiums & Skylines highlights, 1 Base 2023-24 highlight, plus 1 mystery highlight that could be from Light the Lamp (75%), Next-Gen Class (12.9%), Opening Ice 2023-24 (10%), Cause for a Celly: \u201890s (2%), or The Greatest Achievements sets (<1%).",
+       "is_openable": true,
+       "name": "Light the Lamp Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 3000,
+      "uri": "https://nft.nhlbreakaway.com/series/r1Joopbv"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/r1Joopbv"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Light the Lamp Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/r1Joopbv",
+    "image": "https://nft.nhlbreakaway.com/series/r1Joopbv/image-front-16x9.png"
+   },
+   "seriesId": "r1Joopbv",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "r1Joopbv"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

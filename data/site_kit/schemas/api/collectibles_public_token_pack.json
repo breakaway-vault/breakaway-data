@@ -1,0 +1,411 @@
+{
+ "_doc": {
+  "assets": {
+   "front_image": {
+    "altloc": {
+     "ipfs": "str"
+    },
+    "content-type": "str",
+    "sha256": "str",
+    "url": "str"
+   },
+   "front_image_16x9": {
+    "altloc": {
+     "ipfs": "str"
+    },
+    "content-type": "str",
+    "sha256": "str",
+    "url": "str"
+   },
+   "reverse_image": "NoneType"
+  },
+  "attributes": [
+   {
+    "name": "str",
+    "value": "str"
+   }
+  ],
+  "creator": {
+   "name": "str",
+   "uri": "str"
+  },
+  "edition_number": "str",
+  "fees": [
+   {
+    "basis_points": "int",
+    "recipient_address": "str",
+    "type": "str"
+   }
+  ],
+  "image": {
+   "altloc": {
+    "ipfs": "str"
+   },
+   "content-type": "str",
+   "sha256": "str",
+   "thumbnail": {
+    "350": {
+     "altloc": {
+      "ipfs": "str"
+     },
+     "content-type": "str",
+     "height": "int",
+     "sha256": "str",
+     "url": "str",
+     "width": "int"
+    },
+    "500": {
+     "altloc": {
+      "ipfs": "str"
+     },
+     "content-type": "str",
+     "height": "int",
+     "sha256": "str",
+     "url": "str",
+     "width": "int"
+    }
+   },
+   "url": "str"
+  },
+  "images": {
+   "front": {
+    "altloc": {
+     "ipfs": "str"
+    },
+    "content-type": "str",
+    "sha256": "str",
+    "thumbnail": {
+     "350": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "height": "int",
+      "sha256": "str",
+      "url": "str",
+      "width": "int"
+     },
+     "500": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "height": "int",
+      "sha256": "str",
+      "url": "str",
+      "width": "int"
+     }
+    },
+    "url": "str"
+   }
+  },
+  "issued": "str",
+  "name": "str",
+  "network": "str",
+  "rights_info": {
+   "copyright_notice": "str",
+   "terms_and_conditions": {
+    "sha256": "str",
+    "url": "str"
+   }
+  },
+  "sequence_number": "int",
+  "series": {
+   "display_meta": {
+    "color": "str",
+    "creator_campaign": {
+     "campaign_id": "int",
+     "client": {
+      "company": "str",
+      "name": "str"
+     },
+     "description": "str",
+     "name": "str"
+    },
+    "creator_campaign_id": "int",
+    "description": "str",
+    "is_openable": "bool",
+    "name": "str",
+    "rarity": {
+     "name": "str",
+     "rank": "int"
+    },
+    "type": "str"
+   },
+   "total_number": "int",
+   "uri": "str"
+  },
+  "type": "str",
+  "uri": "str",
+  "pack_uuid": "str",
+  "set_id": "NoneType",
+  "set_uuid": "NoneType",
+  "moment_id": "int"
+ },
+ "_tokendata": {
+  "owner": "str",
+  "campaign": {
+   "campaign_id": "int",
+   "client": {
+    "name": "str",
+    "company": "str"
+   },
+   "description": "str",
+   "name": "str",
+   "avatar": "str"
+  },
+  "explorer_url": "str",
+  "pack_opened": "bool",
+  "burned": "bool",
+  "marketplace_description": "NoneType",
+  "sets": "NoneType",
+  "crafting_turn_in": "bool"
+ },
+ "_metadata": {
+  "name": "str",
+  "description": "str",
+  "series_name": "str",
+  "series_description": "str",
+  "number_of_moments": "int",
+  "number_of_packs": "int",
+  "moment_keys": [
+   "str"
+  ],
+  "moments": {
+   "7e2b4cbaec9e4ac9869fb4c12061444b": [
+    {
+     "type": "str",
+     "name": "str",
+     "description": "str",
+     "rarity": [
+      "str"
+     ],
+     "probability": {
+      "limit": "int",
+      "total": "int"
+     },
+     "collectibles_keys_in_pack_moment": [
+      "str"
+     ]
+    }
+   ],
+   "a32a1f673a4a4ebbabe921de2dd3a80d": [
+    {
+     "type": "str",
+     "name": "str",
+     "description": "str",
+     "rarity": [
+      "str"
+     ],
+     "probability": {
+      "limit": "int",
+      "total": "int"
+     },
+     "collectibles_keys_in_pack_moment": [
+      "str"
+     ]
+    }
+   ],
+   "d200f221461a4724a526532b34754d99": [
+    {
+     "type": "str",
+     "name": "str",
+     "description": "str",
+     "rarity": [
+      "str"
+     ],
+     "probability": {
+      "limit": "int",
+      "total": "int"
+     },
+     "collectibles_keys_in_pack_moment": [
+      "str"
+     ]
+    }
+   ],
+   "3263d90737004f5e92911f783e663e24": [
+    {
+     "type": "str",
+     "name": "str",
+     "description": "str",
+     "rarity": [
+      "str"
+     ],
+     "probability": {
+      "limit": "int",
+      "total": "int"
+     },
+     "collectibles_keys_in_pack_moment": [
+      "str"
+     ]
+    }
+   ]
+  },
+  "rarity": "str",
+  "editions_in_pack": {
+   "b572cf353aed0000bc17000000000000": "str",
+   "b572cf353aed00009070000000000000": "str",
+   "b572cf35ea8000009be5000000000000": "str",
+   "b572cf353aed00008215000000000000": "str",
+   "b572cf354eaf0000a8b3000000000000": "str",
+   "b572cf3537d00000b01d000000000000": "str",
+   "b572cf353aed0000a953000000000000": "str",
+   "b572cf354eaf00009765000000000000": "str",
+   "b572cf35dbe10000ab6a000000000000": "str",
+   "b572cf353aed0000aa74000000000000": "str",
+   "b572cf3576c900009385000000000000": "str",
+   "b572cf354eaf0000b0cb000000000000": "str",
+   "b572cf35aad40000a173000000000000": "str",
+   "b572cf3537d00000a22a000000000000": "str",
+   "b572cf35aad40000b1c6000000000000": "str",
+   "b572cf353aed00009067000000000000": "str",
+   "b572cf354eaf0000a8a7000000000000": "str",
+   "b572cf354eaf0000b209000000000000": "str",
+   "b572cf35ea8000009265000000000000": "str",
+   "b572cf3537d0000082a8000000000000": "str",
+   "b572cf354eaf0000800e000000000000": "str",
+   "b572cf35a62c00008d16000000000000": "str",
+   "b572cf35f52000008853000000000000": "str",
+   "b572cf355f510000bf4c000000000000": "str",
+   "b572cf354eaf00008e6e000000000000": "str",
+   "b572cf354eaf00008327000000000000": "str",
+   "b572cf35f5200000bec7000000000000": "str",
+   "b572cf35ea8000008d16000000000000": "str",
+   "b572cf35dbe100008036000000000000": "str",
+   "b572cf35afe10000b07a000000000000": "str",
+   "b572cf35a62c0000a936000000000000": "str",
+   "b572cf3537d00000a84d000000000000": "str",
+   "b572cf353aed0000ad89000000000000": "str",
+   "b572cf35ea8000009812000000000000": "str",
+   "b572cf35f5200000a09d000000000000": "str",
+   "b572cf353aed0000beca000000000000": "str",
+   "b572cf3537d00000bb11000000000000": "str",
+   "b572cf35ea800000b1df000000000000": "str",
+   "b572cf35f5200000b279000000000000": "str",
+   "b572cf35ea8000008f6e000000000000": "str",
+   "b572cf355f5100008a28000000000000": "str",
+   "b572cf3537d00000a00d000000000000": "str",
+   "b572cf35a62c00009a73000000000000": "str",
+   "b572cf3537d00000a0f9000000000000": "str",
+   "b572cf3537d00000a876000000000000": "str",
+   "b572cf35ea800000bbda000000000000": "str",
+   "b572cf3537d00000b4da000000000000": "str",
+   "b572cf35f5200000b65a000000000000": "str",
+   "b572cf355f510000a619000000000000": "str",
+   "b572cf35afe10000a973000000000000": "str",
+   "b572cf35a62c0000aab4000000000000": "str",
+   "b572cf35ea80000087e8000000000000": "str",
+   "b572cf35ea8000009581000000000000": "str",
+   "b572cf35ea800000bc25000000000000": "str",
+   "b572cf3537d0000098bc000000000000": "str",
+   "b572cf35afe10000b3f1000000000000": "str",
+   "b572cf3537d000009ab2000000000000": "str",
+   "b572cf353aed00009016000000000000": "str",
+   "b572cf35ea80000087a6000000000000": "str",
+   "b572cf35ea8000009272000000000000": "str",
+   "b572cf355f510000b101000000000000": "str",
+   "b572cf355f510000a029000000000000": "str",
+   "b572cf355f510000b3ed000000000000": "str",
+   "b572cf35ea800000a032000000000000": "str",
+   "b572cf3537d00000ba0d000000000000": "str",
+   "b572cf35ea800000824a000000000000": "str",
+   "b572cf3537d00000a852000000000000": "str",
+   "b572cf35f5200000ba26000000000000": "str",
+   "b572cf3537d00000af40000000000000": "str",
+   "b572cf3576c90000b116000000000000": "str",
+   "b572cf35ea80000098ba000000000000": "str",
+   "b572cf35f52000009a59000000000000": "str",
+   "b572cf353aed00008c5b000000000000": "str",
+   "b572cf3576c900009fc0000000000000": "str",
+   "b572cf35ea8000009901000000000000": "str",
+   "b572cf3576c9000089a5000000000000": "str",
+   "b572cf35dbe10000b85f000000000000": "str",
+   "b572cf35ea8000008197000000000000": "str",
+   "b572cf3537d00000aeeb000000000000": "str",
+   "b572cf35a62c0000b9b3000000000000": "str",
+   "b572cf35aad40000afd0000000000000": "str",
+   "b572cf354eaf0000a0f7000000000000": "str",
+   "b572cf35ea8000009482000000000000": "str",
+   "b572cf3537d000009d4c000000000000": "str",
+   "b572cf35aad40000973a000000000000": "str",
+   "b572cf35dbe10000bc59000000000000": "str",
+   "b572cf353aed0000bf60000000000000": "str",
+   "b572cf353aed0000b48c000000000000": "str",
+   "b572cf35f52000008132000000000000": "str",
+   "b572cf35ea800000a529000000000000": "str",
+   "b572cf35ea8000008758000000000000": "str",
+   "b572cf35aad40000b0ba000000000000": "str",
+   "b572cf35afe100008c31000000000000": "str",
+   "b572cf354eaf0000b384000000000000": "str",
+   "b572cf353aed00008433000000000000": "str",
+   "b572cf3537d00000802d000000000000": "str",
+   "b572cf35f5200000b6f5000000000000": "str",
+   "b572cf3537d0000097c4000000000000": "str",
+   "b572cf3537d00000a954000000000000": "str",
+   "b572cf35afe1000099aa000000000000": "str",
+   "b572cf35afe10000b9c2000000000000": "str",
+   "b572cf35aad4000093e0000000000000": "str",
+   "b572cf354eaf0000bba3000000000000": "str",
+   "b572cf35aad400008137000000000000": "str",
+   "b572cf35dbe10000b3b8000000000000": "str",
+   "b572cf3576c900009248000000000000": "str",
+   "b572cf35afe10000aa17000000000000": "str",
+   "b572cf3537d00000b9bb000000000000": "str",
+   "b572cf35aad4000094b2000000000000": "str",
+   "b572cf35ea800000ad14000000000000": "str",
+   "b572cf35ea800000bb45000000000000": "str",
+   "b572cf355f510000a70c000000000000": "str",
+   "b572cf355f5100008d1a000000000000": "str",
+   "b572cf35ea800000afed000000000000": "str",
+   "b572cf355f510000924b000000000000": "str",
+   "b572cf355f510000bed6000000000000": "str",
+   "b572cf35afe10000bf64000000000000": "str",
+   "b572cf35aad40000be7c000000000000": "str",
+   "b572cf35aad4000082bb000000000000": "str",
+   "b572cf35ea800000b415000000000000": "str",
+   "b572cf35ea800000be36000000000000": "str",
+   "b572cf35aad40000bb41000000000000": "str",
+   "b572cf35ea800000ad9f000000000000": "str",
+   "b572cf35f52000008d08000000000000": "str",
+   "b572cf354eaf00008692000000000000": "str",
+   "b572cf355f510000b209000000000000": "str",
+   "b572cf35ea800000b025000000000000": "str",
+   "b572cf35ea800000b141000000000000": "str",
+   "b572cf35aad40000b2db000000000000": "str",
+   "b572cf354eaf000083a4000000000000": "str",
+   "b572cf35ea8000009e00000000000000": "str",
+   "b572cf355f5100008797000000000000": "str",
+   "b572cf35f52000009cbd000000000000": "str",
+   "b572cf35ea800000a11e000000000000": "str",
+   "b572cf35dbe10000b4a3000000000000": "str",
+   "b572cf35ea80000080f9000000000000": "str",
+   "b572cf3576c90000baed000000000000": "str",
+   "b572cf35ea800000a2e9000000000000": "str",
+   "b572cf353aed000095b2000000000000": "str",
+   "b572cf35ea800000a4e3000000000000": "str",
+   "b572cf353aed00008b79000000000000": "str",
+   "b572cf35ea8000009ed0000000000000": "str",
+   "b572cf355f5100009bd5000000000000": "str",
+   "b572cf3537d00000879f000000000000": "str",
+   "b572cf355f510000a7a3000000000000": "str",
+   "b572cf353aed000088d0000000000000": "str",
+   "b572cf3537d00000aff0000000000000": "str",
+   "b572cf354eaf0000935e000000000000": "str",
+   "b572cf35ea800000a0bb000000000000": "str",
+   "b572cf3537d00000be07000000000000": "str",
+   "b572cf355f510000a526000000000000": "str",
+   "b572cf354eaf0000bd4e000000000000": "str",
+   "b572cf355f510000ac36000000000000": "str",
+   "b572cf35ea800000817a000000000000": "str",
+   "b572cf35ea800000ba40000000000000": "str",
+   "b572cf35ea800000bf51000000000000": "str",
+   "b572cf35ea800000aab5000000000000": "str",
+   "b572cf35f5200000a49d000000000000": "str",
+   "b572cf3537d00000835f000000000000": "str",
+   "b572cf3537d000008e7b000000000000": "str",
+   "b572cf35ea8000008dce000000000000": "str",
+   "b572cf35f5200000befc000000000000": "str",
+   "b572cf3537d00000a5ef000000000000": "str"
+  }
+ }
+}

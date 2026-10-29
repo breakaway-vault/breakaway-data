@@ -1,0 +1,39 @@
+{
+ "props": {
+  "pageProps": {
+   "headerMetadata": {
+    "titleKey": "setCompletionHubTitle",
+    "url": "https://nhlbreakaway.com/play/sets",
+    "image": "https://nhl-static.assets.sweet.io/img/drops_social_share.jpg"
+   },
+   "series": [
+    {
+     "label": "Series 1",
+     "value": "b5c8ae77000000000000000000000000"
+    },
+    {
+     "label": "Series 2",
+     "value": "cd2f47fe000000000000000000000000"
+    },
+    {
+     "label": "Series 3",
+     "value": "b572cf35000000000000000000000000"
+    }
+   ]
+  },
+  "__N_SSP": true
+ },
+ "page": "/play/sets",
+ "query": {},
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "fr",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

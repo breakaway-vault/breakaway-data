@@ -1,0 +1,25 @@
+{
+ "props": {
+  "pageProps": {
+   "headerMetadata": {
+    "titleKey": "playHubTitle",
+    "url": "https://nhlbreakaway.com/play/predict/history",
+    "image": "https://nhl-static.assets.sweet.io/img/drops_social_share.jpg"
+   }
+  },
+  "__N_SSP": true
+ },
+ "page": "/play/predict/history",
+ "query": {},
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "fr",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

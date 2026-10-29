@@ -1,0 +1,353 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286366,
+    "summary": {
+     "drop_active": 1701108000,
+     "drop_expires": null,
+     "pack_price": "12.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/v1yjNdbP",
+     "number_of_highlights": 3,
+     "pack_description": "Get ready to relive the adrenaline-packed start of the 2023-24 NHL season \u2013 everything from game-breaking clappers to hat tricks to how-did-he-get-there saves!\r\n\r\nFeaturing rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!\r\n\r\nEach pack contains 1 Base 2023-24 highlight, plus 2 mystery highlights that could be from Base 2023-24, Base 2022-23, Opening Ice, Opening Ice: Elites, The Hunt for Stanley 2023, Opening Ice 2023-24, or Making the Mark sets.",
+     "pack_image": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Base 2023-24 Debut LE Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae77000000008b5b000000000000",
+     "quantity": 12000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Base 2023-24 Debut LE Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Mon, Nov 27 at 1PM ET / 10AM PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $12 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 5,000 available in this drop. An additional 3,000 were released on Fri, Dec 1. The remaining 4,000 will be released at a later date.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 2 hours. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">75% Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">13% Opening Ice (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">12% Opening Ice: Elites (Rare #/250) &ndash; </span><strong>First chance to find Connor McDavid, David Pastrnak, Matthew Tkachuk and Charlie McAvoy!</strong></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">80% Base 2023-24 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">15% Base 2022-23 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">3% The Hunt for Stanley 2023 (Limited #/500) &ndash; </span><strong>Last chance to find this set in a pack drop!</strong></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.5% Opening Ice 2023-24 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.5% Making the Mark (Epic #/100) &ndash; </span><strong>Last chance to find this set in a pack drop!</strong></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights will be eligible to be sold to other collectors with the launch of the NHL Breakaway fan marketplace expected later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Marketplace Fee:</strong> A Content-related royalty not to exceed 5% may be incurred upon resale. <a class=\"c-link\" href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\" data-sk=\"tooltip_parent\">See FAQ</a>.</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSG_WKmYStmhhFq9fFlOgFeFqdu8TrNA75U-sAQvmGwwip_btVE2OFWDctuoYHFafLp0INhXbr6kEKv/pubhtml\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Base 2023-24, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\">Preview</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Base 2022-23, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/set-previews-the-hunt-for-stanley-2023-base-expansion/\">Preview</a><span style=\"font-weight: 400;\"> (Expansion) | </span><a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/base-set-preview-rarity-tiers/\">Preview</a><span style=\"font-weight: 400;\"> (Original)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Opening Ice: Elites, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"http://blog.nhlbreakaway.com/opening-ice-elites-set-preview/\">Preview</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Opening Ice, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/set-preview-opening-ice/\">Preview</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Opening Ice: 2023-24, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/opening-ice-2023-24-preview-cyber-monday-drop/\">Preview</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">The Hunt for Stanley 2023, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/set-previews-the-hunt-for-stanley-2023-base-expansion/\">Preview</a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Making the Mark, Series 1 - <a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/first-drop-july-27-making-the-mark-set-preview/\">Preview</a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Get ready to relive the adrenaline-packed start of the 2023-24 NHL season \u2013 everything from game-breaking clappers to hat tricks to how-did-he-get-there saves!\r\n\r\nFeaturing rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!\r\n\r\nEach pack contains 1 Base 2023-24 highlight, plus 2 mystery highlights that could be from Base 2023-24, Base 2022-23, Opening Ice, Opening Ice: Elites, The Hunt for Stanley 2023, Opening Ice 2023-24, or Making the Mark sets.",
+     "uuid": "b5c8ae77000000008b5b000000000000",
+     "assets": [
+      {
+       "purpose": "card-image",
+       "mime": "image/png",
+       "url": "https://nft.nhlbreakaway.com/nhl_pack_image/original/5e044d29-7e2e-4c3a-9e45-e9b89d73bfcb.png"
+      }
+     ],
+     "editions": 12000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000",
+      "rarity": null
+     },
+     "asset_type": "pack-release",
+     "name": "Base 2023-24 Debut LE Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 1,
+          "limit": 12000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.75,
+          "limit": 9000
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.13,
+          "limit": 1560
+         },
+         "name": "Opening Ice",
+         "description": "<p>Get ready to witness the NHL&rsquo;s rising stars like never before with Opening Ice. This set features 20 heart-pounding highlights from players who have notched their first career goal in the 2021-22 and 2022-23 seasons.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77e61100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.12,
+          "limit": 1440
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing Opening Ice: Elites, an exhilarating set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments. Opening Ice: Elites is a celebration of the sport's future legends and a must-have addition to any hockey enthusiast's collection, cherishing the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae7756ae00000000000000000000",
+         "rarity": "Rare"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.8,
+          "limit": 9600
+         },
+         "name": "Base 2023-24",
+         "description": "<p>Get ready to relive the adrenaline-packed start of the 2023-24 NHL season &ndash; everything from game-breaking clappers to hat tricks to how-did-he-get-there saves! Featuring rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b99b00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.15,
+          "limit": 1800
+         },
+         "name": "Base",
+         "description": "<p>The Series 1 Base set is a collection of meaningful highlights from each team in the League that occurred during the 2022-23 season.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77b8f100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.03,
+          "limit": 360
+         },
+         "name": "The Hunt for Stanley 2023",
+         "description": "<p>The Stanley Cup Playoffs are the most grueling and intense postseason in all of sports, and they are a true test of a team's skill, endurance, and mental toughness. The excitement of the playoffs is palpable, with every game feeling like a do-or-die battle for survival. The physicality of the games is ramped up, and every player knows that they have to bring their A-game if they want to advance to the next round. The grind of the playoffs is intense, with teams playing every other night for weeks on end. Injuries can pile up, and exhaustion can set in, but the desire to win the ultimate prize keeps players pushing themselves to their limits. It's a thrilling and exhausting experience that only the best teams are able to survive and emerge victorious.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77c33c00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.015,
+          "limit": 180
+         },
+         "name": "Opening Ice 2023-24",
+         "description": "<p>Collect history with the first career goals from highly-anticipated 2023-24 rookies, including Connor Bedard, Logan Cooley, Leo Carlsson, Adam Fantilli, Matthew Poitras, Bobby Brink and more!</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77dcf100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 12000,
+          "probability": 0.005,
+          "limit": 60
+         },
+         "name": "Making the Mark",
+         "description": "<p>Making the Mark set celebrates record-setting and career accomplishments of the recent season &ndash; moments that have the opportunity to transcend the game and become landmarks in the annals of NHL history.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae772c2f00000000000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Opening Ice 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/916gz3b7",
+        "set_uuid": "b5c8ae77dcf100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2023-24",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/gb04X2bA",
+        "set_uuid": "b5c8ae77b99b00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kwkRd",
+        "set_uuid": "b5c8ae7756ae00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Hunt for Stanley 2023",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m",
+        "set_uuid": "b5c8ae77c33c00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Making the Mark",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M8R5DJbD",
+        "set_uuid": "b5c8ae772c2f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/WvRDo2bP",
+        "set_uuid": "b5c8ae77e61100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+        "set_uuid": "b5c8ae77b8f100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2023-11-24",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmduAWYRd4B7Q4m3Kc3jZuXtW63bFeZjt7LM4X3mufcJJN"
+       },
+       "content-type": "image/png",
+       "sha256": "nQNk-PBDRMxKyY0nlHYSYbHMs7BD7Ko2s1J9no3gs8c=",
+       "url": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmZLM1FChhXqU7uhCTaU7eaqppoCbFFcehdSyjmYf9ifTT"
+       },
+       "content-type": "image/png",
+       "sha256": "xpRPSfkWsGUaSeFp-lv2I0Hco46asBQubWKtfnNT_uU=",
+       "url": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmduAWYRd4B7Q4m3Kc3jZuXtW63bFeZjt7LM4X3mufcJJN"
+       },
+       "content-type": "image/png",
+       "sha256": "nQNk-PBDRMxKyY0nlHYSYbHMs7BD7Ko2s1J9no3gs8c=",
+       "url": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front.png"
+      }
+     },
+     "issued": "2023-11-24T22:32:48.233376",
+     "name": "Base 2023-24 Debut LE Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "dMGgcuVu-Crf9wfRd9OJpFskamVuDJiR043z3bRGLrk=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Get ready to relive the adrenaline-packed start of the 2023-24 NHL season \u2013 everything from game-breaking clappers to hat tricks to how-did-he-get-there saves!\r\n\r\nFeaturing rising stars, savvy veterans, and comeback kings like Alex DeBrincat, Mika Zibanejad, Sean Couturier, William Nylander, Corey Perry, Mark Sheifele and more!\r\n\r\nEach pack contains 1 Base 2023-24 highlight, plus 2 mystery highlights that could be from Base 2023-24, Base 2022-23, Opening Ice, Opening Ice: Elites, The Hunt for Stanley 2023, Opening Ice 2023-24, or Making the Mark sets.",
+       "is_openable": true,
+       "name": "Base 2023-24 Debut LE Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 12000,
+      "uri": "https://nft.nhlbreakaway.com/series/v1yjNdbP"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/v1yjNdbP"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Base 2023-24 Debut LE Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/v1yjNdbP",
+    "image": "https://nft.nhlbreakaway.com/series/v1yjNdbP/image-front-16x9.png"
+   },
+   "seriesId": "v1yjNdbP",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "v1yjNdbP"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

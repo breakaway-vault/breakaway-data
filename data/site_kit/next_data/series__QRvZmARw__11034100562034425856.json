@@ -1,0 +1,638 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmVu5Khdst3jhqxX81AAA1EJmsFR3u8E5aXka2ZjZEfDgZ"
+       },
+       "content-type": "image/png",
+       "sha256": "rmRZkTed-DvuLFIBS3fc-XCZpZGmmWlmZaBlbEW48T4=",
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmQoCKzP4HAdX8nbfczCpUA11wZNQymefsxUeFSnK4Zbze"
+       },
+       "content-type": "image/png",
+       "sha256": "olwuxwe4wOoGLLUhhmonJFr30S9_5J4nm0XH5Hwu-tc=",
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmaD5pbM6Un4SgVNCqRxgFm5CPGsosAnHfwX3fmaJGf2or"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/QRvZmARw/11034100562034425856/card-image.png",
+        "purpose": "card-image",
+        "sha256": "Oss1226_44EZgoGtaTY6Jd3rkoFWci0ylb1reumP31E=",
+        "uri": "https://mediagateway.sweet.io/media/token/QRvZmARw/11034100562034425856/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXwCBr6D9GfrsTNCokFMs9W6SsDNEMTWpbUagKW2h5sC7"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/QRvZmARw/11034100562034425856/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "1w_k7TgLhLNUMQcKyw1C9OfHGwhN12YG78ZBl2zHI74=",
+        "uri": "https://mediagateway.sweet.io/media/token/QRvZmARw/11034100562034425856/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQoCKzP4HAdX8nbfczCpUA11wZNQymefsxUeFSnK4Zbze"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/QRvZmARw/11034100562034425856/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "olwuxwe4wOoGLLUhhmonJFr30S9_5J4nm0XH5Hwu-tc=",
+        "uri": "https://mediagateway.sweet.io/media/token/QRvZmARw/11034100562034425856/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVu5Khdst3jhqxX81AAA1EJmsFR3u8E5aXka2ZjZEfDgZ"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/QRvZmARw/11034100562034425856/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "rmRZkTed-DvuLFIBS3fc-XCZpZGmmWlmZaBlbEW48T4=",
+        "uri": "https://mediagateway.sweet.io/media/token/QRvZmARw/11034100562034425856/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2025-01-08"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "cd2f47fef2be00009921000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Pierre-Luc Dubois"
+      },
+      {
+       "name": "Rarity",
+       "value": "Core"
+      },
+      {
+       "name": "Series",
+       "value": "Series 2"
+      },
+      {
+       "name": "Series UUID",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Fresh Sweaters"
+      },
+      {
+       "name": "Set UUID",
+       "value": "cd2f47fef2be00000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Washington Capitals"
+      },
+      {
+       "name": "Total Editions",
+       "value": "1500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In a nail-biter against the Vancouver Canucks on home ice, Pierre-Luc Dubois delivers the game-winning heroics in the final minute of overtime. With teammate Aliaksei Protas drawing the attention of the Vancouver defense skating behind the net, Dubois slips into the high slot undetected. Receiving a perfectly timed pass, he glides closer to the crease, executes a smooth deke, and snaps the puck past the goaltender for his second goal of the night, sealing the thrilling victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmVu5Khdst3jhqxX81AAA1EJmsFR3u8E5aXka2ZjZEfDgZ"
+      },
+      "content-type": "image/png",
+      "sha256": "rmRZkTed-DvuLFIBS3fc-XCZpZGmmWlmZaBlbEW48T4=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmPqiH8LHzFJdGhVsqaCW99GQ8wWceWQtzJgumdrVJpKFS"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "f5XXcWHYmLpcvrrTQVyxi0brtU9c2_bn7tSGb0UAYeA=",
+        "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmTZLHGShkECkvDef5kwv4NEnRNAsnyeTAqHe7k3BTwqLC"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "2qyTc799YvQ-ofVbvTGLR21fCfT4LzOu6VZGnvtoutM=",
+        "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmVu5Khdst3jhqxX81AAA1EJmsFR3u8E5aXka2ZjZEfDgZ"
+       },
+       "content-type": "image/png",
+       "sha256": "rmRZkTed-DvuLFIBS3fc-XCZpZGmmWlmZaBlbEW48T4=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPqiH8LHzFJdGhVsqaCW99GQ8wWceWQtzJgumdrVJpKFS"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "f5XXcWHYmLpcvrrTQVyxi0brtU9c2_bn7tSGb0UAYeA=",
+         "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmTZLHGShkECkvDef5kwv4NEnRNAsnyeTAqHe7k3BTwqLC"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "2qyTc799YvQ-ofVbvTGLR21fCfT4LzOu6VZGnvtoutM=",
+         "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmQoCKzP4HAdX8nbfczCpUA11wZNQymefsxUeFSnK4Zbze"
+       },
+       "content-type": "image/png",
+       "sha256": "olwuxwe4wOoGLLUhhmonJFr30S9_5J4nm0XH5Hwu-tc=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmc4WMdsyUPbpsJPqFRXKoYi2LjnBdA2TXj4vSPFKV1zCV"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "iSuOaITjLaVKJkkFp-CP155sNSXgAM7rgxYtiu8hVAI=",
+         "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmTfxFHqyFFwgx68zJrqZrkbJEh77MGPondEiSMHPYZA3u"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "byn8NSGgBKFATPzg8quVwczbE5KkO5hUswYnIYK6I7A=",
+         "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-03-20T20:04:49.557764",
+     "name": "Pierre-Luc Dubois #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "_kshIkz9nFNuqDLfQso_KP_INXLUJJwUcbR0Xqu5Bq8=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11034100562034426000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In a nail-biter against the Vancouver Canucks on home ice, Pierre-Luc Dubois delivers the game-winning heroics in the final minute of overtime. With teammate Aliaksei Protas drawing the attention of the Vancouver defense skating behind the net, Dubois slips into the high slot undetected. Receiving a perfectly timed pass, he glides closer to the crease, executes a smooth deke, and snaps the puck past the goaltender for his second goal of the night, sealing the thrilling victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Fresh Sweaters",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw/11034100562034425856",
+     "pack_uuid": null,
+     "set_id": 57,
+     "set_uuid": "cd2f47fef2be00000000000000000000",
+     "moment_id": 39201
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xCE40A3b3D5afa86f849FaF5Db4428752Aac7ffE3/?a=11034100562034425856",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 15,
+     "name": "Washington Capitals",
+     "abbreviation": "WSH",
+     "short_name": "Washington",
+     "venue_city": "Washington",
+     "venue_name": "Capital One Arena",
+     "key": "WashingtonCapitals",
+     "url": "https://www.nhl.com/capitals",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/WashingtonCapitals.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Fresh Sweaters",
+      "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/523c780d-a8c0-4408-a596-b440847004e2.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+      "uuid": "cd2f47fef2be00000000000000000000",
+      "rarity": {
+       "name": "Core",
+       "editions": 1500
+      }
+     },
+     "description": "In a nail-biter against the Vancouver Canucks on home ice, Pierre-Luc Dubois delivers the game-winning heroics in the final minute of overtime. With teammate Aliaksei Protas drawing the attention of the Vancouver defense skating behind the net, Dubois slips into the high slot undetected. Receiving a perfectly timed pass, he glides closer to the crease, executes a smooth deke, and snaps the puck past the goaltender for his second goal of the night, sealing the thrilling victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fef2be00009921000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Breakaway Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+       "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/523c780d-a8c0-4408-a596-b440847004e2.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "moment_id": 39201,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/QRvZmARw/moment/11034100562034425856/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/QRvZmARw/moment/11034100562034425856/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/QRvZmARw/moment/11034100562034425856/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/QRvZmARw/moment/11034100562034425856/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/QRvZmARw/moment/11034100562034425856/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/QRvZmARw/moment/11034100562034425856/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/QRvZmARw/moment/11034100562034425856/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/QRvZmARw/moment/11034100562034425856/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/9921/images/front.png"
+      }
+     },
+     "editions": 1500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "vbpYDD4_wZ4F5a6x2OGUI3KaSTl3nf5N6rqw9oIAWkk=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://Qmd6qFY2BoUqLWPMDoBWceCxdSc2SssEk2xiN61zrVmbLU"
+        },
+        "content-type": "image/png",
+        "sha256": "qs9GzEt4b0uNCgUrXD8xy7WYCryIPmSW14ymmoaPsXw=",
+        "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://Qmd6qFY2BoUqLWPMDoBWceCxdSc2SssEk2xiN61zrVmbLU"
+        },
+        "content-type": "image/png",
+        "sha256": "qs9GzEt4b0uNCgUrXD8xy7WYCryIPmSW14ymmoaPsXw=",
+        "url": "https://nft.nhlbreakaway.com/series/QRvZmARw/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Fresh Sweaters",
+        "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw"
+      },
+      "name": "Fresh Sweaters",
+      "issued": "2025-05-15T20:57:14.341429",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Pierre-Luc Dubois",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL (OT)",
+       "venue_location": "Washington Capitals - Capital One Arena (Washington, DC)",
+       "final_score": "VAN 1, WSH 2 - FINAL (OT)",
+       "venue": {
+        "name": "Capital One Arena",
+        "location": "Washington, DC",
+        "team": "WSH"
+       },
+       "away": {
+        "final_score": 1,
+        "team": "VAN"
+       },
+       "home": {
+        "final_score": 2,
+        "team": "WSH"
+       }
+      },
+      "collectible_tagline": "Goal vs VAN | Overtime | Jan 8, 2025",
+      "primary_player": {
+       "name": "Pierre-Luc Dubois",
+       "is_rookie": false,
+       "position": "LW",
+       "team": "WSH",
+       "jersey": 80,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2025-01-08",
+       "period": "Overtime",
+       "extra": {
+        "goal_number_this_season": 7
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | Overtime | Jan 8, 2025",
+       "clock": "4:19",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-03-20",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Core",
+      "sorting_position": 20,
+      "editions": 1500
+     }
+    },
+    "_metadata": {
+     "name": "Pierre-Luc Dubois",
+     "description": "In a nail-biter against the Vancouver Canucks on home ice, Pierre-Luc Dubois delivers the game-winning heroics in the final minute of overtime. With teammate Aliaksei Protas drawing the attention of the Vancouver defense skating behind the net, Dubois slips into the high slot undetected. Receiving a perfectly timed pass, he glides closer to the crease, executes a smooth deke, and snaps the puck past the goaltender for his second goal of the night, sealing the thrilling victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 1500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs VAN | Overtime | Jan 8, 2025",
+     "team": "WSH",
+     "player_name": "Pierre-Luc Dubois",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "VAN",
+        "final_score": 1
+       },
+       "home": {
+        "team": "WSH",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Capital One Arena",
+        "team": "WSH",
+        "location": "Washington, DC"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "VAN 1, WSH 2 - FINAL (OT)",
+       "venue_location": "Washington Capitals - Capital One Arena (Washington, DC)"
+      },
+      "moment": {
+       "date": "2025-01-08",
+       "clock": "4:19",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 7
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "Overtime",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | Overtime | Jan 8, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Pierre-Luc Dubois",
+       "team": "WSH",
+       "jersey": 80,
+       "status": "NHLPA",
+       "position": "LW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs VAN | Overtime | Jan 8, 2025"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "QRvZmARw",
+   "tokenId": "11034100562034425856",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Pierre-Luc Dubois",
+     "date": "January 8, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/QRvZmARw/11034100562034425856",
+    "image": "https://mediagateway.sweet.io/media/token/QRvZmARw/11034100562034425856/poster-image-16x9.png"
+   },
+   "momentUuid": "cd2f47fef2be00009921000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "QRvZmARw",
+  "token_id": "11034100562034425856"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

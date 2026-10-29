@@ -1,0 +1,443 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Chris Chelios",
+     "description": "1995 Western Conference Semifinals OT Winner #1: On May 25, 1995, Chelios closed out Game 3 of the Western Conference Semifinals versus the Vancouver Canucks at Pacific Coliseum. In the first overtime, Bernie Nicholls found Chelios entering the offensive zone where No. 7 faked a slap shot, freezing goaltender Kirk McLean and sliding in a goal that propelled the Hawks to a 3-0 series lead. Chicago would go on to sweep the series and advance to the Western Conference Final versus the rival Detroit Red Wings.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Hometown History: Chicago Blackhawks",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "CHI",
+        "final_score": 3
+       },
+       "home": {
+        "team": "VAN",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Pacific Coliseum",
+        "team": "VAN",
+        "location": "Vancouver, BC"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "CHI 3, VAN 2 - FINAL (OT)",
+       "venue_location": "Vancouver Canucks - Pacific Coliseum (Vancouver, BC)"
+      },
+      "moment": {
+       "date": "1995-05-25",
+       "clock": "6:22",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "Overtime",
+       "video_overlay_text": "Goal vs VAN | Overtime | May 25, 1995"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Chris Chelios",
+       "team": "CHI",
+       "jersey": 7,
+       "status": "NHLAA",
+       "position": "D",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs VAN | Overtime | May 25, 1995"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 16,
+     "name": "Chicago Blackhawks",
+     "abbreviation": "CHI",
+     "short_name": "Chicago",
+     "venue_city": "Chicago",
+     "venue_name": "United Center",
+     "key": "ChicagoBlackhawks",
+     "url": "https://www.nhl.com/blackhawks",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/ChicagoBlackhawks.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/21x6YeRG/13451689137002250486",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmbxL3QFAipFnMRK8fS8YRJuCEPXMCRTt7uxqqJX2qxf1s"
+       },
+       "content-type": "image/png",
+       "sha256": "HCdefHgzi7suIf_fTzypuuR83GsSh94VOvBAZBy0t_c=",
+       "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRVC5HrTxn1w4mRR5G4AqDVqe4ecWQv33Hh3cwPPSeMba"
+       },
+       "content-type": "image/png",
+       "sha256": "BNZveAfr1hWiaB_7T4bil1K-M9F-6u-RRkMusegBbys=",
+       "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmbb9iafVY7hXdm8acTaBdwz7ERPUrTDEjUaQoeArwW3Tb"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/21x6YeRG/13451689137002250486/card-image.png",
+        "purpose": "card-image",
+        "sha256": "-Uie-QIxn-PejUv_jd_5RmpHjCdRrd0giQPE91WH4Ew=",
+        "uri": "https://mediagateway.sweet.io/media/token/21x6YeRG/13451689137002250486/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbvMGH3G7zXkDS1ix3kQZpXu7FZ6LPJT6aY7AVBfd6wAx"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/21x6YeRG/13451689137002250486/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "NXG2NebzxxQWU4Hp81iFQ-pU_6t7MB_BxxP9Lrkh0D4=",
+        "uri": "https://mediagateway.sweet.io/media/token/21x6YeRG/13451689137002250486/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRVC5HrTxn1w4mRR5G4AqDVqe4ecWQv33Hh3cwPPSeMba"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/21x6YeRG/13451689137002250486/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "BNZveAfr1hWiaB_7T4bil1K-M9F-6u-RRkMusegBbys=",
+        "uri": "https://mediagateway.sweet.io/media/token/21x6YeRG/13451689137002250486/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbxL3QFAipFnMRK8fS8YRJuCEPXMCRTt7uxqqJX2qxf1s"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/21x6YeRG/13451689137002250486/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "HCdefHgzi7suIf_fTzypuuR83GsSh94VOvBAZBy0t_c=",
+        "uri": "https://mediagateway.sweet.io/media/token/21x6YeRG/13451689137002250486/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "date": "1995-05-25",
+      "edition-number": "247",
+      "moment-uuid": "b5c8ae77b90d0000baae000000000000",
+      "play": "Goal",
+      "player": "Chris Chelios",
+      "rarity": "Rare",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Hometown History: Chicago Blackhawks",
+      "set-uuid": "b5c8ae77b90d00000000000000000000",
+      "team": "Chicago Blackhawks",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "1995 Western Conference Semifinals OT Winner #1: On May 25, 1995, Chelios closed out Game 3 of the Western Conference Semifinals versus the Vancouver Canucks at Pacific Coliseum. In the first overtime, Bernie Nicholls found Chelios entering the offensive zone where No. 7 faked a slap shot, freezing goaltender Kirk McLean and sliding in a goal that propelled the Hawks to a 3-0 series lead. Chicago would go on to sweep the series and advance to the Western Conference Final versus the rival Detroit Red Wings.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 247,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmbxL3QFAipFnMRK8fS8YRJuCEPXMCRTt7uxqqJX2qxf1s"
+      },
+      "content-type": "image/png",
+      "sha256": "HCdefHgzi7suIf_fTzypuuR83GsSh94VOvBAZBy0t_c=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmTCyqxZYfauf5yus1cS2UFNf7rC6RWMzx8msSUKX39ksp"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "TJdsCzOdL8TAPLGCLq_1bNM_gJyVjoFXswTqcF8pwDA=",
+        "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmWMG93CqiQGW4nxqi4pUXnDfCuKLsSexiyGAHn9cootjH"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "IWVaPldoWpzikJ70tR5fLVg7NuE0d3T2N1uskYBuhE8=",
+        "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmbxL3QFAipFnMRK8fS8YRJuCEPXMCRTt7uxqqJX2qxf1s"
+       },
+       "content-type": "image/png",
+       "sha256": "HCdefHgzi7suIf_fTzypuuR83GsSh94VOvBAZBy0t_c=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmTCyqxZYfauf5yus1cS2UFNf7rC6RWMzx8msSUKX39ksp"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "TJdsCzOdL8TAPLGCLq_1bNM_gJyVjoFXswTqcF8pwDA=",
+         "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmWMG93CqiQGW4nxqi4pUXnDfCuKLsSexiyGAHn9cootjH"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "IWVaPldoWpzikJ70tR5fLVg7NuE0d3T2N1uskYBuhE8=",
+         "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRVC5HrTxn1w4mRR5G4AqDVqe4ecWQv33Hh3cwPPSeMba"
+       },
+       "content-type": "image/png",
+       "sha256": "BNZveAfr1hWiaB_7T4bil1K-M9F-6u-RRkMusegBbys=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYnKzMqb7EzpEzJuvu1jLeDzbMntEKNUc7ufhbmSZWuJg"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "nTYwBcYxIVXD7RL5G9WNMiLE31m2-XQ4twglSfOMDmw=",
+         "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmUZmZyRhU4FHoRNTKU4bxgWguyKppSCtbSjDV5AJZJVbh"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "ucRpVHqb2tgWjT43T7rcqQz95h9SFJeMSVz5l6Mxj6E=",
+         "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/21x6YeRG/baae/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-02-24T19:43:24.719968",
+     "name": "Chris Chelios #247",
+     "network": "matic",
+     "sequence_number": "13451689137002250486",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "1995 Western Conference Semifinals OT Winner #1: On May 25, 1995, Chelios closed out Game 3 of the Western Conference Semifinals versus the Vancouver Canucks at Pacific Coliseum. In the first overtime, Bernie Nicholls found Chelios entering the offensive zone where No. 7 faked a slap shot, freezing goaltender Kirk McLean and sliding in a goal that propelled the Hawks to a 3-0 series lead. Chicago would go on to sweep the series and advance to the Western Conference Final versus the rival Detroit Red Wings.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Hometown History: Chicago Blackhawks",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/21x6YeRG",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Chris Chelios #247",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "date",
+       "value": "1995-05-25"
+      },
+      {
+       "key": "edition-number",
+       "value": "247"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77b90d0000baae000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Chris Chelios"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Hometown History: Chicago Blackhawks"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77b90d00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Chicago Blackhawks"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77b90d0000baae000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/VqMP9PNg",
+       "listing_id": "VqMP9PNg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 15.9,
+       "starts_at": "2026-10-28T11:33:22",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xAf2e2082f3b5C24D9a68C25166Ff7D5Edb9E86cC/?a=13451689137002250486",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "21x6YeRG",
+   "momentUuid": "b5c8ae77b90d0000baae000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Chris Chelios",
+     "date": "May 25, 1995"
+    },
+    "url": "https://nhlbreakaway.com/series/21x6YeRG/highlight/b5c8ae77b90d0000baae000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/21x6YeRG/13451689137002250486/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "21x6YeRG",
+  "moment_uuid": "b5c8ae77b90d0000baae000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

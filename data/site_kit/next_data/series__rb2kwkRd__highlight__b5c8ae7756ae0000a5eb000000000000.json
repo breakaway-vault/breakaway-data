@@ -1,0 +1,462 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Anze Kopitar",
+     "description": "In his NHL debut during the Los Angeles Kings' opening game of the 2005-06 season, Anze Kopitar made an immediate impact by scoring the first two goals for his team.  For his first goal, Kopitar showcased his speed and skill as he streaked up the ice through the neutral zone. Dustin Brown delivered a perfect area pass up the right side, leading Kopitar into action. He seized the puck at full throttle just as he crossed the offensive blueline. With remarkable finesse, Kopitar executed a power move towards the net. He shielded the puck from Chris Pronger's outreached stick, deftly maneuvering around the seasoned defenseman. With a remarkable display of patience, Kopitar out-waited the opposing goaltender and fired the puck past him from a challenging angle, creating a truly beautiful and memorable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Opening Ice: Elites",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "LAK",
+        "final_score": 3
+       },
+       "home": {
+        "team": "ANA",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Honda Center",
+        "team": "ANA",
+        "location": "Anaheim, CA"
+       },
+       "game_ends": "FINAL",
+       "final_score": "LAK 3, ANA 4 - FINAL",
+       "venue_location": "Anaheim Ducks - Honda Center (Anaheim, CA)"
+      },
+      "moment": {
+       "date": "2006-10-06",
+       "clock": "9:14",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1,
+        "first_career_goal_or_win": "First NHL Goal (Skater)"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs ANA | 2nd Period | Oct 6, 2006"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Anze Kopitar",
+       "team": "LAK",
+       "jersey": 11,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Goal vs ANA | 2nd Period | Oct 6, 2006"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 26,
+     "name": "LA Kings",
+     "abbreviation": "LAK",
+     "short_name": "Los Angeles",
+     "venue_city": "Los Angeles",
+     "venue_name": "Crypto.com Arena",
+     "key": "LosAngelesKings",
+     "url": "https://www.nhl.com/kings",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/LosAngelesKings.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/rb2kwkRd/11955649635785113813",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmS7AtZXTp2LFvFRTUBkTaPWHz45QsWuUF5Wnqtop5Jef8"
+       },
+       "content-type": "image/png",
+       "sha256": "x37BX7cDzLAC56tp3txBnhMr9bs4g0afh4qmEilefRs=",
+       "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdnSRhpSSeyF4LfmCKRcVogrSzuJTm9FfkiByyQmKdEBH"
+       },
+       "content-type": "image/png",
+       "sha256": "BwQ9IV-SJqp_OuyQUHzCq6nTjW7vjY2HEUrw_DvtT6c=",
+       "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYLNFYiVNvAGoveSSfxzZv58DCEkGtXomYpV2Y9J44BGQ"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kwkRd/11955649635785113813/card-image.png",
+        "purpose": "card-image",
+        "sha256": "khMX9AJ2rMwvcgrmtM7EwcoYkl87ImwqaMG9_bWxjEQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kwkRd/11955649635785113813/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmeLS8ZFajEo5QXA439LoReDyEYR1ciP72tCLsN7Zksy3s"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kwkRd/11955649635785113813/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "iDpdeK7ZFkJEK3gALu6znm25_urWI3Viy1pk7rWvE14=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kwkRd/11955649635785113813/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdnSRhpSSeyF4LfmCKRcVogrSzuJTm9FfkiByyQmKdEBH"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kwkRd/11955649635785113813/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "BwQ9IV-SJqp_OuyQUHzCq6nTjW7vjY2HEUrw_DvtT6c=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kwkRd/11955649635785113813/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmS7AtZXTp2LFvFRTUBkTaPWHz45QsWuUF5Wnqtop5Jef8"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/rb2kwkRd/11955649635785113813/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "x37BX7cDzLAC56tp3txBnhMr9bs4g0afh4qmEilefRs=",
+        "uri": "https://mediagateway.sweet.io/media/token/rb2kwkRd/11955649635785113813/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2006-10-06",
+      "edition-number": "214",
+      "moment-uuid": "b5c8ae7756ae0000a5eb000000000000",
+      "play": "Goal",
+      "player": "Anze Kopitar",
+      "rarity": "Rare",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Opening Ice: Elites",
+      "set-uuid": "b5c8ae7756ae00000000000000000000",
+      "team": "LA Kings",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In his NHL debut during the Los Angeles Kings' opening game of the 2005-06 season, Anze Kopitar made an immediate impact by scoring the first two goals for his team.  For his first goal, Kopitar showcased his speed and skill as he streaked up the ice through the neutral zone. Dustin Brown delivered a perfect area pass up the right side, leading Kopitar into action. He seized the puck at full throttle just as he crossed the offensive blueline. With remarkable finesse, Kopitar executed a power move towards the net. He shielded the puck from Chris Pronger's outreached stick, deftly maneuvering around the seasoned defenseman. With a remarkable display of patience, Kopitar out-waited the opposing goaltender and fired the puck past him from a challenging angle, creating a truly beautiful and memorable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 214,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmS7AtZXTp2LFvFRTUBkTaPWHz45QsWuUF5Wnqtop5Jef8"
+      },
+      "content-type": "image/png",
+      "sha256": "x37BX7cDzLAC56tp3txBnhMr9bs4g0afh4qmEilefRs=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://Qmaqkgdb7a9nhLst9RRRQLz864cMYdXJtguzy832mkTtQG"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "FMDnGCURx-DsXwPtugi_ug9TZzei9MF_7cTOX8y9xkg=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmaKMCpMbBZZPXXUxSryZySf8YF6giXgWdPB4pwuBegnFi"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "Sfjh9E8Hnf3Vdl70pSAe7SLlWb7esJPsVB43Vc4kxDg=",
+        "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmS7AtZXTp2LFvFRTUBkTaPWHz45QsWuUF5Wnqtop5Jef8"
+       },
+       "content-type": "image/png",
+       "sha256": "x37BX7cDzLAC56tp3txBnhMr9bs4g0afh4qmEilefRs=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmaqkgdb7a9nhLst9RRRQLz864cMYdXJtguzy832mkTtQG"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "FMDnGCURx-DsXwPtugi_ug9TZzei9MF_7cTOX8y9xkg=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmaKMCpMbBZZPXXUxSryZySf8YF6giXgWdPB4pwuBegnFi"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "Sfjh9E8Hnf3Vdl70pSAe7SLlWb7esJPsVB43Vc4kxDg=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdnSRhpSSeyF4LfmCKRcVogrSzuJTm9FfkiByyQmKdEBH"
+       },
+       "content-type": "image/png",
+       "sha256": "BwQ9IV-SJqp_OuyQUHzCq6nTjW7vjY2HEUrw_DvtT6c=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmSNTrgD4CSCeMbVMo3py9o7ZjPA3yiPTHnwVtbpRq2MEU"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "pUDXpJmxmUT_6WmAeVKyaE_vuASWN-x2ftMDWxzS5fA=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmZLPZ97bL3aCDWxAdvHwpGEWDoC3eRShyHM4D5isu6pkJ"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "vjcFkDXJAIOKSMzh6qfRM3svKYZSScenHIcFe_UJWas=",
+         "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/rb2kwkRd/a5eb/images/front-16x9.png"
+      }
+     },
+     "issued": "2023-10-07T15:23:33.949237",
+     "name": "Anze Kopitar #214",
+     "network": "matic",
+     "sequence_number": "11955649635785113813",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In his NHL debut during the Los Angeles Kings' opening game of the 2005-06 season, Anze Kopitar made an immediate impact by scoring the first two goals for his team.  For his first goal, Kopitar showcased his speed and skill as he streaked up the ice through the neutral zone. Dustin Brown delivered a perfect area pass up the right side, leading Kopitar into action. He seized the puck at full throttle just as he crossed the offensive blueline. With remarkable finesse, Kopitar executed a power move towards the net. He shielded the puck from Chris Pronger's outreached stick, deftly maneuvering around the seasoned defenseman. With a remarkable display of patience, Kopitar out-waited the opposing goaltender and fired the puck past him from a challenging angle, creating a truly beautiful and memorable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Opening Ice: Elites",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/rb2kwkRd",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Anze Kopitar #214",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2006-10-06"
+      },
+      {
+       "key": "edition-number",
+       "value": "214"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae7756ae0000a5eb000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Anze Kopitar"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Opening Ice: Elites"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae7756ae00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "LA Kings"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae7756ae0000a5eb000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/3j6Voa5j",
+       "listing_id": "3j6Voa5j",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 4,
+       "starts_at": "2026-10-03T01:31:36",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xEd1e8B0C40B0371e6136cB1E1BE595Dc062b4f6b/?a=11955649635785113813",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "rb2kwkRd",
+   "momentUuid": "b5c8ae7756ae0000a5eb000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Anze Kopitar",
+     "date": "October 6, 2006"
+    },
+    "url": "https://nhlbreakaway.com/series/rb2kwkRd/highlight/b5c8ae7756ae0000a5eb000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/rb2kwkRd/11955649635785113813/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "rb2kwkRd",
+  "moment_uuid": "b5c8ae7756ae0000a5eb000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

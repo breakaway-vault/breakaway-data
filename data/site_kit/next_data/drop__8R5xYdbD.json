@@ -1,0 +1,419 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286283,
+    "summary": {
+     "drop_active": 1788282000,
+     "drop_expires": null,
+     "pack_price": "5.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD",
+     "number_of_highlights": 4,
+     "pack_description": "Close out Series 3 with the Series 3 Grand Finale Pack! \r\nEach pack contains highlights from some of the most popular sets of Series 3 and includes the chance to pull some of the most iconic highlights from Making the Mark 2025-26, Opening Ice: 2025-26, Conn Smythe Showcase, as well as the last two Ice Vault Mythic highlights from Series 3 -- Leo Carlsson and Jack Hughes! \r\nEach pack contains 1 highlight from Base 2025-26 (100%); 1 highlight from Ice Nation (100%), 1 mystery highlight that could be from Rinkside Rivalries (40%), Fresh Sweaters 2025-26 (20%), or Playoff Bound 2026 (40%); and 1 mystery highlight that could be from Base 2025-26 (75%), Next-Gen Class 2025-26 (12.76%), Opening Ice 2025-26 (8%), Making the Mark 2025-26 (2%), Conn Smythe Showcase (2%), The Greatest Achievements (0.04%), or Ice Vault (0.2%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Series 3 Grand Finale Pack",
+     "series_name": "Series 3",
+     "pack_uuid": "b572cf35000000009ff1000000000000",
+     "quantity": 2500,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Series 3 Grand Finale Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Tuesday September 1 at 1PM ET / 10AM PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $5 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 2500 packs total. Edition numbers are distributed randomly upon purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Twenty Five (25) pack limit per person for the first 6 hours; the limit increases to a fifty (50) pack limit per person afterward. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 4</span></p>\r\n<p><span style=\"font-weight: 400;\">Pack Contents (Highlight Rarity, Edition Size):</span></p>\r\n<ul>\r\n<li><span style=\"font-weight: 400;\">One (1) highlight from Base 2025-26 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">40% Rinkside Rivalries (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">40% Playoff Bound 2026 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">20% Fresh Sweaters 2025-26 (Core #/1500)</li>\r\n</ul>\r\n</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">One (1) highlight with the following probabilities:\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">75% Base 2025-26 (Core #/1500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">12.76% Next-Gen Class (Limited #/500)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">8% Opening Ice 2025-26 (Rare #/250)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">2% Making the Mark 2025-26 (Epic #/100)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">2% Conn Smythe Showcase (Epic #/100)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">0.04% The Greatest Achievements (Legendary #/10)</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">0.2% Ice Vault (Mythic #/3)</li>\r\n</ul>\r\n</li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">One (1) highlight from Ice Nation (Fandom #/3000)</li>\r\n</ul>\r\n<p><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRlXUn-3ZXuB37GFIF3xQK1ynCuKRdUWMCj9beS9o7XtDZJ3UokfO7mbNLV08_fAdtDTWavddMN86Fo/pubhtml\"><span style=\"font-weight: 400;\">Highlights List</span></a></p>\r\n<p><br /><br /></p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be processed via Stripe.&nbsp;</span></p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span><span style=\"font-weight: 400;\"><br /></span><span style=\"font-weight: 400;\"><br /></span><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2025-26, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/first-sets-of-the-2025-26-season-nov-11-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters 2025-26 - </span><a href=\"https://blog.nhlbreakaway.com/game-used-puck-giveaway-sweepstakes-next-gen-class-2025-26-dec-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\">&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Playoff Bound 2026 - </span><a href=\"https://blog.nhlbreakaway.com/introducing-playoff-bound-2026-april-22-drop/\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\">&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Rinkside Rivalries - </span><a href=\"https://blog.nhlbreakaway.com/introducing-rinkside-rivalries/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Ice Nation&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Next-Gen Class 2025-26 - </span><a href=\"https://blog.nhlbreakaway.com/game-used-puck-giveaway-sweepstakes-next-gen-class-2025-26-dec-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\">&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice 2025-26, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/first-sets-of-the-2025-26-season-nov-11-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Conn Smythe Showcase - </span><a href=\"https://blog.nhlbreakaway.com/conn-smythe-showcase-drops-march-24/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark 2025-26 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\">&nbsp;</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Greatest Achievements, Series 3 - </span><a href=\"https://blog.nhlbreakaway.com/series-3-epic-legendary-sets-reveal-oct-9-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\">Ice Vault -<strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">&nbsp;</strong><a style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\" href=\"https://blog.nhlbreakaway.com/the-hunt-for-stanley-2026-encore-pack-july-9th-drop/\">Preview</a><strong style=\"font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;\">&nbsp;</strong></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 3 highlights will only be distributed during Series 3, which ends prior to the start of the 2026-27 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>"
+     },
+     "description": "Close out Series 3 with the Series 3 Grand Finale Pack! \r\nEach pack contains highlights from some of the most popular sets of Series 3 and includes the chance to pull some of the most iconic highlights from Making the Mark 2025-26, Opening Ice: 2025-26, Conn Smythe Showcase, as well as the last two Ice Vault Mythic highlights from Series 3 -- Leo Carlsson and Jack Hughes! \r\nEach pack contains 1 highlight from Base 2025-26 (100%); 1 highlight from Ice Nation (100%), 1 mystery highlight that could be from Rinkside Rivalries (40%), Fresh Sweaters 2025-26 (20%), or Playoff Bound 2026 (40%); and 1 mystery highlight that could be from Base 2025-26 (75%), Next-Gen Class 2025-26 (12.76%), Opening Ice 2025-26 (8%), Making the Mark 2025-26 (2%), Conn Smythe Showcase (2%), The Greatest Achievements (0.04%), or Ice Vault (0.2%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf35000000009ff1000000000000",
+     "assets": [],
+     "editions": 2500,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Series 3 Grand Finale Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 1,
+          "limit": 2500
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 1,
+          "limit": 2500
+         },
+         "name": "Ice Nation (Series 3)",
+         "description": "<p>Ice Nation celebrates the game at its most electrifying. Featuring stars from across the league, this Fandom-tier set captures jaw-dropping saves, highlight-reel goals, and moments of pure, unbelievable skill from the 2025&ndash;26 regular season. A collection of exciting moments from the season that showcase the skill and star power across the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35f52000000000000000000000",
+         "rarity": "Fandom"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.4,
+          "limit": 1000
+         },
+         "name": "Rinkside Rivalries",
+         "description": "<p>Rinkside Rivalries is a Core set that dives into hockey at its most intense, spotlighting six of the <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span>&rsquo;s most storied rivalries across some of their most emotional moments. Each rivalry is represented by one goal per team, featuring dramatic overtime tallies, massive momentum shifters, and clutch game-winners that silenced arenas and ignited fanbases&mdash;no matter the stage.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35aad400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.4,
+          "limit": 1000
+         },
+         "name": "Playoff Bound 2026",
+         "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf355f5100000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.2,
+          "limit": 500
+         },
+         "name": "Fresh Sweaters 2025-26",
+         "description": "<p>Celebrate the excitement of a fresh start with the&nbsp;<strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Fresh Sweaters 2025-26</em></strong>&nbsp;Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf353aed00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.75,
+          "limit": 1875
+         },
+         "name": "Base 2025-26",
+         "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35ea8000000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.1276,
+          "limit": 319
+         },
+         "name": "Next-Gen Class 2025-26",
+         "description": "<p>Elevate your collection with the&nbsp;<em data-stringify-type=\"italic\">Next-Gen Class 2025-26</em>&nbsp;set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf354eaf00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.08,
+          "limit": 200
+         },
+         "name": "Opening Ice 2025-26",
+         "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3537d000000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.02,
+          "limit": 50
+         },
+         "name": "Making the Mark 2025-26",
+         "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35afe100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.02,
+          "limit": 50
+         },
+         "name": "Conn Smythe Showcase",
+         "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35dbe100000000000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.0004,
+          "limit": 1
+         },
+         "name": "The Greatest Achievements",
+         "description": "<p>Hockey&rsquo;s history is rich with legendary players, unforgettable plays, and cherished memories. Yet every so often, something truly extraordinary occurs&mdash;like a record-shattering milestone or a Stanley Cup&ndash;winning goal from a franchise icon. These achievements capture the hockey world and become timeless pieces of the sport&rsquo;s legacy.&nbsp;<em data-stringify-type=\"italic\">The Greatest Achievements</em>&nbsp;honors these moments as part of the NHL Breakaway collection.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf35a62c00000000000000000000",
+         "rarity": "Legendary"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 2500,
+          "probability": 0.002,
+          "limit": 5
+         },
+         "name": "Ice Vault (Series 3)",
+         "description": "<p><em data-renderer-mark=\"true\">Ice Vault</em> is <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span> Breakaway&rsquo;s premier Mythic-tier collectible set.<br />It contains only the highest-rarity highlights, with each piece limited to fewer than 10 editions. Every highlight receives unique Mythic visual styling and custom framing reserved exclusively for this tier.<br />Once a highlight enters the Ice Vault, it is permanently retired and never released in any other set or edition.</p>",
+         "moment_type": "token-set",
+         "uuid": "b572cf3576c900000000000000000000",
+         "rarity": "Mythic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Ice Vault (Series 3)",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KbKmKgq5",
+        "set_uuid": "b572cf3576c900000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Mythic"
+       },
+       {
+        "name": "Ice Nation (Series 3)",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/NbnnQzbW",
+        "set_uuid": "b572cf35f52000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Fandom"
+       },
+       {
+        "name": "Playoff Bound 2026",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/zqlMjN1N",
+        "set_uuid": "b572cf355f5100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Rinkside Rivalries",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/j1ZJjx1K",
+        "set_uuid": "b572cf35aad400000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Conn Smythe Showcase",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/XRe2vQqk",
+        "set_uuid": "b572cf35dbe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Making the Mark 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/8bML661d",
+        "set_uuid": "b572cf35afe100000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Next-Gen Class 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBeARM",
+        "set_uuid": "b572cf354eaf00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Base 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/AqkW0kq6",
+        "set_uuid": "b572cf35ea8000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/2qVv4Mqz",
+        "set_uuid": "b572cf3537d000000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Fresh Sweaters 2025-26",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kx7Rd",
+        "set_uuid": "b572cf353aed00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "The Greatest Achievements",
+        "series_name": "Series 3",
+        "series_uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+        "set_uuid": "b572cf35a62c00000000000000000000",
+        "series_uuid": "b572cf35000000000000000000000000",
+        "rarity": "Legendary"
+       }
+      ]
+     },
+     "issued": "2026-08-27",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmdH1kx2C3Wd86zsfVxnXF31JnD3e7pFXDbm3gHnjkoC8E"
+       },
+       "content-type": "image/png",
+       "sha256": "vVikKhZx3Omsypf8WZvDYMcZd2leo9bvZfi2LcrUyec=",
+       "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdKLGcB3EjGyrVWqcJE211TPRBQtXziDFRuHUf4gpgB9J"
+       },
+       "content-type": "image/png",
+       "sha256": "k_TN0F_UCYfW5xoNA0EdCWapSFdV4ReF8kx_-qkwJqM=",
+       "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmdH1kx2C3Wd86zsfVxnXF31JnD3e7pFXDbm3gHnjkoC8E"
+       },
+       "content-type": "image/png",
+       "sha256": "vVikKhZx3Omsypf8WZvDYMcZd2leo9bvZfi2LcrUyec=",
+       "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png"
+      }
+     },
+     "issued": "2026-08-27T18:48:46.335433",
+     "name": "Series 3 Grand Finale Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "ecDnlxL5PWu8LuyjcTxXAL5ZR_lnPMzgL5OIe7LXLcE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Close out Series 3 with the Series 3 Grand Finale Pack! \r\nEach pack contains highlights from some of the most popular sets of Series 3 and includes the chance to pull some of the most iconic highlights from Making the Mark 2025-26, Opening Ice: 2025-26, Conn Smythe Showcase, as well as the last two Ice Vault Mythic highlights from Series 3 -- Leo Carlsson and Jack Hughes! \r\nEach pack contains 1 highlight from Base 2025-26 (100%); 1 highlight from Ice Nation (100%), 1 mystery highlight that could be from Rinkside Rivalries (40%), Fresh Sweaters 2025-26 (20%), or Playoff Bound 2026 (40%); and 1 mystery highlight that could be from Base 2025-26 (75%), Next-Gen Class 2025-26 (12.76%), Opening Ice 2025-26 (8%), Making the Mark 2025-26 (2%), Conn Smythe Showcase (2%), The Greatest Achievements (0.04%), or Ice Vault (0.2%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Series 3 Grand Finale Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 2500,
+      "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Series 3 Grand Finale Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/8R5xYdbD",
+    "image": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-16x9.png"
+   },
+   "seriesId": "8R5xYdbD",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "8R5xYdbD"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

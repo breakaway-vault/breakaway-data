@@ -1,0 +1,442 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Dustin Wolf",
+     "description": "Coming off an impressive rookie season where he went 29-16-8 and finished second in Calder Trophy voting behind Lane Hutson, Dustin Wolf continues to prove he\u2019s a key part of Calgary\u2019s future in net. Facing the Canadiens in Montreal, Wolf came up big with a huge pad save on Nick Suzuki\u2019s breakaway to keep the Flames within one. Calgary later tied the game in the third, and Wolf\u2019s 26-save effort helped them earn a point on the road.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Next-Gen Class 2025-26",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Limited",
+     "editions": 500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Save vs MTL | 3rd Period | Oct 22, 2025",
+     "team": "CGY",
+     "player_name": "Dustin Wolf",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "MTL",
+        "final_score": 2
+       },
+       "home": {
+        "team": "CGY",
+        "final_score": 1
+       },
+       "venue": {
+        "name": "Scotiabank Saddledome",
+        "team": "CGY",
+        "location": "Calgary, AB"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "MTL 2, CGY 1 - FINAL (OT)",
+       "venue_location": "Calgary Flames - Scotiabank Saddledome (Calgary, AB)"
+      },
+      "moment": {
+       "date": "2025-10-22",
+       "event": "Save",
+       "extra": {
+        "save_type": "Pad"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs MTL | 3rd Period | Oct 22, 2025"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Dustin Wolf",
+       "team": "CGY",
+       "jersey": 32,
+       "status": "NHLPA",
+       "position": "G",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Save vs MTL | 3rd Period | Oct 22, 2025"
+     }
+    },
+    "_badges": {
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 20,
+     "name": "Calgary Flames",
+     "abbreviation": "CGY",
+     "short_name": "Calgary",
+     "venue_city": "Calgary",
+     "venue_name": "Scotiabank Saddledome",
+     "key": "CalgaryFlames",
+     "url": "https://www.nhl.com/flames",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/CalgaryFlames.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/5RNBeARM/12152682119482573295",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmU3cexT6YLmJ7JUaUS15uvE2WpDyeZtpTtJBBvRxyMsLD"
+       },
+       "content-type": "image/png",
+       "sha256": "x8qUEU6aBt2oYb3CXdarbCZQUtvwolsJk91WC_E0TPk=",
+       "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qme7Axokux5E9sQtvFcUzpyYWgNjN6L99HBEtuF2qq2StS"
+       },
+       "content-type": "image/png",
+       "sha256": "KYAiI8waT23OvBJKVsFls-LhIamBqQoHhe5PZm68c-g=",
+       "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPHjrs3visKUuhF4rzfVWdvhCpBF95sKRdt6BLwajREK9"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/5RNBeARM/12152682119482573295/card-image.png",
+        "purpose": "card-image",
+        "sha256": "eBPbUmTwVINSXH0P4vyoINry8BWNVI5g7vuEsr9e8Z0=",
+        "uri": "https://mediagateway.sweet.io/media/token/5RNBeARM/12152682119482573295/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmc5QZnqxbqdSfttxHR3LTMcUqM5nFmEDmzsaH43eKFkrw"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/5RNBeARM/12152682119482573295/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "A1UgqLJgpQ0ISVRZ2XuXr2KVOHoF_aVrPJKZhBqOnKE=",
+        "uri": "https://mediagateway.sweet.io/media/token/5RNBeARM/12152682119482573295/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qme7Axokux5E9sQtvFcUzpyYWgNjN6L99HBEtuF2qq2StS"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/5RNBeARM/12152682119482573295/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "KYAiI8waT23OvBJKVsFls-LhIamBqQoHhe5PZm68c-g=",
+        "uri": "https://mediagateway.sweet.io/media/token/5RNBeARM/12152682119482573295/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmU3cexT6YLmJ7JUaUS15uvE2WpDyeZtpTtJBBvRxyMsLD"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/5RNBeARM/12152682119482573295/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "x8qUEU6aBt2oYb3CXdarbCZQUtvwolsJk91WC_E0TPk=",
+        "uri": "https://mediagateway.sweet.io/media/token/5RNBeARM/12152682119482573295/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2025-10-22",
+      "edition-number": "496",
+      "moment-uuid": "b572cf354eaf0000a8a7000000000000",
+      "play": "Save",
+      "player": "Dustin Wolf",
+      "rarity": "Limited",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Next-Gen Class 2025-26",
+      "set-uuid": "b572cf354eaf00000000000000000000",
+      "team": "Calgary Flames",
+      "total-editions": "500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Coming off an impressive rookie season where he went 29-16-8 and finished second in Calder Trophy voting behind Lane Hutson, Dustin Wolf continues to prove he\u2019s a key part of Calgary\u2019s future in net. Facing the Canadiens in Montreal, Wolf came up big with a huge pad save on Nick Suzuki\u2019s breakaway to keep the Flames within one. Calgary later tied the game in the third, and Wolf\u2019s 26-save effort helped them earn a point on the road.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 496,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmU3cexT6YLmJ7JUaUS15uvE2WpDyeZtpTtJBBvRxyMsLD"
+      },
+      "content-type": "image/png",
+      "sha256": "x8qUEU6aBt2oYb3CXdarbCZQUtvwolsJk91WC_E0TPk=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmPHEKPvrwqNPMNg6CHqwXz6GuZsNsSKEui7CDGn75aU9W"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "H2A3OE6Yp2gOnIpD75VQWFl1puF0qHnzFd65_UpuIvY=",
+        "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmdKPB4gSWFNDxoNuCzAphiu2UUbSdJBWekUuVD9HbfeJe"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "Zn3ks7vYglQqH-fxRVBVbZA8aec7SJoeicvuXJE2Bxw=",
+        "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmU3cexT6YLmJ7JUaUS15uvE2WpDyeZtpTtJBBvRxyMsLD"
+       },
+       "content-type": "image/png",
+       "sha256": "x8qUEU6aBt2oYb3CXdarbCZQUtvwolsJk91WC_E0TPk=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmPHEKPvrwqNPMNg6CHqwXz6GuZsNsSKEui7CDGn75aU9W"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "H2A3OE6Yp2gOnIpD75VQWFl1puF0qHnzFd65_UpuIvY=",
+         "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmdKPB4gSWFNDxoNuCzAphiu2UUbSdJBWekUuVD9HbfeJe"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "Zn3ks7vYglQqH-fxRVBVbZA8aec7SJoeicvuXJE2Bxw=",
+         "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qme7Axokux5E9sQtvFcUzpyYWgNjN6L99HBEtuF2qq2StS"
+       },
+       "content-type": "image/png",
+       "sha256": "KYAiI8waT23OvBJKVsFls-LhIamBqQoHhe5PZm68c-g=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmVTStRZeXvydn1w3VRDDGvAYjbe5fvDuGtGZ1QQjwMEsX"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "VLqy4oGL0Q_9c5pc5CKwIVyluVCAh_kR7YRjwJ9Pz9g=",
+         "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qmf8dAijYgLLTqQvv47xGUhbeNK2TCu1BCZ2zjxYt5ZPyn"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "3A9huOf2h2KAevTscj_hV6dfQ3gNkhabQYf3YNuKS6s=",
+         "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/5RNBeARM/a8a7/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-12-05T09:28:24.231930",
+     "name": "Dustin Wolf #496",
+     "network": "matic",
+     "sequence_number": "12152682119482573295",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Coming off an impressive rookie season where he went 29-16-8 and finished second in Calder Trophy voting behind Lane Hutson, Dustin Wolf continues to prove he\u2019s a key part of Calgary\u2019s future in net. Facing the Canadiens in Montreal, Wolf came up big with a huge pad save on Nick Suzuki\u2019s breakaway to keep the Flames within one. Calgary later tied the game in the third, and Wolf\u2019s 26-save effort helped them earn a point on the road.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Next-Gen Class 2025-26",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/5RNBeARM",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Dustin Wolf #496",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2025-10-22"
+      },
+      {
+       "key": "edition-number",
+       "value": "496"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf354eaf0000a8a7000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Save"
+      },
+      {
+       "key": "player",
+       "value": "Dustin Wolf"
+      },
+      {
+       "key": "rarity",
+       "value": "Limited"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Next-Gen Class 2025-26"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf354eaf00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Calgary Flames"
+      },
+      {
+       "key": "total-editions",
+       "value": "500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf354eaf0000a8a7000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/6BlnEJPg",
+       "listing_id": "6BlnEJPg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-10-15T15:42:53",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x4c6FaD4f0A14DF94a64E09aEF501997412EEe887/?a=12152682119482573295",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "5RNBeARM",
+   "momentUuid": "b572cf354eaf0000a8a7000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Dustin Wolf",
+     "date": "October 22, 2025"
+    },
+    "url": "https://nhlbreakaway.com/series/5RNBeARM/highlight/b572cf354eaf0000a8a7000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/5RNBeARM/12152682119482573295/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "5RNBeARM",
+  "moment_uuid": "b572cf354eaf0000a8a7000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

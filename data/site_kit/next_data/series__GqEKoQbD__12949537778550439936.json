@@ -1,0 +1,644 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmWTG7LtHMuMeVDLiveerjDWUr3fHAoSv2Dj5E7msFUe33"
+       },
+       "content-type": "image/png",
+       "sha256": "WW_JbE7rHVjo0cRcqMj31icn-sA9-6cNtyPIountQJ4=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdFCZPP3vKB97PJyZcMxLgASNB8VM4nAaqNDmP52PvBAm"
+       },
+       "content-type": "image/png",
+       "sha256": "mX9fc3dl9XwNtX72WQ5i6gR411cuTTUYjBfgk-Mj5YE=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmVgSTT77D1BtbCkQUt3gjM8BMRT89r927x9VEbHgFbppF"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEKoQbD/12949537778550439936/card-image.png",
+        "purpose": "card-image",
+        "sha256": "afvsNhLSkoaNQyRJ5VPCNHnwxptDj516Soxfqe7VumA=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEKoQbD/12949537778550439936/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXJf4eiu1kjioTyPH4yVZek8NXcVAaspyXKCBprib19oU"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEKoQbD/12949537778550439936/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "wpyxypfUxBbcql7QIA4cJqrSjx62c13oGdsCw7ygeo8=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEKoQbD/12949537778550439936/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdFCZPP3vKB97PJyZcMxLgASNB8VM4nAaqNDmP52PvBAm"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEKoQbD/12949537778550439936/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "mX9fc3dl9XwNtX72WQ5i6gR411cuTTUYjBfgk-Mj5YE=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEKoQbD/12949537778550439936/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWTG7LtHMuMeVDLiveerjDWUr3fHAoSv2Dj5E7msFUe33"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/GqEKoQbD/12949537778550439936/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "WW_JbE7rHVjo0cRcqMj31icn-sA9-6cNtyPIountQJ4=",
+        "uri": "https://mediagateway.sweet.io/media/token/GqEKoQbD/12949537778550439936/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Crafted from Editions",
+       "value": "23,29,99"
+      },
+      {
+       "name": "Crafted from Rarity",
+       "value": "Epic"
+      },
+      {
+       "name": "Date",
+       "value": "2023-01-18"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae7765540000b3b6000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Steven Stamkos"
+      },
+      {
+       "name": "Rarity",
+       "value": "Heroic"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Signature Epics"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae77655400000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Tampa Bay Lightning"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Tampa Bay Lightning captain Steven Stamkos becomes the 47th player in NHL history to join the 500-goal club. During the first period in Vancouver, the two-time Maurice \u201cRocket\u201d Richard Trophy winner goes to the net while teammate Alex Killorn makes a nice move to get around a defender before feeding Stamkos for the tap-in goal. Teammates flood the ice to congratulate Stamkos, who ends up netting three goals for the hatty in a 5-2 win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmWTG7LtHMuMeVDLiveerjDWUr3fHAoSv2Dj5E7msFUe33"
+      },
+      "content-type": "image/png",
+      "sha256": "WW_JbE7rHVjo0cRcqMj31icn-sA9-6cNtyPIountQJ4=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmQD9CPQwJ6jAHswCjs4EJDVZUGKYdyiYetGUGV7UkMz7y"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "hYdZPLSUcgf-skLJtkCaEgpCkeM-HSw2Ij-NwPRyT9c=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmW1fWi2J9mnMfmbGzWt5mKhMW4iBqX6qngWRqvE3fDg1c"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "faAJTKDiejBG0p9tsSh5CMo1_VdRLBs1IhJjFDdGOf0=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmWTG7LtHMuMeVDLiveerjDWUr3fHAoSv2Dj5E7msFUe33"
+       },
+       "content-type": "image/png",
+       "sha256": "WW_JbE7rHVjo0cRcqMj31icn-sA9-6cNtyPIountQJ4=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmQD9CPQwJ6jAHswCjs4EJDVZUGKYdyiYetGUGV7UkMz7y"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "hYdZPLSUcgf-skLJtkCaEgpCkeM-HSw2Ij-NwPRyT9c=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmW1fWi2J9mnMfmbGzWt5mKhMW4iBqX6qngWRqvE3fDg1c"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "faAJTKDiejBG0p9tsSh5CMo1_VdRLBs1IhJjFDdGOf0=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdFCZPP3vKB97PJyZcMxLgASNB8VM4nAaqNDmP52PvBAm"
+       },
+       "content-type": "image/png",
+       "sha256": "mX9fc3dl9XwNtX72WQ5i6gR411cuTTUYjBfgk-Mj5YE=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmaPMxq8F12P6tSrC3F7HVLaq2CueboG9swxvV5NNCrFGA"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "9n3yZj4YiI-dYxXSKnND7Za7icQJkVAgO8GFewvdvaU=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmaWqWmAsoh1KqLdv8UBXEJfykysbGupEuXpkKJaF9iNPC"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "HnFkCC_UT3O7Oep8gHpu6fqQLpaKJ_DawMkXgyomkKY=",
+         "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-07-09T19:34:06.180066",
+     "name": "Steven Stamkos #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "51TpjfQYrpcPegRhYqCZ64BJMqh0ruaizQr_mN2SgpE=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 12949537778550440000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Tampa Bay Lightning captain Steven Stamkos becomes the 47th player in NHL history to join the 500-goal club. During the first period in Vancouver, the two-time Maurice \u201cRocket\u201d Richard Trophy winner goes to the net while teammate Alex Killorn makes a nice move to get around a defender before feeding Stamkos for the tap-in goal. Teammates flood the ice to congratulate Stamkos, who ends up netting three goals for the hatty in a 5-2 win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Signature Epics",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD/12949537778550439936",
+     "pack_uuid": null,
+     "set_id": 43,
+     "set_uuid": "b5c8ae77655400000000000000000000",
+     "moment_id": 46006
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xDb8CB9Fb9Db4Ea3005B7bb17AE04A7d4F885EDAC/?a=12949537778550439936",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 14,
+     "name": "Tampa Bay Lightning",
+     "abbreviation": "TBL",
+     "short_name": "Tampa Bay",
+     "venue_city": "Tampa",
+     "venue_name": "AMALIE Arena",
+     "key": "TampaBayLightning",
+     "url": "https://www.nhl.com/lightning",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/TampaBayLightning.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Signature Epics",
+      "description": "<p>The Signature Epics set contains all of the Heroic Signature Highlights crafted from Series 1 Epic sets by collectors during Signature Quests.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/64f3cf6b-0201-4509-aa23-34be6f927fa5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD",
+      "uuid": "b5c8ae77655400000000000000000000",
+      "rarity": {
+       "name": "Heroic",
+       "editions": 1
+      }
+     },
+     "description": "Tampa Bay Lightning captain Steven Stamkos becomes the 47th player in NHL history to join the 500-goal club. During the first period in Vancouver, the two-time Maurice \u201cRocket\u201d Richard Trophy winner goes to the net while teammate Alex Killorn makes a nice move to get around a defender before feeding Stamkos for the tap-in goal. Teammates flood the ice to congratulate Stamkos, who ends up netting three goals for the hatty in a 5-2 win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae7765540000b3b6000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Award Year",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+       "description": "Highlights from a season the primary player won a trophy or award."
+      },
+      {
+       "name": "Career Milestone",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png",
+       "description": "Highlights that feature the primary player achieving a career milestone."
+      },
+      {
+       "name": "Curator Badge",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+       "description": "This badge is reserved for highlights that are crafted by NHL Breakaway collectors."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Signature Quest VII Badge",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/6c77fd2c-a8d4-4420-8308-9ac9c440f0f0.png",
+       "description": "Unique identifier for each Signature Highlight to chronicle when it was first crafted. The roman numeral in the badge associated with the highlight corresponds to the quest round when the highlight was first crafted (e.g. l, ll,V, X) starting with Signature Quest l."
+      }
+     ],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/64f3cf6b-0201-4509-aa23-34be6f927fa5.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 46006,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEKoQbD/moment/12949537778550439936/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEKoQbD/moment/12949537778550439936/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEKoQbD/moment/12949537778550439936/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEKoQbD/moment/12949537778550439936/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEKoQbD/moment/12949537778550439936/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/GqEKoQbD/moment/12949537778550439936/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEKoQbD/moment/12949537778550439936/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/GqEKoQbD/moment/12949537778550439936/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/b3b6/images/front.png"
+      }
+     },
+     "editions": 1,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "zD2YkiMBcK3ljloJdp_O4PhdE6SfHFzwyH-2nqO-VR4=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmfCBda535qKQQJR5Q8UeH3ewxva4qg2UMvUCngknBfpvq"
+        },
+        "content-type": "image/png",
+        "sha256": "lHYiPMELvMagRhUS0XcbGvgOkPC6ki9rtOmiZTlij2k=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmfCBda535qKQQJR5Q8UeH3ewxva4qg2UMvUCngknBfpvq"
+        },
+        "content-type": "image/png",
+        "sha256": "lHYiPMELvMagRhUS0XcbGvgOkPC6ki9rtOmiZTlij2k=",
+        "url": "https://nft.nhlbreakaway.com/series/GqEKoQbD/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Signature Epics",
+        "description": "<p>The Signature Epics set contains all of the Heroic Signature Highlights crafted from Series 1 Epic sets by collectors during Signature Quests.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 5",
+         "rank": 5
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD"
+      },
+      "name": "Signature Epics",
+      "issued": "2026-02-18T17:49:52.477949",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/GqEKoQbD",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Steven Stamkos",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Vancouver Canucks - Rogers Arena (Vancouver, BC)",
+       "final_score": "TBL 5, VAN 2 - FINAL",
+       "venue": {
+        "name": "Rogers Arena",
+        "location": "Vancouver, BC",
+        "team": "VAN"
+       },
+       "away": {
+        "final_score": 5,
+        "team": "TBL"
+       },
+       "home": {
+        "final_score": 2,
+        "team": "VAN"
+       }
+      },
+      "primary_player": {
+       "name": "Steven Stamkos",
+       "is_rookie": false,
+       "position": "C",
+       "team": "TBL",
+       "jersey": 91,
+       "status": "NHLPA"
+      },
+      "moment": {
+       "date": "2023-01-18",
+       "period": "1st Period",
+       "extra": {
+        "goal_number_this_season": 19
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": true,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Jan 18, 2023",
+       "clock": "4:40",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2025-07-09",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Heroic",
+      "sorting_position": 70,
+      "editions": 1
+     }
+    },
+    "_metadata": {
+     "name": "Steven Stamkos",
+     "description": "Tampa Bay Lightning captain Steven Stamkos becomes the 47th player in NHL history to join the 500-goal club. During the first period in Vancouver, the two-time Maurice \u201cRocket\u201d Richard Trophy winner goes to the net while teammate Alex Killorn makes a nice move to get around a defender before feeding Stamkos for the tap-in goal. Teammates flood the ice to congratulate Stamkos, who ends up netting three goals for the hatty in a 5-2 win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 1,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Career Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png",
+      "Curator Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/d2ea607a-6ce6-4d01-95c2-01118af7a20f.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Signature Quest VII Badge": "https://nft.nhlbreakaway.com/collectible_icon/original/6c77fd2c-a8d4-4420-8308-9ac9c440f0f0.png"
+     },
+     "video_overlay_text": "Goal vs VAN | 1st Period | Jan 18, 2023",
+     "team": "TBL",
+     "player_name": "Steven Stamkos",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "TBL",
+        "final_score": 5
+       },
+       "home": {
+        "team": "VAN",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Rogers Arena",
+        "team": "VAN",
+        "location": "Vancouver, BC"
+       },
+       "game_ends": "FINAL",
+       "final_score": "TBL 5, VAN 2 - FINAL",
+       "venue_location": "Vancouver Canucks - Rogers Arena (Vancouver, BC)"
+      },
+      "moment": {
+       "date": "2023-01-18",
+       "clock": "4:40",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 19
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": true,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs VAN | 1st Period | Jan 18, 2023"
+      },
+      "primary_player": {
+       "name": "Steven Stamkos",
+       "team": "TBL",
+       "jersey": 91,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      }
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "GqEKoQbD",
+   "tokenId": "12949537778550439936",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Steven Stamkos",
+     "date": "January 18, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/GqEKoQbD/12949537778550439936",
+    "image": "https://mediagateway.sweet.io/media/token/GqEKoQbD/12949537778550439936/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae7765540000b3b6000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "GqEKoQbD",
+  "token_id": "12949537778550439936"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

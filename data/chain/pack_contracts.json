@@ -1,0 +1,632 @@
+{
+ "0x928eaAcbDBB28c43B37bD1B1DDB93d590c3679d5": {
+  "pack_series": "8R5xYdbD",
+  "pack_title": "Series 3 Grand Finale Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "5.00",
+  "quantity": 2500,
+  "drop_active_unix": 1788282000,
+  "pack_uuid": "b572cf35000000009ff1000000000000",
+  "sample_token_id": "11524992921417809920"
+ },
+ "0x4AE701280B035c1B8E95188C8853E4927e7d90Ca": {
+  "pack_series": "QqBmP5RA",
+  "pack_title": "Hoist The Cup 2026 Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "25.00",
+  "quantity": 1500,
+  "drop_active_unix": 1785430800,
+  "pack_uuid": "b572cf350000000084f1000000000000",
+  "sample_token_id": "9579437882393755648"
+ },
+ "0x120aB6d78178B4B6876E440Dce5Ed674101E672D": {
+  "pack_series": "M1AOraRz",
+  "pack_title": "The Hunt for Stanley 2026 Encore Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "12.00",
+  "quantity": 1000,
+  "drop_active_unix": 1783616400,
+  "pack_uuid": "b572cf3500000000938e000000000000",
+  "sample_token_id": "10632435770268319744"
+ },
+ "0xDD324B742256c144A5cc8195BA20CcAA0E5128FB": {
+  "pack_series": "2RXxVmRm",
+  "pack_title": "The Hunt for Stanley 2026 Debut Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "12.00",
+  "quantity": 1500,
+  "drop_active_unix": 1780419600,
+  "pack_uuid": "b572cf3500000000a2c5000000000000",
+  "sample_token_id": "11728780804556324864"
+ },
+ "0x06e123B381C8BF4a2beFf2C68460bdbD829e413b": {
+  "pack_series": "61p6QVRP",
+  "pack_title": "Playoff Bound 2026 Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "15.00",
+  "quantity": 2000,
+  "drop_active_unix": 1776877200,
+  "pack_uuid": "b572cf3500000000acb3000000000000",
+  "sample_token_id": "12444290195354812416"
+ },
+ "0xB09C86300E8433C7470BE6273EfE3e7D4a98f879": {
+  "pack_series": "QRvZLoRw",
+  "pack_title": "Conn Smythe Showcase Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1774371600,
+  "pack_uuid": "b572cf3500000000a834000000000000",
+  "sample_token_id": "12120312497160847360"
+ },
+ "0xC2CDF6B6603E5982f2782913A214c9AB6186DBad": {
+  "pack_series": "V1orQgqQ",
+  "pack_title": "Filthy Apples Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "19.00",
+  "quantity": 1500,
+  "drop_active_unix": 1771956000,
+  "pack_uuid": "b572cf3500000000bf02000000000000",
+  "sample_token_id": "13763563411197657088"
+ },
+ "0xf5C9ec7f45D4c046689d96d5c0C88D94D7cCb65B": {
+  "pack_series": "V1P8wB1d",
+  "pack_title": "Seasoned Steel Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1768327200,
+  "pack_uuid": "b572cf3500000000bca0000000000000",
+  "sample_token_id": "13591863675404156928"
+ },
+ "0x49EdcE3b2711F6FDf68c202D4423ec2D3E56658d": {
+  "pack_series": "V1P8my1d",
+  "pack_title": "Fresh Sweaters 2025-26 December Expansion Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1765303200,
+  "pack_uuid": "b572cf3500000000baf2000000000000",
+  "sample_token_id": "13470829435418574848"
+ },
+ "0x21aCBc8720E7Fa00d8D869a4b24F48a709247669": {
+  "pack_series": "gb04xJbA",
+  "pack_title": "Next-Gen Class 2025-26 Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "19.00",
+  "quantity": 750,
+  "drop_active_unix": 1765303200,
+  "pack_uuid": "b572cf35000000009c4c000000000000",
+  "sample_token_id": "11262376768146767872"
+ },
+ "0xCadF0220D9D4c960Fd584653397dbEe928b8ea2c": {
+  "pack_series": "ebWV421G",
+  "pack_title": "Opening Ice 2025-26 Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "39.00",
+  "quantity": 500,
+  "drop_active_unix": 1762884000,
+  "pack_uuid": "b572cf350000000096e9000000000000",
+  "sample_token_id": "10874222775262773248"
+ },
+ "0xedad804e4A8a3D2dff28C74f204CcF670D0A37F5": {
+  "pack_series": "M1aozDRK",
+  "pack_title": "Base 2025-26 Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1762884000,
+  "pack_uuid": "b572cf3500000000abbe000000000000",
+  "sample_token_id": "12375328826060701696"
+ },
+ "0xab48dfaa9dABF2F4802ada4a7929648417cC6DF5": {
+  "pack_series": "2RXxNQRm",
+  "pack_title": "Fresh Sweaters: Legacy Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "19.00",
+  "quantity": 750,
+  "drop_active_unix": 1760029200,
+  "pack_uuid": "b572cf3500000000a911000000000000",
+  "sample_token_id": "12182518467013902336"
+ },
+ "0x64F46eF8eD7F6ECC517b877e2Cbeb493d1a8DBC7": {
+  "pack_series": "X1OvMnqm",
+  "pack_title": "Heart & Soul: 80s + 90s Debut LE Pack",
+  "series_name": "Series 3",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1760029200,
+  "pack_uuid": "b572cf3500000000b21c000000000000",
+  "sample_token_id": "12834133038099070976"
+ },
+ "0x4f5517D9f60524d6e7015CB381C078BB3FB9f83D": {
+  "pack_series": "GqEKX6bD",
+  "pack_title": "Series 2 Grand Finale Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "5.00",
+  "quantity": 5000,
+  "drop_active_unix": 1758042000,
+  "pack_uuid": "cd2f47fe00000000ad2b000000000000",
+  "sample_token_id": "12478067192560091136"
+ },
+ "0x828F641AE1caAed22d0f0e2fC240A0997C97bEaB": {
+  "pack_series": "8R5xZYbD",
+  "pack_title": "Hoist the Cup 2025 Encore Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 2500,
+  "drop_active_unix": 1755622800,
+  "pack_uuid": "cd2f47fe000000008ee2000000000000",
+  "sample_token_id": "10295791698122375168"
+ },
+ "0xaC2B5F28bF8B41EC0d95C082880455904D15e464": {
+  "pack_series": "QRvZQmRw",
+  "pack_title": "Hoist the Cup 2025 Debut LE Pack (Core)",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 2000,
+  "drop_active_unix": 1753203600,
+  "pack_uuid": "cd2f47fe00000000bfae000000000000",
+  "sample_token_id": "13811977107191889920"
+ },
+ "0x827f68B2a00599a137c16e6dEEC155A75CAe1B29": {
+  "pack_series": "V1or0zqQ",
+  "pack_title": "The Hunt for Stanley 2025 Encore Pack (Core)",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1750957200,
+  "pack_uuid": "cd2f47fe00000000a1a5000000000000",
+  "sample_token_id": "11647716011263655936"
+ },
+ "0x30c668C0415b637636650Df5C20dcc7F1A73DCaA": {
+  "pack_series": "r1Jowvbv",
+  "pack_title": "The Hunt for Stanley 2025 Debut LE Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1749661200,
+  "pack_uuid": "cd2f47fe000000009ca8000000000000",
+  "sample_token_id": "11288272466004148224"
+ },
+ "0x155D3B94EB8Cf5C43176385984E2F09816bb116A": {
+  "pack_series": "KR9Xzlbd",
+  "pack_title": "Opening Ice 2024-25 Finale (Rare)",
+  "series_name": "Series 2",
+  "pack_price_usd": "49.00",
+  "quantity": 750,
+  "drop_active_unix": 1747760400,
+  "pack_uuid": "cd2f47fe00000000958f000000000000",
+  "sample_token_id": "10776832433320886272"
+ },
+ "0x5CDFEA78C3137a0261c1433C05F23dDc61029851": {
+  "pack_series": "61p6pdRP",
+  "pack_title": "Hockeytown\u00ae Heroics Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "5.00",
+  "quantity": 1125,
+  "drop_active_unix": 1744639200,
+  "pack_uuid": "cd2f47fe00000000a514000000000000",
+  "sample_token_id": "11895132515792322560"
+ },
+ "0x70c429BDBaA089f511c74c407C25f8B786d9A61A": {
+  "pack_series": "QqBmOgRA",
+  "pack_title": "The GR8 Chase\u2122 Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "8.95",
+  "quantity": 8888,
+  "drop_active_unix": 1744142400,
+  "pack_uuid": "cd2f47fe00000000be0f000000000000",
+  "sample_token_id": "13695164991856967680"
+ },
+ "0xCeDe9E27Efa3d8969Cc09604Ed7a36Df7D7dbAD4": {
+  "pack_series": "rR8rXA1d",
+  "pack_title": "Most Valuable Keepers Debut LE Pack  (Core)",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1742922000,
+  "pack_uuid": "cd2f47fe000000009b76000000000000",
+  "sample_token_id": "11202141123130687488"
+ },
+ "0x90888510CD59d0307e558102ac34cee12aF92A8e": {
+  "pack_series": "XRe28wqk",
+  "pack_title": "Fresh Sweaters February Expansion Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 1250,
+  "drop_active_unix": 1740506400,
+  "pack_uuid": "cd2f47fe00000000bb28000000000000",
+  "sample_token_id": "13486029084160950272"
+ },
+ "0x39C092e85fAe0379fd092939f271507F112A849c": {
+  "pack_series": "A1LwAoqw",
+  "pack_title": "Set the Tone Debut LE Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "25.00",
+  "quantity": 750,
+  "drop_active_unix": 1740506400,
+  "pack_uuid": "cd2f47fe00000000b613000000000000",
+  "sample_token_id": "13119830139460386816"
+ },
+ "0x0D7e8Ca1C6119055C92bA9E005A942fc7d789Df7": {
+  "pack_series": "5RNBWNRM",
+  "pack_title": "Global Gamechangers Debut LE Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "25.00",
+  "quantity": 1250,
+  "drop_active_unix": 1737655200,
+  "pack_uuid": "cd2f47fe000000009aa3000000000000",
+  "sample_token_id": "11142749903044739072"
+ },
+ "0xF52401Ea0e358BE71964F620c108f3C6D58eCcAc": {
+  "pack_series": "AqkWVYq6",
+  "pack_title": "The Captain\u2019s Masterpieces Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "5.00",
+  "quantity": 1125,
+  "drop_active_unix": 1736877600,
+  "pack_uuid": "cd2f47fe000000008ec4000000000000",
+  "sample_token_id": "10287347448821055488"
+ },
+ "0x284a8F2686D9A703B5d5FfF93D3D33A1732Ae444": {
+  "pack_series": "yRzEk7bP",
+  "pack_title": "Opening Ice 2024-25 Encore Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "49.00",
+  "quantity": 750,
+  "drop_active_unix": 1736272800,
+  "pack_uuid": "cd2f47fe00000000851e000000000000",
+  "sample_token_id": "9592104256345735168"
+ },
+ "0x93b299AdB65A707e4eE7339E15cc7dAdb7e85228": {
+  "pack_series": "X1Ov8Bqm",
+  "pack_title": "Base 2024-25 December Expansion Encore Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1736186400,
+  "pack_uuid": "cd2f47fe000000008703000000000000",
+  "sample_token_id": "9728619620050403328"
+ },
+ "0x510f574F55A63E1942ddeDb603e233277c37042d": {
+  "pack_series": "Vqmoa7bg",
+  "pack_title": "Opening Ice 2024-25 Debut LE Pack (Rare)",
+  "series_name": "Series 2",
+  "pack_price_usd": "49.00",
+  "quantity": 750,
+  "drop_active_unix": 1734458400,
+  "pack_uuid": "cd2f47fe000000009b9a000000000000",
+  "sample_token_id": "11212274222292271104"
+ },
+ "0x7a76628D0fFBea826a198aAE55447b4299E9D5cd": {
+  "pack_series": "21x6ZXRG",
+  "pack_title": "Base 2024-25 December Expansion Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 1500,
+  "drop_active_unix": 1734458400,
+  "pack_uuid": "cd2f47fe000000008857000000000000",
+  "sample_token_id": "9824321112132026368"
+ },
+ "0x725B68256be48d3c4A8f7346AD8E8F8D6bbE3BBc": {
+  "pack_series": "vRDkMgbP",
+  "pack_title": "Opening Ice: Elites Debut LE (Rare)",
+  "series_name": "Series 2",
+  "pack_price_usd": "65.00",
+  "quantity": 1500,
+  "drop_active_unix": 1732557600,
+  "pack_uuid": "cd2f47fe0000000086ea000000000000",
+  "sample_token_id": "9721582745632636928"
+ },
+ "0x66b2CA1b2bB1c53f6947Bab94963679A6d8b5839": {
+  "pack_series": "jqGmLrbp",
+  "pack_title": "Series 2 Starter Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "7.00",
+  "quantity": 3000,
+  "drop_active_unix": 1732125600,
+  "pack_uuid": "cd2f47fe00000000bbc2000000000000",
+  "sample_token_id": "13529376230574391296"
+ },
+ "0x14E727Aa9527439AD48EB5b62c84Ce814Dd6Cdd6": {
+  "pack_series": "2bjVQ0b5",
+  "pack_title": "Fresh Sweaters Debut LE Pack (Core)",
+  "series_name": "Series 2",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1731088800,
+  "pack_uuid": "cd2f47fe00000000ad5c000000000000",
+  "sample_token_id": "12491859466418913280"
+ },
+ "0xBF21dB2043EDc6085B9cB7517716965bd2508DBc": {
+  "pack_series": "kR7GaNRE",
+  "pack_title": "Light the Lamp: Legacy Debut LE Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "25.00",
+  "quantity": 2000,
+  "drop_active_unix": 1728406800,
+  "pack_uuid": "cd2f47fe000000009b1e000000000000",
+  "sample_token_id": "11177371325180149760"
+ },
+ "0x23f627Fbd5a2b6462CaAB6222D96C3e0B703307c": {
+  "pack_series": "V1P8BA1d",
+  "pack_title": "Opening Ice: Icons Debut LE Pack",
+  "series_name": "Series 2",
+  "pack_price_usd": "99.00",
+  "quantity": 1250,
+  "drop_active_unix": 1728406800,
+  "pack_uuid": "cd2f47fe000000009214000000000000",
+  "sample_token_id": "10526038229071691776"
+ },
+ "0xF5726eE134D04aC1F78e13692f72B04FDCFF27Cb": {
+  "pack_series": "Vqmoy7bg",
+  "pack_title": "Series 1 Grand Finale Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1724950800,
+  "pack_uuid": "b5c8ae7700000000a272000000000000",
+  "sample_token_id": "11705418381489340416"
+ },
+ "0x4dc4935e4eeAd2244D27073F5251BCFC150C69Cb": {
+  "pack_series": "vRDkkgbP",
+  "pack_title": "The Hunt for Stanley 2024 Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "25.00",
+  "quantity": 4000,
+  "drop_active_unix": 1721926800,
+  "pack_uuid": "b5c8ae770000000095b4000000000000",
+  "sample_token_id": "10787247007459180544"
+ },
+ "0xD3Ae5a0F4452a8a6b075424eeA6572bb2E946c0b": {
+  "pack_series": "A1Lwwoqw",
+  "pack_title": "2017 Draft Discoveries Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "7.00",
+  "quantity": 1750,
+  "drop_active_unix": 1719594000,
+  "pack_uuid": "b5c8ae7700000000803b000000000000",
+  "sample_token_id": "9239979060480704512"
+ },
+ "0xA5206c760C6466501790A1fAFAEb9FD5e3B64496": {
+  "pack_series": "KbKmm2q5",
+  "pack_title": "Hanging from the Rafters Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "65.00",
+  "quantity": 1000,
+  "drop_active_unix": 1718902800,
+  "pack_uuid": "b5c8ae7700000000a0a1000000000000",
+  "sample_token_id": "11574532517318885376"
+ },
+ "0xa3aB74Ed95D90d8F427548E8d251Fb8a8e396Dff": {
+  "pack_series": "V1P88A1d",
+  "pack_title": "Opening Ice Encore Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "65.00",
+  "quantity": 500,
+  "drop_active_unix": 1716483600,
+  "pack_uuid": "b5c8ae7700000000b365000000000000",
+  "sample_token_id": "12926738305436876800"
+ },
+ "0xAa219D1dA530AAB1C4AC6F133622b9Fc0248133b": {
+  "pack_series": "kR7GGNRE",
+  "pack_title": "Playoff Bound Encore Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 2000,
+  "drop_active_unix": 1716483600,
+  "pack_uuid": "b5c8ae77000000009bff000000000000",
+  "sample_token_id": "11240703194940047360"
+ },
+ "0x05d37F4b6d369C1D7A37De1ac1167D20961f1873": {
+  "pack_series": "V1orreqQ",
+  "pack_title": "NHL\u00ae Breakaway XL Starter Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "7.00",
+  "quantity": 3000,
+  "drop_active_unix": 1714410000,
+  "pack_uuid": "b5c8ae77000000008a75000000000000",
+  "sample_token_id": "9976880549509201920"
+ },
+ "0x72729a84e4741430Bca08cC4e1c3fA3BAa02b9Ab": {
+  "pack_series": "gb0442bA",
+  "pack_title": "Playoff Bound Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 4000,
+  "drop_active_unix": 1713546000,
+  "pack_uuid": "b5c8ae77000000009be9000000000000",
+  "sample_token_id": "11234510745452412928"
+ },
+ "0x4C29A72476037968481e906A75CeB86CD682d6B9": {
+  "pack_series": "YqrMM8RJ",
+  "pack_title": "Base 2023-24 March Expansion Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 4000,
+  "drop_active_unix": 1711731600,
+  "pack_uuid": "b5c8ae77000000008854000000000000",
+  "sample_token_id": "9823476687201894400"
+ },
+ "0xA5Ff81Cf7B1d14085E88E451fD68C5FF7Ff986D4": {
+  "pack_series": "r1Joopbv",
+  "pack_title": "Light the Lamp Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "29.00",
+  "quantity": 3000,
+  "drop_active_unix": 1711731600,
+  "pack_uuid": "b5c8ae7700000000b758000000000000",
+  "sample_token_id": "13211309506891350016"
+ },
+ "0xC041D7bF869dce354AF3daE12745Bc00A20A141a": {
+  "pack_series": "AqkWWDq6",
+  "pack_title": "Modano\u2019s Seminal Moments Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "7.00",
+  "quantity": 2250,
+  "drop_active_unix": 1710522000,
+  "pack_uuid": "b5c8ae770000000080ab000000000000",
+  "sample_token_id": "9271504257872297984"
+ },
+ "0x5E9C39A3Ed3E721147190369810d1f61350e6Edd": {
+  "pack_series": "Aq4g35RQ",
+  "pack_title": "Next-Gen Class Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "29.00",
+  "quantity": 3000,
+  "drop_active_unix": 1709229600,
+  "pack_uuid": "b5c8ae770000000090f6000000000000",
+  "sample_token_id": "10445536385732444160"
+ },
+ "0x0703ef128c1C063064fBb00911E64Cf15f3d7623": {
+  "pack_series": "X1Ov42qm",
+  "pack_title": "Stadiums & Skylines Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 8000,
+  "drop_active_unix": 1709229600,
+  "pack_uuid": "b5c8ae7700000000a39b000000000000",
+  "sample_token_id": "11789016449572405248"
+ },
+ "0xCB7452eC147f853f5B79842408bEfc94C41Bb5be": {
+  "pack_series": "QRvZnaRw",
+  "pack_title": "Base 2023-24 February Expansion Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1706907600,
+  "pack_uuid": "b5c8ae77000000009263000000000000",
+  "sample_token_id": "10548274752231833600"
+ },
+ "0xd52a55F82f60A3470F08B961e18453f1Aa436854": {
+  "pack_series": "DRwEe91O",
+  "pack_title": "Guardians of the Net Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "45.00",
+  "quantity": 3000,
+  "drop_active_unix": 1706637600,
+  "pack_uuid": "b5c8ae7700000000ae67000000000000",
+  "sample_token_id": "12567013285200658432"
+ },
+ "0x9663B6cd411A2ABa29a3B958f6C0741A118F4796": {
+  "pack_series": "A1LwBOqw",
+  "pack_title": "Base 2023-24 January Expansion Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 5000,
+  "drop_active_unix": 1704232800,
+  "pack_uuid": "b5c8ae7700000000ab14000000000000",
+  "sample_token_id": "12327478080019890176"
+ },
+ "0xBafE99A79A8969395911B51263b966787D0465a6": {
+  "pack_series": "M1AOwVRz",
+  "pack_title": "Cause for a Celly: '90s Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "399.00",
+  "quantity": 1000,
+  "drop_active_unix": 1703786400,
+  "pack_uuid": "b5c8ae7700000000a442000000000000",
+  "sample_token_id": "11836022770683084800"
+ },
+ "0x8e8e00a81828d75c464758f8FF45A8F7C6094d76": {
+  "pack_series": "v1yjNdbP",
+  "pack_title": "Base 2023-24 Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "12.00",
+  "quantity": 12000,
+  "drop_active_unix": 1701108000,
+  "pack_uuid": "b5c8ae77000000008b5b000000000000",
+  "sample_token_id": "10041619794152652800"
+ },
+ "0xaFe66B34D52D06db90d1692242a3582C3F6CE8B0": {
+  "pack_series": "8bMLBY1d",
+  "pack_title": "Opening Ice 2023-24 Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "65.00",
+  "quantity": 3500,
+  "drop_active_unix": 1701108000,
+  "pack_uuid": "b5c8ae7700000000969d000000000000",
+  "sample_token_id": "10852830677032763392"
+ },
+ "0xd9e0a405Bb4B55Af7C27eA32042901611382D3D7": {
+  "pack_series": "2qVvdYqz",
+  "pack_title": "Breakaway Starter Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "19.00",
+  "quantity": 5000,
+  "drop_active_unix": 1698768873,
+  "pack_uuid": "b5c8ae77000000009f8c000000000000",
+  "sample_token_id": "11496563948770033664"
+ },
+ "0x67F009648A656Bda06Be72cE95b2730BCb539d33": {
+  "pack_series": "AqkWGDq6",
+  "pack_title": "Opening Ice: Elites Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "65.00",
+  "quantity": 2000,
+  "drop_active_unix": 1696959000,
+  "pack_uuid": "b5c8ae77000000008ff6000000000000",
+  "sample_token_id": "10373478791694516224"
+ },
+ "0x78cDa9B5FA2B74274c83747083f319c14584b53B": {
+  "pack_series": "3qYVZZ1V",
+  "pack_title": "Preseason Starter Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "15.00",
+  "quantity": 5000,
+  "drop_active_unix": 1695260700,
+  "pack_uuid": "b5c8ae7700000000b846000000000000",
+  "sample_token_id": "13278300551348486144"
+ },
+ "0x88F685878261a3C29E6015E1560C01aA148e1d5B": {
+  "pack_series": "aKR9mmRd",
+  "pack_title": "Base 2022-23 Expansion Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 3000,
+  "drop_active_unix": 1692982800,
+  "pack_uuid": "b5c8ae7700000000bb11000000000000",
+  "sample_token_id": "13479555159696605184"
+ },
+ "0xABaE4022C87bC74f4b2C525F52710FBd5822160F": {
+  "pack_series": "2vbQ4x1Z",
+  "pack_title": "The Hunt for Stanley 2023 Debut LE Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "35.00",
+  "quantity": 2500,
+  "drop_active_unix": 1692982800,
+  "pack_uuid": "b5c8ae7700000000a920000000000000",
+  "sample_token_id": "12186740591664562176"
+ },
+ "0xA6536E1947e3C8317c2b13f7692936d52783e1A4": {
+  "pack_series": "961pAwbP",
+  "pack_title": "Inaugural Founding Fan Base Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "9.00",
+  "quantity": 900,
+  "drop_active_unix": 1692723600,
+  "pack_uuid": "b5c8ae770000000097a1000000000000",
+  "sample_token_id": "10926014170977533952"
+ },
+ "0x5cD6F83EA9cFe66a5DD7eD45345cEc982fC031a5": {
+  "pack_series": "0zql7PRN",
+  "pack_title": "Inaugural Opening Ice Pack",
+  "series_name": "Series 1",
+  "pack_price_usd": "59.00",
+  "quantity": 600,
+  "drop_active_unix": 1692723600,
+  "pack_uuid": "b5c8ae7700000000b294000000000000",
+  "sample_token_id": "12867910035304349696"
+ },
+ "0x6F5b50D41923ef41e44Cd096Ff1922cebD10768D": {
+  "pack_series": "Y13aD0Rg",
+  "pack_title": "No. 7 Chris Chelios",
+  "series_name": "Series 1",
+  "pack_price_usd": "7.00",
+  "quantity": 2599,
+  "drop_active_unix": 1708876800,
+  "pack_uuid": "b5c8ae77000000008f50000000000000",
+  "sample_token_id": "10326753945560547328"
+ }
+}

@@ -1,0 +1,631 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmYDZjU6Zw55EFRNSUib2qAR8EFvHzRSNexmDqtFNdumdU"
+       },
+       "content-type": "image/png",
+       "sha256": "HQUzfVo4prHcpXrQYIzmqNCmvuz5Z9Rq22XPRBacE0U=",
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qmc7vPi7K5yhC5fEHsQLhAoBR5WhQpVQx3ZN6yNLEvwWGT"
+       },
+       "content-type": "image/png",
+       "sha256": "lBhvdZfOxoroYxrhDaX3HtV_PJA3LwEaIXZXRtZjtTw=",
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmfHNytahLmyZHCBM8Exwq75gWFw7W938XJMA1CuAeT6Kk"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOOVRz/11891473341095084032/card-image.png",
+        "purpose": "card-image",
+        "sha256": "6aNwBU0lK8uQuyMa8PT4IahigZ13Ha774PIlA9QPsbU=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOOVRz/11891473341095084032/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmP2WmNPrrX8AkHgkVUtkJFmsYRLKCZFRTzBALft7MqEBZ"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOOVRz/11891473341095084032/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "ICkiAWWwcUj-pcRhEFMS6AwfaQVTS8mNWFbfAwAgehg=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOOVRz/11891473341095084032/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmc7vPi7K5yhC5fEHsQLhAoBR5WhQpVQx3ZN6yNLEvwWGT"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOOVRz/11891473341095084032/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "lBhvdZfOxoroYxrhDaX3HtV_PJA3LwEaIXZXRtZjtTw=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOOVRz/11891473341095084032/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYDZjU6Zw55EFRNSUib2qAR8EFvHzRSNexmDqtFNdumdU"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/M1AOOVRz/11891473341095084032/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "HQUzfVo4prHcpXrQYIzmqNCmvuz5Z9Rq22XPRBacE0U=",
+        "uri": "https://mediagateway.sweet.io/media/token/M1AOOVRz/11891473341095084032/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2023-04-08"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae7730e90000a507000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Sidney Crosby"
+      },
+      {
+       "name": "Rarity",
+       "value": "Heroic"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "The Completion Cup"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae7730e900000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Pittsburgh Penguins"
+      },
+      {
+       "name": "Total Editions",
+       "value": "40"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In an already illustrious career, Sidney Crosby added another remarkable achievement to his name by reaching the 1,500 career points milestone. This accomplishment solidified his place as the 15th player in the history of the game to attain such a feat. Crosby reached this milestone by scoring two goals and an assist against the Detroit Red Wings. The first goal occurred in the closing seconds of the first period, as Crosby\u2019s relentless forecheck applied pressure on Jake Walman, eventually leading to a turnover. Crosby seized the puck right in front of the net and sniped a backhand shot upstairs. After notching an assist in the second period to hit 1,499 points, Crosby reached the milestone with his second goal of the game during a Penguins power play early in the third period. Kris Letang delivered a pass, and Crosby, positioned at the top of the circle, released a perfectly placed wrist shot top shelf.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmYDZjU6Zw55EFRNSUib2qAR8EFvHzRSNexmDqtFNdumdU"
+      },
+      "content-type": "image/png",
+      "sha256": "HQUzfVo4prHcpXrQYIzmqNCmvuz5Z9Rq22XPRBacE0U=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmYbQmVCNLkd6cWPBzNAj7W6SRv91sMnviy36TwggZ1wBo"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "21R2zLY13o-UM_nw7UlAahneshoIzeiQ5aQKoCBAdmE=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmQbiEX6iso8sNGhdXD1J1dmqBfER4zFRS7C2Dxf7o28ep"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "jiwlze-nP-bR3-tClsX5lL8qb-RTrLuONLkaxX58Xc4=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmYDZjU6Zw55EFRNSUib2qAR8EFvHzRSNexmDqtFNdumdU"
+       },
+       "content-type": "image/png",
+       "sha256": "HQUzfVo4prHcpXrQYIzmqNCmvuz5Z9Rq22XPRBacE0U=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYbQmVCNLkd6cWPBzNAj7W6SRv91sMnviy36TwggZ1wBo"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "21R2zLY13o-UM_nw7UlAahneshoIzeiQ5aQKoCBAdmE=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmQbiEX6iso8sNGhdXD1J1dmqBfER4zFRS7C2Dxf7o28ep"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "jiwlze-nP-bR3-tClsX5lL8qb-RTrLuONLkaxX58Xc4=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://Qmc7vPi7K5yhC5fEHsQLhAoBR5WhQpVQx3ZN6yNLEvwWGT"
+       },
+       "content-type": "image/png",
+       "sha256": "lBhvdZfOxoroYxrhDaX3HtV_PJA3LwEaIXZXRtZjtTw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmeLcnKow2w6FJBuxmSAKmikifHTferSXpW17R29mwdAFD"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "8dvNns98KbMdGbslVmgJ9G9rBczC9WwgETkrR1zXSz4=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmYSbu4MuuogCEc3ZPBVVyUPEx7SktRUpiNE72yQYj3nYB"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "4b-INgfZfG85pZ1JkPCuhZ3AAP5BhnspL_6YxQ8c-_8=",
+         "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-05-09T21:54:51.466024",
+     "name": "Sidney Crosby #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "5LGsQ9nDbs9v7OMIQg0rUR8UWRxtYwavcFz3aNX7HXY=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11891473341095084000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In an already illustrious career, Sidney Crosby added another remarkable achievement to his name by reaching the 1,500 career points milestone. This accomplishment solidified his place as the 15th player in the history of the game to attain such a feat. Crosby reached this milestone by scoring two goals and an assist against the Detroit Red Wings. The first goal occurred in the closing seconds of the first period, as Crosby\u2019s relentless forecheck applied pressure on Jake Walman, eventually leading to a turnover. Crosby seized the puck right in front of the net and sniped a backhand shot upstairs. After notching an assist in the second period to hit 1,499 points, Crosby reached the milestone with his second goal of the game during a Penguins power play early in the third period. Kris Letang delivered a pass, and Crosby, positioned at the top of the circle, released a perfectly placed wrist shot top shelf.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Completion Cup",
+       "rarity": {
+        "name": "Tier 5",
+        "rank": 5
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz/11891473341095084032",
+     "pack_uuid": null,
+     "set_id": 36,
+     "set_uuid": "b5c8ae7730e900000000000000000000",
+     "moment_id": 42247
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x936269A46EfcA1F469A202B277Ce820cD393e0C6/?a=11891473341095084032",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 5,
+     "name": "Pittsburgh Penguins",
+     "abbreviation": "PIT",
+     "short_name": "Pittsburgh",
+     "venue_city": "Pittsburgh",
+     "venue_name": "PPG Paints Arena",
+     "key": "PittsburghPenguins",
+     "url": "https://www.nhl.com/penguins",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/PittsburghPenguins.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "The Completion Cup",
+      "description": "<p>The Completion Cup contains all the Heroic highlights that served as rewards for completing sets within NHL Breakaway Series 1 collection. From past legends to present stars, this exclusive set brims with great players, impactful highlights, and remarkable achievements.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/f9eb0ebf-dce8-4ffc-983a-91c47dd89c50.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz",
+      "uuid": "b5c8ae7730e900000000000000000000",
+      "rarity": {
+       "name": "Heroic",
+       "editions": 1
+      }
+     },
+     "description": "In an already illustrious career, Sidney Crosby added another remarkable achievement to his name by reaching the 1,500 career points milestone. This accomplishment solidified his place as the 15th player in the history of the game to attain such a feat. Crosby reached this milestone by scoring two goals and an assist against the Detroit Red Wings. The first goal occurred in the closing seconds of the first period, as Crosby\u2019s relentless forecheck applied pressure on Jake Walman, eventually leading to a turnover. Crosby seized the puck right in front of the net and sniped a backhand shot upstairs. After notching an assist in the second period to hit 1,499 points, Crosby reached the milestone with his second goal of the game during a Penguins power play early in the third period. Kris Letang delivered a pass, and Crosby, positioned at the top of the circle, released a perfectly placed wrist shot top shelf.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae7730e90000a507000000000000",
+     "badges": [
+      {
+       "name": "Career Milestone",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png"
+      },
+      {
+       "name": "Collector Badge",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/b978be97-0148-4bbd-bb84-c3a5386115c7.png"
+      },
+      {
+       "name": "Multi-Highlight",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png"
+      }
+     ],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/f9eb0ebf-dce8-4ffc-983a-91c47dd89c50.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 42247,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOOVRz/moment/11891473341095084032/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOOVRz/moment/11891473341095084032/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOOVRz/moment/11891473341095084032/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOOVRz/moment/11891473341095084032/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOOVRz/moment/11891473341095084032/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/M1AOOVRz/moment/11891473341095084032/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOOVRz/moment/11891473341095084032/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/M1AOOVRz/moment/11891473341095084032/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/a507/images/front.png"
+      }
+     },
+     "editions": 40,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "laPlXVp4uwRzOzZCgCeLsHVTbW8Snz_gLLfMwRcL8Es=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://Qmdh7vPRoahYfnsNm6vbhPeot361RcT1tCbSYyNxXeFjwv"
+        },
+        "content-type": "image/png",
+        "sha256": "WurEaKFpPLpbsbXqdKyiTekkCcwaOpi7Wa8nF733SL4=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://Qmdh7vPRoahYfnsNm6vbhPeot361RcT1tCbSYyNxXeFjwv"
+        },
+        "content-type": "image/png",
+        "sha256": "WurEaKFpPLpbsbXqdKyiTekkCcwaOpi7Wa8nF733SL4=",
+        "url": "https://nft.nhlbreakaway.com/series/M1AOOVRz/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "The Completion Cup",
+        "description": "<p>The Completion Cup contains all the Heroic highlights that served as rewards for completing sets within NHL Breakaway Series 1 collection. From past legends to present stars, this exclusive set brims with great players, impactful highlights, and remarkable achievements.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 5",
+         "rank": 5
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz"
+      },
+      "name": "The Completion Cup",
+      "issued": "2024-10-03T20:34:30.509167",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/M1AOOVRz",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Sidney Crosby",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Detroit Red Wings - Little Caesars Arena (Detroit, MI)",
+       "final_score": "PIT 5, DET 1 - FINAL",
+       "venue": {
+        "name": "Little Caesars Arena",
+        "location": "Detroit, MI",
+        "team": "DET"
+       },
+       "away": {
+        "final_score": 5,
+        "team": "PIT"
+       },
+       "home": {
+        "final_score": 1,
+        "team": "DET"
+       }
+      },
+      "collectible_tagline": "1500 Career Points | Apr 8, 2023",
+      "primary_player": {
+       "name": "Sidney Crosby",
+       "is_rookie": false,
+       "position": "C",
+       "team": "PIT",
+       "jersey": 87,
+       "status": "NHLPA"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-04-08",
+        "period": "3rd Period",
+        "video_overlay_text": "Goal vs DET | 3rd Period | Apr 8, 2023",
+        "clock": "3:01",
+        "event": "Goal"
+       }
+      },
+      "highlight_type": "Multi",
+      "moment": {
+       "date": "2023-04-08",
+       "period": "1st Period",
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": true,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DET | 1st Period | Apr 8, 2023",
+       "clock": "19:57",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2024-05-09",
+     "rarity": {
+      "name": "Heroic",
+      "sorting_position": 70,
+      "editions": 1
+     }
+    },
+    "_metadata": {
+     "name": "Sidney Crosby",
+     "description": "In an already illustrious career, Sidney Crosby added another remarkable achievement to his name by reaching the 1,500 career points milestone. This accomplishment solidified his place as the 15th player in the history of the game to attain such a feat. Crosby reached this milestone by scoring two goals and an assist against the Detroit Red Wings. The first goal occurred in the closing seconds of the first period, as Crosby\u2019s relentless forecheck applied pressure on Jake Walman, eventually leading to a turnover. Crosby seized the puck right in front of the net and sniped a backhand shot upstairs. After notching an assist in the second period to hit 1,499 points, Crosby reached the milestone with his second goal of the game during a Penguins power play early in the third period. Kris Letang delivered a pass, and Crosby, positioned at the top of the circle, released a perfectly placed wrist shot top shelf.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 40,
+     "badges": {
+      "Career Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png",
+      "Collector Badge": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/b978be97-0148-4bbd-bb84-c3a5386115c7.png",
+      "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "PIT",
+        "final_score": 5
+       },
+       "home": {
+        "team": "DET",
+        "final_score": 1
+       },
+       "venue": {
+        "name": "Little Caesars Arena",
+        "team": "DET",
+        "location": "Detroit, MI"
+       },
+       "game_ends": "FINAL",
+       "final_score": "PIT 5, DET 1 - FINAL",
+       "venue_location": "Detroit Red Wings - Little Caesars Arena (Detroit, MI)"
+      },
+      "moment": {
+       "date": "2023-04-08",
+       "clock": "19:57",
+       "event": "Goal",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DET | 1st Period | Apr 8, 2023"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "2023-04-08",
+        "clock": "3:01",
+        "event": "Goal",
+        "period": "3rd Period",
+        "video_overlay_text": "Goal vs DET | 3rd Period | Apr 8, 2023"
+       }
+      },
+      "highlight_type": "Multi",
+      "primary_player": {
+       "name": "Sidney Crosby",
+       "team": "PIT",
+       "jersey": 87,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "1500 Career Points | Apr 8, 2023"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "M1AOOVRz",
+   "tokenId": "11891473341095084032",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Sidney Crosby",
+     "date": "April 8, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/M1AOOVRz/11891473341095084032",
+    "image": "https://mediagateway.sweet.io/media/token/M1AOOVRz/11891473341095084032/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae7730e90000a507000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "M1AOOVRz",
+  "token_id": "11891473341095084032"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

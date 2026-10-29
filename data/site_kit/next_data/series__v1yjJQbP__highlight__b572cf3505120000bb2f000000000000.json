@@ -1,0 +1,455 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Tim St\u00fctzle",
+     "description": "In his rookie season, Tim St\u00fctzle showed off his vision on a power play against the Maple Leafs, threading a brilliant cross-ice pass through heavy traffic to Drake Batherson, who hammered it home. Since that 2020\u201321 debut year, St\u00fctzle has led all Ottawa players in assists \u2014 a big reminder of why he was taken third overall in 2020.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Filthy Apples",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Limited",
+     "editions": 500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Assist vs TOR | 2nd Period | Mar 14, 2021",
+     "team": "OTT",
+     "player_name": "Tim St\u00fctzle",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "TOR",
+        "final_score": 3
+       },
+       "home": {
+        "team": "OTT",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "Canadian Tire Centre",
+        "team": "OTT",
+        "location": "Ottawa, ON"
+       },
+       "game_ends": "FINAL",
+       "final_score": "TOR 3, OTT 4 - FINAL",
+       "venue_location": "Ottawa Senators - Canadian Tire Centre (Ottawa, ON)"
+      },
+      "moment": {
+       "date": "2021-03-14",
+       "clock": "5:00",
+       "event": "Assist",
+       "extra": {
+        "assist_number_this_season": 11
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Assist vs TOR | 2nd Period | Mar 14, 2021"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Tim St\u00fctzle",
+       "team": "OTT",
+       "jersey": 18,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Assist vs TOR | 2nd Period | Mar 14, 2021"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 9,
+     "name": "Ottawa Senators",
+     "abbreviation": "OTT",
+     "short_name": "Ottawa",
+     "venue_city": "Ottawa",
+     "venue_name": "Canadian Tire Centre",
+     "key": "OttawaSenators",
+     "url": "https://www.nhl.com/senators",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/OttawaSenators.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/v1yjJQbP/13487999408997925173",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQq6PoYvoPy7qX2Zjy4xrqgWWHRaH7YV1svUQyq5MGbJi"
+       },
+       "content-type": "image/png",
+       "sha256": "pmLmkAWFq1cE8vKq3-DDu622vYcJz-qUMIKB-T0FDQo=",
+       "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmeCFjVQfcB4LWxjV8vqKtMQgDP8krHYrgj1Zzmum64yio"
+       },
+       "content-type": "image/png",
+       "sha256": "Oyo82xL47P6dmVVzemDC-Kk4zDNf4mPzKQcVzDXULlQ=",
+       "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbKzoJJL5CWPpgfoCJSZcYcXWKGoA2QELmQyikcjLp6Q9"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/v1yjJQbP/13487999408997925173/card-image.png",
+        "purpose": "card-image",
+        "sha256": "15IaJKog6tRJ5gndpHtdU9oyci5ygwTXcloMRk9Gwmo=",
+        "uri": "https://mediagateway.sweet.io/media/token/v1yjJQbP/13487999408997925173/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qma15xYZR9q1r4aUUquZ91QppT8DBBnaC9oosKhxRpqgK8"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/v1yjJQbP/13487999408997925173/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "jfR6eQA4xolwy15TPveQz7Be1_JzW0B0DWwZfSpRAYU=",
+        "uri": "https://mediagateway.sweet.io/media/token/v1yjJQbP/13487999408997925173/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmeCFjVQfcB4LWxjV8vqKtMQgDP8krHYrgj1Zzmum64yio"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/v1yjJQbP/13487999408997925173/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "Oyo82xL47P6dmVVzemDC-Kk4zDNf4mPzKQcVzDXULlQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/v1yjJQbP/13487999408997925173/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQq6PoYvoPy7qX2Zjy4xrqgWWHRaH7YV1svUQyq5MGbJi"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/v1yjJQbP/13487999408997925173/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "pmLmkAWFq1cE8vKq3-DDu622vYcJz-qUMIKB-T0FDQo=",
+        "uri": "https://mediagateway.sweet.io/media/token/v1yjJQbP/13487999408997925173/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2021-03-14",
+      "edition-number": "310",
+      "moment-uuid": "b572cf3505120000bb2f000000000000",
+      "play": "Assist",
+      "player": "Tim St\u00fctzle",
+      "rarity": "Limited",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Filthy Apples",
+      "set-uuid": "b572cf35051200000000000000000000",
+      "team": "Ottawa Senators",
+      "total-editions": "500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In his rookie season, Tim St\u00fctzle showed off his vision on a power play against the Maple Leafs, threading a brilliant cross-ice pass through heavy traffic to Drake Batherson, who hammered it home. Since that 2020\u201321 debut year, St\u00fctzle has led all Ottawa players in assists \u2014 a big reminder of why he was taken third overall in 2020.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 310,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmQq6PoYvoPy7qX2Zjy4xrqgWWHRaH7YV1svUQyq5MGbJi"
+      },
+      "content-type": "image/png",
+      "sha256": "pmLmkAWFq1cE8vKq3-DDu622vYcJz-qUMIKB-T0FDQo=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmaikDkQSnQYR11v2a3hr71RbKt9JVSKZ6XiMXT1r8k6qS"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "B0fyq2rnn3oVmao6USykjRM1SI2h9rFMAQe2QQSpAec=",
+        "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmRLnmYToLrU7faqbEiwch9ov9dsGqEApYHAokBCJ5LYeJ"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "6VLWYcrjGTUPL7-Tj8hQrMthAhxGagS0A35UpcwqVqw=",
+        "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQq6PoYvoPy7qX2Zjy4xrqgWWHRaH7YV1svUQyq5MGbJi"
+       },
+       "content-type": "image/png",
+       "sha256": "pmLmkAWFq1cE8vKq3-DDu622vYcJz-qUMIKB-T0FDQo=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmaikDkQSnQYR11v2a3hr71RbKt9JVSKZ6XiMXT1r8k6qS"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "B0fyq2rnn3oVmao6USykjRM1SI2h9rFMAQe2QQSpAec=",
+         "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRLnmYToLrU7faqbEiwch9ov9dsGqEApYHAokBCJ5LYeJ"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "6VLWYcrjGTUPL7-Tj8hQrMthAhxGagS0A35UpcwqVqw=",
+         "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmeCFjVQfcB4LWxjV8vqKtMQgDP8krHYrgj1Zzmum64yio"
+       },
+       "content-type": "image/png",
+       "sha256": "Oyo82xL47P6dmVVzemDC-Kk4zDNf4mPzKQcVzDXULlQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmNckMuoGNWJ6Mc5XRkcpJxoRBC5f5oU55PF1oHjrDMm1B"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "ztktyAwODR_OIUWh5BuyCbCpaY6bW3vWExiFeFS44M4=",
+         "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRdJccEHr77UGehCiTYCiHVgHJecPGSKcdf1PVVBdH5Ak"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "0nkw-GtoQRofh-zrJ1suFfkuV1di6kSdSoRhQ0FTYts=",
+         "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/v1yjJQbP/bb2f/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-02-16T22:31:47.923659",
+     "name": "Tim St\u00fctzle #310",
+     "network": "matic",
+     "sequence_number": "13487999408997925173",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In his rookie season, Tim St\u00fctzle showed off his vision on a power play against the Maple Leafs, threading a brilliant cross-ice pass through heavy traffic to Drake Batherson, who hammered it home. Since that 2020\u201321 debut year, St\u00fctzle has led all Ottawa players in assists \u2014 a big reminder of why he was taken third overall in 2020.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Filthy Apples",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/v1yjJQbP",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Tim St\u00fctzle #310",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2021-03-14"
+      },
+      {
+       "key": "edition-number",
+       "value": "310"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf3505120000bb2f000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Assist"
+      },
+      {
+       "key": "player",
+       "value": "Tim St\u00fctzle"
+      },
+      {
+       "key": "rarity",
+       "value": "Limited"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Filthy Apples"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf35051200000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Ottawa Senators"
+      },
+      {
+       "key": "total-editions",
+       "value": "500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf3505120000bb2f000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/eqeVGbYB",
+       "listing_id": "eqeVGbYB",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-08-03T13:40:32",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xdc54E8C185E949e9af4c7bbD11221d14f81cBc61/?a=13487999408997925173",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "v1yjJQbP",
+   "momentUuid": "b572cf3505120000bb2f000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Tim St\u00fctzle",
+     "date": "March 14, 2021"
+    },
+    "url": "https://nhlbreakaway.com/series/v1yjJQbP/highlight/b572cf3505120000bb2f000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/v1yjJQbP/13487999408997925173/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "v1yjJQbP",
+  "moment_uuid": "b572cf3505120000bb2f000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

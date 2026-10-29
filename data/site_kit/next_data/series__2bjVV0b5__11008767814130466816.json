@@ -1,0 +1,614 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmPb2XofAKiWcxA82MBKSkCaEGkxREaqXXho1rUoGpQ7jo"
+       },
+       "content-type": "image/png",
+       "sha256": "i9SUw8x_Qo3DJBjg86VRVT63e8frVaHIAv4sqanPF_E=",
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdZNqs4aRJzXN96PhguySCvNUvrjDySPgdiFYhGzhMzRr"
+       },
+       "content-type": "image/png",
+       "sha256": "hU_5yqonHTm1KNk75iisu5XDcwRoSU6AY8mPLtvj2DM=",
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmbQxc485joBzwTiks6ZLX37XSh6Abc1BAxuikhiEJ1jgp"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2bjVV0b5/11008767814130466816/card-image.png",
+        "purpose": "card-image",
+        "sha256": "1ITZLy2sguyFurlgRM_9kmF5wn4JE_AuT-kU0SlcyAg=",
+        "uri": "https://mediagateway.sweet.io/media/token/2bjVV0b5/11008767814130466816/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZ4Aa1fbZso7eXhBMWN5jh2FoVdf14hvqN9Cd8AqNFBQV"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2bjVV0b5/11008767814130466816/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "VSvqZIrt_Iwe4q7A0oloWu3u54gdMd7hBWpSa1_mtW8=",
+        "uri": "https://mediagateway.sweet.io/media/token/2bjVV0b5/11008767814130466816/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdZNqs4aRJzXN96PhguySCvNUvrjDySPgdiFYhGzhMzRr"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2bjVV0b5/11008767814130466816/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "hU_5yqonHTm1KNk75iisu5XDcwRoSU6AY8mPLtvj2DM=",
+        "uri": "https://mediagateway.sweet.io/media/token/2bjVV0b5/11008767814130466816/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPb2XofAKiWcxA82MBKSkCaEGkxREaqXXho1rUoGpQ7jo"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2bjVV0b5/11008767814130466816/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "i9SUw8x_Qo3DJBjg86VRVT63e8frVaHIAv4sqanPF_E=",
+        "uri": "https://mediagateway.sweet.io/media/token/2bjVV0b5/11008767814130466816/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2024-05-03"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae777890000098c7000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Pius Suter"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "The Hunt for Stanley 2024"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae77789000000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Vancouver Canucks"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In the final moments of a tense, goalless Game 6, it was Pius Suter who sealed the series for Vancouver. With less than two minutes remaining in the third period, the puck was sent around the boards to Brock Boeser behind the net. Sensing the opportunity, Suter dashed towards the net. Boeser executed a quick turnaround pass, connecting perfectly with Suter, who wasted no time burying the puck into the back of the net. This lone goal propelled Vancouver into the second round of the Stanley Cup Playoffs.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmPb2XofAKiWcxA82MBKSkCaEGkxREaqXXho1rUoGpQ7jo"
+      },
+      "content-type": "image/png",
+      "sha256": "i9SUw8x_Qo3DJBjg86VRVT63e8frVaHIAv4sqanPF_E=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmUhMVv72GnPSvNocELvJk6yqDdfXQdAHwY66dFt7iBe5G"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "_DH6bvQoln3UlvSKs2v2XO4QyC-KHoxWCMmarD_anyE=",
+        "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmWuyv1S7aNC22xrcbz2oBoEHZkqzeUXeWzDb2761ZKscW"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "QEvM-liC0qGmCyGyJq9t2j6GZeu-WyjxaXRKud5raiU=",
+        "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmPb2XofAKiWcxA82MBKSkCaEGkxREaqXXho1rUoGpQ7jo"
+       },
+       "content-type": "image/png",
+       "sha256": "i9SUw8x_Qo3DJBjg86VRVT63e8frVaHIAv4sqanPF_E=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmUhMVv72GnPSvNocELvJk6yqDdfXQdAHwY66dFt7iBe5G"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "_DH6bvQoln3UlvSKs2v2XO4QyC-KHoxWCMmarD_anyE=",
+         "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmWuyv1S7aNC22xrcbz2oBoEHZkqzeUXeWzDb2761ZKscW"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "QEvM-liC0qGmCyGyJq9t2j6GZeu-WyjxaXRKud5raiU=",
+         "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmdZNqs4aRJzXN96PhguySCvNUvrjDySPgdiFYhGzhMzRr"
+       },
+       "content-type": "image/png",
+       "sha256": "hU_5yqonHTm1KNk75iisu5XDcwRoSU6AY8mPLtvj2DM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmeQGECZ17qYqWWQaJem89V4PutGf2tsVGtwMMa7k5jYoh"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "VdsjN0y2b7IM_RyDwGUvTXgaAD_nLGi3AEu0x5U-x_8=",
+         "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmeBbRK4ULvw6MaJNcv1ns94xjLWmgbhzRCxdTaX2oAzVw"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "27psjGQeJNkppYazrga6r5zeBhTs246PjoNCErjJH2E=",
+         "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-07-23T21:45:57.855502",
+     "name": "Pius Suter #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "SNfZmW3vbj-qWDlFq-bqQB-1Tr3WYDl0oiZAIEpDU50=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 11008767814130467000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In the final moments of a tense, goalless Game 6, it was Pius Suter who sealed the series for Vancouver. With less than two minutes remaining in the third period, the puck was sent around the boards to Brock Boeser behind the net. Sensing the opportunity, Suter dashed towards the net. Boeser executed a quick turnaround pass, connecting perfectly with Suter, who wasted no time burying the puck into the back of the net. This lone goal propelled Vancouver into the second round of the Stanley Cup Playoffs.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Hunt for Stanley 2024",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5/11008767814130466816",
+     "pack_uuid": null,
+     "set_id": 44,
+     "set_uuid": "b5c8ae77789000000000000000000000",
+     "moment_id": 39111
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x243e1F526C6459cBf81D38D2fb5E5a3FB36Ba247/?a=11008767814130466816",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 23,
+     "name": "Vancouver Canucks",
+     "abbreviation": "VAN",
+     "short_name": "Vancouver",
+     "venue_city": "Vancouver",
+     "venue_name": "Rogers Arena",
+     "key": "VancouverCanucks",
+     "url": "https://www.nhl.com/canucks",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/VancouverCanucks.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "The Hunt for Stanley 2024",
+      "description": "<p><em data-stringify-type=\"italic\">The Hunt for Stanley 2024</em>&nbsp;features the most exhilarating highlights from the first three rounds of the 2024 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/07a163c8-1a7d-425e-9772-7641f4b44f56.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5",
+      "uuid": "b5c8ae77789000000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "In the final moments of a tense, goalless Game 6, it was Pius Suter who sealed the series for Vancouver. With less than two minutes remaining in the third period, the puck was sent around the boards to Brock Boeser behind the net. Sensing the opportunity, Suter dashed towards the net. Boeser executed a quick turnaround pass, connecting perfectly with Suter, who wasted no time burying the puck into the back of the net. This lone goal propelled Vancouver into the second round of the Stanley Cup Playoffs.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae777890000098c7000000000000",
+     "badges": [
+      {
+       "name": "Breakaway Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png"
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+      }
+     ],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/07a163c8-1a7d-425e-9772-7641f4b44f56.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 39111,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/2bjVV0b5/moment/11008767814130466816/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2bjVV0b5/moment/11008767814130466816/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/2bjVV0b5/moment/11008767814130466816/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2bjVV0b5/moment/11008767814130466816/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2bjVV0b5/moment/11008767814130466816/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/2bjVV0b5/moment/11008767814130466816/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2bjVV0b5/moment/11008767814130466816/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2bjVV0b5/moment/11008767814130466816/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/98c7/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "SNfZmW3vbj-qWDlFq-bqQB-1Tr3WYDl0oiZAIEpDU50=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmVjtc6vexoHX1qHGJNDz9H7RVWMEeoC947fzhj7VCQLt1"
+        },
+        "content-type": "image/png",
+        "sha256": "ssMSIhd766z5fjTegQXduCuX8Oze5hyTNVzN8Etvw3s=",
+        "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmVjtc6vexoHX1qHGJNDz9H7RVWMEeoC947fzhj7VCQLt1"
+        },
+        "content-type": "image/png",
+        "sha256": "ssMSIhd766z5fjTegQXduCuX8Oze5hyTNVzN8Etvw3s=",
+        "url": "https://nft.nhlbreakaway.com/series/2bjVV0b5/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "The Hunt for Stanley 2024",
+        "description": "<p><em data-stringify-type=\"italic\">The Hunt for Stanley 2024</em>&nbsp;features the most exhilarating highlights from the first three rounds of the 2024 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5"
+      },
+      "name": "The Hunt for Stanley 2024",
+      "issued": "2024-07-24T15:04:34.731011",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/2bjVV0b5",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Pius Suter",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Nashville Predators - Bridgestone Arena (Nashville, TN)",
+       "final_score": "VAN 1, NSH 0 - FINAL",
+       "venue": {
+        "name": "Bridgestone Arena",
+        "location": "Nashville, TN",
+        "team": "NSH"
+       },
+       "away": {
+        "final_score": 1,
+        "team": "VAN"
+       },
+       "home": {
+        "final_score": 0,
+        "team": "NSH"
+       }
+      },
+      "collectible_tagline": "Goal vs NSH | 3rd Period | May 3, 2024",
+      "primary_player": {
+       "name": "Pius Suter",
+       "is_rookie": false,
+       "position": "C",
+       "team": "VAN",
+       "jersey": 24,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2024-05-03",
+       "period": "3rd Period",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs NSH | 3rd Period | May 3, 2024",
+       "clock": "18:21",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2024-07-23",
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Pius Suter",
+     "description": "In the final moments of a tense, goalless Game 6, it was Pius Suter who sealed the series for Vancouver. With less than two minutes remaining in the third period, the puck was sent around the boards to Brock Boeser behind the net. Sensing the opportunity, Suter dashed towards the net. Boeser executed a quick turnaround pass, connecting perfectly with Suter, who wasted no time burying the puck into the back of the net. This lone goal propelled Vancouver into the second round of the Stanley Cup Playoffs.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "VAN",
+        "final_score": 1
+       },
+       "home": {
+        "team": "NSH",
+        "final_score": 0
+       },
+       "venue": {
+        "name": "Bridgestone Arena",
+        "team": "NSH",
+        "location": "Nashville, TN"
+       },
+       "game_ends": "FINAL",
+       "final_score": "VAN 1, NSH 0 - FINAL",
+       "venue_location": "Nashville Predators - Bridgestone Arena (Nashville, TN)"
+      },
+      "moment": {
+       "date": "2024-05-03",
+       "clock": "18:21",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs NSH | 3rd Period | May 3, 2024"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Pius Suter",
+       "team": "VAN",
+       "jersey": 24,
+       "status": "NHLPA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs NSH | 3rd Period | May 3, 2024"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "2bjVV0b5",
+   "tokenId": "11008767814130466816",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Pius Suter",
+     "date": "May 3, 2024"
+    },
+    "url": "https://nhlbreakaway.com/series/2bjVV0b5/11008767814130466816",
+    "image": "https://mediagateway.sweet.io/media/token/2bjVV0b5/11008767814130466816/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae777890000098c7000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "2bjVV0b5",
+  "token_id": "11008767814130466816"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

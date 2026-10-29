@@ -137,11 +137,13 @@ Things to know:
 
 ## Internet Archive copies
 
-Fans uploaded a copy of the moment videos and cover art to the [Internet Archive](https://archive.org/search?query=identifier%3Anhl-breakaway-moments-%2A), so they stay watchable even if NHL Breakaway's servers and the IPFS pins go away. There is one item per series part, from [`nhl-breakaway-moments-series1-01`](https://archive.org/details/nhl-breakaway-moments-series1-01) to [`nhl-breakaway-moments-series3-05`](https://archive.org/details/nhl-breakaway-moments-series3-05), with files named by moment id and player (for example `videos/0022-mark-stone-goal.mp4`).
+Fans uploaded a copy of the moment videos, cover art and card images to the [Internet Archive](https://archive.org/search?query=identifier%3Anhl-breakaway-moments-%2A), so they stay watchable even if NHL Breakaway's servers and the IPFS pins go away. There is one item per series part, from [`nhl-breakaway-moments-series1-01`](https://archive.org/details/nhl-breakaway-moments-series1-01) to [`nhl-breakaway-moments-series3-05`](https://archive.org/details/nhl-breakaway-moments-series3-05), with files named by moment id and player (for example `videos/0022-mark-stone-goal.mp4`).
 
 * **The videos are server copies, not the byte-exact originals.** They were saved from NHL Breakaway's media server, which re-encodes them: same video, different bytes from the IPFS originals, so they won't match the sha256 in `data/meta/`. The originals still live only on IPFS, so keep pinning them (see below). Cover art on the Archive is the original file.
 * Each item has a `manifest.csv` / `manifest.json` listing every moment's player, date, set, rarity, IPFS CID, source URL, sha256 and size, and whether its file is an `original` or a `server-copy`.
-* [`data/archive_urls.json`](data/archive_urls.json) maps each moment id to its Archive item page and direct video and cover links. The [community website](https://breakaway-vault.github.io/breakaway-data/) plays the Archive copy first, then NHL Breakaway's servers, then IPFS, and every moment page links its Archive copy. A few moments are still being processed by the Archive and will be added as they appear.
+* [`data/archive_urls.json`](data/archive_urls.json) maps each moment id to its Archive item page and direct video, cover and card image links. All 1,973 moments are on the Archive: 1,953 video files (covering 1,971 moments; #439 and #600 never had a video), 1,973 covers and 1,087 card images. The [community website](https://breakaway-vault.github.io/breakaway-data/) plays the Archive copy first, then NHL Breakaway's servers, then IPFS, and every moment page links its Archive copy.
+* Two companion items hold everything else: [`nhl-breakaway-covers-16x9`](https://archive.org/details/nhl-breakaway-covers-16x9) (widescreen covers) and [`nhl-breakaway-extras`](https://archive.org/details/nhl-breakaway-extras) (pack art, pack-opening videos, set and icon art, thumbnails, saved website pages, the site rebuild kit, public API and chain data, transaction history). The public pages were also saved to the Wayback Machine; the list is in [`data/wayback_snapshots.json`](data/wayback_snapshots.json).
+* [`data/ARCHIVE_INVENTORY.md`](data/ARCHIVE_INVENTORY.md) lists everything that was saved, where it lives and what's missing. [`data/REBUILD.md`](data/REBUILD.md) explains how the site worked (routes, public API, token ids, media URLs) and how to put a replica back up.
 
 ## If NHL Breakaway shuts down
 
@@ -210,7 +212,13 @@ It catalogs **public data**: the NFT metadata and public set and listing data th
 | `data/ipfs_status.json` | Last `check-ipfs` result per CID (reachable / uncached / gone, by file type). |
 | `data/live_status.json` | Last `check-live` result per moment (still listed? CDN cover/video status). |
 | `data/at_risk.md` | Moments whose original files are missing on IPFS. |
-| `data/archive_urls.json` | Moment id -> Internet Archive item page plus direct video and cover links (see [Internet Archive copies](#internet-archive-copies)). |
+| `data/archive_urls.json` | Moment id -> Internet Archive item page plus direct video, cover and card image links (see [Internet Archive copies](#internet-archive-copies)). |
+| `data/api_snapshot/` | Public API snapshot: supply stats per moment, all 63 drops, moment and set ids. |
+| `data/chain/` | The 156 Polygon contracts (93 moment sets, 63 packs) with royalties and collection metadata, plus the token id rules. |
+| `data/transaction_history.csv.xz` | Every public sale and transfer (480,685 events): moment, set, token id, edition, type, time, price, currency and Polygon transaction hash. No names or wallets. |
+| `data/site_kit/` | Route list, sample page data, public API samples and inferred schemas from the site, for rebuilding it (see `data/REBUILD.md`). |
+| `data/wayback_snapshots.json` | Wayback Machine snapshot of each saved public page (218). |
+| `data/ARCHIVE_INVENTORY.md`, `data/REBUILD.md` | What was saved and where; how the site worked and how to rebuild it. |
 | `data/extra_moments.txt` | Links to add (anyone can edit; see CONTRIBUTING). |
 | `breakaway.py` | The whole tool (one file). |
 | `scripts/validate.py`, `scripts/build_app.py` | CI checks; standalone-app build (PyInstaller). |

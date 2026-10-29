@@ -1,0 +1,83 @@
+{
+ "endpoint": "/distribution/history/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2FGqEK4QbD?limit=5&skip=0&uuid=cd2f47fe89f20000a662000000000000",
+ "http": 200,
+ "response": {
+  "hits": [
+   {
+    "transaction_type": "gift",
+    "transaction_datetime": "2026-06-14T16:33:05",
+    "token_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681666",
+    "edition": 3,
+    "amount": null,
+    "currency": null,
+    "from_username": "[removed]",
+    "from_user_profile_image_url": "[removed]",
+    "from_user_profile_image_network": "[removed]",
+    "to_username": "[removed]",
+    "to_user_profile_image_url": "[removed]",
+    "to_user_profile_image_network": "[removed]",
+    "explorer_url": "https://polygonscan.com/tx/0x3d1b58807597a852e3380ad1bf32454639a7129ab9964373afd99a888f2fcee5"
+   },
+   {
+    "transaction_type": "trade",
+    "transaction_datetime": "2025-07-28T05:02:22",
+    "token_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681665",
+    "edition": 2,
+    "amount": null,
+    "currency": null,
+    "from_username": "[removed]",
+    "from_user_profile_image_url": "[removed]",
+    "from_user_profile_image_network": "[removed]",
+    "to_username": "[removed]",
+    "to_user_profile_image_url": "[removed]",
+    "to_user_profile_image_network": "[removed]",
+    "explorer_url": "https://polygonscan.com/tx/0x38c9befb9a4887086f30abf80610c0a809d3e89934a86f2299916a481c58f843"
+   },
+   {
+    "transaction_type": "purchase",
+    "transaction_datetime": "2025-07-06T03:11:01",
+    "token_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681666",
+    "edition": 3,
+    "amount": 311.0,
+    "currency": "usd",
+    "from_username": "[removed]",
+    "from_user_profile_image_url": "[removed]",
+    "from_user_profile_image_network": "[removed]",
+    "to_username": "[removed]",
+    "to_user_profile_image_url": "[removed]",
+    "to_user_profile_image_network": "[removed]",
+    "explorer_url": "https://polygonscan.com/tx/0xe65f02fbd75fb75c3c920d58bb55eb38e330334abae20f2e397977ce0ac584a1"
+   },
+   {
+    "transaction_type": "purchase",
+    "transaction_datetime": "2025-03-30T21:52:26",
+    "token_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681666",
+    "edition": 3,
+    "amount": 400.0,
+    "currency": "usd",
+    "from_username": "[removed]",
+    "from_user_profile_image_url": "[removed]",
+    "from_user_profile_image_network": "[removed]",
+    "to_username": "[removed]",
+    "to_user_profile_image_url": "[removed]",
+    "to_user_profile_image_network": "[removed]",
+    "explorer_url": "https://polygonscan.com/tx/0x805e2d39e63756c218c9ecacb14dcdcae1a1e79dbf385c40c3280725eacf8048"
+   },
+   {
+    "transaction_type": "trade",
+    "transaction_datetime": "2025-03-29T06:54:38",
+    "token_uri": "https://nft.nhlbreakaway.com/series/GqEK4QbD/11989145158013681664",
+    "edition": 1,
+    "amount": null,
+    "currency": null,
+    "from_username": "[removed]",
+    "from_user_profile_image_url": "[removed]",
+    "from_user_profile_image_network": "[removed]",
+    "to_username": "[removed]",
+    "to_user_profile_image_url": "[removed]",
+    "to_user_profile_image_network": "[removed]",
+    "explorer_url": "https://polygonscan.com/tx/0x423a98195642a3f1d006c3d9d6375884b850ccb2164e1268b977e0e680535bdf"
+   }
+  ]
+ }
+}

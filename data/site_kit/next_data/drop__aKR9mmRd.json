@@ -1,0 +1,1270 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286348,
+    "summary": {
+     "drop_active": 1692982800,
+     "drop_expires": 1693071586,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/aKR9mmRd",
+     "number_of_highlights": 3,
+     "pack_description": "You asked for them \u2013 you got \u2018em! We\u2019ve doubled the size of the Base set with 25 star-studded highlights of the 2022-23 season that can become the foundation of any collection. \r\n\r\nFeaturing backhand snipes, filthy mitts, and top cheese darts from many of the top stars of the game \u2013 including Nathan MacKinnon, Tage Thompson, Sidney Crosby, Leon Draisaitl, David Pastrnak, Jack Hughes and more!\r\n\r\nEvery pack contains 2 Base highlights, plus 1 mystery highlight that could be from Making the Mark, Opening Ice, or Base sets.",
+     "pack_image": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front.jpg",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front-16x9.jpg",
+     "pack_rarity": "Core",
+     "pack_title": "Base 2022-23 Expansion Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae7700000000bb11000000000000",
+     "quantity": 3000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Base 2022-23 Expansion Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday, Aug 25 at 1PM ET / 10AM PT</span></p>\r\n<p><strong>Eligibility</strong><span style=\"font-weight: 400;\">: Beta users only. Not a beta user? </span><a href=\"https://account.sweet.io/external/login?return=https%3A%2F%2Fnhlbreakaway.sweet.io%2F\"><span style=\"font-weight: 400;\">Click here</span></a><span style=\"font-weight: 400;\"> to create your account.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 3000 packs total. 1500 will be available at the start of the drop, with additional inventory released at 5pm and 9pm ET to accommodate fans in worldwide time zones. Sales will end after 24 hours, with remaining packs being distributed later during Series 1.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) Base highlight (Core #/1500) from the 2022-23 Expansion set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) Base highlight (Core #/1500) from the original set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">78% Base highlight (Core) from the 2022-23 Expansion set</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">16% Opening Ice highlight (Rare)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">3% The Hunt for Stanley highlight (Limited)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">3% Making the Mark highlight (Epic) &ndash; includes new career and season-defining highlights from </span><strong>Linus Ullmark</strong><span style=\"font-weight: 400;\">, </span><strong>Erik Karlsson</strong><span style=\"font-weight: 400;\">, and </span><strong>Steven Stamkos</strong></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay; except when not available, payments will be processed via Stripe. Cryptocurrency purchases and ACH transfers into your NHL Breakaway account which can be used for purchases coming later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights will be eligible to be sold to other collectors on the NHL Breakaway fan marketplace later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights will be eligible to be gifted to other NHL Breakaway users later in 2023.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vTiS49gt0ax_wBuEGF8dhbkQEUcmI6BAZdbB8_hqnMKXZlKK7d4Hr1kTzbASf7OtHylm2RPtxncP5DP/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Full Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-preview-opening-ice/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/set-previews-the-hunt-for-stanley-2023-base-expansion/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\"> (Expansion) | </span><a href=\"https://blog.nhlbreakaway.com/base-set-preview-rarity-tiers/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a><span style=\"font-weight: 400;\"> (Original)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/first-drop-july-27-making-the-mark-set-preview/\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "You asked for them \u2013 you got \u2018em! We\u2019ve doubled the size of the Base set with 25 star-studded highlights of the 2022-23 season that can become the foundation of any collection. \r\n\r\nFeaturing backhand snipes, filthy mitts, and top cheese darts from many of the top stars of the game \u2013 including Nathan MacKinnon, Tage Thompson, Sidney Crosby, Leon Draisaitl, David Pastrnak, Jack Hughes and more!\r\n\r\nEvery pack contains 2 Base highlights, plus 1 mystery highlight that could be from Making the Mark, Opening Ice, or Base sets.",
+     "uuid": "b5c8ae7700000000bb11000000000000",
+     "assets": [
+      {
+       "purpose": "card-image",
+       "mime": "image/jpeg",
+       "url": "https://nft.nhlbreakaway.com/nhl_pack_image/original/1da58355-d583-4265-840e-e70f8a408852.jpg"
+      }
+     ],
+     "editions": 3000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000",
+      "rarity": null
+     },
+     "asset_type": "pack-release",
+     "name": "Base 2022-23 Expansion Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "David Pastrnak",
+         "description": "An electrifying and dynamic player, David Pastrnak dances around the Seattle Kraken defenseman and goes top cheese for one of his career-high 61 goals in 2022-23. Pastrnak broke into the NHL as an 18-year-old in 2014-15 and scored 301 goals through his first eight seasons \u2013 the most among all Bruins players in that span. The Czech-born winger won the Maurice \u201cRocket\u201d Richard Trophy in 2019-20 alongside Alex Ovechkin as they tied for the most goals in the League that season (48 in 70 GP).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ac61000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Tage Thompson",
+         "description": "Tage Thompson was a highlight machine during the 2022-23 season. Here he scores his third goal of the game to secure a hat trick and a six-point night in an 8-3 victory for the Buffalo Sabres. The 6' 6\" forward stops on a dime after receiving the pass in the slot and then makes a beautiful backhand-to-forehand move for the goal, which causes teammate Rasmus Dahlin to grab his head in awe.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009772000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Nathan MacKinnon",
+         "description": "Nathan MacKinnon turns on the afterburners wheeling the puck up-ice, splits the Edmonton Oilers defense and makes a nice backhand-to-forehand move before beating the goaltender to give the Colorado Avalanche their first goal of the game. A player with elite speed and immense talent, his third-period tally got the Avalanche back in the game in a contest they ultimately won in overtime.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b8c9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jason Robertson",
+         "description": "An emerging star, Jason Robertson shows his poise and vision with the puck in netting his third goal of the night for the hat trick in front of the Dallas crowd. After drawing in the Anaheim Ducks defenders, he works a give-and-go with Miro Heiskanen to create space. After getting the puck back, he puts a seeing-eye shot to the far side past the netminder. Robertson led the Dallas Stars with 46 goals in 2022-23, the most by any Stars player since 1993-94 when Mike Modano scored 50 goals during the club\u2019s first season in Texas after relocating from Minnesota. Robertson finished 2022-23 with 109 points as he became the first Stars player with 100+ points in a season since the club began play in Dallas.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100008e06000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Leon Draisaitl",
+         "description": "A dual-threat superstar that can set up others as much as he can finish plays himself, Leon Draisaitl scores a beauty goal here. After a give-and-go at the blueline, Draisaitl walks the defender with a nice move and then finishes with a backhand snipe. The Edmonton Oilers forward collected 744 points over his first nine NHL seasons from 2014-15 to 2022-23, trailing only teammate Connor McDavid (850 points) for the most points among all NHL players in that span. Draisaitl won the Hart Memorial Trophy, Art Ross Trophy and Ted Lindsay Award in 2019-20.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000085ed000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Matthew Tkachuk",
+         "description": "Coming off a career-high 104-point season with the Calgary Flames in 2021-22, Matthew Tkachuk improved upon those totals by collecting 109 points in his first campaign with the Florida Panthers \u2013 including this highlight-reel goal on Dec. 8, 2022. Skating down the right side and realizing the Detroit Red Wings defender is shutting down the pass, Tkachuk makes a backhand-to-forehand move to protect the puck before he roofs it top shelf on the far side.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009d73000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Cale Makar",
+         "description": "Dynamic Colorado Avalanche defenseman Cale Makar makes a nice read on the play by picking off the pass and breaking up-ice with speed before pulling up and firing a wrister far side for the unassisted tally. The smooth-skating Makar has had an incredible start to his young career having won a Stanley Cup, Conn Smythe Trophy, James Norris Memorial Trophy and Calder Memorial Trophy within his first three seasons in the League.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100008fe7000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Connor McDavid",
+         "description": "An absolutely thrilling scoring machine, Connor McDavid displays his world-class acceleration and finishing abilities. In overtime, McDavid curls for the pass before turning on the jets to blow by the defenders and roofs the puck top shelf in-tight at top speed for the game-winning goal. McDavid collected 850 points in his first eight NHL seasons (in only 569 games) \u2013 by far the most by any player since he entered the League in 2015-16. McDavid had 64 goals and 153 points in 2022-23 to win his first career Maurice \u201cRocket\u201d Richard Trophy and fifth Art Ross Trophy, posting the highest goal total by any player since 2007-08 and most points since 1995-96.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009454000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Kirill Kaprizov",
+         "description": "Kirill \"The Thrill\" Kaprizov is an exciting player who can create scoring chances in a variety of ways.  Here he shows why he is such a presence anywhere on the ice, emerging from the corner after winning a puck battle before shooting from deep behind the goal line and banking the puck off the goaltender\u2019s mask for the goal. Kaprizov emerged onto the scene in 2020-21 and led the Wild in both goals and points in each of his first three NHL campaigns, setting single-season franchise records in each category along the way.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000bdb0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jack Hughes",
+         "description": "On the power play, Jack Hughes picks up the puck near his blueline before turning to wheel up-ice.  Gaining speed, he breaks through Ottawa's defense by protecting the puck on his backhand before bringing it to his forehand and tucking it in five-hole. In his fourth NHL season, at age 21, Hughes collected 43 goals and 99 points in 2022-23 to post the highest goal total by a Devils player since 2008-09 and set a franchise record for points in one season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000098af000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Sidney Crosby",
+         "description": "Voted the \u201cMost Complete Player\u201d by his peers in the NHLPA poll for the fourth consecutive season in 2022-23, Pittsburgh Penguins captain Sidney Crosby continues to excel after 18 seasons in the NHL.  On the road in Colorado, Crosby gets a pass in the middle of the ice from teammate Jake Guentzel before streaking into the offensive zone where he snipes his signature backhand shot top shelf to give Pittsburgh a 1-0 lead in the second period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009315000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Erik Karlsson",
+         "description": "In what has been a resurgence year for three-time James Norris Memorial Trophy winner Erik Karlsson, he makes a great individual effort on this play to earn a beautiful assist. Having his best season wearing a San Jose Sharks uniform, the smooth-skating Karlsson begins the play off the faceoff with a quick move at the blueline to evade the defender. He then skates the puck down near the corner before looping back up to the point. Not only does he create more space for himself but now all eyes are on Karlsson, which creates a wide-open Steven Lorentz who Karlsson finds for the goal. It has been a remarkable year statistically for Karlsson having bested all of his previous seasons in points.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ae71000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Brayden Point",
+         "description": "Brayden Point has been electric in establishing himself as an elite player in the NHL. Here he wheels up the ice and dances through three Seattle Kraken defenders before roofing a backhand beauty. Point has consistently been a key offensive player for the Tampa Bay Lightning, leading the playoffs in goals during the team\u2019s Stanley Cup-winning runs in both 2020 and 2021. In 2022-23, Point scored 51 goals to become the third different player in Lightning history with a 50-goal season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a4af000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Mitch Marner",
+         "description": "During three-on-three play in overtime, Mitch Marner regroups in his own zone for a drop pass before heading up the ice with speed. After gaining the offensive zone, Marner slows before using a quick burst to get around his check to the net where he leaps over the sprawling goaltender to tuck home a beautiful game-winner. Marner set career highs in assists (69) and points (99) in 2022-23, with his assist count standing as the highest by a Toronto Maple Leafs player since 1993-94 when Doug Gilmour had 84.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009693000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Elias Pettersson",
+         "description": "What a night for Vancouver Canucks forward Elias Pettersson who secures his fifth point of the game when he one-times the game-tying goal with just 80 seconds remaining in the third period. If that wasn\u2019t enough, he then scores the deciding goal in the shootout to earn Vancouver a 6-5 victory against the Seattle Kraken. Playing in his fifth NHL season, Pettersson collected 39-63\u2014102 in 80 games in 2022-23 to set career highs in goals, assists and points and become Vancouver\u2019s first 100-point player in a dozen years.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a7c1000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Clayton Keller",
+         "description": "Clayton Keller roofs a backhand top shelf on the breakaway to score his second of three goals in the game for his first career hat trick. Keller set career highs in goals (37), assists (49) and points (86) in 2022-23, the second straight season in which he led the Arizona Coyotes in both goals and points. His 86 points in 2022-23 equaled the most by a Coyotes player in one season, matching Keith Tkachuk\u2019s totals from 1996-97 \u2013 the team\u2019s first season in Arizona after moving from Winnipeg.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000aa5a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jacob Markstrom",
+         "description": "Jacob Markstrom goes old-school with a two-pad stack to rob Mark Scheifele of a sure goal with a worldly glove save. The Calgary Flames goaltender, who was a finalist for the Vezina Trophy in 2021-22, went on to lead his club to a 3-2 win over the Winnipeg Jets.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000087d5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jonathan Toews",
+         "description": "In perhaps his final game wearing a Chicago Blackhawks uniform, captain Jonathan Toews scores a goal in the team\u2019s 2022-23 finale, at home against the Philadelphia Flyers \u2013 the team Chicago beat when Toews hoisted the Stanley Cup for the first time in 2010. Toews begins the play by winning an offensive zone faceoff, then heads to the slot where he redirects a shot-pass into the net for Chicago\u2019s third goal of the game. The three-time Stanley Cup champion and Conn Smythe Trophy winner receives a roaring cheer from the home crowd.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b809000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Johnny Gaudreau",
+         "description": "Slick and shifty Johnny Gaudreau goes for a skate, controlling the puck while the Columbus Blue Jackets are changing. \u201cJohnny Hockey\u201d then breaks up the ice, skates behind the net and tucks it home for a gorgeous individual effort play. His tying goal in the third period helped the club rally for an eventual overtime win \u2013 their first victory of the 2022-23 season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ae27000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Tim St\u00fctzle",
+         "description": "Off the faceoff near the end of an Ottawa power play, Brady Tkachuk retrieves the puck off the boards to get it back to Tim St\u00fctzle. With Sidney Crosby pursuing, St\u00fctzle evades him with a nice drag to the middle of the ice and quick burst of acceleration before firing home a wrister for his 20th goal of the season. The German-born winger set career highs in goals (39) and points (90) in 2022-23, his third NHL season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a562000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jordan Eberle",
+         "description": "Seattle Kraken forward Jordan Eberle fools everyone with a beautiful backhand goal to excite the home crowd in Seattle. After receiving the cross-ice feed from defenseman Adam Larsson, Eberle instantly twists it around to his backhand and roofs it to beat Winnipeg Jets goaltender David Rittich.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ab72000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Quinn Hughes",
+         "description": "Vancouver Canucks defenseman Quinn Hughes, a gifted skater with excellent offensive abilities, does almost a full lap in the offensive zone around San Jose Sharks players before sniping the puck top shelf for his first goal of the 2022-23 season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000913f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Trevor Zegras",
+         "description": "Anaheim Ducks forward Trevor Zegras streaks through the middle lane with speed where he receives a sauce pass from teammate Ryan Strome. Quickly running out of real estate and instead of staying on the backhand for a poor angle shot, Zegras goes through his legs to go top shelf on the far side, once again showing why he is an exciting player to watch and one of the most creative players in the NHL.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ad79000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Sebastian Aho",
+         "description": "Sebastian Aho, a well-rounded forward who contributes in all areas of the rink, opens the scoring with a shorthanded goal for the Carolina Hurricanes. The puck gets turned over at the Carolina blueline, where Aho picks it up and rushes up ice with speed. On the breakaway, he makes a move to freeze the goaltender before tucking it five-hole on the backhand.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b0fd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jack Eichel",
+         "description": "In his first full season with the Vegas Golden Knights, Jack Eichel skates the puck around the offensive zone for nearly 15 seconds before netting the game winner in overtime. As he makes his move toward the net, Eichel brings the puck to his forehand at the last second before tucking it home to bring the Vegas crowd to its feet.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000081d2000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Troy Terry",
+         "description": "Troy Terry receives a stretch pass from goaltender John Gibson and fends off the defender before shelfing a backhand winner to give Anaheim an opening-night victory on home ice.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a722000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Pheonix Copley",
+         "description": "Pheonix Copley reacts to a deflected point shot by making an incredible toe save to rob Ottawa\u2019s Claude Giroux. Copley set career highs in games played (37), starts (35) and wins (24) during the 2022-23 regular season, his first with Los Angeles.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a5ce000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Marc-Andre Fleury",
+         "description": "Marc-Andre Fleury makes a sprawling blocker save on Edmonton\u2019s Ryan Nugent-Hopkins to maintain a two-goal Minnesota lead in an eventual 5-3 victory on Dec. 1, 2022 \u2013 a game in which Fleury passed Tony Esposito for the fourth-most career saves among goaltenders since the NHL began tracking the statistic in 1955-56.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ba10000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Cole Caufield",
+         "description": "After three failed attempts to score in the final 25 seconds of regulation, including one by Cole Caufield with 6.5 seconds left on the clock, the Canadiens tie the game with a goal by Caufield with only 1.9 seconds remaining. Nick Suzuki, who assisted on the goal, later scored the winner in the shootout.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000088ac000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Dawson Mercer",
+         "description": "Dawson Mercer breaks a tie with a thrilling goal in the third period, rushing into the zone and powering around the defenseman before sliding the puck past the goaltender. It was his second goal of the night and stood as the game-winner in a 5-3 Devils victory.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b84b000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "K'Andre Miller",
+         "description": "Defenseman K'Andre Miller intercepts a pass at his own blueline before he wheels up the ice to score on a great individual effort. The goal was part of a breakout 2022-23 season for Miller, who set career highs in goals (9), assists (34) and points (43) in his third season with the Rangers.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a6e1000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Mark Stone",
+         "description": "With the score tied 3-3 with less than 30 seconds remaining in the third period on opening night in Los Angeles, Vegas captain Mark Stone wrists a beauty that goes off the post and in past netminder Jonathan Quick for the late game-winning goal.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000aa0e000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Linus Ullmark",
+         "description": "Boston\u2019s Linus Ullmark stretches with his left pad to rob Vancouver's Ilya Mikheyev with the end of his skate blade, jamming the puck against the post to prevent the goal. The save helped Ullmark secure his 11th victory of the 2022-23 season en route to a franchise record-tying 40 victories overall.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b864000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Rasmus Dahlin",
+         "description": "Rasmus Dahlin shows tremendous poise and patience with the puck, dragging it around a defender's stick to the middle of the slot before sending a wrister home for his third point of the game. Dahlin finished the night with two goals and three assists, tying a Sabres record for most points in one game by a defenseman.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b23c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jaccob Slavin",
+         "description": "Jaccob Slavin leads the rush up ice before working a tic-tac-toe play with Seth Jarvis and fellow defenseman Brent Burns, finishing the play by scoring the overtime winner for Carolina. Burns earned his 800th career point with an assist on the play.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009caf000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Mikko Rantanen",
+         "description": "Mikko Rantanen unloads a one-timer for his second goal of the game and 34th of the 2022-23 season. Rantanen finished the campaign with 55 goals, the most in one season by a Colorado player since the team began play in Denver in 1995-96.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b0a4000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jake Oettinger",
+         "description": "Dallas goaltender Jake Oettinger stretches out to make a beautiful pad save on a breakaway attempt by Arizona's Michael Carcone to preserve a 3-0 lead in the second period. Oettinger went on to record a 33-save shutout \u2013 one of his five clean sheets during the 2022-23 season, tied for second in the NHL.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b6aa000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Dylan Larkin",
+         "description": "With the Red Wings trailing 4-3 in the final two minutes of regulation, captain Dylan Larkin rushes back for a tremendous diving effort to knock the puck away from Kings forward Viktor Arvidsson who was in the clear with an empty net. Larkin was parked in front of the Los Angeles net later that shift when Detroit scored a tying goal to force overtime in front of a raucous home crowd.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009f1b000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Jordan Kyrou",
+         "description": "Blues forward Jordan Kyrou puts his skillset on full display with a between-the-legs fake before roofing a backhand over the arm of Predators goaltender Juuse Saros for what stood as the game-winning goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b7dd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Aleksander Barkov",
+         "description": "Florida captain Aleksander Barkov sneaks out from the corner to receive a pass and bury his 67th career power play goal, setting a new franchise record. It came in a game in which Barkov collected a hat trick in the first period and five points overall in the game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ace3000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Drew Doughty",
+         "description": "Drew Doughty trails the play up ice to receive a pass and wrist home the eventual game-winning goal with a shot that goes short-side top shelf. The 2015-16 James Norris Memorial Trophy winner collected 52 points during the 2022-23 season, his highest total in five years.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009de5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Juuse Saros",
+         "description": "With just over two minutes remaining in the game and Nashville ahead 4-3 during a Carolina power play, Predators goaltender Juuse Saros sprawls for an incredible toe save to protect the lead. Saros ended the game with a whopping 64 saves, setting a franchise record.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000084b2000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Ilya Sorokin",
+         "description": "Ilya Sorokin comes up huge with a stick save to keep Kris Letang's shot from giving Pittsburgh a two-goal lead late in the second period. Sorokin\u2019s stop \u2013 one of 44 he made in the game \u2013 gave the Islanders life as they rallied in the final frame for a comeback win on the road.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009946000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Travis Konecny",
+         "description": "Travis Konecny clears a rebound from the front of the Flyers net before rushing up ice with the puck, executing a perfect toe-drag to get past the defender before roofing a backhand top corner. It was Konecny\u2019s second goal of the contest, and the eventual game-winner, in a 5-3 victory for Philadelphia.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a126000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Evgeni Malkin",
+         "description": "After stripping the puck off the defenseman near the Penguins\u2019 blueline, Evgeni Malkin breaks up the ice before he snipes a pinpoint shot far side that hits the bar and in for the unassisted tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000be1c000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Nikita Kucherov",
+         "description": "After a one-time shot gets blocked, Lightning forward Nikita Kucherov tees it up again and makes a beautiful shot-pass to Nick Paul in the slot for the tip-in power-play goal. The assist comes as part of a four-point game and 113-point season for Kucherov, who led the NHL in playoff points and assists in both 2020 and 2021 \u2013 winning the Stanley Cup each year.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100008359000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Stuart Skinner",
+         "description": "Oilers goaltender Stuart Skinner stands strong during an Edmonton penalty kill, first stopping T.J. Oshie from point-blank range before stretching for a toe save on Dylan Strome. The sequence was part of a 47-save performance for Skinner, who in 2022-23 set a single-season franchise record for wins by a rookie goaltender and played in the NHL All-Star Game.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a574000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Evgeny Kuznetsov",
+         "description": "Evgeny Kuznetsov skates past three Flames defenders and slides the puck home despite falling to the ice after splitting the defense. Kuznetsov\u2019s highlight-reel goal helps Washington pick up a victory against Calgary on home ice.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b7bc000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Kyle Connor",
+         "description": "Jets forward Kyle Connor weaves through multiple Stars defenders before curling wide and dishing the puck across to a wide-open Mark Scheifele at the side of the net for the tap-in goal. It was part of a three-assist showing for Connor in a 5-1 victory against Dallas.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b229000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.04,
+          "limit": 120
+         },
+         "name": "Artemi Panarin",
+         "description": "Artemi Panarin shows his poise with the puck as he allows the play to develop, waiting for Adam Fox to join the rush to work a give-and-go before scoring a one-time goal from a tight angle. Panarin collected 341 points through his first four seasons with the Rangers (2019-20 to 2022-23) to lead all New York players in that span.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000bc9b000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "David Pastrnak",
+         "description": "An electrifying and dynamic player, David Pastrnak dances around the Seattle Kraken defenseman and goes top cheese for one of his career-high 61 goals in 2022-23. Pastrnak broke into the NHL as an 18-year-old in 2014-15 and scored 301 goals through his first eight seasons \u2013 the most among all Bruins players in that span. The Czech-born winger won the Maurice \u201cRocket\u201d Richard Trophy in 2019-20 alongside Alex Ovechkin as they tied for the most goals in the League that season (48 in 70 GP).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ac61000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Tage Thompson",
+         "description": "Tage Thompson was a highlight machine during the 2022-23 season. Here he scores his third goal of the game to secure a hat trick and a six-point night in an 8-3 victory for the Buffalo Sabres. The 6' 6\" forward stops on a dime after receiving the pass in the slot and then makes a beautiful backhand-to-forehand move for the goal, which causes teammate Rasmus Dahlin to grab his head in awe.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009772000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Nathan MacKinnon",
+         "description": "Nathan MacKinnon turns on the afterburners wheeling the puck up-ice, splits the Edmonton Oilers defense and makes a nice backhand-to-forehand move before beating the goaltender to give the Colorado Avalanche their first goal of the game. A player with elite speed and immense talent, his third-period tally got the Avalanche back in the game in a contest they ultimately won in overtime.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b8c9000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jason Robertson",
+         "description": "An emerging star, Jason Robertson shows his poise and vision with the puck in netting his third goal of the night for the hat trick in front of the Dallas crowd. After drawing in the Anaheim Ducks defenders, he works a give-and-go with Miro Heiskanen to create space. After getting the puck back, he puts a seeing-eye shot to the far side past the netminder. Robertson led the Dallas Stars with 46 goals in 2022-23, the most by any Stars player since 1993-94 when Mike Modano scored 50 goals during the club\u2019s first season in Texas after relocating from Minnesota. Robertson finished 2022-23 with 109 points as he became the first Stars player with 100+ points in a season since the club began play in Dallas.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100008e06000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Leon Draisaitl",
+         "description": "A dual-threat superstar that can set up others as much as he can finish plays himself, Leon Draisaitl scores a beauty goal here. After a give-and-go at the blueline, Draisaitl walks the defender with a nice move and then finishes with a backhand snipe. The Edmonton Oilers forward collected 744 points over his first nine NHL seasons from 2014-15 to 2022-23, trailing only teammate Connor McDavid (850 points) for the most points among all NHL players in that span. Draisaitl won the Hart Memorial Trophy, Art Ross Trophy and Ted Lindsay Award in 2019-20.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000085ed000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Matthew Tkachuk",
+         "description": "Coming off a career-high 104-point season with the Calgary Flames in 2021-22, Matthew Tkachuk improved upon those totals by collecting 109 points in his first campaign with the Florida Panthers \u2013 including this highlight-reel goal on Dec. 8, 2022. Skating down the right side and realizing the Detroit Red Wings defender is shutting down the pass, Tkachuk makes a backhand-to-forehand move to protect the puck before he roofs it top shelf on the far side.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009d73000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Cale Makar",
+         "description": "Dynamic Colorado Avalanche defenseman Cale Makar makes a nice read on the play by picking off the pass and breaking up-ice with speed before pulling up and firing a wrister far side for the unassisted tally. The smooth-skating Makar has had an incredible start to his young career having won a Stanley Cup, Conn Smythe Trophy, James Norris Memorial Trophy and Calder Memorial Trophy within his first three seasons in the League.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100008fe7000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Connor McDavid",
+         "description": "An absolutely thrilling scoring machine, Connor McDavid displays his world-class acceleration and finishing abilities. In overtime, McDavid curls for the pass before turning on the jets to blow by the defenders and roofs the puck top shelf in-tight at top speed for the game-winning goal. McDavid collected 850 points in his first eight NHL seasons (in only 569 games) \u2013 by far the most by any player since he entered the League in 2015-16. McDavid had 64 goals and 153 points in 2022-23 to win his first career Maurice \u201cRocket\u201d Richard Trophy and fifth Art Ross Trophy, posting the highest goal total by any player since 2007-08 and most points since 1995-96.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009454000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Kirill Kaprizov",
+         "description": "Kirill \"The Thrill\" Kaprizov is an exciting player who can create scoring chances in a variety of ways.  Here he shows why he is such a presence anywhere on the ice, emerging from the corner after winning a puck battle before shooting from deep behind the goal line and banking the puck off the goaltender\u2019s mask for the goal. Kaprizov emerged onto the scene in 2020-21 and led the Wild in both goals and points in each of his first three NHL campaigns, setting single-season franchise records in each category along the way.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000bdb0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jack Hughes",
+         "description": "On the power play, Jack Hughes picks up the puck near his blueline before turning to wheel up-ice.  Gaining speed, he breaks through Ottawa's defense by protecting the puck on his backhand before bringing it to his forehand and tucking it in five-hole. In his fourth NHL season, at age 21, Hughes collected 43 goals and 99 points in 2022-23 to post the highest goal total by a Devils player since 2008-09 and set a franchise record for points in one season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000098af000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Sidney Crosby",
+         "description": "Voted the \u201cMost Complete Player\u201d by his peers in the NHLPA poll for the fourth consecutive season in 2022-23, Pittsburgh Penguins captain Sidney Crosby continues to excel after 18 seasons in the NHL.  On the road in Colorado, Crosby gets a pass in the middle of the ice from teammate Jake Guentzel before streaking into the offensive zone where he snipes his signature backhand shot top shelf to give Pittsburgh a 1-0 lead in the second period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009315000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Erik Karlsson",
+         "description": "In what has been a resurgence year for three-time James Norris Memorial Trophy winner Erik Karlsson, he makes a great individual effort on this play to earn a beautiful assist. Having his best season wearing a San Jose Sharks uniform, the smooth-skating Karlsson begins the play off the faceoff with a quick move at the blueline to evade the defender. He then skates the puck down near the corner before looping back up to the point. Not only does he create more space for himself but now all eyes are on Karlsson, which creates a wide-open Steven Lorentz who Karlsson finds for the goal. It has been a remarkable year statistically for Karlsson having bested all of his previous seasons in points.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ae71000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Brayden Point",
+         "description": "Brayden Point has been electric in establishing himself as an elite player in the NHL. Here he wheels up the ice and dances through three Seattle Kraken defenders before roofing a backhand beauty. Point has consistently been a key offensive player for the Tampa Bay Lightning, leading the playoffs in goals during the team\u2019s Stanley Cup-winning runs in both 2020 and 2021. In 2022-23, Point scored 51 goals to become the third different player in Lightning history with a 50-goal season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a4af000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Mitch Marner",
+         "description": "During three-on-three play in overtime, Mitch Marner regroups in his own zone for a drop pass before heading up the ice with speed. After gaining the offensive zone, Marner slows before using a quick burst to get around his check to the net where he leaps over the sprawling goaltender to tuck home a beautiful game-winner. Marner set career highs in assists (69) and points (99) in 2022-23, with his assist count standing as the highest by a Toronto Maple Leafs player since 1993-94 when Doug Gilmour had 84.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f100009693000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Elias Pettersson",
+         "description": "What a night for Vancouver Canucks forward Elias Pettersson who secures his fifth point of the game when he one-times the game-tying goal with just 80 seconds remaining in the third period. If that wasn\u2019t enough, he then scores the deciding goal in the shootout to earn Vancouver a 6-5 victory against the Seattle Kraken. Playing in his fifth NHL season, Pettersson collected 39-63\u2014102 in 80 games in 2022-23 to set career highs in goals, assists and points and become Vancouver\u2019s first 100-point player in a dozen years.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a7c1000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Clayton Keller",
+         "description": "Clayton Keller roofs a backhand top shelf on the breakaway to score his second of three goals in the game for his first career hat trick. Keller set career highs in goals (37), assists (49) and points (86) in 2022-23, the second straight season in which he led the Arizona Coyotes in both goals and points. His 86 points in 2022-23 equaled the most by a Coyotes player in one season, matching Keith Tkachuk\u2019s totals from 1996-97 \u2013 the team\u2019s first season in Arizona after moving from Winnipeg.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000aa5a000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jacob Markstrom",
+         "description": "Jacob Markstrom goes old-school with a two-pad stack to rob Mark Scheifele of a sure goal with a worldly glove save. The Calgary Flames goaltender, who was a finalist for the Vezina Trophy in 2021-22, went on to lead his club to a 3-2 win over the Winnipeg Jets.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000087d5000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jonathan Toews",
+         "description": "In perhaps his final game wearing a Chicago Blackhawks uniform, captain Jonathan Toews scores a goal in the team\u2019s 2022-23 finale, at home against the Philadelphia Flyers \u2013 the team Chicago beat when Toews hoisted the Stanley Cup for the first time in 2010. Toews begins the play by winning an offensive zone faceoff, then heads to the slot where he redirects a shot-pass into the net for Chicago\u2019s third goal of the game. The three-time Stanley Cup champion and Conn Smythe Trophy winner receives a roaring cheer from the home crowd.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b809000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Johnny Gaudreau",
+         "description": "Slick and shifty Johnny Gaudreau goes for a skate, controlling the puck while the Columbus Blue Jackets are changing. \u201cJohnny Hockey\u201d then breaks up the ice, skates behind the net and tucks it home for a gorgeous individual effort play. His tying goal in the third period helped the club rally for an eventual overtime win \u2013 their first victory of the 2022-23 season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ae27000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Tim St\u00fctzle",
+         "description": "Off the faceoff near the end of an Ottawa power play, Brady Tkachuk retrieves the puck off the boards to get it back to Tim St\u00fctzle. With Sidney Crosby pursuing, St\u00fctzle evades him with a nice drag to the middle of the ice and quick burst of acceleration before firing home a wrister for his 20th goal of the season. The German-born winger set career highs in goals (39) and points (90) in 2022-23, his third NHL season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000a562000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jordan Eberle",
+         "description": "Seattle Kraken forward Jordan Eberle fools everyone with a beautiful backhand goal to excite the home crowd in Seattle. After receiving the cross-ice feed from defenseman Adam Larsson, Eberle instantly twists it around to his backhand and roofs it to beat Winnipeg Jets goaltender David Rittich.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ab72000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Quinn Hughes",
+         "description": "Vancouver Canucks defenseman Quinn Hughes, a gifted skater with excellent offensive abilities, does almost a full lap in the offensive zone around San Jose Sharks players before sniping the puck top shelf for his first goal of the 2022-23 season.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000913f000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Trevor Zegras",
+         "description": "Anaheim Ducks forward Trevor Zegras streaks through the middle lane with speed where he receives a sauce pass from teammate Ryan Strome. Quickly running out of real estate and instead of staying on the backhand for a poor angle shot, Zegras goes through his legs to go top shelf on the far side, once again showing why he is an exciting player to watch and one of the most creative players in the NHL.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000ad79000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Sebastian Aho",
+         "description": "Sebastian Aho, a well-rounded forward who contributes in all areas of the rink, opens the scoring with a shorthanded goal for the Carolina Hurricanes. The puck gets turned over at the Carolina blueline, where Aho picks it up and rushes up ice with speed. On the breakaway, he makes a move to freeze the goaltender before tucking it five-hole on the backhand.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f10000b0fd000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Base",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.032,
+          "limit": 96
+         },
+         "name": "Jack Eichel",
+         "description": "In his first full season with the Vegas Golden Knights, Jack Eichel skates the puck around the offensive zone for nearly 15 seconds before netting the game winner in overtime. As he makes his move toward the net, Eichel brings the puck to his forehand at the last second before tucking it home to bring the Vegas crowd to its feet.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77b8f1000081d2000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.16,
+          "limit": 480
+         },
+         "name": "Opening Ice",
+         "description": "<p>Get ready to witness the NHL&rsquo;s rising stars like never before with Opening Ice. This set features 20 heart-pounding highlights from players who have notched their first career goal in the 2021-22 and 2022-23 seasons.</p>",
+         "moment_type": "token-set",
+         "uuid": "b5c8ae77e61100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Erik Karlsson",
+         "description": "With his 25th goal of the season and second of the game, San Jose Sharks defenseman Erik Karlsson reached 100 points in a season for the first time in his career. At age 32, Karlsson becomes the first defenseman to record 100+ points in a season at age 30 or older. Overall, he is the sixth different defenseman in NHL history to hit the mark at any age, following Bobby Orr (6x), Paul Coffey (5x), Brian Leetch, Al MacInnis and Denis Potvin. On the milestone play, Karlsson receives a pass from teammate Tomas Hertl, changes the angle of his shot to use the goaltender screen to his advantage and shoots the puck through traffic into the net.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f00008418000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Linus Ullmark",
+         "description": "Linus Ullmark becomes the eighth goaltender in NHL history to shoot the puck into the net for a goal (Ron Hextall did it twice) and the first Boston Bruins goalie to do so. It was the 16th time in League history that a goaltender was credited with a goal in the regular season or playoffs, including instances when goalies were designated because they were the last player to touch the puck before an opponent scored on their own net. With just under a minute to go in Vancouver and the Bruins holding a 2-1 lead, Ullmark launches the puck over everyone and into the net. The excitement of both him and his teammates is unforgettable during a career-year for Ullmark, who tied a franchise record with 40 wins alongside a .938 save percentage and 1.89 goals-against average.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f0000822e000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Steven Stamkos",
+         "description": "Tampa Bay Lightning captain Steven Stamkos becomes the 47th player in NHL history to join the 500-goal club. During the first period in Vancouver, the two-time Maurice \u201cRocket\u201d Richard Trophy winner goes to the net while teammate Alex Killorn makes a nice move to get around a defender before feeding Stamkos for the tap-in goal. Teammates flood the ice to congratulate Stamkos, who ends up netting three goals for the hatty in a 5-2 win.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f00009c99000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Connor McDavid",
+         "description": "Connor McDavid set career highs in goals, assists and points in 2022-23 while also becoming the fourth player in NHL history to register more than 152 points in a single season \u2013 and first since Mario Lemieux in 1995-96. This highlight begins with a brilliant McDavid assist versus the Ottawa Senators on Feb. 11, 2023, as McDavid steals the puck from Thomas Chabot and spins to protect it before finding Ryan McLeod for a shorthanded goal on the road. In the following play, McDavid nets his 60th goal of the season on March 22, 2023, versus the Arizona Coyotes. In overtime, McDavid streaks up the middle of the ice where he receives a beautiful backhand pass from Leon Draisaitl. On the breakaway, McDavid hits the post and the puck squirts out to the boards where Draisaitl wins the battle and feeds McDavid again \u2013 who this time buries for the milestone goal and game-winner at home.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f0000a4a2000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Patrice Bergeron",
+         "description": "Boston Bruins captain Patrice Bergeron leads the rush up the ice before dishing the puck to Brad Marchand and driving the net to create space for Marchand to eventually score the goal that would earn Bergeron his 1,000th career NHL point. Marchand immediately recognizes the accomplishment and teammates flood the ice to celebrate. At the time, Bergeron became the 94th player in history to record 1,000 points. Known for his two-way abilities, Bergeron extended his record by winning his sixth Frank J. Selke Trophy in 2022-23.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f00009555000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Making the Mark",
+         "probability": {
+          "max_limit": 3000,
+          "probability": 0.006666666666666667,
+          "limit": 20
+         },
+         "name": "Alex Ovechkin",
+         "description": "Becoming just the third player in history to score 800 goals, Alex Ovechkin hits the mark in style by completing a hat trick for the milestone tally. The play begins with a forecheck by Anthony Mantha that causes a turnover. Mantha throws the puck out in front where the pass gets deflected and bounces into Evgeny Kuznetsov\u2019s shin pad. With the puck bouncing around in front of the net, Mantha corrals it enough to get it over to Ovechkin who buries the milestone goal. On the road in Chicago, hats are thrown onto the ice from the stands as Washington Capitals teammates flood the ice to celebrate the achievement. Just 10 days later, Ovechkin would score goal #802 to surpass Gordie Howe (801) for second place all-time behind Wayne Gretzky (894).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae772c2f000088c2000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Making the Mark",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M8R5DJbD",
+        "set_uuid": "b5c8ae772c2f00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Opening Ice",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/WvRDo2bP",
+        "set_uuid": "b5c8ae77e61100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+        "set_uuid": "b5c8ae77b8f100000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2023-08-23",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmVvELUM3UG2vvWEzzLqRvVWsWE7aRf3zPweq2uX4PAW3W"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "q0Ile6C8HV3SOJ9LBsG7aKMzpk1PyCmcF3uFgxx1AKQ=",
+       "url": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front.jpg"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmSrUabiqYYJaXtZFDzKU8vzmQSCHLomCSzgGXPH5ziYM7"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "oW7jmWRfZXMTUcJWmMtkubkQft83TN6KmuxY90cdqMQ=",
+       "url": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front-16x9.jpg"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmVvELUM3UG2vvWEzzLqRvVWsWE7aRf3zPweq2uX4PAW3W"
+       },
+       "content-type": "image/jpeg",
+       "sha256": "q0Ile6C8HV3SOJ9LBsG7aKMzpk1PyCmcF3uFgxx1AKQ=",
+       "url": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front.jpg"
+      }
+     },
+     "issued": "2023-08-23T15:48:19.814477",
+     "name": "Base 2022-23 Expansion Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "zXekS15RDkg1ySRRwzsIrORmlAUrXBzOP3dC1A5bd84=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "You asked for them \u2013 you got \u2018em! We\u2019ve doubled the size of the Base set with 25 star-studded highlights of the 2022-23 season that can become the foundation of any collection. \r\n\r\nFeaturing backhand snipes, filthy mitts, and top cheese darts from many of the top stars of the game \u2013 including Nathan MacKinnon, Tage Thompson, Sidney Crosby, Leon Draisaitl, David Pastrnak, Jack Hughes and more!\r\n\r\nEvery pack contains 2 Base highlights, plus 1 mystery highlight that could be from Making the Mark, Opening Ice, or Base sets.",
+       "is_openable": true,
+       "name": "Base 2022-23 Expansion Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 3000,
+      "uri": "https://nft.nhlbreakaway.com/series/aKR9mmRd"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/aKR9mmRd"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Base 2022-23 Expansion Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/aKR9mmRd",
+    "image": "https://nft.nhlbreakaway.com/series/aKR9mmRd/image-front-16x9.jpg"
+   },
+   "seriesId": "aKR9mmRd",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "aKR9mmRd"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

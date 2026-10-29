@@ -1,0 +1,19 @@
+{
+ "owner": "str",
+ "campaign": {
+  "campaign_id": "int",
+  "client": {
+   "name": "str",
+   "company": "str"
+  },
+  "description": "str",
+  "name": "str",
+  "avatar": "str"
+ },
+ "explorer_url": "str",
+ "pack_opened": "bool",
+ "burned": "bool",
+ "marketplace_description": "NoneType",
+ "sets": "NoneType",
+ "crafting_turn_in": "bool"
+}

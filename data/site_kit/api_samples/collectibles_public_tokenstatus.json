@@ -1,0 +1,23 @@
+{
+ "endpoint": "/collectibles/public/tokenstatus/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2FGqEK4QbD%2F11989145158013681664",
+ "http": 200,
+ "response": {
+  "owner": "[removed]",
+  "campaign": {
+   "campaign_id": 826,
+   "client": {
+    "name": "NHL",
+    "company": "NHL"
+   },
+   "description": "NHL",
+   "name": "NHL",
+   "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+  },
+  "explorer_url": "https://polygonscan.com/token/0x4bC89EbB5e96A51932Ac412D0eC5908981deA274/?a=11989145158013681664",
+  "pack_opened": false,
+  "burned": false,
+  "marketplace_description": null,
+  "sets": null,
+  "crafting_turn_in": false
+ }
+}

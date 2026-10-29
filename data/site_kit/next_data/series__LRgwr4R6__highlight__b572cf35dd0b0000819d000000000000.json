@@ -1,0 +1,443 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Chris Pronger",
+     "description": "Chris Pronger joined the Anaheim Ducks ahead of the 2006\u201307 season, bringing size, snarl, and elite two-way play to a blue line already anchored by Scott Niedermayer. In his first year with the club, Pronger helped lead Anaheim to its first Stanley Cup title in franchise history. In a game versus the San Jose Sharks, he showcased his trademark cannon from the point, blasting home a one-timer in the Ducks 3\u20131 win. Pronger spent three seasons in Anaheim, solidifying the Ducks as a perennial contender during his time with the team.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Fresh Sweaters: Legacy",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Limited",
+     "editions": 500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs SJS | 3rd Period | Mar 2, 2007",
+     "team": "ANA",
+     "player_name": "Chris Pronger",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "SJS",
+        "final_score": 1
+       },
+       "home": {
+        "team": "ANA",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "Honda Center",
+        "team": "ANA",
+        "location": "Anaheim, CA"
+       },
+       "game_ends": "FINAL",
+       "final_score": "SJS 1, ANA 3 - FINAL",
+       "venue_location": "Anaheim Ducks - Honda Center (Anaheim, CA)"
+      },
+      "moment": {
+       "date": "2007-03-02",
+       "clock": "13:50",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 11
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs SJS | 3rd Period | Mar 2, 2007"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Chris Pronger",
+       "team": "ANA",
+       "jersey": 25,
+       "status": "NHLAA",
+       "position": "D",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs SJS | 3rd Period | Mar 2, 2007"
+     }
+    },
+    "_badges": {
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 24,
+     "name": "Anaheim Ducks",
+     "abbreviation": "ANA",
+     "short_name": "Anaheim",
+     "venue_city": "Anaheim",
+     "venue_name": "Honda Center",
+     "key": "AnaheimDucks",
+     "url": "https://www.nhl.com/ducks",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/AnaheimDucks.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/LRgwr4R6/9339621202236276958",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmZQr6BzJFMwaFJwDAfuoqAr9VHsq2tJvNmnXwaTnZW55Y"
+       },
+       "content-type": "image/png",
+       "sha256": "hwZ16eqmpVw4sA4lDA0nF4I-l1zxTfUGwrK7u5eFNwQ=",
+       "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUjsrTossJFP6Wy9aG9HXXYaSrisGe9T3k8wajg7NCuH3"
+       },
+       "content-type": "image/png",
+       "sha256": "JfE-xX5CULmvKW33fZFbQsohKT8igmyilLpR7e9z41g=",
+       "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUwprLUujqck4ZU2MwWrkLHbwhv6QCvrb5qWbRWkRLo8U"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/LRgwr4R6/9339621202236276958/card-image.png",
+        "purpose": "card-image",
+        "sha256": "FzGUBRCiTwzXy2qznBx67ZmUb90wk7JbXWPIlF0I2mw=",
+        "uri": "https://mediagateway.sweet.io/media/token/LRgwr4R6/9339621202236276958/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmdqp8GmFDqUCcEqMYTeWHyFjMvJxRXXF6e7bWo5o2hd3L"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/LRgwr4R6/9339621202236276958/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "cE4CFvn7YumxFr59y-j6Zzzd_ADNTvbk9TpZYpO4yPY=",
+        "uri": "https://mediagateway.sweet.io/media/token/LRgwr4R6/9339621202236276958/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUjsrTossJFP6Wy9aG9HXXYaSrisGe9T3k8wajg7NCuH3"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/LRgwr4R6/9339621202236276958/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "JfE-xX5CULmvKW33fZFbQsohKT8igmyilLpR7e9z41g=",
+        "uri": "https://mediagateway.sweet.io/media/token/LRgwr4R6/9339621202236276958/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZQr6BzJFMwaFJwDAfuoqAr9VHsq2tJvNmnXwaTnZW55Y"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/LRgwr4R6/9339621202236276958/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "hwZ16eqmpVw4sA4lDA0nF4I-l1zxTfUGwrK7u5eFNwQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/LRgwr4R6/9339621202236276958/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2007-03-02",
+      "edition-number": "223",
+      "moment-uuid": "b572cf35dd0b0000819d000000000000",
+      "play": "Goal",
+      "player": "Chris Pronger",
+      "rarity": "Limited",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Fresh Sweaters: Legacy",
+      "set-uuid": "b572cf35dd0b00000000000000000000",
+      "team": "Anaheim Ducks",
+      "total-editions": "500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Chris Pronger joined the Anaheim Ducks ahead of the 2006\u201307 season, bringing size, snarl, and elite two-way play to a blue line already anchored by Scott Niedermayer. In his first year with the club, Pronger helped lead Anaheim to its first Stanley Cup title in franchise history. In a game versus the San Jose Sharks, he showcased his trademark cannon from the point, blasting home a one-timer in the Ducks 3\u20131 win. Pronger spent three seasons in Anaheim, solidifying the Ducks as a perennial contender during his time with the team.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 223,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmZQr6BzJFMwaFJwDAfuoqAr9VHsq2tJvNmnXwaTnZW55Y"
+      },
+      "content-type": "image/png",
+      "sha256": "hwZ16eqmpVw4sA4lDA0nF4I-l1zxTfUGwrK7u5eFNwQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmYK9uF9NA5gaCWZBYCmtDs2hck981pWbu16PuG9RQ38SZ"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "ovVkTYEzA7pk-fRE5r6NskxM5KucbnTXeLPNas5C7Js=",
+        "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://Qmb3YXCV1oZsc2JkWgY2i2ncZyQSobeDUmABgNfuUNqxzp"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "4i2C8lhfcQyoQjTj_KNgBIGVLq233WbWPltKFJnCwto=",
+        "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmZQr6BzJFMwaFJwDAfuoqAr9VHsq2tJvNmnXwaTnZW55Y"
+       },
+       "content-type": "image/png",
+       "sha256": "hwZ16eqmpVw4sA4lDA0nF4I-l1zxTfUGwrK7u5eFNwQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYK9uF9NA5gaCWZBYCmtDs2hck981pWbu16PuG9RQ38SZ"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "ovVkTYEzA7pk-fRE5r6NskxM5KucbnTXeLPNas5C7Js=",
+         "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qmb3YXCV1oZsc2JkWgY2i2ncZyQSobeDUmABgNfuUNqxzp"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "4i2C8lhfcQyoQjTj_KNgBIGVLq233WbWPltKFJnCwto=",
+         "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUjsrTossJFP6Wy9aG9HXXYaSrisGe9T3k8wajg7NCuH3"
+       },
+       "content-type": "image/png",
+       "sha256": "JfE-xX5CULmvKW33fZFbQsohKT8igmyilLpR7e9z41g=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmauCbfuvCfhxyGKrQhRcK7CKEZrb7XNUpAoWJtxNcEC54"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "vdruqfYbS4cxFyJ-wc9HhPG624Au-T6iqzH1KAbDSMg=",
+         "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmPpkzZfp2kRMuqxEqU3fu5NXC7sgfgwXke4dc8YRULDB9"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "pex4Z5tyZPbD8hpPCO-_JpgH50zzYMdPlye2N3a3VT4=",
+         "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/LRgwr4R6/819d/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-10-06T16:36:47.676535",
+     "name": "Chris Pronger #223",
+     "network": "matic",
+     "sequence_number": "9339621202236276958",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Chris Pronger joined the Anaheim Ducks ahead of the 2006\u201307 season, bringing size, snarl, and elite two-way play to a blue line already anchored by Scott Niedermayer. In his first year with the club, Pronger helped lead Anaheim to its first Stanley Cup title in franchise history. In a game versus the San Jose Sharks, he showcased his trademark cannon from the point, blasting home a one-timer in the Ducks 3\u20131 win. Pronger spent three seasons in Anaheim, solidifying the Ducks as a perennial contender during his time with the team.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Fresh Sweaters: Legacy",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/LRgwr4R6",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Chris Pronger #223",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2007-03-02"
+      },
+      {
+       "key": "edition-number",
+       "value": "223"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf35dd0b0000819d000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Chris Pronger"
+      },
+      {
+       "key": "rarity",
+       "value": "Limited"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Fresh Sweaters: Legacy"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf35dd0b00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Anaheim Ducks"
+      },
+      {
+       "key": "total-editions",
+       "value": "500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf35dd0b0000819d000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/PjvxAn1q",
+       "listing_id": "PjvxAn1q",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-10-09T14:27:36",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x5C0Ef65C472D75D832Cdfd71e076adc3C237DBd9/?a=9339621202236276958",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "LRgwr4R6",
+   "momentUuid": "b572cf35dd0b0000819d000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Chris Pronger",
+     "date": "March 2, 2007"
+    },
+    "url": "https://nhlbreakaway.com/series/LRgwr4R6/highlight/b572cf35dd0b0000819d000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/LRgwr4R6/9339621202236276958/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "LRgwr4R6",
+  "moment_uuid": "b572cf35dd0b0000819d000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

@@ -1,0 +1,453 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Noah Dobson",
+     "description": "Chosen 12th overall in the 2018 NHL Draft by the New York Islanders, Noah Dobson is a smooth-skating, puck-moving defenseman. Following an offensive zone faceoff win, the puck was worked over to Dobson, who sent a shot toward the net through heavy traffic. It deflected off the hand of a Detroit player and into the net, marking Dobson's first career goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 2",
+     "set_name": "Opening Ice: Elites",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Rare",
+     "editions": 250,
+     "badges": {
+      "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs DET | 2nd Period | Jan 14, 2020",
+     "team": "NYI",
+     "player_name": "Noah Dobson",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "DET",
+        "final_score": 2
+       },
+       "home": {
+        "team": "NYI",
+        "final_score": 8
+       },
+       "venue": {
+        "name": "Nassau Coliseum",
+        "team": "NYI",
+        "location": "Uniondale, NY"
+       },
+       "game_ends": "FINAL",
+       "final_score": "DET 2, NYI 8 - FINAL",
+       "venue_location": "New York Islanders - Nassau Coliseum (Uniondale, NY)"
+      },
+      "moment": {
+       "date": "2020-01-14",
+       "clock": "2:40",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 1,
+        "first_career_goal_or_win": "First NHL Goal (Skater)"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "2nd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DET | 2nd Period | Jan 14, 2020"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Noah Dobson",
+       "team": "NYI",
+       "jersey": 8,
+       "status": "NHLPA",
+       "position": "D",
+       "is_rookie": true
+      },
+      "collectible_tagline": "Goal vs DET | 2nd Period | Jan 14, 2020"
+     }
+    },
+    "_badges": {
+     "Rookie Status": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Rookie Status",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/1c04845e-543b-4720-b31a-c0f1e1630c84.png",
+      "description": "Highlights from a season the primary player was considered a rookie based on NHL rules."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 2,
+     "name": "New York Islanders",
+     "abbreviation": "NYI",
+     "short_name": "NY Islanders",
+     "venue_city": "Elmont",
+     "venue_name": "UBS Arena",
+     "key": "NewYorkIslanders",
+     "url": "https://www.nhl.com/islanders",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/NewYorkIslanders.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O/10333509345001603210",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmaRAmyNfpBau3UkgTXaD6q12gH1rhF4oQRVEh83soD3kq"
+       },
+       "content-type": "image/png",
+       "sha256": "x9pbWhOoUHeF-ov0DguYlMYc4RloBk3f87L3LRVl9Xc=",
+       "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYGjm8fJZLEEEwTYsndNiYVZq5XXqAQByhAqz6Ls76Nyq"
+       },
+       "content-type": "image/png",
+       "sha256": "3AiWbkpKhc-IIWXBh4DEU-GLLGq1u5bM314hFmZ4AAI=",
+       "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZP4bef4EvUM4p2WLSsSMUVn7z1QcShFk5EiUg4wNP1Aj"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/DRwE5P1O/10333509345001603210/card-image.png",
+        "purpose": "card-image",
+        "sha256": "lZAcMMa3Kwek3BroyUu5M2V6f3ZMtYbZhsOaN-vSPeU=",
+        "uri": "https://mediagateway.sweet.io/media/token/DRwE5P1O/10333509345001603210/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWS2gEMz5RXV57x7ix1FfMRTAm33j6ENvML2VwpAha163"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/DRwE5P1O/10333509345001603210/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "dx6f-NGoPXwqwgHczcWhucZR71gurPvMjOxQum4a5Zs=",
+        "uri": "https://mediagateway.sweet.io/media/token/DRwE5P1O/10333509345001603210/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYGjm8fJZLEEEwTYsndNiYVZq5XXqAQByhAqz6Ls76Nyq"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/DRwE5P1O/10333509345001603210/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "3AiWbkpKhc-IIWXBh4DEU-GLLGq1u5bM314hFmZ4AAI=",
+        "uri": "https://mediagateway.sweet.io/media/token/DRwE5P1O/10333509345001603210/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmaRAmyNfpBau3UkgTXaD6q12gH1rhF4oQRVEh83soD3kq"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/DRwE5P1O/10333509345001603210/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "x9pbWhOoUHeF-ov0DguYlMYc4RloBk3f87L3LRVl9Xc=",
+        "uri": "https://mediagateway.sweet.io/media/token/DRwE5P1O/10333509345001603210/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2020-01-14",
+      "edition-number": "139",
+      "moment-uuid": "cd2f47fef2af00008f68000000000000",
+      "play": "Goal",
+      "player": "Noah Dobson",
+      "rarity": "Rare",
+      "series": "Series 2",
+      "series-uuid": "cd2f47fe000000000000000000000000",
+      "set": "Opening Ice: Elites",
+      "set-uuid": "cd2f47fef2af00000000000000000000",
+      "team": "New York Islanders",
+      "total-editions": "250"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Chosen 12th overall in the 2018 NHL Draft by the New York Islanders, Noah Dobson is a smooth-skating, puck-moving defenseman. Following an offensive zone faceoff win, the puck was worked over to Dobson, who sent a shot toward the net through heavy traffic. It deflected off the hand of a Detroit player and into the net, marking Dobson's first career goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 139,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmaRAmyNfpBau3UkgTXaD6q12gH1rhF4oQRVEh83soD3kq"
+      },
+      "content-type": "image/png",
+      "sha256": "x9pbWhOoUHeF-ov0DguYlMYc4RloBk3f87L3LRVl9Xc=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmQTxZ4ubeRpJ9zWfpx1nDVovUeuvJ6jfCkgrXVr4ykmsx"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "3Aqo-KZu3zBzxC-RN2trtXp7icgDYFBAmLURvT9IeJA=",
+        "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmdmB65itSRnzm2vURpJ41LVUy8zvZygvs7cVCRKjo5YQt"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "ROGXCKVmXNvj2gZhlU8eks9c28qnIAPdZVRs6kTbEf0=",
+        "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmaRAmyNfpBau3UkgTXaD6q12gH1rhF4oQRVEh83soD3kq"
+       },
+       "content-type": "image/png",
+       "sha256": "x9pbWhOoUHeF-ov0DguYlMYc4RloBk3f87L3LRVl9Xc=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmQTxZ4ubeRpJ9zWfpx1nDVovUeuvJ6jfCkgrXVr4ykmsx"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "3Aqo-KZu3zBzxC-RN2trtXp7icgDYFBAmLURvT9IeJA=",
+         "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmdmB65itSRnzm2vURpJ41LVUy8zvZygvs7cVCRKjo5YQt"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "ROGXCKVmXNvj2gZhlU8eks9c28qnIAPdZVRs6kTbEf0=",
+         "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmYGjm8fJZLEEEwTYsndNiYVZq5XXqAQByhAqz6Ls76Nyq"
+       },
+       "content-type": "image/png",
+       "sha256": "3AiWbkpKhc-IIWXBh4DEU-GLLGq1u5bM314hFmZ4AAI=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmcKS99j4f8vhQ4uxbwxzMhRaYitpFLKf8Cf89dYk43MMF"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "gxwpk2l8EShmOI_PvAxPraiB1qoCPItKpOvB3uhkQjg=",
+         "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmP3dmFhDfzB4CnC4G3RsPsDvesLHVGoxKcYWbT5Kafhvq"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "aKA9hC_8vRd3Ezzp515GnpVlbhPRRQy0LjxK9xaME_g=",
+         "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/DRwE5P1O/8f68/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-11-06T16:49:33.407154",
+     "name": "Noah Dobson #139",
+     "network": "matic",
+     "sequence_number": "10333509345001603210",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Chosen 12th overall in the 2018 NHL Draft by the New York Islanders, Noah Dobson is a smooth-skating, puck-moving defenseman. Following an offensive zone faceoff win, the puck was worked over to Dobson, who sent a shot toward the net through heavy traffic. It deflected off the hand of a Detroit player and into the net, marking Dobson's first career goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Opening Ice: Elites",
+       "rarity": {
+        "name": "Tier 2",
+        "rank": 2
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Noah Dobson #139",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2020-01-14"
+      },
+      {
+       "key": "edition-number",
+       "value": "139"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "cd2f47fef2af00008f68000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Noah Dobson"
+      },
+      {
+       "key": "rarity",
+       "value": "Rare"
+      },
+      {
+       "key": "series",
+       "value": "Series 2"
+      },
+      {
+       "key": "series-uuid",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Opening Ice: Elites"
+      },
+      {
+       "key": "set-uuid",
+       "value": "cd2f47fef2af00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "New York Islanders"
+      },
+      {
+       "key": "total-editions",
+       "value": "250"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "cd2f47fef2af00008f68000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/pgWe5MaB",
+       "listing_id": "pgWe5MaB",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2.5,
+       "starts_at": "2026-10-09T22:53:18",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xb636a2300b91847CFdBFB6cC3434cD8747c89270/?a=10333509345001603210",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "DRwE5P1O",
+   "momentUuid": "cd2f47fef2af00008f68000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Noah Dobson",
+     "date": "January 14, 2020"
+    },
+    "url": "https://nhlbreakaway.com/series/DRwE5P1O/highlight/cd2f47fef2af00008f68000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/DRwE5P1O/10333509345001603210/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "DRwE5P1O",
+  "moment_uuid": "cd2f47fef2af00008f68000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

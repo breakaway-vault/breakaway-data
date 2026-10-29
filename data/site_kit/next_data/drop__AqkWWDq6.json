@@ -1,0 +1,232 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286300,
+    "summary": {
+     "drop_active": 1710522000,
+     "drop_expires": 1713477600,
+     "pack_price": "7.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/AqkWWDq6",
+     "number_of_highlights": 1,
+     "pack_description": "Collect one of three highlights celebrating seminal moments from Mike Modano\u2019s record-breaking career with the Dallas Stars!\r\n\r\nThis commemorative collection is being released as part of Modano\u2019s statue unveiling on March 16, 2024.\r\n\r\nEach pack contains 1 mystery highlight that could be either tying the record for most career points by an American-born player (Core #/1500), game-tying goal in his last game at American Airlines Center in a Dallas Stars uniform (Limited #/500), or breaking the record for most career points by an American born player (Rare #/250).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Modano\u2019s Seminal Moments Pack",
+     "series_name": "Series 1",
+     "pack_uuid": "b5c8ae770000000080ab000000000000",
+     "quantity": 2250,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Modano\u2019s Seminal Moments Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday March 15, 2024 at 12pm CT / 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $7 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 2,250</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Ten (10) pack limit per person for the first 24 hours; limit increased to thirty (30) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 1</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">66.7% Tying the record for most career points by an American-born player in 2007 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">22.2% Game-tying goal in last home game in a Dallas Stars uniform in 2010 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">11.1% Breaking the record for most career points by an American-born player in 2007 (Rare #/250)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hometown History: Dallas Stars, Series 1 - </span><a href=\"https://blog.nhlbreakaway.com/introducing-hometown-history-dallas-stars/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 1 highlights will only be distributed during Series 1, which ends ~September 2024. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Collect one of three highlights celebrating seminal moments from Mike Modano\u2019s record-breaking career with the Dallas Stars!\r\n\r\nThis commemorative collection is being released as part of Modano\u2019s statue unveiling on March 16, 2024.\r\n\r\nEach pack contains 1 mystery highlight that could be either tying the record for most career points by an American-born player (Core #/1500), game-tying goal in his last game at American Airlines Center in a Dallas Stars uniform (Limited #/500), or breaking the record for most career points by an American born player (Rare #/250).",
+     "uuid": "b5c8ae770000000080ab000000000000",
+     "assets": {},
+     "editions": 2250,
+     "pack_series": {
+      "assets": {},
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Modano\u2019s Seminal Moments Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": "Hometown History: Dallas Stars",
+         "probability": {
+          "max_limit": 2250,
+          "probability": 0.6666666666666666,
+          "limit": 1500
+         },
+         "name": "Mike Modano",
+         "description": "In a game on Nov. 7, 2007, against the San Jose Sharks, Mike Modano etched his name in the history books. Needing one point to tie Phil Housley and two points to overtake him for the most by an American-born player in NHL history, Modano immediately went to work. At the 2:19 mark of the first period, Modano received a cross-ice pass from defenseman Sergei Zubov. Skating down the wing with his jersey flapping in the wind, Modano unleashed a powerful shot near the top of the circle that beat Sharks goaltender Evgeni Nabokov glove side to give the Stars an early lead and place him in a tie with Housley. Modano scored again before the five-minute mark to surpass Housley as the highest-scoring U.S.-born player in League history.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae7750fe00008cb0000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": "Hometown History: Dallas Stars",
+         "probability": {
+          "max_limit": 2250,
+          "probability": 0.2222222222222222,
+          "limit": 500
+         },
+         "name": "Mike Modano",
+         "description": "In what would be Mike Modano\u2019s final home game donning a Dallas Stars uniform, the crowd at American Airlines Center honored him with a heartwarming standing ovation during the third period of Dallas' game against the Anaheim Ducks on April 8, 2010. Moments later, Modano thrilled them by scoring the game-tying goal with a tip-in off a point shot with less than two minutes remaining in regulation. After a scoreless overtime, the game went to a shootout. With the fans on their feet, Modano skated in and snapped a shot past Ducks netminder Jonas Hiller resulting in thunderous cheers from fans in the American Airlines Center. The Stars went on to win the game 3-2 in the shootout.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae77f4080000a14e000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Hometown History: Dallas Stars",
+         "probability": {
+          "max_limit": 2250,
+          "probability": 0.1111111111111111,
+          "limit": 250
+         },
+         "name": "Mike Modano",
+         "description": "After tying Phil Housley's record for the most points by an American-born player in NHL history with a goal in the opening minutes of the Stars' game against the San Jose Sharks on Nov. 7, 2007, Mike Modano made history a little more than two minutes later. With the Stars on the penalty kill, Modano chipped a loose puck past Sharks defenseman Matt Carle and raced in on a breakaway. With a deke to the backhand, Modano slipped the puck past Sharks goaltender Evgeni Nabokov to become the highest-scoring U.S.-born player of all time.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "b5c8ae7728c90000bb47000000000000",
+         "rarity": "Rare"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Hometown History: Dallas Stars",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kkkRd",
+        "set_uuid": "b5c8ae7728c900000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Hometown History: Dallas Stars",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/3qYVVZ1V",
+        "set_uuid": "b5c8ae77f40800000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Hometown History: Dallas Stars",
+        "series_name": "Series 1",
+        "series_uri": "https://nft.nhlbreakaway.com/series/KR9Xxmbd",
+        "set_uuid": "b5c8ae7750fe00000000000000000000",
+        "series_uuid": "b5c8ae77000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-03-13",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmRxGpyWEjWSQ4g5eor86i9zM3pgvZyeFhrMwFPkryZsa6"
+       },
+       "content-type": "image/png",
+       "sha256": "_aVKOPBFvswMZiofVJBfMhY23GxO14NIMqKPsSTmqCA=",
+       "url": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmWc4szUCUdkrdsaYtDXeVqzrrjvsuLdsHnmJGBRx9SopE"
+       },
+       "content-type": "image/png",
+       "sha256": "kHnUgtKqgUUt5w-mbGqzx_Ucp8JaGmGicf8ehd_E0es=",
+       "url": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmRxGpyWEjWSQ4g5eor86i9zM3pgvZyeFhrMwFPkryZsa6"
+       },
+       "content-type": "image/png",
+       "sha256": "_aVKOPBFvswMZiofVJBfMhY23GxO14NIMqKPsSTmqCA=",
+       "url": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front.png"
+      }
+     },
+     "issued": "2024-03-13T20:36:07.560853",
+     "name": "Modano\u2019s Seminal Moments Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "ZUO34ipvZlluQGUGB0Q3cBrVQlyFvDHU_qKDgJjmwPI=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Collect one of three highlights celebrating seminal moments from Mike Modano\u2019s record-breaking career with the Dallas Stars!\r\n\r\nThis commemorative collection is being released as part of Modano\u2019s statue unveiling on March 16, 2024.\r\n\r\nEach pack contains 1 mystery highlight that could be either tying the record for most career points by an American-born player (Core #/1500), game-tying goal in his last game at American Airlines Center in a Dallas Stars uniform (Limited #/500), or breaking the record for most career points by an American born player (Rare #/250).",
+       "is_openable": true,
+       "name": "Modano\u2019s Seminal Moments Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 2250,
+      "uri": "https://nft.nhlbreakaway.com/series/AqkWWDq6"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/AqkWWDq6"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Modano\u2019s Seminal Moments Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/AqkWWDq6",
+    "image": "https://nft.nhlbreakaway.com/series/AqkWWDq6/image-front-16x9.png"
+   },
+   "seriesId": "AqkWWDq6",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "AqkWWDq6"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

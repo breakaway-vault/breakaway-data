@@ -1,0 +1,10 @@
+{
+ "edition_size": "int",
+ "collected": "int",
+ "listed": "int",
+ "others": "int",
+ "in_packs": "int",
+ "used_for_crafting": "int",
+ "frozen": "int",
+ "removed_from_circulation": "int"
+}

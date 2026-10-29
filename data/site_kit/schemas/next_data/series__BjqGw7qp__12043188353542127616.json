@@ -1,0 +1,483 @@
+{
+ "pageProps": {
+  "highlightData": {
+   "_doc": {
+    "assets": {
+     "front_image": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "front_image_16x9": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "media": [
+      {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "gateway": "str",
+       "purpose": "str",
+       "sha256": "str",
+       "uri": "str"
+      }
+     ],
+     "reverse_image": "NoneType"
+    },
+    "attributes": [
+     {
+      "name": "str",
+      "value": "str"
+     }
+    ],
+    "creator": {
+     "name": "str",
+     "uri": "str"
+    },
+    "description": "str",
+    "edition_number": "str",
+    "fees": [
+     {
+      "basis_points": "int",
+      "recipient_address": "str",
+      "type": "str"
+     }
+    ],
+    "image": {
+     "altloc": {
+      "ipfs": "str"
+     },
+     "content-type": "str",
+     "sha256": "str",
+     "thumbnail": {
+      "350": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "height": "int",
+       "sha256": "str",
+       "url": "str",
+       "width": "int"
+      },
+      "500": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "height": "int",
+       "sha256": "str",
+       "url": "str",
+       "width": "int"
+      }
+     },
+     "url": "str"
+    },
+    "images": {
+     "front": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       }
+      },
+      "url": "str"
+     },
+     "front-16x9": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       }
+      },
+      "url": "str"
+     }
+    },
+    "issued": "str",
+    "name": "str",
+    "network": "str",
+    "rights_info": {
+     "copyright_notice": "str",
+     "terms_and_conditions": "str"
+    },
+    "sequence_number": "int",
+    "series": {
+     "display_meta": {
+      "color": "str",
+      "creator_campaign": {
+       "campaign_id": "int",
+       "client": {
+        "company": "str",
+        "name": "str"
+       },
+       "description": "str",
+       "name": "str"
+      },
+      "creator_campaign_id": "int",
+      "description": "str",
+      "is_openable": "bool",
+      "name": "str",
+      "rarity": {
+       "name": "str",
+       "rank": "int"
+      },
+      "type": "str"
+     },
+     "total_number": "NoneType",
+     "uri": "str"
+    },
+    "type": "str",
+    "uri": "str",
+    "pack_uuid": "NoneType",
+    "set_id": "int",
+    "set_uuid": "str",
+    "moment_id": "int"
+   },
+   "_tokendata": {
+    "owner": "str",
+    "campaign": {
+     "campaign_id": "int",
+     "client": {
+      "name": "str",
+      "company": "str"
+     },
+     "description": "str",
+     "name": "str",
+     "avatar": "str"
+    },
+    "explorer_url": "str",
+    "pack_opened": "bool",
+    "burned": "bool",
+    "marketplace_description": "NoneType",
+    "sets": "NoneType",
+    "crafting_turn_in": "bool"
+   },
+   "_team": {
+    "id": "int",
+    "name": "str",
+    "abbreviation": "str",
+    "short_name": "str",
+    "venue_city": "str",
+    "venue_name": "str",
+    "key": "str",
+    "url": "str",
+    "logo": "str"
+   },
+   "_moment": {
+    "token_set": {
+     "name": "str",
+     "description": "str",
+     "assets": [
+      {
+       "purpose": "str",
+       "url": "str",
+       "mime": "str"
+      }
+     ],
+     "uri": "str",
+     "uuid": "str",
+     "rarity": {
+      "name": "str",
+      "editions": "int"
+     }
+    },
+    "description": "str",
+    "uuid": "str",
+    "badges": [
+     {
+      "name": "str",
+      "image": "str"
+     }
+    ],
+    "token_series": {
+     "name": "str",
+     "description": "str",
+     "assets": [
+      {
+       "purpose": "str",
+       "url": "str",
+       "mime": "str"
+      }
+     ],
+     "uuid": "str"
+    },
+    "moment_id": "int",
+    "assets": {
+     "reverse_url": "NoneType",
+     "front_image_16x9": {
+      "url": "str"
+     },
+     "media": [
+      {
+       "content-type": "str",
+       "purpose": "str",
+       "uri": "str",
+       "gateway": "str"
+      }
+     ],
+     "front_image": {
+      "url": "str"
+     }
+    },
+    "editions": "int",
+    "series": {
+     "rights_info": {
+      "terms_and_conditions": {
+       "sha256": "str",
+       "url": "str"
+      },
+      "copyright_notice": "str"
+     },
+     "creator": {
+      "name": "str",
+      "uri": "str"
+     },
+     "fees": [
+      {
+       "type": "str",
+       "recipient_address": "str",
+       "basis_points": "int"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "sha256": "str",
+       "url": "str"
+      }
+     },
+     "assets": {
+      "front_image_16x9": "NoneType",
+      "reverse_image": "NoneType",
+      "front_image": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "sha256": "str",
+       "url": "str"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "creator_campaign_id": "int",
+       "color": "str",
+       "is_openable": "bool",
+       "name": "str",
+       "description": "str",
+       "creator_campaign": {
+        "name": "str",
+        "client": {
+         "name": "str",
+         "company": "str"
+        },
+        "description": "str",
+        "campaign_id": "int"
+       },
+       "type": "str",
+       "rarity": {
+        "name": "str",
+        "rank": "int"
+       }
+      },
+      "total_number": "NoneType",
+      "uri": "str"
+     },
+     "name": "str",
+     "issued": "str",
+     "type": "str",
+     "uri": "str",
+     "network": "str"
+    },
+    "asset_type": "str",
+    "name": "str",
+    "attributes": {
+     "game": {
+      "game_ends": "str",
+      "venue_location": "str",
+      "final_score": "str",
+      "venue": {
+       "name": "str",
+       "location": "str",
+       "team": "str"
+      },
+      "away": {
+       "final_score": "int",
+       "team": "str"
+      },
+      "home": {
+       "final_score": "int",
+       "team": "str"
+      }
+     },
+     "primary_player": {
+      "name": "str",
+      "is_rookie": "bool",
+      "position": "str",
+      "team": "str",
+      "jersey": "int",
+      "status": "str"
+     },
+     "moment": {
+      "date": "str",
+      "period": "str",
+      "extra": {
+       "goal_number_this_season": "int"
+      },
+      "flags": {
+       "shorthanded_goal": "bool",
+       "penalty_shot_goal": "bool",
+       "power_play_goal": "bool",
+       "star_of_game": "bool",
+       "game_winning_goal": "bool",
+       "is_rookie": "bool",
+       "player_milestone": "bool",
+       "record_broken": "bool"
+      },
+      "audio_type": "str",
+      "video_overlay_text": "str",
+      "clock": "str",
+      "event": "str"
+     }
+    },
+    "moment_type": {
+     "name": "str"
+    },
+    "issued": "str",
+    "rarity": {
+     "name": "str",
+     "sorting_position": "int",
+     "editions": "int"
+    }
+   },
+   "_metadata": {
+    "name": "str",
+    "description": "str",
+    "primary_type": "str",
+    "editions": "int",
+    "badges": {
+     "Breakaway Debut": "str",
+     "Series Debut": "str"
+    },
+    "meta_data": {
+     "game": {
+      "away": {
+       "team": "str",
+       "final_score": "int"
+      },
+      "home": {
+       "team": "str",
+       "final_score": "int"
+      },
+      "venue": {
+       "name": "str",
+       "team": "str",
+       "location": "str"
+      },
+      "game_ends": "str",
+      "final_score": "str",
+      "venue_location": "str"
+     },
+     "moment": {
+      "date": "str",
+      "clock": "str",
+      "event": "str",
+      "extra": {
+       "goal_number_this_season": "int"
+      },
+      "flags": {
+       "is_rookie": "bool",
+       "star_of_game": "bool",
+       "record_broken": "bool",
+       "power_play_goal": "bool",
+       "player_milestone": "bool",
+       "shorthanded_goal": "bool",
+       "game_winning_goal": "bool",
+       "penalty_shot_goal": "bool"
+      },
+      "period": "str",
+      "audio_type": "str",
+      "video_overlay_text": "str"
+     },
+     "primary_player": {
+      "name": "str",
+      "team": "str",
+      "jersey": "int",
+      "status": "str",
+      "position": "str",
+      "is_rookie": "bool"
+     }
+    }
+   }
+  },
+  "isOpenable": "bool",
+  "isPfp": "bool",
+  "seriesId": "str",
+  "tokenId": "str",
+  "headerMetadata": {
+   "titleKey": "str",
+   "titleOptions": {
+    "name": "str",
+    "date": "str"
+   },
+   "url": "str",
+   "image": "str"
+  },
+  "momentUuid": "str"
+ },
+ "__N_SSP": "bool"
+}

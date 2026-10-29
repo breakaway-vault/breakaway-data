@@ -1,0 +1,447 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Troy Terry",
+     "description": "Troy Terry receives a stretch pass from goaltender John Gibson and fends off the defender before shelfing a backhand winner to give Anaheim an opening-night victory on home ice.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Base",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Core",
+     "editions": 1500,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "SEA",
+        "final_score": 4
+       },
+       "home": {
+        "team": "ANA",
+        "final_score": 5
+       },
+       "venue": {
+        "name": "Honda Center",
+        "team": "ANA",
+        "location": "Anaheim, CA"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "SEA 4, ANA 5 - Final (OT)",
+       "venue_location": "Anaheim Ducks - Honda Center (Anaheim, CA)"
+      },
+      "moment": {
+       "date": "2022-10-12",
+       "clock": "0:55",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 2
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "Overtime",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs SEA | Overtime | Oct 12, 2022"
+      },
+      "primary_player": {
+       "name": "Troy Terry",
+       "team": "ANA",
+       "jersey": 19,
+       "status": "NHLPA",
+       "position": "RW",
+       "is_rookie": false
+      }
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 24,
+     "name": "Anaheim Ducks",
+     "abbreviation": "ANA",
+     "short_name": "Anaheim",
+     "venue_city": "Anaheim",
+     "venue_name": "Honda Center",
+     "key": "AnaheimDucks",
+     "url": "https://www.nhl.com/ducks",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/AnaheimDucks.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp/12043188353542128383",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQdWotxywdVdAZB8oseJwefeFAPAyHLNnYw69XNHhihUM"
+       },
+       "content-type": "image/png",
+       "sha256": "IuXf23yJspgR5SjK0PApTAKBPArwZCHaAS-1MSPwKvU=",
+       "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRg9Lh39C5Wk6p3D167EhP9xe2ktPcVxoj4h7H2U6n5dR"
+       },
+       "content-type": "image/png",
+       "sha256": "BppI11KdCZ2ntXfxQQr2aLxlK5NgElIuOY4uXa9T9MQ=",
+       "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmeTnYhepk9Dr4J8gevUzxQFtC1crchzW3Ye9JNBiT39K4"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/BjqGw7qp/12043188353542128383/card-image.png",
+        "purpose": "card-image",
+        "sha256": "2yULQMQvFnfyMwZML64vm4WX8CUwxirjBx2mjkqcrXc=",
+        "uri": "https://mediagateway.sweet.io/media/token/BjqGw7qp/12043188353542128383/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://Qmd8o5heciq5VEi3kXYpJay3Pbd69up6sLnMKtbwJ4Et4E"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/BjqGw7qp/12043188353542128383/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "07_sI3dlJAPvYOknnEuLTwAEDfNw-KX1f9gGitfKDCM=",
+        "uri": "https://mediagateway.sweet.io/media/token/BjqGw7qp/12043188353542128383/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmRg9Lh39C5Wk6p3D167EhP9xe2ktPcVxoj4h7H2U6n5dR"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/BjqGw7qp/12043188353542128383/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "BppI11KdCZ2ntXfxQQr2aLxlK5NgElIuOY4uXa9T9MQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/BjqGw7qp/12043188353542128383/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQdWotxywdVdAZB8oseJwefeFAPAyHLNnYw69XNHhihUM"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/BjqGw7qp/12043188353542128383/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "IuXf23yJspgR5SjK0PApTAKBPArwZCHaAS-1MSPwKvU=",
+        "uri": "https://mediagateway.sweet.io/media/token/BjqGw7qp/12043188353542128383/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2022-10-12",
+      "edition-number": "768",
+      "play": "Goal",
+      "player": "Troy Terry",
+      "rarity": "Core",
+      "series": "Series 1",
+      "set": "Base",
+      "team": "Anaheim Ducks",
+      "total-editions": "1500",
+      "set-uuid": "b5c8ae77b8f100000000000000000000",
+      "moment-uuid": "b5c8ae77b8f10000a722000000000000",
+      "series-uuid": "b5c8ae77000000000000000000000000"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "Troy Terry receives a stretch pass from goaltender John Gibson and fends off the defender before shelfing a backhand winner to give Anaheim an opening-night victory on home ice.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 768,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmQdWotxywdVdAZB8oseJwefeFAPAyHLNnYw69XNHhihUM"
+      },
+      "content-type": "image/png",
+      "sha256": "IuXf23yJspgR5SjK0PApTAKBPArwZCHaAS-1MSPwKvU=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://Qmcc3XyGuruvkXdQgrYpzJrpS9HU7mMd8RuVDMfifbfQkJ"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "gIdBo0Dl6FsOIBFZa5GvV2Q68WYZ9OKszMsNCrna0pU=",
+        "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmYropUpY5F3kHfxEqzrMmko53EnTwDF9dcXsqbZn1eWF4"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "3cdZkk3Gxs2ClPz74wSpAa9qe6FVl-UUIbkf9ERUhak=",
+        "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQdWotxywdVdAZB8oseJwefeFAPAyHLNnYw69XNHhihUM"
+       },
+       "content-type": "image/png",
+       "sha256": "IuXf23yJspgR5SjK0PApTAKBPArwZCHaAS-1MSPwKvU=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmcc3XyGuruvkXdQgrYpzJrpS9HU7mMd8RuVDMfifbfQkJ"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "gIdBo0Dl6FsOIBFZa5GvV2Q68WYZ9OKszMsNCrna0pU=",
+         "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmYropUpY5F3kHfxEqzrMmko53EnTwDF9dcXsqbZn1eWF4"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "3cdZkk3Gxs2ClPz74wSpAa9qe6FVl-UUIbkf9ERUhak=",
+         "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmRg9Lh39C5Wk6p3D167EhP9xe2ktPcVxoj4h7H2U6n5dR"
+       },
+       "content-type": "image/png",
+       "sha256": "BppI11KdCZ2ntXfxQQr2aLxlK5NgElIuOY4uXa9T9MQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmXA4y7k4MqEqnCyiEDTmK2Ju8bmLpMizVtXd1vP1biJkj"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "XeFv-UXsT-iDN0YSiYi4Z3VyVVkzUjF465Nt2BmhZqM=",
+         "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmUkwdi6axNpNCgCuk9RcA5zfzbkTEgVnsJFiANDGrjYwF"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "dbopAGZgC8tEBSkRPQlufGyIC7eauJ8wK2sW8Rrepnk=",
+         "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/BjqGw7qp/a722/images/front-16x9.png"
+      }
+     },
+     "issued": "2023-07-24T16:28:18.306212",
+     "name": "Troy Terry #768",
+     "network": "matic",
+     "sequence_number": "12043188353542128383",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Troy Terry receives a stretch pass from goaltender John Gibson and fends off the defender before shelfing a backhand winner to give Anaheim an opening-night victory on home ice.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Base",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/BjqGw7qp",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Troy Terry #768",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2022-10-12"
+      },
+      {
+       "key": "edition-number",
+       "value": "768"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Troy Terry"
+      },
+      {
+       "key": "rarity",
+       "value": "Core"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "set",
+       "value": "Base"
+      },
+      {
+       "key": "team",
+       "value": "Anaheim Ducks"
+      },
+      {
+       "key": "total-editions",
+       "value": "1500"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae77b8f100000000000000000000"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae77b8f10000a722000000000000"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae77b8f10000a722000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/xqb6ErQq",
+       "listing_id": "xqb6ErQq",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-09-27T13:42:15",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xCA28251Acf27e55FDBFbF997397A28DB122e70b2/?a=12043188353542128383",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "BjqGw7qp",
+   "momentUuid": "b5c8ae77b8f10000a722000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Troy Terry",
+     "date": "October 12, 2022"
+    },
+    "url": "https://nhlbreakaway.com/series/BjqGw7qp/highlight/b5c8ae77b8f10000a722000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/BjqGw7qp/12043188353542128383/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "BjqGw7qp",
+  "moment_uuid": "b5c8ae77b8f10000a722000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

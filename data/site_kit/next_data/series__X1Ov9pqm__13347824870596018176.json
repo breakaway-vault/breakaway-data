@@ -1,0 +1,632 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmdvUfJekCFgtJSHnye4r12CHSHSzfkoY3UkzxPeRScfzo"
+       },
+       "content-type": "image/png",
+       "sha256": "s3c_SJRVhzkvl9kxi1QZ2eoMbQhyT9JuGwF9dYuNYvQ=",
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmfPKDJ5KspUaaHSZFMoDM43cga2RKxdVPfehVFVYTZMHU"
+       },
+       "content-type": "image/png",
+       "sha256": "a8PNhohKIocN6ONBkGzSjpUQ_2XC_nJSsvTOMVHTZkE=",
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmfBxw6HQRnZBMrvyGHAQgWfTibQzce6MFZNMXMqoZMHX9"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/X1Ov9pqm/13347824870596018176/card-image.png",
+        "purpose": "card-image",
+        "sha256": "zGmOvSVP6jMCxZrM15z769kjgacLYwwxTqUOhbNJFnk=",
+        "uri": "https://mediagateway.sweet.io/media/token/X1Ov9pqm/13347824870596018176/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXofY4BrtmKkigKhX1hHrxoxrTMsLW2chSWGJ4Dse7ww1"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/X1Ov9pqm/13347824870596018176/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "pHLHHrcnjNY2jfWCWy-E3JghyA_rChsHBW44LnuYHeU=",
+        "uri": "https://mediagateway.sweet.io/media/token/X1Ov9pqm/13347824870596018176/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmfPKDJ5KspUaaHSZFMoDM43cga2RKxdVPfehVFVYTZMHU"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/X1Ov9pqm/13347824870596018176/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "a8PNhohKIocN6ONBkGzSjpUQ_2XC_nJSsvTOMVHTZkE=",
+        "uri": "https://mediagateway.sweet.io/media/token/X1Ov9pqm/13347824870596018176/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmdvUfJekCFgtJSHnye4r12CHSHSzfkoY3UkzxPeRScfzo"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/X1Ov9pqm/13347824870596018176/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "s3c_SJRVhzkvl9kxi1QZ2eoMbQhyT9JuGwF9dYuNYvQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/X1Ov9pqm/13347824870596018176/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2026-04-25"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b572cf35b54a0000b93d000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Matt Boldy"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 3"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "The Hunt for Stanley 2026"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b572cf35b54a00000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "Minnesota Wild"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In Game 4 of the Western Conference First Round, Matt Boldy stepped up as the overtime hero for the Wild, breaking a 2-2 tie with just 29 seconds remaining in the extra session.\r\nIn the extra frame, Boldy drifted to the front of the net and perfectly deflected a point shot from Jared Spurgeon past the Stars goaltender for the winner.\r\nThe slick tip-in gave Minnesota a 3-2 victory to even the series at two games apiece. Boldy, who led the Wild with six goals in the first round, helped send Minnesota on to eliminate Dallas 4-2 in six games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmdvUfJekCFgtJSHnye4r12CHSHSzfkoY3UkzxPeRScfzo"
+      },
+      "content-type": "image/png",
+      "sha256": "s3c_SJRVhzkvl9kxi1QZ2eoMbQhyT9JuGwF9dYuNYvQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmZiG8VCBozEP1EnPQquUU3ij4FR6QPziVifQEgPUXwkyb"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "FpkGctBSLIwDl8Os78jQaRxoNVYsDtut0MKX5tT8aUM=",
+        "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmXwQT6hLE6yyTJVBtpF7UPTA2Y46NT8ggB14UXcA6hHEB"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "Z4BxsQVSKCnZxLr6bSTnvrenlx6xIpMTHubL07qn7EM=",
+        "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmdvUfJekCFgtJSHnye4r12CHSHSzfkoY3UkzxPeRScfzo"
+       },
+       "content-type": "image/png",
+       "sha256": "s3c_SJRVhzkvl9kxi1QZ2eoMbQhyT9JuGwF9dYuNYvQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmZiG8VCBozEP1EnPQquUU3ij4FR6QPziVifQEgPUXwkyb"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "FpkGctBSLIwDl8Os78jQaRxoNVYsDtut0MKX5tT8aUM=",
+         "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXwQT6hLE6yyTJVBtpF7UPTA2Y46NT8ggB14UXcA6hHEB"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "Z4BxsQVSKCnZxLr6bSTnvrenlx6xIpMTHubL07qn7EM=",
+         "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmfPKDJ5KspUaaHSZFMoDM43cga2RKxdVPfehVFVYTZMHU"
+       },
+       "content-type": "image/png",
+       "sha256": "a8PNhohKIocN6ONBkGzSjpUQ_2XC_nJSsvTOMVHTZkE=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmToQv87VXKn2zuxNcMfeyJUeps3zVJHCJBv7XhUcSTx2B"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "GP0ab2tvu1ch2xjxNmZ_vrpgYvQDa1bTOZ1-yC6LKM4=",
+         "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmVTTeF7QEBSht8DBvxYJP3mUBFv1KkBnEnsEDugyFfiKN"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "LdSkha1qCE4dT-mvibDOffyGaTprToCH-fiWpjrNCuw=",
+         "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9.png"
+      }
+     },
+     "issued": "2026-05-28T15:03:44.499913",
+     "name": "Matt Boldy #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "lRGRj55iVJ1xWbhkwZ7Q1Q5Y6k93Z-ctfQ7ltsxvMJQ=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 13347824870596018000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In Game 4 of the Western Conference First Round, Matt Boldy stepped up as the overtime hero for the Wild, breaking a 2-2 tie with just 29 seconds remaining in the extra session.\r\nIn the extra frame, Boldy drifted to the front of the net and perfectly deflected a point shot from Jared Spurgeon past the Stars goaltender for the winner.\r\nThe slick tip-in gave Minnesota a 3-2 victory to even the series at two games apiece. Boldy, who led the Wild with six goals in the first round, helped send Minnesota on to eliminate Dallas 4-2 in six games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Hunt for Stanley 2026",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/13347824870596018176",
+     "pack_uuid": null,
+     "set_id": 122,
+     "set_uuid": "b572cf35b54a00000000000000000000",
+     "moment_id": 47421
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x10C2186a5e5C142f865db73e24254f55a1BEAbC4/?a=13347824870596018176",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 30,
+     "name": "Minnesota Wild",
+     "abbreviation": "MIN",
+     "short_name": "Minnesota",
+     "venue_city": "St. Paul",
+     "venue_name": "Xcel Energy Center",
+     "key": "MinnesotaWild",
+     "url": "https://www.nhl.com/wild",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/MinnesotaWild.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "The Hunt for Stanley 2026",
+      "description": "<p>The Hunt for Stanley 2026 features the most exhilarating highlights from the first three rounds of the [YEAR] Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/9522d2ed-5a24-4ea9-aafc-1d81671911fd.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm",
+      "uuid": "b572cf35b54a00000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "In Game 4 of the Western Conference First Round, Matt Boldy stepped up as the overtime hero for the Wild, breaking a 2-2 tie with just 29 seconds remaining in the extra session.\r\nIn the extra frame, Boldy drifted to the front of the net and perfectly deflected a point shot from Jared Spurgeon past the Stars goaltender for the winner.\r\nThe slick tip-in gave Minnesota a 3-2 victory to even the series at two games apiece. Boldy, who led the Wild with six goals in the first round, helped send Minnesota on to eliminate Dallas 4-2 in six games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b572cf35b54a0000b93d000000000000",
+     "badges": [
+      {
+       "name": "#1 Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+       "description": "#1 edition of each highlight."
+      },
+      {
+       "name": "Jersey Match Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+       "description": "Highlight edition that matches the jersey number of the player in the highlight."
+      },
+      {
+       "name": "Perfect Edition",
+       "image": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+       "description": "Highlight edition that is the final edition number in the series of each highlight."
+      },
+      {
+       "name": "Series Debut",
+       "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+       "description": "The first highlight minted for the featured primary player in the series."
+      }
+     ],
+     "token_series": {
+      "name": "Series 3",
+      "description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/token_set/original/9522d2ed-5a24-4ea9-aafc-1d81671911fd.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b572cf35000000000000000000000000"
+     },
+     "moment_id": 47421,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/X1Ov9pqm/moment/13347824870596018176/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/X1Ov9pqm/moment/13347824870596018176/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/X1Ov9pqm/moment/13347824870596018176/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/X1Ov9pqm/moment/13347824870596018176/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/X1Ov9pqm/moment/13347824870596018176/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/X1Ov9pqm/moment/13347824870596018176/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/X1Ov9pqm/moment/13347824870596018176/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/X1Ov9pqm/moment/13347824870596018176/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/b93d/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "cX30RooTM1aLTJRQ2ddqVL5oybxEf1y8I8JZGsa8nD0=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmTEsD6GwYYZ5ECMHBcakLViyoYNAuSU39wvg9ZxWXABAA"
+        },
+        "content-type": "image/png",
+        "sha256": "Jg4dzY4D0FjvzBpqSPdlgj1mWqMiO1zeX-_lt1Jycf8=",
+        "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmTEsD6GwYYZ5ECMHBcakLViyoYNAuSU39wvg9ZxWXABAA"
+        },
+        "content-type": "image/png",
+        "sha256": "Jg4dzY4D0FjvzBpqSPdlgj1mWqMiO1zeX-_lt1Jycf8=",
+        "url": "https://nft.nhlbreakaway.com/series/X1Ov9pqm/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "The Hunt for Stanley 2026",
+        "description": "<p>The Hunt for Stanley 2026 features the most exhilarating highlights from the first three rounds of the [YEAR] Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm"
+      },
+      "name": "The Hunt for Stanley 2026",
+      "issued": "2026-07-07T19:35:57.885342",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/X1Ov9pqm",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Matt Boldy",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL (OT)",
+       "venue_location": "Minnesota Wild - Grand Casino Arena (Saint Paul, MN)",
+       "final_score": "DAL 2, MIN 3 - FINAL (OT)",
+       "venue": {
+        "name": "Grand Casino Arena",
+        "location": "Saint Paul, MN",
+        "team": "MIN"
+       },
+       "away": {
+        "final_score": 2,
+        "team": "DAL"
+       },
+       "home": {
+        "final_score": 3,
+        "team": "MIN"
+       }
+      },
+      "collectible_tagline": "Goal vs DAL | Overtime | Apr 25, 2026",
+      "primary_player": {
+       "name": "Matt Boldy",
+       "is_rookie": false,
+       "position": "LW",
+       "team": "MIN",
+       "jersey": 12,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2026-04-25",
+       "period": "Overtime",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "shorthanded_goal": false,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DAL | Overtime | Apr 25, 2026",
+       "clock": "19:31",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2026-05-28",
+     "challenge_reward_level": null,
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Matt Boldy",
+     "description": "In Game 4 of the Western Conference First Round, Matt Boldy stepped up as the overtime hero for the Wild, breaking a 2-2 tie with just 29 seconds remaining in the extra session.\r\nIn the extra frame, Boldy drifted to the front of the net and perfectly deflected a point shot from Jared Spurgeon past the Stars goaltender for the winner.\r\nThe slick tip-in gave Minnesota a 3-2 victory to even the series at two games apiece. Boldy, who led the Wild with six goals in the first round, helped send Minnesota on to eliminate Dallas 4-2 in six games.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs DAL | Overtime | Apr 25, 2026",
+     "team": "MIN",
+     "player_name": "Matt Boldy",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "DAL",
+        "final_score": 2
+       },
+       "home": {
+        "team": "MIN",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "Grand Casino Arena",
+        "team": "MIN",
+        "location": "Saint Paul, MN"
+       },
+       "game_ends": "FINAL (OT)",
+       "final_score": "DAL 2, MIN 3 - FINAL (OT)",
+       "venue_location": "Minnesota Wild - Grand Casino Arena (Saint Paul, MN)"
+      },
+      "moment": {
+       "date": "2026-04-25",
+       "clock": "19:31",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 3
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "Overtime",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs DAL | Overtime | Apr 25, 2026"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Matt Boldy",
+       "team": "MIN",
+       "jersey": 12,
+       "status": "NHLPA",
+       "position": "LW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs DAL | Overtime | Apr 25, 2026"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "X1Ov9pqm",
+   "tokenId": "13347824870596018176",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Matt Boldy",
+     "date": "April 25, 2026"
+    },
+    "url": "https://nhlbreakaway.com/series/X1Ov9pqm/13347824870596018176",
+    "image": "https://mediagateway.sweet.io/media/token/X1Ov9pqm/13347824870596018176/poster-image-16x9.png"
+   },
+   "momentUuid": "b572cf35b54a0000b93d000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "X1Ov9pqm",
+  "token_id": "13347824870596018176"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

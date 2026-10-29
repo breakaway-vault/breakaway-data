@@ -1,0 +1,173 @@
+{
+ "pageProps": {
+  "packData": {
+   "server_time": "int",
+   "summary": {
+    "drop_active": "int",
+    "drop_expires": "NoneType",
+    "pack_price": "str",
+    "remaining": "int",
+    "uri": "str",
+    "number_of_highlights": "int",
+    "pack_description": "str",
+    "pack_image": "str",
+    "pack_image_16x9": "str",
+    "pack_rarity": "str",
+    "pack_title": "str",
+    "series_name": "str",
+    "pack_uuid": "str",
+    "quantity": "int",
+    "is_pfp": "bool",
+    "is_openable": "bool",
+    "sets": [],
+    "pack_moments": []
+   },
+   "details": {
+    "release": {
+     "name": "str",
+     "description": "str"
+    },
+    "description": "str",
+    "uuid": "str",
+    "assets": [],
+    "editions": "int",
+    "pack_series": {
+     "assets": [],
+     "name": "str",
+     "description": "str",
+     "uuid": "str"
+    },
+    "asset_type": "str",
+    "name": "str",
+    "attributes": {},
+    "pack_content": {
+     "summary": [
+      [
+       {
+        "set_name": "NoneType",
+        "probability": {
+         "max_limit": "int",
+         "probability": "float",
+         "limit": "int"
+        },
+        "name": "str",
+        "description": "str",
+        "moment_type": "str",
+        "uuid": "str",
+        "rarity": "str"
+       }
+      ]
+     ],
+     "sets": [
+      {
+       "name": "str",
+       "series_name": "str",
+       "series_uri": "str",
+       "set_uuid": "str",
+       "series_uuid": "str",
+       "rarity": "str"
+      }
+     ]
+    },
+    "issued": "str",
+    "rarity": {
+     "editions": "int",
+     "name": "str"
+    }
+   },
+   "series_doc": {
+    "assets": {
+     "front_image": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "front_image_16x9": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "reverse_image": "NoneType"
+    },
+    "creator": {
+     "name": "str",
+     "uri": "str"
+    },
+    "fees": [
+     {
+      "basis_points": "int",
+      "recipient_address": "str",
+      "type": "str"
+     }
+    ],
+    "images": {
+     "front": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     }
+    },
+    "issued": "str",
+    "name": "str",
+    "network": "str",
+    "rights_info": {
+     "copyright_notice": "str",
+     "terms_and_conditions": {
+      "sha256": "str",
+      "url": "str"
+     }
+    },
+    "series": {
+     "display_meta": {
+      "color": "str",
+      "creator_campaign": {
+       "campaign_id": "int",
+       "client": {
+        "company": "str",
+        "name": "str"
+       },
+       "description": "str",
+       "name": "str"
+      },
+      "creator_campaign_id": "int",
+      "description": "str",
+      "is_openable": "bool",
+      "name": "str",
+      "rarity": {
+       "name": "str",
+       "rank": "int"
+      },
+      "type": "str"
+     },
+     "total_number": "int",
+     "uri": "str"
+    },
+    "type": "str",
+    "uri": "str"
+   }
+  },
+  "isDrop": "bool",
+  "headerMetadata": {
+   "titleKey": "str",
+   "titleOptions": {
+    "pack_title": "str"
+   },
+   "url": "str",
+   "image": "str"
+  },
+  "seriesId": "str",
+  "teams": "NoneType",
+  "teamInventory": "NoneType",
+  "isPfp": "bool"
+ },
+ "__N_SSP": "bool"
+}

@@ -1,0 +1,455 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Rick Tocchet",
+     "description": "A heart-and-soul player for the Flyers, Rick Tocchet began his career in Philadelphia and spent the majority of his 18 NHL seasons embodying the team\u2019s gritty identity. A key figure for the Flyers during the 1980s, Tocchet helped propel the team to two Stanley Cup Final appearances. In the 1987 Stanley Cup Playoffs, Tocchet delivered a defining moment in Game 6 against Montreal, scoring the game-winning goal in the third period on the road to clinch the series and send Philadelphia to the Final.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "Heart & Soul: 80s + 90s",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Core",
+     "editions": 1500,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Jersey Match Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/9f36c26e-8921-43dd-abae-65cf1271b31e.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs MTL | 3rd Period | May 14, 1987",
+     "team": "PHI",
+     "player_name": "Rick Tocchet",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "PHI",
+        "final_score": 4
+       },
+       "home": {
+        "team": "MTL",
+        "final_score": 3
+       },
+       "venue": {
+        "name": "Montreal Forum",
+        "team": "MTL",
+        "location": "Montreal, QC"
+       },
+       "game_ends": "FINAL",
+       "final_score": "PHI 4, MTL 3 - FINAL",
+       "venue_location": "Montreal Canadiens - Montreal Forum (Montreal, QC)"
+      },
+      "moment": {
+       "date": "1987-05-14",
+       "clock": "7:11",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 8
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Voice Over Commentary",
+       "video_overlay_text": "Goal vs MTL | 3rd Period | May 14, 1987"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Rick Tocchet",
+       "team": "PHI",
+       "jersey": 22,
+       "status": "NHLAA",
+       "position": "RW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs MTL | 3rd Period | May 14, 1987"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 4,
+     "name": "Philadelphia Flyers",
+     "abbreviation": "PHI",
+     "short_name": "Philadelphia",
+     "venue_city": "Philadelphia",
+     "venue_name": "Wells Fargo Center",
+     "key": "PhiladelphiaFlyers",
+     "url": "https://www.nhl.com/flyers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/PhiladelphiaFlyers.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/yRzEN8bP/9546223835141899220",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmUDc3RhkmkvVDr2LkoSXT8eJjDzFRx4aDLh295DUddvQa"
+       },
+       "content-type": "image/png",
+       "sha256": "Fmwxz3GHReeJOdM28dGzM0lEY6uoPtvGrrmT0poFvLM=",
+       "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmZf6sX5Q4ds2MmYwtLaqbsVuNs8ibLQo8Ngvp26tthSmZ"
+       },
+       "content-type": "image/png",
+       "sha256": "1uCseRniaa-01QCkzCfKH4MEiiZeqZCSsyzmZnSBeXU=",
+       "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmYL2YkyVzuuSn8rUwU8yh9GzseTD2gJuRKWGqodo85qDd"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/yRzEN8bP/9546223835141899220/card-image.png",
+        "purpose": "card-image",
+        "sha256": "ii8tGwrVoRlmf4jFpeNBLTRazb880eq2Rfzbf8AosFA=",
+        "uri": "https://mediagateway.sweet.io/media/token/yRzEN8bP/9546223835141899220/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXSYt7UXEvrXMAQmGUroChXCSTMLkwph3rBefHWJPcYSN"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/yRzEN8bP/9546223835141899220/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "KrxFiEw9IR4tuljyUQHFjNeVmrENamboZvv5M5af0vM=",
+        "uri": "https://mediagateway.sweet.io/media/token/yRzEN8bP/9546223835141899220/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmZf6sX5Q4ds2MmYwtLaqbsVuNs8ibLQo8Ngvp26tthSmZ"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/yRzEN8bP/9546223835141899220/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "1uCseRniaa-01QCkzCfKH4MEiiZeqZCSsyzmZnSBeXU=",
+        "uri": "https://mediagateway.sweet.io/media/token/yRzEN8bP/9546223835141899220/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUDc3RhkmkvVDr2LkoSXT8eJjDzFRx4aDLh295DUddvQa"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/yRzEN8bP/9546223835141899220/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "Fmwxz3GHReeJOdM28dGzM0lEY6uoPtvGrrmT0poFvLM=",
+        "uri": "https://mediagateway.sweet.io/media/token/yRzEN8bP/9546223835141899220/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Voice Over Commentary",
+      "date": "1987-05-14",
+      "edition-number": "981",
+      "moment-uuid": "b572cf35f5dc0000847b000000000000",
+      "play": "Goal",
+      "player": "Rick Tocchet",
+      "rarity": "Core",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "Heart & Soul: 80s + 90s",
+      "set-uuid": "b572cf35f5dc00000000000000000000",
+      "team": "Philadelphia Flyers",
+      "total-editions": "1500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "A heart-and-soul player for the Flyers, Rick Tocchet began his career in Philadelphia and spent the majority of his 18 NHL seasons embodying the team\u2019s gritty identity. A key figure for the Flyers during the 1980s, Tocchet helped propel the team to two Stanley Cup Final appearances. In the 1987 Stanley Cup Playoffs, Tocchet delivered a defining moment in Game 6 against Montreal, scoring the game-winning goal in the third period on the road to clinch the series and send Philadelphia to the Final.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 981,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmUDc3RhkmkvVDr2LkoSXT8eJjDzFRx4aDLh295DUddvQa"
+      },
+      "content-type": "image/png",
+      "sha256": "Fmwxz3GHReeJOdM28dGzM0lEY6uoPtvGrrmT0poFvLM=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmYNxcHZPQbvGLqNNAtSihDBa6PyRiREK7zRDQUk6gEHQW"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "fPhb0q8hmT-LiWmBhNNYDQG7OUW5gKWYi0xCifoCnQ8=",
+        "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmbsRB3pkUjAiGg4ycB59hQm1FnuVdhJ2txbGyi4NKHe9D"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "3AewlmI0hX2NC9dx8pyM6xqV_PM836vWOrV2fPGvYrI=",
+        "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmUDc3RhkmkvVDr2LkoSXT8eJjDzFRx4aDLh295DUddvQa"
+       },
+       "content-type": "image/png",
+       "sha256": "Fmwxz3GHReeJOdM28dGzM0lEY6uoPtvGrrmT0poFvLM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYNxcHZPQbvGLqNNAtSihDBa6PyRiREK7zRDQUk6gEHQW"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "fPhb0q8hmT-LiWmBhNNYDQG7OUW5gKWYi0xCifoCnQ8=",
+         "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmbsRB3pkUjAiGg4ycB59hQm1FnuVdhJ2txbGyi4NKHe9D"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "3AewlmI0hX2NC9dx8pyM6xqV_PM836vWOrV2fPGvYrI=",
+         "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmZf6sX5Q4ds2MmYwtLaqbsVuNs8ibLQo8Ngvp26tthSmZ"
+       },
+       "content-type": "image/png",
+       "sha256": "1uCseRniaa-01QCkzCfKH4MEiiZeqZCSsyzmZnSBeXU=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmX5cZYJ8hewo8gdAn4CkhE3wuQXmsqhraq1FE7hWfLvu2"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "QrSei1503ktLe93NPruJEYXKgam6Nih-eIAH7yn2zdE=",
+         "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qmbp65TsMASb2B61pzKjn3UyBxkyMrN58b4YqTfjKtf4jY"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "1q-O0NNbORcCHUaj88xYqiqRaKaM_2HQxo4UbfFOsmQ=",
+         "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/yRzEN8bP/847b/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-10-06T17:03:53.389756",
+     "name": "Rick Tocchet #981",
+     "network": "matic",
+     "sequence_number": "9546223835141899220",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "A heart-and-soul player for the Flyers, Rick Tocchet began his career in Philadelphia and spent the majority of his 18 NHL seasons embodying the team\u2019s gritty identity. A key figure for the Flyers during the 1980s, Tocchet helped propel the team to two Stanley Cup Final appearances. In the 1987 Stanley Cup Playoffs, Tocchet delivered a defining moment in Game 6 against Montreal, scoring the game-winning goal in the third period on the road to clinch the series and send Philadelphia to the Final.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Heart & Soul: 80s + 90s",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/yRzEN8bP",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Rick Tocchet #981",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Voice Over Commentary"
+      },
+      {
+       "key": "date",
+       "value": "1987-05-14"
+      },
+      {
+       "key": "edition-number",
+       "value": "981"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf35f5dc0000847b000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Rick Tocchet"
+      },
+      {
+       "key": "rarity",
+       "value": "Core"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Heart & Soul: 80s + 90s"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf35f5dc00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Philadelphia Flyers"
+      },
+      {
+       "key": "total-editions",
+       "value": "1500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf35f5dc0000847b000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/LgZQvYKj",
+       "listing_id": "LgZQvYKj",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-09-10T01:35:52",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x1A998b61d0B2fC404aD6C17D47BdD93595fa2A36/?a=9546223835141899220",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "yRzEN8bP",
+   "momentUuid": "b572cf35f5dc0000847b000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Rick Tocchet",
+     "date": "May 14, 1987"
+    },
+    "url": "https://nhlbreakaway.com/series/yRzEN8bP/highlight/b572cf35f5dc0000847b000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/yRzEN8bP/9546223835141899220/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "yRzEN8bP",
+  "moment_uuid": "b572cf35f5dc0000847b000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

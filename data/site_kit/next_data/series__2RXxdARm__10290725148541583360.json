@@ -1,0 +1,602 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQAopJaUsZzyErGRizpC2ffaczm4jBiLTS2XLCfcSAWPy"
+       },
+       "content-type": "image/png",
+       "sha256": "1i6mIH3m3TsENBS-XXaM2SUwL-YCfKl4v0hYv4L-CEw=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUq3DyoSsJ5B8AoBVK9G7JMRoEK51bHAQ8enUnrfQoyoR"
+       },
+       "content-type": "image/png",
+       "sha256": "gF4V6khfo_LG62WEpbhSNTG6vMHLM8ysF5_dntunEzM=",
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmcNjfBXV8eEumYne5NZupWMXk5X6CVLwa4chwB3g4VDNC"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxdARm/10290725148541583360/card-image.png",
+        "purpose": "card-image",
+        "sha256": "qtVG712nzcNsmA2DxZvGlzLvT1251x6eJGmhRJODsi0=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxdARm/10290725148541583360/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPNhjWwAGqSMbTmUCvB8cNJLzApSgHLpv1J7ssCRLsfUg"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxdARm/10290725148541583360/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "9TfQJZOFOJ20OOjMhThseA1MF0uW-4hjsFoc2KsjBhU=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxdARm/10290725148541583360/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmUq3DyoSsJ5B8AoBVK9G7JMRoEK51bHAQ8enUnrfQoyoR"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxdARm/10290725148541583360/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "gF4V6khfo_LG62WEpbhSNTG6vMHLM8ysF5_dntunEzM=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxdARm/10290725148541583360/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQAopJaUsZzyErGRizpC2ffaczm4jBiLTS2XLCfcSAWPy"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/2RXxdARm/10290725148541583360/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "1i6mIH3m3TsENBS-XXaM2SUwL-YCfKl4v0hYv4L-CEw=",
+        "uri": "https://mediagateway.sweet.io/media/token/2RXxdARm/10290725148541583360/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2023-12-13"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae77cc3600008ed0000000000000"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Simon Holmstrom"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "name": "Set",
+       "value": "Next-Gen Class"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae77cc3600000000000000000000"
+      },
+      {
+       "name": "Team",
+       "value": "New York Islanders"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "With under two minutes remaining in the third period of a tied game, Simon Holmstrom nets his first career shorthanded game-winning goal which was his fourth shorty of the season. During the Ducks power play, Jean-Gabriel Pageau passes the puck over to Holmstrom who powers past Leo Carlsson and fires a beauty upstairs from a tough angle. Holmstrom, taking advantage of his time spent killing penalties, appears poised to further advance his development with the Islanders.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmQAopJaUsZzyErGRizpC2ffaczm4jBiLTS2XLCfcSAWPy"
+      },
+      "content-type": "image/png",
+      "sha256": "1i6mIH3m3TsENBS-XXaM2SUwL-YCfKl4v0hYv4L-CEw=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmY2E859FKPRPVHEvn19WrkjtzwyRNdrXM2JiKn2D1z6r5"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "I8iZ_NoWVlL5wHjNARO0RsXQqRTwd5epVRGFLtl8Udc=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://Qmc1jZVLnidG24eSfAUQRcvbUDt7Vq3XkUURLTMWM7dzP6"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "YDyrqTNiZX5Qeg8sxyKinJF0OEPz_iwwuusiNw9U7Vo=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQAopJaUsZzyErGRizpC2ffaczm4jBiLTS2XLCfcSAWPy"
+       },
+       "content-type": "image/png",
+       "sha256": "1i6mIH3m3TsENBS-XXaM2SUwL-YCfKl4v0hYv4L-CEw=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmY2E859FKPRPVHEvn19WrkjtzwyRNdrXM2JiKn2D1z6r5"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "I8iZ_NoWVlL5wHjNARO0RsXQqRTwd5epVRGFLtl8Udc=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://Qmc1jZVLnidG24eSfAUQRcvbUDt7Vq3XkUURLTMWM7dzP6"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "YDyrqTNiZX5Qeg8sxyKinJF0OEPz_iwwuusiNw9U7Vo=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmUq3DyoSsJ5B8AoBVK9G7JMRoEK51bHAQ8enUnrfQoyoR"
+       },
+       "content-type": "image/png",
+       "sha256": "gF4V6khfo_LG62WEpbhSNTG6vMHLM8ysF5_dntunEzM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmUMugnB4THhJzqS3uuds8KHUCJHTRNFT2w5g9EpgVP5G4"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "lEcr7DwBOXXQY4LmzlqqnsKCngsZ3cdVMIXUO8wqLms=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmfFYBGRjkXuKhx6jFtCN984LxQAKoYd8GLyr8tXu8K8mv"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "JkRCEzOkaKLo_Lz7q_EvaAz8PfFa9YLT4Px8dCI5y_U=",
+         "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-02-28T21:09:08.121536",
+     "name": "Simon Holmstrom #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "e0VleAxRFCPzfRtwSfcAoZjLApH5GMA5pmct_vipa1k=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 10290725148541583000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "With under two minutes remaining in the third period of a tied game, Simon Holmstrom nets his first career shorthanded game-winning goal which was his fourth shorty of the season. During the Ducks power play, Jean-Gabriel Pageau passes the puck over to Holmstrom who powers past Leo Carlsson and fires a beauty upstairs from a tough angle. Holmstrom, taking advantage of his time spent killing penalties, appears poised to further advance his development with the Islanders.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Next-Gen Class",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm/10290725148541583360",
+     "pack_uuid": null,
+     "set_id": 15,
+     "set_uuid": "b5c8ae77cc3600000000000000000000",
+     "moment_id": 36560
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0xA41a9aF1e2505a77d5F9312365d0B1db4241Cc14/?a=10290725148541583360",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 2,
+     "name": "New York Islanders",
+     "abbreviation": "NYI",
+     "short_name": "NY Islanders",
+     "venue_city": "Elmont",
+     "venue_name": "UBS Arena",
+     "key": "NewYorkIslanders",
+     "url": "https://www.nhl.com/islanders",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/NewYorkIslanders.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "Next-Gen Class",
+      "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/f7d4dd0a-bcc2-42a7-bff9-ddb8debf49e6.png",
+        "mime": "image/png"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+      "uuid": "b5c8ae77cc3600000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "With under two minutes remaining in the third period of a tied game, Simon Holmstrom nets his first career shorthanded game-winning goal which was his fourth shorty of the season. During the Ducks power play, Jean-Gabriel Pageau passes the puck over to Holmstrom who powers past Leo Carlsson and fires a beauty upstairs from a tough angle. Holmstrom, taking advantage of his time spent killing penalties, appears poised to further advance his development with the Islanders.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae77cc3600008ed0000000000000",
+     "badges": [],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/f7d4dd0a-bcc2-42a7-bff9-ddb8debf49e6.png",
+        "mime": "image/png"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 36560,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/2RXxdARm/moment/10290725148541583360/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2RXxdARm/moment/10290725148541583360/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/2RXxdARm/moment/10290725148541583360/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2RXxdARm/moment/10290725148541583360/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2RXxdARm/moment/10290725148541583360/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/2RXxdARm/moment/10290725148541583360/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2RXxdARm/moment/10290725148541583360/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/2RXxdARm/moment/10290725148541583360/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/8ed0/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "-zmljHZEjEpQyFRshN4Yj0QiCjVZ2crhqiwuM0nWx6k=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmXu95UHeVXmspZejcLAP8BRRSPATLL1XYJoEeFXnqQRLo"
+        },
+        "content-type": "image/png",
+        "sha256": "jdWUnC-wsPIyQko0thDJlt9Mgtl_1CRbSWbtjpkUcdg=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/image-front.png"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmXu95UHeVXmspZejcLAP8BRRSPATLL1XYJoEeFXnqQRLo"
+        },
+        "content-type": "image/png",
+        "sha256": "jdWUnC-wsPIyQko0thDJlt9Mgtl_1CRbSWbtjpkUcdg=",
+        "url": "https://nft.nhlbreakaway.com/series/2RXxdARm/image-front.png"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "Next-Gen Class",
+        "description": "<p>Elevate your collection with the Next-Gen Class set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm"
+      },
+      "name": "Next-Gen Class",
+      "issued": "2024-03-27T22:22:18.166666",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/2RXxdARm",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Simon Holmstrom",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "New York Islanders - UBS Arena (Elmont, NY)",
+       "final_score": "ANA 3, NYI 4 - FINAL",
+       "venue": {
+        "name": "UBS Arena",
+        "location": "Elmont, NY",
+        "team": "NYI"
+       },
+       "away": {
+        "final_score": 3,
+        "team": "ANA"
+       },
+       "home": {
+        "final_score": 4,
+        "team": "NYI"
+       }
+      },
+      "collectible_tagline": "Goal vs ANA | 3rd Period | Dec 13, 2023",
+      "primary_player": {
+       "name": "Simon Holmstrom",
+       "is_rookie": false,
+       "position": "RW",
+       "team": "NYI",
+       "jersey": 10,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2023-12-13",
+       "period": "3rd Period",
+       "extra": {
+        "goal_number_this_season": 8
+       },
+       "flags": {
+        "shorthanded_goal": true,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": true,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs ANA | 3rd Period | Dec 13, 2023",
+       "clock": "18:27",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2024-02-28",
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Simon Holmstrom",
+     "description": "With under two minutes remaining in the third period of a tied game, Simon Holmstrom nets his first career shorthanded game-winning goal which was his fourth shorty of the season. During the Ducks power play, Jean-Gabriel Pageau passes the puck over to Holmstrom who powers past Leo Carlsson and fires a beauty upstairs from a tough angle. Holmstrom, taking advantage of his time spent killing penalties, appears poised to further advance his development with the Islanders.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {},
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "ANA",
+        "final_score": 3
+       },
+       "home": {
+        "team": "NYI",
+        "final_score": 4
+       },
+       "venue": {
+        "name": "UBS Arena",
+        "team": "NYI",
+        "location": "Elmont, NY"
+       },
+       "game_ends": "FINAL",
+       "final_score": "ANA 3, NYI 4 - FINAL",
+       "venue_location": "New York Islanders - UBS Arena (Elmont, NY)"
+      },
+      "moment": {
+       "date": "2023-12-13",
+       "clock": "18:27",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 8
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": true,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs ANA | 3rd Period | Dec 13, 2023"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Simon Holmstrom",
+       "team": "NYI",
+       "jersey": 10,
+       "status": "NHLPA",
+       "position": "RW",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs ANA | 3rd Period | Dec 13, 2023"
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "2RXxdARm",
+   "tokenId": "10290725148541583360",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Simon Holmstrom",
+     "date": "December 13, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/2RXxdARm/10290725148541583360",
+    "image": "https://mediagateway.sweet.io/media/token/2RXxdARm/10290725148541583360/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae77cc3600008ed0000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "2RXxdARm",
+  "token_id": "10290725148541583360"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

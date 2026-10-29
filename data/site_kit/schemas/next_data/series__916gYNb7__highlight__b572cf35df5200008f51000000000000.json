@@ -1,0 +1,295 @@
+{
+ "pageProps": {
+  "highlightData": {
+   "_metadata": {
+    "name": "str",
+    "description": "str",
+    "series_name": "str",
+    "set_name": "str",
+    "primary_type": "str",
+    "rarity": "str",
+    "editions": "int",
+    "badges": {},
+    "video_overlay_text": "str",
+    "team": "str",
+    "player_name": "str",
+    "meta_data": {
+     "game": {
+      "venue": {
+       "name": "str",
+       "location": "str"
+      },
+      "final_score": "str",
+      "venue_location": "str"
+     },
+     "moment": {
+      "date": "str",
+      "clock": "str",
+      "event": "str",
+      "flags": {
+       "is_rookie": "bool",
+       "star_of_game": "bool",
+       "record_broken": "bool",
+       "power_play_goal": "bool",
+       "player_milestone": "bool",
+       "shorthanded_goal": "bool",
+       "game_winning_goal": "bool",
+       "penalty_shot_goal": "bool"
+      },
+      "audio_type": "str",
+      "video_overlay_text": "str"
+     },
+     "highlight_type": "str",
+     "primary_player": {
+      "name": "str",
+      "team": "str",
+      "is_rookie": "bool"
+     }
+    }
+   },
+   "_badges": "NoneType",
+   "_common_descriptive_badges": [],
+   "_descriptive_badges": "NoneType",
+   "_edition_specific_descriptive_badges": "NoneType",
+   "_team": {
+    "id": "int",
+    "name": "str",
+    "abbreviation": "str",
+    "short_name": "str",
+    "venue_city": "str",
+    "venue_name": "str",
+    "key": "str",
+    "url": "str",
+    "logo": "str"
+   },
+   "uri": "str",
+   "_doc": {
+    "assets": {
+     "front_image": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "front_image_16x9": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "url": "str"
+     },
+     "media": [
+      {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "gateway": "str",
+       "purpose": "str",
+       "sha256": "str",
+       "uri": "str"
+      }
+     ],
+     "reverse_image": "NoneType"
+    },
+    "attributes": {
+     "audio-type": "str",
+     "date": "str",
+     "edition-number": "str",
+     "moment-uuid": "str",
+     "play": "str",
+     "player": "str",
+     "rarity": "str",
+     "series": "str",
+     "series-uuid": "str",
+     "set": "str",
+     "set-uuid": "str",
+     "team": "str",
+     "total-editions": "str"
+    },
+    "creator": {
+     "name": "str",
+     "uri": "str"
+    },
+    "description": "str",
+    "edition_number": "int",
+    "fees": [
+     {
+      "basis_points": "int",
+      "recipient_address": "str",
+      "type": "str"
+     }
+    ],
+    "image": {
+     "altloc": {
+      "ipfs": "str"
+     },
+     "content-type": "str",
+     "sha256": "str",
+     "thumbnail": {
+      "350": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "height": "int",
+       "sha256": "str",
+       "url": "str",
+       "width": "int"
+      },
+      "500": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "height": "int",
+       "sha256": "str",
+       "url": "str",
+       "width": "int"
+      }
+     },
+     "url": "str"
+    },
+    "images": {
+     "front": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       }
+      },
+      "url": "str"
+     },
+     "front-16x9": {
+      "altloc": {
+       "ipfs": "str"
+      },
+      "content-type": "str",
+      "sha256": "str",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "str"
+        },
+        "content-type": "str",
+        "height": "int",
+        "sha256": "str",
+        "url": "str",
+        "width": "int"
+       }
+      },
+      "url": "str"
+     }
+    },
+    "issued": "str",
+    "name": "str",
+    "network": "str",
+    "sequence_number": "str",
+    "series": {
+     "display_meta": {
+      "color": "str",
+      "creator_campaign": {
+       "campaign_id": "int",
+       "client": {
+        "company": "str",
+        "name": "str"
+       },
+       "description": "str",
+       "name": "str"
+      },
+      "creator_campaign_id": "int",
+      "description": "str",
+      "is_openable": "bool",
+      "name": "str",
+      "rarity": {
+       "name": "str",
+       "rank": "int"
+      },
+      "type": "str"
+     },
+     "total_number": "NoneType",
+     "uri": "str",
+     "is_pfp": "bool"
+    },
+    "type": "str",
+    "name_keyword": "str",
+    "asset_type": "str",
+    "nested_attributes": [
+     {
+      "key": "str",
+      "value": "str"
+     }
+    ],
+    "collections": [],
+    "collapsible_parent": "str",
+    "current_offers": [],
+    "_tokendata": {
+     "owner": "str",
+     "campaign": {
+      "campaign_id": "int",
+      "client": {
+       "name": "str",
+       "company": "str"
+      },
+      "description": "str",
+      "name": "str",
+      "avatar": "str"
+     },
+     "explorer_url": "str",
+     "pack_opened": "bool",
+     "burned": "bool",
+     "marketplace_description": "NoneType",
+     "sets": "NoneType",
+     "crafting_turn_in": "bool"
+    }
+   }
+  },
+  "seriesId": "str",
+  "momentUuid": "str",
+  "headerMetadata": {
+   "titleKey": "str",
+   "titleOptions": {
+    "name": "str",
+    "date": "str"
+   },
+   "url": "str",
+   "image": "str"
+  },
+  "isMarketPlaceListingPage": "bool"
+ },
+ "__N_SSP": "bool"
+}

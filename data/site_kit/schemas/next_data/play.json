@@ -1,0 +1,182 @@
+{
+ "pageProps": {
+  "headerMetadata": {
+   "titleKey": "str",
+   "url": "str",
+   "image": "str"
+  },
+  "collectionQuests": [
+   {
+    "challenge_config_id": "int",
+    "freeze_by": "int",
+    "freeze_until": "int",
+    "active_from": "int",
+    "active_until": "int",
+    "title": "str",
+    "reward": {
+     "headline": "str",
+     "body": "str",
+     "image": "str",
+     "award_after": "int"
+    },
+    "display_image": "str",
+    "nr_highlights": "int",
+    "highlights": [],
+    "challenge_reward": {
+     "challenge_reward_id": "int",
+     "challenge_reward_name": "str",
+     "challenge_reward_image": "str"
+    },
+    "campaign_id": "int",
+    "exclusive_lock": "bool",
+    "unique_card_game": "bool"
+   }
+  ],
+  "craftingQuests": [
+   {
+    "challenge_config_id": "NoneType",
+    "active_from": "int",
+    "active_until": "int",
+    "award_after": "int",
+    "lock_by": "int",
+    "lock_until": "int",
+    "exclusive_lock": "bool",
+    "crafting_challenge_id": "int",
+    "challenge_title": "str",
+    "challenge_description": "str",
+    "challenge_image": "str",
+    "reward_title": "str",
+    "reward_description": "str",
+    "reward_image": "str",
+    "crafting_generator_id": "int",
+    "rules": {
+     "heroic": {
+      "turnin_count": "NoneType",
+      "freeze_count": "NoneType"
+     },
+     "fandom": {
+      "turnin_count": "int",
+      "freeze_count": "NoneType"
+     },
+     "core": {
+      "turnin_count": "int",
+      "freeze_count": "NoneType"
+     },
+     "limited": {
+      "turnin_count": "int",
+      "freeze_count": "NoneType"
+     },
+     "rare": {
+      "turnin_count": "int",
+      "freeze_count": "NoneType"
+     },
+     "epic": {
+      "turnin_count": "int",
+      "freeze_count": "NoneType"
+     }
+    },
+    "humanized_rules": "str",
+    "user_count": "int",
+    "completed_count": "int"
+   }
+  ],
+  "sets": [
+   {
+    "challenge_config_id": "int",
+    "challenge_id": "int",
+    "set_uuid": "str",
+    "is_locked": "bool",
+    "series_name": "str",
+    "series_uuid": "str",
+    "rarity": "str",
+    "nr_highlights": "int",
+    "freeze_by": "int",
+    "freeze_until": "int",
+    "active_from": "int",
+    "active_until": "int",
+    "exclusive_lock": "bool",
+    "doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "sha256": "str",
+       "url": "str"
+      },
+      "front_image_16x9": "NoneType",
+      "reverse_image": "NoneType"
+     },
+     "creator": {
+      "name": "str",
+      "uri": "str"
+     },
+     "fees": [
+      {
+       "basis_points": "int",
+       "recipient_address": "str",
+       "type": "str"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "str"
+       },
+       "content-type": "str",
+       "sha256": "str",
+       "url": "str"
+      }
+     },
+     "issued": "str",
+     "name": "str",
+     "network": "str",
+     "rights_info": {
+      "copyright_notice": "str",
+      "terms_and_conditions": {
+       "sha256": "str",
+       "url": "str"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "str",
+       "creator_campaign": {
+        "campaign_id": "int",
+        "client": {
+         "company": "str",
+         "name": "str"
+        },
+        "description": "str",
+        "name": "str"
+       },
+       "creator_campaign_id": "int",
+       "description": "str",
+       "is_openable": "bool",
+       "name": "str",
+       "rarity": {
+        "name": "str",
+        "rank": "int"
+       },
+       "type": "str"
+      },
+      "total_number": "NoneType",
+      "uri": "str"
+     },
+     "type": "str",
+     "uri": "str"
+    },
+    "reward": {
+     "headline": "str",
+     "body": "str",
+     "image": "str",
+     "award_after": "NoneType"
+    },
+    "rules": "str",
+    "campaign_id": "int"
+   }
+  ]
+ },
+ "__N_SSP": "bool"
+}

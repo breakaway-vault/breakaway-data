@@ -1,0 +1,697 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286271,
+    "summary": {
+     "drop_active": 1731088800,
+     "drop_expires": null,
+     "pack_price": "9.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/2bjVQ0b5",
+     "number_of_highlights": 3,
+     "pack_description": "Celebrate the excitement of a fresh start with the Fresh Sweaters, featuring players making their mark with their new NHL teams. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise. Featuring thrilling plays from Connor McDavid, Rick Nash, Sidney Crosby, Jonathan Toews, Zdeno Chara, Ryan Getzlaf, and more!\r\n\r\nEach pack contains 1 Fresh Sweaters highlight, 1 mystery Core highlight that could be from Across the Pond (50%), Base 2024-25 (25%), or Fresh Sweaters (25%), and 1 mystery highlight that could be from Light the Lamp: Legacy (40%), Base 2024-25 (20%), Fresh Sweaters (20%), Across the Pond (10%), Opening Ice: Elites (6.5%), Opening Ice: Icons (2%), or Cause for a Celly: 2010s (1.5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Fresh Sweaters Debut LE Pack (Core)",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe00000000ad5c000000000000",
+     "quantity": 5000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Fresh Sweaters Debut LE Pack (Core)",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Friday, Nov 8 at 1pm ET / 10am PT</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $9 USD</span></p>\r\n<p><strong># PacksAvailable:</strong><span style=\"font-weight: 400;\"> 5000 packs total. Edition numbers are distributed randomly.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Fifty (50) pack limit per person for the first 6 hours; limit increased to seventy-five (75) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight from Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlights with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">50% Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">25% Fresh Sweaters (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">40% Light the Lamp: Legacy (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">20% Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">10% Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">6.5% Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">2% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.5% Cause for a Celly: 2010s (Epic #/100)</span></li>\r\n</ul>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor MoonPay where available; where not available, payments will be processed via Stripe. Payment via cryptocurrency is also available. See these </span><a href=\"https://www.coinbase.com/commerce/faq#:~:text=We%20currently%20support%20ApeCoin%2C%20Bitcoin,INU%2C%20Tether%20and%20USD%20Coin.\"><span style=\"font-weight: 400;\">FAQs</span></a><span style=\"font-weight: 400;\"> for a complete list of supported currencies.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p>&nbsp;</p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vRg7tJOZ7K84UpfOcaVHZujK5z0LIAWMCeddpVpCW-5O5KfjfjbCxRMQ9VToPYaRBnO5qi4Hw25KdnV/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Across the Pond, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2024-25, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Light the Lamp: Legacy, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Icons, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Elites, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Cause for a Celly: 2010s, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Celebrate the excitement of a fresh start with the Fresh Sweaters, featuring players making their mark with their new NHL teams. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise. Featuring thrilling plays from Connor McDavid, Rick Nash, Sidney Crosby, Jonathan Toews, Zdeno Chara, Ryan Getzlaf, and more!\r\n\r\nEach pack contains 1 Fresh Sweaters highlight, 1 mystery Core highlight that could be from Across the Pond (50%), Base 2024-25 (25%), or Fresh Sweaters (25%), and 1 mystery highlight that could be from Light the Lamp: Legacy (40%), Base 2024-25 (20%), Fresh Sweaters (20%), Across the Pond (10%), Opening Ice: Elites (6.5%), Opening Ice: Icons (2%), or Cause for a Celly: 2010s (1.5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe00000000ad5c000000000000",
+     "assets": [],
+     "editions": 5000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Fresh Sweaters Debut LE Pack (Core)",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.5,
+          "limit": 2500
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.25,
+          "limit": 1250
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.25,
+          "limit": 1250
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.004,
+          "limit": 20
+         },
+         "name": "Connor McDavid",
+         "description": "Connor McDavid, known for his sensational and electrifying play, set Edmonton ablaze early in the 2021-22 season. Late in the third period, trailing by a goal, McDavid executed the unthinkable by weaving through four defenders and then deking out the netminder with just under three minutes remaining to score the tying goal. That same season, McDavid would secure his fourth Art Ross Trophy leading the league in points in only his seventh season in the league.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2f000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0048,
+          "limit": 24
+         },
+         "name": "Evgeni Malkin",
+         "description": "Starting with a backcheck and a strip of the puck, Evgeni Malkin scored a beautiful unassisted goal. In one fluid motion, Malkin executed a spin-o-rama and sniped a backhander bar-down for a sensational goal. Later that 2015-16 season, Malkin won his second Stanley Cup \u2013 and first of back-to-back championships that boosted his career total to three (all with the Penguins).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008cd4000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0034,
+          "limit": 17
+         },
+         "name": "Jonathan Toews",
+         "description": "As a child, Jonathan Toews idolized Joe Sakic, and in his fifth NHL game of his rookie season, he faced off against his hero, donning the same jersey number 19 that Sakic wore. During that game, Toews scored a spectacular goal that electrified the home crowd. Early in the first period of a scoreless game, he weaved through three Colorado defenders, deked the goalie, and tucked the puck into the net. Toews finished his rookie season with 24 goals and 54 points in 64 games, and later won three Stanley Cups with Chicago.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a44000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0062,
+          "limit": 31
+         },
+         "name": "Nikita Kucherov",
+         "description": "During the 2016-17 season, the deceptive Nikita Kucherov scored a memorable shootout goal that decided the game against Buffalo. As Kucherov approached the netminder, he faked a shot and let the puck slide past the fooled goalie into the net. Kucherov continues to climb the all-time ranks in franchise history, averaging 1.20 points per game through his first 10 years in the league, all with Tampa Bay.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009b2e000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.004,
+          "limit": 20
+         },
+         "name": "Rick Nash",
+         "description": "In the final minute of the third period of a tied game, Rick Nash scored a sensational, unforgettable goal. Disrupting the play at the blueline, Nash headed up the ice and received a pass, setting up a 1-on-2 rush. He skillfully stickhandled through two Coyotes defenders, deked the goalie, and fired the puck into the open net for the game-winner. Nash spent 9 of his 15 NHL seasons with the Blue Jackets and left as the franchise leader in goals, assists and points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a2b5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0054,
+          "limit": 27
+         },
+         "name": "Ryan Getzlaf",
+         "description": "Ryan Getzlaf, the all-time points leader for the Anaheim Ducks, scored a remarkable shorthanded goal during the 2017-18 season. In the defensive zone, while attempting to clear the puck, Getzlaf lofted it high into the air and chased it down. As the puck settled near the high slot, the goalie came out of the net to swat it away. However, Getzlaf reached it first, chipped it past the netminder, and shot it into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009a71000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0038,
+          "limit": 19
+         },
+         "name": "Sidney Crosby",
+         "description": "Sidney Crosby has scored many spectacular goals throughout his storied career, but one particularly memorable moment came during a game against Edmonton in the 2018-19 season. In overtime, Crosby carried the puck into the offensive zone, skated it below the goal line, and maneuvered through two defenders to get in front of the net. He held onto the puck until reaching the far side of the goal, where he fired a backhander into the net. That season, Crosby finished with 100 points, marking the sixth time in his career he reached the century mark in a single season.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009c7a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0046,
+          "limit": 23
+         },
+         "name": "Zdeno Chara",
+         "description": "Known as \"Big Z\" and standing at 6\u20199\u201d, Zdeno Chara was renowned for his disruptive defense and physical presence rather than for dazzling offensive plays. However, in a game against Florida during the 2012-13 season, Chara executed a beautiful spin-a-rama after receiving a pass, depositing a backhander into the top of the net. Chara spent 14 of his 24-year career in Boston, where he won a Norris Trophy in 2009 and captained the team to a Stanley Cup championship in 2011.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000b6ac000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0238,
+          "limit": 119
+         },
+         "name": "Aleksander Barkov",
+         "description": "Aleksander Barkov, a two-time Selke Trophy winner renowned for his elite two-way play as a center, also showcases extraordinary offensive prowess. In a 2018-19 season matchup against the Montreal Canadiens, he demonstrated his skill in spectacular fashion. After eluding a defender and closing in on the goalie, Barkov pulled off an incredible between-the-legs move to score a jaw-dropping highlight-reel goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008861000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.024,
+          "limit": 120
+         },
+         "name": "Alexis Lafreni\u00e8re",
+         "description": "After scoring earlier in the third period, Alexis Lafreni\u00e8re dazzled with a spectacular backhand goal against the Detroit Red Wings. As he skated towards the net in the slot, Lafreni\u00e8re faked a shot, freezing the defender. He then smoothly pulled the puck through his legs to his backhand and lifted it top shelf for a stunning finish.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a236000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0242,
+          "limit": 121
+         },
+         "name": "Andrei Svechnikov",
+         "description": "In his second NHL season, Andrei Svechnikov scored the league's first-ever lacrosse-style goal called the \"Michigan goal.\" This remarkable goal was the first of two Svechnikov scored in the third period, leading Carolina to a 2-1 victory over Calgary.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095c3000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.024,
+          "limit": 120
+         },
+         "name": "Anthony Duclair",
+         "description": "During his brief stint with the Columbus Blue Jackets, Anthony Duclair scored an unforgettable goal. The speedy forward received a pass at the far blue line and attempted to cut towards the middle to evade a defender. Although he fell to his knees, Duclair remarkably kept control of the puck, pulled it back in, and fired it into the net after spinning around.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008a46000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0246,
+          "limit": 123
+         },
+         "name": "Bobby Ryan",
+         "description": "During the 2011 Stanley Cup Playoffs, Bobby Ryan scored a sensational goal against the Nashville Predators. After intercepting a cross-ice pass just inside the blue line, Ryan carried the puck through the neutral zone. He then made two incredible moves to evade the same defender before firing a backhand shot past the goalie.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000a057000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0238,
+          "limit": 119
+         },
+         "name": "Claude Giroux",
+         "description": "Claude Giroux, who played 1,000 games and scored 291 goals with the Philadelphia Flyers during his first 15 seasons, showcased his skill and creativity with a memorable goal against Tampa Bay. As he entered the offensive zone, three Lightning players converged on him. With a deft lift of a defender's stick, Giroux broke through the check, maneuvered around the goalie, and calmly deposited the puck into the net.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000084d8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0244,
+          "limit": 122
+         },
+         "name": "Corey Perry",
+         "description": "With only two seconds left in the second period, Corey Perry scored an incredible goal from his knees. After receiving a drop pass just inside the blue line, Perry toe-dragged around a defender, got tripped up, and fired a shot into the net from his knees. Perry spent the first 14 seasons of his career in Anaheim, where he currently ranks second all-time in goals in franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000092f2000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0238,
+          "limit": 119
+         },
+         "name": "Filip Forsberg",
+         "description": "Since joining the NHL with the Nashville Predators, Filip Forsberg has thrilled fans with countless spectacular plays. One of his most memorable moments came when he scored a \"Michigan\" goal against the Oilers. After an offensive zone faceoff, Forsberg retrieved the puck along the boards, skated behind the net, and executed a perfect lacrosse-style goal, leaving everyone in awe.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000095fe000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0252,
+          "limit": 126
+         },
+         "name": "Kris Letang",
+         "description": "Kris Letang, a gifted skater known for his offensive prowess as a defenseman, has spent his entire career with the Pittsburgh Penguins, contributing to three Stanley Cup championships. In an October 2019 game against the Dallas Stars, Letang showcased his skill by weaving past two defenders and scoring a beautiful third-period goal that gave Pittsburgh their first lead of the game. The Penguins held onto the lead, and Letang later sealed the victory with an empty-net goal for his second of the night.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000bbb5000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0242,
+          "limit": 121
+         },
+         "name": "Marek Malik",
+         "description": "Marek Malik, a defenseman known more for his defensive skills rather than his scoring ability, delivered a stunning surprise during a shootout against the Washington Capitals. In the 15th round, Malik astounded everyone by executing a between-the-legs move, scoring a sensational goal that secured the Rangers' victory and earned them two points.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009762000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0244,
+          "limit": 122
+         },
+         "name": "Mathew Barzal",
+         "description": "In a March 2021 game against the Buffalo Sabres, Mathew Barzal powered past a defender in a one-on-one battle, beating him on the outside. Closing in on the goalie, Barzal slowed down and pulled off a stunning between-the-legs move to score a remarkable goal.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000980a000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0246,
+          "limit": 123
+         },
+         "name": "Mitch Marner",
+         "description": "On an offensive break with Auston Matthews, Mitch Marner received a pass in the slot, surrounded by multiple defenders. In one fluid motion, he shifted the puck between his legs to evade the crowd and slipped it five-hole past the goalie, perfectly showcasing his elite offensive skill.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d80000adcb000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0238,
+          "limit": 119
+         },
+         "name": "Morgan Rielly",
+         "description": "Playing against the Edmonton Oilers at home, defenseman Morgan Rielly scored a brilliant unassisted goal. The play began with Rielly blocking a shot in the defensive zone. He then collected the puck, weaved through multiple defenders up the ice, and, once in the slot, toe-dragged the final defender before firing a shot top shelf for an impressive tally.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800008715000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0246,
+          "limit": 123
+         },
+         "name": "Patrick Kane",
+         "description": "Charging down the right side of the ice with speed, Patrick Kane noticed the defender backing off and executed an incredible spin-o-rama, finishing with a stunning backhand goal. Known for his creativity and exceptional talent, Kane went on to win the Conn Smythe Trophy later that season, as well as his second Stanley Cup.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d800009ea1000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": "Light the Lamp: Legacy",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0244,
+          "limit": 122
+         },
+         "name": "Vladimir Tarasenko",
+         "description": "Vladimir Tarasenko began his NHL career with the St. Louis Blues, where he spent parts of 11 seasons, creating countless memories for fans, including playing a key role in a Stanley Cup championship. During the 2021-22 season, when he set a career-high with 82 points, one moment stood out above the rest. Against the Los Angeles Kings, Tarasenko dazzled by slipping the puck through a defender's legs to cut to the middle, then made one final move on the netminder before firing a shot upstairs over the goalie\u2019s shoulder.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47feb0d8000086a8000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.2,
+          "limit": 1000
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.2,
+          "limit": 1000
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.1,
+          "limit": 500
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.065,
+          "limit": 325
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Opening Ice: Elites</em>, a Rare highlight set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2af00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.02,
+          "limit": 100
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": "Cause for a Celly: 2010s",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0032,
+          "limit": 16
+         },
+         "name": "Alec Martinez",
+         "description": "Alec Martinez earned three Stanley Cups during his time with the Los Angeles Kings, but the 2014 Stanley Cup was particularly memorable for him. He scored the series-clinching goal in the second overtime of Game 5 of the Stanley Cup Final. Amid chants of \"We want the Cup\" from the home crowd during a Kings' offensive rush, Martinez capitalized on a rebound from an initial save, firing the puck into the open net for the decisive goal. The arena erupted in celebration, with Martinez, his teammates, and the entire Los Angeles crowd sharing in the jubilation. Of the five goals Martinez scored in the 2014 playoffs, three were game winners including two in overtime.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fe6ac20000bebf000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Cause for a Celly: 2010s",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.003,
+          "limit": 15
+         },
+         "name": "Chris Kunitz",
+         "description": "In the 2017 Eastern Conference Final, Chris Kunitz scored the game-winning goal in double overtime of Game 7, propelling the Pittsburgh Penguins to the Stanley Cup Final. With the pressure mounting in the offensive zone, Sidney Crosby, who had just returned to the ice, retrieved the puck from the corner. Spotting an opportunity, Kunitz moved into position, and Crosby delivered a perfect pass. Kunitz fired a one-timer, clinching the victory and sending the Penguins to face the Nashville Predators. The Penguins ultimately won the series against Nashville in six games, securing their second consecutive championship. Kunitz was a member of four Stanley Cup-winning teams, three of which were with Pittsburgh.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fe6ac200008fc9000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Cause for a Celly: 2010s",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0038,
+          "limit": 19
+         },
+         "name": "Joe Thornton",
+         "description": "In the 2011 Stanley Cup Playoffs, facing their in-state rivals, the Los Angeles Kings, Sharks\u2019 captain Joe Thornton scored the series-clinching goal in overtime. This dramatic goal was the only playoff overtime goal in Thornton\u2019s storied career. During Game 6 in Los Angeles, Thornton carried the puck up the ice and advanced it into the corner. Following a scramble in front of the net, he spun around and managed to find the puck, slamming it home for the win. A former Hart Trophy and Art Ross Trophy winner, Thornton accumulated 1,539 points over his 24-season career in the NHL.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fe6ac200009721000000000000",
+         "rarity": "Epic"
+        },
+        {
+         "set_name": "Cause for a Celly: 2010s",
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.005,
+          "limit": 25
+         },
+         "name": "Marian Hossa",
+         "description": "In the 2010 Stanley Cup Playoffs, with the series tied at 2-2, Marian Hossa delivered a game-winning goal in overtime during Game 5 against the Nashville Predators, thrilling the home crowd in Chicago. As the Blackhawks pressed in the offensive zone during the first overtime period, Hossa made a crucial move to the net when the puck was cycled back to the point. A deflected shot from the point landed right on Hossa\u2019s stick, allowing him to tap the puck into the open net for the victory. This pivotal moment marked Hossa\u2019s first season with the Blackhawks and led to his first Stanley Cup championship. In 2020, he was honored with induction into the Hockey Hall of Fame, capping off an exceptional career.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+         "moment_type": "token-nft",
+         "uuid": "cd2f47fe6ac20000842a000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O",
+        "set_uuid": "cd2f47fef2af00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QqBmkGRA",
+        "set_uuid": "cd2f47feed2400000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+        "set_uuid": "cd2f47fef2be00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1aoV5RK",
+        "set_uuid": "cd2f47fe460e00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Light the Lamp: Legacy",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/YqrMgPRJ",
+        "set_uuid": "cd2f47feb0d800000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Cause for a Celly: 2010s",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/5RNBLNRM",
+        "set_uuid": "cd2f47fe6ac200000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2024-11-08",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmP3xngF948cz66sRDztLdwWdwFh8qdS3KvvCLQs75U79T"
+       },
+       "content-type": "image/png",
+       "sha256": "pGEMvIeEKSyNgs-xVl5pswEf0UiFzh9rEoSZasp9Sac=",
+       "url": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmWWPHe7QXQn93JjpvaV67hpZnuMVKyPDuTJYJx5YvD5JE"
+       },
+       "content-type": "image/png",
+       "sha256": "ONRT47iFRW_NvBNwGd3DYbpkmku5nRVF8l4HP4FDEgg=",
+       "url": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmP3xngF948cz66sRDztLdwWdwFh8qdS3KvvCLQs75U79T"
+       },
+       "content-type": "image/png",
+       "sha256": "pGEMvIeEKSyNgs-xVl5pswEf0UiFzh9rEoSZasp9Sac=",
+       "url": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front.png"
+      }
+     },
+     "issued": "2024-11-08T04:20:28.256036",
+     "name": "Fresh Sweaters Debut LE Pack (Core)",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "pdUs0sqtowbu-T2HkkqZPY6f928zZdCiFIr0eo82QAo=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Celebrate the excitement of a fresh start with the Fresh Sweaters, featuring players making their mark with their new NHL teams. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise. Featuring thrilling plays from Connor McDavid, Rick Nash, Sidney Crosby, Jonathan Toews, Zdeno Chara, Ryan Getzlaf, and more!\r\n\r\nEach pack contains 1 Fresh Sweaters highlight, 1 mystery Core highlight that could be from Across the Pond (50%), Base 2024-25 (25%), or Fresh Sweaters (25%), and 1 mystery highlight that could be from Light the Lamp: Legacy (40%), Base 2024-25 (20%), Fresh Sweaters (20%), Across the Pond (10%), Opening Ice: Elites (6.5%), Opening Ice: Icons (2%), or Cause for a Celly: 2010s (1.5%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Fresh Sweaters Debut LE Pack (Core)",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 5000,
+      "uri": "https://nft.nhlbreakaway.com/series/2bjVQ0b5"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/2bjVQ0b5"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Fresh Sweaters Debut LE Pack (Core)"
+    },
+    "url": "https://nhlbreakaway.com/drop/2bjVQ0b5",
+    "image": "https://nft.nhlbreakaway.com/series/2bjVQ0b5/image-front-16x9.png"
+   },
+   "seriesId": "2bjVQ0b5",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "2bjVQ0b5"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

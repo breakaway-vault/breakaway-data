@@ -1,0 +1,600 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmfD89Un2MPm9a3B7nkax2PajajwfNNwnT6wUavDcDRBgE"
+       },
+       "content-type": "image/png",
+       "sha256": "ev7rFWq6m1n8gSuGV4qLK1WFxQd_AGmsoxKpHG0-uC8=",
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmS21V3HNDkiaxGNNjCJRPvDwbMfCxPAxwHkAdFnM9WD55"
+       },
+       "content-type": "image/png",
+       "sha256": "9wIClhJaXSQpMmi1DcsepuQvCgO4qkMceJlkoY5Ppeo=",
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmaSLagLQepuwZbXMPhzzWdKrRDGrDM4nNcm5Yjb8ocLR1"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/N2RX6A1m/9871890383196127232/card-image.png",
+        "purpose": "card-image",
+        "sha256": "3XORRh4Lu-RCANFjVxnYYqfeLeDp5-2u8S1zPT1n4XQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/N2RX6A1m/9871890383196127232/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPiPhQtmsdWVskBSRTCU71YdiVph9CjguYdxrP9szhSqH"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/N2RX6A1m/9871890383196127232/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "m5FbED2_wUHioK8FXdsbgiv0O-DL7AuPsZ5Ua4xFGWg=",
+        "uri": "https://mediagateway.sweet.io/media/token/N2RX6A1m/9871890383196127232/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmS21V3HNDkiaxGNNjCJRPvDwbMfCxPAxwHkAdFnM9WD55"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/N2RX6A1m/9871890383196127232/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "9wIClhJaXSQpMmi1DcsepuQvCgO4qkMceJlkoY5Ppeo=",
+        "uri": "https://mediagateway.sweet.io/media/token/N2RX6A1m/9871890383196127232/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmfD89Un2MPm9a3B7nkax2PajajwfNNwnT6wUavDcDRBgE"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/N2RX6A1m/9871890383196127232/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "ev7rFWq6m1n8gSuGV4qLK1WFxQd_AGmsoxKpHG0-uC8=",
+        "uri": "https://mediagateway.sweet.io/media/token/N2RX6A1m/9871890383196127232/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": [
+      {
+       "name": "Audio Type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "name": "Date",
+       "value": "2023-06-13"
+      },
+      {
+       "name": "Edition Number",
+       "value": "1"
+      },
+      {
+       "name": "Play",
+       "value": "Goal"
+      },
+      {
+       "name": "Player",
+       "value": "Mark Stone"
+      },
+      {
+       "name": "Rarity",
+       "value": "Limited"
+      },
+      {
+       "name": "Series",
+       "value": "Series 1"
+      },
+      {
+       "name": "Set",
+       "value": "The Hunt for Stanley 2023"
+      },
+      {
+       "name": "Team",
+       "value": "Vegas Golden Knights"
+      },
+      {
+       "name": "Total Editions",
+       "value": "500"
+      },
+      {
+       "name": "Set UUID",
+       "value": "b5c8ae77c33c00000000000000000000"
+      },
+      {
+       "name": "Moment UUID",
+       "value": "b5c8ae77c33c00008900000000000000"
+      },
+      {
+       "name": "Series UUID",
+       "value": "b5c8ae77000000000000000000000000"
+      }
+     ],
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "In Game 5 of the 2023 Stanley Cup Final for Vegas, Mark Stone scored a hat trick and became the first team captain in history to do so in a Cup-clinching game. In his first goal featured in this highlight, it begins on a Vegas penalty kill in the middle of the first period. Stone pounces on a Florida turnover made at the blueline where he picks up the puck in the neutral zone with speed. Now headed on a two-on-one, he displays great patience and awareness with the puck by slowing up and allowing the defender to go down and commit to the pass. Stone then roofs it top shelf over Bobrovsky\u2019s glove for the shorty which is the first goal of the game and tilted the momentum towards Vegas. Stone would later go on to net the hatty with an empty netter in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": "1",
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmfD89Un2MPm9a3B7nkax2PajajwfNNwnT6wUavDcDRBgE"
+      },
+      "content-type": "image/png",
+      "sha256": "ev7rFWq6m1n8gSuGV4qLK1WFxQd_AGmsoxKpHG0-uC8=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmdWaRcbHY4F4SWf3H7VSTu8k8AKwGp2WAsuG9tLZVA28N"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "-2q5ECH0xtM6Oc_td09h5AcA0WDMDYKcFJxEikNo2gU=",
+        "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmfXchwZccxd8cmxwZRDB9GDcaPRdzbUM6ygC14C1C6LMR"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "PJTQX5hcbAVJpeJXOU1md_sF899ZhF_Jhqe1UU8U8a8=",
+        "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmfD89Un2MPm9a3B7nkax2PajajwfNNwnT6wUavDcDRBgE"
+       },
+       "content-type": "image/png",
+       "sha256": "ev7rFWq6m1n8gSuGV4qLK1WFxQd_AGmsoxKpHG0-uC8=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmdWaRcbHY4F4SWf3H7VSTu8k8AKwGp2WAsuG9tLZVA28N"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "-2q5ECH0xtM6Oc_td09h5AcA0WDMDYKcFJxEikNo2gU=",
+         "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmfXchwZccxd8cmxwZRDB9GDcaPRdzbUM6ygC14C1C6LMR"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "PJTQX5hcbAVJpeJXOU1md_sF899ZhF_Jhqe1UU8U8a8=",
+         "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmS21V3HNDkiaxGNNjCJRPvDwbMfCxPAxwHkAdFnM9WD55"
+       },
+       "content-type": "image/png",
+       "sha256": "9wIClhJaXSQpMmi1DcsepuQvCgO4qkMceJlkoY5Ppeo=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmYgtpdJ4QbaBViv4JYjFp2b6xmsxoWrajB6Sd7L73x4Bq"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "yRsKwpoct3HSRFMo1uSo44nXDd-YKmI6oAOG4_yJLsc=",
+         "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmSmwNEC3J41goVmuzv4xXn47GxkVGCbdUEcxTMAqAXEqB"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "DCNPDusjDuQL6k0QQfBl2g78Y2RDZyHKitCXEPcFnkU=",
+         "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9.png"
+      }
+     },
+     "issued": "2023-08-22T03:59:56.570379",
+     "name": "Mark Stone #1",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "zXekS15RDkg1ySRRwzsIrORmlAUrXBzOP3dC1A5bd84=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "sequence_number": 9871890383196127000,
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "In Game 5 of the 2023 Stanley Cup Final for Vegas, Mark Stone scored a hat trick and became the first team captain in history to do so in a Cup-clinching game. In his first goal featured in this highlight, it begins on a Vegas penalty kill in the middle of the first period. Stone pounces on a Florida turnover made at the blueline where he picks up the puck in the neutral zone with speed. Now headed on a two-on-one, he displays great patience and awareness with the puck by slowing up and allowing the defender to go down and commit to the pass. Stone then roofs it top shelf over Bobrovsky\u2019s glove for the shorty which is the first goal of the game and tilted the momentum towards Vegas. Stone would later go on to net the hatty with an empty netter in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Hunt for Stanley 2023",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m/9871890383196127232",
+     "pack_uuid": null,
+     "set_id": 5,
+     "set_uuid": "b5c8ae77c33c00000000000000000000",
+     "moment_id": 35072
+    },
+    "_tokendata": {
+     "owner": "[removed]",
+     "campaign": {
+      "campaign_id": 826,
+      "client": {
+       "name": "NHL",
+       "company": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL",
+      "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+     },
+     "explorer_url": "https://polygonscan.com/token/0x17EB13bA9b94B42e1A10B92fF1B77036C79cCB8A/?a=9871890383196127232",
+     "pack_opened": false,
+     "burned": false,
+     "marketplace_description": null,
+     "sets": null,
+     "crafting_turn_in": false
+    },
+    "_team": {
+     "id": 54,
+     "name": "Vegas Golden Knights",
+     "abbreviation": "VGK",
+     "short_name": "Vegas",
+     "venue_city": "Las Vegas",
+     "venue_name": "T-Mobile Arena",
+     "key": "VegasGoldenKnights",
+     "url": "https://www.nhl.com/goldenknights",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/VegasGoldenKnights.png"
+    },
+    "_moment": {
+     "token_set": {
+      "name": "The Hunt for Stanley 2023",
+      "description": "<p>The Stanley Cup Playoffs are the most grueling and intense postseason in all of sports, and they are a true test of a team's skill, endurance, and mental toughness. The excitement of the playoffs is palpable, with every game feeling like a do-or-die battle for survival. The physicality of the games is ramped up, and every player knows that they have to bring their A-game if they want to advance to the next round. The grind of the playoffs is intense, with teams playing every other night for weeks on end. Injuries can pile up, and exhaustion can set in, but the desire to win the ultimate prize keeps players pushing themselves to their limits. It's a thrilling and exhausting experience that only the best teams are able to survive and emerge victorious.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/31f743ba-fbff-4e81-be0b-e53148557456.jpg",
+        "mime": "image/jpeg"
+       }
+      ],
+      "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m",
+      "uuid": "b5c8ae77c33c00000000000000000000",
+      "rarity": {
+       "name": "Limited",
+       "editions": 500
+      }
+     },
+     "description": "In Game 5 of the 2023 Stanley Cup Final for Vegas, Mark Stone scored a hat trick and became the first team captain in history to do so in a Cup-clinching game. In his first goal featured in this highlight, it begins on a Vegas penalty kill in the middle of the first period. Stone pounces on a Florida turnover made at the blueline where he picks up the puck in the neutral zone with speed. Now headed on a two-on-one, he displays great patience and awareness with the puck by slowing up and allowing the defender to go down and commit to the pass. Stone then roofs it top shelf over Bobrovsky\u2019s glove for the shorty which is the first goal of the game and tilted the momentum towards Vegas. Stone would later go on to net the hatty with an empty netter in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "b5c8ae77c33c00008900000000000000",
+     "badges": [],
+     "token_series": {
+      "name": "Series 1",
+      "description": "<p>Series 1 is the inaugural series of the NHL Breakaway program featuring highlights and collectibles from the 2022-23 and 2023-24 season, and curated plays from the archives that are known as some of the greatest achievements in NHL history.</p>",
+      "assets": [
+       {
+        "purpose": "display-image",
+        "url": "https://nft.nhlbreakaway.com/nhl_token_set/original/31f743ba-fbff-4e81-be0b-e53148557456.jpg",
+        "mime": "image/jpeg"
+       }
+      ],
+      "uuid": "b5c8ae77000000000000000000000000"
+     },
+     "moment_id": 35072,
+     "assets": {
+      "reverse_url": null,
+      "front_image_16x9": {
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "content-type": "image/png",
+        "purpose": "card-image",
+        "uri": "https://mediagateway.sweet.io/media/series/N2RX6A1m/moment/9871890383196127232/card-image.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/N2RX6A1m/moment/9871890383196127232/card-image.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video",
+        "uri": "https://mediagateway.sweet.io/media/series/N2RX6A1m/moment/9871890383196127232/video.mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/N2RX6A1m/moment/9871890383196127232/video.mp4"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-square",
+        "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/N2RX6A1m/moment/9871890383196127232/poster-image-square.png"
+       },
+       {
+        "content-type": "video/mp4",
+        "purpose": "video-square",
+        "uri": "https://mediagateway.sweet.io/media/series/N2RX6A1m/moment/9871890383196127232/poster-image-square.png?r=square",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/N2RX6A1m/moment/9871890383196127232/poster-image-square.png?r=square"
+       },
+       {
+        "content-type": "image/png",
+        "purpose": "poster-image-16x9",
+        "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front-16x9.png",
+        "gateway": "https://mediagateway.sweet.io/gateway/series/N2RX6A1m/moment/9871890383196127232/poster-image-16x9.png"
+       }
+      ],
+      "front_image": {
+       "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/8900/images/front.png"
+      }
+     },
+     "editions": 500,
+     "series": {
+      "rights_info": {
+       "terms_and_conditions": {
+        "sha256": "zXekS15RDkg1ySRRwzsIrORmlAUrXBzOP3dC1A5bd84=",
+        "url": "https://nhlbreakaway.com/terms"
+       },
+       "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved."
+      },
+      "creator": {
+       "name": "SocialSweet Inc.",
+       "uri": "https://sweet.io"
+      },
+      "fees": [
+       {
+        "type": "seller-fee",
+        "recipient_address": "[removed]",
+        "basis_points": 600
+       }
+      ],
+      "images": {
+       "front": {
+        "altloc": {
+         "ipfs": "ipfs://QmfRGX9h47adnYVNL7bMh3YMrn42yvxzLFExAQysWD2oji"
+        },
+        "content-type": "image/jpeg",
+        "sha256": "p-IyAJYmUSYshcaqrYagy1lhjYaBJqX1MGr7dfBQwAc=",
+        "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/image-front.jpg"
+       }
+      },
+      "assets": {
+       "front_image_16x9": null,
+       "reverse_image": null,
+       "front_image": {
+        "altloc": {
+         "ipfs": "ipfs://QmfRGX9h47adnYVNL7bMh3YMrn42yvxzLFExAQysWD2oji"
+        },
+        "content-type": "image/jpeg",
+        "sha256": "p-IyAJYmUSYshcaqrYagy1lhjYaBJqX1MGr7dfBQwAc=",
+        "url": "https://nft.nhlbreakaway.com/series/N2RX6A1m/image-front.jpg"
+       }
+      },
+      "series": {
+       "display_meta": {
+        "creator_campaign_id": 826,
+        "color": "#D0BC86",
+        "is_openable": false,
+        "name": "The Hunt for Stanley 2023",
+        "description": "<p>The Stanley Cup Playoffs are the most grueling and intense postseason in all of sports, and they are a true test of a team's skill, endurance, and mental toughness. The excitement of the playoffs is palpable, with every game feeling like a do-or-die battle for survival. The physicality of the games is ramped up, and every player knows that they have to bring their A-game if they want to advance to the next round. The grind of the playoffs is intense, with teams playing every other night for weeks on end. Injuries can pile up, and exhaustion can set in, but the desire to win the ultimate prize keeps players pushing themselves to their limits. It's a thrilling and exhausting experience that only the best teams are able to survive and emerge victorious.</p>",
+        "creator_campaign": {
+         "name": "NHL",
+         "client": {
+          "name": "NHL",
+          "company": "NHL"
+         },
+         "description": "NHL",
+         "campaign_id": 826
+        },
+        "type": "video",
+        "rarity": {
+         "name": "Tier 1",
+         "rank": 1
+        }
+       },
+       "total_number": null,
+       "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m"
+      },
+      "name": "The Hunt for Stanley 2023",
+      "issued": "2023-08-22T03:59:56.570379",
+      "type": "erc721",
+      "uri": "https://nft.nhlbreakaway.com/series/N2RX6A1m",
+      "network": "matic"
+     },
+     "asset_type": "pack-moment",
+     "name": "Mark Stone",
+     "attributes": {
+      "game": {
+       "game_ends": "FINAL",
+       "venue_location": "Vegas Golden Knights - T-Mobile Arena (Las Vegas, NV)",
+       "final_score": "FLA 3, VGK 9 - FINAL",
+       "venue": {
+        "name": "T-Mobile Arena",
+        "location": "Las Vegas, NV",
+        "team": "VGK"
+       },
+       "away": {
+        "final_score": 3,
+        "team": "FLA"
+       },
+       "home": {
+        "final_score": 9,
+        "team": "VGK"
+       }
+      },
+      "primary_player": {
+       "name": "Mark Stone",
+       "is_rookie": false,
+       "position": "RW",
+       "team": "VGK",
+       "jersey": 61,
+       "status": "NHLPA"
+      },
+      "highlight_type": "Single",
+      "moment": {
+       "date": "2023-06-13",
+       "period": "1st Period",
+       "extra": {
+        "goal_number_this_season": 9
+       },
+       "flags": {
+        "shorthanded_goal": true,
+        "penalty_shot_goal": false,
+        "power_play_goal": false,
+        "star_of_game": true,
+        "game_winning_goal": false,
+        "is_rookie": false,
+        "player_milestone": false,
+        "record_broken": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs FLA | 1st Period | Jun 13, 2023",
+       "clock": "11:52",
+       "event": "Goal"
+      }
+     },
+     "moment_type": {
+      "name": "Nhl video highlight"
+     },
+     "issued": "2023-08-23",
+     "rarity": {
+      "name": "Limited",
+      "sorting_position": 30,
+      "editions": 500
+     }
+    },
+    "_metadata": {
+     "name": "Mark Stone",
+     "description": "In Game 5 of the 2023 Stanley Cup Final for Vegas, Mark Stone scored a hat trick and became the first team captain in history to do so in a Cup-clinching game. In his first goal featured in this highlight, it begins on a Vegas penalty kill in the middle of the first period. Stone pounces on a Florida turnover made at the blueline where he picks up the puck in the neutral zone with speed. Now headed on a two-on-one, he displays great patience and awareness with the puck by slowing up and allowing the defender to go down and commit to the pass. Stone then roofs it top shelf over Bobrovsky\u2019s glove for the shorty which is the first goal of the game and tilted the momentum towards Vegas. Stone would later go on to net the hatty with an empty netter in the third period.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "primary_type": "Nhl video highlight",
+     "editions": 500,
+     "badges": {},
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "FLA",
+        "final_score": 3
+       },
+       "home": {
+        "team": "VGK",
+        "final_score": 9
+       },
+       "venue": {
+        "name": "T-Mobile Arena",
+        "team": "VGK",
+        "location": "Las Vegas, NV"
+       },
+       "game_ends": "FINAL",
+       "final_score": "FLA 3, VGK 9 - FINAL",
+       "venue_location": "Vegas Golden Knights - T-Mobile Arena (Las Vegas, NV)"
+      },
+      "moment": {
+       "date": "2023-06-13",
+       "clock": "11:52",
+       "event": "Goal",
+       "extra": {
+        "goal_number_this_season": 9
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": true,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs FLA | 1st Period | Jun 13, 2023"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Mark Stone",
+       "team": "VGK",
+       "jersey": 61,
+       "status": "NHLPA",
+       "position": "RW",
+       "is_rookie": false
+      }
+     }
+    }
+   },
+   "isOpenable": false,
+   "isPfp": false,
+   "seriesId": "N2RX6A1m",
+   "tokenId": "9871890383196127232",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Mark Stone",
+     "date": "June 13, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/N2RX6A1m/9871890383196127232",
+    "image": "https://mediagateway.sweet.io/media/token/N2RX6A1m/9871890383196127232/poster-image-16x9.png"
+   },
+   "momentUuid": "b5c8ae77c33c00008900000000000000"
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/[token_id]",
+ "query": {
+  "series_id": "N2RX6A1m",
+  "token_id": "9871890383196127232"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

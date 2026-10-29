@@ -1,0 +1,503 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Wayne Gretzky",
+     "description": "On December 30, 1981, Wayne Gretzky delivered a performance for the ages, etching his name even deeper into hockey history. Facing the Philadelphia Flyers at Northlands Coliseum, Gretzky erupted for an incredible five-goal night, reaching the unprecedented milestone of 50 goals in just 39 games. Each goal told a story: his first two came in the opening period to set the tone, his third helped Edmonton reclaim a two-goal advantage in the second, his fourth\u2014the game-winning goal\u2014highlighted his clutch play, and his fifth, an empty-netter with seconds remaining, sent the Edmonton Oilers faithful into a frenzy as \"The Great One\" shattered the NHL\u2019s previous record of 50 goals in 50 games.  \r\nAt just 20 years old, Gretzky\u2019s achievement showcased his unparalleled scoring ability, vision, and dominance over the game. That season, he would go on to set a staggering 92-goal record, solidifying his place as one of hockey's most extraordinary talents. Gretzky\u2019s 50-in-39 remains a defining moment in the sport\u2019s history\u2014a feat that redefined the limits of greatness and further established his legacy as a generational icon.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 3",
+     "set_name": "The Greatest Achievements",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Legendary",
+     "editions": 10,
+     "badges": {
+      "#1 Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/ef88c6f2-1866-4952-9493-6399c25de60b.png",
+      "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "Perfect Edition": "https://nft.nhlbreakaway.com/collectible_icon/original/0860bc55-4e28-455a-835d-069e3f8743bc.png",
+      "Record Breaker": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/0baa7618-942f-4f4c-8f87-71c3a2e977b6.png",
+      "Seasonal Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/51e8b22a-2d66-4469-b09d-e8fec37e68d8.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "video_overlay_text": "Goal vs PHI | 1st Period | Dec 30, 1981",
+     "team": "EDM",
+     "player_name": "Wayne Gretzky",
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "PHI",
+        "final_score": 5
+       },
+       "home": {
+        "team": "EDM",
+        "final_score": 7
+       },
+       "venue": {
+        "name": "Northlands Coliseum",
+        "team": "EDM",
+        "location": "Edmonton, AB"
+       },
+       "game_ends": "FINAL",
+       "final_score": "PHI 5, EDM 7 - FINAL",
+       "venue_location": "Edmonton Oilers - Northlands Coliseum (Edmonton, AB)"
+      },
+      "moment": {
+       "date": "1981-12-30",
+       "clock": "7:47",
+       "event": "Goal",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": false,
+        "record_broken": true,
+        "power_play_goal": true,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": true,
+        "penalty_shot_goal": false
+       },
+       "period": "1st Period",
+       "audio_type": "Voice Over Commentary",
+       "video_overlay_text": "Goal vs PHI | 1st Period | Dec 30, 1981"
+      },
+      "extra_moments": {
+       "0": {
+        "date": "1981-12-30",
+        "clock": "10:12",
+        "event": "Goal",
+        "period": "1st Period",
+        "video_overlay_text": "Goal vs PHI | 1st Period | Dec 30, 1981"
+       },
+       "1": {
+        "date": "1981-12-30",
+        "clock": "3:54",
+        "event": "Goal",
+        "period": "2nd Period",
+        "video_overlay_text": "Goal vs PHI | 2nd Period | Dec 30, 1981"
+       }
+      },
+      "highlight_type": "Multi",
+      "primary_player": {
+       "name": "Wayne Gretzky",
+       "team": "EDM",
+       "jersey": 99,
+       "status": "NHLAA",
+       "position": "C",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Scores 50 Goals in 39 Games"
+     }
+    },
+    "_badges": {
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+     "Multi-Highlight": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+     "Seasonal Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/51e8b22a-2d66-4469-b09d-e8fec37e68d8.png",
+     "Record Breaker": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/0baa7618-942f-4f4c-8f87-71c3a2e977b6.png",
+     "Award Year": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Multi-Highlight",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "description": "Highlights that feature more than one unique play"
+     },
+     {
+      "name": "Seasonal Milestone",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/51e8b22a-2d66-4469-b09d-e8fec37e68d8.png",
+      "description": "Highlights that feature the primary player achieving a seasonal milestone."
+     },
+     {
+      "name": "Record Breaker",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/0baa7618-942f-4f4c-8f87-71c3a2e977b6.png",
+      "description": "Highlights that feature the primary player breaking a seasonal, or career record."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     },
+     {
+      "name": "Multi-Highlight",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/7850e10f-4734-4ee8-91f5-3a070f01cec7.png",
+      "description": "Highlights that feature more than one unique play"
+     },
+     {
+      "name": "Seasonal Milestone",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/51e8b22a-2d66-4469-b09d-e8fec37e68d8.png",
+      "description": "Highlights that feature the primary player achieving a seasonal milestone."
+     },
+     {
+      "name": "Record Breaker",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/0baa7618-942f-4f4c-8f87-71c3a2e977b6.png",
+      "description": "Highlights that feature the primary player breaking a seasonal, or career record."
+     },
+     {
+      "name": "Award Year",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/f20fb5d5-ac20-4b22-98a7-0777db3b4213.png",
+      "description": "Highlights from a season the primary player won a trophy or award."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 22,
+     "name": "Edmonton Oilers",
+     "abbreviation": "EDM",
+     "short_name": "Edmonton",
+     "venue_city": "Edmonton",
+     "venue_name": "Rogers Place",
+     "key": "EdmontonOilers",
+     "url": "https://www.nhl.com/oilers",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/EdmontonOilers.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg/12300456482255667203",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmTUub6VXPnYxZcDkt3rnFDdsKQfoATQRUBXsqzeLwFtnY"
+       },
+       "content-type": "image/png",
+       "sha256": "omsTngdwR1NgZdCrJS4Ihw-WRG_aqNbO0hhT1OI3Ax0=",
+       "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmW3xRJytf7cJn8LpiGXp1wfC9iqnYNj7CQQUMhE3n3HPT"
+       },
+       "content-type": "image/png",
+       "sha256": "eYzNVI_mh6vLn84bKegScpJSkuF19wbxDJoNFWR0J_8=",
+       "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmcGUHyPs1bURkHTUUK6geJFHimJBF5qxgF3kfQQYhEAqM"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Y13a5eRg/12300456482255667203/card-image.png",
+        "purpose": "card-image",
+        "sha256": "76VaGcQ-WRcsFFwtkL7kWvBROpVkIZWsHk8nQjnYMCY=",
+        "uri": "https://mediagateway.sweet.io/media/token/Y13a5eRg/12300456482255667203/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmWhtxe4yP8fEd1eRyXjC5AH3d5UBPyLkWDCMHCgwZ7R12"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Y13a5eRg/12300456482255667203/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "ZjSdCkMAe8XbUqMMXLGEGps5LsuwsDFvdESFHUp-Ers=",
+        "uri": "https://mediagateway.sweet.io/media/token/Y13a5eRg/12300456482255667203/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmW3xRJytf7cJn8LpiGXp1wfC9iqnYNj7CQQUMhE3n3HPT"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Y13a5eRg/12300456482255667203/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "eYzNVI_mh6vLn84bKegScpJSkuF19wbxDJoNFWR0J_8=",
+        "uri": "https://mediagateway.sweet.io/media/token/Y13a5eRg/12300456482255667203/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmTUub6VXPnYxZcDkt3rnFDdsKQfoATQRUBXsqzeLwFtnY"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/Y13a5eRg/12300456482255667203/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "omsTngdwR1NgZdCrJS4Ihw-WRG_aqNbO0hhT1OI3Ax0=",
+        "uri": "https://mediagateway.sweet.io/media/token/Y13a5eRg/12300456482255667203/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Voice Over Commentary",
+      "date": "1981-12-30",
+      "edition-number": "4",
+      "moment-uuid": "b572cf35a62c0000aab4000000000000",
+      "play": "Goal",
+      "player": "Wayne Gretzky",
+      "rarity": "Legendary",
+      "series": "Series 3",
+      "series-uuid": "b572cf35000000000000000000000000",
+      "set": "The Greatest Achievements",
+      "set-uuid": "b572cf35a62c00000000000000000000",
+      "team": "Edmonton Oilers",
+      "total-editions": "10"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "On December 30, 1981, Wayne Gretzky delivered a performance for the ages, etching his name even deeper into hockey history. Facing the Philadelphia Flyers at Northlands Coliseum, Gretzky erupted for an incredible five-goal night, reaching the unprecedented milestone of 50 goals in just 39 games. Each goal told a story: his first two came in the opening period to set the tone, his third helped Edmonton reclaim a two-goal advantage in the second, his fourth\u2014the game-winning goal\u2014highlighted his clutch play, and his fifth, an empty-netter with seconds remaining, sent the Edmonton Oilers faithful into a frenzy as \"The Great One\" shattered the NHL\u2019s previous record of 50 goals in 50 games.  \r\nAt just 20 years old, Gretzky\u2019s achievement showcased his unparalleled scoring ability, vision, and dominance over the game. That season, he would go on to set a staggering 92-goal record, solidifying his place as one of hockey's most extraordinary talents. Gretzky\u2019s 50-in-39 remains a defining moment in the sport\u2019s history\u2014a feat that redefined the limits of greatness and further established his legacy as a generational icon.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 4,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmTUub6VXPnYxZcDkt3rnFDdsKQfoATQRUBXsqzeLwFtnY"
+      },
+      "content-type": "image/png",
+      "sha256": "omsTngdwR1NgZdCrJS4Ihw-WRG_aqNbO0hhT1OI3Ax0=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmUqjmtxsFqdfgoFUejMfWrfi4u5p8tAaZ9ZQjxt6FJGUo"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "v-9qfZabjYErYMVK9ud5WluHhj_iJ7AWhxT6F2bvRhc=",
+        "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmUJvd7DVcdxHAGUyg8q2wtxCbLr8Rv5Ls5UpTyiEC83fB"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "hZD6Ab8cRFT_8Blzk1vxh4uWLk1NJJpFkVDEmBYZoac=",
+        "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmTUub6VXPnYxZcDkt3rnFDdsKQfoATQRUBXsqzeLwFtnY"
+       },
+       "content-type": "image/png",
+       "sha256": "omsTngdwR1NgZdCrJS4Ihw-WRG_aqNbO0hhT1OI3Ax0=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmUqjmtxsFqdfgoFUejMfWrfi4u5p8tAaZ9ZQjxt6FJGUo"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "v-9qfZabjYErYMVK9ud5WluHhj_iJ7AWhxT6F2bvRhc=",
+         "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmUJvd7DVcdxHAGUyg8q2wtxCbLr8Rv5Ls5UpTyiEC83fB"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "hZD6Ab8cRFT_8Blzk1vxh4uWLk1NJJpFkVDEmBYZoac=",
+         "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmW3xRJytf7cJn8LpiGXp1wfC9iqnYNj7CQQUMhE3n3HPT"
+       },
+       "content-type": "image/png",
+       "sha256": "eYzNVI_mh6vLn84bKegScpJSkuF19wbxDJoNFWR0J_8=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmXtRwZhA3ZygXbTU4ZQau5SAgYSuVW2JDXwgbVbvC95qP"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "k3XR6NnMc2MaGbNw_QqOH9qZrpMcjElk6WcL2Fvjwno=",
+         "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmXvsubd7zjno3by3hYpkTyi1S7Wo1yowppjsv2TZCQBte"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "Lslv17Prs8U3Utq7be2Xc_v0HbG4dITh6j_d6GMM7Ww=",
+         "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/Y13a5eRg/aab4/images/front-16x9.png"
+      }
+     },
+     "issued": "2025-10-06T15:52:52.953480",
+     "name": "Wayne Gretzky #4",
+     "network": "matic",
+     "sequence_number": "12300456482255667203",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "On December 30, 1981, Wayne Gretzky delivered a performance for the ages, etching his name even deeper into hockey history. Facing the Philadelphia Flyers at Northlands Coliseum, Gretzky erupted for an incredible five-goal night, reaching the unprecedented milestone of 50 goals in just 39 games. Each goal told a story: his first two came in the opening period to set the tone, his third helped Edmonton reclaim a two-goal advantage in the second, his fourth\u2014the game-winning goal\u2014highlighted his clutch play, and his fifth, an empty-netter with seconds remaining, sent the Edmonton Oilers faithful into a frenzy as \"The Great One\" shattered the NHL\u2019s previous record of 50 goals in 50 games.  \r\nAt just 20 years old, Gretzky\u2019s achievement showcased his unparalleled scoring ability, vision, and dominance over the game. That season, he would go on to set a staggering 92-goal record, solidifying his place as one of hockey's most extraordinary talents. Gretzky\u2019s 50-in-39 remains a defining moment in the sport\u2019s history\u2014a feat that redefined the limits of greatness and further established his legacy as a generational icon.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "The Greatest Achievements",
+       "rarity": {
+        "name": "Tier 4",
+        "rank": 4
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/Y13a5eRg",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Wayne Gretzky #4",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Voice Over Commentary"
+      },
+      {
+       "key": "date",
+       "value": "1981-12-30"
+      },
+      {
+       "key": "edition-number",
+       "value": "4"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b572cf35a62c0000aab4000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Wayne Gretzky"
+      },
+      {
+       "key": "rarity",
+       "value": "Legendary"
+      },
+      {
+       "key": "series",
+       "value": "Series 3"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b572cf35000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "The Greatest Achievements"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b572cf35a62c00000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Edmonton Oilers"
+      },
+      {
+       "key": "total-editions",
+       "value": "10"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b572cf35a62c0000aab4000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/ABE4l5Xq",
+       "listing_id": "ABE4l5Xq",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 670,
+       "starts_at": "2026-08-28T01:28:19",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0xBAc171014bFaA8F251428D1Bcaea672657b3d02d/?a=12300456482255667203",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "Y13a5eRg",
+   "momentUuid": "b572cf35a62c0000aab4000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Wayne Gretzky",
+     "date": "December 30, 1981"
+    },
+    "url": "https://nhlbreakaway.com/series/Y13a5eRg/highlight/b572cf35a62c0000aab4000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/Y13a5eRg/12300456482255667203/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "Y13a5eRg",
+  "moment_uuid": "b572cf35a62c0000aab4000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

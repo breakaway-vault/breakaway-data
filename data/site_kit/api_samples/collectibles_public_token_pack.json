@@ -1,0 +1,757 @@
+{
+ "endpoint": "/collectibles/public/token/https%3A%2F%2Fnft.nhlbreakaway.com%2Fseries%2F8R5xYdbD%2F11524992921417809920",
+ "http": 200,
+ "response": {
+  "_doc": {
+   "assets": {
+    "front_image": {
+     "altloc": {
+      "ipfs": "ipfs://QmdH1kx2C3Wd86zsfVxnXF31JnD3e7pFXDbm3gHnjkoC8E"
+     },
+     "content-type": "image/png",
+     "sha256": "vVikKhZx3Omsypf8WZvDYMcZd2leo9bvZfi2LcrUyec=",
+     "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png"
+    },
+    "front_image_16x9": {
+     "altloc": {
+      "ipfs": "ipfs://QmdKLGcB3EjGyrVWqcJE211TPRBQtXziDFRuHUf4gpgB9J"
+     },
+     "content-type": "image/png",
+     "sha256": "k_TN0F_UCYfW5xoNA0EdCWapSFdV4ReF8kx_-qkwJqM=",
+     "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-16x9.png"
+    },
+    "reverse_image": null
+   },
+   "attributes": [
+    {
+     "name": "Edition Number",
+     "value": "1"
+    },
+    {
+     "name": "Highlights in Pack",
+     "value": "4"
+    },
+    {
+     "name": "Rarity",
+     "value": "Core"
+    },
+    {
+     "name": "Series",
+     "value": "Series 3"
+    },
+    {
+     "name": "Total Editions",
+     "value": "2500"
+    },
+    {
+     "name": "pack digest",
+     "value": "wWMCxWhxXTOOse8neRgeuBnSQ2g2XQaEGG8AwLpsJqQ="
+    },
+    {
+     "name": "pack-uuid",
+     "value": "b572cf35000000009ff1000000000000"
+    },
+    {
+     "name": "primary type",
+     "value": "pack"
+    }
+   ],
+   "creator": {
+    "name": "SocialSweet Inc.",
+    "uri": "https://sweet.io"
+   },
+   "edition_number": "1",
+   "fees": [
+    {
+     "basis_points": 600,
+     "recipient_address": "[removed]",
+     "type": "seller-fee"
+    }
+   ],
+   "image": {
+    "altloc": {
+     "ipfs": "ipfs://QmdH1kx2C3Wd86zsfVxnXF31JnD3e7pFXDbm3gHnjkoC8E"
+    },
+    "content-type": "image/png",
+    "sha256": "vVikKhZx3Omsypf8WZvDYMcZd2leo9bvZfi2LcrUyec=",
+    "thumbnail": {
+     "350": {
+      "altloc": {
+       "ipfs": "ipfs://QmU6pbdzy4hVi9zLBTuViPNzk3HQqNTe5JjFbADdHVhcGn"
+      },
+      "content-type": "image/png",
+      "height": 350,
+      "sha256": "_bpjVmNHn-vX6Wcybf9n9qsfKVWWvY1TrR_7B0Wt_R4=",
+      "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-350x.png",
+      "width": 350
+     },
+     "500": {
+      "altloc": {
+       "ipfs": "ipfs://QmW6vgB3kysofXWyeW61bGFvCgjcriKTnG83KLCxers7qQ"
+      },
+      "content-type": "image/png",
+      "height": 500,
+      "sha256": "UepQNBKJC4i39LAI2cqxFkVxxsTIEiE0JWtv8sHlfQE=",
+      "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-500x.png",
+      "width": 500
+     }
+    },
+    "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png"
+   },
+   "images": {
+    "front": {
+     "altloc": {
+      "ipfs": "ipfs://QmdH1kx2C3Wd86zsfVxnXF31JnD3e7pFXDbm3gHnjkoC8E"
+     },
+     "content-type": "image/png",
+     "sha256": "vVikKhZx3Omsypf8WZvDYMcZd2leo9bvZfi2LcrUyec=",
+     "thumbnail": {
+      "350": {
+       "altloc": {
+        "ipfs": "ipfs://QmU6pbdzy4hVi9zLBTuViPNzk3HQqNTe5JjFbADdHVhcGn"
+       },
+       "content-type": "image/png",
+       "height": 350,
+       "sha256": "_bpjVmNHn-vX6Wcybf9n9qsfKVWWvY1TrR_7B0Wt_R4=",
+       "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-350x.png",
+       "width": 350
+      },
+      "500": {
+       "altloc": {
+        "ipfs": "ipfs://QmW6vgB3kysofXWyeW61bGFvCgjcriKTnG83KLCxers7qQ"
+       },
+       "content-type": "image/png",
+       "height": 500,
+       "sha256": "UepQNBKJC4i39LAI2cqxFkVxxsTIEiE0JWtv8sHlfQE=",
+       "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front-500x.png",
+       "width": 500
+      }
+     },
+     "url": "https://nft.nhlbreakaway.com/series/8R5xYdbD/image-front.png"
+    }
+   },
+   "issued": "2026-08-27T18:48:46.335433",
+   "name": "Series 3 Grand Finale Pack #1",
+   "network": "matic",
+   "rights_info": {
+    "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+    "terms_and_conditions": {
+     "sha256": "ecDnlxL5PWu8LuyjcTxXAL5ZR_lnPMzgL5OIe7LXLcE=",
+     "url": "https://nhlbreakaway.com/terms"
+    }
+   },
+   "sequence_number": 11524992921417809920,
+   "series": {
+    "display_meta": {
+     "color": "#D0BC86",
+     "creator_campaign": {
+      "campaign_id": 826,
+      "client": {
+       "company": "NHL",
+       "name": "NHL"
+      },
+      "description": "NHL",
+      "name": "NHL"
+     },
+     "creator_campaign_id": 826,
+     "description": "Close out Series 3 with the Series 3 Grand Finale Pack! \r\nEach pack contains highlights from some of the most popular sets of Series 3 and includes the chance to pull some of the most iconic highlights from Making the Mark 2025-26, Opening Ice: 2025-26, Conn Smythe Showcase, as well as the last two Ice Vault Mythic highlights from Series 3 -- Leo Carlsson and Jack Hughes! \r\nEach pack contains 1 highlight from Base 2025-26 (100%); 1 highlight from Ice Nation (100%), 1 mystery highlight that could be from Rinkside Rivalries (40%), Fresh Sweaters 2025-26 (20%), or Playoff Bound 2026 (40%); and 1 mystery highlight that could be from Base 2025-26 (75%), Next-Gen Class 2025-26 (12.76%), Opening Ice 2025-26 (8%), Making the Mark 2025-26 (2%), Conn Smythe Showcase (2%), The Greatest Achievements (0.04%), or Ice Vault (0.2%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "is_openable": true,
+     "name": "Series 3 Grand Finale Pack",
+     "rarity": {
+      "name": "Tier 1",
+      "rank": 1
+     },
+     "type": "image"
+    },
+    "total_number": 2500,
+    "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD"
+   },
+   "type": "erc721",
+   "uri": "https://nft.nhlbreakaway.com/series/8R5xYdbD/11524992921417809920",
+   "pack_uuid": "b572cf35000000009ff1000000000000",
+   "set_id": null,
+   "set_uuid": null,
+   "moment_id": 40945
+  },
+  "_tokendata": {
+   "owner": "[removed]",
+   "campaign": {
+    "campaign_id": 826,
+    "client": {
+     "name": "NHL",
+     "company": "NHL"
+    },
+    "description": "NHL",
+    "name": "NHL",
+    "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+   },
+   "explorer_url": "https://polygonscan.com/token/0x928eaAcbDBB28c43B37bD1B1DDB93d590c3679d5/?a=11524992921417809920",
+   "pack_opened": false,
+   "burned": true,
+   "marketplace_description": null,
+   "sets": null,
+   "crafting_turn_in": false
+  },
+  "_metadata": {
+   "name": "Series 3 Grand Finale Pack",
+   "description": "Close out Series 3 with the Series 3 Grand Finale Pack! \r\nEach pack contains highlights from some of the most popular sets of Series 3 and includes the chance to pull some of the most iconic highlights from Making the Mark 2025-26, Opening Ice: 2025-26, Conn Smythe Showcase, as well as the last two Ice Vault Mythic highlights from Series 3 -- Leo Carlsson and Jack Hughes! \r\nEach pack contains 1 highlight from Base 2025-26 (100%); 1 highlight from Ice Nation (100%), 1 mystery highlight that could be from Rinkside Rivalries (40%), Fresh Sweaters 2025-26 (20%), or Playoff Bound 2026 (40%); and 1 mystery highlight that could be from Base 2025-26 (75%), Next-Gen Class 2025-26 (12.76%), Opening Ice 2025-26 (8%), Making the Mark 2025-26 (2%), Conn Smythe Showcase (2%), The Greatest Achievements (0.04%), or Ice Vault (0.2%).\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+   "series_name": "Series 3",
+   "series_description": "<p>Series 3 is the third series of the NHL Breakaway program featuring highlights and collectibles from the 2025-26 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+   "number_of_moments": 4,
+   "number_of_packs": 2500,
+   "moment_keys": [
+    "a32a1f673a4a4ebbabe921de2dd3a80d",
+    "d200f221461a4724a526532b34754d99",
+    "7e2b4cbaec9e4ac9869fb4c12061444b",
+    "3263d90737004f5e92911f783e663e24"
+   ],
+   "moments": {
+    "7e2b4cbaec9e4ac9869fb4c12061444b": [
+     {
+      "type": "set",
+      "name": "Base 2025-26",
+      "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+      "rarity": [
+       "Core"
+      ],
+      "probability": {
+       "limit": 2500,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35ea800000b141000000000000",
+       "b572cf35ea800000ba40000000000000",
+       "b572cf35ea800000ad9f000000000000",
+       "b572cf35ea80000080f9000000000000",
+       "b572cf35ea8000009812000000000000",
+       "b572cf35ea800000a032000000000000",
+       "b572cf35ea800000a4e3000000000000",
+       "b572cf35ea800000ad14000000000000",
+       "b572cf35ea8000009ed0000000000000",
+       "b572cf35ea800000a11e000000000000",
+       "b572cf35ea80000087e8000000000000",
+       "b572cf35ea80000087a6000000000000",
+       "b572cf35ea8000009272000000000000",
+       "b572cf35ea800000afed000000000000",
+       "b572cf35ea800000b415000000000000",
+       "b572cf35ea800000a529000000000000",
+       "b572cf35ea8000009901000000000000",
+       "b572cf35ea8000009265000000000000",
+       "b572cf35ea800000a2e9000000000000",
+       "b572cf35ea8000009e00000000000000",
+       "b572cf35ea8000008758000000000000",
+       "b572cf35ea800000bbda000000000000",
+       "b572cf35ea8000009be5000000000000",
+       "b572cf35ea8000009482000000000000",
+       "b572cf35ea800000bf51000000000000",
+       "b572cf35ea800000be36000000000000",
+       "b572cf35ea800000b025000000000000",
+       "b572cf35ea800000b1df000000000000",
+       "b572cf35ea800000a0bb000000000000",
+       "b572cf35ea8000008dce000000000000",
+       "b572cf35ea8000009581000000000000",
+       "b572cf35ea800000817a000000000000",
+       "b572cf35ea800000aab5000000000000",
+       "b572cf35ea8000008197000000000000",
+       "b572cf35ea8000008f6e000000000000",
+       "b572cf35ea8000008d16000000000000",
+       "b572cf35ea800000bc25000000000000",
+       "b572cf35ea800000bb45000000000000",
+       "b572cf35ea800000824a000000000000",
+       "b572cf35ea80000098ba000000000000"
+      ]
+     }
+    ],
+    "a32a1f673a4a4ebbabe921de2dd3a80d": [
+     {
+      "type": "set",
+      "name": "Ice Nation (Series 3)",
+      "description": "<p>Ice Nation celebrates the game at its most electrifying. Featuring stars from across the league, this Fandom-tier set captures jaw-dropping saves, highlight-reel goals, and moments of pure, unbelievable skill from the 2025&ndash;26 regular season. A collection of exciting moments from the season that showcase the skill and star power across the league.</p>",
+      "rarity": [
+       "Fandom"
+      ],
+      "probability": {
+       "limit": 2500,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35f5200000a09d000000000000",
+       "b572cf35f52000008132000000000000",
+       "b572cf35f52000009a59000000000000",
+       "b572cf35f5200000ba26000000000000",
+       "b572cf35f5200000b6f5000000000000",
+       "b572cf35f52000009cbd000000000000",
+       "b572cf35f52000008d08000000000000",
+       "b572cf35f5200000bec7000000000000",
+       "b572cf35f5200000a49d000000000000",
+       "b572cf35f5200000befc000000000000",
+       "b572cf35f52000008853000000000000",
+       "b572cf35f5200000b279000000000000",
+       "b572cf35f5200000b65a000000000000"
+      ]
+     }
+    ],
+    "d200f221461a4724a526532b34754d99": [
+     {
+      "type": "set",
+      "name": "Rinkside Rivalries",
+      "description": "<p>Rinkside Rivalries is a Core set that dives into hockey at its most intense, spotlighting six of the <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span>&rsquo;s most storied rivalries across some of their most emotional moments. Each rivalry is represented by one goal per team, featuring dramatic overtime tallies, massive momentum shifters, and clutch game-winners that silenced arenas and ignited fanbases&mdash;no matter the stage.</p>",
+      "rarity": [
+       "Core"
+      ],
+      "probability": {
+       "limit": 1000,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35aad400008137000000000000",
+       "b572cf35aad40000b2db000000000000",
+       "b572cf35aad4000094b2000000000000",
+       "b572cf35aad40000a173000000000000",
+       "b572cf35aad40000973a000000000000",
+       "b572cf35aad40000b1c6000000000000",
+       "b572cf35aad40000bb41000000000000",
+       "b572cf35aad4000082bb000000000000",
+       "b572cf35aad4000093e0000000000000",
+       "b572cf35aad40000be7c000000000000",
+       "b572cf35aad40000afd0000000000000",
+       "b572cf35aad40000b0ba000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Playoff Bound 2026",
+      "description": "<p>Get ready for the playoffs with <em>Playoff Bound 2026</em>! This Core set features one standout highlight from each playoff-bound team&rsquo;s regular season, capturing memorable moments that defined their journey. From clutch goals to jaw-dropping saves, relive the excitement as teams enter the post-season!</p>",
+      "rarity": [
+       "Core"
+      ],
+      "probability": {
+       "limit": 1000,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf355f510000a619000000000000",
+       "b572cf355f510000a029000000000000",
+       "b572cf355f5100008a28000000000000",
+       "b572cf355f510000a70c000000000000",
+       "b572cf355f510000b209000000000000",
+       "b572cf355f510000a526000000000000",
+       "b572cf355f510000b101000000000000",
+       "b572cf355f510000bf4c000000000000",
+       "b572cf355f510000bed6000000000000",
+       "b572cf355f510000a7a3000000000000",
+       "b572cf355f5100008d1a000000000000",
+       "b572cf355f510000ac36000000000000",
+       "b572cf355f5100008797000000000000",
+       "b572cf355f510000b3ed000000000000",
+       "b572cf355f510000924b000000000000",
+       "b572cf355f5100009bd5000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Fresh Sweaters 2025-26",
+      "description": "<p>Celebrate the excitement of a fresh start with the&nbsp;<strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Fresh Sweaters 2025-26</em></strong>&nbsp;Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+      "rarity": [
+       "Core"
+      ],
+      "probability": {
+       "limit": 500,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf353aed0000a953000000000000",
+       "b572cf353aed00009067000000000000",
+       "b572cf353aed000095b2000000000000",
+       "b572cf353aed0000aa74000000000000",
+       "b572cf353aed000088d0000000000000",
+       "b572cf353aed00008c5b000000000000",
+       "b572cf353aed00009070000000000000",
+       "b572cf353aed00009016000000000000",
+       "b572cf353aed00008215000000000000",
+       "b572cf353aed0000b48c000000000000",
+       "b572cf353aed0000ad89000000000000",
+       "b572cf353aed0000beca000000000000",
+       "b572cf353aed00008b79000000000000",
+       "b572cf353aed0000bf60000000000000",
+       "b572cf353aed00008433000000000000",
+       "b572cf353aed0000bc17000000000000"
+      ]
+     }
+    ],
+    "3263d90737004f5e92911f783e663e24": [
+     {
+      "type": "set",
+      "name": "Base 2025-26",
+      "description": "<p>Gear up for a season-long thrill ride with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Base 2025-26</em></strong>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight brings you the very best of hockey action!</p>",
+      "rarity": [
+       "Core"
+      ],
+      "probability": {
+       "limit": 1875,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35ea800000b141000000000000",
+       "b572cf35ea800000ba40000000000000",
+       "b572cf35ea800000ad9f000000000000",
+       "b572cf35ea80000080f9000000000000",
+       "b572cf35ea8000009812000000000000",
+       "b572cf35ea800000a032000000000000",
+       "b572cf35ea800000a4e3000000000000",
+       "b572cf35ea800000ad14000000000000",
+       "b572cf35ea8000009ed0000000000000",
+       "b572cf35ea800000a11e000000000000",
+       "b572cf35ea80000087e8000000000000",
+       "b572cf35ea80000087a6000000000000",
+       "b572cf35ea8000009272000000000000",
+       "b572cf35ea800000afed000000000000",
+       "b572cf35ea800000b415000000000000",
+       "b572cf35ea800000a529000000000000",
+       "b572cf35ea8000009901000000000000",
+       "b572cf35ea8000009265000000000000",
+       "b572cf35ea800000a2e9000000000000",
+       "b572cf35ea8000009e00000000000000",
+       "b572cf35ea8000008758000000000000",
+       "b572cf35ea800000bbda000000000000",
+       "b572cf35ea8000009be5000000000000",
+       "b572cf35ea8000009482000000000000",
+       "b572cf35ea800000bf51000000000000",
+       "b572cf35ea800000be36000000000000",
+       "b572cf35ea800000b025000000000000",
+       "b572cf35ea800000b1df000000000000",
+       "b572cf35ea800000a0bb000000000000",
+       "b572cf35ea8000008dce000000000000",
+       "b572cf35ea8000009581000000000000",
+       "b572cf35ea800000817a000000000000",
+       "b572cf35ea800000aab5000000000000",
+       "b572cf35ea8000008197000000000000",
+       "b572cf35ea8000008f6e000000000000",
+       "b572cf35ea8000008d16000000000000",
+       "b572cf35ea800000bc25000000000000",
+       "b572cf35ea800000bb45000000000000",
+       "b572cf35ea800000824a000000000000",
+       "b572cf35ea80000098ba000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Next-Gen Class 2025-26",
+      "description": "<p>Elevate your collection with the&nbsp;<em data-stringify-type=\"italic\">Next-Gen Class 2025-26</em>&nbsp;set, spotlighting young players already making waves as contributors to their teams. Although no longer rookies, they look to represent part of the future. These highlights showcase the skills and impact of these up-and-coming stars as they strive to shape their franchise's future.</p>",
+      "rarity": [
+       "Limited"
+      ],
+      "probability": {
+       "limit": 319,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf354eaf0000935e000000000000",
+       "b572cf354eaf00008e6e000000000000",
+       "b572cf354eaf0000800e000000000000",
+       "b572cf354eaf0000bd4e000000000000",
+       "b572cf354eaf0000a0f7000000000000",
+       "b572cf354eaf00009765000000000000",
+       "b572cf354eaf00008692000000000000",
+       "b572cf354eaf0000b0cb000000000000",
+       "b572cf354eaf0000a8a7000000000000",
+       "b572cf354eaf0000b384000000000000",
+       "b572cf354eaf0000a8b3000000000000",
+       "b572cf354eaf00008327000000000000",
+       "b572cf354eaf000083a4000000000000",
+       "b572cf354eaf0000b209000000000000",
+       "b572cf354eaf0000bba3000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Opening Ice 2025-26",
+      "description": "<p>Collect history with <strong data-stringify-type=\"bold\"><em data-stringify-type=\"italic\">Opening Ice 2025-26</em></strong>&nbsp;Rare set. This seasonal installment that chronicles the first NHL career milestones from from highly-anticipated 2025-26 rookies. Featuring first goals and first wins, these highlights capture moments these players will always remember as they forge their future in the league.</p>",
+      "rarity": [
+       "Rare"
+      ],
+      "probability": {
+       "limit": 200,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf3537d00000835f000000000000",
+       "b572cf3537d00000a5ef000000000000",
+       "b572cf3537d00000b01d000000000000",
+       "b572cf3537d00000a22a000000000000",
+       "b572cf3537d000009d4c000000000000",
+       "b572cf3537d00000a84d000000000000",
+       "b572cf3537d0000098bc000000000000",
+       "b572cf3537d00000802d000000000000",
+       "b572cf3537d00000879f000000000000",
+       "b572cf3537d00000a00d000000000000",
+       "b572cf3537d00000be07000000000000",
+       "b572cf3537d0000082a8000000000000",
+       "b572cf3537d00000bb11000000000000",
+       "b572cf3537d00000a0f9000000000000",
+       "b572cf3537d000008e7b000000000000",
+       "b572cf3537d00000a876000000000000",
+       "b572cf3537d00000b4da000000000000",
+       "b572cf3537d000009ab2000000000000",
+       "b572cf3537d00000aff0000000000000",
+       "b572cf3537d00000ba0d000000000000",
+       "b572cf3537d00000a852000000000000",
+       "b572cf3537d00000af40000000000000",
+       "b572cf3537d00000b9bb000000000000",
+       "b572cf3537d00000a954000000000000",
+       "b572cf3537d00000aeeb000000000000",
+       "b572cf3537d0000097c4000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Making the Mark 2025-26",
+      "description": "<p><em><span style=\"font-weight: 400;\">Making the Mark 2025-26 </span></em><span style=\"font-weight: 400;\">celebrates extraordinary single-season and career milestones from this season. These defining moments not only showcase players at their best but also cement their place in NHL history.</span></p>",
+      "rarity": [
+       "Epic"
+      ],
+      "probability": {
+       "limit": 50,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35afe10000b07a000000000000",
+       "b572cf35afe1000099aa000000000000",
+       "b572cf35afe10000b3f1000000000000",
+       "b572cf35afe10000bf64000000000000",
+       "b572cf35afe10000a973000000000000",
+       "b572cf35afe10000b9c2000000000000",
+       "b572cf35afe10000aa17000000000000",
+       "b572cf35afe100008c31000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Conn Smythe Showcase",
+      "description": "<p><strong><em>Conn Smythe Showcase</em></strong><span style=\"font-weight: 400;\"> stands as a timeless collection of defining highlights from past Conn Smythe Trophy winners. Relive the clutch goals, game-saving stops, and pivotal plays that earned these players playoff MVP honors and cemented their championship legacy.</span></p>",
+      "rarity": [
+       "Epic"
+      ],
+      "probability": {
+       "limit": 50,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35dbe10000b3b8000000000000",
+       "b572cf35dbe10000ab6a000000000000",
+       "b572cf35dbe10000b85f000000000000",
+       "b572cf35dbe10000bc59000000000000",
+       "b572cf35dbe100008036000000000000",
+       "b572cf35dbe10000b4a3000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "The Greatest Achievements",
+      "description": "<p>Hockey&rsquo;s history is rich with legendary players, unforgettable plays, and cherished memories. Yet every so often, something truly extraordinary occurs&mdash;like a record-shattering milestone or a Stanley Cup&ndash;winning goal from a franchise icon. These achievements capture the hockey world and become timeless pieces of the sport&rsquo;s legacy.&nbsp;<em data-stringify-type=\"italic\">The Greatest Achievements</em>&nbsp;honors these moments as part of the NHL Breakaway collection.</p>",
+      "rarity": [
+       "Legendary"
+      ],
+      "probability": {
+       "limit": 1,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf35a62c0000b9b3000000000000",
+       "b572cf35a62c0000a936000000000000",
+       "b572cf35a62c0000aab4000000000000",
+       "b572cf35a62c00009a73000000000000",
+       "b572cf35a62c00008d16000000000000"
+      ]
+     },
+     {
+      "type": "set",
+      "name": "Ice Vault (Series 3)",
+      "description": "<p><em data-renderer-mark=\"true\">Ice Vault</em> is <span data-highlighted=\"true\" data-vc=\"highlighted-text\">NHL</span> Breakaway&rsquo;s premier Mythic-tier collectible set.<br />It contains only the highest-rarity highlights, with each piece limited to fewer than 10 editions. Every highlight receives unique Mythic visual styling and custom framing reserved exclusively for this tier.<br />Once a highlight enters the Ice Vault, it is permanently retired and never released in any other set or edition.</p>",
+      "rarity": [
+       "Mythic"
+      ],
+      "probability": {
+       "limit": 5,
+       "total": 2500
+      },
+      "collectibles_keys_in_pack_moment": [
+       "b572cf3576c900009248000000000000",
+       "b572cf3576c90000baed000000000000",
+       "b572cf3576c900009fc0000000000000",
+       "b572cf3576c9000089a5000000000000",
+       "b572cf3576c90000b116000000000000",
+       "b572cf3576c900009385000000000000"
+      ]
+     }
+    ]
+   },
+   "rarity": "Core",
+   "editions_in_pack": {
+    "b572cf353aed0000bc17000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000bc17000000000000.json",
+    "b572cf353aed00009070000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00009070000000000000.json",
+    "b572cf35ea8000009be5000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009be5000000000000.json",
+    "b572cf353aed00008215000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00008215000000000000.json",
+    "b572cf354eaf0000a8b3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000a8b3000000000000.json",
+    "b572cf3537d00000b01d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000b01d000000000000.json",
+    "b572cf353aed0000a953000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000a953000000000000.json",
+    "b572cf354eaf00009765000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf00009765000000000000.json",
+    "b572cf35dbe10000ab6a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe10000ab6a000000000000.json",
+    "b572cf353aed0000aa74000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000aa74000000000000.json",
+    "b572cf3576c900009385000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c900009385000000000000.json",
+    "b572cf354eaf0000b0cb000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000b0cb000000000000.json",
+    "b572cf35aad40000a173000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000a173000000000000.json",
+    "b572cf3537d00000a22a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a22a000000000000.json",
+    "b572cf35aad40000b1c6000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000b1c6000000000000.json",
+    "b572cf353aed00009067000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00009067000000000000.json",
+    "b572cf354eaf0000a8a7000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000a8a7000000000000.json",
+    "b572cf354eaf0000b209000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000b209000000000000.json",
+    "b572cf35ea8000009265000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009265000000000000.json",
+    "b572cf3537d0000082a8000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d0000082a8000000000000.json",
+    "b572cf354eaf0000800e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000800e000000000000.json",
+    "b572cf35a62c00008d16000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35a62c00008d16000000000000.json",
+    "b572cf35f52000008853000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f52000008853000000000000.json",
+    "b572cf355f510000bf4c000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000bf4c000000000000.json",
+    "b572cf354eaf00008e6e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf00008e6e000000000000.json",
+    "b572cf354eaf00008327000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf00008327000000000000.json",
+    "b572cf35f5200000bec7000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000bec7000000000000.json",
+    "b572cf35ea8000008d16000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000008d16000000000000.json",
+    "b572cf35dbe100008036000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe100008036000000000000.json",
+    "b572cf35afe10000b07a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000b07a000000000000.json",
+    "b572cf35a62c0000a936000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35a62c0000a936000000000000.json",
+    "b572cf3537d00000a84d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a84d000000000000.json",
+    "b572cf353aed0000ad89000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000ad89000000000000.json",
+    "b572cf35ea8000009812000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009812000000000000.json",
+    "b572cf35f5200000a09d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000a09d000000000000.json",
+    "b572cf353aed0000beca000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000beca000000000000.json",
+    "b572cf3537d00000bb11000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000bb11000000000000.json",
+    "b572cf35ea800000b1df000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000b1df000000000000.json",
+    "b572cf35f5200000b279000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000b279000000000000.json",
+    "b572cf35ea8000008f6e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000008f6e000000000000.json",
+    "b572cf355f5100008a28000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f5100008a28000000000000.json",
+    "b572cf3537d00000a00d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a00d000000000000.json",
+    "b572cf35a62c00009a73000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35a62c00009a73000000000000.json",
+    "b572cf3537d00000a0f9000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a0f9000000000000.json",
+    "b572cf3537d00000a876000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a876000000000000.json",
+    "b572cf35ea800000bbda000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000bbda000000000000.json",
+    "b572cf3537d00000b4da000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000b4da000000000000.json",
+    "b572cf35f5200000b65a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000b65a000000000000.json",
+    "b572cf355f510000a619000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000a619000000000000.json",
+    "b572cf35afe10000a973000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000a973000000000000.json",
+    "b572cf35a62c0000aab4000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35a62c0000aab4000000000000.json",
+    "b572cf35ea80000087e8000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea80000087e8000000000000.json",
+    "b572cf35ea8000009581000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009581000000000000.json",
+    "b572cf35ea800000bc25000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000bc25000000000000.json",
+    "b572cf3537d0000098bc000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d0000098bc000000000000.json",
+    "b572cf35afe10000b3f1000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000b3f1000000000000.json",
+    "b572cf3537d000009ab2000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d000009ab2000000000000.json",
+    "b572cf353aed00009016000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00009016000000000000.json",
+    "b572cf35ea80000087a6000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea80000087a6000000000000.json",
+    "b572cf35ea8000009272000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009272000000000000.json",
+    "b572cf355f510000b101000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000b101000000000000.json",
+    "b572cf355f510000a029000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000a029000000000000.json",
+    "b572cf355f510000b3ed000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000b3ed000000000000.json",
+    "b572cf35ea800000a032000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a032000000000000.json",
+    "b572cf3537d00000ba0d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000ba0d000000000000.json",
+    "b572cf35ea800000824a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000824a000000000000.json",
+    "b572cf3537d00000a852000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a852000000000000.json",
+    "b572cf35f5200000ba26000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000ba26000000000000.json",
+    "b572cf3537d00000af40000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000af40000000000000.json",
+    "b572cf3576c90000b116000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c90000b116000000000000.json",
+    "b572cf35ea80000098ba000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea80000098ba000000000000.json",
+    "b572cf35f52000009a59000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f52000009a59000000000000.json",
+    "b572cf353aed00008c5b000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00008c5b000000000000.json",
+    "b572cf3576c900009fc0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c900009fc0000000000000.json",
+    "b572cf35ea8000009901000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009901000000000000.json",
+    "b572cf3576c9000089a5000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c9000089a5000000000000.json",
+    "b572cf35dbe10000b85f000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe10000b85f000000000000.json",
+    "b572cf35ea8000008197000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000008197000000000000.json",
+    "b572cf3537d00000aeeb000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000aeeb000000000000.json",
+    "b572cf35a62c0000b9b3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35a62c0000b9b3000000000000.json",
+    "b572cf35aad40000afd0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000afd0000000000000.json",
+    "b572cf354eaf0000a0f7000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000a0f7000000000000.json",
+    "b572cf35ea8000009482000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009482000000000000.json",
+    "b572cf3537d000009d4c000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d000009d4c000000000000.json",
+    "b572cf35aad40000973a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000973a000000000000.json",
+    "b572cf35dbe10000bc59000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe10000bc59000000000000.json",
+    "b572cf353aed0000bf60000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000bf60000000000000.json",
+    "b572cf353aed0000b48c000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed0000b48c000000000000.json",
+    "b572cf35f52000008132000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f52000008132000000000000.json",
+    "b572cf35ea800000a529000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a529000000000000.json",
+    "b572cf35ea8000008758000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000008758000000000000.json",
+    "b572cf35aad40000b0ba000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000b0ba000000000000.json",
+    "b572cf35afe100008c31000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe100008c31000000000000.json",
+    "b572cf354eaf0000b384000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000b384000000000000.json",
+    "b572cf353aed00008433000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00008433000000000000.json",
+    "b572cf3537d00000802d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000802d000000000000.json",
+    "b572cf35f5200000b6f5000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000b6f5000000000000.json",
+    "b572cf3537d0000097c4000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d0000097c4000000000000.json",
+    "b572cf3537d00000a954000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a954000000000000.json",
+    "b572cf35afe1000099aa000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe1000099aa000000000000.json",
+    "b572cf35afe10000b9c2000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000b9c2000000000000.json",
+    "b572cf35aad4000093e0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad4000093e0000000000000.json",
+    "b572cf354eaf0000bba3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000bba3000000000000.json",
+    "b572cf35aad400008137000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad400008137000000000000.json",
+    "b572cf35dbe10000b3b8000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe10000b3b8000000000000.json",
+    "b572cf3576c900009248000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c900009248000000000000.json",
+    "b572cf35afe10000aa17000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000aa17000000000000.json",
+    "b572cf3537d00000b9bb000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000b9bb000000000000.json",
+    "b572cf35aad4000094b2000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad4000094b2000000000000.json",
+    "b572cf35ea800000ad14000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000ad14000000000000.json",
+    "b572cf35ea800000bb45000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000bb45000000000000.json",
+    "b572cf355f510000a70c000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000a70c000000000000.json",
+    "b572cf355f5100008d1a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f5100008d1a000000000000.json",
+    "b572cf35ea800000afed000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000afed000000000000.json",
+    "b572cf355f510000924b000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000924b000000000000.json",
+    "b572cf355f510000bed6000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000bed6000000000000.json",
+    "b572cf35afe10000bf64000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35afe10000bf64000000000000.json",
+    "b572cf35aad40000be7c000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000be7c000000000000.json",
+    "b572cf35aad4000082bb000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad4000082bb000000000000.json",
+    "b572cf35ea800000b415000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000b415000000000000.json",
+    "b572cf35ea800000be36000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000be36000000000000.json",
+    "b572cf35aad40000bb41000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000bb41000000000000.json",
+    "b572cf35ea800000ad9f000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000ad9f000000000000.json",
+    "b572cf35f52000008d08000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f52000008d08000000000000.json",
+    "b572cf354eaf00008692000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf00008692000000000000.json",
+    "b572cf355f510000b209000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000b209000000000000.json",
+    "b572cf35ea800000b025000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000b025000000000000.json",
+    "b572cf35ea800000b141000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000b141000000000000.json",
+    "b572cf35aad40000b2db000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35aad40000b2db000000000000.json",
+    "b572cf354eaf000083a4000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf000083a4000000000000.json",
+    "b572cf35ea8000009e00000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009e00000000000000.json",
+    "b572cf355f5100008797000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f5100008797000000000000.json",
+    "b572cf35f52000009cbd000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f52000009cbd000000000000.json",
+    "b572cf35ea800000a11e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a11e000000000000.json",
+    "b572cf35dbe10000b4a3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35dbe10000b4a3000000000000.json",
+    "b572cf35ea80000080f9000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea80000080f9000000000000.json",
+    "b572cf3576c90000baed000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3576c90000baed000000000000.json",
+    "b572cf35ea800000a2e9000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a2e9000000000000.json",
+    "b572cf353aed000095b2000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed000095b2000000000000.json",
+    "b572cf35ea800000a4e3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a4e3000000000000.json",
+    "b572cf353aed00008b79000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed00008b79000000000000.json",
+    "b572cf35ea8000009ed0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000009ed0000000000000.json",
+    "b572cf355f5100009bd5000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f5100009bd5000000000000.json",
+    "b572cf3537d00000879f000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000879f000000000000.json",
+    "b572cf355f510000a7a3000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000a7a3000000000000.json",
+    "b572cf353aed000088d0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf353aed000088d0000000000000.json",
+    "b572cf3537d00000aff0000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000aff0000000000000.json",
+    "b572cf354eaf0000935e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000935e000000000000.json",
+    "b572cf35ea800000a0bb000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000a0bb000000000000.json",
+    "b572cf3537d00000be07000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000be07000000000000.json",
+    "b572cf355f510000a526000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000a526000000000000.json",
+    "b572cf354eaf0000bd4e000000000000": "https://nft.nhlbreakaway.com/editions/b572cf354eaf0000bd4e000000000000.json",
+    "b572cf355f510000ac36000000000000": "https://nft.nhlbreakaway.com/editions/b572cf355f510000ac36000000000000.json",
+    "b572cf35ea800000817a000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000817a000000000000.json",
+    "b572cf35ea800000ba40000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000ba40000000000000.json",
+    "b572cf35ea800000bf51000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000bf51000000000000.json",
+    "b572cf35ea800000aab5000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea800000aab5000000000000.json",
+    "b572cf35f5200000a49d000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000a49d000000000000.json",
+    "b572cf3537d00000835f000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000835f000000000000.json",
+    "b572cf3537d000008e7b000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d000008e7b000000000000.json",
+    "b572cf35ea8000008dce000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35ea8000008dce000000000000.json",
+    "b572cf35f5200000befc000000000000": "https://nft.nhlbreakaway.com/editions/b572cf35f5200000befc000000000000.json",
+    "b572cf3537d00000a5ef000000000000": "https://nft.nhlbreakaway.com/editions/b572cf3537d00000a5ef000000000000.json"
+   }
+  }
+ }
+}

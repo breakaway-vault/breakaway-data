@@ -1,0 +1,24 @@
+{
+ "pageProps": {
+  "headerMetadata": {
+   "titleKey": "str",
+   "url": "str",
+   "image": "str"
+  },
+  "teams": [
+   {
+    "id": "int",
+    "abbreviation": "str",
+    "short_name": "str",
+    "venue_city": "str",
+    "venue_name": "str",
+    "key": "str",
+    "url": "str",
+    "logo": "str",
+    "externalName": "str",
+    "internalName": "str"
+   }
+  ]
+ },
+ "__N_SSP": "bool"
+}

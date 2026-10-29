@@ -1,0 +1,439 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Tristan Jarry",
+     "description": "After Linus Ullmark also accomplished the feat last season with the Boston Bruins, Pittsburgh Penguins goaltender Tristan Jarry joins the elite ranks as the ninth NHL goaltender to score a goal by shooting the puck into the net (a feat previously achieved twice by Ron Hextall). This marked the 17th occurrence in League history where a goaltender has been credited with a goal in either the regular season or playoffs, encompassing scenarios where goalies were designated as scorers because they were the last player to touch the puck before an opponent scored on their own net. As the puck is dumped in and reaches Jarry's stick, he elevates it above the fray and into the center of the net. With the goal, Jarry also became the first goalie to do so in Penguins franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 1",
+     "set_name": "Making the Mark 2023-24",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Epic",
+     "editions": 100,
+     "badges": {
+      "Career Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "PIT",
+        "final_score": 4
+       },
+       "home": {
+        "team": "TBL",
+        "final_score": 2
+       },
+       "venue": {
+        "name": "Amalie Arena",
+        "team": "TBL",
+        "location": "Tampa, FL"
+       },
+       "game_ends": "FINAL",
+       "final_score": "PIT 4, TBL 2 - FINAL",
+       "venue_location": "Tampa Bay Lightning - Amalie Arena (Tampa, FL)"
+      },
+      "moment": {
+       "date": "2023-11-30",
+       "clock": "18:52",
+       "event": "Goal",
+       "extra": {
+        "notes": "1st career goal - goalie goal",
+        "goal_number_this_season": 1,
+        "first_career_goal_or_win": "First NHL Goal (Skater)"
+       },
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "period": "3rd Period",
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Goal vs TBL | 3rd Period | Nov 30, 2023"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Tristan Jarry",
+       "team": "PIT",
+       "jersey": 35,
+       "status": "NHLPA",
+       "position": "G",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Goal vs TBL | 3rd Period | Nov 30, 2023"
+     }
+    },
+    "_badges": {
+     "Career Milestone": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Career Milestone",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png",
+      "description": "Highlights that feature the primary player achieving a career milestone."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Career Milestone",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/27754c9c-1a40-42d9-b867-a14ce8495aa8.png",
+      "description": "Highlights that feature the primary player achieving a career milestone."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 5,
+     "name": "Pittsburgh Penguins",
+     "abbreviation": "PIT",
+     "short_name": "Pittsburgh",
+     "venue_city": "Pittsburgh",
+     "venue_name": "PPG Paints Arena",
+     "key": "PittsburghPenguins",
+     "url": "https://www.nhl.com/penguins",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/PittsburghPenguins.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/A1LwwOqw/12468497043351928844",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmXqm4BfeE1RLYyXMWBqtkDznhxcDxKrm3dfGKNRHDZNpF"
+       },
+       "content-type": "image/png",
+       "sha256": "5VZZRuxbfKd_tehHspr3A3pHZprDhwGNO8oT754Eh5w=",
+       "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmNWBnNox3nqbkbrK5SMSNnkXLurH6U1qXf7tuQQiTX94r"
+       },
+       "content-type": "image/png",
+       "sha256": "0I5YWhKY2O38Jc-EMVbfEZ5cXSIck-TZCNQBUdQrJiM=",
+       "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmeLjbFKgP6QwkGFZ2dKCWVCMwUWfktpwxxvyvqVGH8WjF"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/A1LwwOqw/12468497043351928844/card-image.png",
+        "purpose": "card-image",
+        "sha256": "ruQ83TEvJKrrdpwZBKv-5l_Xhw6mWXCQZK0TFYeHc7o=",
+        "uri": "https://mediagateway.sweet.io/media/token/A1LwwOqw/12468497043351928844/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmS1E61nzEXHhfMwVejGDiVh4fYNCWPxvZQQzZWc8fUWz9"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/A1LwwOqw/12468497043351928844/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "u-FYcBlPFY1JosBUY6bLmSVmpAc6DxhfrNtevbRI_5c=",
+        "uri": "https://mediagateway.sweet.io/media/token/A1LwwOqw/12468497043351928844/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmNWBnNox3nqbkbrK5SMSNnkXLurH6U1qXf7tuQQiTX94r"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/A1LwwOqw/12468497043351928844/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "0I5YWhKY2O38Jc-EMVbfEZ5cXSIck-TZCNQBUdQrJiM=",
+        "uri": "https://mediagateway.sweet.io/media/token/A1LwwOqw/12468497043351928844/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXqm4BfeE1RLYyXMWBqtkDznhxcDxKrm3dfGKNRHDZNpF"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/A1LwwOqw/12468497043351928844/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "5VZZRuxbfKd_tehHspr3A3pHZprDhwGNO8oT754Eh5w=",
+        "uri": "https://mediagateway.sweet.io/media/token/A1LwwOqw/12468497043351928844/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2023-11-30",
+      "edition-number": "13",
+      "moment-uuid": "b5c8ae7769b90000ad09000000000000",
+      "play": "Goal",
+      "player": "Tristan Jarry",
+      "rarity": "Epic",
+      "series": "Series 1",
+      "series-uuid": "b5c8ae77000000000000000000000000",
+      "set": "Making the Mark 2023-24",
+      "set-uuid": "b5c8ae7769b900000000000000000000",
+      "team": "Pittsburgh Penguins",
+      "total-editions": "100"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "After Linus Ullmark also accomplished the feat last season with the Boston Bruins, Pittsburgh Penguins goaltender Tristan Jarry joins the elite ranks as the ninth NHL goaltender to score a goal by shooting the puck into the net (a feat previously achieved twice by Ron Hextall). This marked the 17th occurrence in League history where a goaltender has been credited with a goal in either the regular season or playoffs, encompassing scenarios where goalies were designated as scorers because they were the last player to touch the puck before an opponent scored on their own net. As the puck is dumped in and reaches Jarry's stick, he elevates it above the fray and into the center of the net. With the goal, Jarry also became the first goalie to do so in Penguins franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 13,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmXqm4BfeE1RLYyXMWBqtkDznhxcDxKrm3dfGKNRHDZNpF"
+      },
+      "content-type": "image/png",
+      "sha256": "5VZZRuxbfKd_tehHspr3A3pHZprDhwGNO8oT754Eh5w=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://Qmazcar46KungqZwvda6bnub9UwaeWgFEeDXUKRexxmkNL"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "YMqjPrO92-bNaKRtEMuHKLn34bFG9dGkRLH7urqdz20=",
+        "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmUx7eECSrvj2n9hsokGcMwZ2ANpi6EkaM9Vd8Ar96vmT9"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "0TNK-uSA0p5eHMlzrdGkEnEiaYTbRkcwA6-X37Acqgw=",
+        "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmXqm4BfeE1RLYyXMWBqtkDznhxcDxKrm3dfGKNRHDZNpF"
+       },
+       "content-type": "image/png",
+       "sha256": "5VZZRuxbfKd_tehHspr3A3pHZprDhwGNO8oT754Eh5w=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://Qmazcar46KungqZwvda6bnub9UwaeWgFEeDXUKRexxmkNL"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "YMqjPrO92-bNaKRtEMuHKLn34bFG9dGkRLH7urqdz20=",
+         "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmUx7eECSrvj2n9hsokGcMwZ2ANpi6EkaM9Vd8Ar96vmT9"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "0TNK-uSA0p5eHMlzrdGkEnEiaYTbRkcwA6-X37Acqgw=",
+         "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmNWBnNox3nqbkbrK5SMSNnkXLurH6U1qXf7tuQQiTX94r"
+       },
+       "content-type": "image/png",
+       "sha256": "0I5YWhKY2O38Jc-EMVbfEZ5cXSIck-TZCNQBUdQrJiM=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmefSoYCM4FLR4Pcig4fwJR2TBVBTE1RLhNNy9QdpqmToJ"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "OabVkJNsSwSGNCmX-pIq5jqFqDsjbgQgN4gAaLeOVcY=",
+         "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmfQTzLs6Xm15JhASCMEcEwbpZMeZx67QxNkvLs7b889fY"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "z3jTcp2RE8JTaB_pIzWVtb78mQDrjYzfL69dXEVuXEM=",
+         "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/A1LwwOqw/ad09/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-05-10T18:59:16.883976",
+     "name": "Tristan Jarry #13",
+     "network": "matic",
+     "sequence_number": "12468497043351928844",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "After Linus Ullmark also accomplished the feat last season with the Boston Bruins, Pittsburgh Penguins goaltender Tristan Jarry joins the elite ranks as the ninth NHL goaltender to score a goal by shooting the puck into the net (a feat previously achieved twice by Ron Hextall). This marked the 17th occurrence in League history where a goaltender has been credited with a goal in either the regular season or playoffs, encompassing scenarios where goalies were designated as scorers because they were the last player to touch the puck before an opponent scored on their own net. As the puck is dumped in and reaches Jarry's stick, he elevates it above the fray and into the center of the net. With the goal, Jarry also became the first goalie to do so in Penguins franchise history.\n\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Making the Mark 2023-24",
+       "rarity": {
+        "name": "Tier 3",
+        "rank": 3
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/A1LwwOqw",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Tristan Jarry #13",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2023-11-30"
+      },
+      {
+       "key": "edition-number",
+       "value": "13"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "b5c8ae7769b90000ad09000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Goal"
+      },
+      {
+       "key": "player",
+       "value": "Tristan Jarry"
+      },
+      {
+       "key": "rarity",
+       "value": "Epic"
+      },
+      {
+       "key": "series",
+       "value": "Series 1"
+      },
+      {
+       "key": "series-uuid",
+       "value": "b5c8ae77000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Making the Mark 2023-24"
+      },
+      {
+       "key": "set-uuid",
+       "value": "b5c8ae7769b900000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Pittsburgh Penguins"
+      },
+      {
+       "key": "total-editions",
+       "value": "100"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "b5c8ae7769b90000ad09000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/wgAL0r0j",
+       "listing_id": "wgAL0r0j",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 10,
+       "starts_at": "2026-10-09T22:43:18",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x404E63385E2834a10D473C04f6c2Ccc163E655Be/?a=12468497043351928844",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "A1LwwOqw",
+   "momentUuid": "b5c8ae7769b90000ad09000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Tristan Jarry",
+     "date": "November 30, 2023"
+    },
+    "url": "https://nhlbreakaway.com/series/A1LwwOqw/highlight/b5c8ae7769b90000ad09000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/A1LwwOqw/12468497043351928844/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "A1LwwOqw",
+  "moment_uuid": "b5c8ae7769b90000ad09000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

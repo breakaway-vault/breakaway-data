@@ -1,0 +1,442 @@
+{
+ "props": {
+  "pageProps": {
+   "highlightData": {
+    "_metadata": {
+     "name": "Cam Ward",
+     "description": "During the 2010-11 season, no goaltender played more games than Cam Ward, who appeared in 74 games, winning 37 of them and posting a .923 save percentage. In the 2010 NHL Premiere Series held in Helsinki, Finland, Ward stopped Antti Miettinen's final shootout attempt to give Carolina back-to-back wins over the Minnesota Wild. Ward had a busy night, stopping 41 shots, in addition to his three shootout saves, in the 2-1 Carolina victory. The 2006 Conn Smythe Trophy winner spent all but one of his 14 NHL seasons with the Hurricanes.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "series_name": "Series 2",
+     "set_name": "Across the Pond",
+     "primary_type": "Nhl video highlight",
+     "rarity": "Core",
+     "editions": 1500,
+     "badges": {
+      "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+     },
+     "meta_data": {
+      "game": {
+       "away": {
+        "team": "MIN",
+        "final_score": 1
+       },
+       "home": {
+        "team": "CAR",
+        "final_score": 2
+       },
+       "venue": {
+        "location": "Helsinki, FN"
+       },
+       "game_ends": "FINAL (SO)",
+       "final_score": "MIN 1, CAR 2 - FINAL (SO)",
+       "venue_location": "Helsinki, FN"
+      },
+      "moment": {
+       "date": "2010-10-08",
+       "event": "Save",
+       "flags": {
+        "is_rookie": false,
+        "star_of_game": true,
+        "record_broken": false,
+        "power_play_goal": false,
+        "player_milestone": false,
+        "shorthanded_goal": false,
+        "game_winning_goal": false,
+        "penalty_shot_goal": false
+       },
+       "audio_type": "Sounds of the Game",
+       "video_overlay_text": "Save vs MIN | Shootout | Oct 8, 2010"
+      },
+      "highlight_type": "Single",
+      "primary_player": {
+       "name": "Cam Ward",
+       "team": "CAR",
+       "jersey": 30,
+       "status": "NHLAA",
+       "position": "G",
+       "is_rookie": false
+      },
+      "collectible_tagline": "Save vs MIN | Shootout | Oct 8, 2010"
+     }
+    },
+    "_badges": {
+     "Breakaway Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+     "Series Debut": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png"
+    },
+    "_common_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_descriptive_badges": [
+     {
+      "name": "Breakaway Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/e5d53303-d0b9-416b-a2fc-46fb1d35a4bb.png",
+      "description": "This badge is reserved for the first highlight ever minted on the blockchain for the featured primary player."
+     },
+     {
+      "name": "Series Debut",
+      "image": "https://nft.nhlbreakaway.com/nhl_collectible_icon/original/180b0c5a-fa4b-436e-bb4e-338b39f36e82.png",
+      "description": "The first highlight minted for the featured primary player in the series."
+     }
+    ],
+    "_edition_specific_descriptive_badges": null,
+    "_team": {
+     "id": 12,
+     "name": "Carolina Hurricanes",
+     "abbreviation": "CAR",
+     "short_name": "Carolina",
+     "venue_city": "Raleigh",
+     "venue_name": "PNC Arena",
+     "key": "CarolinaHurricanes",
+     "url": "https://www.nhl.com/hurricanes",
+     "logo": "https://nhl-static.assets.sweet.io/team-logo/CarolinaHurricanes.png"
+    },
+    "uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv/9655717601082344679",
+    "_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmQZ3Uqf3wmjuGrK7LpEfQKQDWaey1kTGsrvkGkbAvRWvD"
+       },
+       "content-type": "image/png",
+       "sha256": "kv57p_N9qxepm6SBe2JaFr0PkM-dQf0gtDBmBibCbpQ=",
+       "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmW3k2pMY5k6TeyPDS55R7NqbsVnbshFRGwGzsA9dGt5eH"
+       },
+       "content-type": "image/png",
+       "sha256": "iSeEjwRYQIWLXOv8276kDUjrduB-JLNINwJ0gJuXeDQ=",
+       "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-16x9.png"
+      },
+      "media": [
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmPFrAarEgYxEPCVBZXubfaEqM2Xa5JbsZAKu4LxPuuuec"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/r1JoM3bv/9655717601082344679/card-image.png",
+        "purpose": "card-image",
+        "sha256": "HSJ_mXF0UHmdNBKs2jsRUdPUeR9oSQJZMUabCPsZGg8=",
+        "uri": "https://mediagateway.sweet.io/media/token/r1JoM3bv/9655717601082344679/card-image.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmXegsxxYftarfszCA96NDkL7aAyeTHdU2fehTEN6rZYAV"
+        },
+        "content-type": "video/mp4",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/r1JoM3bv/9655717601082344679/video.mp4",
+        "purpose": "primary-asset",
+        "sha256": "0gF9VsosDffhTUX6kl68WMU4nxPSZiodSM7QYO77nuk=",
+        "uri": "https://mediagateway.sweet.io/media/token/r1JoM3bv/9655717601082344679/video.mp4"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmW3k2pMY5k6TeyPDS55R7NqbsVnbshFRGwGzsA9dGt5eH"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/r1JoM3bv/9655717601082344679/poster-image-16x9.png",
+        "purpose": "video-poster-16x9",
+        "sha256": "iSeEjwRYQIWLXOv8276kDUjrduB-JLNINwJ0gJuXeDQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/r1JoM3bv/9655717601082344679/poster-image-16x9.png"
+       },
+       {
+        "altloc": {
+         "ipfs": "ipfs://QmQZ3Uqf3wmjuGrK7LpEfQKQDWaey1kTGsrvkGkbAvRWvD"
+        },
+        "content-type": "image/png",
+        "gateway": "https://mediagateway.sweet.io/gateway/token/r1JoM3bv/9655717601082344679/poster-image-square.png",
+        "purpose": "video-poster-square",
+        "sha256": "kv57p_N9qxepm6SBe2JaFr0PkM-dQf0gtDBmBibCbpQ=",
+        "uri": "https://mediagateway.sweet.io/media/token/r1JoM3bv/9655717601082344679/poster-image-square.png"
+       }
+      ],
+      "reverse_image": null
+     },
+     "attributes": {
+      "audio-type": "Sounds of the Game",
+      "date": "2010-10-08",
+      "edition-number": "1256",
+      "moment-uuid": "cd2f47fea54500008600000000000000",
+      "play": "Save",
+      "player": "Cam Ward",
+      "rarity": "Core",
+      "series": "Series 2",
+      "series-uuid": "cd2f47fe000000000000000000000000",
+      "set": "Across the Pond",
+      "set-uuid": "cd2f47fea54500000000000000000000",
+      "team": "Carolina Hurricanes",
+      "total-editions": "1500"
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "description": "During the 2010-11 season, no goaltender played more games than Cam Ward, who appeared in 74 games, winning 37 of them and posting a .923 save percentage. In the 2010 NHL Premiere Series held in Helsinki, Finland, Ward stopped Antti Miettinen's final shootout attempt to give Carolina back-to-back wins over the Minnesota Wild. Ward had a busy night, stopping 41 shots, in addition to his three shootout saves, in the 2-1 Carolina victory. The 2006 Conn Smythe Trophy winner spent all but one of his 14 NHL seasons with the Hurricanes.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "edition_number": 1256,
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "image": {
+      "altloc": {
+       "ipfs": "ipfs://QmQZ3Uqf3wmjuGrK7LpEfQKQDWaey1kTGsrvkGkbAvRWvD"
+      },
+      "content-type": "image/png",
+      "sha256": "kv57p_N9qxepm6SBe2JaFr0PkM-dQf0gtDBmBibCbpQ=",
+      "thumbnail": {
+       "350": {
+        "altloc": {
+         "ipfs": "ipfs://QmNoai8XnfyUb4AqJPMixyXM7tR9RRuL6ZscLHUj5ehvCk"
+        },
+        "content-type": "image/png",
+        "height": 350,
+        "sha256": "g_Cwmea0AvgwMK6pkEAQuUmJ7-tdIZL-vhjVbpLySHo=",
+        "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-350x.png",
+        "width": 350
+       },
+       "500": {
+        "altloc": {
+         "ipfs": "ipfs://QmRaGBqAYtH1KNKuBLF6aturvGZ71R15c5JY6qoAi56q8k"
+        },
+        "content-type": "image/png",
+        "height": 500,
+        "sha256": "NxGOTczqO66rtCUMonUvpapsnHAhuFwZY5F-rtP-2y4=",
+        "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-500x.png",
+        "width": 500
+       }
+      },
+      "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front.png"
+     },
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmQZ3Uqf3wmjuGrK7LpEfQKQDWaey1kTGsrvkGkbAvRWvD"
+       },
+       "content-type": "image/png",
+       "sha256": "kv57p_N9qxepm6SBe2JaFr0PkM-dQf0gtDBmBibCbpQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmNoai8XnfyUb4AqJPMixyXM7tR9RRuL6ZscLHUj5ehvCk"
+         },
+         "content-type": "image/png",
+         "height": 350,
+         "sha256": "g_Cwmea0AvgwMK6pkEAQuUmJ7-tdIZL-vhjVbpLySHo=",
+         "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmRaGBqAYtH1KNKuBLF6aturvGZ71R15c5JY6qoAi56q8k"
+         },
+         "content-type": "image/png",
+         "height": 500,
+         "sha256": "NxGOTczqO66rtCUMonUvpapsnHAhuFwZY5F-rtP-2y4=",
+         "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front.png"
+      },
+      "front-16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmW3k2pMY5k6TeyPDS55R7NqbsVnbshFRGwGzsA9dGt5eH"
+       },
+       "content-type": "image/png",
+       "sha256": "iSeEjwRYQIWLXOv8276kDUjrduB-JLNINwJ0gJuXeDQ=",
+       "thumbnail": {
+        "350": {
+         "altloc": {
+          "ipfs": "ipfs://QmaJEqwe6Bq6nK9LomPrdZdLeE7DAygkoqn9bcRrJqesi5"
+         },
+         "content-type": "image/png",
+         "height": 196,
+         "sha256": "hPY_xU91A2CYUv2AxX1Kzw2-K5aYLCBxGiWiDTrDToQ=",
+         "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-16x9-350x.png",
+         "width": 350
+        },
+        "500": {
+         "altloc": {
+          "ipfs": "ipfs://QmcYGexXkL9cC88oD2oxbcQKSbhfZU7drB3Eb3pYXXeu7Z"
+         },
+         "content-type": "image/png",
+         "height": 281,
+         "sha256": "p8hjevGAMSvNM56j1_b2Rou8wSBHeMTWe2PylOg9scQ=",
+         "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-16x9-500x.png",
+         "width": 500
+        }
+       },
+       "url": "https://nft.nhlbreakaway.com/series/r1JoM3bv/8600/images/front-16x9.png"
+      }
+     },
+     "issued": "2024-10-03T20:59:38.973296",
+     "name": "Cam Ward #1256",
+     "network": "matic",
+     "sequence_number": "9655717601082344679",
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "During the 2010-11 season, no goaltender played more games than Cam Ward, who appeared in 74 games, winning 37 of them and posting a .923 save percentage. In the 2010 NHL Premiere Series held in Helsinki, Finland, Ward stopped Antti Miettinen's final shootout attempt to give Carolina back-to-back wins over the Minnesota Wild. Ward had a busy night, stopping 41 shots, in addition to his three shootout saves, in the 2-1 Carolina victory. The 2006 Conn Smythe Trophy winner spent all but one of his 14 NHL seasons with the Hurricanes.\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": false,
+       "name": "Across the Pond",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "video"
+      },
+      "total_number": null,
+      "uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+      "is_pfp": false
+     },
+     "type": "erc721",
+     "name_keyword": "Cam Ward #1256",
+     "asset_type": "highlight",
+     "nested_attributes": [
+      {
+       "key": "audio-type",
+       "value": "Sounds of the Game"
+      },
+      {
+       "key": "date",
+       "value": "2010-10-08"
+      },
+      {
+       "key": "edition-number",
+       "value": "1256"
+      },
+      {
+       "key": "moment-uuid",
+       "value": "cd2f47fea54500008600000000000000"
+      },
+      {
+       "key": "play",
+       "value": "Save"
+      },
+      {
+       "key": "player",
+       "value": "Cam Ward"
+      },
+      {
+       "key": "rarity",
+       "value": "Core"
+      },
+      {
+       "key": "series",
+       "value": "Series 2"
+      },
+      {
+       "key": "series-uuid",
+       "value": "cd2f47fe000000000000000000000000"
+      },
+      {
+       "key": "set",
+       "value": "Across the Pond"
+      },
+      {
+       "key": "set-uuid",
+       "value": "cd2f47fea54500000000000000000000"
+      },
+      {
+       "key": "team",
+       "value": "Carolina Hurricanes"
+      },
+      {
+       "key": "total-editions",
+       "value": "1500"
+      }
+     ],
+     "collections": [],
+     "collapsible_parent": "cd2f47fea54500008600000000000000",
+     "current_offers": [
+      {
+       "ends_at": null,
+       "link": "https://sweet.io/listings/3qXkOrJg",
+       "listing_id": "3qXkOrJg",
+       "offer_type": "fixed-price",
+       "payment_network": "stripe",
+       "payment_system": null,
+       "price_usd": 2,
+       "starts_at": "2026-10-15T17:38:51",
+       "status": "open",
+       "sweet_is_seller": false,
+       "seller_user_id": "[removed]",
+       "seller_username": "[removed]"
+      }
+     ],
+     "_tokendata": {
+      "owner": "[removed]",
+      "campaign": {
+       "campaign_id": 826,
+       "client": {
+        "name": "NHL",
+        "company": "NHL"
+       },
+       "description": "NHL",
+       "name": "NHL",
+       "avatar": "https://static.assets.sweet.io/campaigns/826/avatar.png"
+      },
+      "explorer_url": "https://polygonscan.com/token/0x9BA1A6C3D4518dde9C7543be78602B9b04cAF8C6/?a=9655717601082344679",
+      "pack_opened": false,
+      "burned": false,
+      "marketplace_description": null,
+      "sets": null,
+      "crafting_turn_in": false
+     }
+    }
+   },
+   "seriesId": "r1JoM3bv",
+   "momentUuid": "cd2f47fea54500008600000000000000",
+   "headerMetadata": {
+    "titleKey": "highlightTitle",
+    "titleOptions": {
+     "name": "Cam Ward",
+     "date": "October 8, 2010"
+    },
+    "url": "https://nhlbreakaway.com/series/r1JoM3bv/highlight/cd2f47fea54500008600000000000000",
+    "image": "https://mediagateway.sweet.io/media/token/r1JoM3bv/9655717601082344679/poster-image-16x9.png"
+   },
+   "isMarketPlaceListingPage": true
+  },
+  "__N_SSP": true
+ },
+ "page": "/series/[series_id]/highlight/[moment_uuid]",
+ "query": {
+  "series_id": "r1JoM3bv",
+  "moment_uuid": "cd2f47fea54500008600000000000000"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

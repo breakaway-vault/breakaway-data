@@ -1,0 +1,388 @@
+{
+ "props": {
+  "pageProps": {
+   "packData": {
+    "server_time": 1793286304,
+    "summary": {
+     "drop_active": 1758042000,
+     "drop_expires": null,
+     "pack_price": "5.00",
+     "remaining": 0,
+     "uri": "https://nft.nhlbreakaway.com/series/GqEKX6bD",
+     "number_of_highlights": 3,
+     "pack_description": "Close out Series 2 in grand fashion with the Series 2 Grand Finale Pack! These packs will be the final drop of Series 2, and one of the last chances to find Series 2 highlights before the start of Series 3. Each pack contains highlights from the Base 2024-25, Fresh Sweaters, and Across the Pond sets and includes the chance to pull some of the most iconic highlights in Series 2 from Making the Mark 2024-25, Opening Ice: Elites, Opening Ice: Icons, Global Gamechangers, The Hunt for Stanley 2025, and Hoist the Cup 2025!\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Fresh Sweaters (38%), Across the Pond (32%), or Base 2024-25 (30%), and 1 mystery highlight that could be from Fresh Sweaters (74%), The Hunt for Stanley 2025 (12.45%), Global Gamechangers (11.37%), Opening Ice: Icons (1.1%), Hoist the Cup 2025 (<1%),Opening Ice: Elites (<1%), or Making the Mark 2024-25 <1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "pack_image": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front.png",
+     "pack_image_16x9": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front-16x9.png",
+     "pack_rarity": "Core",
+     "pack_title": "Series 2 Grand Finale Pack",
+     "series_name": "Series 2",
+     "pack_uuid": "cd2f47fe00000000ad2b000000000000",
+     "quantity": 5000,
+     "is_pfp": false,
+     "is_openable": true,
+     "sets": [],
+     "pack_moments": []
+    },
+    "details": {
+     "release": {
+      "name": "Series 2 Grand Finale Pack",
+      "description": "<p><strong>Sale Starts: </strong><span style=\"font-weight: 400;\">Tuesday Sep 16, 2025 at 1pm ET / 10am PT</span></p>\r\n<p><strong>Price:</strong><span style=\"font-weight: 400;\"> $5 USD</span></p>\r\n<p><strong># Packs Available:</strong><span style=\"font-weight: 400;\"> 5000. Edition numbers are distributed randomly.</span></p>\r\n<p><strong>Purchase Limit:</strong><span style=\"font-weight: 400;\"> Twenty-five (25) pack limit per person for the first 24 hours; limit increased to fifty (50) pack limit per person afterwards. Once the &ldquo;Buy Now&rdquo; process has started, users will have 10 minutes to complete checkout before the pack(s) is released for another collector to purchase.</span></p>\r\n<p><strong>Highlights Per Pack:</strong><span style=\"font-weight: 400;\"> 3</span></p>\r\n<p><strong>Pack Contents (Highlight Rarity, Edition Size):</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlights from Base 2024-25 (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">38% Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">32% Across the Pond (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">30% Base 2024-25 (Core #/1500)</span></li>\r\n</ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">One (1) highlight with the following probabilities:</span></li>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">74% Fresh Sweaters (Core #/1500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">12.45% The Hunt for Stanley 2025 (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">11.37% Global Gamechangers&nbsp; (Limited #/500)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">1.1% Opening Ice: Icons (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.65% Hoist the Cup 2025 (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.18% Opening Ice: Elites (Rare #/250)</span></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"2\"><span style=\"font-weight: 400;\">0.25% Making the Mark 2024-25 (Epic #/100)</span></li>\r\n</ul>\r\n</ul>\r\n<p><strong>Payment Methods Accepted:</strong><span style=\"font-weight: 400;\"> Most major credit and debit cards. Payments will be made via registered payment processor: Stripe.</span></p>\r\n<p><strong>Fan Marketplace:</strong><span style=\"font-weight: 400;\"> Packs and highlights are eligible to be sold to other collectors in the NHL Breakaway fan marketplace. </span><a href=\"https://help.nhlbreakaway.com/en/articles/8638349-marketplace-royalties-and-fees\"><span style=\"font-weight: 400;\">See FAQ</span></a><span style=\"font-weight: 400;\">.</span></p>\r\n<p><strong>Transferability:</strong><span style=\"font-weight: 400;\"> Packs and highlights can be exchanged in the Trade Lounge&trade; with other NHL Breakaway users.</span></p>\r\n<p><strong>Blockchain:</strong><span style=\"font-weight: 400;\"> Polygon</span></p>\r\n<p><strong>Sets Included:</strong></p>\r\n<ul>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><a href=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vQj8veSjDSBNT7-RztfuXtpZQyaEXUkCNVfBgzVQ-rlnGeCIYWpeud80k0E4CtHrx3JTMFySproiVSg/pubhtml\" target=\"_blank\" rel=\"noopener\"><span style=\"font-weight: 400;\">Highlights List</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Base 2024-25, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Fresh Sweaters, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/nov-8-fresh-sweaters-pack-drop-3-new-sets-announced/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Across the Pond, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">The Hunt for Stanley 2025, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/the-hunt-for-stanley-2025-preview-june-10-drop-new-quests/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Global Gamechangers, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/global-gamechangers-preview-quests-set-completions-jan-23-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice:Icons, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/series-2-launch-sets-preview-oct-8-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Hoist the Cup 2025, </span><a href=\"https://blog.nhlbreakaway.com/hoist-the-cup-2025-preview-july-22-drop-2025-stanley-cup-digital-collectible/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Making the Mark 2024-25, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/most-valuable-keepers-preview-mar-25-drop/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n<li style=\"font-weight: 400;\" aria-level=\"1\"><span style=\"font-weight: 400;\">Opening Ice: Elites, Series 2 - </span><a href=\"https://blog.nhlbreakaway.com/opening-ice-elites-set-preview/\"><span style=\"font-weight: 400;\">Preview</span></a></li>\r\n</ul>\r\n<p><strong>Collection Guarantee:</strong><span style=\"font-weight: 400;\"> Series 2 highlights will only be distributed during Series 2, which ends prior to the start of the 2025-26 Regular Season. We will not issue more than the edition limit we have set. Any editions not distributed in packs will not be distributed after the series end date (See FAQ for &ldquo;</span><a href=\"https://help.nhlbreakaway.com/en/articles/8168552-what-are-uncirculated-editions\"><span style=\"font-weight: 400;\">Uncirculated Editions</span></a><span style=\"font-weight: 400;\">&rdquo;)</span></p>\r\n<p><a href=\"https://nhlbreakaway.com/terms\"><span style=\"font-weight: 400;\">All sales subject to Terms</span></a></p>"
+     },
+     "description": "Close out Series 2 in grand fashion with the Series 2 Grand Finale Pack! These packs will be the final drop of Series 2, and one of the last chances to find Series 2 highlights before the start of Series 3. Each pack contains highlights from the Base 2024-25, Fresh Sweaters, and Across the Pond sets and includes the chance to pull some of the most iconic highlights in Series 2 from Making the Mark 2024-25, Opening Ice: Elites, Opening Ice: Icons, Global Gamechangers, The Hunt for Stanley 2025, and Hoist the Cup 2025!\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Fresh Sweaters (38%), Across the Pond (32%), or Base 2024-25 (30%), and 1 mystery highlight that could be from Fresh Sweaters (74%), The Hunt for Stanley 2025 (12.45%), Global Gamechangers (11.37%), Opening Ice: Icons (1.1%), Hoist the Cup 2025 (<1%),Opening Ice: Elites (<1%), or Making the Mark 2024-25 <1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+     "uuid": "cd2f47fe00000000ad2b000000000000",
+     "assets": [],
+     "editions": 5000,
+     "pack_series": {
+      "assets": [],
+      "name": "Series 2",
+      "description": "<p>Series 2 is the second series of the NHL Breakaway program featuring highlights and collectibles from the 2024-25 season, and curated plays from the archives that are known as some of the greatest highlights in NHL history.</p>",
+      "uuid": "cd2f47fe000000000000000000000000"
+     },
+     "asset_type": "pack-release",
+     "name": "Series 2 Grand Finale Pack",
+     "attributes": {},
+     "pack_content": {
+      "summary": [
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 1,
+          "limit": 5000
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.38,
+          "limit": 1900
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.32,
+          "limit": 1600
+         },
+         "name": "Across the Pond",
+         "description": "<p>In October 1997, the NHL made history by playing its first regular-season games outside North America, in Tokyo, Japan. Since then, numerous games have been held overseas, including the NHL Premiere Series and the current NHL Global Series across Europe. Across the Pond celebrates some of the most memorable highlights from these international games, featuring both retired and active players. Relives unforgettable plays like a hat trick scored in a home country, a game-deciding shootout save, or a first career goal in this globetrotting Core set.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fea54500000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.3,
+          "limit": 1500
+         },
+         "name": "Base 2024-25",
+         "description": "<p>Gear up for a season-long thrill ride with&nbsp;<em data-stringify-type=\"italic\">Base 2024-25</em>! This Core set is packed with can&rsquo;t-miss moments: from electrifying goals and crisp apples to heavy hits, clutch defensive plays, and jaw-dropping goalie saves. Whether it&rsquo;s a game-breaking snipe, a tape-to-tape gem, or a showstopping glove save, each highlight chronicles the key plays of the 2024-25 NHL regular season.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47feed2400000000000000000000",
+         "rarity": "Core"
+        }
+       ],
+       [
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.7396,
+          "limit": 3698
+         },
+         "name": "Fresh Sweaters",
+         "description": "<p>Celebrate the excitement of a fresh start with the Fresh Sweaters Core set, featuring players making their mark with their new NHL teams. Each highlight captures a standout moment&mdash;whether it's a snipe, an apple, a great defensive play, a hit, or a jaw-dropping save. Relive the impact of players as they introduce themselves to new fans and teammates, setting the tone for the next chapter in their careers and defining their journey with a new franchise.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2be00000000000000000000",
+         "rarity": "Core"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.1278,
+          "limit": 639
+         },
+         "name": "The Hunt for Stanley 2025",
+         "description": "<p>The Hunt for Stanley 2025 features the most exhilarating highlights from the first three rounds of the 2025 Stanley Cup Playoffs. This set showcases the intense battles, dramatic goals, and game-changing plays that defined the quest for hockey's ultimate prize. Relive the passion and excitement as teams fought tirelessly to keep their championship dreams alive.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe3c8100000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.11,
+          "limit": 550
+         },
+         "name": "Global Gamechangers",
+         "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Global Gamechangers</em>, a Limited set that showcases highlights of notable players from the United States, Canada, Sweden, and Finland. This collection features NHL moments that exemplify the skill and impact of these hockey legends, who excelled in the league and played pivotal roles in their countries' success in international competitions, including the Olympics, World Championships, and other prestigious tournaments.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe899c00000000000000000000",
+         "rarity": "Limited"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0116,
+          "limit": 58
+         },
+         "name": "Opening Ice: Icons",
+         "description": "<p>Introducing Opening Ice: Icons, a Rare set that immortalizes the unforgettable moments when legendary players scored their first NHL goals. Relive the sheer joy and determination as these icons achieve their first milestone in the NHL. Opening Ice: Icons celebrates the origins of hockey&rsquo;s great heroes and commemorates the beginnings of remarkable careers.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe460e00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0066,
+          "limit": 33
+         },
+         "name": "Hoist the Cup 2025",
+         "description": "<p><em data-stringify-type=\"italic\">Hoist the Cup 2025</em>&nbsp;celebrates the triumphs of the 2025 Stanley Cup champions. This annual Rare collection captures the most electrifying moments from the Florida Panthers journey through the Stanley Cup Playoffs. Relive the thrilling goals, spectacular saves, and defining plays that led to hockey's ultimate glory. Each highlight in this set commemorates the skill, determination, and passion that culminated in hoisting the coveted Stanley Cup.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe374100000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0018,
+          "limit": 9
+         },
+         "name": "Opening Ice: Elites",
+         "description": "<p>Introducing&nbsp;<em data-stringify-type=\"italic\">Opening Ice: Elites</em>, a Rare highlight set that captures the unforgettable moments when the game's current stars scored their first career NHL goal or a talented goalie secured his debut NHL victory. This exclusive collection showcases the raw talent and emotion of these rising stars as they etch their names in NHL history. Experience the sheer joy and determination as they find the back of the net or defend their crease in their milestone moments.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fef2af00000000000000000000",
+         "rarity": "Rare"
+        },
+        {
+         "set_name": null,
+         "probability": {
+          "max_limit": 5000,
+          "probability": 0.0026,
+          "limit": 13
+         },
+         "name": "Making the Mark 2024-25",
+         "description": "<p>Making the Mark 2024-25 celebrates extraordinary single-season and career milestones from the 2024-25 NHL regular season. This seasonal Epic set highlights two record-breaking goalie achievements, a rare goalie goal, and other standout feats. These defining moments not only showcase players at their best but also cement their place in NHL history, leaving an indelible mark on the game.</p>",
+         "moment_type": "token-set",
+         "uuid": "cd2f47fe4c4a00000000000000000000",
+         "rarity": "Epic"
+        }
+       ]
+      ],
+      "sets": [
+       {
+        "name": "Hoist the Cup 2025",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1AOGXRz",
+        "set_uuid": "cd2f47fe374100000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "The Hunt for Stanley 2025",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/rb2kg7Rd",
+        "set_uuid": "cd2f47fe3c8100000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Making the Mark 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1AO4XRz",
+        "set_uuid": "cd2f47fe4c4a00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Epic"
+       },
+       {
+        "name": "Global Gamechangers",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1ao45RK",
+        "set_uuid": "cd2f47fe899c00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Limited"
+       },
+       {
+        "name": "Opening Ice: Elites",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/DRwE5P1O",
+        "set_uuid": "cd2f47fef2af00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Base 2024-25",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QqBmkGRA",
+        "set_uuid": "cd2f47feed2400000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Fresh Sweaters",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/QRvZmARw",
+        "set_uuid": "cd2f47fef2be00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       },
+       {
+        "name": "Opening Ice: Icons",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/M1aoV5RK",
+        "set_uuid": "cd2f47fe460e00000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Rare"
+       },
+       {
+        "name": "Across the Pond",
+        "series_name": "Series 2",
+        "series_uri": "https://nft.nhlbreakaway.com/series/r1JoM3bv",
+        "set_uuid": "cd2f47fea54500000000000000000000",
+        "series_uuid": "cd2f47fe000000000000000000000000",
+        "rarity": "Core"
+       }
+      ]
+     },
+     "issued": "2025-09-12",
+     "rarity": {
+      "editions": 1500,
+      "name": "Core"
+     }
+    },
+    "series_doc": {
+     "assets": {
+      "front_image": {
+       "altloc": {
+        "ipfs": "ipfs://QmRNQeQi4DDKzFV5ShgN4vDURyFuPm13yEDj8fZVzSpffh"
+       },
+       "content-type": "image/png",
+       "sha256": "cUsGwCeYVOgkYJD1LPAq4fhCPTaNVap_Iy-FnC7fkBo=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front.png"
+      },
+      "front_image_16x9": {
+       "altloc": {
+        "ipfs": "ipfs://QmbMPvYmYQhPKwhkBKpYgHEwNSxwLcdGRDuUJuCx6Vj8uz"
+       },
+       "content-type": "image/png",
+       "sha256": "nWXZPf6LTS3agFpbJBe1U6qqPNPk5nFv7f_1JVuFhns=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front-16x9.png"
+      },
+      "reverse_image": null
+     },
+     "creator": {
+      "name": "SocialSweet Inc.",
+      "uri": "https://sweet.io"
+     },
+     "fees": [
+      {
+       "basis_points": 600,
+       "recipient_address": "[removed]",
+       "type": "seller-fee"
+      }
+     ],
+     "images": {
+      "front": {
+       "altloc": {
+        "ipfs": "ipfs://QmRNQeQi4DDKzFV5ShgN4vDURyFuPm13yEDj8fZVzSpffh"
+       },
+       "content-type": "image/png",
+       "sha256": "cUsGwCeYVOgkYJD1LPAq4fhCPTaNVap_Iy-FnC7fkBo=",
+       "url": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front.png"
+      }
+     },
+     "issued": "2025-09-15T14:51:06.658111",
+     "name": "Series 2 Grand Finale Pack",
+     "network": "matic",
+     "rights_info": {
+      "copyright_notice": "Officially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved.",
+      "terms_and_conditions": {
+       "sha256": "tJkL5AxNMhPzPSwhKNI-W82wfVrvrHMRMFVcxj9_2ic=",
+       "url": "https://nhlbreakaway.com/terms"
+      }
+     },
+     "series": {
+      "display_meta": {
+       "color": "#D0BC86",
+       "creator_campaign": {
+        "campaign_id": 826,
+        "client": {
+         "company": "NHL",
+         "name": "NHL"
+        },
+        "description": "NHL",
+        "name": "NHL"
+       },
+       "creator_campaign_id": 826,
+       "description": "Close out Series 2 in grand fashion with the Series 2 Grand Finale Pack! These packs will be the final drop of Series 2, and one of the last chances to find Series 2 highlights before the start of Series 3. Each pack contains highlights from the Base 2024-25, Fresh Sweaters, and Across the Pond sets and includes the chance to pull some of the most iconic highlights in Series 2 from Making the Mark 2024-25, Opening Ice: Elites, Opening Ice: Icons, Global Gamechangers, The Hunt for Stanley 2025, and Hoist the Cup 2025!\r\n\r\nEach pack contains 1 Base 2024-25 highlight, 1 mystery Core highlight that could be from Fresh Sweaters (38%), Across the Pond (32%), or Base 2024-25 (30%), and 1 mystery highlight that could be from Fresh Sweaters (74%), The Hunt for Stanley 2025 (12.45%), Global Gamechangers (11.37%), Opening Ice: Icons (1.1%), Hoist the Cup 2025 (<1%),Opening Ice: Elites (<1%), or Making the Mark 2024-25 <1%).\r\n\r\nOfficially Licensed Product of the NHL, NHLPA, and/or NHLAA. All copyright, logos, and marks are the property of their respective owners and are used, under license, by Sweet. All Rights Reserved. [Terms Apply](https://nhlbreakaway.com/terms).",
+       "is_openable": true,
+       "name": "Series 2 Grand Finale Pack",
+       "rarity": {
+        "name": "Tier 1",
+        "rank": 1
+       },
+       "type": "image"
+      },
+      "total_number": 5000,
+      "uri": "https://nft.nhlbreakaway.com/series/GqEKX6bD"
+     },
+     "type": "erc721",
+     "uri": "https://nft.nhlbreakaway.com/series/GqEKX6bD"
+    }
+   },
+   "isDrop": true,
+   "headerMetadata": {
+    "titleKey": "dropsDetailsTitle",
+    "titleOptions": {
+     "pack_title": "Series 2 Grand Finale Pack"
+    },
+    "url": "https://nhlbreakaway.com/drop/GqEKX6bD",
+    "image": "https://nft.nhlbreakaway.com/series/GqEKX6bD/image-front-16x9.png"
+   },
+   "seriesId": "GqEKX6bD",
+   "teams": null,
+   "teamInventory": null,
+   "isPfp": false
+  },
+  "__N_SSP": true
+ },
+ "page": "/drop/[series_id]",
+ "query": {
+  "series_id": "GqEKX6bD"
+ },
+ "buildId": "HGfWZtcL8Cqxzo9mlKfXZ",
+ "isFallback": false,
+ "isExperimentalCompile": false,
+ "gssp": true,
+ "locale": "en",
+ "locales": [
+  "en",
+  "fr"
+ ],
+ "defaultLocale": "en",
+ "scriptLoader": []
+}

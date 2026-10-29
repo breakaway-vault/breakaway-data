@@ -1,0 +1,19 @@
+{
+ "hits": [
+  {
+   "transaction_type": "str",
+   "transaction_datetime": "str",
+   "token_uri": "str",
+   "edition": "int",
+   "amount": "NoneType",
+   "currency": "NoneType",
+   "from_username": "str",
+   "from_user_profile_image_url": "str",
+   "from_user_profile_image_network": "str",
+   "to_username": "str",
+   "to_user_profile_image_url": "str",
+   "to_user_profile_image_network": "str",
+   "explorer_url": "str"
+  }
+ ]
+}
