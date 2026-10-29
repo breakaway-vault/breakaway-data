@@ -20,7 +20,7 @@ const BA = (() => {
         id: m.i, pos, player: m.p, team: T.team[m.t], set: T.set[m.s], series: T.series[m.se], rarity: T.rarity[m.r],
         editions: m.e ?? null, date: m.d || '', play: m.pl || '', flags: m.fl || '', ask: m.la ?? null, fmv: m.fm ?? null,
         sid: m.k ? m.k[0] : '', token: m.k ? m.k[1] : '', cover: m.c || '', thumb: m.th || '', video: m.vu || '',
-        tc: m.tc || '', noVideo: !!m.nv, fifth: !!m.f5, health: m.h || 'unchecked', missing: m.m || [], listed: m.ln, unverified: !!m.u,
+        tc: m.tc || '', ia: m.ia ? (d.iap || '') + m.ia : '', iaCover: m.ic ? (d.iap || '') + m.ic : '', noVideo: !!m.nv, fifth: !!m.f5, health: m.h || 'unchecked', missing: m.m || [], listed: m.ln, unverified: !!m.u,
       };
       if (!o.thumb && o.cover) o.thumb = o.cover.replace(/front\.png$/, 'front-500x.png');
       o.value = o.fmv ?? o.ask ?? null;
@@ -28,7 +28,7 @@ const BA = (() => {
       return o;
     });
     const byId = new Map(moments.map(m => [String(m.id), m]));
-    DB = {moments, byId, raw: d, tables: T, nft: d.nft, mg: d.mg, gateways: d.gateways || [], chunk: d.chunk || 100, chunks: d.chunks || 0};
+    DB = {moments, byId, raw: d, tables: T, nft: d.nft, mg: d.mg, ia: (d.ia || 'https://archive.org/'), iap: d.iap || '', gateways: d.gateways || [], chunk: d.chunk || 100, chunks: d.chunks || 0};
     return DB;
   }
 
@@ -51,6 +51,7 @@ const BA = (() => {
   function coverSources(m) {
     const out = [];
     if (m.cover) out.push(DB.nft + m.cover);
+    if (m.iaCover) out.push(DB.ia + 'download/' + m.iaCover);
     if (m.tc) for (const g of DB.gateways) out.push(g + m.tc);
     return out;
   }
@@ -63,6 +64,7 @@ const BA = (() => {
   }
   function videoSources(m, d) {
     const out = [];
+    if (m.ia) out.push(DB.ia + 'download/' + m.ia);                 // Internet Archive copy first
     if (!m.noVideo) {
       const path = m.video || (m.sid && m.token ? `${m.sid}/${m.token}/video.mp4` : '');
       if (path) out.push(DB.mg + path);
@@ -91,8 +93,17 @@ const BA = (() => {
     });
   }
 
+  const RISKY = ['some_missing', 'video_missing', 'all_missing'];
+  const atRisk = m => m.listed === 0 || RISKY.includes(m.health);
+  const HEALTH_TEXT = {some_missing: 'some of its files are missing from IPFS', video_missing: 'its video is missing from IPFS', all_missing: 'its files are missing from IPFS'};
+  function riskText(m) {
+    const why = [];
+    if (m.listed === 0) why.push('it is not listed on NHL Breakaway right now');
+    if (RISKY.includes(m.health)) why.push(HEALTH_TEXT[m.health] + (m.health === 'some_missing' && m.missing && m.missing.length ? ' (' + m.missing.join(', ') + ')' : ''));
+    return 'Heads up: ' + why.join(', and ') + '.' + (m.ia ? ' The Internet Archive copy still plays here.' : '');
+  }
   function tile(m, extra) {
-    const risk = m.listed === 0 || (m.health && m.health !== 'ok' && m.health !== 'unchecked') ? '<span class="risk">At risk</span>' : '';
+    const risk = atRisk(m) ? '<span class="risk">At risk</span>' : '';
     return `<button class="tile ${rarityClass(m.rarity)}" data-id="${m.id}" aria-label="${esc(m.player)}, ${esc(m.set)}, ${esc(m.rarity)}">
       <div class="art">${imgTag(thumbSources(m), m.player)}${risk}${extra && extra.badge ? extra.badge : ''}</div>
       <div class="meta">
@@ -109,6 +120,7 @@ const BA = (() => {
     const d = await detail(m);
     const el = $('#modal') || Object.assign(document.body.appendChild(document.createElement('div')), {id: 'modal'});
     const vids = videoSources(m, d), covers = coverSources(m);
+    const archive = m.ia ? `<a href="${esc(DB.ia + 'details/' + m.ia.split('/')[0])}" target="_blank" rel="noopener">Internet Archive copy</a> (<a href="${esc(DB.ia + 'download/' + m.ia)}" target="_blank" rel="noopener">video file</a>)` : '';
     const fifth = m.fifth ? `<a href="https://thefifthlinecode.onrender.com/player/${m.id}" target="_blank" rel="noopener">The Fifth Line</a>` : '';
     const breakaway = m.sid && m.token ? `<a href="https://nhlbreakaway.com/series/${esc(m.sid)}/${esc(m.token)}" target="_blank" rel="noopener">NHL Breakaway page</a>` : '';
     el.hidden = false; document.body.classList.add('noscroll');
@@ -141,8 +153,8 @@ const BA = (() => {
               ${[['Position', d.position], ['Jersey', d.jersey], ['Period', d.period], ['Clock', d.clock], ['Final', d.final], ['Venue', d.venue], ['Issued', d.issued], ['Audio', d.audio]].filter(([,v]) => v).map(([k,v]) => `<tr><th>${k}</th><td>${esc(v)}</td></tr>`).join('')}
             </table>
             ${eds && eds.length ? `<div class="mine">You own: ${eds.map(e => '#' + e).join(', ')}</div>` : ''}
-            ${(m.listed === 0 || (m.health && m.health !== 'ok' && m.health !== 'unchecked')) ? `<div class="warn">This moment looks at risk: ${m.listed === 0 ? 'not listed on NHL Breakaway right now' : 'IPFS health ' + esc(m.health)}${m.missing && m.missing.length ? ' (missing: ' + esc(m.missing.join(', ')) + ')' : ''}.</div>` : ''}
-            <p class="links">${[breakaway, fifth].filter(Boolean).join(' · ')}</p>
+            ${atRisk(m) ? `<div class="warn">${esc(riskText(m))}</div>` : ''}
+            <p class="links">${[archive, breakaway, fifth].filter(Boolean).join(' · ')}</p>
             ${(d.coverIpfs || d.videoIpfs) ? `<details class="ipfs"><summary>IPFS</summary><p>${d.coverIpfs ? 'Cover: <code>' + esc(d.coverIpfs) + '</code><br>' : ''}${d.videoIpfs ? 'Video: <code>' + esc(d.videoIpfs) + '</code>' : ''}</p></details>` : ''}
           </div>
         </div>
@@ -154,14 +166,15 @@ const BA = (() => {
   }
   function startVideo(el, vids) {
     const player = $('.player', el), status = $('.vstatus', el);
+    const src = n => /archive\.org\//.test(vids[n]) ? 'the Internet Archive' : /\/ipfs\//.test(vids[n]) ? 'IPFS' : 'the NHL Breakaway CDN';
     let i = 0;
     const tryNext = () => {
       if (i >= vids.length) { status.textContent = 'Video unavailable'; return; }
       const v = document.createElement('video'); v.controls = true; v.autoplay = true; v.playsInline = true;
       v.src = vids[i++];
-      status.textContent = i === 1 ? 'Playing from the NHL Breakaway CDN' : 'Trying IPFS gateway…';
+      status.textContent = 'Loading from ' + src(i - 1) + '…';
       v.onerror = () => { v.remove(); tryNext(); };
-      v.onloadeddata = () => { status.textContent = i === 1 ? 'Playing from the NHL Breakaway CDN' : 'Playing from IPFS'; player.dataset.state = 'playing'; };
+      v.onloadeddata = () => { status.textContent = 'Playing from ' + src(i - 1); player.dataset.state = 'playing'; };
       const poster = $('img.poster, .noimg', player); if (poster) poster.replaceWith(v); else player.prepend(v);
       $('.play', player)?.remove();
     };
@@ -178,7 +191,7 @@ const BA = (() => {
   function footer() {
     const f = document.createElement('footer'); f.className = 'site-foot';
     f.innerHTML = `<p><b>Unofficial fan preservation project.</b> Not affiliated with or endorsed by the NHL, NHLPA, NHLAA, Sweet (SocialSweet Inc.) or any team.
-      Media loads from NHL Breakaway's servers (or public IPFS gateways as a backup); this site hosts none of it.
+      Media loads from fan copies on the Internet Archive, NHL Breakaway's servers and public IPFS gateways; this site hosts none of it.
       Takedown requests are honoured via a <a href="https://github.com/breakaway-vault/breakaway-data/issues/new" target="_blank" rel="noopener">GitHub issue</a>.</p>
       <p>Data from <a href="https://github.com/breakaway-vault/breakaway-data" target="_blank" rel="noopener">breakaway-data</a>. Prices are an Oct 2026 snapshot, for fun only.</p>`;
     document.body.appendChild(f);
@@ -202,6 +215,6 @@ const BA = (() => {
       complete: setList.filter(s => s.have === s.total).length,
     };
   }
-  return {$, $$, esc, fmt, usd, norm, load, detail, tile, imgTag, open, close, watch, nextSrc, footer, stats, RARITY_ORDER, rarityClass, coverSources, videoSources, thumbSources,
+  return {$, $$, esc, fmt, usd, norm, load, detail, tile, imgTag, open, close, watch, nextSrc, footer, stats, RARITY_ORDER, rarityClass, atRisk, coverSources, videoSources, thumbSources,
     get restoreHash() { return restoreHash; }, set restoreHash(v) { restoreHash = v; }, get db() { return DB; }};
 })();

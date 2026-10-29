@@ -1,5 +1,12 @@
 # Changelog
 
+## Website and data (2026-10-29)
+
+* New: fan copies of the moment videos and cover art are on the [Internet Archive](README.md#internet-archive-copies), and `data/archive_urls.json` maps each moment to its Archive item and files. The videos are NHL Breakaway's re-encoded server copies, not the byte-exact IPFS originals; the covers are the originals.
+* Website: moment pages play the Internet Archive copy first, then NHL Breakaway's servers, then IPFS, and link the Archive item and video file. Covers can fall back to the Archive copy too.
+* Fixed (website): every moment was tagged "At risk". Only moments that are unlisted or have files missing on IPFS (202 right now) get the tag, and the note says why in plain words.
+* The app (v1.1.5) is unchanged.
+
 ## v1.1.5 (2026-10-20)
 
 * Covers and videos now come from NHL Breakaway's own servers first while they're up (faster and more reliable), with the IPFS gateways as the backup when a file fails, is refused, times out or comes back wrong. This applies to the app (every menu option and command that downloads) and to the viewer's covers and Download buttons. The video player already played NHL Breakaway's copy before IPFS.

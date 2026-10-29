@@ -23,7 +23,7 @@ An unofficial fan archive of NHL Breakaway digital highlights: the details of al
 A small tool turns it into a spreadsheet, an offline viewer and a printable album, and downloads the cover art and videos: from NHL Breakaway's own servers while they're up, with IPFS as the backup that keeps working if they go away.
 Free to use, fork and share. Provided AS IS with no warranty ([details](#no-warranty-use-at-your-own-risk)).
 
-**No download needed to look around:** the [community website](https://breakaway-vault.github.io/breakaway-data/) has the same museum of every moment in your browser, plus a **My collection** page that reads your `my_cards.csv` (the same file as option 10) right in the browser, with nothing uploaded, and gives you a share link or saves it in your browser. Fans can also put a collection in the public **Collector Hall** under a handle (see [CONTRIBUTING.md](CONTRIBUTING.md#collector-hall)). It shows covers and videos from NHL Breakaway's servers, with IPFS as the backup, and hosts no media itself. Plain-language how-to: the site [**Help**](https://breakaway-vault.github.io/breakaway-data/help.html) page. See also [site/README.md](site/README.md).
+**No download needed to look around:** the [community website](https://breakaway-vault.github.io/breakaway-data/) has the same museum of every moment in your browser, plus a **My collection** page that reads your `my_cards.csv` (the same file as option 10) right in the browser, with nothing uploaded, and gives you a share link or saves it in your browser. Fans can also put a collection in the public **Collector Hall** under a handle (see [CONTRIBUTING.md](CONTRIBUTING.md#collector-hall)). It plays videos from the fans' [Internet Archive copies](#internet-archive-copies) first, with NHL Breakaway's servers and IPFS as backups, and hosts no media itself. Plain-language how-to: the site [**Help**](https://breakaway-vault.github.io/breakaway-data/help.html) page. See also [site/README.md](site/README.md).
 
 **Jump to:** [Start here](#start-here) · [Download the app](#no-python-download-the-app) · [**Show only my cards**](#show-only-my-cards-optional) · [FAQ](#faq) · [Website Help](https://breakaway-vault.github.io/breakaway-data/help.html) · [With Python](#with-python-windows-mac-or-linux) · [Common tasks](#common-tasks) · [If NHL Breakaway shuts down](#if-nhl-breakaway-shuts-down) · [Help keep it alive](#help-keep-it-alive) · [No warranty](#no-warranty-use-at-your-own-risk)
 
@@ -135,6 +135,14 @@ Things to know:
 * **Album options**: `--layout 1up|2x2|3x3`, `--page letter|a4`, `--bleed` (3 mm bleed + crop marks for a print shop), `--max-px 600 --jpeg 80` for a small screen-only file. The full album is about 2,061 / 615 / 343 pages (1up / 2x2 / 3x3) and ~2.3 GB, so one PDF per series is easier.
 * **Works offline**: once covers (and any videos) are downloaded, `build`, `view` and `album` need no internet. Add `--offline` to be sure.
 
+## Internet Archive copies
+
+Fans uploaded a copy of the moment videos and cover art to the [Internet Archive](https://archive.org/search?query=identifier%3Anhl-breakaway-moments-%2A), so they stay watchable even if NHL Breakaway's servers and the IPFS pins go away. There is one item per series part, from [`nhl-breakaway-moments-series1-01`](https://archive.org/details/nhl-breakaway-moments-series1-01) to [`nhl-breakaway-moments-series3-05`](https://archive.org/details/nhl-breakaway-moments-series3-05), with files named by moment id and player (for example `videos/0022-mark-stone-goal.mp4`).
+
+* **The videos are server copies, not the byte-exact originals.** They were saved from NHL Breakaway's media server, which re-encodes them: same video, different bytes from the IPFS originals, so they won't match the sha256 in `data/meta/`. The originals still live only on IPFS, so keep pinning them (see below). Cover art on the Archive is the original file.
+* Each item has a `manifest.csv` / `manifest.json` listing every moment's player, date, set, rarity, IPFS CID, source URL, sha256 and size, and whether its file is an `original` or a `server-copy`.
+* [`data/archive_urls.json`](data/archive_urls.json) maps each moment id to its Archive item page and direct video and cover links. The [community website](https://breakaway-vault.github.io/breakaway-data/) plays the Archive copy first, then NHL Breakaway's servers, then IPFS, and every moment page links its Archive copy. A few moments are still being processed by the Archive and will be added as they appear.
+
 ## If NHL Breakaway shuts down
 
 **Still works:** everything in this repo. `data/meta/` holds every highlight's metadata byte-for-byte as served, with every IPFS CID and sha256 for its images and video. `build`, `view` and `album` run from `data/` plus whatever you downloaded.
@@ -202,6 +210,7 @@ It catalogs **public data**: the NFT metadata and public set and listing data th
 | `data/ipfs_status.json` | Last `check-ipfs` result per CID (reachable / uncached / gone, by file type). |
 | `data/live_status.json` | Last `check-live` result per moment (still listed? CDN cover/video status). |
 | `data/at_risk.md` | Moments whose original files are missing on IPFS. |
+| `data/archive_urls.json` | Moment id -> Internet Archive item page plus direct video and cover links (see [Internet Archive copies](#internet-archive-copies)). |
 | `data/extra_moments.txt` | Links to add (anyone can edit; see CONTRIBUTING). |
 | `breakaway.py` | The whole tool (one file). |
 | `scripts/validate.py`, `scripts/build_app.py` | CI checks; standalone-app build (PyInstaller). |

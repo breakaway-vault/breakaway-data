@@ -7,7 +7,7 @@ The static site published to GitHub Pages by `.github/workflows/pages.yml`.
 * **Collector Hall** (`hall.html`) lists the public collections in `collections/`, compiled into `site/data/hall.json` by the build. Each collector's page is `collection.html#h=<handle>`. Fans submit through the issue form; see [CONTRIBUTING.md](../CONTRIBUTING.md#collector-hall).
 * **Help** (`help.html`) is the plain-language how-to for fans (museum, My collection, Hall, desktop app, troubleshooting, privacy, contact).
 
-The site hosts no media. Covers and videos load from NHL Breakaway's servers first, then from the public IPFS gateways.
+The site hosts no media. Videos play from the fans' Internet Archive copies first (`data/archive_urls.json`), then NHL Breakaway's servers, then the public IPFS gateways. Covers load from NHL Breakaway's servers, then the Archive, then IPFS.
 
 `site/data/` is generated (and not committed). Build it before previewing, or after changing `data/`:
 

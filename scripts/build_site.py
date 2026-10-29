@@ -4,7 +4,8 @@ site/data/hall.json, the Collector Hall entries compiled from collections/ (see 
 
 It reads the archive the same way breakaway.py does (data/highlights.json, data/manifest.json, data/meta/,
 data/offchain/, data/links.json) and keeps only what the museum and the collector showcase need. No media is
-copied: the site only links to the NHL Breakaway CDN and the public IPFS gateways.
+copied: the site links to the Internet Archive copies (data/archive_urls.json), the NHL Breakaway CDN and the
+public IPFS gateways.
 
     python scripts/build_site.py
 """
@@ -20,6 +21,8 @@ OUT_DIR = os.path.join(ROOT, "site", "data")
 CHUNK = 100
 NFT = "https://nft.nhlbreakaway.com/series/"
 MG = "https://mediagateway.sweet.io/media/token/"
+IA = "https://archive.org/"
+IAP = "nhl-breakaway-moments-"   # shared item-name prefix, kept once in moments.json
 
 
 def money(v):
@@ -40,6 +43,7 @@ def thumb(meta, size="500"):
 def main():
     rows = b.sort_rows(b.load_model())
     links = b.jload(os.path.join(b.DATA, "links.json"), {}) or {}
+    archive = (b.jload(os.path.join(b.DATA, "archive_urls.json"), {}) or {}).get("moments", {})
     tables = {k: [] for k in ("team", "set", "series", "rarity")}
 
     def ix(k, v):
@@ -68,13 +72,16 @@ def main():
             "h": s["ipfs_health"], "m": [x for x in (s["ipfs_missing"] or "").split(", ") if x],
             "ln": {"yes": 1, "no": 0}.get(s["listed_now"]), "u": 1 if s["status"] == "unverified" else "",
         }
+        ia = archive.get(str(r["id"])) or {}                         # Internet Archive copies (path after IA/download/ + IAP)
+        m["ia"] = short(ia.get("video", ""), IA + "download/" + IAP)
+        m["ic"] = short(ia.get("cover", ""), IA + "download/" + IAP)
         core.append({k: v for k, v in m.items() if v not in ("", None, [])})
         x = {"i": r["id"], "ds": s["description"], "is": s["issued"], "pos": s["position"], "jn": s["jersey"],
              "pe": s["period"], "cl": s["clock"], "fs": s["final_score"], "v": s["venue"], "tg": s["tagline"],
              "au": s["audio"], "ci": b.clean_cid(s["cover_ipfs"]), "vi": b.clean_cid(s["video_ipfs"])}
         detail.append({k: v for k, v in x.items() if v not in ("", None, [])})
     nchunks = (len(detail) + CHUNK - 1) // CHUNK
-    doc = {"v": 1, "nft": NFT, "mg": MG, "gateways": b.DEFAULT_GATEWAYS, "price_snapshot": "Oct 2026",
+    doc = {"v": 1, "nft": NFT, "mg": MG, "ia": IA, "iap": IAP, "gateways": b.DEFAULT_GATEWAYS, "price_snapshot": "Oct 2026",
            "chunk": CHUNK, "chunks": nchunks, "tables": tables, "moments": core}
     os.makedirs(os.path.join(OUT_DIR, "detail"), exist_ok=True)
     for fn in os.listdir(os.path.join(OUT_DIR, "detail")):
@@ -84,7 +91,8 @@ def main():
     for n in range(nchunks):   # details by position in moments.json, loaded only when a moment is opened
         dump(detail[n * CHUNK:(n + 1) * CHUNK], os.path.join(OUT_DIR, "detail", f"{n}.json"))
     kb = os.path.getsize(os.path.join(OUT_DIR, "moments.json")) // 1024
-    print(f"wrote site/data/moments.json ({len(core)} moments, {kb} KB) and {nchunks} detail files")
+    print(f"wrote site/data/moments.json ({len(core)} moments, {kb} KB, {sum(1 for m in core if m.get('ia'))} with an "
+          f"Internet Archive video) and {nchunks} detail files")
     entries, probs = hall.entries()
     for pr in probs: print("collector hall: skipped,", pr)
     entries.sort(key=lambda e: (not e["example"], e["updated"], e["h"]), reverse=True)   # newest first, examples last
